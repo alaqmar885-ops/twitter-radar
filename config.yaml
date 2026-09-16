@@ -1,0 +1,84 @@
+# ──────────────────────────────────────────────────────────
+# TwitterRadar configuration
+# Copy to config.yaml and edit.  Secrets come from env, not here.
+# ──────────────────────────────────────────────────────────
+
+# Accounts to monitor via the free no-auth FxTwitter timeline endpoint.
+# These are monitored WITHOUT login — the safest tier.  Add your own.
+watch_accounts:
+  - levelsio
+  - xdevelopers
+  - OpenAI
+  - AnthropicAI
+  - GoogleDeepMind
+  - huggingface
+  - cursor_ai
+  - AIBreakfast
+  - TheAIGRID
+  - MattVidpro
+  - emollick
+  - peraborodin
+
+# Keyword topics.  twifork (login-based) searches these; no-auth timeline
+# tweets are matched to topics by keyword presence.
+topics:
+  free_ai_services:
+    keywords: ["free AI tool", "free credits AI", "free tier AI", "free API access", "free LLM access"]
+    finding_type: free_ai_service
+  subscription_offers:
+    keywords: ["subscription discount", "lifetime deal AI", "AI promo code", "free trial unlimited", "limited time offer AI"]
+    finding_type: subscription_offer
+  ai_launches:
+    keywords: ["just launched AI", "new AI model release", "open source model", "AI announcement"]
+    finding_type: launch
+  ai_discounts:
+    keywords: ["AI discount code", "deal on AI", "percent off AI", "education discount AI"]
+    finding_type: discount
+
+# Backend priority (router tries in this order, falls back on failure).
+# fxtwitter/syndication/oembed = no auth, always work.
+# twifork = keyword search, needs cookies (login).
+# nitter = self-hosted fallback, needs a URL.
+backend_order:
+  - fxtwitter
+  - syndication
+  - oembed
+  - twifork
+  - nitter
+
+# Optional: twifork cookie file (export ct0+auth_token from a throwaway account).
+# twifork_cookies: cookies.json    # or set env: TR_TWIFORK_COOKIES=...
+
+# Optional: self-hosted Nitter URL (docker run -d -p 8788:8080 zedeus/nitter:latest)
+# nitter_url: http://127.0.0.1:8788  # or set env: TR_NITTER_URL=...
+
+# ── ProtonVPN (headless IP rotation) ──
+vpn:
+  enabled: true
+  countries: [US, UK, NL, DE, JP, CA, FR, CH, SE, SG]
+  rotate_every_batches: 1        # rotate IP after every N collection batches
+  protonvpn_bin: protonvpn
+  init_done: false                # set true (or env PVPN_INIT_DONE=1) after `sudo protonvpn init`
+
+# ── You.com MCP (web verification of claims) ──
+youcom:
+  enabled: true
+  api_key_env: YDC_API_KEY         # export YDC_API_KEY=ydc-sk-...
+  mcp_url: https://api.you.com/mcp
+  max_verify_results: 4
+  min_credibility_for_verify: 0.35  # skip web-verify for low-signal tweets
+
+# ── Schedule ──
+schedule:
+  interval_minutes: 180            # run a full cycle every 3 hours
+  per_backend_timeout: 20         # seconds per HTTP call
+  delay_between_requests: 1.5     # polite delay to avoid rate limits
+  max_tweets_per_topic: 40
+  max_tweets_per_account: 25
+
+# ── Digest ──
+data_dir: data
+db_path: data/twitter_radar.db
+digest_dir: data/digests
+digest_format: html                # html | markdown | json
+top_n_findings: 20

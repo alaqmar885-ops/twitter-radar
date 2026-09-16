@@ -1,0 +1,16 @@
+# Self-hosted Nitter — fallback backend for timelines.
+# Run: docker compose up -d nitter
+# Then set in config.yaml or env: nitter_url: http://127.0.0.1:8788
+version: "3.8"
+services:
+  nitter:
+    image: zedeus/nitter:latest
+    ports:
+      - "8788:8080"
+    restart: unless-stopped
+    # Nitter needs guest accounts to work — set them here or in nitter.conf
+    # See https://github.com/zedeus/nitter for config details.
+    volumes:
+      - ./nitter.conf:/src/nitter.conf:ro
+    environment:
+      - NITTER_HOST=0.0.0.0

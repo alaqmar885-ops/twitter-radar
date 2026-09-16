@@ -1,0 +1,13 @@
+# TwitterRadar — Python dependencies
+# Core (always needed — no-auth backends + digest)
+httpx>=0.27
+beautifulsoup4>=4.12
+pyyaml>=6.0
+
+# Optional: keyword search via twifork (needs login cookies)
+# Install separately: pip install "twifork[impersonate]"
+# twifork>=2.3.5
+
+# Optional: Playwright browser backend (for advanced stealth scraping)
+# playwright>=1.40
+# Run: playwright install chromium

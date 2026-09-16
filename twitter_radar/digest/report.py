@@ -1,0 +1,305 @@
+"""Digest report generator — renders scored findings into HTML / Markdown / JSON.
+
+The HTML report is styled to match the Twitter/X aesthetic (dark theme) and
+surfaces, for each finding:
+  - Confidence badge (VERIFIED / HIGH / MEDIUM / LOW) + numeric score
+  - Headline + summary
+  - Supporting tweets (with author, engagement, URL)
+  - Web verification sources (if You.com corroborated the claim)
+  - Topic tag + finding type
+
+The goal: give the operator a scannable "what's worth knowing" digest they
+can act on, with enough provenance to trust the confidence labels.
+"""
+
+from __future__ import annotations
+
+import html
+import json
+import logging
+import os
+import time
+from pathlib import Path
+from typing import Optional
+
+from ..models import Finding
+from ..store import Store
+
+log = logging.getLogger(__name__)
+
+
+def _badge_class(label: str) -> str:
+    return {
+        "VERIFIED": "b-ver",
+        "HIGH": "b-ok",
+        "MEDIUM": "b-warn",
+        "LOW": "b-low",
+    }.get(label, "b-low")
+
+
+def _escape(text: str) -> str:
+    return html.escape(text or "")
+
+
+def _timeago(ts: float) -> str:
+    delta = time.time() - ts
+    if delta < 3600:
+        return f"{int(delta // 60)}m ago"
+    if delta < 86400:
+        return f"{int(delta // 3600)}h ago"
+    return f"{int(delta // 86400)}d ago"
+
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TwitterRadar Intelligence Digest — {generated}</title>
+<style>
+  :root{{--bg:#0f1419;--panel:#161c26;--panel2:#1c2430;--border:#2a3441;
+  --txt:#e7e9ea;--muted:#71767b;--accent:#1d9bf0;--accent2:#7c3aed;
+  --green:#00ba7c;--red:#f4212e;--amber:#ffca3a;--pink:#f91880;}}
+  *{{box-sizing:border-box}}
+  body{{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;padding:0}}
+  .wrap{{max-width:900px;margin:0 auto;padding:32px 24px 64px}}
+  header.hero{{background:linear-gradient(135deg,rgba(29,155,240,.15),rgba(124,58,237,.15));border:1px solid var(--border);border-radius:16px;padding:28px 30px;margin-bottom:28px}}
+  h1{{font-size:1.7rem;margin:0 0 6px;letter-spacing:-.02em}}
+  .sub{{color:var(--muted);font-size:.92rem}}
+  .meta{{color:var(--muted);font-size:.82rem;margin-top:10px}}
+  h2{{font-size:1.2rem;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--border)}}
+  .card{{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin:14px 0}}
+  .card.verified{{border-color:var(--green);box-shadow:0 0 0 1px rgba(0,186,124,.2)}}
+  .card.high{{border-color:rgba(0,186,124,.4)}}
+  .row{{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}}
+  .badge{{font-weight:700;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:5px}}
+  .b-ver{{background:rgba(0,186,124,.15);color:var(--green);border:1px solid var(--green)}}
+  .b-ok{{background:rgba(0,186,124,.12);color:var(--green);border:1px solid rgba(0,186,124,.5)}}
+  .b-warn{{background:rgba(255,202,58,.15);color:var(--amber);border:1px solid var(--amber)}}
+  .b-low{{background:rgba(244,33,46,.12);color:var(--red);border:1px solid rgba(244,33,46,.5)}}
+  .tag{{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:2px 9px;font-size:.72rem;margin:2px 4px 2px 0}}
+  .tag.blue{{border-color:var(--accent);color:var(--accent)}}
+  .tag.purple{{border-color:var(--accent2);color:var(--accent2)}}
+  .score{{font-size:1.4rem;font-weight:700;color:var(--accent)}}
+  .headline{{font-size:1.02rem;font-weight:600;margin:8px 0 4px;color:#fff}}
+  .summary{{color:var(--txt);font-size:.9rem;margin:6px 0}}
+  .tweet{{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin:8px 0;font-size:.85rem}}
+  .author{{color:var(--accent);font-weight:600}}
+  .eng{{color:var(--muted);font-size:.78rem}}
+  a{{color:var(--accent);text-decoration:none}}
+  a:hover{{text-decoration:underline}}
+  .web{{margin:8px 0;padding:8px 12px;background:rgba(0,186,124,.06);border-left:3px solid var(--green);border-radius:0 6px 6px 0;font-size:.82rem}}
+  .web a{{color:var(--green)}}
+  .empty{{text-align:center;color:var(--muted);padding:40px}}
+  .footer{{color:var(--muted);font-size:.78rem;text-align:center;margin-top:40px;border-top:1px solid var(--border);padding-top:20px}}
+  .grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}}
+  @media(max-width:680px){{.grid{{grid-template-columns:repeat(2,1fr)}}}}
+  .stat{{background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:12px;text-align:center}}
+  .stat .num{{font-size:1.4rem;font-weight:700;color:var(--accent)}}
+  .stat .lbl{{color:var(--muted);font-size:.76rem}}
+</style></head><body><div class="wrap">
+{header}
+{stats_grid}
+{body}
+<div class="footer">Generated by TwitterRadar — self-hosted X intelligence • {cycle_info}</div>
+</div></body></html>"""
+
+
+class DigestRenderer:
+    def __init__(self, store: Store, digest_dir: str = "data/digests"):
+        self.store = store
+        self.digest_dir = Path(digest_dir)
+        self.digest_dir.mkdir(parents=True, exist_ok=True)
+
+    def render(
+        self,
+        findings: list[Finding],
+        top_n: int = 20,
+        fmt: str = "html",
+        cycle_stats: Optional[dict] = None,
+    ) -> str:
+        """Render findings to a file.  Returns the output file path."""
+        findings = sorted(findings, key=lambda f: f.confidence, reverse=True)[:top_n]
+
+        if fmt == "json":
+            return self._render_json(findings, cycle_stats)
+        if fmt == "markdown":
+            return self._render_markdown(findings, cycle_stats)
+        return self._render_html(findings, cycle_stats)
+
+    # -- HTML ------------------------------------------------------------------
+
+    def _render_html(
+        self, findings: list[Finding], stats: Optional[dict]
+    ) -> str:
+        gen_time = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
+        header = (
+            '<header class="hero"><h1>📡 TwitterRadar Digest</h1>'
+            f'<p class="sub">Top intelligence with confidence scoring • '
+            f"{len(findings)} findings • web-verified via You.com</p>"
+            f'<p class="meta">Generated {gen_time}</p></header>'
+        )
+
+        s = stats or {}
+        labels = s.get("by_label", {}) or {}
+        stats_grid = (
+            f'<div class="grid">'
+            f'<div class="stat"><div class="num">{s.get("tweets_collected", s.get("tweets", 0))}</div><div class="lbl">Tweets collected</div></div>'
+            f'<div class="stat"><div class="num">{len(findings)}</div><div class="lbl">Findings surfaced</div></div>'
+            f'<div class="stat"><div class="num">{labels.get("VERIFIED", 0)}</div><div class="lbl">Verified</div></div>'
+            f'<div class="stat"><div class="num">{labels.get("HIGH", 0) + labels.get("MEDIUM", 0)}</div><div class="lbl">High/Med</div></div>'
+            f'</div>'
+        )
+
+        if not findings:
+            body = '<div class="empty">No findings above threshold yet.<br>Run a cycle or lower the confidence floor.</div>'
+        else:
+            body = "\n".join(self._finding_card(f) for f in findings)
+
+        cycle_info = f"cycle {s.get('cycle', '?')}" if stats else "one-shot"
+        out = HTML_TEMPLATE.format(
+            header=header,
+            stats_grid=stats_grid,
+            body=body,
+            generated=gen_time,
+            cycle_info=cycle_info,
+        )
+
+        fname = f"digest_{int(time.time())}.html"
+        path = self.digest_dir / fname
+        path.write_text(out, encoding="utf-8")
+        log.info("HTML digest written → %s", path)
+        return str(path)
+
+    @staticmethod
+    def _finding_card(f: Finding) -> str:
+        badge = f'<span class="badge {_badge_class(f.confidence_label)}">{f.confidence_label}</span>'
+        score = f'<span class="score">{f.confidence:.0%}</span>'
+        tags = (
+            f'<span class="tag blue">{_escape(f.topic)}</span>'
+            f'<span class="tag purple">{_escape(f.finding_type.value)}</span>'
+        )
+
+        # Supporting tweets (top 3 by engagement)
+        tweets_html = ""
+        for tw in sorted(f.tweets, key=lambda t: t.engagement_score, reverse=True)[:3]:
+            eng_parts = []
+            if tw.like_count:
+                eng_parts.append(f"&#10084;{tw.like_count}")
+            if tw.reply_count:
+                eng_parts.append(f"&#128172;{tw.reply_count}")
+            if tw.retweet_count:
+                eng_parts.append(f"&#128260;{tw.retweet_count}")
+            eng_str = " · ".join(eng_parts)
+            eng_span = f'<span class="eng">{eng_str}</span>' if eng_str else ""
+            verified = " &#10003;" if tw.author.verified else ""
+            author = _escape(tw.author.screen_name)
+            text = _escape(tw.text[:280])
+            url = _escape(tw.url)
+            tweets_html += (
+                f'<div class="tweet">'
+                f'<span class="author">@{author}</span>{verified} {eng_span}'
+                f'<br>{text}'
+                f'<br><a href="{url}">view on X &rarr;</a>'
+                f"</div>"
+            )
+
+        # Web verification sources
+        web_html = ""
+        if f.web_sources:
+            source_items = []
+            for s in f.web_sources[:4]:
+                s_url = _escape(s.get("url", ""))
+                s_title = _escape(s.get("title", "")[:70])
+                s_desc = _escape(s.get("description", "")[:100])
+                source_items.append(
+                    f'<div><a href="{s_url}">{s_title}</a>'
+                    f'<br><span style="color:var(--muted)">{s_desc}</span></div>'
+                )
+            sources_html = "".join(source_items)
+            web_html = (
+                f'<div class="web"><strong>&#10003; Web-verified sources:</strong>'
+                f"{sources_html}</div>"
+            )
+
+        verified_class = "verified" if f.web_verified else ("high" if f.confidence_label == "HIGH" else "")
+        summary = f.summary or f.headline
+
+        return (
+            f'<div class="card {verified_class}">'
+            f'<div class="row">{badge}{score}{tags}</div>'
+            f'<div class="headline">{_escape(f.headline)}</div>'
+            f'<div class="summary">{_escape(summary)}</div>'
+            f"{tweets_html}"
+            f"{web_html}"
+            f"</div>"
+        )
+
+    # -- Markdown ---------------------------------------------------------------
+
+    def _render_markdown(
+        self, findings: list[Finding], stats: Optional[dict]
+    ) -> str:
+        lines = [
+            f"# 📡 TwitterRadar Digest",
+            f"_Generated {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}_\n",
+        ]
+        if stats:
+            lines.append(f"- Tweets collected: **{stats.get('tweets_collected', stats.get('tweets', 0))}**")
+            lines.append(f"- Findings: **{len(findings)}**\n")
+
+        for f in findings:
+            lines.append(f"## [{f.confidence_label}] {f.headline}")
+            lines.append(f"**Confidence: {f.confidence:.0%}** · `{f.topic}` · `{f.finding_type.value}`\n")
+            if f.summary:
+                lines.append(f"{f.summary}\n")
+            if f.tweets:
+                lines.append("**Sources:**")
+                for tw in sorted(f.tweets, key=lambda t: t.engagement_score, reverse=True)[:3]:
+                    lines.append(f"- @{tw.author.screen_name} — [view]({tw.url})")
+            if f.web_sources:
+                lines.append("\n**Web-verified:**")
+                for s in f.web_sources[:4]:
+                    lines.append(f"- [{s['title'][:60]}]({s['url']})")
+            lines.append("")
+
+        content = "\n".join(lines)
+        path = self.digest_dir / f"digest_{int(time.time())}.md"
+        path.write_text(content, encoding="utf-8")
+        return str(path)
+
+    # -- JSON ------------------------------------------------------------------
+
+    def _render_json(
+        self, findings: list[Finding], stats: Optional[dict]
+    ) -> str:
+        data = {
+            "generated": time.time(),
+            "stats": stats or {},
+            "findings": [
+                {
+                    "id": f.id,
+                    "type": f.finding_type.value,
+                    "headline": f.headline,
+                    "summary": f.summary,
+                    "topic": f.topic,
+                    "confidence": f.confidence,
+                    "label": f.confidence_label,
+                    "web_verified": f.web_verified,
+                    "source_count": f.source_count,
+                    "tweets": [
+                        {
+                            "id": tw.tweet_id,
+                            "author": tw.author.screen_name,
+                            "text": tw.text[:200],
+                            "url": tw.url,
+                            "engagement": tw.engagement_score,
+                        }
+                        for tw in f.tweets[:5]
+                    ],
+                    "web_sources": f.web_sources[:4],
+                }
+                for f in findings
+            ],
+        }
+        path = self.digest_dir / f"digest_{int(time.time())}.json"
+        path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        return str(path)
