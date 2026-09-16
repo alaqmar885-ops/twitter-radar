@@ -166,28 +166,291 @@ low-signal noise. A finding that gets ≥0.50 web-relevance score is marked
 
 ---
 
-## 5. You.com MCP Enrichment (`twitter_radar/enrich/youcom.py`)
+## 5. You.com MCP — Complete Usage Guide
 
-Uses the **You.com MCP endpoint** (`https://api.you.com/mcp`) via streamable-HTTP
-JSON-RPC. The flow:
+The You.com MCP is the **web-verification brain** of the system. When the radar
+spots a tweet claiming e.g. "Cursor is offering 2 weeks free Pro", it doesn't
+just trust the tweet — it runs a `you-search` query to find corroborating (or
+contrading) web sources. This turns raw tweet data into *verified intelligence
+with confidence*.
 
-1. **Initialize** handshake (`method: "initialize"`)
-2. **Call** `you-search` with a query derived from the finding's headline/entity
-3. Parse SSE response (`data:` lines), extract `content[0].text`
-4. Return top-N web results as `[{title, url, description, page_age}]`
+### 5.1 Connection details
 
-### Available MCP tools
+| Property | Value |
+|----------|-------|
+| **Endpoint** | `https://api.you.com/mcp` (streamable-HTTP JSON-RPC) |
+| **Protocol** | JSON-RPC 2.0 over SSE (Server-Sent Events) |
+| **Protocol version** | `2025-03-26` |
+| **Server version** | You.com v4.0.0 |
+| **Auth header** | `Authorization: Bearer ${YDC_API_KEY}` |
+| **Content-Type** | `application/json` |
+| **Accept** | `application/json, text/event-stream` |
 
-| Tool | Used for |
-|------|---------|
-| `you-search` | Web-verification of tweet claims |
-| `you-contents` | Full page extraction (not yet wired) |
-| `you-balance` | Check remaining API credit |
-| `you-discover` | Discover agents/MCP servers (not used) |
+### 5.2 The MCP protocol flow
 
-### Auth
+The You.com MCP uses the **Model Context Protocol** (streamable-HTTP variant).
+Every session follows this sequence:
 
-Header: `Authorization: Bearer ${YDC_API_KEY}`. The key is in `secrets.env`.
+```
+Client                          Server (api.you.com/mcp)
+  │                                │
+  │── initialize ─────────────────▶│   handshake: protocol version, capabilities
+  │◀── initialize result ─────────│   server: {name:"you", version:"4.0.0"}
+  │                                │
+  │── tools/list ─────────────────▶│   "what tools do you have?"
+  │◀── tools/list result ─────────│   [you-search, you-contents, ...]
+  │                                │
+  │── tools/call (you-search) ───▶│   "search the web for X"
+  │◀── tools/call result (SSE) ───│   {content:[{text:"...JSON..."}]}
+  │                                │
+```
+
+**Key detail:** The response is **SSE-formatted** — multiple `data:` lines.
+The actual result is in the **last** non-empty `data:` line. The text field
+inside `content[0].text` is itself a JSON string that must be parsed again.
+
+### 5.3 Available MCP tools
+
+| Tool | Purpose | Key parameters |
+|------|---------|---------------|
+| `you-search` | Live web search with ranked results + snippets | `query`, `max_results` |
+| `you-contents` | Extract full page content (markdown/HTML) from URLs | `urls: [url1, url2]`, `formats: ["markdown"]` |
+| `you-balance` | Check remaining credit balance on the API key | (none) |
+| `you-discover` | Discover AI agents, MCP servers, and skills via ARD | (query) |
+
+### 5.4 Three endpoint variants
+
+You.com exposes three specialized MCP endpoints (from the `agent-skills` repo's
+`mcp.json`):
+
+| Endpoint | Scope | URL |
+|----------|-------|-----|
+| All tools | Search + contents + balance + discover | `https://api.you.com/mcp` |
+| Finance-only | Finance Q&A tool | `https://api.you.com/mcp/finance` |
+| Research-only | Multi-source research synthesis | `https://api.you.com/mcp/research` |
+
+TwitterRadar uses the **all-tools** endpoint (`you-search` only).
+
+### 5.5 How to call the MCP manually (curl)
+
+**Step 1 — Initialize handshake:**
+
+```bash
+curl -s -X POST https://api.you.com/mcp \
+  -H "Authorization: Bearer $YDC_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-03-26",
+      "capabilities": {},
+      "clientInfo": {"name": "my-agent", "version": "1.0"}
+    }
+  }'
+```
+
+**Step 2 — List available tools:**
+
+```bash
+curl -s -X POST https://api.you.com/mcp \
+  -H "Authorization: Bearer $YDC_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}'
+```
+
+**Step 3 — Run a web search:**
+
+```bash
+curl -s -X POST https://api.you.com/mcp \
+  -H "Authorization: Bearer $YDC_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 3,
+    "method": "tools/call",
+    "params": {
+      "name": "you-search",
+      "arguments": {"query": "Cursor AI free Pro offer", "max_results": 4}
+    }
+  }'
+```
+
+**Step 4 — Extract full page content from URLs:**
+
+```bash
+curl -s -X POST https://api.you.com/mcp \
+  -H "Authorization: Bearer $YDC_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{
+    "jsonrpc": "2.0",
+    "id": 4,
+    "method": "tools/call",
+    "params": {
+      "name": "you-contents",
+      "arguments": {"urls": ["https://cursor.com/pricing"], "formats": ["markdown"]}
+    }
+  }'
+```
+
+**Step 5 — Check API balance:**
+
+```bash
+curl -s -X POST https://api.you.com/mcp \
+  -H "Authorization: Bearer $YDC_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"you-balance","arguments":{}}}'
+```
+
+### 5.6 Parsing the SSE response (Python)
+
+The response is SSE — multiple `data:` lines. Here's the parsing logic used by
+`enrich/youcom.py`:
+
+```python
+import httpx, json, uuid
+
+def call_mcp(method, params, api_key):
+    payload = {
+        "jsonrpc": "2.0",
+        "id": str(uuid.uuid4().int % 100000),
+        "method": method,
+        "params": params,
+    }
+    r = httpx.post(
+        "https://api.you.com/mcp",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json, text/event-stream",
+        },
+        json=payload,
+        timeout=25,
+    )
+    # SSE: take the LAST non-empty "data: " line
+    data_line = ""
+    for line in r.text.splitlines():
+        if line.startswith("data: "):
+            data_line = line[6:]
+    return json.loads(data_line)
+
+# Example: search
+resp = call_mcp("tools/call", {
+    "name": "you-search",
+    "arguments": {"query": "free AI API credits 2026", "max_results": 4}
+}, YDC_API_KEY)
+
+# The result text is ITSELF a JSON string — parse twice
+text = resp["result"]["content"][0]["text"]   # JSON string
+data = json.loads(text)                        # actual search results
+web_results = data["results"]["web"]           # list of {title, url, description, ...}
+for hit in web_results:
+    print(f"{hit['title']} → {hit['url']}")
+```
+
+### 5.7 How TwitterRadar uses it (`enrich/youcom.py`)
+
+The `YouComEnricher` class wraps the MCP into a simple API:
+
+| Method | What it does |
+|--------|-------------|
+| `available()` | Returns `True` if `YDC_API_KEY` is set |
+| `_ensure_init()` | One-time `initialize` handshake (lazy, called once) |
+| `search(query)` | Runs `you-search`, returns `[{title, url, description, snippet, page_age}]` |
+| `verify_finding(finding)` | Builds a query from the finding's headline + topic, runs `search()` |
+
+### 5.8 The verification query builder
+
+`_build_verify_query(finding)` constructs a focused 4-8 word query:
+
+```python
+query = f"{finding.headline} {finding.topic.replace('_', ' ')}"
+# Example: "Cursor offering 2 weeks free Pro free_ai_services"
+# Truncated to 120 chars, stripped of # symbols
+```
+
+The query deliberately avoids mentioning "X" or "Twitter" to prevent just
+re-finding the same tweet. It searches for the *claim*, not the *source*.
+
+### 5.9 Response data structure
+
+A single `you-search` result item:
+
+```json
+{
+  "title": "Cursor — AI Code Editor",
+  "url": "https://cursor.com",
+  "description": "The AI code editor...",
+  "page_age": "2026-09-15T00:00:00Z",
+  "contents": {
+    "highlights": ["...relevant passage..."]
+  }
+}
+```
+
+TwitterRadar normalizes this to:
+
+```python
+{
+    "title": "...",
+    "url": "...",
+    "description": "...",
+    "snippet": "...",       # first highlight
+    "page_age": "..."       # used for recency bonus in confidence scoring
+}
+```
+
+### 5.10 Cost control (pre-web gating)
+
+Web verification only runs on findings with **pre-web confidence ≥ 0.35**
+(configurable via `youcom.min_credibility_for_verify`). This prevents wasting
+API calls on low-signal noise. During the live test: 180 findings scored,
+all 180 received web-verification searches (all HTTP 200).
+
+### 5.11 The `agent-skills` companion repo
+
+A full You.com MCP client SDK and skill suite was cloned to
+`/workspace/agent-skills` (from `github.com/youdotcom-oss/agent-skills`). It
+provides higher-level wrappers around the MCP:
+
+| Skill | What it does |
+|-------|-------------|
+| `you-web` | Citation-first web search + URL reading pipeline (search → read → verify → answer) |
+| `you-free` | Keyless basic search (`you-search` only, no API key needed) |
+| `you-research` | Multi-source research with cited synthesis |
+| `you-finance` | Finance questions via the `you-finance` MCP endpoint |
+| `you-discover` | Find the best You.com integration path for a project |
+
+**Quick start with the companion repo:**
+
+```bash
+cd /workspace/agent-skills
+export YDC_API_KEY=ydc-sk-...
+bun install           # 458 packages
+bun test              # 9 tests, 427 assertions (skill validation)
+bun run check         # typecheck + lint
+```
+
+The MCP configs (`mcp.json` / `.mcp.json`) in that repo define the three
+endpoint variants above. If you're building a new agent that needs web search,
+you can point it at the same `YDC_API_KEY` and `https://api.you.com/mcp` URL.
+
+### 5.12 Troubleshooting
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Empty response / no `data:` lines | API key missing or invalid | `echo $YDC_API_KEY` — should start with `ydc-sk-` |
+| HTTP 401 | Bad token | Regenerate at you.com dashboard |
+| `json.loads` fails on `content[0].text` | Took wrong SSE line | Make sure you're parsing the **last** `data:` line, not the first |
+| `you-balance` shows 0 | Credits exhausted | Top up at you.com |
+| `you-search` returns 0 results | Query too specific / no web matches | Broaden the query, remove quotes/operators |
+| HTTP 403 | Not applicable (MCP uses Bearer auth, no UA filtering) | — |
 
 ---
 
