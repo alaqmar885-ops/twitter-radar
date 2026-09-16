@@ -18,6 +18,10 @@ data/
 *.sqlite3
 digests/
 *.html.bak
+# But KEEP committed sample snapshots under docs/
+!docs/examples/*.db
+!docs/examples/*.html
+!docs/research/*.html
 
 # Secrets / local config overrides
 .env

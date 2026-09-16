@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Twitter (X) Scraping Tools — Deep Research Report</title>
+
+<style>
+
+  :root{
+
+    --bg:#0f1419; --panel:#161c26; --panel2:#1c2430; --border:#2a3441;
+
+    --txt:#e7e9ea; --muted:#71767b; --accent:#1d9bf0; --accent2:#7c3aed;
+
+    --green:#00ba7c; --red:#f4212e; --amber:#ffca3a;
+
+  }
+
+  *{box-sizing:border-box}
+
+  body{
+
+    margin:0; background:var(--bg); color:var(--txt);
+
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+    line-height:1.65; padding:0;
+
+  }
+
+  .wrap{max-width:1080px; margin:0 auto; padding:40px 28px 80px}
+
+  header.hero{
+
+    background:linear-gradient(135deg, rgba(29,155,240,.18), rgba(124,58,237,.18));
+
+    border:1px solid var(--border); border-radius:16px; padding:40px 36px; margin-bottom:36px;
+
+  }
+
+  h1{font-size:2.0rem; margin:0 0 10px; letter-spacing:-.02em}
+
+  h2{font-size:1.45rem; margin:42px 0 6px; padding-bottom:8px; border-bottom:1px solid var(--border); letter-spacing:-.01em}
+
+  h3{font-size:1.12rem; margin:30px 0 8px; color:#fff}
+
+  h4{font-size:.98rem; margin:20px 0 6px; color:var(--accent)}
+
+  p{margin:10px 0}
+
+  .sub{color:var(--muted); font-size:.95rem; margin:4px 0 0}
+
+  .meta{color:var(--muted); font-size:.85rem; margin-top:14px}
+
+  .tag{display:inline-block; background:var(--panel2); border:1px solid var(--border); border-radius:999px; padding:3px 11px; font-size:.78rem; margin:3px 4px 3px 0}
+
+  .tag.green{border-color:var(--green); color:var(--green)}
+
+  .tag.red{border-color:var(--red); color:var(--red)}
+
+  .tag.amber{border-color:var(--amber); color:var(--amber)}
+
+  .tag.blue{border-color:var(--accent); color:var(--accent)}
+
+
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:.88rem; background:var(--panel); border:1px solid var(--border); border-radius:10px; overflow:hidden}
+
+  th{background:var(--panel2); text-align:left; padding:11px 13px; font-weight:600; color:#fff; border-bottom:1px solid var(--border)}
+
+  td{padding:10px 13px; border-bottom:1px solid var(--border); vertical-align:top}
+
+  tr:last-child td{border-bottom:none}
+
+  tr:hover td{background:rgba(29,155,240,.05)}
+
+
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:20px 22px; margin:16px 0}
+
+  .card h3{margin-top:0}
+
+  .badge{font-weight:700; font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; padding:2px 8px; border-radius:5px; margin-left:8px}
+
+  .b-ok{background:rgba(0,186,124,.15); color:var(--green); border:1px solid var(--green)}
+
+  .b-warn{background:rgba(255,202,58,.15); color:var(--amber); border:1px solid var(--amber)}
+
+  .b-dead{background:rgba(244,33,46,.15); color:var(--red); border:1px solid var(--red)}
+
+  .b-paid{background:rgba(29,155,240,.15); color:var(--accent); border:1px solid var(--accent)}
+
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+
+  .stat{background:var(--panel2); border:1px solid var(--border); border-radius:10px; padding:16px}
+
+  .stat .num{font-size:1.7rem; font-weight:700; color:var(--accent)}
+
+  .stat .lbl{color:var(--muted); font-size:.82rem}
+
+
+  code{background:var(--panel2); padding:2px 6px; border-radius:4px; font-size:.85em; color:#a5b4fc}
+
+  pre{background:#0a0e14; border:1px solid var(--border); border-radius:10px; padding:16px; overflow-x:auto; font-size:.82rem; line-height:1.5}
+
+  pre code{background:none; padding:0; color:#e7e9ea}
+
+
+  blockquote{border-left:3px solid var(--accent); margin:16px 0; padding:6px 18px; color:var(--muted); background:var(--panel); border-radius:0 8px 8px 0}
+
+  .pillrow{display:flex; flex-wrap:wrap; gap:8px; margin:8px 0}
+
+  ul{margin:8px 0; padding-left:22px}
+
+  li{margin:4px 0}
+
+  a{color:var(--accent); text-decoration:none}
+
+  a:hover{text-decoration:underline}
+
+  .toc{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:18px 24px; margin:24px 0}
+
+  .toc ol{margin:6px 0; padding-left:24px}
+
+  .toc li{margin:5px 0}
+
+  .warn{background:rgba(255,202,58,.08); border:1px solid var(--amber); border-radius:10px; padding:14px 18px; margin:18px 0}
+
+  .warn h4{color:var(--amber); margin-top:0}
+
+  .footer{color:var(--muted); font-size:.8rem; text-align:center; margin-top:50px; border-top:1px solid var(--border); padding-top:24px}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+
+<header class="hero">
+
+  <h1>Twitter (X) Scraping Tools for Posts — Deep Research</h1>
+
+  <p class="sub">A comparative analysis of open-source libraries, managed APIs, browser-automation approaches, and the official API — with current maintenance status, pricing, anti-bot realities, and a recommendation framework.</p>
+
+  <div class="pillrow">
+
+    <span class="tag blue">Open-source (Python)</span>
+
+    <span class="tag blue">Managed APIs</span>
+
+    <span class="tag blue">AI agent browsers</span>
+
+    <span class="tag amber">ToS risk</span>
+
+    <span class="tag green">Last reviewed: Sep 2026</span>
+
+  </div>
+
+  <p class="meta">Sources: GitHub, dev.to, ScrapFly, AIMultiple benchmark, Proxidize, project docs &amp; READMEs.</p>
+
+</header>
+
+
+<div class="toc">
+
+  <strong>Contents</strong>
+
+  <ol>
+
+    <li><a href="#context">The 2026 landscape &amp; what changed</a></li>
+
+    <li><a href="#official">The official X API (the expensive baseline)</a></li>
+
+    <li><a href="#opensource">Open-source Python libraries</a> — twscrape, twikit, Scweet, others</li>
+
+    <li><a href="#dead">Dead / legacy tools (avoid)</a> — snscrape, Twint, Nitter</li>
+
+    <li><a href="#browser">Browser automation &amp; AI agents</a> — Playwright/GraphQL, Browser Use</li>
+
+    <li><a href="#commercial">Managed commercial APIs</a> — benchmarked</li>
+
+    <li><a href="#comparison">Master comparison table</a></li>
+
+    <li><a href="#mechanics">How X's hidden API works (why scrapers break)</a></li>
+
+    <li><a href="#legal">Legal &amp; ToS considerations</a></li>
+
+    <li><a href="#recommend">Recommendation by use case</a></li>
+
+  </ol>
+
+</div>
+
+
+<!-- ============ KEY STATS ============ -->
+
+<div class="grid">
+
+  <div class="stat"><div class="num">~3200</div><div class="lbl">Max tweets reachable via user_tweets endpoint (X-imposed cap)</div></div>
+
+  <div class="stat"><div class="num">2–4 wks</div><div class="lbl">Frequency X rotates doc_ids &amp; defenses — the maintenance tax</div></div>
+
+  <div class="stat"><div class="num">~300/hr</div><div class="lbl">Anonymous (guest) request ceiling before rate-limit / IP block</div></div>
+
+  <div class="stat"><div class="num">1–2</div><div class="lbl">Requests before a datacenter IP is flagged &amp; blocked by X</div></div>
+
+</div>
+
+
+<!-- ============ 1. CONTEXT ============ -->
+
+<h2 id="context">1. The 2026 landscape &amp; what changed</h2>
+
+<p>Scraping X (formerly Twitter) is harder than it has ever been. Three structural shifts since 2023 reshaped the ecosystem:</p>
+
+<ul>
+
+  <li><strong>The free API was killed.</strong> X gutted legacy free tiers in Feb 2023; as of 2026 there is <strong>no free read tier</strong> — the free allowance is write-only (1,500 posts/mo). Reading tweets starts at <strong>$200/mo</strong>.</li>
+
+  <li><strong>Anonymous guest access was locked down.</strong> X now requires guest tokens tied to IP and (since Jan 2025) browser fingerprints. This single change killed the entire free-library stack.</li>
+
+  <li><strong>Aggressive anti-bot detection.</strong> Datacenter IPs are blocked within 1–2 requests; TLS fingerprinting, doc_id rotation every 2–4 weeks, and tighter cookie validation make DIY scrapers a permanent maintenance burden.</li>
+
+</ul>
+
+<p>The practical effect: the once-dominant free tools (snscrape, Twint, Nitter) are now described by practitioners as <em>"a graveyard."</em> Surviving open-source tools all require <strong>logged-in accounts</strong>, which introduces suspension risk. The trade-off is now: <em>pay money, pay with account-ban risk, or pay with 10–15 hrs/month of maintenance.</em></p>
+
+
+<!-- ============ 2. OFFICIAL API ============ -->
+
+<h2 id="official">2. The official X API (the expensive baseline)</h2>
+
+<p>The most reliable and legally compliant path — and the most expensive. X moved to a pay-per-use consumption model in 2026.</p>
+
+<table>
+
+  <tr><th>Tier</th><th>Cost</th><th>Read capacity</th><th>Notes</th></tr>
+
+  <tr><td>Free</td><td>$0</td><td><strong>None (write-only)</strong></td><td>1,500 posts/mo posting only; cannot read/scrape.</td></tr>
+
+  <tr><td>Basic</td><td>~$200/mo</td><td>10,000 tweets</td><td>Tight read caps; suitable for small compliance-sensitive work.</td></tr>
+
+  <tr><td>Pro</td><td>~$5,000/mo</td><td>1,000,000 tweets</td><td>Production-scale read access.</td></tr>
+
+  <tr><td>Enterprise</td><td>tens of $thousands</td><td>multi-million</td><td>Full firehose-level access.</td></tr>
+
+</table>
+
+<p><strong>Python client:</strong> <a href="https://github.com/tweepy/tweepy">Tweepy</a> — the standard, actively-maintained wrapper for X API v2. Right call for low-volume, compliance-sensitive, or bot-posting use cases. A non-starter for scraping public pages at scale due to cost.</p>
+
+
+<!-- ============ 3. OPEN-SOURCE LIBRARIES ============ -->
+
+<h2 id="opensource">3. Open-source Python libraries (free, account-based)</h2>
+
+<p>All surviving free libraries bypass the official API by calling X's <strong>internal GraphQL endpoints</strong> using logged-in account sessions. This means: no API key, but <strong>account suspension risk</strong> with aggressive use.</p>
+
+
+<div class="card">
+
+  <h3>twscrape <span class="badge b-ok">Top pick</span></h3>
+
+  <p><a href="https://github.com/vladkens/twscrape">github.com/vladkens/twscrape</a> · ⭐ 2.8k · Python · <strong>Actively maintained (last commit Aug 2026, v0.20.1)</strong></p>
+
+  <p>Async Python library <em>and</em> CLI for X/Twitter Search and GraphQL endpoints. The most robust free option, designed for production.</p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Multi-account rotation</span>
+
+    <span class="tag green">Built-in rate-limit handling</span>
+
+    <span class="tag green">SQLite session storage</span>
+
+    <span class="tag green">Per-account proxies</span>
+
+    <span class="tag blue">CLI + Python API</span>
+
+    <span class="tag amber">Needs login/cookies</span>
+
+  </div>
+
+  <h4>What it can scrape</h4>
+
+  <ul>
+
+    <li><strong>Search:</strong> tweets, users, trends (Top / Latest / Media tabs)</li>
+
+    <li><strong>Tweets:</strong> details, replies, threads, retweeters, bookmarks</li>
+
+    <li><strong>Users:</strong> by id/login, about, following, followers, verified followers, subscriptions</li>
+
+    <li><strong>Timelines:</strong> user_tweets, user_tweets_and_replies, user_media</li>
+
+    <li><strong>Lists &amp; Communities:</strong> timelines, members, moderators, info</li>
+
+    <li><strong>Trends</strong> by category (news, sport, entertainment)</li>
+
+  </ul>
+
+  <h4>Key mechanics</h4>
+
+  <ul>
+
+    <li>Runs on your own <strong>account pool</strong> — rotate accounts when one hits a rate limit.</li>
+
+    <li>Most stable setup: add accounts from browser cookies (<code>auth_token</code> + <code>ct0</code>), exported via the <a href="https://github.com/vladkens/unjar">unjar</a> tool.</li>
+
+    <li>Optional <code>curl-cffi</code> backend for browser-like TLS fingerprinting (recommended to evade detection).</li>
+
+    <li>Returns <strong>SNScrape-compatible parsed models</strong> or raw API responses.</li>
+
+    <li><code>limit</code> = target object count, not page size (X controls page size). <code>user_tweets</code> capped at ~3,200 by X.</li>
+
+  </ul>
+
+  <pre><code>pip install twscrape
+
+# optional TLS-fingerprint backend:
+
+pip install "twscrape[curl]"
+
+
+# add a cookie account
+
+unjar x.com -f header | twscrape add_cookie my_account
+
+twscrape search "from:xdevelopers lang:en" --limit=20 > tweets.jsonl</code></pre>
+
+<blockquote>Sponsor note in repo mentions residential proxies (RapidProxy, 90M+ IPs) — a hint that proxy quality is critical at any real volume.</blockquote>
+
+</div>
+
+
+<div class="card">
+
+  <h3>twikit <span class="badge b-ok">Popular</span></h3>
+
+  <p><a href="https://github.com/d60/twikit">github.com/d60/twikit</a> · ⭐ 4.7k · Python · Updated Mar 2026</p>
+
+  <p>The most-starred free option. A simple API wrapper around Twitter's internal API — <strong>no API key required</strong>, but requires login with username/email/password and manages session cookies.</p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Async</span>
+
+    <span class="tag green">Post &amp; search tweets</span>
+
+    <span class="tag green">Trending topics</span>
+
+    <span class="tag green">DMs</span>
+
+    <span class="tag amber">Account-ban risk if aggressive</span>
+
+    <span class="tag blue">Grok extension (twikit_grok)</span>
+
+  </div>
+
+  <p>Capabilities include creating tweets, searching, retrieving user timelines, fetching trends, and sending DMs. Best for <strong>moderate, rate-limited</strong> extraction — aggressive scraping leads to suspension.</p>
+
+</div>
+
+
+<div class="card">
+
+  <h3>Scweet</h3>
+
+  <p><a href="https://github.com/Altimis/Scweet">github.com/Altimis/Scweet</a> · ⭐ 1.6k · Python · Updated Sep 2026 (actively maintained)</p>
+
+  <p>Scrape tweets, profiles, followers and following — no API key. Features smart multi-account pooling, proxy support, and async. A solid twscrape alternative with explicit follower/following support.</p>
+
+</div>
+
+
+<div class="card">
+
+  <h3>twitter-api-client <span class="badge b-warn">Likely stale</span></h3>
+
+  <p><a href="https://github.com/trevorhobenshield/twitter-api-client">github.com/trevorhobenshield/twitter-api-client</a> · ⭐ 1.9k · Python · <strong>Last updated May 2024</strong></p>
+
+  <p>Implementation of X/Twitter v1, v2, and GraphQL APIs. Comprehensive but stale — verify it still works before relying on it, since X rotates internals every 2–4 weeks.</p>
+
+</div>
+
+
+<div class="grid">
+
+  <div class="card">
+
+    <h3>TweeterPy</h3>
+
+    <p><a href="https://github.com/iSarabjitDhiman/TweeterPy">repo</a> · ⭐ 339 · Updated Jul 2026</p>
+
+    <p>Extract profile data: username, id, bio, followers/followings, media, tweets. Focused on profile-scraping.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Agent-Reach</h3>
+
+    <p><a href="https://github.com/Panniantong/Agent-Reach">repo</a> · ⭐ 82k · Updated Sep 2026</p>
+
+    <p>Multi-platform CLI (Twitter, Reddit, YouTube, GitHub, Bilibili, Xiaohongshu) for AI agents. <em>Zero API fees.</em> Designed as agent infrastructure (MCP, Cursor, Claude Code).</p>
+
+  </div>
+
+</div>
+
+
+<div class="grid">
+
+  <div class="card">
+
+    <h3>twitter-scraper-selenium</h3>
+
+    <p>⭐ 345 · Selenium-based front-end scraper. Slower (full browser), more fragile, but no login needed for some public surfaces.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>x-twitter-scraper (Xquik)</h3>
+
+    <p>⭐ 199 · JavaScript · REST + MCP + SDKs + webhooks. Marketed as an "X API alternative" for AI agents.</p>
+
+  </div>
+
+</div>
+
+
+<!-- ============ 4. DEAD TOOLS ============ -->
+
+<h2 id="dead">4. Dead / legacy tools (avoid)</h2>
+
+<div class="warn">
+
+  <h4>⚠ The free-library graveyard</h4>
+
+  <p>These three shared <strong>one dependency: anonymous guest access</strong> — the exact mechanism X locked down in 2023. They died together.</p>
+
+</div>
+
+<table>
+
+  <tr><th>Tool</th><th>Status</th><th>What it did</th><th>Why it died</th></tr>
+
+  <tr><td><strong>Twint</strong></td><td><span class="badge b-dead">Dead</span></td><td>Pulled tweets via old web frontend, no API.</td><td>Abandoned years ago; X retired those endpoints.</td></tr>
+
+  <tr><td><strong>snscrape</strong></td><td><span class="badge b-dead">Broken</span></td><td>Read public timelines via unofficial endpoints; CLI + Python.</td><td>Broke when X required guest tokens tied to IP (mid-2023). Community patches are unreliable; Reddit users report following snscrape tutorials and finding them "dead."</td></tr>
+
+  <tr><td><strong>Nitter</strong></td><td><span class="badge b-dead">Collapsed</span></td><td>Privacy frontend that proxied public tweets as static HTML — trivially scrapable.</td><td>Public instances shut down after X blocked the guest accounts they ran on. Self-hosting has high failure rate.</td></tr>
+
+  <tr><td><strong>twitter-scraper (PyPI)</strong></td><td><span class="badge b-dead">Abandoned</span></td><td>Old PyPI package.</td><td>Last release 2018; long dead.</td></tr>
+
+</table>
+
+<blockquote>A snscrape community source claims it "still works with limitations" — but independent technical sources (ScrapFly, dev.to, r/Python) consistently report it broken for Twitter specifically. Treat any "works" claim with skepticism and test before committing.</blockquote>
+
+
+<!-- ============ 5. BROWSER / AI ============ -->
+
+<h2 id="browser">5. Browser automation &amp; AI agents</h2>
+
+
+<div class="card">
+
+  <h3>Playwright + GraphQL interception <span class="badge b-ok">Most robust DIY</span></h3>
+
+  <p>The most resilient programmatic approach in 2026: use a real headless browser to load X.com pages, then <strong>intercept the XHR/fetch calls</strong> to GraphQL endpoints (<code>UserTweets</code>, <code>TweetResultByRestId</code>) and extract clean JSON directly — no brittle CSS selectors, no manual doc_id tracking.</p>
+
+  <ul>
+
+    <li><strong>Why it survives:</strong> the browser requests its own current doc_ids, so you never hardcode rotating identifiers.</li>
+
+    <li><strong>Open-source reference:</strong> <a href="https://github.com/scrapfly/scrapfly-scrapers/tree/main/twitter-scraper">scrapfly/scrapfly-scrapers/twitter-scraper</a> and Proxidize's open-source Playwright scraper.</li>
+
+    <li><strong>Cost:</strong> free code, but requires residential proxies (~$15/GB) to prevent IP bans during infinite scroll.</li>
+
+    <li><strong>Maintenance tax:</strong> ~10–15 hrs/month re-fixing when X changes defenses.</li>
+
+  </ul>
+
+  <pre><code>from playwright.sync_api import sync_playwright
+
+
+with sync_playwright() as pw:
+
+    browser = pw.chromium.launch(
+
+        proxy={"server": "http://residential-proxy:8000"}
+
+    )
+
+    page = browser.new_page()
+
+    page.goto("https://x.com/x")
+
+    page.wait_for_selector("[data-testid='primaryColumn']")
+
+    # then capture XHR calls to UserTweets / TweetResultByRestId</code></pre>
+
+</div>
+
+
+<div class="card">
+
+  <h3>Browser Use <span class="badge b-ok">Cutting-edge</span></h3>
+
+  <p>Open-source AI agent framework that automates browser interactions via <strong>natural-language prompts</strong>. Instead of selectors or network scripts, you instruct it: <em>"go to my Twitter and extract the latest tweets into a Google Sheet."</em></p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Custom Chromium fork (C++/OS stealth patches)</span>
+
+    <span class="tag green">Bypasses Cloudflare/Akamai/DataDome (81% stealth success)</span>
+
+    <span class="tag green">Built-in CAPTCHA solving</span>
+
+    <span class="tag green">Handles SPAs, popups, infinite scroll</span>
+
+    <span class="tag amber">Slower &amp; costlier (full browser + LLM calls)</span>
+
+  </div>
+
+  <p>Best when X is a <strong>dynamic SPA requiring human-like interaction</strong> and you want zero selector maintenance. Tools like Firecrawl and BeautifulSoup fail outright on X's anti-bot; Browser Use operates like a human user.</p>
+
+</div>
+
+
+<div class="card">
+
+  <h3>Scrapling</h3>
+
+  <p>Newer adaptive scraping framework with a <code>StealthyFetcher</code> that natively bypasses Cloudflare Turnstile/Interstitials by spoofing Chromium fingerprints. General-purpose — you write X-specific parsing logic yourself. Good for multi-session scraping.</p>
+
+</div>
+
+
+<!-- ============ 6. COMMERCIAL ============ -->
+
+<h2 id="commercial">6. Managed commercial APIs (outsourced maintenance)</h2>
+
+<p>For teams that need data immediately and want to outsource proxy management + anti-bot bypass. <strong>AIMultiple benchmarked 5 providers across 1,000 public tweet URLs (5,000 requests)</strong> — all hit ~100% success, so the differentiators are <em>speed, output format, and price</em>.</p>
+
+
+<table>
+
+  <tr><th>Provider</th><th>Speed (per tweet)</th><th>Output</th><th>Free trial</th><th>Notes</th></tr>
+
+  <tr><td><strong>Bright Data</strong></td><td>~4s <span class="badge b-ok">Fastest</span></td><td>Structured JSON (33 fields)</td><td>5K records/mo</td><td>Only provider returning ready-made JSON — no client-side parsing. Engagement, author, media, parent/quoted post, verification. Also offers pre-collected datasets.</td></tr>
+
+  <tr><td><strong>Zyte</strong></td><td>~8s</td><td>Rendered HTML (<code>browserHtml</code>)</td><td>$5 credit</td><td>2nd fastest; needs client-side parsing for counts/text.</td></tr>
+
+  <tr><td><strong>Nimble</strong></td><td>~11s</td><td>HTML (<code>vx10</code> stealth driver)</td><td>5,000 requests</td><td>Full JS render + anti-bot evasion; client-side parsing.</td></tr>
+
+  <tr><td><strong>Oxylabs</strong></td><td>~15s</td><td>HTML (universal source)</td><td>7-day trial</td><td>Slower; CSS-selector parsing needed.</td></tr>
+
+  <tr><td><strong>Decodo</strong></td><td>~16s</td><td>Server-rendered HTML</td><td>3-day (100 MB)</td><td>Slowest in benchmark; client-side parsing.</td></tr>
+
+</table>
+
+
+<h3>Other managed / API options</h3>
+
+<table>
+
+  <tr><th>Provider</th><th>Pricing</th><th>Strengths</th></tr>
+
+  <tr><td><strong>twitterapi.io</strong></td><td>$0.15 / 1k tweets; <strong>100K free credits</strong> on signup</td><td>Unofficial API proxy around X's internal endpoints. Very fast (140+ req/s). OpenAPI spec for instant integration. Widely considered best unofficial API in 2026.</td></tr>
+
+  <tr><td><strong>Apify</strong> (Twitter Actors)</td><td>~$0.25–0.45 / 1k tweets</td><td>Marketplace of pre-built scrapers ("Actors"). Point-and-click config, built-in proxy rotation, native exports to S3 / BigQuery / CSV. Great for one-off data mining. Cost can balloon if params too broad.</td></tr>
+
+  <tr><td><strong>Scrapfly</strong></td><td>Per-request</td><td>Open-source <a href="https://github.com/scrapfly/scrapfly-scrapers/tree/main/twitter-scraper">twitter-scraper</a> + managed Web Scraping API. Handles guest tokens, residential proxy rotation, JS rendering, anti-bot (90+ systems). <code>asp=True</code> + <code>render_js=True</code>.</td></tr>
+
+  <tr><td><strong>Xquik x-twitter-scraper</strong></td><td>TBD</td><td>REST + MCP + SDKs + webhooks; positioned as X API alternative for AI agents.</td></tr>
+
+</table>
+
+
+<!-- ============ 7. COMPARISON ============ -->
+
+<h2 id="comparison">7. Master comparison table</h2>
+
+<table>
+
+  <tr><th>Tool / Approach</th><th>Type</th><th>Cost</th><th>Anti-bot bypass</th><th>Login needed?</th><th>Maintenance</th><th>Best for</th></tr>
+
+  <tr><td><strong>Official X API</strong></td><td>REST API</td><td>$200–$5,000+/mo</td><td>N/A (compliant)</td><td>API key</td><td>None</td><td>Enterprise, legal read/write access</td></tr>
+
+  <tr><td><strong>twscrape</strong></td><td>Python lib + CLI</td><td>Free</td><td>Medium (TLS opt.)</td><td>Yes (cookies)</td><td>Low–Med</td><td>DIY pipelines with account pool</td></tr>
+
+  <tr><td><strong>twikit</strong></td><td>Python lib</td><td>Free</td><td>Low</td><td>Yes (user/pass)</td><td>Low</td><td>Hobby / lightweight automation</td></tr>
+
+  <tr><td><strong>Scweet</strong></td><td>Python lib</td><td>Free</td><td>Low–Med</td><td>Yes</td><td>Low</td><td>Follower/following + tweets</td></tr>
+
+  <tr><td><strong>Playwright + GraphQL</strong></td><td>DIY browser</td><td>Free + proxy ($15/GB)</td><td>High (intercept)</td><td>No (public)</td><td><strong>10–15 hrs/mo</strong></td><td>Total control without API fees</td></tr>
+
+  <tr><td><strong>Browser Use</strong></td><td>AI agent</td><td>Open-source / cloud</td><td><strong>Very high</strong> (81%)</td><td>No</td><td>Low</td><td>Complex dynamic, human-like scraping</td></tr>
+
+  <tr><td><strong>Bright Data</strong></td><td>Managed API</td><td>Per-use</td><td>High (managed)</td><td>No</td><td>None</td><td>Production, structured JSON, fastest</td></tr>
+
+  <tr><td><strong>twitterapi.io</strong></td><td>Managed API</td><td>$0.15/1k</td><td>High</td><td>No</td><td>None</td><td>Fast reliable JSON at scale</td></tr>
+
+  <tr><td><strong>Apify</strong></td><td>Cloud scraper</td><td>~$0.40/1k</td><td>High</td><td>No</td><td>None</td><td>One-off bulk mining → CSV/S3</td></tr>
+
+  <tr><td><strong>Scrapfly</strong></td><td>Managed API</td><td>Per-request</td><td>High (90+ systems)</td><td>No</td><td>None</td><td>Survives X's weekly changes</td></tr>
+
+  <tr><td><strong>snscrape / Twint / Nitter</strong></td><td>Legacy</td><td>Free</td><td>—</td><td>—</td><td>—</td><td><span class="badge b-dead">Dead — do not use</span></td></tr>
+
+</table>
+
+
+<!-- ============ 8. MECHANICS ============ -->
+
+<h2 id="mechanics">8. How X's hidden API works (and why scrapers break)</h2>
+
+<p>X.com's web app is a GraphQL client. Every profile/timeline you see is fetched from a hidden internal API behind <strong>three rotating guards</strong>:</p>
+
+<div class="grid">
+
+  <div class="stat"><div class="num" style="font-size:1.1rem">Guest tokens</div><div class="lbl">Temporary session credentials, expire in hours, tied to requesting IP (and since Jan 2025, browser fingerprint). Without one → no queries. <strong>This is what killed the free libraries.</strong></div></div>
+
+  <div class="stat"><div class="num" style="font-size:1.1rem">doc_ids</div><div class="lbl">Unique identifiers for each GraphQL operation (fetch profile, get tweet, load timeline). Rotated every 2–4 weeks. A scraper tracks 8–12 at once; rotation breaks hardcoded queries silently.</div></div>
+
+  <div class="stat"><div class="num" style="font-size:1.1rem">Rate limits + IP</div><div class="lbl">Anonymous access ~300 req/hr. Datacenter IPs blocked within 1–2 requests. Residential proxies are effectively mandatory.</div></div>
+
+  <div class="stat"><div class="num" style="font-size:1.1rem">TLS fingerprinting</div><div class="lbl">X inspects TLS handshake to detect non-browser clients — hence twscrape's optional <code>curl-cffi</code> backend and Browser Use's custom Chromium fork.</div></div>
+
+</div>
+
+<p><strong>What you can reach without login:</strong> public profiles, individual tweets + visible replies, public engagement counts, embedded media metadata. <strong>Login-gated:</strong> protected accounts, DMs, full follower/following lists, keyword &amp; timeline search. (Workaround for finding tweet URLs without login: <code>site:x.com inurl:status &lt;keyword&gt;</code> on Google — but Google's index lags real-time by hours/days.)</p>
+
+
+<!-- ============ 9. LEGAL ============ -->
+
+<h2 id="legal">9. Legal &amp; Terms-of-Service considerations</h2>
+
+<div class="warn">
+
+  <h4>⚠ Read this before scraping</h4>
+
+  <ul>
+
+    <li><strong>US legality:</strong> Scraping <em>public</em> Twitter data is generally legal under the <em>hiQ v. LinkedIn</em> ruling (accessing public web data ≠ CFAA violation).</li>
+
+    <li><strong>But it breaches X's Terms of Service</strong> — a contract issue, not a crime. X's ToS imposes <strong>liquidated damages of $15,000 (or €15,000 in EU/EFTA/UK) per 1,000,000 posts accessed within 24 hours</strong>.</li>
+
+    <li><strong>CFAA line you don't cross:</strong> don't touch protected accounts, DMs, or anything behind a login.</li>
+
+    <li><strong>EU/GDPR:</strong> public posts can still contain personal data — GDPR applies when you store/process it.</li>
+
+    <li><strong>Safe-ground rules:</strong> public data only · don't hoard · respect rate limits · don't overload servers.</li>
+
+  </ul>
+
+  <p style="color:var(--muted); font-size:.82rem; margin-bottom:0">This is informational, not legal advice. Consult a lawyer for your specific case.</p>
+
+</div>
+
+
+<!-- ============ 10. RECOMMENDATION ============ -->
+
+<h2 id="recommend">10. Recommendation by use case</h2>
+
+<table>
+
+  <tr><th>Your situation</th><th>Recommended tool</th><th>Why</th></tr>
+
+  <tr><td>Building an AI agent that browses X autonomously</td><td><strong>Browser Use</strong></td><td>Unmatched stealth (81% success), natural-language nav, built-in CAPTCHA solving, handles dynamic SPA.</td></tr>
+
+  <tr><td>Raw tweet data at scale into a database</td><td><strong>twitterapi.io</strong> or <strong>Bright Data</strong></td><td>Saves hundreds of hours in proxy maintenance; Bright Data returns ready-made JSON (no parsing).</td></tr>
+
+  <tr><td>Total control, no API fees, willing to maintain</td><td><strong>twscrape</strong> (account-based) or <strong>Playwright + GraphQL interception</strong> (browser-based)</td><td>twscrape for ease with account pool; Playwright for public-only, no-login resilience.</td></tr>
+
+  <tr><td>One-off bulk export to CSV/S3</td><td><strong>Apify</strong> (Twitter Actors)</td><td>Point-and-click, built-in proxy rotation, native exports.</td></tr>
+
+  <tr><td>Hobby / lightweight automation</td><td><strong>twikit</strong></td><td>Most popular, simple, async — but use moderately to avoid suspension.</td></tr>
+
+  <tr><td>Compliance-sensitive / enterprise</td><td><strong>Official X API</strong> (+ Tweepy)</td><td>Only legally guaranteed path; pay for peace of mind.</td></tr>
+
+  <tr><td>Finding tweet/profile URLs without a login</td><td>Google <code>site:x.com</code> queries</td><td>Search is login-walled; Google indexes public tweets (lags real-time).</td></tr>
+
+</table>
+
+
+<div class="card">
+
+  <h3>Bottom line</h3>
+
+  <p>There is no single "best" tool — the right choice depends on your <strong>volume, budget, uptime tolerance, and willingness to maintain</strong>. The free-library era is over; in 2026, working Twitter scraping means one of three real trade-offs: <strong>pay money</strong> (managed API), <strong>pay with account-ban risk</strong> (session-based libs like twscrape/twikit), or <strong>pay with ~10–15 hrs/month of maintenance</strong> (DIY Playwright + residential proxies). For production pipelines that can't afford weekly breakage, a maintained scraper API (Scrapfly/Bright Data/twitterapi.io) is the pragmatic choice.</p>
+
+</div>
+
+
+<div class="footer">
+
+  Research compiled from public sources: GitHub repos &amp; READMEs, dev.to comprehensive guide, ScrapFly "How to Scrape Twitter in 2026", AIMultiple benchmark (Jun 2026), Proxidize, project documentation. Pricing and tool status are current as of the review date and subject to change — always verify before committing.
+
+</div>
+
+
+</div>
+
+</body>
+
+</html>

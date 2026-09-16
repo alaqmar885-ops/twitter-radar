@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Free Twitter/X Scraping Tools — Exhaustive Research (Round 2)</title>
+
+<style>
+
+  :root{
+
+    --bg:#0f1419; --panel:#161c26; --panel2:#1c2430; --border:#2a3441;
+
+    --txt:#e7e9ea; --muted:#71767b; --accent:#1d9bf0; --accent2:#7c3aed;
+
+    --green:#00ba7c; --red:#f4212e; --amber:#ffca3a; --pink:#f91880;
+
+  }
+
+  *{box-sizing:border-box}
+
+  body{margin:0; background:var(--bg); color:var(--txt);
+
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+    line-height:1.65; padding:0;}
+
+  .wrap{max-width:1120px; margin:0 auto; padding:40px 28px 80px}
+
+  header.hero{
+
+    background:linear-gradient(135deg, rgba(0,186,124,.18), rgba(29,155,240,.18));
+
+    border:1px solid var(--border); border-radius:16px; padding:40px 36px; margin-bottom:30px;}
+
+  h1{font-size:2.0rem; margin:0 0 10px; letter-spacing:-.02em}
+
+  h2{font-size:1.42rem; margin:44px 0 6px; padding-bottom:8px; border-bottom:1px solid var(--border)}
+
+  h3{font-size:1.1rem; margin:26px 0 6px; color:#fff}
+
+  h4{font-size:.95rem; margin:18px 0 5px; color:var(--accent)}
+
+  p{margin:10px 0}
+
+  .sub{color:var(--muted); font-size:.95rem}
+
+  .meta{color:var(--muted); font-size:.84rem; margin-top:12px}
+
+  .tag{display:inline-block; background:var(--panel2); border:1px solid var(--border);
+
+    border-radius:999px; padding:3px 11px; font-size:.76rem; margin:3px 4px 3px 0}
+
+  .tag.green{border-color:var(--green); color:var(--green)}
+
+  .tag.red{border-color:var(--red); color:var(--red)}
+
+  .tag.amber{border-color:var(--amber); color:var(--amber)}
+
+  .tag.blue{border-color:var(--accent); color:var(--accent)}
+
+  .tag.pink{border-color:var(--pink); color:var(--pink)}
+
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:.86rem;
+
+    background:var(--panel); border:1px solid var(--border); border-radius:10px; overflow:hidden}
+
+  th{background:var(--panel2); text-align:left; padding:11px 13px; font-weight:600;
+
+    color:#fff; border-bottom:1px solid var(--border)}
+
+  td{padding:10px 13px; border-bottom:1px solid var(--border); vertical-align:top}
+
+  tr:last-child td{border-bottom:none}
+
+  tr:hover td{background:rgba(29,155,240,.05)}
+
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:20px 22px; margin:16px 0}
+
+  .card h3{margin-top:0}
+
+  .card.star{border-color:var(--green); box-shadow:0 0 0 1px rgba(0,186,124,.25)}
+
+  .badge{font-weight:700; font-size:.7rem; text-transform:uppercase; letter-spacing:.05em;
+
+    padding:2px 8px; border-radius:5px; margin-left:8px}
+
+  .b-ok{background:rgba(0,186,124,.15); color:var(--green); border:1px solid var(--green)}
+
+  .b-warn{background:rgba(255,202,58,.15); color:var(--amber); border:1px solid var(--amber)}
+
+  .b-dead{background:rgba(244,33,46,.15); color:var(--red); border:1px solid var(--red)}
+
+  .b-new{background:rgba(249,24,128,.15); color:var(--pink); border:1px solid var(--pink)}
+
+  .b-ver{background:rgba(29,155,240,.15); color:var(--accent); border:1px solid var(--accent)}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+
+  .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+
+  @media(max-width:860px){.grid,.grid3{grid-template-columns:1fr}}
+
+  .stat{background:var(--panel2); border:1px solid var(--border); border-radius:10px; padding:16px}
+
+  .stat .num{font-size:1.5rem; font-weight:700; color:var(--green)}
+
+  .stat .lbl{color:var(--muted); font-size:.82rem}
+
+  code{background:var(--panel2); padding:2px 6px; border-radius:4px; font-size:.85em; color:#a5b4fc}
+
+  pre{background:#0a0e14; border:1px solid var(--border); border-radius:10px; padding:16px;
+
+    overflow-x:auto; font-size:.82rem; line-height:1.5}
+
+  pre code{background:none; padding:0; color:#e7e9ea}
+
+  blockquote{border-left:3px solid var(--green); margin:16px 0; padding:6px 18px;
+
+    color:var(--muted); background:var(--panel); border-radius:0 8px 8px 0}
+
+  .pillrow{display:flex; flex-wrap:wrap; gap:8px; margin:8px 0}
+
+  ul{margin:8px 0; padding-left:22px} li{margin:4px 0}
+
+  a{color:var(--accent); text-decoration:none} a:hover{text-decoration:underline}
+
+  .toc{background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:18px 24px; margin:24px 0}
+
+  .toc ol{margin:6px 0; padding-left:24px} .toc li{margin:5px 0}
+
+  .warn{background:rgba(255,202,58,.08); border:1px solid var(--amber); border-radius:10px; padding:14px 18px; margin:18px 0}
+
+  .warn h4{color:var(--amber); margin-top:0}
+
+  .ok{background:rgba(0,186,124,.08); border:1px solid var(--green); border-radius:10px; padding:14px 18px; margin:18px 0}
+
+  .ok h4{color:var(--green); margin-top:0}
+
+  .terminal{background:#0a0e14; border:1px solid var(--border); border-left:3px solid var(--green);
+
+    border-radius:0 10px 10px 0; padding:14px 18px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+
+    font-size:.8rem; overflow-x:auto; white-space:pre-wrap; margin:12px 0}
+
+  .footer{color:var(--muted); font-size:.8rem; text-align:center; margin-top:50px;
+
+    border-top:1px solid var(--border); padding-top:24px}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+
+<header class="hero">
+
+  <h1>Free Twitter/X Scraping Tools — Exhaustive Research</h1>
+
+  <p class="sub">Round 2: focused entirely on <strong>free &amp; open-source</strong> tooling — undocumented free endpoints (verified live), Playwright/Selenium projects, self-hosted stacks, no-login guest-token scrapers, and free browser extensions.</p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Zero-cost endpoints</span>
+
+    <span class="tag green">Playwright / Selenium</span>
+
+    <span class="tag green">Self-hosted</span>
+
+    <span class="tag blue">Python · Node · Rust</span>
+
+    <span class="tag pink">Browser extensions</span>
+
+    <span class="tag amber">Live-tested this session</span>
+
+  </div>
+
+  <p class="meta">Endpoints marked <span class="badge b-ver">Verified</span> were curl-tested from this sandbox during research. Results and HTTP codes shown are real.</p>
+
+</header>
+
+
+<div class="toc">
+
+  <strong>Contents</strong>
+
+  <ol>
+
+    <li><a href="#headline">Headline finding: 4 free endpoints that actually work</a></li>
+
+    <li><a href="#verified">Live test results (raw evidence)</a></li>
+
+    <li><a href="#playwright">Playwright / browser-automation projects (free)</a></li>
+
+    <li><a href="#stealth">Anti-detect browser layer: Camoufox, Patchright, stealth</a></li>
+
+    <li><a href="#python">Free Python libraries (incl. guest-token / no-login)</a></li>
+
+    <li><a href="#other">Node.js, Rust &amp; other languages</a></li>
+
+    <li><a href="#extensions">Free no-code browser extensions</a></li>
+
+    <li><a href="#selfhost">Self-hosted stacks &amp; Nitter revival</a></li>
+
+    <li><a href="#mcp">Free MCP servers for AI agents</a></li>
+
+    <li><a href="#matrix">Decision matrix: pick by what you need</a></li>
+
+    <li><a href="#recipes">Copy-paste recipes</a></li>
+
+    <li><a href="#risks">Risks, limits &amp; honest caveats</a></li>
+
+  </ol>
+
+</div>
+
+
+<!-- ============ HEADLINE ============ -->
+
+<h2 id="headline">1. Headline finding: 4 free endpoints that actually work</h2>
+
+<p>Before you install any scraper at all, know this: <strong>there are undocumented (and one official) X endpoints that return structured tweet JSON with no API key, no login, and no cost.</strong> I tested all of them live.</p>
+
+
+<table>
+
+  <tr><th>Endpoint</th><th>Auth</th><th>Returns</th><th>Status</th></tr>
+
+  <tr>
+
+    <td><strong>Syndication API</strong><br><code>cdn.syndication.twimg.com/tweet-result?id={id}&amp;token=0</code></td>
+
+    <td>None</td>
+
+    <td>Full tweet JSON: text, author, <strong>like count</strong>, reply count, lang, created_at, entities, <strong>nested <code>parent</code> tweet</strong>, quoted tweet, edit_control</td>
+
+    <td><span class="badge b-ver">Verified 200</span></td>
+
+  </tr>
+
+  <tr>
+
+    <td><strong>FxTwitter (FxEmbed)</strong><br><code>api.fxtwitter.com/{user}/status/{id}</code></td>
+
+    <td>None</td>
+
+    <td><strong>Richest free payload found</strong>: text, raw_text w/ facets, author <em>followers / following / likes / media_count / bio</em>, media, quotes</td>
+
+    <td><span class="badge b-ver">Verified 200</span></td>
+
+  </tr>
+
+  <tr>
+
+    <td><strong>FxTwitter profile</strong><br><code>api.fxtwitter.com/2/profile/{handle}/statuses</code></td>
+
+    <td>None</td>
+
+    <td><strong>A user's timeline</strong> as JSON — free, no login. (This is the rare "no-account timeline" find.)</td>
+
+    <td><span class="badge b-ver">Verified 200</span></td>
+
+  </tr>
+
+  <tr>
+
+    <td><strong>Official oEmbed</strong><br><code>publish.twitter.com/oembed?url=…</code></td>
+
+    <td>None — <strong>official</strong></td>
+
+    <td>HTML embed block, author_name, author_url, provider. Limited fields but <strong>sanctioned by X</strong> and effectively unlimited</td>
+
+    <td><span class="badge b-ver">Verified 200</span></td>
+
+  </tr>
+
+  <tr>
+
+    <td>vxtwitter <code>api.vxtwitter.com</code></td>
+
+    <td>None</td>
+
+    <td>—</td>
+
+    <td><span class="badge b-dead">Cloudflare blocked</span></td>
+
+  </tr>
+
+</table>
+
+
+<div class="ok">
+
+  <h4>✅ Why the Syndication API matters most</h4>
+
+  <p>It's the endpoint that powers embedded tweets on third-party sites, it's on a CDN (<code>cdn.syndication.twimg.com</code>), and it's far more tolerant than x.com itself. When you fetch a <strong>reply</strong>, the response includes a <code>parent</code> field with the <em>full parent tweet object</em> — so <strong>2 fetches give you a complete 3-tweet thread</strong>. It even works with curl's default User-Agent (no browser spoofing needed).</p>
+
+</div>
+
+
+<!-- ============ VERIFIED EVIDENCE ============ -->
+
+<h2 id="verified">2. Live test results (raw evidence)</h2>
+
+
+<h3>Syndication API — single tweet</h3>
+
+<div class="terminal">$ curl -s "https://cdn.syndication.twimg.com/tweet-result?id=2021699240393609717&token=0"
+
+HTTP_CODE: 200
+
+
+{
+
+  "__typename": "Tweet",
+
+  "favorite_count": 24,
+
+  "in_reply_to_screen_name": "BlockShaolin",
+
+  "in_reply_to_status_id_str": "2021695412122661028",
+
+  "lang": "en",
+
+  "created_at": "2026-02-11T21:33:54.000Z",
+
+  "display_text_range": [14, 34],
+
+  "entities": {"user_mentions": [{"id_str":"1033533167880175616","name":"katie","screen_name":"BlockShaolin"}]},
+
+  "id_str": "2021699240393609717",
+
+  "text": "@BlockShaolin Blocked for AI reply",
+
+  "user": {"id_str":"1577241403","name":"@levelsio","screen_name":"levelsio",
+
+           "is_blue_verified":true,"profile_image_shape":"Circle"},
+
+  "edit_control": {"edits_remaining":"5","is_edit_eligible":false},
+
+  "conversation_count": 0,
+
+  "isEdited": false, "isStaleEdit": false
+
+}</div>
+
+
+<h3>Rate-limit probe — 12 rapid sequential requests</h3>
+
+<div class="terminal">OK: 12 / FAILED(or non-200): 0      ← no throttle at this volume, browser UA
+
+HTTP:200 with curl's DEFAULT user-agent   ← no spoofing required</div>
+
+
+<h3>The catch — timeline variant is throttled</h3>
+
+<div class="terminal">$ curl "https://syndication.twitter.com/srv/timeline-profile/screen-name/elonmusk"
+
+Rate limit exceeded
+
+HTTP:429
+
+
+# Note: the *profile timeline* variant IS rate limited (esp. from datacenter IPs).
+
+# The per-tweet /tweet-result endpoint was not. Tweet lookup = reliable; timelines = not.</div>
+
+
+<h3>Deleted / suspended tweets</h3>
+
+<div class="terminal">{"__typename":"TweetTombstone","tombstone":{"text":{
+
+  "text":"This Post is from a suspended account. Learn more"}}}
+
+HTTP:200   ← returns HTTP 200 but a tombstone. Handle this in code.</div>
+
+
+<h3>FxTwitter — richest free payload</h3>
+
+<div class="terminal">$ curl "https://api.fxtwitter.com/levelsio/status/2021699240393609717"
+
+{"code":200,"message":"OK","tweet":{
+
+  "url":"https://x.com/levelsio/status/2021699240393609717",
+
+  "id":"2021699240393609717",
+
+  "text":"@BlockShaolin Blocked for AI reply",
+
+  "raw_text":{"text":"...","facets":[{"type":"mention","indices":[0,13],"id":"1033533167880175616"}]},
+
+  "author":{"screen_name":"levelsio","id":"1577241403",
+
+    "followers":956639,"following":3214,"likes":183332,"media_count":19629,
+
+    "name":"@levelsio","description":"…"}}}
+
+HTTP:200
+
+
+$ curl "https://api.fxtwitter.com/2/profile/levelsio/statuses"
+
+{"code":200,"results":[{"type":"status","url":"https://x.com/levelsio/status/2099918403628626343","id":"…"}]}
+
+HTTP:200            ← free timeline, no login
+
+
+Rate-limit probe: OK 10/10</div>
+
+
+<h3>Official oEmbed (needs <code>-L</code> to follow redirect)</h3>
+
+<div class="terminal">$ curl -sL "https://publish.twitter.com/oembed?url=https://x.com/levelsio/status/2021699240393609717&omit_script=true"
+
+{"url":"https://x.com/levelsio/status/2021699240393609717",
+
+ "author_name":"@levelsio","author_url":"https://x.com/levelsio",
+
+ "html":"<blockquote class=\"twitter-tweet\">…</blockquote>",
+
+ "width":550,"type":"rich","provider_name":"X","version":"1.0"}
+
+HTTP:200   ← note: without -L you get a 301 redirect first</div>
+
+
+<!-- ============ PLAYWRIGHT ============ -->
+
+<h2 id="playwright">3. Playwright / browser-automation projects (free)</h2>
+
+
+<div class="card star">
+
+  <h3>tweet-crawler (nullqwertyuiop / SuChenawa) <span class="badge b-ok">Best pure-Playwright pick</span></h3>
+
+  <p><a href="https://github.com/SuChenawa/tweet-crawler">github.com/SuChenawa/tweet-crawler</a> · Python 3.10+ · MIT</p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Guest mode (no login)</span>
+
+    <span class="tag green">Authenticated mode via cookies</span>
+
+    <span class="tag green">Async Playwright</span>
+
+    <span class="tag blue">Parses to dataclasses</span>
+
+  </div>
+
+  <p>Uses Playwright to <strong>intercept X's responses</strong> and parse them into manipulable dataclasses. Two modes:</p>
+
+  <ul>
+
+    <li><strong>Guest mode</strong> — basic tweet detail from a status link, no auth at all.</li>
+
+    <li><strong>Authenticated (cookies)</strong> — adds <strong>full reply threads</strong> and an extended dataset.</li>
+
+  </ul>
+
+  <pre><code>from playwright.async_api import async_playwright
+
+
+async with async_playwright() as p:
+
+    browser = await p.chromium.launch()
+
+    context = await browser.new_context()
+
+    page = await browser.new_page()
+
+    crawler = TwitterStatusCrawler(page, url)
+
+    await crawler.run()   # guest mode
+
+
+# Authenticated: add auth_token + ct0 cookies to context first
+
+# (never hardcode — read from env vars)</code></pre>
+
+  <p><strong>Extracts:</strong> tweet text, author username/profile, media links, reaction stats (likes, retweets), and replies in auth mode.</p>
+
+</div>
+
+
+<div class="card">
+
+  <h3>x-tweet-fetcher (ythx-101) <span class="badge b-new">Smart 3-backend router</span></h3>
+
+  <p><a href="github.com/ythx-101/x-tweet-fetcher">github.com/ythx-101/x-tweet-fetcher</a> · Python · MIT · <em>Built for AI agents</em></p>
+
+  <p>Arguably the cleverest free design: <strong>automatic fallback across three backends</strong> so you're never fully down.</p>
+
+  <table>
+
+    <tr><th>Backend</th><th>Deps</th><th>Speed</th><th>Covers</th></tr>
+
+    <tr><td><strong>fxtwitter</strong></td><td>None (stdlib)</td><td>⚡⚡ fast</td><td>Single tweets, user profiles</td></tr>
+
+    <tr><td><strong>nitter</strong></td><td>A Nitter instance</td><td>⚡ fast</td><td>Timeline, search, replies, mentions</td></tr>
+
+    <tr><td><strong>browser</strong></td><td>Camofox <em>or</em> Playwright</td><td>🐢 slow</td><td>Everything + <strong>Lists</strong> + <strong>X Articles</strong></td></tr>
+
+  </table>
+
+  <pre><code>pip install .
+
+xtf --url https://x.com/user/status/1234567890      # instant, zero config
+
+export XTF_NITTER=http://127.0.0.1:8788
+
+xtf --user elonmusk --limit 20                       # timeline
+
+xtf --search "openclaw" --limit 10                   # search
+
+xtf --user elonmusk --text-only                      # human-readable
+
+xtf --user elonmusk --limit 20 --ledger ~/tweets.db  # archive to SQLite</code></pre>
+
+  <p><strong>Nice touches:</strong> <code>--ledger</code> turns it into a local tweet library (SQLite, deduped by tweet_id, then searchable offline); machine-readable <code>error_code</code> values (<code>rate_limited</code>, <code>upstream_down</code>, <code>all_backends_failed</code>); cron-friendly exit codes; multi-instance Nitter failover.</p>
+
+</div>
+
+
+<div class="grid">
+
+  <div class="card">
+
+    <h3>Colorful-State (lixiansky)</h3>
+
+    <p>Playwright + stealth plugin system that auto-scrapes a user's tweets, translates via DeepSeek API, stores in Neon Postgres, and serves a modern web UI. <strong>Bypasses Nitter verification</strong> with stealth. Supports images/video (anti-hotlink bypass), dedupe, GitHub Actions auto-deploy.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>twitter-interactions-playwright-scraper (Bitbash)</h3>
+
+    <p>CLI-driven, headless, VPS-friendly. Scans the latest ~100 posts per profile, captures public comments from the past 7–10 days, filters for <strong>profiles with open DMs</strong>. <strong>Cookie rotation</strong> across multiple accounts. Exports CSV/TXT.</p>
+
+    <p class="sub">Claims: 100 profiles in 2–3 min, 98% success w/ cookie rotation, &lt;300MB RAM.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>tweet_scraper (pallavi1428)</h3>
+
+    <p>Simple Playwright scraper with a <strong>Gradio web UI</strong>. Login with credentials, pick 10–500 tweets, watch live progress, export JSON. Good for non-CLI users. Python 3.12.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>tweet-harvest (helmisatria)</h3>
+
+    <p><strong>Node.js</strong> CLI using Playwright. Scrapes tweets from search results by keyword + date range → CSV. Widely forked (also appears as <code>mhmdrazn/Tweets-Scraper</code>).</p>
+
+    <pre><code>npx -y tweet-harvest@2.6.0 \
+
+  -o "out.csv" -s "keyword" \
+
+  --tab "LATEST" -l 100 \
+
+  --token {auth_token}</code></pre>
+
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>scrapfly-scrapers / twitter-scraper <span class="badge b-ok">Maintained reference impl</span></h3>
+
+  <p><a href="https://github.com/scrapfly/scrapfly-scrapers/tree/main/twitter-scraper">github.com/scrapfly/scrapfly-scrapers</a> · ⭐1.1k · updated Sep 2026</p>
+
+  <p>Public, maintained open-source implementation of the <strong>intercept-the-GraphQL-XHR</strong> pattern: wait for <code>xhr:UserTweets</code> or <code>TweetResultByRestId</code>, then parse the JSON. Clone and run — the code is the valuable part, not the hosted API.</p>
+
+  <pre><code>wait_for_selector="xhr:UserTweets"        # profiles
+
+wait_for_selector="[data-testid='tweet']" # tweets
+
+# then filter browser_data["xhr_call"] for the response bodies</code></pre>
+
+</div>
+
+
+<!-- ============ STEALTH LAYER ============ -->
+
+<h2 id="stealth">4. The anti-detect browser layer (free)</h2>
+
+<p>Raw Playwright gets flagged instantly in headless mode. These free projects patch that — and they're the difference between a scraper that works and one that 403s.</p>
+
+
+<div class="grid3">
+
+  <div class="card">
+
+    <h3>Camoufox / Camofox <span class="badge b-new">Strongest</span></h3>
+
+    <p>A <strong>Firefox fork with C++-level fingerprint patches</strong> — deeper than JS-based stealth because the spoofing happens below the JS layer. Camofox wraps it as a REST browser server for AI agents. Default driver in x-tweet-fetcher.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Patchright <span class="badge b-ok">Drop-in</span></h3>
+
+    <p><strong>Patched, undetected version of Playwright</strong> — a drop-in replacement that automatically removes automation traces. Recommended for Python users who want the Playwright API unchanged. Caveat: auto-deploys chase Playwright releases, so bugs can appear after upstream changes.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>playwright-stealth</h3>
+
+    <p>JS-level evasion patches (navigator.webdriver, plugins, languages, etc.). Lighter than Camoufox, easier than Patchright, but shallower — C++-level patches beat JS-level ones against serious fingerprinting.</p>
+
+  </div>
+
+</div>
+
+
+<h3>TLS-fingerprint layer (lighter alternatives to a full browser)</h3>
+
+<p>If you don't need JS rendering, spoofing the <strong>TLS handshake</strong> is often enough — far cheaper than a headless browser:</p>
+
+<ul>
+
+  <li><strong>curl_cffi</strong> (Python) — impersonates real browser TLS/JA3 signatures. Used by <code>twscrape</code> (via <code>twscrape[curl]</code>) and <code>twifork</code> (via <code>twifork[impersonate]</code>).</li>
+
+  <li><strong>CycleTLS</strong> (Node) — same idea; used by <code>@the-convocation/twitter-scraper</code> to dodge Cloudflare 403s on login.</li>
+
+  <li><strong>Scrapling</strong>'s <code>StealthyFetcher</code> — adaptive, bypasses Cloudflare Turnstile without brittle selectors.</li>
+
+</ul>
+
+
+<!-- ============ PYTHON ============ -->
+
+<h2 id="python">5. Free Python libraries</h2>
+
+
+<div class="card star">
+
+  <h3>twifork (PawiX25 / MaayanLab) <span class="badge b-new">New find — use this over twikit</span></h3>
+
+  <p><a href="https://github.com/PawiX25/twifork">github.com/PawiX25/twifork</a> · MIT · updated Jun 2026</p>
+
+  <div class="pillrow">
+
+    <span class="tag green">Drop-in twikit replacement</span>
+
+    <span class="tag green">Fixes 15+ upstream bugs</span>
+
+    <span class="tag green">Optional TLS impersonation</span>
+
+    <span class="tag green">No API key</span>
+
+  </div>
+
+  <p><strong>Critical find:</strong> upstream <code>twikit==2.3.3</code> on PyPI is <strong>broken in multiple ways in 2026</strong>. twifork fixes them and still imports as <code>twikit</code>, so <code>from twikit import Client</code> keeps working unchanged.</p>
+
+  <h4>What it fixes</h4>
+
+  <ul>
+
+    <li><code>ClientTransaction / "Couldn't get KEY_BYTE indices"</code> — updated <code>ondemand.s.js</code> parsing for the new X webpack bundle</li>
+
+    <li>Sticky <code>404</code>s on <code>SearchTimeline</code> and <code>friends/list</code> (missing <code>frame_time</code> rounding in the transaction-id animation key)</li>
+
+    <li><code>KeyError</code> on missing optional fields; empty user <code>name</code>/<code>screen_name</code> (X moved fields out of <code>legacy</code>)</li>
+
+    <li><code>get_tweet_by_id</code> <code>KeyError: 'itemContent'</code>; <code>get_user_tweets</code> crash on empty timelines</li>
+
+    <li><code>get_trends</code> deprecated → rebuilt on <code>GenericTimelineById</code>, plus new <code>get_explore_page()</code></li>
+
+    <li><code>RecursionError</code> on rate-limit; <code>GuestClient.activate()</code> 404; captcha unlock path</li>
+
+  </ul>
+
+  <pre><code>pip install twifork
+
+pip install "twifork[impersonate]"   # browser TLS fingerprint, avoids some 403s
+
+
+from twikit import Client
+
+client = Client('en-US', impersonate='chrome124')
+
+await client.login(auth_info_1='user', auth_info_2='email',
+
+                   password='pw', cookies_file='cookies.json')
+
+tweets = await client.search_tweet('python', 'Latest')</code></pre>
+
+</div>
+
+
+<div class="card">
+
+  <h3>x-twitter-scraper (rrrrrredy) <span class="badge b-ok">True no-login GraphQL</span></h3>
+
+  <p><a href="https://github.com/rrrrrredy/x-twitter-scraper">github.com/rrrrrredy/x-twitter-scraper</a> · MIT · updated Jun 2026 · OpenClaw skill</p>
+
+  <p>Uses the <strong>GraphQL API with guest tokens — no account needed</strong>. Fetches user profiles, recent timelines (~20 tweets), and full single tweets including <strong>Note Tweet long-form text</strong>. Query IDs are auto-refreshable via a setup script (this is the usual thing that breaks).</p>
+
+  <pre><code>python3 scripts/x_scraper.py profile _LuoFuli
+
+python3 scripts/x_scraper.py timeline elonmusk --count 5
+
+python3 scripts/x_scraper.py tweet 2034379957913129140
+
+python3 scripts/x_scraper.py profile _LuoFuli --json</code></pre>
+
+  <p><strong>Features:</strong> no login · profiles (followers, following, bio, pinned) · ~20 recent tweets · JSON output · auto-query-ID refresh · <strong>hard stop after 3 consecutive failures</strong> (protects you from burning a session). Requires <code>httpx</code> and an upstream proxy via <code>X_PROXY</code> for X API access.</p>
+
+</div>
+
+
+<div class="grid">
+
+  <div class="card">
+
+    <h3>twscrape</h3>
+
+    <p>⭐2.8k · active Aug 2026 · async lib + CLI. <strong>Multi-account rotation</strong>, SQLite sessions, per-account proxies, built-in rate-limit handling, SNScrape-compatible models. Best for production-grade free scraping. Needs login cookies. Optional <code>curl</code> backend for TLS fingerprinting.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Scweet</h3>
+
+    <p>⭐1.6k · active Sep 2026. Tweets, profiles, <strong>followers + following</strong>, multi-account pooling, proxy support, async. Has a <strong>hosted Apify version that needs no cookies or proxies</strong> — a genuinely free no-login path. <code>pip install Scweet</code></p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>twikit (upstream)</h3>
+
+    <p>⭐4.7k. The popular original — but <strong>use twifork instead</strong> unless you specifically need upstream behavior. Same API surface, actively patched fork exists.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>TweeterPy</h3>
+
+    <p>⭐339 · Jul 2026. Profile-centric: username, id, bio, followers/followings, media, tweets.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Agent-Reach</h3>
+
+    <p>⭐82k · Sep 2026. Multi-platform CLI (X, Reddit, YouTube, GitHub, Bilibili, Xiaohongshu) for AI agents — <strong>zero API fees</strong>. MCP + Cursor + Claude Code integration.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>twitter-api-client</h3>
+
+    <p>⭐1.9k · <strong>last updated May 2024</strong> — verify before use. Covers v1, v2, and GraphQL APIs.</p>
+
+  </div>
+
+</div>
+
+
+<!-- ============ OTHER LANGUAGES ============ -->
+
+<h2 id="other">6. Node.js, Rust &amp; other languages</h2>
+
+
+<div class="card">
+
+  <h3>@the-convocation/twitter-scraper <span class="badge b-ok">Best Node option</span></h3>
+
+  <p>npm · <strong>v0.22.3 (Apr 2026)</strong> · actively maintained successor to the archived <code>n0madic/twitter-scraper</code></p>
+
+  <div class="pillrow">
+
+    <span class="tag green">TypeScript types bundled</span>
+
+    <span class="tag green">AsyncGenerator streams</span>
+
+    <span class="tag green">Cookie auth</span>
+
+    <span class="tag blue">CycleTLS for Cloudflare</span>
+
+    <span class="tag amber">Login needed for many ops</span>
+
+  </div>
+
+  <ul>
+
+    <li>Reverse-engineers X's private frontend API — <strong>no official API tokens</strong>.</li>
+
+    <li><strong>v0.22.0 overhauled login</strong> for anti-bot: preflight requests, JS instrumentation subtask, <strong>Castle token spoofing</strong>.</li>
+
+    <li><strong>Cookie auth is the recommended path</strong> (avoids anti-bot on automated login): export <code>ct0</code> + <code>auth_token</code> from your browser, then <code>scraper.setCookies()</code>.</li>
+
+    <li>SearchTimeline switched GET→POST (Apr 2026) to fix 404s after X blocked GET.</li>
+
+    <li>Rate-limit strategies: <code>WaitingRateLimitStrategy</code> (default, can wait <em>up to 13 minutes</em>) or <code>ErrorRateLimitStrategy</code>.</li>
+
+  </ul>
+
+  <pre><code>npm install @the-convocation/twitter-scraper
+
+npm install cycletls        # optional, for Cloudflare/TLS bypass
+
+
+const scraper = new Scraper({ fetch: cycleTLSFetch });
+
+await scraper.login(username, password, email);
+
+// or cookie-based:
+
+await scraper.setCookies(cookies); await scraper.isLoggedIn();
+
+
+for await (const t of scraper.getSearchTimeline('query', 20)) { … }</code></pre>
+
+  <p class="sub">⚠️ README warns: any account you log in with "is subject to being banned at any time."</p>
+
+</div>
+
+
+<div class="grid">
+
+  <div class="card">
+
+    <h3>twittxr (Owen3H)</h3>
+
+    <p>Node/bun wrapper around the <strong>Syndication API</strong> — the npm analogue of the free endpoint technique in §1. Best for setting up a user feed or single tweet.</p>
+
+    <ul>
+
+      <li>Retweets/replies toggles</li>
+
+      <li>Cookie param for <strong>NSFW/sensitive</strong> tweets</li>
+
+      <li>Optional <strong>Puppeteer</strong> fallback to bypass 403s</li>
+
+      <li>Browser-compatible (falls back to native fetch)</li>
+
+    </ul>
+
+    <p class="sub">Limitation: timelines capped at ~100 tweets (sometimes 20).</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>twikit-rust (ThotDjehuty)</h3>
+
+    <p>Rust implementation of core twikit components + <strong>PyO3 Python bindings</strong>. For when you want twikit's semantics at Rust speed.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>XActions (nirholas)</h3>
+
+    <p>⭐530 · Sep 2026. Node toolkit: scrapers, <strong>MCP server</strong>, CLI, browser scripts. No API fees. Auto follow/like/comment/scrape + unfollow tracking.</p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Xquik x-twitter-scraper</h3>
+
+    <p>⭐199 · JavaScript/TS. REST + MCP + SDKs + webhooks. Marketed as an X API alternative for AI agents.</p>
+
+  </div>
+
+</div>
+
+
+<!-- ============ EXTENSIONS ============ -->
+
+<h2 id="extensions">7. Free no-code browser extensions</h2>
+
+<table>
+
+  <tr><th>Extension</th><th>Browser</th><th>What it does</th><th>Notes</th></tr>
+
+  <tr>
+
+    <td><strong>𝕏-scraper</strong> (fmoncomble, v0.7)</td>
+
+    <td>Firefox <em>(Chromium dropped)</em></td>
+
+    <td>Extracts tweets from X search/advanced-search pages for text mining. Auto-scrolls and collects.</td>
+
+    <td><strong>Auto rate-limit handling since v0.5</strong> — paces to ~1 req/few sec so the 50-req/15-min limit resets before exhaustion. Exports <strong>XML/TXM, Sketch Engine, IRaMuTeQ, TXT, CSV, XLSX, JSON</strong>. Optional <strong>anonymization</strong> (usernames → <code>user_#</code>). Academic citation provided.</td>
+
+  </tr>
+
+  <tr>
+
+    <td><strong>xporter-extension</strong> (Lemelson)</td>
+
+    <td>Chrome</td>
+
+    <td>Free, <strong>unlimited</strong> export of X posts, followers, following</td>
+
+    <td>→ CSV, JSON, XLSX, or AI-friendly TXT</td>
+
+  </tr>
+
+  <tr>
+
+    <td><strong>Twitter Post Exporter</strong></td>
+
+    <td>Edge</td>
+
+    <td>Bulk export posts from any public profile</td>
+
+    <td>Privacy-focused (Microsoft Edge Add-ons)</td>
+
+  </tr>
+
+</table>
+
+<blockquote>𝕏-scraper's docs advise creating <strong>a dedicated throwaway account</strong> for scraping, and notes ~900 tweets before a 429 forces a cooldown — then download, wait a few minutes, narrow your search, and resume.</blockquote>
+
+
+<!-- ============ SELF HOST ============ -->
+
+<h2 id="selfhost">8. Self-hosted stacks &amp; the Nitter revival</h2>
+
+<p>Public Nitter instances are unreliable — but <strong>self-hosting changes the calculus</strong>, and several tools above are built around exactly that.</p>
+
+<pre><code># One command, then point tools at it
+
+docker run -d -p 8788:8080 --name nitter zedeus/nitter:latest
+
+
+# x-tweet-fetcher with failover across instances
+
+export XTF_NITTER=http://127.0.0.1:8788,https://your-backup-instance.example
+
+xtf --user elonmusk --limit 20</code></pre>
+
+<p><strong>Why bother:</strong> Nitter serves static HTML with no JS and no anti-bot — trivially scrapable with BeautifulSoup. The failure mode shifts from "does X block me" to "do I keep my instance alive."</p>
+
+<ul>
+
+  <li><strong>Realistic ceiling:</strong> self-hosting requires a pool of guest accounts + proxies; failure rate in production is high. Treat it as a <strong>backend of last resort / secondary source</strong>, not your primary pipeline.</li>
+
+  <li><strong>Best pattern:</strong> router with failover (x-tweet-fetcher does this natively) — Nitter first, browser fallback, never a silent empty result.</li>
+
+</ul>
+
+
+<!-- ============ MCP ============ -->
+
+<h2 id="mcp">9. Free MCP servers for AI agents</h2>
+
+<p>If your consumer is an LLM/agent, MCP is the cleanest free integration path.</p>
+
+<table>
+
+  <tr><th>Server</th><th>Notes</th></tr>
+
+  <tr><td><strong>twitter-scraper-mcp</strong> (takiAA)</td><td>Open-source MCP server providing tools to interact with X data</td></tr>
+
+  <tr><td><strong>twitterapi.io MCP</strong></td><td>Open-source server plugging live X data into Claude/Cursor. Sits on their API (100K free credits)</td></tr>
+
+  <tr><td><strong>XActions MCP</strong> (nirholas)</td><td>Part of the XActions Node toolkit; no API fees</td></tr>
+
+  <tr><td><strong>Xquik</strong></td><td>REST + MCP + SDKs + webhooks</td></tr>
+
+  <tr><td><strong>Agent-Reach</strong></td><td>⭐82k multi-platform MCP CLI, zero API fees</td></tr>
+
+</table>
+
+
+<!-- ============ MATRIX ============ -->
+
+<h2 id="matrix">10. Decision matrix — pick by what you need</h2>
+
+<table>
+
+  <tr><th>You need…</th><th>Use this free option</th><th>Why</th></tr>
+
+  <tr><td>A single tweet by ID, instantly, zero setup</td><td><strong>Syndication API</strong> or <strong>FxTwitter</strong></td><td>One curl, no auth, no deps. FxTwitter gives more author metadata</td></tr>
+
+  <tr><td>A whole thread</td><td><strong>Syndication API</strong>, follow <code>in_reply_to_status_id_str</code></td><td><code>parent</code> nesting = 2 fetches for 3 tweets</td></tr>
+
+  <tr><td>A user's timeline, no login</td><td><strong>FxTwitter</strong> <code>/2/profile/{handle}/statuses</code></td><td>Verified working, free, no account</td></tr>
+
+  <tr><td>Officially-sanctioned minimal data</td><td><strong>oEmbed</strong></td><td>X's own endpoint; HTML + author. Use <code>-L</code></td></tr>
+
+  <tr><td>Profiles / timelines / following at volume</td><td><strong>twscrape</strong> or <strong>Scweet</strong></td><td>Account pooling + proxy rotation; Scweet has a no-cookie hosted option</td></tr>
+
+  <tr><td>twikit but actually working in 2026</td><td><strong>twifork</strong></td><td>Drop-in replacement, 15+ upstream bugs fixed</td></tr>
+
+  <tr><td>Really no account at all</td><td><strong>x-twitter-scraper</strong> (rrrrrredy)</td><td>Guest-token GraphQL; ~20 tweets/user; fails safely after 3 errors</td></tr>
+
+  <tr><td>Maximum resilience, mixed needs</td><td><strong>x-tweet-fetcher</strong></td><td>3 backends + auto fallback + SQLite archive</td></tr>
+
+  <tr><td>Best stealth / won't get fingerprinted</td><td><strong>Camoufox</strong> (C++ patches) or <strong>Patchright</strong></td><td>C++-level beats JS-level evasion</td></tr>
+
+  <tr><td>Node.js project</td><td><strong>@the-convocation/twitter-scraper</strong></td><td>Actively maintained, typed, CycleTLS option</td></tr>
+
+  <tr><td>No-code / non-technical</td><td><strong>𝕏-scraper</strong> (Firefox) or <strong>xporter</strong> (Chrome)</td><td>Point, click, download CSV/XLSX/JSON</td></tr>
+
+  <tr><td>Lists &amp; X Articles</td><td><strong>x-tweet-fetcher</strong> browser backend</td><td>Only free tool found that covers both</td></tr>
+
+</table>
+
+
+<!-- ============ RECIPES ============ -->
+
+<h2 id="recipes">11. Copy-paste recipes</h2>
+
+
+<h3>A) Free single tweet — no keys, no deps (bash)</h3>
+
+<pre><code>curl -s "https://cdn.syndication.twimg.com/tweet-result?id=TWEET_ID&token=0" | jq .
+
+curl -s "https://api.fxtwitter.com/USERNAME/status/TWEET_ID" | jq .
+
+curl -sL "https://publish.twitter.com/oembed?url=https://x.com/USER/status/ID&omit_script=true"</code></pre>
+
+
+<h3>B) Free user timeline — no login</h3>
+
+<pre><code>curl -s "https://api.fxtwitter.com/2/profile/elonmusk/statuses" | jq '.results[].text'</code></pre>
+
+
+<h3>C) Thread reconstruction via Syndication <code>parent</code> nesting</h3>
+
+<pre><code>import httpx
+
+BASE = "https://cdn.syndication.twimg.com/tweet-result?id={}&token=0"
+
+
+def get(tid):
+
+    r = httpx.get(BASE.format(tid), timeout=15)
+
+    r.raise_for_status()
+
+    d = r.json()
+
+    if d.get("__typename") == "TweetTombstone":
+
+        return None           # deleted / suspended — handle this!
+
+    return d
+
+
+# 1 fetch gives you the tweet AND its parent
+
+tweet = get(reply_id)
+
+parent = tweet.get("parent")
+
+# walk the chain upward for a full thread
+
+chain, cur = [], tweet
+
+while cur and cur.get("in_reply_to_status_id_str"):
+
+    cur = get(cur["in_reply_to_status_id_str"])
+
+    if cur: chain.append(cur)</code></pre>
+
+
+<h3>D) Playwright GraphQL interception (the resilient DIY pattern)</h3>
+
+<pre><code>from playwright.sync_api import sync_playwright
+
+
+def scrape(url, wait_for):
+
+    with sync_playwright() as pw:
+
+        b = pw.chromium.launch(proxy={"server": PROXY})  # residential!
+
+        calls = []
+
+        page = b.new_page()
+
+        page.on("response", lambda r: calls.append(r)
+
+                if "UserTweets" in r.url or "TweetResultByRestId" in r.url else None)
+
+        page.goto(url)
+
+        page.wait_for_selector(wait_for)
+
+        return calls
+
+
+# scrape("https://x.com/elonmusk", "[data-testid='tweet']")</code></pre>
+
+<blockquote><strong>Why this survives:</strong> the browser requests its own current <code>doc_id</code>s, so you never hardcode the identifiers X rotates every 2–4 weeks. Pair with <strong>Camoufox or Patchright</strong> and residential proxies.</blockquote>
+
+
+<h3>E) twifork with TLS impersonation</h3>
+
+<pre><code>pip install "twifork[impersonate]"
+
+
+from twikit import Client
+
+client = Client('en-US', impersonate='chrome124')   # dodges some 403s
+
+await client.login(auth_info_1='u', auth_info_2='e@x.com',
+
+                   password='p', cookies_file='cookies.json')
+
+tweets = await client.search_tweet('python', 'Latest')</code></pre>
+
+
+<!-- ============ RISKS ============ -->
+
+<h2 id="risks">12. Risks, limits &amp; honest caveats</h2>
+
+<div class="warn">
+
+  <h4>⚠️ What will bite you</h4>
+
+  <ul>
+
+    <li><strong>Undocumented endpoints can vanish.</strong> The Syndication API and FxTwitter are unofficial. FxTwitter is a volunteer service. Build with <strong>fallbacks</strong>, not a single point of failure — this is exactly why x-tweet-fetcher's router design is smart.</li>
+
+    <li><strong>Handle <code>TweetTombstone</code>.</strong> Syndication returns <em>HTTP 200</em> with a tombstone for deleted/suspended accounts. Naive code will crash or ingest junk.</li>
+
+    <li><strong>Timelines ≠ single tweets.</strong> The tweet endpoint was rock solid in testing; the <code>timeline-profile</code> variant returned <strong>429 from a datacenter IP</strong>. Don't assume parity.</li>
+
+    <li><strong>Datacenter IPs are poison for x.com itself.</strong> Fine for CDN/syndication endpoints; fatal for browser automation. Budget for residential proxies (~$15/GB) if you go the Playwright route.</li>
+
+    <li><strong>Account-based tools carry ban risk.</strong> twscrape, twifork, Scweet, @the-convocation all use real sessions. Use a throwaway account, pace requests, rotate.</li>
+
+    <li><strong>Maintenance is the real price.</strong> Guest tokens, doc_ids, and transaction IDs rotate every 2–4 weeks. "Free" ≠ zero cost — budget 10–15 hrs/month for a DIY pipeline.</li>
+
+    <li><strong>ToS:</strong> public scraping is generally legal in the US (hiQ v. LinkedIn) but breaches X's Terms — which specify liquidated damages of <strong>$15,000 per 1M posts accessed in 24h</strong>. GDPR applies to EU personal data. Not legal advice — but don't ignore it.</li>
+
+  </ul>
+
+</div>
+
+
+<div class="ok">
+
+  <h4>✅ Bottom line</h4>
+
+  <p>You probably don't need to pay. Start with the <strong>free endpoints</strong> (Syndication for threads, FxTwitter for rich single tweets + free timelines, oEmbed for official sanction) — they cover a surprising amount with zero setup. Reach for <strong>twifork</strong> or <strong>twscrape</strong> when you need search, followers, or volume. Reach for a <strong>Camoufox/Patchright + GraphQL-interception</strong> browser stack when you need anything X gates behind a session. And always wire in at least one fallback — the single most common failure in this space is trusting one endpoint to stay up.</p>
+
+</div>
+
+
+<div class="footer">
+
+  Round 2 research · Endpoints marked <strong>Verified</strong> were curl-tested live from this sandbox (HTTP codes + payloads shown are real) · Sources: GitHub repos/READMEs, project docs, jonathansoma.com Playwright guide, ScrapFly, x-tweet-fetcher &amp; twifork docs · Status as of Sep 2026; the free-tool landscape changes fast, so re-verify before committing.
+
+</div>
+
+
+</div>
+
+</body>
+
+</html>
