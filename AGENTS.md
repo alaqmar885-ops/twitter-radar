@@ -941,3 +941,39 @@ Live result (2026-09-17): 361 findings verified -> **73 no-card offers**
 (Google AI Studio, OpenRouter, Ollama Cloud, Cloudflare Workers AI, ModelScope,
 NVIDIA NIM, Hugging Face free tiers, plus individual `:free` models), 2 rejected
 for requiring a card. Research backing: `docs/research/05_no_credit_card_free_ai.md`.
+
+### 20.8 Apex upgrades (precision, speed, operations)
+
+Four changes moved the radar from a keyword matcher to a measured pipeline.
+
+**1. Weighted offer-signal engine (`airadar/signals.py`).**
+The original triage was a substring test on a keyword list, so anything
+containing "free" passed - the verification pass then discarded roughly half of
+it. `signals.py` scores text against a weighted phrase table (`free tier` +3,
+`no credit card` +3, `free for` +3, bare `free` +1 ...), accumulates medium
+signals only when they reach a floor, and applies **hard vetoes**
+(`no free tier`, `no longer free`, `paid only` ...) that zero the score outright.
+`OfferClassifier` now decides purely on that evidence - the keyword fallback
+that let "open source contributions" through was removed.
+
+**2. Parallel execution (`airadar/router.py`, `run_radar.py verify`).**
+Sources are fetched concurrently via a thread pool (`workers` config, default 6)
+and verification runs the same way (`--workers N`). Store writes stay on the main
+thread because a sqlite connection is not safe to share across threads.
+
+**3. Change detection (`Store.new_offers_since`, `Store.last_run_ts`).**
+Offers keep `first_seen`, so a run can report what is genuinely new instead of
+re-listing the same findings.
+
+**4. Operations: `notify` and `doctor`.**
+`python run_radar.py notify --min-score 0.7` writes `data/alerts/alert_*.{md,json}`
+(listing new-since-last-run, no-card flags and promo codes) and POSTs the payload
+to `ALERT_WEBHOOK_URL` if that env var is set.
+`python run_radar.py doctor` validates config, secrets, dependencies, thresholds,
+data paths, the store and source availability - it is the first thing to run when
+something looks wrong.
+
+**Tests.** `tests/test_signals_precision.py` pins the behaviour that regressed in
+production: a set of negative strings (compiler threads, news roundups, "no longer
+free") must be rejected, and a set of positive strings must be accepted.
+`tests/test_airadar_smoke.py` still covers the offline end-to-end pipeline.

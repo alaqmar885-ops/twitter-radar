@@ -1,6 +1,6 @@
 {
   "offline": true,
-  "elapsed_s": 0.01,
+  "elapsed_s": 0.0,
   "items": 4,
   "kept": 3,
   "offers": 3,
@@ -50,7 +50,7 @@
         "rss": 1
       },
       "notes": [],
-      "elapsed": 0.006
+      "elapsed": 0.0
     },
     {
       "agent": "triage",
@@ -97,7 +97,7 @@
         "new_offers": 3
       },
       "notes": [],
-      "elapsed": 0.005
+      "elapsed": 0.0
     },
     {
       "agent": "reporter",
@@ -105,12 +105,12 @@
       "status": "ok",
       "counts": {
         "offers": 3,
-        "html": "data\\digests\\airadar_digest_1789623719.html",
-        "md": "data\\digests\\airadar_digest_1789623719.md",
-        "json": "data\\digests\\airadar_digest_1789623719.json"
+        "html": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789635208.html",
+        "md": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789635208.md",
+        "json": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789635208.json"
       },
       "notes": [],
-      "elapsed": 0.001
+      "elapsed": 0.004
     }
   ]
 }

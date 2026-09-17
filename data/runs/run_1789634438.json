@@ -1,0 +1,137 @@
+{
+  "offline": false,
+  "elapsed_s": 212.21,
+  "items": 574,
+  "kept": 98,
+  "offers": 87,
+  "top_offers": [
+    {
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "score": 0.895,
+      "label": "VERIFIED",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49552616"
+    },
+    {
+      "title": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://plexus.company"
+    },
+    {
+      "title": "Show HN: A writing coach that's not allowed to write your sentences",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://app.oghmere.com/try/HACKERNEWS2026"
+    },
+    {
+      "title": "DeepSeek API Free Credits",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits"
+    },
+    {
+      "title": "standard free trial of Google AI Pro",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_trial",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://felloai.com/ai-free-trials/"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 574,
+        "new_items": 76,
+        "twitter": 202,
+        "hackernews": 154,
+        "telegram": 28,
+        "mastodon": 48,
+        "rss": 45,
+        "html": 97
+      },
+      "notes": [],
+      "elapsed": 32.352
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 574,
+        "kept": 98,
+        "dropped": 476
+      },
+      "notes": [],
+      "elapsed": 0.023
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 87,
+        "from_items": 98
+      },
+      "notes": [],
+      "elapsed": 0.034
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 84,
+        "web_verified": 84,
+        "offers": 87
+      },
+      "notes": [],
+      "elapsed": 179.6
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 87,
+        "new_offers": 87
+      },
+      "notes": [],
+      "elapsed": 0.194
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789634438.html",
+        "md": "data\\digests\\airadar_digest_1789634438.md",
+        "json": "data\\digests\\airadar_digest_1789634438.json"
+      },
+      "notes": [],
+      "elapsed": 0.008
+    }
+  ]
+}

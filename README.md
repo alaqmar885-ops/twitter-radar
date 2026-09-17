@@ -214,12 +214,19 @@ bluesky (public API), instagram (optional, lazy).
 See [AGENT_TEAM.md](AGENT_TEAM.md).
 
 ```bash
+python run_radar.py doctor         # validate config, secrets, deps, sources
 python run_radar.py sources        # sources + live availability
-python run_radar.py run            # full multi-platform cycle
+python run_radar.py run            # full multi-platform cycle (parallel sources)
 python run_radar.py run --offline  # zero-network smoke run
+python run_radar.py verify         # refine + verify every finding (--workers N)
+python run_radar.py notify         # alert on the best findings (--min-score 0.7)
 python run_radar.py report         # re-render digest
 python run_radar.py status         # store stats
 ```
+
+Triage uses a weighted evidence engine (`airadar/signals.py`) rather than keyword
+matching, so "free tier / no credit card" style evidence is required and phrases
+like "no longer free" are vetoed.
 
 Research backing: [docs/research/03_platform_access_2026.md](docs/research/03_platform_access_2026.md)
 and [docs/research/04_free_ai_offer_sources.md](docs/research/04_free_ai_offer_sources.md).

@@ -64,7 +64,9 @@ class AgentTeam:
         }
 
         try:
-            runs = Path("data/runs")
+            # Configurable so tests never pollute the live run history (which
+            # change detection reads to answer "what is new since last run?").
+            runs = Path(getattr(self.cfg, "run_dir", "data/runs"))
             runs.mkdir(parents=True, exist_ok=True)
             (runs / f"run_{int(time.time())}.json").write_text(
                 json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8")

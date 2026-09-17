@@ -40,25 +40,54 @@ class SourceRouter:
                 out[s.name] = False
         return out
 
-    def fetch_all(self, limit: int | None = None) -> list:
+    def fetch_all(self, limit: int | None = None, workers: int | None = None) -> list:
+        """Fetch every available source, in parallel, then dedupe by item id.
+
+        Network-bound sources are the slowest part of a cycle; running them
+        concurrently cuts wall-clock time several-fold. Each source still
+        honours its own polite delay between *its* requests.
+        """
+        from concurrent.futures import ThreadPoolExecutor
+
         n = limit or getattr(self.cfg, "per_source_limit", 25)
-        seen = set()
-        items = []
+        w = max(1, int(workers or getattr(self.cfg, "workers", 6) or 1))
+        active = []
         for s in self._sources:
             try:
-                if not s.available():
+                if s.available():
+                    active.append(s)
+                else:
                     log.info("source %s unavailable - skipped", s.name)
-                    continue
-                got = s.fetch(limit=n)
             except Exception as exc:  # noqa: BLE001
-                log.warning("source %s failed: %s", s.name, exc)
-                continue
+                log.warning("source %s availability check failed: %s", s.name, exc)
+
+        results: dict = {}
+
+        def _one(src):
+            try:
+                return src.name, src.fetch(limit=n)
+            except Exception as exc:  # noqa: BLE001
+                log.warning("source %s failed: %s", src.name, exc)
+                return src.name, []
+
+        if len(active) > 1 and w > 1:
+            with ThreadPoolExecutor(max_workers=w) as ex:
+                for name, got in ex.map(_one, active):
+                    results[name] = got
+        else:
+            for src in active:
+                name, got = _one(src)
+                results[name] = got
+
+        seen = set()
+        items = []
+        for src in active:
             new = 0
-            for it in got or []:
+            for it in results.get(src.name, []) or []:
                 if it.id in seen:
                     continue
                 seen.add(it.id)
                 items.append(it)
                 new += 1
-            log.info("source %-10s -> %d items", s.name, new)
+            log.info("source %-10s -> %d items", src.name, new)
         return items

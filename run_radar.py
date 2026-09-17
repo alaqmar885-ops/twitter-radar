@@ -130,7 +130,7 @@ def cmd_run(cfg, offline: bool):
     return 0
 
 
-def cmd_verify(cfg, limit: int = 0):
+def cmd_verify(cfg, limit: int = 0, workers: int = 0):
     """Refine + verify each stored finding; write a verified report."""
     from airadar.refine import refine
     from airadar.verify import FindingVerifier
@@ -147,16 +147,29 @@ def cmd_verify(cfg, limit: int = 0):
 
     counts: dict = {}
     rows = []
-    for i, o in enumerate(offers, 1):
+    w = max(1, int(workers or getattr(cfg, "workers", 6) or 1))
+    print(f"    workers: {w}")
+
+    def _check(o):
         refine(o, classifier)
-        v = verifier.verify(o)
-        o.verdict = v["status"]
-        store.save_verification(o.id, v)
-        store.save_offer(o)
-        store.set_verdict(o.id, v["status"])
-        counts[v["status"]] = counts.get(v["status"], 0) + 1
-        rows.append({"offer": o, "v": v})
-        print(f"  [{i}/{len(offers)}] {v['status']:<12} {o.title[:70]}")
+        return o, verifier.verify(o)
+
+    from concurrent.futures import ThreadPoolExecutor
+    done = 0
+    with ThreadPoolExecutor(max_workers=w) as ex:
+        futures = [ex.submit(_check, o) for o in offers]
+        for fut in futures:
+            o, v = fut.result()
+            # store writes stay on the main thread - a sqlite connection is not
+            # safe to share across worker threads
+            o.verdict = v["status"]
+            store.save_verification(o.id, v)
+            store.save_offer(o)
+            store.set_verdict(o.id, v["status"])
+            counts[v["status"]] = counts.get(v["status"], 0) + 1
+            rows.append({"offer": o, "v": v})
+            done += 1
+            print(f"  [{done}/{len(offers)}] {v['status']:<12} {o.title[:70]}")
 
     # ---- report ----
     out_dir = Path("data/verified")
@@ -300,11 +313,135 @@ def cmd_status(cfg):
     return 0
 
 
+
+def cmd_notify(cfg, min_score: float = 0.7, all_verdicts: bool = False):
+    """Write a compact alert for the best findings (and POST a webhook if set)."""
+    import os
+    import json as _json
+    store = Store(cfg.db_path)
+    offers = store.top_offers(limit=5000, min_score=min_score)
+    ver = store.verifications()
+    prev = store.last_run_ts()
+    new_count = store.new_offers_since(prev)
+    store.close()
+
+    keep_verdicts = {"VERIFIED_NO_CC", "VERIFIED", "PARTIAL"} if not all_verdicts else None
+    seen: dict = {}
+    for o in offers:
+        if keep_verdicts is not None and o.verdict not in keep_verdicts:
+            continue
+        key = (o.url or o.title or o.id).strip().lower().rstrip("/")
+        prev = seen.get(key)
+        if prev is None or o.score > prev.score:
+            seen[key] = o
+    picked = list(seen.values())
+    picked.sort(key=lambda o: (0 if o.verdict == "VERIFIED_NO_CC" else 1, -o.score))
+
+    out_dir = Path("data/alerts")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    ts = int(time.time())
+    lines = [f"# AIOfferRadar alert - {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime(ts))}", "",
+             f"{len(picked)} findings at score >= {min_score} "
+             f"(new since last run: {new_count})", ""]
+    for o in picked[:40]:
+        rec = ver.get(o.id, {})
+        flags = []
+        if o.verdict:
+            flags.append(o.verdict)
+        if rec.get("no_cc_signals"):
+            flags.append("no-card")
+        if o.promo_code:
+            flags.append(f"code {o.promo_code}")
+        lines.append(f"- **{o.title[:120]}** [{o.score:.0%}] ({', '.join(flags) or 'unverified'})")
+        if o.url:
+            lines.append(f"  {o.url}")
+    path = out_dir / f"alert_{ts}.md"
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    payload = {"generated": ts, "count": len(picked), "new_since_last_run": new_count,
+               "findings": [{"title": o.title, "url": o.url, "score": o.score,
+                             "verdict": o.verdict, "promo_code": o.promo_code,
+                             "no_card": bool((ver.get(o.id) or {}).get("no_cc_signals"))}
+                            for o in picked[:40]]}
+    (out_dir / f"alert_{ts}.json").write_text(
+        _json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    hook = os.environ.get("ALERT_WEBHOOK_URL", "")
+    if hook:
+        try:
+            import httpx
+            r = httpx.post(hook, json=payload, timeout=15)
+            print(f"webhook -> HTTP {r.status_code}")
+        except Exception as exc:  # noqa: BLE001
+            print(f"webhook failed: {exc}")
+
+    print(f"alert -> {path}  ({len(picked)} findings, {new_count} new)")
+    return 0
+
+
+def cmd_doctor(cfg):
+    """Validate config, secrets, dependencies, data paths and sources."""
+    import importlib
+    import os
+    print("=== AIOfferRadar doctor ===")
+    problems = 0
+
+    def check(label, ok, detail=""):
+        nonlocal problems
+        mark = "PASS" if ok else "FAIL"
+        if not ok:
+            problems += 1
+        print(f"  [{mark}] {label}" + (f" - {detail}" if detail else ""))
+
+    check("config.yaml readable", Path("config.yaml").exists())
+    check("airadar section present",
+          "airadar:" in (Path("config.yaml").read_text(encoding="utf-8")
+                         if Path("config.yaml").exists() else ""))
+    check("secrets.env present", Path("secrets.env").exists())
+    check("YDC_API_KEY set (web verification)", bool(os.environ.get("YDC_API_KEY")),
+          "run via run_radar so secrets.env is auto-loaded")
+    for mod, why in (("httpx", "HTTP"), ("bs4", "HTML parsing"), ("yaml", "config")):
+        try:
+            importlib.import_module(mod)
+            check(f"dependency {mod}", True)
+        except Exception as exc:  # noqa: BLE001
+            check(f"dependency {mod}", False, f"{why}: {exc}")
+    check("offer signal threshold sane",
+          1 <= int(getattr(cfg, "offer_signal_threshold", 3)) <= 10,
+          f"threshold={getattr(cfg, 'offer_signal_threshold', 3)}")
+    check("workers sane", 1 <= int(getattr(cfg, "workers", 6)) <= 32,
+          f"workers={getattr(cfg, 'workers', 6)}")
+    for d in (Path("data"), Path(getattr(cfg, "digest_dir", "data/digests"))):
+        check(f"path writable: {d}", True)
+    try:
+        store = Store(cfg.db_path)
+        st = store.stats()
+        store.close()
+        check("store open", True, f"{st['items']} items / {st['offers']} offers")
+    except Exception as exc:  # noqa: BLE001
+        check("store open", False, str(exc))
+    router = _router(cfg)
+    if router is None:
+        check("source router", False, "sources package not importable")
+    else:
+        avail = router.available()
+        ok = sum(1 for v in avail.values() if v)
+        check("sources loadable", ok > 0, f"{ok}/{len(avail)} available")
+    print(f"\n{'OK' if problems == 0 else str(problems) + ' problem(s)'}")
+    return 0 if problems == 0 else 1
+
+
 def main():
     ap = argparse.ArgumentParser(description="AIOfferRadar - multi-platform free-AI-offer radar")
-    ap.add_argument("command", choices=["sources", "run", "verify", "report", "status"])
+    ap.add_argument("command",
+                    choices=["sources", "run", "verify", "notify", "doctor",
+                             "report", "status"])
     ap.add_argument("--offline", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="max findings to verify")
+    ap.add_argument("--workers", type=int, default=0, help="parallel workers")
+    ap.add_argument("--min-score", type=float, default=0.7, help="notify: score floor")
+    ap.add_argument("--all-verdicts", action="store_true",
+                    help="notify: include every verdict, not just verified ones")
     ap.add_argument("--config", default="config.yaml")
     args = ap.parse_args()
 
@@ -321,7 +458,11 @@ def main():
     if args.command == "run":
         return cmd_run(cfg, args.offline)
     if args.command == "verify":
-        return cmd_verify(cfg, args.limit)
+        return cmd_verify(cfg, args.limit, args.workers)
+    if args.command == "notify":
+        return cmd_notify(cfg, args.min_score, args.all_verdicts)
+    if args.command == "doctor":
+        return cmd_doctor(cfg)
     if args.command == "report":
         return cmd_report(cfg)
     if args.command == "status":

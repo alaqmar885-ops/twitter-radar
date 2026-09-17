@@ -1,8 +1,10 @@
-"""Offer detection + extraction (keywords, type, value, promo code, product)."""
+"""Offer classification with weighted evidence (see airadar/signals.py)."""
 from __future__ import annotations
 
-import re
 import logging
+import re
+
+from .signals import PRODUCT_PREFIX, is_offer_text, score_text
 
 log = logging.getLogger(__name__)
 
@@ -10,7 +12,8 @@ PROMO_PATTERNS = [
     re.compile(r"(?:promo\s*code|coupon\s*code|discount\s*code)\s*[:\-]?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,23})", re.I),
     re.compile(r"\bcode\s*[:\-]\s*([A-Za-z0-9][A-Za-z0-9_-]{2,23})", re.I),
     re.compile(r"\b(?:use|with|apply)\s+(?:code\s+)?([A-Z][A-Z0-9_-]{4,23})\b"),
-    re.compile(r"\b([A-Z]{3,}[0-9]{1,}[A-Z0-9]*)\b"),
+    # NOTE: a context-free "uppercase+digit" pattern was removed here. It matched
+    # model names and product codes (e.g. "GPT2") and produced false promo codes.
 ]
 
 TYPE_RULES = [
@@ -35,29 +38,39 @@ STOP = {"the", "a", "an", "is", "are", "for", "with", "and", "get", "now", "new"
         "free", "this", "that", "from", "your", "you", "our", "all", "how", "why",
         "what", "when", "we", "i", "my", "it", "to", "of", "in", "on", "at"}
 
-# Words that must never become a product/cluster key - they are section prefixes
-# ("Show HN:", "Ask HN:") or generic filler, and they cause unrelated posts to
-# be merged into one Offer.
 GENERIC = {"show", "ask", "tell", "hn", "showhn", "show hn", "ask hn", "introducing",
            "launch", "launching", "announcing", "free", "ai", "new", "update",
            "weekly", "daily", "news", "tool", "app", "model", "release"}
 
 
 class OfferClassifier:
+    """Decides whether an item advertises an offer, using weighted evidence."""
+
     def __init__(self, cfg):
         self.cfg = cfg
         self.keywords = [k.lower() for k in (getattr(cfg, "offer_keywords", None) or [])]
+        self.threshold = int(getattr(cfg, "offer_signal_threshold", 3) or 3)
+
+    def evidence(self, it) -> dict:
+        return score_text(f"{getattr(it, 'title', '')} {getattr(it, 'text', '')}")
 
     def is_offer(self, it) -> bool:
-        blob = (it.blob or "").lower()
+        """Weighted-evidence decision only.
+
+        There is deliberately NO keyword fallback here: an earlier version
+        accepted any configured multi-word keyword, which let phrases like
+        "open source contributions" through and reintroduced the false positives
+        the signal engine exists to prevent. Configured keywords feed the
+        evidence tables in airadar/signals.py instead.
+        """
+        blob = (getattr(it, "blob", "") or "")
         if not blob.strip():
             return False
-        return any(k in blob for k in self.keywords)
+        return is_offer_text(blob, self.threshold)
 
     def extract_promo_code(self, text: str) -> str:
-        t = text or ""
         for pat in PROMO_PATTERNS:
-            m = pat.search(t)
+            m = pat.search(text or "")
             if m:
                 code = m.group(1).strip().strip(".,;:")
                 if len(code) >= 3 and code.lower() not in STOP:
@@ -79,29 +92,22 @@ class OfferClassifier:
         return ""
 
     def _product(self, it) -> str:
-        """Best-effort product/entity name.
-
-        Returns "" when there is no trustworthy signal, so the caller falls back
-        to the URL/host as the cluster key (never a generic word like "Show").
-        """
-        title = (it.title or "").strip()
-        # 1) "Show HN: Foo ..." / "Ask HN: Foo" -> Foo
-        m = re.match(r"^(?:show|ask|tell)\s+hn\s*[:\-]\s*(.+)$", title, re.I)
+        title = (getattr(it, "title", "") or "").strip()
+        m = PRODUCT_PREFIX.match(title)
         if m:
             rest = m.group(1).strip()
             token = re.split(r"[\s\u2013\u2014\-:|,(]+", rest)[0].strip()
             if token and token.lower() not in GENERIC and token.lower() not in STOP:
                 return token
-        # 2) "<Name> is/now/offers/gives <something>" (needs a real proper noun)
-        blob = f"{title} {it.text[:200]}"
+        blob = f"{title} {getattr(it, 'text', '')[:200]}"
         m = re.search(r"\b([A-Z][A-Za-z0-9]{2,}(?:\s+[A-Z][A-Za-z0-9]{2,})?)\s+"
                       r"(?:is|now|free|offers?|gives?|has|launches?)\b", blob)
         if m:
             cand = m.group(1).strip()
             if cand.lower() not in GENERIC and cand.lower() not in STOP:
                 return cand
-        # 3) tool names with a known suffix (e.g. "-ai", ".ai", "GPT", "LLM")
-        m = re.search(r"\b([A-Za-z0-9][A-Za-z0-9._-]{2,20}(?:ai|gpt|llm|bot|lab|dev)\b)", title, re.I)
+        m = re.search(r"\b([A-Za-z0-9][A-Za-z0-9._-]{2,20}(?:ai|gpt|llm|bot|lab|dev)\b)",
+                      title, re.I)
         if m and m.group(1).lower() not in GENERIC:
             return m.group(1)
         return ""
@@ -109,8 +115,9 @@ class OfferClassifier:
     def classify(self, it) -> dict | None:
         if not self.is_offer(it):
             return None
-        blob = (it.blob or "").lower()
-        text = f"{it.title} {it.text}"
+        blob = (getattr(it, "blob", "") or "")
+        text = f"{getattr(it, 'title', '')} {getattr(it, 'text', '')}"
+        ev = score_text(blob)
         otype = self._offer_type(blob)
         code = self.extract_promo_code(text)
         value = self._value(text)
@@ -120,6 +127,10 @@ class OfferClassifier:
                 otype = "discount"
             elif "free" in blob:
                 otype = "free_tier"
-        summary = (it.title or it.text or "").strip()[:200]
-        return {"offer_type": otype, "value": value, "promo_code": code,
-                "product": product, "summary": summary}
+        return {
+            "offer_type": otype, "value": value, "promo_code": code,
+            "product": product,
+            "summary": (getattr(it, "title", "") or getattr(it, "text", ""))[:200].strip(),
+            "signal_score": ev["score"],
+            "signals": ev["matched"],
+        }

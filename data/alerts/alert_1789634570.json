@@ -1,0 +1,239 @@
+{
+  "generated": 1789634570,
+  "count": 29,
+  "new_since_last_run": 0,
+  "findings": [
+    {
+      "title": "How I built a debugging tool, and the agent, using it, found bugs in it",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "score": 0.895,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "GPT2",
+      "no_card": true
+    },
+    {
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Freeform – One click shareable AI generated apps",
+      "url": "https://sharefreeform.com",
+      "score": 0.775,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.775,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "I built a Mac app to make technical PDF textbooks easier to study",
+      "url": "https://marginstudy.app/",
+      "score": 0.775,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.775,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "I built a Mac app to make technical PDF textbooks easier to study",
+      "url": "https://marginstudy.app/",
+      "score": 0.775,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.765,
+      "verdict": "PARTIAL",
+      "promo_code": "NVFP4",
+      "no_card": false
+    },
+    {
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.765,
+      "verdict": "PARTIAL",
+      "promo_code": "NVFP4",
+      "no_card": false
+    },
+    {
+      "title": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "score": 0.75,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.75,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "score": 0.75,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.75,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Echodot – Local-first AI that writes replies in your tone",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "score": 0.745,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "An open source PDF Reader with annotation, notes, SRS, Linking support",
+      "url": "https://github.com/roshanmishra86/Mereth-Reader/releases/tag/v0.1.4",
+      "score": 0.745,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Echodot – Local-first AI that writes replies in your tone",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "score": 0.745,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Agenttik – work on multiple projects in parallel with AI agents",
+      "url": "https://github.com/pausan/agenttik",
+      "score": 0.73,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Chickadee – Free, local, open-source text-to-speech for web pages",
+      "url": "https://www.usechickadee.com",
+      "score": 0.73,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Chickadee – Free, local, open-source text-to-speech for web pages",
+      "url": "https://www.usechickadee.com",
+      "score": 0.73,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "RE: https:// hachyderm.io/@picchio74/117285 039600725525 debate today # bfoss26 # erfurt free entry free catering 3 panels the mom",
+      "url": "https://mastodon.social/@pflegende/117285141557295070",
+      "score": 0.725,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Rebuno - An open-source runtime for production agents",
+      "url": "https://github.com/rebuno/rebuno",
+      "score": 0.7,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Pizza Bot – An inbox for AI agents that work in the background",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "score": 0.7,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Pizza Bot – An inbox for AI agents that work in the background",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "score": 0.7,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Rebuno - An open-source runtime for production agents",
+      "url": "https://github.com/rebuno/rebuno",
+      "score": 0.7,
+      "verdict": "PARTIAL",
+      "promo_code": "",
+      "no_card": false
+    }
+  ]
+}

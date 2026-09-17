@@ -66,11 +66,14 @@ class AIConfig:
     threads_usernames: list = field(default_factory=list)
     instagram_usernames: list = field(default_factory=list)
     offer_keywords: list = field(default_factory=lambda: list(DEFAULT_OFFER_KEYWORDS))
+    offer_signal_threshold: int = 3    # weighted-evidence floor for triage
+    workers: int = 6                   # parallel source / verify workers
     min_offer_score: float = 0.35
     per_source_limit: int = 25
     request_timeout: int = 20
     delay_between_requests: float = 1.0
     db_path: str = "data/airadar.db"
+    run_dir: str = "data/runs"
     digest_dir: str = "data/digests"
     top_n: int = 25
 
@@ -93,12 +96,13 @@ def load_ai_config(path="config.yaml") -> AIConfig:
         "youtube_channel_ids", "bluesky_queries", "telegram_channels",
         "mastodon_instance", "mastodon_tags", "rss_feeds", "html_watch",
         "threads_usernames", "instagram_usernames", "offer_keywords",
-        "db_path", "digest_dir",
+        "db_path", "digest_dir", "run_dir",
     ):
         if key in section and section[key] is not None:
             setattr(cfg, key, section[key])
     for key in ("min_offer_score", "per_source_limit", "request_timeout",
-                "delay_between_requests", "top_n"):
+                "delay_between_requests", "top_n", "offer_signal_threshold",
+                "workers"):
         if key in section and section[key] is not None:
             setattr(cfg, key, section[key])
     return cfg

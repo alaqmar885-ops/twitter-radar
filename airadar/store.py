@@ -160,6 +160,38 @@ class Store:
             out.append(o)
         return out
 
+    def last_run_ts(self) -> float:
+        """Timestamp of the PREVIOUS completed run (0.0 if there is none).
+
+        The newest run file belongs to the cycle that just finished, so change
+        detection must compare against the one before it - otherwise every run
+        reports "0 new".
+        """
+        import glob
+        import json as _json
+        live = []
+        for path in sorted(glob.glob("data/runs/run_*.json")):
+            try:
+                payload = _json.loads(Path(path).read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if payload.get("offline"):
+                continue          # test/offline artifacts are not real cycles
+            live.append(path)
+        if not live:
+            return 0.0
+        try:
+            name = live[-1].rsplit("run_", 1)[-1].split(".")[0]
+            return float(name)
+        except Exception:
+            return 0.0
+
+    def new_offers_since(self, ts: float = 0.0) -> int:
+        """How many offers were first seen after ts (change detection)."""
+        cur = self._conn.execute(
+            "SELECT COUNT(*) FROM offers WHERE first_seen > ?", (ts,))
+        return int(cur.fetchone()[0])
+
     def _load_items(self, ids: list) -> list:
         if not ids:
             return []

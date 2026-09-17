@@ -21,6 +21,7 @@ def _cfg(tmp_db: str):
     cfg = load_ai_config(ROOT / "config.yaml")
     cfg.db_path = tmp_db
     cfg.digest_dir = str(ROOT / "data" / "digests_test")
+    cfg.run_dir = str(ROOT / "data" / "runs_test")
     cfg.top_n = 10
     return cfg
 

@@ -133,10 +133,13 @@ airadar:
   threads_usernames: []
   instagram_usernames: []
   offer_keywords: ["free", "free tier", "free trial", "free credits", "free access", "no cost", "lifetime deal", "ltd", "promo code", "coupon", "100% off", "90% off", "discount", "giveaway", "beta access", "open source", "$0", "free forever", "student", "startup credits"]
+  offer_signal_threshold: 3      # weighted-evidence floor for triage
+  workers: 6                     # parallel source/verify workers
   min_offer_score: 0.35
   per_source_limit: 25
   request_timeout: 20
   delay_between_requests: 1.0
   db_path: data/airadar.db
+  run_dir: data/runs
   digest_dir: data/digests
   top_n: 25
