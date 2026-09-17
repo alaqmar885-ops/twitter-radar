@@ -1,0 +1,17 @@
+offers: 246
+labels: {'HIGH': 47, 'LOW': 110, 'MEDIUM': 51, 'VERIFIED': 38}
+verdicts: {'CARD_REQUIRED': 51, 'NOT_AN_OFFER': 15, 'NO_URL': 25, 'PARTIAL': 16, 'UNREACHABLE': 7, 'VERIFIED': 33, 'VERIFIED_NO_CC': 36, 'WEAK': 63}
+
+top by score:
+  [VERIFIED] 94% How I built a debugging tool, and the agent, using it, found bugs in it
+  [VERIFIED] 88% Plexus – Telemetry for hardware teams who could build it but shouldn't
+  [VERIFIED] 88% Freeform – One click shareable AI generated apps
+  [VERIFIED] 84% Community curated list of 310 AI providers offering $4.3k free credits
+  [VERIFIED] 82% Google AI Studio free tier
+  [VERIFIED] 82% OpenRouter free tier
+  [VERIFIED] 82% Ollama Cloud free tier
+  [VERIFIED] 82% Cloudflare Workers AI free tier
+  [VERIFIED] 82% ModelScope free tier
+  [VERIFIED] 82% NVIDIA NIM free tier
+  [VERIFIED] 82% Hugging Face free tier
+  [VERIFIED] 82% Free AI APIs and models — every free tier, compared

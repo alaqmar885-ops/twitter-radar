@@ -14,7 +14,23 @@ def clean_title(text: str, limit: int = 130) -> str:
     return t[:limit].rstrip()
 
 
-def refine(offer, classifier) -> object:
+JUNK = ("skip to content", "menu", "sign in", "log in", "cookie", "javascript")
+
+
+def _looks_like_scrape(text: str) -> bool:
+    t = (text or "").lower()
+    if len(text or "") > 140:
+        return True
+    if any(j in t for j in JUNK):
+        return True
+    # nav/listing noise: many single-letter or very short tokens
+    words = (text or "").split()
+    if words and sum(1 for w in words if len(w) <= 2) / len(words) > 0.4:
+        return True
+    return False
+
+
+def refine(offer, classifier, page_title: str = "") -> object:
     """Clean up an Offer in place using the classifier + its own items."""
     best = None
     for it in (getattr(offer, "items", []) or []):
@@ -32,6 +48,10 @@ def refine(offer, classifier) -> object:
             offer.url = best.url or ""
     else:
         offer.title = clean_title(offer.title)
+    # If the headline looks like scraped navigation/listing text, prefer the
+    # destination page's own <title> - that is usually the real product name.
+    if page_title and _looks_like_scrape(offer.title):
+        offer.title = clean_title(page_title)
     if not offer.title:
         offer.title = clean_title(offer.product or offer.url)
     return offer

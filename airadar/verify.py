@@ -47,6 +47,14 @@ UPI_SIGNALS = [
     "netbanking", "net banking", "autopay", "mandate",
 ]
 
+# Discussion/aggregator pages contain other people's words, so finding
+# "free tier" on them proves nothing about a real offer. They cannot be
+# treated as authoritative evidence.
+DERIVATIVE_HOSTS = (
+    "news.ycombinator.com", "reddit.com", "lobste.rs", "x.com", "twitter.com",
+    "t.me", "mastodon.social", "producthunt.com", "dev.to", "medium.com",
+)
+
 _TAG = re.compile(r"<[^>]+>")
 
 
@@ -65,6 +73,9 @@ class FindingVerifier:
 
     def verify(self, offer) -> dict:
         url = (offer.url or "").strip()
+        from urllib.parse import urlparse as _up
+        host = _up(url).netloc.lower()
+        derivative = any(d in host for d in DERIVATIVE_HOSTS)
         base = {"page_status": 0, "signals": [], "no_cc_signals": [],
                 "card_signals": [], "india_signals": [], "upi_signals": [],
                 "web_hits": 0, "page_title": "", "notes": []}
@@ -129,6 +140,10 @@ class FindingVerifier:
             status = "PARTIAL"
         else:
             status = "WEAK"
+
+        if derivative and status in ("VERIFIED", "VERIFIED_NO_CC", "PARTIAL"):
+            status = "DERIVATIVE"
+            base["notes"].append("discussion/aggregator page - not authoritative evidence")
 
         offer.link_ok = True
         offer.web_verified = status in ("VERIFIED", "VERIFIED_NO_CC")

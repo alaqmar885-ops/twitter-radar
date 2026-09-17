@@ -81,7 +81,7 @@ def _enricher(cfg):
 def _fixtures():
     return [
         Item(id="tw:fixture1", platform="twitter", author="levelsio", title="Free tier",
-             text="Cursor Pro free for 2 weeks with code CURSORFREE - limited time!",
+             text="Cursor AI Pro free for 2 weeks with code CURSORFREE - limited time!",
              url="https://example.com/cursor", created_at="2026-09-17T09:00:00Z",
              metrics={"likes": 120}),
         Item(id="hn:fixture2", platform="hackernews", author="pg",
@@ -93,7 +93,7 @@ def _fixtures():
              text="Lifetime deal on AI writer - 90% off today only. Promo code: SAVE90",
              url="https://example.com/ltd", created_at="2026-09-16T18:00:00Z", metrics={}),
         Item(id="rss:fixture4", platform="rss", author="blog", title="Weekly news",
-             text="Nothing to see here, just a regular product update.",
+             text="Nothing to see here, just a regular AI product update.",
              url="https://example.com/news", created_at="2026-09-15T10:00:00Z", metrics={}),
     ]
 
@@ -138,8 +138,11 @@ def cmd_verify(cfg, limit: int = 0, workers: int = 0):
 
     store = Store(cfg.db_path)
     classifier = OfferClassifier(cfg)
+    scorer = OfferScorer(cfg)
     enricher = _enricher(cfg)
     verifier = FindingVerifier(cfg, enricher=enricher)
+    dupes = store.dedupe_by_url()
+    print(f"=== collapsed {dupes} duplicate offers by URL ===")
 
     offers = store.top_offers(limit=limit or 5000)
     print(f"=== Verifying {len(offers)} findings "
@@ -163,8 +166,10 @@ def cmd_verify(cfg, limit: int = 0, workers: int = 0):
             # store writes stay on the main thread - a sqlite connection is not
             # safe to share across worker threads
             o.verdict = v["status"]
+            refine(o, classifier, page_title=v.get("page_title", ""))
+            scorer.apply_verdict(o)          # score must respect the evidence
             store.save_verification(o.id, v)
-            store.save_offer(o)
+            store.upsert_offer_by_url(o)
             store.set_verdict(o.id, v["status"])
             counts[v["status"]] = counts.get(v["status"], 0) + 1
             rows.append({"offer": o, "v": v})

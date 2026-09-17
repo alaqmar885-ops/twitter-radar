@@ -1,0 +1,327 @@
+{
+  "generated": 1789638694,
+  "count": 66,
+  "new_since_last_run": 0,
+  "findings": [
+    {
+      "title": "How I built a debugging tool, and the agent, using it, found bugs in it",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "score": 0.942,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "GPT2",
+      "no_card": true
+    },
+    {
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.876,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Freeform – One click shareable AI generated apps",
+      "url": "https://sharefreeform.com",
+      "score": 0.876,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.835,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Google AI Studio free tier",
+      "url": "https://itsfree.ai/provider/google-ai-studio/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "OpenRouter free tier",
+      "url": "https://itsfree.ai/provider/openrouter/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Ollama Cloud free tier",
+      "url": "https://itsfree.ai/provider/ollama-cloud/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Cloudflare Workers AI free tier",
+      "url": "https://itsfree.ai/provider/cloudflare-workers-ai/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "ModelScope free tier",
+      "url": "https://itsfree.ai/provider/cloud-modelscope/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "NVIDIA NIM free tier",
+      "url": "https://itsfree.ai/provider/nvidia-nim/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Hugging Face free tier",
+      "url": "https://itsfree.ai/provider/huggingface/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Free AI APIs and models — every free tier, compared",
+      "url": "https://itsfree.ai/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "15 Best Free LLM APIs 2026: Tested Limits, No Credit Card - TokenMix Blog",
+      "url": "https://tokenmix.ai/blog/free-llm-api",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet.",
+      "url": "https://glama.ai/mcp/connectors/uk.minia2a/minia2a-mcp",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "FreeLLMAPI Pricing — free router, $19/yr Premium",
+      "url": "https://freellmapi.co/pricing",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "free AI image generators and editors",
+      "url": "https://felloai.com/free-ai-photo-generator-editor/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Free Hosting",
+      "url": "https://toolfreebie.com/category/free-hosting/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Tool Freebie",
+      "url": "https://toolfreebie.com/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Free AI coding agents",
+      "url": "https://itsfree.ai/free-ai-coding-agents/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Free APIs with no sign-up",
+      "url": "https://itsfree.ai/free-ai-apis-without-signup/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "DeepSeek V4 Flash for free",
+      "url": "https://itsfree.ai/model/deepseek-v4-flash/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "GLM 5.2 for free",
+      "url": "https://itsfree.ai/model/glm-5/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Nemotron 3 Ultra for free",
+      "url": "https://itsfree.ai/model/nemotron/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "DeepSeek V4 for free",
+      "url": "https://itsfree.ai/model/deepseek-v4/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "GPT-OSS 120B for free",
+      "url": "https://itsfree.ai/model/gpt-oss-120b/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Llama 3.3 70B for free",
+      "url": "https://itsfree.ai/model/llama-3-3-70b/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Qwen 3 for free",
+      "url": "https://itsfree.ai/model/qwen3/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "DeepSeek 5M Free Tokens: Make Them Last 30 Days, Not 4",
+      "url": "https://tokenmix.ai/blog/deepseek-5m-tokens-make-it-last-30-days",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Free API Keys",
+      "url": "https://www.free-model.com/free-llm-api-keys/",
+      "score": 0.821,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "ResumeSkip – automatically tailor your resume to jobs",
+      "url": "https://resumeskip.com/",
+      "score": 0.819,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Papermill Press – An AI-friendly markup language for PDF generation",
+      "url": "https://news.ycombinator.com/item?id=48477708",
+      "score": 0.806,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Wyro – Draw a backend on a canvas, export TypeScript with no lock-in",
+      "url": "https://news.ycombinator.com/item?id=49134292",
+      "score": 0.806,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "CredScore – Deterministic wallet risk scoring, no model in the path",
+      "url": "https://www.credscore.us/",
+      "score": 0.806,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Saor.io – Persistent memory for AI agents, free, connects via MCP",
+      "url": "https://saor.io",
+      "score": 0.806,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "Mail Memories – A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "score": 0.782,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "CleanMyMedia – organize decades of photos, with local face recognition",
+      "url": "https://cleanmymedia.com",
+      "score": 0.769,
+      "verdict": "VERIFIED_NO_CC",
+      "promo_code": "",
+      "no_card": true
+    },
+    {
+      "title": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "score": 0.818,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.818,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "Chickadee – Free, local, open-source text-to-speech for web pages",
+      "url": "https://www.usechickadee.com",
+      "score": 0.806,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    },
+    {
+      "title": "RE: https:// hachyderm.io/@picchio74/117285 039600725525 debate today # bfoss26 # erfurt free entry free catering 3 panels the mom",
+      "url": "https://mastodon.social/@pflegende/117285141557295070",
+      "score": 0.804,
+      "verdict": "VERIFIED",
+      "promo_code": "",
+      "no_card": false
+    }
+  ]
+}

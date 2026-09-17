@@ -1,0 +1,128 @@
+# AIOfferRadar - Free AI Offers Digest
+
+_Generated 2026-09-17 10:00 UTC_
+
+## [VERIFIED] Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents
+**Score 84%** - `free_tier` - **$19**
+<https://news.ycombinator.com/item?id=49552616>
+_platforms: hackernews_
+
+## [HIGH] DeepSeek API Free Credits
+**Score 75%** - `free_credits`
+<https://tokenmix.ai/blog/deepseek-api-free-credits>
+_platforms: html_
+
+## [HIGH] standard free trial of Google AI Pro
+**Score 75%** - `free_trial`
+<https://felloai.com/ai-free-trials/>
+_platforms: html_
+
+## [HIGH] Show HN: Blue – open-source governance for coding agents
+**Score 74%** - `open_source`
+<https://bluee.sh/>
+_platforms: hackernews_
+
+## [HIGH] Show HN: A writing coach that's not allowed to write your sentences
+**Score 73%** - `free_credits`
+<https://app.oghmere.com/try/HACKERNEWS2026>
+_platforms: hackernews_
+
+## [HIGH] Show HN: Chauffeur – One Click restore of your aplication Context
+**Score 72%** - `free_tier` - **free forever**
+<https://www.emaginasion.com/>
+_platforms: hackernews_
+
+## [HIGH] Show HN: Usero MCP, give your coding agent your user feedback
+**Score 70%** - `free_credits` - **$0**
+<https://usero.io/docs/mcp>
+_platforms: hackernews_
+
+## [HIGH] Show HN: Community curated list of 310 AI providers offering $4.3k free credits
+**Score 70%** - `free_credits` - **$4.3**
+<https://www.uprouter.online/>
+_platforms: hackernews_
+
+## [HIGH] Show HN: Ardent, a code-first agent for non-engineering work
+**Score 69%** - `free_credits` - code `FIRST`
+<https://ardent.ai/>
+_platforms: hackernews_
+
+## [HIGH] FreeLLMAPI Pricing — free router, $19/yr Premium
+**Score 68%** - `free_tier` - **$19**
+<https://freellmapi.co/pricing>
+_platforms: html_
+
+## [HIGH] Pricing — Simple, transparent plans | Api.Airforce
+**Score 68%** - `free_credits` - **$0.00**
+<https://api.airforce/pricing>
+_platforms: html_
+
+## [HIGH] minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls pe
+**Score 68%** - `free_trial`
+<https://glama.ai/mcp/connectors/uk.minia2a/minia2a-mcp>
+_platforms: html_
+
+## [HIGH] Free trial
+**Score 68%** - `free_trial`
+<https://claudecoupons.com/claude-free-trial>
+_platforms: html_
+
+## [HIGH] Free LLM API Providers — Get Your API Key, No Credit Card Required | free-model.com
+**Score 68%** - `free_tier`
+<https://www.free-model.com/providers/>
+_platforms: html_
+
+## [HIGH] 15 Best Free LLM APIs 2026: Tested Limits, No Credit Card - TokenMix Blog
+**Score 68%** - `free_tier`
+<https://tokenmix.ai/blog/free-llm-api>
+_platforms: html_
+
+## [HIGH] Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models
+**Score 68%** - `free_credits` - **$0.05**
+<https://tokenmix.ai/blog/groq-api-pricing>
+_platforms: html_
+
+## [HIGH] Free AI APIs and models — every free tier, compared
+**Score 68%** - `free_tier`
+<https://itsfree.ai/>
+_platforms: html_
+
+## [HIGH] Hugging Face free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/huggingface/>
+_platforms: html_
+
+## [HIGH] NVIDIA NIM free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/nvidia-nim/>
+_platforms: html_
+
+## [HIGH] ModelScope free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/cloud-modelscope/>
+_platforms: html_
+
+## [HIGH] Cloudflare Workers AI free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/cloudflare-workers-ai/>
+_platforms: html_
+
+## [HIGH] Ollama Cloud free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/ollama-cloud/>
+_platforms: html_
+
+## [HIGH] OpenRouter free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/openrouter/>
+_platforms: html_
+
+## [HIGH] Google AI Studio free tier
+**Score 68%** - `free_tier`
+<https://itsfree.ai/provider/google-ai-studio/>
+_platforms: html_
+
+## [HIGH] Free APIs with no credit card
+**Score 68%** - `free_credits`
+<https://itsfree.ai/free-ai-apis-without-credit-card/>
+_platforms: html_

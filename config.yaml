@@ -144,6 +144,7 @@ airadar:
   threads_usernames: []
   instagram_usernames: []
   offer_keywords: ["free", "free tier", "free trial", "free credits", "free access", "no cost", "lifetime deal", "ltd", "promo code", "coupon", "100% off", "90% off", "discount", "giveaway", "beta access", "open source", "$0", "free forever", "student", "startup credits"]
+  require_ai_relevance: true       # only AI-related offers
   offer_signal_threshold: 3      # weighted-evidence floor for triage
   workers: 6                     # parallel source/verify workers
   min_offer_score: 0.35

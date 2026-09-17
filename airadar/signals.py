@@ -84,4 +84,46 @@ def is_offer_text(text: str, threshold: int = DEFAULT_THRESHOLD) -> bool:
     return s["score"] >= threshold
 
 
+# The radar hunts *AI* offers. Without this gate a hardware-telemetry tool or
+# a general SaaS discount qualifies on the word "free" alone - a large share of
+# the noise in early reports.
+AI_TERMS = [
+    "ai", "a.i.", "llm", "gpt", "claude", "gemini", "grok", "deepseek", "qwen",
+    "llama", "mistral", "model", "models", "neural", "machine learning", " ml ",
+    "inference", "prompt", "agent", "chatbot", "copilot", "embedding", "rag",
+    "diffusion", "transformer", "openai", "anthropic", "hugging face", "huggingface",
+    "token", "fine-tune", "generative", "\u5927\u6a21\u578b", "\u6a21\u578b",
+]
+
+# Hosts that are unambiguously AI providers - exempt from the keyword gate.
+AI_HOSTS = (
+    "openrouter.ai", "huggingface.co", "groq.com", "cerebras.ai", "mistral.ai",
+    "deepseek.com", "together.ai", "deepinfra.com", "fireworks.ai", "novita.ai",
+    "siliconflow.com", "modelscope.cn", "ollama.com", "agentrouter.org",
+    "aimlapi.com", "bazaarlink.ai", "chutes.ai", "featherless.ai", "glama.ai",
+    "perplexity.ai", "anthropic.com", "openai.com", "google.dev", "aistudio.google.com",
+)
+
+
+# Short tokens ("ai", "ml") must match as whole words, otherwise "available",
+# "email" or "said" would satisfy the AI gate.
+_AI_WORD = re.compile(r"\b(ai|ml|llm|gpt|rag)\b", re.I)
+_AI_HOST_RE = None
+
+
+def is_ai_related(text: str) -> bool:
+    low = f" {(text or '').lower()} "
+    if any(h in low for h in AI_HOSTS):
+        return True
+    if _AI_WORD.search(low):
+        return True
+    for t in AI_TERMS:
+        t = t.strip()
+        if len(t) <= 3:
+            continue                      # handled by the word-boundary pass
+        if t and t in low:
+            return True
+    return False
+
+
 PRODUCT_PREFIX = re.compile(r"^\s*(?:show|ask|tell)\s+hn\s*[:\-]\s*(.+)$", re.I)

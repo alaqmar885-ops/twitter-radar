@@ -22,10 +22,10 @@ NEGATIVES = [
 ]
 
 POSITIVES = [
-    "Cursor Pro free for 2 weeks, no credit card required",
+    "Cursor AI Pro free for 2 weeks, no credit card required",
     "Free tier available, start free today",
     "Get $20 in free credits, no card needed",
-    "Lifetime deal: 90% off with promo code SAVE90",
+    "Lifetime deal on the AI writer: 90% off with promo code SAVE90",
     "Open source model released, self-hosted for free",
 ]
 
@@ -53,7 +53,7 @@ def test_classifier_full_flow():
     from airadar.classify import OfferClassifier
     c = OfferClassifier(cfg)
     good = Item(id="1", platform="x", title="Free tier, no credit card",
-                text="Start free with 500 free credits today")
+                text="Start free with 500 free credits for our AI API today")
     bad = Item(id="2", platform="x", title="Compiler contribution guide",
                text="Open for open source contributions")
     assert c.is_offer(good) is True

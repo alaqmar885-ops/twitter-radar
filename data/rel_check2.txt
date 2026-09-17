@@ -1,0 +1,19 @@
+offers: 247
+labels: {'HIGH': 17, 'LOW': 119, 'MEDIUM': 51, 'VERIFIED': 60}
+verdicts: {'CARD_REQUIRED': 51, 'DERIVATIVE': 6, 'NOT_AN_OFFER': 15, 'NO_URL': 26, 'PARTIAL': 15, 'UNREACHABLE': 8, 'VERIFIED': 31, 'VERIFIED_NO_CC': 32, 'WEAK': 63}
+
+top by score:
+  [VERIFIED] 93%  Plexus – Telemetry for hardware teams who could build it but shouldn't
+  [VERIFIED] 91%  Community curated list of 310 AI providers offering $4.3k free credits
+  [VERIFIED] 90%  Google AI Studio free tier
+  [VERIFIED] 90%  OpenRouter free tier
+  [VERIFIED] 90%  Ollama Cloud free tier
+  [VERIFIED] 90%  Cloudflare Workers AI free tier
+  [VERIFIED] 90%  ModelScope free tier
+  [VERIFIED] 90%  NVIDIA NIM free tier
+  [VERIFIED] 90%  Hugging Face free tier
+  [VERIFIED] 90%  Free AI APIs and models — every free tier, compared
+  [VERIFIED] 90%  15 Best Free LLM APIs 2026: Tested Limits, No Credit Card - TokenMix Blog
+  [VERIFIED] 90%  minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agen
+  [VERIFIED] 90%  FreeLLMAPI Pricing — free router, $19/yr Premium
+  [VERIFIED] 90%  free AI image generators and editors

@@ -1,0 +1,1229 @@
+{
+  "generated": 1789638694,
+  "counts": {
+    "VERIFIED_NO_CC": 36,
+    "WEAK": 63,
+    "CARD_REQUIRED": 51,
+    "NOT_AN_OFFER": 15,
+    "PARTIAL": 16,
+    "VERIFIED": 33,
+    "UNREACHABLE": 7,
+    "NO_URL": 25
+  },
+  "verified": [
+    {
+      "title": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "score": 0.818,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "DeepSeek API Free Credits 2026: 5M Grant Is Not Guaranteed - TokenMix Blog"
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.818,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "ChatGPT for Academic Researchers: Rules and How to Apply"
+    },
+    {
+      "title": "Chickadee – Free, local, open-source text-to-speech for web pages",
+      "url": "https://www.usechickadee.com",
+      "score": 0.806,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Chickadee — reads pages aloud, on your machine"
+    },
+    {
+      "title": "RE: https:// hachyderm.io/@picchio74/117285 039600725525 debate today # bfoss26 # erfurt free entry free catering 3 panels the mom",
+      "url": "https://mastodon.social/@pflegende/117285141557295070",
+      "score": 0.804,
+      "type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "mastodon"
+      ],
+      "page_status": 200,
+      "signals": [
+        "try free",
+        "free"
+      ],
+      "web_hits": 4,
+      "page_title": "pflegende: &quot;debate today #bfoss26 #erfurt free entry free …&quot; - Mastodon"
+    },
+    {
+      "title": "Ardent, a code-first agent for non-engineering work",
+      "url": "https://ardent.ai/",
+      "score": 0.784,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "FIRST",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Ardent AI"
+    },
+    {
+      "title": "AI music generators with free tiers",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Best AI Music Generators 2026: Ranked, Tested &amp; Compared"
+    },
+    {
+      "title": "claiming Google AI Pro free for students",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Google AI Pro for Students 2026: Is It Still Free?"
+    },
+    {
+      "title": "Free credits for startups · Free LLM API Hub",
+      "url": "https://freellmapihub.com/programs/startups",
+      "score": 0.776,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Free credits for startups · Free LLM API Hub"
+    },
+    {
+      "title": "Pricing — Simple, transparent plans | Api.Airforce",
+      "url": "https://api.airforce/pricing",
+      "score": 0.776,
+      "type": "free_credits",
+      "value": "$0.00",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Pricing — Simple, transparent plans | Api.Airforce"
+    },
+    {
+      "title": "how to get Perplexity Pro for free or cheap",
+      "url": "https://felloai.com/how-to-claim-perplexity-pro-for-free-or-cheap/",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "How to Get Perplexity Pro for Free or Cheap (2026)"
+    },
+    {
+      "title": "Vercel vs Netlify vs Cloudflare: Free Static Hosting",
+      "url": "https://toolfreebie.com/vercel-netlify-cloudflare/",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Vercel vs Netlify vs Cloudflare: Free Static Hosting"
+    },
+    {
+      "title": "Free AI APIs",
+      "url": "https://toolfreebie.com/category/free-ai-apis/",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Free AI APIs - Tool Freebie"
+    },
+    {
+      "title": "8 OpenRouter Alternatives 2026: Free or Below-Market Pricing",
+      "url": "https://tokenmix.ai/blog/openrouter-alternative-free-cheaper",
+      "score": 0.776,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "8 OpenRouter Alternatives 2026: Free or Below-Market Pricing - TokenMix Blog"
+    },
+    {
+      "title": "VidScio – Identify movie/series from a URL, image or description",
+      "url": "https://www.vidscio.com",
+      "score": 0.774,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "What Movie Is This? AI Movie Finder &amp; Identifier | VidScio"
+    },
+    {
+      "title": "I built a site to share and find Claude Code passes",
+      "url": "https://claudecoupons.com",
+      "score": 0.774,
+      "type": "free_credits",
+      "value": "$10 in",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Claude Code Passes | Claude Coupons"
+    },
+    {
+      "title": "I built an AI music generator with some harnesses",
+      "url": "https://onlymusic.ai",
+      "score": 0.774,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Free AI Music Generator, No Sign Up | onlymusic.ai"
+    },
+    {
+      "title": "Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "url": "https://github.com/DomWane/workers-personal-agent",
+      "score": 0.774,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - DomWane/workers-personal-agent: Personal AI agent on Cloudflare Workers: Durable Object per conversation, markdown memory in R2, ve"
+    },
+    {
+      "title": "MCP app for Android, drive apps via AI (no root, PII redacted locally)",
+      "url": "https://github.com/danielealbano/android-remote-control-mcp/",
+      "score": 0.774,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - danielealbano/android-remote-control-mcp: An MCP Server for Android running on the phone, optmized for token usage, supports also f"
+    },
+    {
+      "title": "Vantage – One prioritized health action per day from Apple Health",
+      "url": "https://www.vantagehealthapp.com/",
+      "score": 0.774,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Vantage: A coach, not a dashboard."
+    },
+    {
+      "title": "Search Router – retrieval-ready web search for AI agents",
+      "url": "https://github.com/search-router/simple-search",
+      "score": 0.761,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "discount"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - search-router/simple-search: Open-source reference app on top of the Search Router API: FastAPI + Jinja metasearch service with plu"
+    },
+    {
+      "title": "Strata, real-time Markdown editor you can mount as a filesystem",
+      "url": "https://strata.space/show",
+      "score": 0.761,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "pricing",
+        "free"
+      ],
+      "web_hits": 4,
+      "page_title": "Live demo — Strata"
+    },
+    {
+      "title": "OSS Web Based AI Video Studio (Vivijure)",
+      "url": "https://news.ycombinator.com/item?id=48891809",
+      "score": 0.761,
+      "type": "free_tier",
+      "value": "$5",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "free"
+      ],
+      "web_hits": 4,
+      "page_title": "Show HN: OSS Web Based AI Video Studio (Vivijure) | Hacker News"
+    },
+    {
+      "title": "Generous free tier for SERP and AI web scraping",
+      "url": "https://cloro.dev/",
+      "score": 0.761,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "cloro | The API for Google Search and AI Answers"
+    },
+    {
+      "title": "GlyPho – Generate editable SVG families from prompts",
+      "url": "https://www.glypho.app/",
+      "score": 0.761,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "AI SVG Generator for Editable, Consistent SVG Sets | GlyPho"
+    },
+    {
+      "title": "Sleezr – Manage your hosts file without opening a terminal",
+      "url": "https://www.sleezr.com/en",
+      "score": 0.753,
+      "type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "ToggleHosts: Hosts File Manager with Automatic DNS Flush"
+    },
+    {
+      "title": "Lifetime Deals",
+      "url": "https://zplatform.ai/ai-deals/best-ai-lifetime-deals/",
+      "score": 0.752,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Best AI Lifetime Deals 2026: 13 I&#39;d Actually Buy | zPlatform.ai"
+    },
+    {
+      "title": "Best AI Lifetime Deals 2026: 13 I'd Actually Buy | zPlatform.ai",
+      "url": "https://zplatform.ai/ai-deal/",
+      "score": 0.752,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Best AI Lifetime Deals 2026: 13 I&#39;d Actually Buy | zPlatform.ai"
+    },
+    {
+      "title": "Briefing AI | Walk In. Win the Room.",
+      "url": "https://getbriefing.io/",
+      "score": 0.737,
+      "type": "lifetime_deal",
+      "value": "$49",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "try free",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Briefing AI | Walk In. Win the Room."
+    },
+    {
+      "title": "B AI Deals Best Black Friday AI Deals 2026 Which AI tools actually discount on Black Friday 2026 across 90 tracked: verdicts, coup",
+      "url": "https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/",
+      "score": 0.727,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Best Black Friday AI Deals 2026: What Actually Discounts"
+    },
+    {
+      "title": "Claude student discount guide",
+      "url": "https://felloai.com/claude-student-discount/",
+      "score": 0.727,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Claude Student Discount 2026: Real Routes, No Fake Codes"
+    },
+    {
+      "title": "AgentRouter 接入说明",
+      "url": "https://agentrouter.org/docs",
+      "score": 0.669,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "off",
+        "免费额度",
+        "免费"
+      ],
+      "web_hits": 4,
+      "page_title": "AgentRouter 接入说明"
+    },
+    {
+      "title": "AI tools for students and researchers",
+      "url": "https://felloai.com/ai-tools-for-students-and-researchers/",
+      "score": 0.669,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Best AI Tools for Students and Researchers in 2026"
+    },
+    {
+      "title": "how students can use AI for presentations, essays, and study docs",
+      "url": "https://felloai.com/how-students-can-use-ai-for-presentations-essays-and-study-docs/",
+      "score": 0.669,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "How Students Can Use AI for Presentations &amp; Essays"
+    },
+    {
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.696,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - lucastononro/cc-traj-seg: Trajectory segmentation for long Claude Code sessions: a pane that keeps a running account of what the ag"
+    },
+    {
+      "title": "I built a Mac app to make technical PDF textbooks easier to study",
+      "url": "https://marginstudy.app/",
+      "score": 0.696,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "PDF Study Tool for Mac — Textbook Notes | Margin"
+    },
+    {
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.691,
+      "type": "open_source",
+      "value": "$1",
+      "promo_code": "NVFP4",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "ukisai/Swift-Qwen3.8-27b · Hugging Face"
+    },
+    {
+      "title": "Echodot – Local-first AI that writes replies in your tone",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "score": 0.68,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - ohkariku-boop/Echodot: Echo your voice across every app. · GitHub"
+    },
+    {
+      "title": "An open source PDF Reader with annotation, notes, SRS, Linking support",
+      "url": "https://github.com/roshanmishra86/Mereth-Reader/releases/tag/v0.1.4",
+      "score": 0.68,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "discount"
+      ],
+      "web_hits": 4,
+      "page_title": "Release Mereth Reader v0.1.4 · roshanmishra86/Mereth-Reader · GitHub"
+    },
+    {
+      "title": "Agenttik – work on multiple projects in parallel with AI agents",
+      "url": "https://github.com/pausan/agenttik",
+      "score": 0.671,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - pausan/agenttik: Manage multiple projects and agents with ease · GitHub"
+    },
+    {
+      "title": "Rebuno - An open-source runtime for production agents",
+      "url": "https://github.com/rebuno/rebuno",
+      "score": 0.655,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "discount"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - rebuno/rebuno: Execution runtime for production agents · GitHub"
+    },
+    {
+      "title": "Pizza Bot – An inbox for AI agents that work in the background",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "score": 0.655,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "discount"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - pizza-bot-app/pizza-bot: A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph. · GitHub"
+    },
+    {
+      "title": "Roled – User and role management across multiple applications",
+      "url": "https://github.com/roledio/roled",
+      "score": 0.639,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - roledio/roled: Open source, centralized user and role management platform for all your projects. Self-hosted or cloud. · GitHub"
+    },
+    {
+      "title": "FutureSearch, AI forecasting you can verify",
+      "url": "https://futuresearch.ai/",
+      "score": 0.626,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "FutureSearch: Search the Future"
+    },
+    {
+      "title": "atrium – a resumable, tiling workspace manager for Claude Code, Codex",
+      "url": "https://getatrium.dev",
+      "score": 0.626,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "atrium — The agent workspace that adapts to you"
+    },
+    {
+      "title": "Backprompter – create, test, and deploy agents without a back end",
+      "url": "https://backprompter.com/",
+      "score": 0.622,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Backprompter — Build, Test &amp; Deploy AI Agents Without a Backend"
+    },
+    {
+      "title": "Self-hosted company OS, Claude Code and Codex agents in departments",
+      "url": "https://github.com/OtoDock/oto-dock",
+      "score": 0.622,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "GitHub - OtoDock/oto-dock: Your personal AI agent platform — self-hosted, BYO Claude/Codex subscription · GitHub"
+    },
+    {
+      "title": "Cadenya – An Agent Runtime",
+      "url": "https://www.cadenya.com/",
+      "score": 0.606,
+      "type": "discount",
+      "value": "$20",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Cadenya — Bring agentic possibilities to life"
+    },
+    {
+      "title": "SaaS launch tomorrow – lifetime deal or subscription?",
+      "url": "https://news.ycombinator.com/item?id=44232217",
+      "score": 0.602,
+      "type": "lifetime_deal",
+      "value": "$19",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "web_hits": 4,
+      "page_title": "Ask HN: SaaS launch tomorrow – lifetime deal or subscription? | Hacker News"
+    },
+    {
+      "title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) 90% Off! 34 Reviews $49.00 $495.00",
+      "url": "https://www.stacksocial.com/sales/imagiyo-ai-image-generator-standard-plan-lifetime-subscription",
+      "score": 0.592,
+      "type": "discount",
+      "value": "90% Off",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "signals": [
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4,
+      "page_title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) | StackSocial"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "A free search console for grant making",
+      "url": "https://data.charitysense.com/grants",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Vending Machine Lab – Build business, leave for 2 wks, see what breaks",
+      "url": "https://vending-machine-lab.pages.dev/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "unSnag – Display tasks you can do and graph task dependencies",
+      "url": "https://unsnag.app",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Ear Training Exercise",
+      "url": "https://clarena.app/app/try",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "SyntheticAIdata – synthetic data for CV, 100k free credits/month",
+      "url": "https://app.syntheticaidata.com/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "imgcmd: strumento open source per generare immagini # PNG in locale in modo sicuro # OpenSource # CLI # Developers # Tech # DevToo",
+      "url": "https://mastodon.uno/@WebAppsMagazine/117285012457417961",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Tiktokenizer Count tokens before you spend them. Handy for staying inside a free quota. utility",
+      "url": "https://tiktokenizer.vercel.app",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Cogram Studio – CAD and BIM workspace for humans and agents",
+      "url": "https://studio.cogram.com/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "RxCheck – Replacement for the discontinued NLM drug interaction API",
+      "url": "https://www.rxcheck.dev/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Brolly, a plain-text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "A detailed air alert map of Ukraine and Russia, built on free tier",
+      "url": "https://uavradar.live/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Salestrics – An open MCP server and CRM for AI-native revenue teams",
+      "url": "https://www.salestrics.com/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "I created a gallery of 3D icons, free to download",
+      "url": "https://www.ai-suguan.com/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "I built a CLI tool that uses AI to document an entire Python codebase",
+      "url": "https://stirring-dieffenbachia-dfcdcf.netlify.app/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "status": "NOT_AN_OFFER",
+      "notes": [
+        "target page contains no free/offer signal"
+      ]
+    },
+    {
+      "title": "Halo 3's Guardian, playable in the browser, as my personal website",
+      "url": "https://runboli.com",
+      "status": "UNREACHABLE",
+      "notes": [
+        "fetch failed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      ]
+    },
+    {
+      "title": "🐧 Xbox classic Lost Odyssey has a experimental PC build - now with a Linux version Recently we had the Blue Dragon unofficial open",
+      "url": "https://igeek.gamer-geek-news.com/@feed/statuses/01M2Q4CYFPHRWBAXPCGP1WD48H",
+      "status": "UNREACHABLE",
+      "notes": [
+        "fetch failed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      ]
+    },
+    {
+      "title": "Config in 30 seconds Claude Code, Cursor, Codex, Gemini CLI — each tool has its own config format. Pick a tool, pick a free model,",
+      "url": "https://free-model.com/config/",
+      "status": "UNREACHABLE",
+      "notes": [
+        "HTTP 451"
+      ]
+    },
+    {
+      "title": "Easily deploy vibecode apps through MCP",
+      "url": "https://zerolith.io/",
+      "status": "UNREACHABLE",
+      "notes": [
+        "fetch failed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      ]
+    },
+    {
+      "title": "InsAIts V2 – Real-time monitoring for multi-agent AI communication",
+      "url": "https://github.com/Nomadu27/InsAIts",
+      "status": "UNREACHABLE",
+      "notes": [
+        "HTTP 404"
+      ]
+    },
+    {
+      "title": "TeardownHQ, teardowns/playbooks of how indie startups grew",
+      "url": "https://teardownhq.io",
+      "status": "UNREACHABLE",
+      "notes": [
+        "HTTP 503"
+      ]
+    },
+    {
+      "title": "Chat with AI Models on an Infinite Canvas",
+      "url": "https://www.rabbitholes.ai",
+      "status": "UNREACHABLE",
+      "notes": [
+        "fetch failed: [WinError 10054] An existing connection was forcibly closed by the remote host"
+      ]
+    }
+  ]
+}

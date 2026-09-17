@@ -19,6 +19,15 @@ TYPE_STRENGTH = {
     "discount": 0.7, "other": 0.35,
 }
 
+# How much the verification verdict constrains the final score. A finding
+# whose page showed no real evidence must never look like a strong lead, which
+# is what made earlier alerts untrustworthy.
+VERDICT_WEIGHT = {
+    "VERIFIED_NO_CC": 1.0, "VERIFIED": 0.9, "PARTIAL": 0.6,
+    "WEAK": 0.25, "NOT_AN_OFFER": 0.05, "UNREACHABLE": 0.0,
+    "NO_URL": 0.2, "CARD_REQUIRED": 0.35, "DERIVATIVE": 0.3, "": 0.5,
+}
+
 PLATFORM_CRED = {
     "hackernews": 0.75, "twitter": 0.65, "bluesky": 0.55, "mastodon": 0.5,
     "youtube": 0.6, "telegram": 0.5, "reddit": 0.6, "rss": 0.65,
@@ -29,6 +38,24 @@ PLATFORM_CRED = {
 class OfferScorer:
     def __init__(self, cfg):
         self.cfg = cfg
+
+    def apply_verdict(self, o) -> "object":
+        """Blend the raw score with the evidence verdict and cap bad evidence.
+
+        Without this, a page with no offer signal could still present at 90%
+        because engagement/recency are generous - the single biggest source of
+        the "flaky" feel.
+        """
+        vw = VERDICT_WEIGHT.get((getattr(o, "verdict", "") or ""), 0.5)
+        blended = round(o.score * 0.55 + vw * 0.45, 3)
+        if vw <= 0.3:
+            # unproven or contradicted evidence can never be a strong lead
+            blended = min(blended, 0.35)
+        o.score = blended
+        o.label = self.label(o.score, bool(getattr(o, "web_verified", False)))
+        if vw <= 0.3:
+            o.label = "LOW"
+        return o
 
     def label(self, score: float, verified: bool) -> str:
         if verified and score >= 0.80:

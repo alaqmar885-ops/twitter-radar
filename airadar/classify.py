@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 import re
 
-from .signals import PRODUCT_PREFIX, is_offer_text, score_text
+from .signals import PRODUCT_PREFIX, is_ai_related, is_offer_text, score_text
 
 log = logging.getLogger(__name__)
 
@@ -50,6 +50,7 @@ class OfferClassifier:
         self.cfg = cfg
         self.keywords = [k.lower() for k in (getattr(cfg, "offer_keywords", None) or [])]
         self.threshold = int(getattr(cfg, "offer_signal_threshold", 3) or 3)
+        self.require_ai = bool(getattr(cfg, "require_ai_relevance", True))
 
     def evidence(self, it) -> dict:
         return score_text(f"{getattr(it, 'title', '')} {getattr(it, 'text', '')}")
@@ -66,7 +67,14 @@ class OfferClassifier:
         blob = (getattr(it, "blob", "") or "")
         if not blob.strip():
             return False
-        return is_offer_text(blob, self.threshold)
+        if not is_offer_text(blob, self.threshold):
+            return False
+        # must plausibly be an AI offer, not any discounted software
+        if getattr(self, "require_ai", True):
+            hay = f"{blob} {getattr(it, 'url', '')}"
+            if not is_ai_related(hay):
+                return False
+        return True
 
     def extract_promo_code(self, text: str) -> str:
         for pat in PROMO_PATTERNS:

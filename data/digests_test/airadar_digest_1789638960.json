@@ -1,0 +1,83 @@
+{
+  "generated": 1789638960,
+  "offers": [
+    {
+      "id": "eb04e75b62e4",
+      "title": "Free tier",
+      "summary": "Free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "CURSORFREE",
+      "product": "Pro",
+      "url": "https://example.com/cursor",
+      "platforms": [
+        "twitter"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": false,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "twitter",
+          "author": "levelsio",
+          "url": "https://example.com/cursor",
+          "text": "Cursor AI Pro free for 2 weeks with code CURSORFREE - limited time!"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "e259c5f40726",
+      "title": "Show HN: Free AI credits for developers",
+      "summary": "Show HN: Free AI credits for developers",
+      "offer_type": "free_credits",
+      "value": "50% off",
+      "promo_code": "",
+      "product": "",
+      "url": "https://example.com/credits",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": false,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "pg",
+          "url": "https://example.com/credits",
+          "text": "We give $20 in free credits, no credit card. 50% off first month."
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "af2a822f1ab1",
+      "title": "Lifetime deal",
+      "summary": "Lifetime deal",
+      "offer_type": "lifetime_deal",
+      "value": "90% off",
+      "promo_code": "SAVE90",
+      "product": "",
+      "url": "https://example.com/ltd",
+      "platforms": [
+        "telegram"
+      ],
+      "score": 0.6,
+      "label": "HIGH",
+      "link_ok": false,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "telegram",
+          "author": "chan",
+          "url": "https://example.com/ltd",
+          "text": "Lifetime deal on AI writer - 90% off today only. Promo code: SAVE90"
+        }
+      ],
+      "web_sources": []
+    }
+  ]
+}

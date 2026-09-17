@@ -1,0 +1,137 @@
+{
+  "offline": false,
+  "elapsed_s": 193.8,
+  "items": 606,
+  "kept": 104,
+  "offers": 93,
+  "top_offers": [
+    {
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "score": 0.845,
+      "label": "VERIFIED",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49552616"
+    },
+    {
+      "title": "DeepSeek API Free Credits",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits"
+    },
+    {
+      "title": "standard free trial of Google AI Pro",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_trial",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://felloai.com/ai-free-trials/"
+    },
+    {
+      "title": "Show HN: Blue – open-source governance for coding agents",
+      "score": 0.745,
+      "label": "HIGH",
+      "type": "open_source",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://bluee.sh/"
+    },
+    {
+      "title": "Show HN: A writing coach that's not allowed to write your sentences",
+      "score": 0.73,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://app.oghmere.com/try/HACKERNEWS2026"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 606,
+        "new_items": 54,
+        "twitter": 202,
+        "hackernews": 154,
+        "telegram": 28,
+        "mastodon": 49,
+        "rss": 45,
+        "html": 128
+      },
+      "notes": [],
+      "elapsed": 33.059
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 606,
+        "kept": 104,
+        "dropped": 502
+      },
+      "notes": [],
+      "elapsed": 0.029
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 93,
+        "from_items": 104
+      },
+      "notes": [],
+      "elapsed": 0.039
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 90,
+        "web_verified": 90,
+        "offers": 93
+      },
+      "notes": [],
+      "elapsed": 160.384
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 93,
+        "new_offers": 93
+      },
+      "notes": [],
+      "elapsed": 0.284
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789639213.html",
+        "md": "data\\digests\\airadar_digest_1789639213.md",
+        "json": "data\\digests\\airadar_digest_1789639213.json"
+      },
+      "notes": [],
+      "elapsed": 0.004
+    }
+  ]
+}

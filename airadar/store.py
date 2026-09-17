@@ -100,6 +100,37 @@ class Store:
         self._conn.commit()
         return cur.rowcount > 0
 
+    def upsert_offer_by_url(self, o) -> bool:
+        """Persist an offer keyed by URL so repeat runs do not multiply rows.
+
+        Earlier every cycle inserted a fresh row per finding, so the store grew
+        without bound and the same page appeared many times in reports.
+        """
+        key = (getattr(o, "url", "") or "").strip().lower().rstrip("/")
+        if key:
+            self._conn.execute(
+                "DELETE FROM offers WHERE lower(rtrim(url, '/')) = ? AND id <> ?",
+                (key, o.id))
+        self._conn.commit()
+        return self.save_offer(o)
+
+    def dedupe_by_url(self) -> int:
+        """Collapse existing duplicate offers, keeping the highest score."""
+        rows = self._conn.execute(
+            "SELECT id, url, score FROM offers WHERE url IS NOT NULL AND url <> '' "
+            "ORDER BY score DESC").fetchall()
+        seen = {}
+        removed = 0
+        for rid, url, score in rows:
+            key = (url or "").strip().lower().rstrip("/")
+            if key in seen:
+                self._conn.execute("DELETE FROM offers WHERE id = ?", (rid,))
+                removed += 1
+            else:
+                seen[key] = rid
+        self._conn.commit()
+        return removed
+
     def set_verdict(self, offer_id: str, verdict: str) -> None:
         self._conn.execute("UPDATE offers SET verdict = ? WHERE id = ?", (verdict, offer_id))
         self._conn.commit()
