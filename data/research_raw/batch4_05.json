@@ -1,0 +1,61 @@
+{
+  "query": "DeepSeek free API access V3 V4",
+  "results": [
+    {
+      "title": "Free DeepSeek API — 22 free models, one key",
+      "url": "https://freellmapi.co/free-deepseek-api",
+      "description": "DeepSeek V3, R1 and V4 served free across multiple providers — no DeepSeek account or card needed. Free through FreeLLMAPI's one OpenAI-compatible key.",
+      "snippet": "DeepSeek V3, R1 and V4 served free across multiple providers — no DeepSeek account or card needed. Free through FreeLLMAPI's one OpenAI-compatible key.",
+      "page_age": "2026-09-10T00:00:00"
+    },
+    {
+      "title": "DeepSeek Free API (2026)",
+      "url": "https://free-llm.com/provider/deepseek",
+      "description": "Get free API access to DeepSeek. Full guide on limits, Python/JS examples, and how to get a free API key.",
+      "snippet": "# DeepSeek\nVerified ✅ Truly Free\n\nCreators of DeepSeek-V3 and DeepSeek-R1, breakthrough open-source reasoning models. New users receive 10M free tokens. API is OpenAI-compatible with extremely competitive pricing after credits.\n\n5M Free Tokens DeepSeek-V4 Reasoning OpenAI Compatible\n\nGet API Key View Code Examples Suggest Edit Report an Issue\n\n13",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - xtekky/deepseek4free: Deepseek V3 and R1 private API, ...",
+      "url": "https://github.com/xtekky/deepseek4free",
+      "description": "Deepseek V3 and R1 private API, deep thinking, search, full requests. pow challenge reversed. deepseek api. - xtekky/deepseek4free",
+      "snippet": "Deepseek V3 and R1 private API, deep thinking, search, full requests. pow challenge reversed. deepseek api.",
+      "page_age": ""
+    },
+    {
+      "title": "Free, Unlimited DeepSeek API",
+      "url": "https://developer.puter.com/tutorials/free-unlimited-deepseek-api/",
+      "description": "Learn how to use Puter.js to access DeepSeek v4.1, v4, v3.2, v3.1, and R1 for free. Access models such as DeepSeek V4.1 Flash, V4 Pro 0813, V4 Flash 0731, V4 Flash Vision Experimental, v3.2, and more without any API keys.",
+      "snippet": "Learn how to use Puter.js to access DeepSeek v4.1, v4, v3.2, v3.1, and R1 for free. Access models such as DeepSeek V4.1 Flash, V4 Pro 0813, V4 Flash 0731, V4 Flash Vision Experimental, v3.2, and more without any API keys",
+      "page_age": "2026-09-11T00:00:00"
+    },
+    {
+      "title": "DeepSeek V3 API — 671B MoE Model",
+      "url": "https://aimlapi.com/build-with-deepseek-v3-api",
+      "description": "DeepSeek V3 via AIMLAPI: 671B Mixture-of-Experts model, top reasoning at a fraction of GPT-4 cost. Free playground.",
+      "snippet": "DeepSeek V3 via AIMLAPI: 671B Mixture-of-Experts model, top reasoning at a fraction of GPT-4 cost. Free playground",
+      "page_age": "2025-03-21T00:00:00"
+    },
+    {
+      "title": "How to Use the DeepSeek V4 API for Free ?",
+      "url": "https://apidog.com/blog/how-to-use-deepseek-v4-api-for-free/",
+      "description": "",
+      "snippet": "DeepSeek V4 launched on April 23, 2026 with the API priced low enough that most teams skip the free-tier hunt entirely. But a real free path exists for developers who want to call V4 programmatically before committing a card. Aggregator gateways expose :free variants, Hugging Face ships a shared inference endpoint, and the official API hands new accounts a trial credit. Stack the three, build a fallback chain in Apidog, and you can prototype a V4-powered product without a dollar of spend.",
+      "page_age": "2026-06-18T10:31:56"
+    },
+    {
+      "title": "Free DeepSeek V4 API",
+      "url": "https://freedeepseekapi.com/",
+      "description": "Free DeepSeek API access. What is DeepSeek? DeepSeek V4 launched and open-sourced (MIT) on April 24, 2026 — 1.6T-parameter MoE (49B active), 1M-token context, CSA+HCA hybrid attention for ultra-low-cost inference, SWE-bench 80.6%. Code generation, ...",
+      "snippet": "Free DeepSeek API access. What is DeepSeek? DeepSeek V4 launched and open-sourced (MIT) on April 24, 2026 — 1.6T-parameter MoE (49B active), 1M-token context, CSA+HCA hybrid attention for ultra-low-cost inference, SWE-bench 80.6%.",
+      "page_age": "2026-03-02T00:00:00"
+    },
+    {
+      "title": "DeepSeek API Docs - OpenAI-Compatible Free API",
+      "url": "https://deepseek.day/en/api/",
+      "description": "DeepSeek-V4-Pro/Flash API: fully OpenAI-compatible, free quota, streaming output, multi-language SDK. Full API documentation with code examples.",
+      "snippet": "DeepSeek-V4-Pro/Flash API: fully OpenAI-compatible, free quota, streaming output, multi-language SDK. Full API documentation with code examples.\n\nAPI Status: Operational ⚡ Response Time 380ms",
+      "page_age": ""
+    }
+  ]
+}

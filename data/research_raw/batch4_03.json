@@ -1,0 +1,61 @@
+{
+  "query": "Gemini 3 free tier access no cost",
+  "results": [
+    {
+      "title": "Gemini Developer API pricing",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "description": "Gemini Developer API Pricing",
+      "snippet": "# Gemini Developer API pricing\n## Gemini 3.7 Flash\n### Standard\n|  | Free Tier | Paid Tier, per 1M tokens in USD |\n| --- | --- | --- |\n| Input price | Free of charge | $0.75 through December 31, 2026.$1.50 starting January 1, 2027. |\n| Output price (including thinking tokens) | Free of charge | $3.75 through December 31, 2026.$7.50 starting January 1, 2027. |\n| Context caching price | Free of charge | $0.075 through December 31, 2026.$0.15 starting January 1, 2027.$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027. |\n| Grounding with Google Search^\\* | Not available | 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests. |\n| Grounding with Google Maps | Not available | 5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries |\n| Used to improve our products | Yes | No |",
+      "page_age": "2026-09-11T23:58:22"
+    },
+    {
+      "title": "Google Gemini 3 pricing 2026: every plan, model, and API cost ...",
+      "url": "https://www.eesel.ai/blog/google-gemini-3-pricing",
+      "description": "Full Google Gemini 3 pricing breakdown: consumer plans ($0-$199.99/mo), API costs by model, hidden fees, and honest takes on which tier is worth it.",
+      "snippet": "# Google Gemini 3 pricing in 2026: every plan, model, and API cost explained\n## Which Gemini consumer plan is actually worth it?\n**Free tier** gives you Gemini 3.5 Flash, Deep Research, Canvas, and Gems at no cost. For most casual users, this is enough. Reddit's verdict on the subscription question is blunt: \"Buying a Google Gemini subscription feels like paying for tap water at a restaurant.\" The Gemini 3.5 Flash model on the free tier is fast and genuinely capable for everyday tasks",
+      "page_age": "2026-06-09T00:00:00"
+    },
+    {
+      "title": "Google Gemini Pricing 2026 — Free vs AI Pro ($19.99) vs AI Ultra ...",
+      "url": "https://aipricecompare.org/providers/gemini.html",
+      "description": "How much does Google Gemini cost? The free tier covers everyday chat; AI Plus is $4.99/mo, AI Pro $19.99/mo, AI Ultra $99.99–199.99/mo. Every Gemini plan, model, and limit compared for 2026.",
+      "snippet": "# Gemini\n## Common questions, answered.\n### Is Gemini free?\nYes — Gemini has a free tier you can use without paying anything. Paid plans start at $4.99/mo. Gemini's free tier is among the most generous in AI — full chat with Gemini 3.6 Flash at no cost",
+      "page_age": "2026-08-10T00:00:00"
+    },
+    {
+      "title": "How to Access Gemini 3.1 Pro Free: Google AI Pro, Ultra, and Free ...",
+      "url": "https://macaron.im/blog/gemini-3-1-pro-free",
+      "description": "Can you use Gemini 3.1 Pro for free? Yes — here's exactly what's available on the free tier, what Google AI Pro and Ultra add, and when you actually need the paid API.",
+      "snippet": "# How to Access Gemini 3.1 Pro Free: Google AI Pro, Ultra, and Free Tier Guide\n## What You Can Access for Free Right Now\n### AI Studio: Free API Access with Rate Limits\nGoogle's Gemini 3.x models (including 3.1 Pro, released February 19, 2026) are currently available only on paid tiers as preview models. The API free tier provides access to three stable models — Gemini 2.5 Pro, 2.5 Flash, and 2.5 Flash-Lite — at zero cost, without requiring a credit card",
+      "page_age": "2026-02-19T00:00:00"
+    },
+    {
+      "title": "Is Google Gemini Free? Google's Free Plan Explained (2026)",
+      "url": "https://felloai.com/is-gemini-free/",
+      "description": "Is Gemini free? Yes. The free plan runs Gemini 3.6 Flash on daily caps, not unlimited use. See what is included, the real limits, and how ChatGPT compares.",
+      "snippet": "# Is Google Gemini Free? Free Plan Explained (2026)\nYes, Google Gemini is free to use. The free plan costs **$0** with no credit card, and it is not a stripped-back demo. Google’s plans page now lists the free tier as access to **Gemini 3.6 Flash**, the model it shipped on **July 21, 2026**, plus varying access to the stronger **Gemini 3.1 Pro**, image generation, voice conversations, and Deep Research.",
+      "page_age": "2026-09-02T23:15:00"
+    },
+    {
+      "title": "Gemini API Free Tier 2026: Gemini 3 Flash Limits, Quotas",
+      "url": "https://pecollective.com/tools/gemini-free-tier-guide/",
+      "description": "Gemini API free tier, updated September 2026. Gemini 3 Flash gets 10 RPM, 250K TPM, 1,500 requests/day. Every model's limits, plus how to run agents for $0.",
+      "snippet": "# Gemini API Free Tier (September 2026): Every Rate Limit, Quota, and Gotcha\n## Frequently Asked Questions\n### Is the Gemini API free to use in 2026?\nYes. Google AI Studio offers a free tier for Gemini models with no credit card required. You get access to Gemini 3 Flash, Gemini 3.1 Flash-Lite, and the older Flash models, with rate limits of 10-15 requests per minute depending on the model. The free tier is generous enough for prototyping, personal projects, and low-volume production apps",
+      "page_age": "2026-09-01T00:00:00"
+    },
+    {
+      "title": "Gemini 3.7 Flash Pricing: Where to Get It Free or Cheap Right Now ...",
+      "url": "https://www.mindstudio.ai/blog/gemini-3-7-flash-pricing-free-access",
+      "description": "Gemini 3.7 Flash is free in Antigravity and AI Studio, with a limited-time discount on OpenRouter. Here's every access point and price.",
+      "snippet": "# Gemini 3.7 Flash Pricing: Where to Get It Free or Cheap Right Now\n## TL;DR\n- **Gemini 3.7 Flash is free to use inside Google Antigravity**, Google’s agentic coding environment, with no separate charge for the model itself.\n- **AI Studio and AI Studio Build also offer it for free**, letting you chat, test prompts, or generate and deploy small apps without paying",
+      "page_age": "2026-08-24T00:00:00"
+    },
+    {
+      "title": "Billing",
+      "url": "https://ai.google.dev/gemini-api/docs/billing",
+      "description": "",
+      "snippet": "# Billing\n## About billing and tiers\nBilling for the Gemini API is based on your payment history.\n\n| Usage tier | Qualification | Billing tier cap |\n| --- | --- | --- |\n| Free | Active project or free trial | N/A |\n| Tier 1 | Set up and link an active billing account | $250 |\n| Tier 2 | Paid $100 + 3 days from first successful payment | $2,000 |\n| Tier 3 | Paid $1,000 + 30 days from first successful payment | $20,000 - $100,000+ |",
+      "page_age": "2026-09-03T00:00:00"
+    }
+  ]
+}

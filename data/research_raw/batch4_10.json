@@ -1,0 +1,61 @@
+{
+  "query": "LMArena free access frontier models side by side",
+  "results": [
+    {
+      "title": "Arena AI - The Official LLM Leaderboard & Model Testing",
+      "url": "https://navtools.ai/tool/arena-ai",
+      "description": "Compare top AI models side-by-side, vote on the best responses, and explore the community-driven LLM leaderboard on Arena AI.",
+      "snippet": "# Arena AI\n## How to use Arena AI?\nTo use Arena AI, navigate to the Battle Mode section and enter a prompt in the chat interface. Two anonymous AI models will generate responses to your prompt side-by-side. Review both outputs carefully, and vote for the one that best answers your query; once your vote is cast, the identities of the models are revealed, and your contribution updates the global leaderboard",
+      "page_age": "2026-04-04T00:00:00"
+    },
+    {
+      "title": "LMArena Leaderboard September 2026",
+      "url": "https://www.swfte.com/lmarena",
+      "description": "LMArena (formerly LMSys Chatbot Arena) leaderboard for September 2026. What Arena Elo means, how to read it, and the current top 10 models with live Elo scores.",
+      "snippet": "# LMArena Leaderboard, September 2026\n## What is the LMArena, in one paragraph?\nThe LMArena is a public, blind side-by-side voting site for AI chat models. A user submits a prompt, two anonymous models reply, the user picks a winner, and the project aggregates millions of such votes into Elo ratings. It started in 2023 as the LMSys Chatbot Arena out of UC Berkeley and rebranded to LMArena.ai in 2024-25 as it spun out into an independent project",
+      "page_age": "2026-08-31T17:39:50"
+    },
+    {
+      "title": "LLM Arena - Compare 60+ AI Models Side-by-Side",
+      "url": "https://imagera.ai/llm-arena",
+      "description": "Run one prompt through 60+ AI models at once. Compare GPT-5.5, Claude Opus 4.7, Gemini 2.5 Pro and DeepSeek V4 Pro side by side. Pick the winner. No API keys.",
+      "snippet": "# Ask 10 AIs the same question. Steal the best answer.\nLLM Arena is a side-by-side AI chat. One prompt fans out to up to ten different language models — GPT-5.5, Claude Haiku 4.5, Gemini 2.5 Flash, Grok 4, DeepSeek V4 Pro and more — answering in synchronized panes with real-time streaming. No vendor API keys, one Imagera login covers every model, pay-per-question.",
+      "page_age": "2026-08-13T00:00:00"
+    },
+    {
+      "title": "r/LocalLLaMA on Reddit: How is the website like LM Arena free with ...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ns2x8j/how_is_the_website_like_lm_arena_free_with_all/",
+      "description": "47 votes, 69 comments. I recently came across the website called LM Arena. It has all the latest models of major companies, along with many other…",
+      "snippet": "# How is the website like LM Arena free with all the latest models?\n## rzvzn\n### Turbulent-Factor-622\navançado ou para o gpt ou claude, mas eles tem andado a reduzir imenso os limites, por exemplo usei há pouco tempo a mais recente versão do claude opus thinking, e só durou alguns dias , depois não me deixou usar mais nenhum claude, ou seja os limites andam a reduzir muito, o truque é usar vários llms ao mesmo tempo dentro do lmarena, mas para quem gosto de longos contextos com a",
+      "page_age": "2025-09-27T18:44:11"
+    },
+    {
+      "title": "Arena AI: Side-by-Side Model Comparison",
+      "url": "https://arena.ai/side-by-side",
+      "description": "Prompt once and get responses from multiple LLMs simultaneously. You choose which AI models you want responses from to compare frontier AI models side-by-side.",
+      "snippet": "Prompt once and get responses from multiple LLMs simultaneously. You choose which AI models you want responses from to compare frontier AI models side-by-side.",
+      "page_age": ""
+    },
+    {
+      "title": "Arena (LMArena) - AI Model Comparison Leaderboard",
+      "url": "https://www.everydev.ai/tools/lm-arena",
+      "description": "Arena (formerly LMArena) is a community-powered platform created by researchers from UC Berkeley for understanding AI model performance in real-world…",
+      "snippet": "# Arena (LMArena)\n## About Arena (LMArena)\nArena (formerly LMArena) is a community-powered platform created by researchers from UC Berkeley for understanding AI model performance in real-world conditions. The platform lets users interact with frontier AI models, compare their outputs side-by-side in \"Battle Mode,\" and submit feedback that shapes a public leaderboard grounded in actual human preference data. According to the About page, tens of millions of builders, researchers, and creative professionals use Arena to engage with frontier models",
+      "page_age": "2026-07-18T16:54:26"
+    },
+    {
+      "title": "LMArena Leaderboard (Live): Top AI Models Ranked",
+      "url": "https://localaimaster.com/blog/lmarena-chatbot-arena-leaderboard",
+      "description": "Who leads LMArena right now, how its ELO scoring actually works, and why the top of the board shifts more than the headline rankings suggest.",
+      "snippet": "# LMArena Leaderboard (Now Arena): Who's #1 on Chatbot Arena Right Now\n## What is LMArena?\n### How the Blind Voting Works\n1. **You submit a prompt** — any question, task, or conversation\n2. **Two anonymous models** respond side-by-side (you don't know which is which)\n3. **You vote** for the better response (or tie)\n4. **Model names are revealed** after voting\n5. **ELO ratings update** based on the outcome",
+      "page_age": "2026-08-03T00:00:00"
+    },
+    {
+      "title": "LMArena - Comparateur-IA",
+      "url": "https://comparateur-ia.com/en/ai-tools/lmarena",
+      "description": "Public platform that compares the best AI models through anonymous duels and a continuously updated leaderboard.",
+      "snippet": "# LMArena: anonymous duels and public ranking of AI models\n## Overview of LMArena\n\nhttps://lmarena.ai/\n\nScreenshot of LMArena\n\nVisit LMArena →\n\n## Detailed overview\n\nLMArena is an evaluation platform that compares large language models (chat, vision, image, video) through anonymous side-by-side comparisons. Users vote on the better response: these human preferences feed a public leaderboard and category-based analyses. Perfect for choosing a model based on real-world use cases, beyond traditional benchmarks",
+      "page_age": "2026-05-26T00:00:00"
+    }
+  ]
+}

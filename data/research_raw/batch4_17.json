@@ -1,0 +1,61 @@
+{
+  "query": "free API access GPT-5 class models providers 2026",
+  "results": [
+    {
+      "title": "Free LLM API: Every Genuinely Free Model (2026)",
+      "url": "https://freellmapi.co/free-llm-api",
+      "description": "What a free LLM API really gets you in 2026: 370+ genuinely free models across 24+ providers, their real rate limits, and a copy-paste way to call them through.",
+      "snippet": "# Free LLM API: What's Genuinely Free in 2026\n## The strongest free models right now\n| Model | Provider | Context | Free limits | Capabilities |\n| --- | --- | --- | --- | --- |\n| minimaxai/minimax-m3 | NVIDIA NIM | 197K | 40 rpm | tools |\n| kimi-k2.7-code | NavyAI | 262K | 20 rpm | tools, vision |\n| gemini-3.6-flash | Google AI Studio | 1.0M | 10 rpm, 20 rpd | tools, vision |\n| moonshotai/Kimi-K3 | HuggingFace Router | 262K | $0.10/mo credit | tools |\n| gemini-3.5-flash | Google AI Studio | 1.0M | 10 rpm, 20 rpd | tools, vision |\n| Qwen/Qwen3-Coder-Next | HuggingFace Router | 262K | \\~1-3M | tools |\n| moonshotai/Kimi-K2.6 | HuggingFace Router | 262K | \\~1-3M | tools |\n| nvidia/nemotron-3-ultra-550b-a55b | NVIDIA NIM | 1.0M | 40 rpm | tools |\n| Qwen/Qwen3-Coder-480B-A35B-Instruct | HuggingFace Router | 262K | $0.10/mo credit | tools |\n| moonshotai/Kimi-K2.7-Code | HuggingFace Router | 262K | $0.10/mo credit | tools |\n| zai-org/GLM-5.2 | HuggingFace Router | 200K | $0.10/mo credit | tools |\n| deepseek-ai/DeepSeek-V4-Pro | HuggingFace Router | 131K | $0.10/mo credit | tools |\n| deepseek-ai/DeepSeek-V4-Pro | ModelScope | 131K | 100 rpd | — |\n| deepseek-ai/DeepSeek-V4-Flash | HuggingFace Router | 131K | \\~1-3M | tools |\n| deepseek-v4-flash-free | OpenCode Zen | 131K | 20 rpm, 200 rpd | tools |\n| gpt-5.4-mini | NavyAI | 400K | 20 rpm | tools, vision |\n| gpt-5.4-nano | NavyAI | 400K | 20 rpm | tools, vision |\n| gpt-5.3-codex | NavyAI | 400K | 20 rpm | tools, vision |",
+      "page_age": "2026-09-10T00:00:00"
+    },
+    {
+      "title": "GPT-5.4 Free API: Every Way to Access It in 2026 (And What Each ...",
+      "url": "https://blog.laozhang.ai/en/posts/gpt-5-4-free-api",
+      "description": "OpenAI launched GPT-5.4 on March 5, 2026 with no official free API tier. But developers have five legitimate pathways to access it at zero or near-zero cost. This guide covers every method with exact limits, working code, and a prompt caching ...",
+      "snippet": "# GPT-5.4 Free API: Every Way to Access It in 2026 (And What Each Costs)\nGPT-5.4 launched on March 5, 2026 as OpenAI's most powerful model to date, combining coding, reasoning, and native computer use in a single frontier model. The official API costs $2.50 per million input tokens with no free tier whatsoever. But that does not mean there is no path to free or near-free access",
+      "page_age": "2026-03-06T00:00:00"
+    },
+    {
+      "title": "How to access and use GPT-5 [2026]",
+      "url": "https://www.chatbase.co/blog/gpt-5",
+      "description": "Learn how to access GPT-5 in 2026, where it’s still available, current API pricing and models, key capabilities, and how it compares with GPT-5.6.",
+      "snippet": "# How to access and use GPT-5 \\[2026\\]\n## How to Access GPT-5\nGPT-5 is no longer available in ChatGPT, but it remains available through the OpenAI API. Here’s how GPT-5 access works in 2026:",
+      "page_age": "2026-08-12T19:39:37"
+    },
+    {
+      "title": "How to use GPT-5.6 for free",
+      "url": "https://apidog.com/blog/gpt-5-6-free/",
+      "description": "",
+      "snippet": "GPT-5.6 went GA on July 9, 2026, and the first question most people ask is the money question: can you use it without paying? The honest answer splits three ways. Free ChatGPT users already have GPT-5.6 Terra, the balanced mid-tier model, at no cost. The flagship needs a paid seat; if Sol is the model you want, our guide on how to access GPT-5.6 Sol covers every plan that unlocks it. And the API has no free tier at all. Every token is metered from your first request",
+      "page_age": "2026-07-10T00:00:00"
+    },
+    {
+      "title": "Get Free Unlimited GPT-5.5 API and All OpenAI Models",
+      "url": "https://apidog.com/blog/get-free-unlimited-gpt-5-5-api/",
+      "description": "",
+      "snippet": "## TL;DR\n- **Puter.js** gives developers free, unlimited access to the full OpenAI model catalog with no API key, no OpenAI account, no server.\n- Supported text models include **gpt-5.5, gpt-5.5-pro, gpt-5.4, gpt-5, gpt-5-mini, o1, o3, gpt-4.1, gpt-4o**, plus every chat and codex variant",
+      "page_age": "2026-05-09T00:00:00"
+    },
+    {
+      "title": "GPT-5: All Models, Pricing, Benchmarks, and API Setup (2026)",
+      "url": "https://www.aimadetools.com/blog/gpt-5-complete-guide/",
+      "description": "GPT-5 and GPT-5.4 explained: every model variant, API pricing, context windows, benchmarks, and how they compare to Claude and Gemini.",
+      "snippet": "# GPT-5: All Models, Pricing, Benchmarks, and API Setup (2026)\n## ChatGPT subscription plans\n| Plan | Price | Models included | Best for |\n| --- | --- | --- | --- |\n| Free | $0 | GPT-4o (limited) | Casual use |\n| Plus | $20/mo | GPT-5.4, GPT-5.4 Mini | Individual developers |\n| Pro | $200/mo | GPT-5.4 Pro, Deep Research | Power users, researchers |\n| Team | $25/user/mo | GPT-5.4, admin controls | Small teams |\n| Enterprise | \\~$60/user/mo | All models, SSO, compliance | Organizations |",
+      "page_age": "2026-07-24T00:00:00"
+    },
+    {
+      "title": "Free ChatGPT API Alternative: GPT-Class Models, No Cost",
+      "url": "https://dreamprompting.com/blog/free-chatgpt-api-alternative",
+      "description": "A free ChatGPT API alternative with drop-in OpenAI compatibility. Change one base_url line to run GPT-class and open models (Llama, Gemini, DeepSeek) for free.",
+      "snippet": "A free ChatGPT API alternative with drop-in OpenAI compatibility. Change one base_url line to run GPT-class and open models (Llama, Gemini, DeepSeek) for free.",
+      "page_age": "2026-08-02T00:00:00"
+    },
+    {
+      "title": "GPT-5.6: Models Explained, Benchmarks & Access - CometAPI",
+      "url": "https://www.cometapi.com/gpt-5-6-models-explained-benchmarks-access/",
+      "description": "A GPT-5.6 guide covering the July 2026 launch, Sol vs Terra vs Luna, benchmarks, pricing, safety, access, and how to use GPT-5.6 API through CometAPI.",
+      "snippet": "# GPT-5.6: Models Explained, Benchmarks & Access\n## Make the first API call.\n**TL;DR:** OpenAI launched GPT-5.6 on July 9, 2026, as a family of frontier models: **Sol** (flagship for complex reasoning/coding), **Terra** (balanced performance at lower cost), and **Luna** (fast, affordable for high-volume tasks). It excels in agentic workflows, coding, and efficiency with strong safety features",
+      "page_age": "2026-09-03T11:00:46"
+    }
+  ]
+}

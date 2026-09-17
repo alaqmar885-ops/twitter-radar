@@ -1,0 +1,61 @@
+{
+  "query": "Claude free plan limits 2026 what you get",
+  "results": [
+    {
+      "title": "Claude Free Plan Limits Explained: What You Actually Get",
+      "url": "https://freeainews.com/news/claude-free-plan-limits/",
+      "description": "Anthropic's Claude free tier changed on June 15, 2026. See message caps, 5-hour reset windows, model access, and what Pro adds.",
+      "snippet": "# Claude Free Plan Limits Explained: What You Actually Get\n**Quick Answer:** On June 15, 2026, Anthropic replaced Claude's flat free access with a credit pool that resets every five hours. Free users now get limited Claude Opus 4.8 fast mode, Sonnet messages, and basic Artifacts. Pro and Max plans keep priority access.",
+      "page_age": "2026-08-21T23:14:23"
+    },
+    {
+      "title": "Claude AI Free Tier Limits 2026: Is Free Enough?",
+      "url": "https://www.heyuan110.com/posts/ai/2026-07-08-claude-free-tier-limits/",
+      "description": "Claude free plan 2026: how many messages you get (15-40 per 5 hours), what free can and cannot do, and the exact signals that mean you should upgrade to Pro.",
+      "snippet": "# Claude AI Free Tier Limits 2026: Is Free Enough?\n**The Claude AI free tier in 2026 gives you roughly 15–40 messages per rolling 5-hour window — about 30–100 a day if you spread them out.** That’s the number you searched for, so it goes first. The range is wide because Claude meters tokens, not messages: a run of short questions lands you near 40, while a single 40-page PDF with a detailed-summary request can drain the whole window in 5–8 turns",
+      "page_age": "2026-07-08T02:00:00"
+    },
+    {
+      "title": "How to Use Claude AI for Free: All Options for Developers in 2026 ...",
+      "url": "https://www.verdent.ai/guides/how-to-use-claude-ai-for-free-2026",
+      "description": "Every way developers can access Claude AI for free in 2026 — free tier, open source program, Claude Code trials, and what each option actually gives you.",
+      "snippet": "# How to Use Claude AI for Free\n## Claude's Free Tier — What You Get Without Paying\n### Message limits and model access\nModel access on free: Free users get Claude Sonnet 4.5 as the default — the same intelligence powering most Pro interactions. The free tier includes projects, artifacts, web search, and file uploads (up to 20 files per chat, 30 MB max). Opus 4.6, the most capable model, is not available on the free tier",
+      "page_age": "2026-08-06T07:12:52"
+    },
+    {
+      "title": "Claude Free Plan Limits 2026: What You Get, What You Don't, and ...",
+      "url": "https://freeacademy.ai/blog/claude-free-plan-limits-2026",
+      "description": "Everything about Claude free plan limits in 2026 — message caps, model access, which features are free vs paid, and exactly when upgrading to Pro or Max is worth it.",
+      "snippet": "# Claude Free Plan Limits 2026: What You Get, What You Don't, and When to Upgrade\n## What Max Adds ($100–200/month)\n**Max $200/month** gives you 20x Pro usage (100x Free). Effectively unlimited for most professional workflows",
+      "page_age": "2026-04-03T00:00:00"
+    },
+    {
+      "title": "Is Claude AI Free? Limits, Models & Free Tier 2026",
+      "url": "https://felloai.com/is-claude-ai-free/",
+      "description": "Yes, Claude AI is free. See what the free tier includes, its message limits, which Claude model you get free, and whether the free plan is enough in 2026.",
+      "snippet": "# Is Claude AI Free? What You Get on the Free Plan in 2026\nYes, Claude AI is free. You can sign up at claude.ai with no credit card and start chatting straight away, and as of **July 1, 2026** the free plan runs **Claude Sonnet 5**, Anthropic’s newest default model. The free tier gives you roughly **15 to 40 messages every 5 hours**, plus web search, file uploads, Projects, and Artifacts at no cost",
+      "page_age": "2026-09-06T09:00:00"
+    },
+    {
+      "title": "Claude Code Rate Limits & Usage Quotas Explained (2026)",
+      "url": "https://www.truefoundry.com/blog/claude-code-limits-explained",
+      "description": "Hit Claude Code's 5-hour limit or weekly cap? Learn how the rolling window, Pro vs Max quotas, and token counting work, plus tips to stretch every session.",
+      "snippet": "# Claude Code Limits Explained (2026 Edition)\n## Claude Code Limits by Plan: Pro, Max, and API Compared\n| Plan | Price | 5-hour Window | Weekly Cap | Models | Best For |\n| --- | --- | --- | --- | --- | --- |\n| Free | $0  | \\~40 short messages/day (Claude.ai only)  | — | Limited Sonnet | No Claude Code access  |\n| Pro | $20/mo $17/mo annual  | \\~10–45 prompts | \\~40–80 Sonnet hours | Sonnet 4.6 only | Solo devs, small codebases  |\n| Max 5x | $100/mo  | \\~50–225 prompts | \\~140–240 Sonnet hrs + 15–35 Opus hrs | Sonnet 4.6 + Opus 4.6/4.7 | Full-time Claude Code users  |\n| Max 20x | $200/mo  | \\~200–900 prompts | 240–480 Sonnet hrs + 24–40 Opus hrs | Sonnet 4.6 + Opus 4.6/4.7 | Heavy daily use, mid–large codebases  |\n| Team Premium | $100/seat 5-seat minimum  | Max 5x equivalent per seat | Custom | Sonnet + Opus | Teams needing shared admin + analytics  |\n| API (pay-as-you-go)  | Sonnet 4.6: $3 / $15 Opus 4.6: $5 / $25 (per MTok)  | Tier-based RPM/TPM(not session)  | None | All models,all regions  | Production workloads,custom integrations  |",
+      "page_age": "2026-08-31T00:00:00"
+    },
+    {
+      "title": "Claude Rate Limits: Every Plan & API Tier (2026)",
+      "url": "https://tygartmedia.com/claude-rate-limits/",
+      "description": "Claude rate limits are the #1 user frustration. Here's exactly what the limits are at every plan tier and every workaround that actually works.",
+      "snippet": "# Claude Rate Limits: Every Plan & API Tier (2026)\n**Direct Answer (August 2026):** Claude rate limits scale by plan: Free users get dynamic session limits (~5-10 messages); Pro ($20/mo) provides roughly 5x capacity (~45 messages per 5-hour rolling window); Max ($100–$200/mo) offers extended quotas for Claude Code",
+      "page_age": "2026-09-15T00:41:37"
+    },
+    {
+      "title": "Claude Free Plan Limits (2026): How Many Messages You Actually Get",
+      "url": "https://nesyona.com/articles/claude-free-plan-limits-2026",
+      "description": "Claude free plan limits in 2026: what Anthropic actually publishes about message caps, the 5-hour reset, why Pro is described as 5x Free, and when to upgrade.",
+      "snippet": "# Claude free plan limits (2026): how many messages you actually get and when you hit the wall\nPublished: May 2026\n\nHere is the honest version: **Anthropic does not publish a fixed number of messages for the Claude free plan.** No \"X messages per day\" figure exists on the official pricing page or in the help center. What the company does publish is a relative anchor, the free tier is the one-times usage baseline, and Pro is described as **at least five times the usage per session**",
+      "page_age": "2026-05-30T00:00:00"
+    }
+  ]
+}

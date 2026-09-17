@@ -1,0 +1,855 @@
+{
+  "generated": 1789633071,
+  "routes": [
+    {
+      "family": "GPT-5 class",
+      "route": "vendor free tier",
+      "url": "https://chatgpt.com/",
+      "note": "ChatGPT free tier gives limited GPT-5-class access, no card",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 0
+    },
+    {
+      "family": "GPT-5 class",
+      "route": "free playground",
+      "url": "https://www.mcpjam.com/blog/frontier-models",
+      "note": "MCPJam exposes GPT-5 / Claude Sonnet / Gemini / Grok in a free MCP playground",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "GPT-5 class",
+      "route": "model marketplace",
+      "url": "https://github.com/marketplace/models",
+      "note": "GitHub Models free quota for frontier models (50 req/day high-tier)",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "discount"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Claude",
+      "route": "vendor free tier",
+      "url": "https://claude.ai/",
+      "note": "Claude free plan - capped messages per 5h window",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 0
+    },
+    {
+      "family": "Gemini",
+      "route": "vendor free tier + API",
+      "url": "https://aistudio.google.com/",
+      "note": "AI Studio: Gemini Flash free, no card; API free tier ~1500 req/day",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Grok",
+      "route": "vendor free tier",
+      "url": "https://grok.com/",
+      "note": "Grok free on grok.com and X, no credit card, weekly quota",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "DeepSeek",
+      "route": "open weights + free API",
+      "url": "https://deepseek.day/en/api/",
+      "note": "DeepSeek V4 open-sourced (MIT); free OpenAI-compatible API quota",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "DeepSeek",
+      "route": "free gateway",
+      "url": "https://freellmapi.co/free-deepseek-api",
+      "note": "22 free models incl. DeepSeek V3/R1/V4 across providers, no card",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "web_hits": 4
+    },
+    {
+      "family": "Qwen",
+      "route": "open weights + free app",
+      "url": "https://chat.qwen.ai/",
+      "note": "Qwen Chat free; Qwen Code CLI free; weights downloadable",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Kimi",
+      "route": "free via aggregator",
+      "url": "https://openrouter.ai/moonshotai/kimi-k2:free",
+      "note": "Kimi K2 served on OpenRouter as a :free model",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Llama",
+      "route": "free inference providers",
+      "url": "https://build.nvidia.com/",
+      "note": "NVIDIA NIM hosts Llama and other open frontier models with free credits",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "trial"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Any frontier",
+      "route": "arena / side-by-side",
+      "url": "https://lmarena.ai/",
+      "note": "LMArena gives free side-by-side access to frontier models",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Any frontier",
+      "route": "aggregator free tier",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/free-router",
+      "note": "OpenRouter free-router: routes to available :free models",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Any frontier",
+      "route": "open weights self-host",
+      "url": "https://ollama.com/",
+      "note": "Run open-weight frontier models locally for free (Ollama)",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "always free",
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Any frontier",
+      "route": "open weights hub",
+      "url": "https://huggingface.co/models",
+      "note": "Download open-weight frontier models (DeepSeek/Qwen/Kimi/GLM/Llama)",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "web_hits": 4
+    },
+    {
+      "family": "Any frontier",
+      "route": "free API directory",
+      "url": "https://www.free-model.com/providers/",
+      "note": "147+ verified free LLM APIs, live-tested, no credit card",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free credits",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "without a credit card",
+        "no card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "web_hits": 4
+    }
+  ],
+  "store_findings": [
+    {
+      "title": "Ollama Cloud free tier",
+      "url": "https://itsfree.ai/provider/ollama-cloud/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "DeepSeek V4 Flash for free",
+      "url": "https://itsfree.ai/model/deepseek-v4-flash/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "GLM 5.2 for free",
+      "url": "https://itsfree.ai/model/glm-5/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "title": "Nemotron 3 Ultra for free",
+      "url": "https://itsfree.ai/model/nemotron/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "title": "DeepSeek V4 for free",
+      "url": "https://itsfree.ai/model/deepseek-v4/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "title": "Llama 3.3 70B for free",
+      "url": "https://itsfree.ai/model/llama-3-3-70b/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "trial"
+      ]
+    },
+    {
+      "title": "Qwen 3 for free",
+      "url": "https://itsfree.ai/model/qwen3/",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "title": "DeepSeek 5M Free Tokens: Make Them Last 30 Days, Not 4",
+      "url": "https://tokenmix.ai/blog/deepseek-5m-tokens-make-it-last-30-days",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "VERIFIED_NO_CC",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing"
+      ]
+    },
+    {
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.775,
+      "type": "free_tier",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.775,
+      "type": "free_tier",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.765,
+      "type": "open_source",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.765,
+      "type": "open_source",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.75,
+      "type": "free_tier",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free tier",
+        "credits",
+        "free",
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "score": 0.75,
+      "type": "free_credits",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free tier",
+        "free credits",
+        "credits",
+        "pricing",
+        "free"
+      ]
+    },
+    {
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.75,
+      "type": "free_tier",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free tier",
+        "credits",
+        "free",
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "@cf/meta/llama-3.2-11b-vision-instruct Free Cloudflare Workers AI · 131K ctx text image",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-3-2-11b-vision-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "qwen/qwen3.5-122b-a10b Free NVIDIA NIM · 262K ctx text image",
+      "url": "https://free-model.com/models/nvidia-nim/qwen-qwen3-5-122b-a10b",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "deepseek-ai/deepseek-v4-flash Free NVIDIA NIM · 1.0M ctx text",
+      "url": "https://free-model.com/models/nvidia-nim/deepseek-ai-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "DeepSeek: DeepSeek V4 Flash (free)",
+      "url": "https://free-model.com/models/openrouter/deepseek-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "url": "https://free-model.com/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "Kilo Code No Card Models 4 · Online 4 · Modalities text, code Top model: nvidia/nemotron-3-super-120b-a12b:free View models →",
+      "url": "https://www.free-model.com/providers/kilo-code",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "qwen/qwen3.5-122b-a10b Free NVIDIA NIM · 262K ctx text image",
+      "url": "https://free-model.com/models/nvidia-nim/qwen-qwen3-5-122b-a10b",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "@cf/meta/llama-3.2-11b-vision-instruct Free Cloudflare Workers AI · 131K ctx text image",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-3-2-11b-vision-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "deepseek-ai/deepseek-v4-flash Free NVIDIA NIM · 1.0M ctx text",
+      "url": "https://free-model.com/models/nvidia-nim/deepseek-ai-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "url": "https://free-model.com/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "DeepSeek: DeepSeek V4 Flash (free)",
+      "url": "https://free-model.com/models/openrouter/deepseek-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "verdict": "CARD_REQUIRED",
+      "no_cc": true,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "title": "I built a site to share and find Claude Code passes",
+      "url": "https://claudecoupons.com",
+      "score": 0.67,
+      "type": "free_credits",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial"
+      ]
+    },
+    {
+      "title": "I built a site to share and find Claude Code passes",
+      "url": "https://claudecoupons.com",
+      "score": 0.67,
+      "type": "free_credits",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial"
+      ]
+    },
+    {
+      "title": "The real tokenmaxxing move: use frontier agents to build small classifiers for large-scale data curation. Small classifiers alread",
+      "url": "https://x.com/vanstriendaniel/status/2098080038885200160",
+      "score": 0.665,
+      "type": "free_credits",
+      "verdict": "WEAK",
+      "no_cc": false,
+      "signals": [
+        "off"
+      ]
+    },
+    {
+      "title": "The real tokenmaxxing move: use frontier agents to build small classifiers for large-scale data curation. Small classifiers alread",
+      "url": "https://x.com/vanstriendaniel/status/2098080038885200160",
+      "score": 0.665,
+      "type": "free_credits",
+      "verdict": "WEAK",
+      "no_cc": false,
+      "signals": [
+        "off"
+      ]
+    },
+    {
+      "title": "atrium – a resumable, tiling workspace manager for Claude Code, Codex",
+      "url": "https://getatrium.dev",
+      "score": 0.647,
+      "type": "free_tier",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "title": "Self-hosted company OS, Claude Code and Codex agents in departments",
+      "url": "https://github.com/OtoDock/oto-dock",
+      "score": 0.64,
+      "type": "open_source",
+      "verdict": "PARTIAL",
+      "no_cc": false,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "Claude student discount guide",
+      "url": "https://felloai.com/claude-student-discount/",
+      "score": 0.585,
+      "type": "discount",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing"
+      ]
+    },
+    {
+      "title": "Claude student discount guide",
+      "url": "https://felloai.com/claude-student-discount/",
+      "score": 0.585,
+      "type": "discount",
+      "verdict": "VERIFIED",
+      "no_cc": false,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing"
+      ]
+    },
+    {
+      "title": "Config in 30 seconds Claude Code, Cursor, Codex, Gemini CLI — each tool has its own config format. Pick a tool, pick a free model,",
+      "url": "https://free-model.com/config/",
+      "score": 0.575,
+      "type": "free_tier",
+      "verdict": "UNREACHABLE",
+      "no_cc": false,
+      "signals": []
+    },
+    {
+      "title": "Introducing Higgsfield API. 50+ frontier models in one API, at lower prices than a subscription. > Get up to 50% OFF discount on y",
+      "url": "https://x.com/higgsfield/status/2100305266688610746",
+      "score": 0.575,
+      "type": "discount",
+      "verdict": "WEAK",
+      "no_cc": false,
+      "signals": [
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "Config in 30 seconds Claude Code, Cursor, Codex, Gemini CLI — each tool has its own config format. Pick a tool, pick a free model,",
+      "url": "https://free-model.com/config/",
+      "score": 0.575,
+      "type": "free_tier",
+      "verdict": "UNREACHABLE",
+      "no_cc": false,
+      "signals": []
+    },
+    {
+      "title": "Introducing Higgsfield API. 50+ frontier models in one API, at lower prices than a subscription. > Get up to 50% OFF discount on y",
+      "url": "https://x.com/higgsfield/status/2100305266688610746",
+      "score": 0.575,
+      "type": "discount",
+      "verdict": "WEAK",
+      "no_cc": false,
+      "signals": [
+        "discount",
+        "off"
+      ]
+    },
+    {
+      "title": "🤖 Qwen3-Coder 🎯 Ask an agent to inspect a repository and plan a multi-file change 🎯 Use long context to work across documentation,",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "verdict": "NO_URL",
+      "no_cc": false,
+      "signals": []
+    },
+    {
+      "title": "🤖 Qwen3-Coder 🎯 Ask an agent to inspect a repository and plan a multi-file change 🎯 Use long context to work across documentation,",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "verdict": "NO_URL",
+      "no_cc": false,
+      "signals": []
+    },
+    {
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "score": 0.48,
+      "type": "other",
+      "verdict": "NOT_AN_OFFER",
+      "no_cc": false,
+      "signals": []
+    },
+    {
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "score": 0.48,
+      "type": "other",
+      "verdict": "NOT_AN_OFFER",
+      "no_cc": false,
+      "signals": []
+    }
+  ]
+}

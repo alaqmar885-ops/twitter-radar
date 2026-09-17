@@ -1,0 +1,61 @@
+{
+  "query": "open weights frontier models 2026 run locally",
+  "results": [
+    {
+      "title": "How to Use Open-Weight Models in 2026: A Developer's Guide",
+      "url": "https://fastino.ai/blog/how-to-use-open-weight-models",
+      "description": "Open-weight models now rival the frontier, closed models. Compare Kimi K3, DeepSeek V4, GLM 5.3, Qwen 3.8 and more, with pricing, benchmarks, and how to switch. | Fastino Labs",
+      "snippet": "# How to Use Open-Weight Models in 2026: A Developer's Guide\n## TL;DR:\n- **Open-Weight vs. Open-Source**: Open-weight models publish their trained parameters for local deployment, fine-tuning, and hosting. True open-source requires publishing training data and source code as well, which is rare for frontier-scale models",
+      "page_age": "2026-08-21T00:00:00"
+    },
+    {
+      "title": "The Best Open Source and Open-Weight LLM Models to Run Locally in 2026",
+      "url": "https://huggingface.co/blog/daya-shankar/open-source-llm-models-to-run-locally",
+      "description": "A Blog post by Daya Shankar on Hugging Face",
+      "snippet": "# The Best Open Source and Open-Weight LLM Models to Run Locally in 2026\n## Quick Answer: Best Local LLMs in 2026\n| Category | Best Model | Why |\n| --- | --- | --- |\n| Best overall | Qwen3 | Strong reasoning, coding, multilingual support, Apache 2.0 |\n| Best open-weight reasoning model | gpt-oss-20b / gpt-oss-120b | Apache 2.0, strong reasoning, built for local and private infra |\n| Best laptop-friendly serious model | Gemma 3 12B / 27B | Multimodal, 128K context, strong single-GPU option |\n| Best low-resource model | Phi-4-mini | 3.8B, MIT license, 128K context, runs on modest machines |\n| Best local coding agent | Devstral | Apache 2.0, built for agentic software engineering |\n| Best long-context model | Llama 4 Scout | 10M-token context, but needs serious hardware |\n| Best high-end coding and reasoning model | DeepSeek-V4 Flash / Pro | MIT license, million-token context, strong coding and agentic workflows |\n| Best enterprise open-license option | Mistral Small 3.1 | Apache 2.0, multimodal, 128K context |",
+      "page_age": "2026-07-27T06:26:30"
+    },
+    {
+      "title": "The case for open-weight models and why we can't trust frontier ...",
+      "url": "https://blog.apnic.net/2026/09/16/the-case-for-open-weight-models-and-why-we-cant-trust-frontier-labs/",
+      "description": "Guest Post: A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+      "snippet": "# The case for open-weight models and why we can’t trust frontier labs\nCoding is the gentlest way to take this dependency, since the output is a durable artifact you keep and can review, and it is the one use I would readily defend. Wiring a frontier model into the live request path is the opposite, a standing bet on all four of those variables at once. Open weights are the only architecture that keeps the thing you depend on auditable, forkable, and yours, wherever you run it. The rest of this piece is the case for moving the model back inside the boundary",
+      "page_age": "2026-09-16T05:42:25"
+    },
+    {
+      "title": "Best open-weight models for coding",
+      "url": "https://www.faros.ai/blog/open-weight-models",
+      "description": "Compare the best open-weight models for coding in 2026—GLM, DeepSeek, Qwen, Kimi and more—and learn when each one can cut your AI coding costs.",
+      "snippet": "## How to make open-weight models work for your AI coding budget\nThe 2026 open-weight model ecosystem has grown significantly and will continue to improve in the coming months. Thus far, DeepSeek leads on efficiency and reasoning; Z.ai on long-running engineering agents; Qwen on local and self-hosted flexibility; Kimi on multimodal and multi-agent workflows; MiniMax on low-cost production throughput; and Meta’s Llama 4 on native multimodality and large context windows",
+      "page_age": "2026-09-15T23:07:32"
+    },
+    {
+      "title": "How to Run Open-Weights Models (2026 Guide)",
+      "url": "https://www.layer3labs.io/open-weights/how-to-run-open-weights-models",
+      "description": "How to run open-weights AI locally or self-hosted: desktop apps, private coding assistants, inference servers, and hosted APIs, and how to choose.",
+      "snippet": "# How to Run Open-Weights Models: Local, Self-Hosted, and Hosted Options\n## The Four Ways to Run Open-weights Models\n- Desktop apps (easiest): Install a free app, download a model, chat with it on your own machine. Best for evaluating models and private one-off use.\n- Local coding assistants (for teams that build): Plug a local model into your code editor for a private, free coding helper that never sends your code to the cloud",
+      "page_age": "2026-08-02T00:00:00"
+    },
+    {
+      "title": "r/LocalLLaMA on Reddit: [Article] The Case For Open-Weight Models ...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7hfh1/article_the_case_for_openweight_models_and_why_we/",
+      "description": "42 votes, 17 comments. A frontier API can refuse, change, or vanish out from under you. Open weights keep the model you depend on yours.",
+      "snippet": "# [Article] The Case For Open-Weight Models And Why We Can't Trust Frontier Labs | provos.org\n## mltam\nOne difference between open source and open weights is that for open source you can see (or try to see) what is in the code, look for backdoors. However, with open weights, you can run the model locally, but you have no idea what's in it. Does it have backdoors that will be triggered in 2027, or when you ask about vervet macaques?",
+      "page_age": "2026-06-16T15:52:55"
+    },
+    {
+      "title": "Best open-weight LLMs for local AI in 2026",
+      "url": "https://codingscape.com/blog/best-open-weight-llms-for-local-ai-in-2026",
+      "description": "Open-weight LLMs can now match frontier models on performance and cost much less. Compare licenses, hardware needs, and hybrid open/frontier setups for enterprise work.",
+      "snippet": "# Best open-weight LLMs for local AI in 2026\nCost for frontier models and enterprise AI coding tools are pushing tech leaders to consider building open-weight AI systems locally. Uber exhausted its 2026 AI budget in four months. Meta ran 73.7 trillion tokens in a single month. Now that open-weight LLMs clear the bar for daily work, and you can run them locally for a fraction of frontier API prices.",
+      "page_age": "2026-09-01T13:30:02"
+    },
+    {
+      "title": "Local AI vs Cloud AI in 2026: When to Run Models on Your Own Hardware ...",
+      "url": "https://www.mindstudio.ai/blog/local-ai-vs-cloud-ai-2026",
+      "description": "Open-weight models are 3–6 months behind frontier. Learn when local AI makes sense for cost, privacy, and agentic workloads vs paying for cloud APIs.",
+      "snippet": "# Local AI vs Cloud AI in 2026: When to Run Models on Your Own Hardware\nOpen-weight models are 3–6 months behind frontier. Learn when local AI makes sense for cost, privacy, and agentic workloads vs paying for cloud APIs.",
+      "page_age": "2026-05-27T00:00:00"
+    }
+  ]
+}

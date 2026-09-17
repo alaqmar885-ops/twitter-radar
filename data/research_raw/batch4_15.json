@@ -1,0 +1,61 @@
+{
+  "query": "Google AI Studio free Gemini Pro access limits",
+  "results": [
+    {
+      "title": "Google AI Studio: Free Gemini API : What You Can Do",
+      "url": "https://tensoria.fr/en/tools/google-ai-studio-guide",
+      "description": "Google AI Studio offers free Gemini API access. Check quotas, limits, SME use cases, and an honest 2026 comparison with GPT-4 and Claude.",
+      "snippet": "# Google AI Studio: Free Access to Gemini and What You Can Actually Do With It\n## \"Free\": The Real Quotas and Where They End\n### Free tier limits\nThe free tier imposes **rate limits** that vary by model:\n\n- **Requests per minute (RPM)**: number of API calls allowed per minute\n- **Tokens per minute (TPM)**: volume of text processable per minute\n- **Requests per day (RPD)**: daily cap on API calls",
+      "page_age": "2026-03-13T00:00:00"
+    },
+    {
+      "title": "Google AI Studio Free Plans, Trials, and Subscriptions: access ...",
+      "url": "https://www.datastudios.org/post/google-ai-studio-free-plans-trials-and-subscriptions-access-tiers-limits-and-upgrade-paths",
+      "description": "Google AI Studio serves as the central workspace for building, testing, and deploying prompts with Gemini models. It provides full access to the Gemini API through a structured system of free usage, pay-as-you-go billing, and tiered rate limits.",
+      "snippet": "# Google AI Studio Free Plans, Trials, and Subscriptions: access tiers, limits, and upgrade paths\n## How the free plan works in Google AI Studio.\nIn **Free mode**, developers can call supported Gemini models without charge, subject to published token and request limits. These limits ensure fair access and allow small projects or personal experimentation without financial risk. The free plan is automatically enabled for every new Google account and does not require Cloud Billing activation",
+      "page_age": "2026-09-07T16:40:37"
+    },
+    {
+      "title": "Rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "description": "",
+      "snippet": "# Rate limits\n## How rate limits work\n### Spend-based rate limits\n| Usage tier | Spend rate limit (per 10 minutes) |\n| --- | --- |\n| Free | N/A |\n| Tier 1 | $10 |\n| Tier 2 | $50 |\n| Tier 3 | $200 |",
+      "page_age": "2026-09-02T00:00:00"
+    },
+    {
+      "title": "Google AI Studio Free Tier 2026 — Free Models, Credits & Limits ...",
+      "url": "https://pricepertoken.com/endpoints/google-ai-studio/free",
+      "description": "Google AI Studio offers a no-credit-card free tier with rate-limited access to Flash-class Gemini models. As of April 2026, Pro-series models were moved to paid-only, so the free tier is now Flash / Flash-Lite.",
+      "snippet": "Google AI Studio offers a no-credit-card free tier with rate-limited access to Flash-class Gemini models. As of April 2026, Pro-series models were moved to paid-only, so the free tier is now Flash / Flash-Lite.",
+      "page_age": ""
+    },
+    {
+      "title": "r/Bard on Reddit: Gemini 3 Pro on AI Studio has finally been capped ...",
+      "url": "https://www.reddit.com/r/Bard/comments/1qqw8o4/gemini_3_pro_on_ai_studio_has_finally_been_capped/",
+      "description": "285 votes, 143 comments. It hasn't even been a week since Logan said the daily limit would drop, and it's already capped at 10. Go make like 1…",
+      "snippet": "# Gemini 3 Pro on AI Studio has finally been capped at 10 uses per day.\nIt hasn't even been a week since Logan said the daily limit would drop, and it's already capped at 10. Go make like 10 Google accounts right now!!",
+      "page_age": "2026-01-30T05:03:38"
+    },
+    {
+      "title": "Gemini API Free Tier 2026: Limits, Quotas, and What You Actually Get",
+      "url": "https://pecollective.com/tools/gemini-free-tier-guide/",
+      "description": "Gemini API free tier, updated September 2026. Gemini 3 Flash gets 10 RPM, 250K TPM, 1,500 requests/day. Every model's limits, plus how to run agents for $0.",
+      "snippet": "# Gemini API Free Tier (September 2026): Every Rate Limit, Quota, and Gotcha\n## Free Tier Rate Limits by Model\nA few things stand out. Gemini 2.5 Pro is capped at 50 requests per day on the free tier. That is enough to test and prototype but not enough for any real workload. Gemini 2.0 Flash and the newer Gemini 3.1 Flash-Lite are the most generous on requests per minute. As of May 2026, Google's free tier covers only Flash and Flash-Lite models. The Pro models moved behind billing",
+      "page_age": "2026-09-01T00:00:00"
+    },
+    {
+      "title": "Google AI Studio Pricing (2026): Free, Paid Plans & Gemini API ...",
+      "url": "https://www.nocode.mba/articles/google-ai-studio-pricing",
+      "description": "Google AI Studio is free to use, while Gemini API costs depend on model, tokens, rate limits and billing tier. Compare the options.",
+      "snippet": "# Google AI Studio Pricing (2026): Free, Paid Plans & Gemini API Costs\n### 🎯 Quick Answer: Is Google AI Studio Free?\n**Yes, Google AI Studio has a Free plan with modest usage limits.** Google also offers AI Pro and AI Ultra plans for higher model access and higher limits inside AI Studio. Gemini Developer API usage is separate: its Free tier has limited model access and free tokens within quotas, while paid API tiers add higher limits and production features",
+      "page_age": "2026-08-05T12:00:00"
+    },
+    {
+      "title": "Google AI plans with Cloud Storage - Google One",
+      "url": "https://one.google.com/intl/en_us/about/google-ai-plans/",
+      "description": "Explore Google AI plans. Access our most advanced AI, generate videos from text, and secure cloud storage.",
+      "snippet": "# Power your everyday with a Google AI plan\n## Students get more with Google AI\nTry Google AI Pro free for 1 year including 4x higher usage limits in Gemini, a 24/7 personal AI agent and 5 TB of cloud storage.",
+      "page_age": "2026-03-06T00:00:00"
+    }
+  ]
+}

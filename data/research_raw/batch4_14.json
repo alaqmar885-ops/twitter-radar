@@ -1,0 +1,61 @@
+{
+  "query": "NVIDIA NIM free frontier models access",
+  "results": [
+    {
+      "title": "NVIDIA Is Offering 80+ AI Models for Free via APIs",
+      "url": "https://medium.com/coding-nexus/nvidia-is-offering-80-ai-models-for-free-via-apis-fc64b38276b8",
+      "description": "NVIDIA Is Offering 80+ AI Models for Free via APIs You gain access to MiniMax M2.7, GLM 5.1, Kimi 2.5, DeepSeek 3.2, GPT-OSS-120B, Sarvam-M, and others. NVIDIA has quietly made its NIM (NVIDIA …",
+      "snippet": "# NVIDIA Is Offering 80+ AI Models for Free via APIs\n·\n--\n\nYou gain access to MiniMax M2.7, GLM 5.1, Kimi 2.5, DeepSeek 3.2, GPT-OSS-120B, Sarvam-M, and others",
+      "page_age": "2026-04-28T13:17:09"
+    },
+    {
+      "title": "Free, Frontier-Grade LLMs for Coding: How to Wire NVIDIA’s Nemotron ...",
+      "url": "https://medium.com/@osamaabid03/free-frontier-grade-llms-for-coding-how-to-wire-nvidias-nemotron-into-cline-vs-code-0f0f3db9d559",
+      "description": "Free, Frontier-Grade LLMs for Coding: How to Wire NVIDIA’s Nemotron into Cline (VS Code) If you’ve been paying for API tokens to power your AI coding assistant, there’s a good chance you …",
+      "snippet": "# Free, Frontier-Grade LLMs for Coding: How to Wire NVIDIA’s Nemotron into Cline (VS Code)\nIf you’ve been paying for API tokens to power your AI coding assistant, there’s a good chance you don’t need to. NVIDIA quietly runs a catalog of 100+ hosted open-weight models — including its own Nemotron family, plus Llama, Qwen, DeepSeek, Mistral, GLM and Gemma — and gives free API access to anyone with an email address. No credit card, no GPU of your own required",
+      "page_age": "2026-07-21T10:50:30"
+    },
+    {
+      "title": "Access to NVIDIA NIM Now Available Free to Developer Program Members ...",
+      "url": "https://developer.nvidia.com/blog/access-to-nvidia-nim-now-available-free-to-developer-program-members/",
+      "description": "The ability to use simple APIs to integrate pretrained AI foundation models into products and experiences has significantly increased developer usage of LLM…",
+      "snippet": "# Access to NVIDIA NIM Now Available Free to Developer Program Members\n## Download NIM microservices for any use case\nWhile anyone can sign up to the NVIDIA API Catalog for free credits to access models through NVIDIA-hosted NIM endpoints, members of the NVIDIA Developer program get free access to the latest downloadable NIM microservices, including Meta’s Llama 3.1 8B, Mistral AI’s compact Mistral 7B Instruct, and many more",
+      "page_age": "2024-08-08T17:15:54"
+    },
+    {
+      "title": "Free Frontier AI Models: The Complete Guide to NVIDIA Build (NIM) ...",
+      "url": "https://spiritustec.com/learn/nvidia-nim-guide/",
+      "description": "Free API access to 100+ hosted AI models via NVIDIA Build (NIM) — sign up, get a key, make your first call, and know the real rate and credit limits.",
+      "snippet": "Free API access to 100+ hosted AI models via NVIDIA Build (NIM) — sign up, get a key, make your first call, and know the real rate and credit limits.",
+      "page_age": "2026-07-23T00:00:00"
+    },
+    {
+      "title": "How to Use NVIDIA NIM Free Models in Your AI Workflows",
+      "url": "https://www.mindstudio.ai/blog/nvidia-nim-free-models-ai-workflows",
+      "description": "NVIDIA NIM offers free models like GLM 4.7 via API. Learn how to connect them to Claude Code or any agentic tool to reduce costs without sacrificing capability.",
+      "snippet": "# How to Use NVIDIA NIM Free Models in Your AI Workflows\n## Remy is new. The platform isn't.\n### What “Free” Actually Means on NVIDIA NIM\nWhen you create a free account on NVIDIA’s API catalog, you get access to a credits pool that lets you try any model in the catalog. Some models are designated as free — meaning they don’t consume credits — while others give you a generous initial credit balance to test with",
+      "page_age": "2026-05-03T00:00:00"
+    },
+    {
+      "title": "build.nvidia.com — try frontier models free, then ship them anywhere",
+      "url": "https://thevibefounder.com/r/nvidia-build/",
+      "description": "NVIDIA's build platform lets you try hundreds of leading AI models free in the browser, call them via an OpenAI-compatible API, then self-host the same model.",
+      "snippet": "## Open the model catalog\nThe playground and the API snippets are free to explore. Browse the models, try one in your browser, and grab the endpoint.\n\nbuild.nvidia.com — Try NVIDIA NIM APIs\n\nNVIDIA · hosted model playground + API\n\nOpen build.nvidia.com ↗",
+      "page_age": "2026-07-09T00:00:00"
+    },
+    {
+      "title": "Free LLM API (2026): NVIDIA Gives You 100+ Frontier Models for ...",
+      "url": "https://sidsaladi.substack.com/p/free-llm-api-nvidia-nim",
+      "description": "How to get a free LLM API in 2026: NVIDIA hosts DeepSeek, Llama, Qwen and GLM with free credits and an OpenAI-compatible endpoint — full setup guide, real rate limits, and the complete $0 stack.",
+      "snippet": "# Free LLM API (2026): NVIDIA Gives You 100+ Frontier Models for $0 — The Complete Setup Guide\n### DeepSeek, Llama, Qwen & GLM hosted by NVIDIA — OpenAI-compatible, no credit card. Setup in 10 minutes, the real limits, and the full $0 stack.\nThat's why the smartest free tier in AI right now is hiding in plain sight: **NVIDIA hosts 100+ frontier models — DeepSeek, Llama, Qwen, Nemotron, even GLM — and gives developers free API access to all of",
+      "page_age": "2026-07-13T23:37:28"
+    },
+    {
+      "title": "Free NVIDIA NIM API Key & Free Tier: Base URL, Rate Limits, 79 ...",
+      "url": "https://freellm.net/providers/nvidia-nim",
+      "description": "How to get a free NVIDIA NIM API key, use free tier models, https://integrate.api.nvidia.com/v1, check Up to 40 RPM, and compare 79 free or trial models.",
+      "snippet": "# Free NVIDIA NIM API Key, Base URL & Rate Limits\n## How to get a free NVIDIA NIM API key\n1. 1 Sign up at build.nvidia.com Free NVIDIA Developer account. No credit card. Get NVIDIA NIM API key →\n2. 2 Go to Settings → API Keys\n3. 3 Generate an API key\n4. 4 Browse available models 100+ open models. Nemotron Super 49B recommended.\n5. 5 Configure OpenAI client Base URL: https://integrate.api.nvidia.com/v1",
+      "page_age": "2026-07-24T00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "query": "Qwen free API access 2026",
+  "results": [
+    {
+      "title": "Is Qwen Code Still Free in 2026? 3 Free Paths",
+      "url": "https://inventivehq.com/blog/qwen-code-still-free-2026-shutdown",
+      "description": "Yes—the Qwen Code CLI is still free and open source. See what ended April 15, 2026, plus 3 ways to keep using Qwen3-Coder for free.",
+      "snippet": "# Is Qwen Code Still Free in 2026? 3 Free Paths\n## What actually changed (and what didn't)\nHere's the single most important thing to get straight: **\"Qwen Code\" the CLI is still free and open source.** What ended was the **free hosted OAuth login** that gave you free cloud inference through Alibaba's servers. Those are two different things, and conflating them is the root of nearly every \"Qwen is dead\" take",
+      "page_age": "2026-06-12T00:00:00"
+    },
+    {
+      "title": "Free Qwen 3.8 27B API: No Free Tier Yet — What to Use",
+      "url": "https://www.orcarouter.ai/blog/free-qwen-3-8-27b-api",
+      "description": "Qwen3.8-27B has no free API yet — the weights haven't shipped. The three free routes cost hardware, limits, or patience; here's what to run free today.",
+      "snippet": "Qwen3.8-27B has no free API yet — the weights haven't shipped. The three free routes cost hardware, limits, or patience; here's what to run free today.\n\nAn hourglass on an empty model pedestal — the Qwen3.8-27B weights have not been released, so no free API can exist.",
+      "page_age": "2026-08-12T11:40:23"
+    },
+    {
+      "title": "Qwen Pricing 2026: Qwen3.8-Max API Costs & Free App",
+      "url": "https://felloai.com/qwen-pricing/",
+      "description": "Qwen pricing 2026: the Qwen Chat app is free, while API rates run from $0.05 to $6.00 per million tokens. See what every model costs, plus Qwen3.8-Max.",
+      "snippet": "Qwen pricing 2026: the Qwen Chat app is free, while API rates run from $0.05 to $6.00 per million tokens.",
+      "page_age": "2026-09-09T13:30:00"
+    },
+    {
+      "title": "Qwen pricing in 2026: every model, what you actually pay, and where ...",
+      "url": "https://www.eesel.ai/blog/qwen-pricing",
+      "description": "Full Qwen API pricing breakdown for 2026: every model tier, thinking mode costs, free tier changes, and real cost examples vs Claude and GPT.",
+      "snippet": "# Qwen pricing in 2026: every model, what you actually pay, and where it's worth it\n## Frequently Asked Questions\nThe consumer Qwen Studio chat app remains free with no sign-up required. However, the developer API free tier was discontinued on April 15, 2026. New Alibaba Cloud accounts do receive a 70M+ token free trial (1M tokens per model, valid 90 days on the Singapore endpoint), so there's still a meaningful onramp - it's just not unlimited",
+      "page_age": "2026-06-04T00:00:00"
+    },
+    {
+      "title": "Free, Unlimited Qwen API",
+      "url": "https://developer.puter.com/tutorials/free-unlimited-qwen-api/",
+      "description": "Learn how to use Puter.js to access all Qwen family models—from general chat to instruction‑tuned, vision, code, and image generation models—completely free, without any API keys or usage restrictions.",
+      "snippet": "Learn how to use Puter.js to access all Qwen family models—from general chat to instruction‑tuned, vision, code, and image generation models—completely free, without any API keys or usage restrictions",
+      "page_age": "2026-08-28T00:00:00"
+    },
+    {
+      "title": "Qwen Pricing Explained: Free Access & API Rates (2026)",
+      "url": "https://techjacksolutions.com/ai-tools/qwen/qwen-pricing/",
+      "description": "Explore the complete Qwen pricing guide for 2026. Compare free access paths, API rates from $0.15 per million tokens, prompt caching, and licensing tiers.",
+      "snippet": "# Is Qwen Free? Pricing, Models & API Tiers Explained\nQwen pricing spans three tiers: free on your own hardware, a free hosted tier on Groq, and a paid API starting at $0.15 per million input tokens (including specialized models like Qwen Audio 3 for text-to-speech) for the open-weight 35B model",
+      "page_age": "2026-08-18T21:27:43"
+    },
+    {
+      "title": "How to Use Qwen 3.7 for Free ?",
+      "url": "https://apidog.com/blog/how-to-use-qwen-3-7-for-free/",
+      "description": "",
+      "snippet": "Alibaba shipped Qwen 3.7 into the world quietly. The two preview models, Qwen3.7-Max-Preview and Qwen3.7-Plus-Preview, first appeared on a public model arena on May 14, 2026, with no blog post and no API. The official reveal followed at the Alibaba Cloud Summit in Hangzhou on May 20. If you want to try the model without paying, the question is which routes are real free access and which are paid trials wearing a free label",
+      "page_age": "2026-05-21T08:52:34"
+    },
+    {
+      "title": "Authentication",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth/",
+      "description": "Qwen Code's first-run /auth menu has three top-level options. Pick the one that matches how you want to run the CLI:",
+      "snippet": "# Authentication\n**Note**\n\n**Qwen OAuth** is no longer a selectable dialog entry — its free tier was discontinued on 2026-04-15. It remains documented below as a hard-coded, discontinued provider only",
+      "page_age": "2026-09-09T22:48:22"
+    }
+  ]
+}

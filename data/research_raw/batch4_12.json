@@ -1,0 +1,61 @@
+{
+  "query": "GitHub Models frontier models free tier GPT-5",
+  "results": [
+    {
+      "title": "GitHub - Moh4696/free-ai-models: 10 legit ways to access major ...",
+      "url": "https://github.com/Moh4696/free-ai-models",
+      "description": "10 legit ways to access major AI models (GPT, Claude, Llama, DeepSeek & more) for FREE — step-by-step guides, no subscription, no card. - Moh4696/free-ai-models",
+      "snippet": "10 legit ways to access major AI models (GPT, Claude, Llama, DeepSeek & more) for FREE — step-by-step guides, no subscription, no card.",
+      "page_age": "2026-06-19T00:00:00"
+    },
+    {
+      "title": "Free LLM API in 2026: 13 Options Ranked and Compared — OpenRouter ...",
+      "url": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared/",
+      "description": "Stop guessing which free LLM API survives past a side project. Here's how OpenRouter, Groq, Gemini, and 10 more compare on limits, cost, and data use.",
+      "snippet": "# Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)\n## Rate Limits Side by Side\n| Provider | Requests Per Minute | Requests Per Day | Tokens Per Minute | Best For |\n| --- | --- | --- | --- | --- |\n| Groq | 30 | 1,000 | High | Real-time apps, voice agents |\n| Cerebras | 30 | \\~1M tokens/day equivalent | High | Batch processing, throughput |\n| Mistral (Experiment) | Variable | \\~1B tokens/month | Variable | Coding workloads, high volume |\n| OpenRouter | 20 | 50 (1,000 with $10 top-up) | Variable | Experimentation, routing across models |\n| GitHub Models | 15 | 150–1,000 | Variable | Frontier model access |\n| Google AI Studio | 5–15 | 20–1,500 | Variable | Long-context analysis |\n| Cohere | 10–20 | \\~100 | Low | RAG prototyping (non-commercial) |\n| NVIDIA NIM | High | \\~1,000 | Variable | NVIDIA-hosted inference |\n| Cloudflare Workers AI | High | \\~10K neurons/day | Variable | Edge deployment |\n| Hugging Face | Variable | Community-rate-limited | Variable | OSS model exploration |",
+      "page_age": "2026-06-15T17:00:00"
+    },
+    {
+      "title": "models package - github.com/gws-official/gpt/models - Go Packages",
+      "url": "https://pkg.go.dev/github.com/gws-official/gpt/models",
+      "description": "",
+      "snippet": "# models\n## Documentation ¶\n### Types ¶\n#### type Model ¶\n```\ntype Model string\n```\n\n```\nconst (\n\t// OpenAI's flagship frontier model for complex reasoning, coding, and professional work.\n\tModelGPT55 Model = \"gpt-5.5\"\n\n\t// A more affordable frontier model for coding and professional work.\n\tModelGPT54 Model = \"gpt-5.4\"\n\n\t// A faster, lower-cost GPT-5.4-class model for coding, computer use, and subagents.\n\tModelGPT54Mini Model = \"gpt-5.4-mini\"\n\n\t// The cheapest GPT-5.4-class model for simple high-volume tasks like extraction, ranking, and classification.\n\tModelGPT54Nano Model = \"gpt-5.4-nano\"\n)\n```",
+      "page_age": ""
+    },
+    {
+      "title": "Free & Cheapest Access to Frontier AI Models (2026)",
+      "url": "https://wetheflywheel.com/en/ai-model-access/",
+      "description": "Five routes to a frontier model (free tier, subscription, aggregator, direct API, self-host) and which one is actually cheapest for your usage. Gemini, Claude, GPT, and DeepSeek covered.",
+      "snippet": "# Free & Cheapest Access to Frontier AI Models (2026)\n#### Key Takeaways\n- **Match the route to the usage profile, not the model.** — Occasional use → free tier. Daily coding → a subscription harness. Spiky automation → metered API or an aggregator. Heavy steady volume → self-host the math.\n- **By free-tier generosity, Gemini leads.** — Google AI Studio gives away the most usable frontier access of any major provider. DeepSeek is the cheapest paid token. Claude and GPT give the least away for free",
+      "page_age": "2026-05-27T00:00:00"
+    },
+    {
+      "title": "AI inference endpoint model availability question · community ...",
+      "url": "https://github.com/orgs/community/discussions/186378",
+      "description": "AI inference endpoint model availability question",
+      "snippet": "# AI inference endpoint model availability question #186378\n## Replies: 8 comments · 3 replies\n### monxcode Feb 7, 2026\nyet available on that endpoint Use gpt-4o or any model returned by the /models API call Keep an eye on GitHub documentation for GPT-5 rollout updates",
+      "page_age": "2026-02-04T00:00:00"
+    },
+    {
+      "title": "GitHub - ffrappo/pi-frontier: Daily-updated catalog of frontier ...",
+      "url": "https://github.com/ffrappo/pi-frontier",
+      "description": "Daily-updated catalog of frontier AI models: unified API routing tables, pricing data, headless JS library, CLI, and Web UI. - ffrappo/pi-frontier",
+      "snippet": "Daily-updated catalog of frontier AI models: unified API routing tables, pricing data, headless JS library, CLI, and Web UI.",
+      "page_age": ""
+    },
+    {
+      "title": "[Feature]: Support OpenAI frontier models (gpt-5.5 / gpt-5.4) on ...",
+      "url": "https://github.com/BerriAI/litellm/issues/29463",
+      "description": "The Feature AWS launched OpenAI frontier models (openai.gpt-5.5, openai.gpt-5.4) on the Bedrock bedrock-mantle endpoint on 2026-06-01. These are Responses-API-only and live on a distinct path: https://bedrock-mantle.{region}.api.aws/open...",
+      "snippet": "The Feature AWS launched OpenAI frontier models (openai.gpt-5.5, openai.gpt-5.4) on the Bedrock bedrock-mantle endpoint on 2026-06-01. These are Responses-API-only and live on a distinct path: https://bedrock-mantle.{region}.api.aws/open",
+      "page_age": "2026-06-02T01:23:22"
+    },
+    {
+      "title": "GitHub Models built into your repository is in public preview · ...",
+      "url": "https://github.com/orgs/community/discussions/159087",
+      "description": "GitHub Models built into your repository is in public preview",
+      "snippet": "# GitHub Models built into your repository is in public preview #159087\n## Replies: 49 comments · 23 replies\n### krishnanmk Jun 14, 2025\n#### KateCatlin Jul 9, 2025\nHey @krishnanmk, great question! To clarify: Once you enable billing, all usage (whether via the API or the in-repo playground/compare tabs) is immediately billed according to your pricing plan. There's no longer a free tier that gets used up first once you enable billing",
+      "page_age": "2025-05-13T00:00:00"
+    }
+  ]
+}

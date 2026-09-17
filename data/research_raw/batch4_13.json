@@ -1,0 +1,61 @@
+{
+  "query": "OpenRouter free frontier models list 2026",
+  "results": [
+    {
+      "title": "OpenRouter Free Models: Full List + Rate Limits Explained",
+      "url": "https://aitoolsradar.org/blog/guides/openrouter-free-models-2026/",
+      "description": "Complete list of OpenRouter free models with rate limits explained. Covers coding performance, API key setup, model rotation, and fixing common errors.",
+      "snippet": "# OpenRouter Free Models: Full List + Rate Limits Explained\n## Quick list: free models on OpenRouter (June 2026)\n| Model | Slug pattern | Type | Best for |\n| --- | --- | --- | --- |\n| Qwen3-Coder | qwen/qwen3-coder:free | Free | Coding (our #1 free pick) |\n| Poolside Laguna | poolside/laguna-xs.2:free | Free | Coding agents, inline suggestions |\n| NVIDIA Nemotron 3 Ultra | nvidia/nemotron-3-ultra-550b-a55b:free | Free | 1M-context agent tasks |\n| Google Gemma 4 | google/gemma-4-31b-it:free | Free | Multimodal + text Q&A |\n| OpenAI OSS 120B | openai/gpt-oss-120b:free | Free | Reasoning-heavy drafts |\n| Nous Hermes | nousresearch/hermes-3-llama-3.1-405b:free | Free | Generalist, uncensored drafts |\n| Z AI GLM | z-ai/glm-4.5-air:free | Free | Lightweight general tasks |\n| Meta Llama 3.3 70B | meta-llama/llama-3.3-70b-instruct:free | Free | Fallback (may rotate off free) |\n| MiniMax M3 | minimax/minimax-m3 | Paid ($0.30/$1.20) | Cheapest 1M-context coding |\n| Kimi K2.7 Code | moonshotai/kimi-k2.7-code | Paid ($0.95/$4.00) | Premium open-weight coding |\n| DeepSeek V4-Pro | deepseek/deepseek-v4-pro | Paid (low) | Best value frontier model |\n| GPT-5.5 | openai/gpt-5.5 | Paid (high) | Final patches, agent loops |\n| Claude Opus 4.8 | anthropic/claude-opus-4-8 | Paid (high) | Production code, complex reasoning |",
+      "page_age": "2026-06-13T00:00:00"
+    },
+    {
+      "title": "Best Free OpenRouter Models In 2026: Full Comparison Guide",
+      "url": "https://buldrr.com/best-free-openrouter-models-2026/",
+      "description": "Compare all 29 free OpenRouter models in 2026. See which model is best for writing, coding, reasoning, and automation workflows. Includes rotation…",
+      "snippet": "# Best Free OpenRouter Models in 2026: Which One Should You Use?\n## The Full List: Best Free OpenRouter Models in 2026\n| Model ID | Best For | Speed | Context Window | Reasoning |\n| --- | --- | --- | --- | --- |\n| deepseek/deepseek-chat-v3-0324:free | General writing, summarizing, Q&A, automations | Fast | 64K | Good |\n| meta-llama/llama-4-scout:free | Fast chat, simple extraction, high-volume tasks | Very fast | 10M | Basic |\n| deepseek/deepseek-r1:free | Step-by-step reasoning, math, complex decisions | Slow | 64K | Excellent |\n| google/gemma-3-27b-it:free | Low-latency tasks, lightweight extraction | Very fast | 131K | Basic |\n| qwen/qwen3-235b-a22b:free | Complex analysis, research, detailed thinking | Medium | 40K | Very good |\n| openai/gpt-oss-20b:free | Coding, code generation, debugging | Fast | 128K | Good |\n| nvidia/llama-3.1-nemotron-ultra-253b:free | Long-context tasks, agent workflows | Slow | 1M | Excellent |\n| openrouter/free | Auto-routes to best available free model | Varies | Varies | Varies |",
+      "page_age": "2026-07-24T20:27:01"
+    },
+    {
+      "title": "How to get Free AI Model APIs with 'Unlimited' Tokens",
+      "url": "https://pinggy.io/blog/free_ai_model_apis_unlimited_tokens_openrouter/",
+      "description": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.",
+      "snippet": "# How to get Free AI Model APIs with 'Unlimited' Tokens\n| Model | Size | Context | Best For |\n| --- | --- | --- | --- |\n| NVIDIA Nemotron 3 Ultra | 550B / 55B active MoE | 1M tokens | General reasoning, agent orchestration |\n| Owl Alpha | Undisclosed (stealth) | 1M tokens | Agentic/tool-use workloads (temporary) |\n| Tencent Hy3 | 295B / 21B active MoE | 262K tokens | General use, free only through July 21, 2026 |\n| Qwen3 Coder | 480B / 35B active MoE | 1M tokens | Agentic coding, tool calling |\n| OpenAI gpt-oss-120b/20b | 117B / 5.1B active MoE (120b) | 131K tokens | Open-weight reasoning, self-hostable |\n| Google Gemma 4 | 31B dense / 26B-A4B MoE | 256K tokens | Multimodal (text, image, video) |",
+      "page_age": "2026-07-10T06:00:00"
+    },
+    {
+      "title": "OpenRouter Free Tier 2026: Rate Limits, Free Models Tested",
+      "url": "https://klymentiev.com/blog/openrouter-free-tier",
+      "description": "20 a minute, 50 or 1,000 a day. We call all 19 free models daily: on 12 September 13 answered, 4 returned 429. See which ones work today.",
+      "snippet": "# OpenRouter Free Tier Limits 2026: 19 Free Models, Tested\nThe roster has turned over completely since spring. DeepSeek R1, Qwen3 Coder 480B, Llama 3.3 70B and Llama 4 Scout are **no longer free** on OpenRouter; today's free list is led by NVIDIA Nemotron 3, Google Gemma 4 and a set of new agentic coding models",
+      "page_age": "2026-09-12T00:00:00"
+    },
+    {
+      "title": "OpenRouter Free Models List 2026: All 27+ Models Ranked & Tested",
+      "url": "https://buldrr.com/openrouter-free-models-list-2026-all-27-models-ranked-tested/",
+      "description": "OpenRouter's free models list for 2026, verified live. See all 27+ free AI models ranked by real usage, rate limits, and which one to pick.",
+      "snippet": "# OpenRouter Free Models List 2026: All 27+ Models Ranked & Tested\n## The Top OpenRouter Free Models, Ranked by Real Usage\n| Model | Provider | Context Window | Best For |\n| --- | --- | --- | --- |\n| Owl Alpha | OpenRouter | \\~1M tokens | General-purpose agent tasks |\n| Nemotron 3 Super 120B-A12B | NVIDIA | 1M tokens | Large-context reasoning |\n| Laguna M.1 | Poolside | 262K tokens | Coding agents |\n| gpt-oss-120b | OpenAI | 131K tokens | General coding & reasoning |\n| Nemotron 3 Ultra | NVIDIA | 1M tokens | Long-document, agentic work |\n| GLM-4.5-Air | Z.ai | 131K tokens | General chat & reasoning |\n| Laguna XS.2 | Poolside | 262K tokens | Lightweight coding agent |\n| gpt-oss-20b | OpenAI | 131K tokens | Fast, lighter coding tasks |\n| Nemotron 3 Nano 30B-A3B | NVIDIA | 256K tokens | Quick general tasks |\n| Gemma 4 31B | Google | 262K tokens | Multilingual, general use |\n| Kimi K2.6 | Moonshot AI | 262K tokens | Reasoning & agent tasks |\n| Nemotron Nano 12B VL | NVIDIA | 128K tokens | Vision + language tasks |",
+      "page_age": "2026-07-24T20:26:59"
+    },
+    {
+      "title": "OpenRouter free models list 2026: 25 models, limits and tests — ...",
+      "url": "https://rubentorney.com/blog/en/openrouter-modeles-gratuits-2026.html",
+      "description": "Verified July 2026 list of 25 free AI models on OpenRouter, with limits and models from Qwen, NVIDIA, Llama, OpenAI, Gemma and LiquidAI.",
+      "snippet": "# OpenRouter free models list 2026: 25 models, limits and tests\n## Models to test first\n| Use case | Model | Why |\n| --- | --- | --- |\n| Coding agent | qwen/qwen3-coder:free | Large context, code-oriented, a strong candidate for agents and tools. |\n| Long context | nvidia/nemotron-3-ultra-550b-a55b:free | 1M context window and 500B+ parameters, interesting for long documents, large repositories or exploratory RAG. |\n| General baseline | meta-llama/llama-3.3-70b-instruct:free | A known model family, useful as a simple comparison point. |\n| OpenAI open model | openai/gpt-oss-120b:free | Worth testing against other open-weight families. |\n| Multimodal | google/gemma-4-26b-a4b-it:free | Text, image and video inputs to text output, handy for experimentation without a budget. |\n| Automatic router | openrouter/free | Lets OpenRouter route to an available free model. |",
+      "page_age": "2026-08-17T00:00:00"
+    },
+    {
+      "title": "Best OpenRouter Free Models 2026: All 14 Ranked, No Card",
+      "url": "https://www.teamday.ai/blog/best-free-ai-models-openrouter-2026",
+      "description": "All 14 free OpenRouter models ranked for August 2026 — no credit card. Best free pick for coding, chat, and research, plus real rate limits and when to upgrade.",
+      "snippet": "# OpenRouter Free Models: All 14 Live Picks for August 2026\n## Live Free Catalog: August 3, 2026\n| Free model ID | Context | Practical starting point |\n| --- | --- | --- |\n| nvidia/nemotron-3-ultra-550b-a55b:free | 1M | Long-context reasoning and orchestration tests |\n| inclusionai/ling-3.0-flash:free | 262K | Fast general instruction work |\n| nvidia/nemotron-3-super-120b-a12b:free | 262K | General and agent tests |\n| poolside/laguna-s-2.1:free | 262K | Mid-size coding-agent experiments |\n| poolside/laguna-xs-2.1:free | 262K | Faster coding-agent experiments |\n| google/gemma-4-26b-a4b-it:free | 262K | General multimodal (image + video) instruction work |\n| google/gemma-4-31b-it:free | 262K | General multimodal (image + video) instruction work |\n| cohere/north-mini-code:free | 256K | Code generation and tool-use tests |\n| nvidia/nemotron-3-nano-30b-a3b:free | 256K | Efficient general agent tasks |\n| nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | 256K | Multimodal (image/audio/video) reasoning tests |\n| openai/gpt-oss-20b:free | 131K | General and faster reasoning experiments |\n| nvidia/nemotron-3.5-content-safety:free | 128K | Content-safety classification (text + image) |\n| nvidia/nemotron-nano-12b-v2-vl:free | 128K | Vision-language extraction tests |\n| nvidia/nemotron-nano-9b-v2:free | 128K | Lightweight general tasks |",
+      "page_age": "2026-08-03T00:00:00"
+    },
+    {
+      "title": "OpenRouter Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/openrouter/free",
+      "description": "OpenRouter has no promotional credits, but it offers 28+ models at literally $0 per token (IDs ending in :free), usable with a $0 balance and no credit card. Free models are rate-limited rather than credit-limited.",
+      "snippet": "# OpenRouter Free Tier\n## Free Tier Details\nFree tier\n\n**Free Models**: 28+ models at $0/token (DeepSeek R1, Llama 3.3 70B, Qwen3 Coder, etc.)\n**Free Rate Limit**: 20 req/min and 50 req/day, raised to 1,000 req/day after a one-time $10 credit purchase\n**Credit Card Required**: No",
+      "page_age": ""
+    }
+  ]
+}

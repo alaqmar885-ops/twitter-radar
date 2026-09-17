@@ -1,0 +1,61 @@
+{
+  "query": "free frontier reasoning model access 2026",
+  "results": [
+    {
+      "title": "Free frontier model access for 100,000 researchers - Announcements ...",
+      "url": "https://community.openai.com/t/free-frontier-model-access-for-100-000-researchers/1388379",
+      "description": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. Apply today! ChatGPT for Academic Research…",
+      "snippet": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. Apply today! ChatGPT for Academic Researchers is built to accelerate discovery across disciplines. We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their w",
+      "page_age": "2026-07-29T21:09:07"
+    },
+    {
+      "title": "Free & Cheapest Access to Frontier AI Models (2026)",
+      "url": "https://wetheflywheel.com/en/ai-model-access/",
+      "description": "Five routes to a frontier model (free tier, subscription, aggregator, direct API, self-host) and which one is actually cheapest for your usage. Gemini, Claude, GPT, and DeepSeek covered.",
+      "snippet": "# Free & Cheapest Access to Frontier AI Models (2026)\nFive routes to a frontier model (free tier, subscription, aggregator, direct API, self-host) and which one is actually cheapest for your usage. Gemini, Claude, GPT, and DeepSeek covered.",
+      "page_age": "2026-05-27T00:00:00"
+    },
+    {
+      "title": "Introducing the AI Frontier Model Tracker",
+      "url": "https://www.demandsphere.com/blog/ai-frontier-model-tracker-launch/",
+      "description": "Compare 42 frontier AI models from 14 providers. Free benchmarks, API pricing, cost calculator, and JSON API. Updated weekly.",
+      "snippet": "# Introducing the AI Frontier Model Tracker\nRay Grieselhuber · April 12, 2026\n\nIntroducing the AI Frontier Model Tracker\n\n**The AI Frontier Model Tracker is a free AI model comparison tool and leaderboard covering 42 frontier large language models (LLMs) from 14 providers.** It includes benchmark scores, enterprise AI pricing, context windows, parameter counts, and a free JSON API.",
+      "page_age": "2026-09-03T07:06:34"
+    },
+    {
+      "title": "EO sets voluntary ‘early access’ framework for AI models",
+      "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/900af3cf/executive-order-establishes-voluntary-early-access-framework-to-frontier-ai-models",
+      "description": "On June 2, 2026, the White House issued an Executive Order titled “Promoting Advanced Artificial Intelligence Innovation and Security.”",
+      "snippet": "On June 2, 2026, the White House issued an Executive Order titled “Promoting Advanced Artificial Intelligence Innovation and Security.”\n\nNorton Rose Fulbright | Executive Order establishes voluntary “early access” framework to frontier AI models",
+      "page_age": "2026-06-12T09:34:52"
+    },
+    {
+      "title": "OpenRouter Free Models: The Complete Guide for Zero-Human Builders ...",
+      "url": "https://www.zhcinstitute.com/research/openrouter-free-models-guide/",
+      "description": "OpenRouter hosts 28 permanently free AI models with no credit card required. This guide covers the full free model landscape, API setup, integration patterns for autonomous agents, and when to upgrade to paid tier.",
+      "snippet": "# OpenRouter Free Models: The Complete Guide for Zero-Human Builders\n## Executive Summary\nOpenRouter has emerged as the dominant aggregation layer for AI models, offering unified API access to over 600 models from dozens of providers. Its free tier—28 models with zero cost and no credit card required—represents a practical on-ramp for builders experimenting with autonomous systems, prototyping agentic workflows, or reducing operational spend on commodity inference tasks",
+      "page_age": "2026-05-17T00:00:00"
+    },
+    {
+      "title": "Frontier AI Models 2026: 200+ Tested, No Winner",
+      "url": "https://layerlens.ai/blog/q1-2026-frontier-model-report",
+      "description": "LayerLens tested 200+ frontier AI models on Stratix in Q1 2026. No provider won. Execution gaps of 2.5 to 7.3 points, knowledge scores converged.",
+      "snippet": "# Q1 2026 Frontier Model Report: What the Release Cycle Broke in Your Evaluation Stack\n## The Rise of Affordable AI Models\n- **Gemini 3.1 Flash-Lite** (Google): About $0.25 per million words. Built for high-volume tasks.\n- **Qwen 3.5** (Alibaba): Phone-sized to frontier-class. LiveCodeBench v6: 83.6%.\n- **Mistral Small 4** (Mistral): Free, handles text and images, 180 pages per request",
+      "page_age": "2026-04-03T00:00:00"
+    },
+    {
+      "title": "GitHub - 12britz/awesome-free-models: A curated list of free AI ...",
+      "url": "https://github.com/12britz/awesome-free-models",
+      "description": "A curated list of free AI models, APIs, and tools you can use without paying a cent. - 12britz/awesome-free-models",
+      "snippet": "# Awesome Free Models Awesome\n## 🧠 Open-Weight Models\n- GLM-5.2 (Zhipu AI) — 744B MoE model optimized for autonomous coding and engineering tasks. 1M-token context. MIT license.\n- LongCat-2.0 (ByteDance) — Large-scale open-weight model for heavy agentic coding. MIT license.\n- MiniMax M3 — Frontier-tier 1M context, native multimodal + computer use. MSA architecture",
+      "page_age": "2026-09-16T10:18:54"
+    },
+    {
+      "title": "The Age of Frontier Intelligence",
+      "url": "https://www.digitalbricks.ai/blog-posts/the-age-of-frontier-intelligence",
+      "description": "A clear guide to frontier AI models and how Microsoft brings them into Copilot, Copilot Studio, and Azure AI Foundry. Understand the impact, trade-offs, and opportunities at the edge of modern AI.",
+      "snippet": "# The Age of Frontier Intelligence\n### Leading Frontier Models in 2026\n#### Copilot and Copilot Studio\nMicrosoft’s approach effectively bridges open and closed models and makes frontier AI accessible: Foundry gives direct access to both the best closed models (like GPT-4/GPT-5 series) and strong open models, and Copilot Studio provides the means to quickly build applications on top of those models",
+      "page_age": "2026-01-21T00:00:00"
+    }
+  ]
+}
