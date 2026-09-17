@@ -111,19 +111,59 @@ _AI_WORD = re.compile(r"\b(ai|ml|llm|gpt|rag)\b", re.I)
 _AI_HOST_RE = None
 
 
-def is_ai_related(text: str) -> bool:
+def is_ai_related(text: str, min_score: int = 2) -> bool:
+    """AI relevance = enough distinct AI concepts, not one keyword match."""
     low = f" {(text or '').lower()} "
     if any(h in low for h in AI_HOSTS):
         return True
+    score, _ = ai_relevance(text)
+    return score >= max(1, int(min_score))
+
+
+# AI *concepts*, not just the token "ai". A page that merely says "AI" once
+# ("telemetry for hardware teams who could build it") is not an AI offer; a page
+# selling model access is. Counting distinct concepts separates the two without
+# needing an LLM.
+AI_CONCEPTS = {
+    "model_access": ["llm", "large language model", "gpt", "claude", "gemini", "grok",
+                     "deepseek", "qwen", "llama", "mistral", "kimi", "glm", "phi",
+                     "inference", "api key", "api credits", "tokens", "context window",
+                     "model", "checkpoint", "fine-tune", "embedding"],
+    "ai_product": ["ai assistant", "ai agent", "chatbot", "copilot", "ai tool",
+                   "ai writer", "text-to-", "image generation", "generative",
+                   "ai coding", "ai powered", "ai-powered", "prompt"],
+    "ai_context": ["machine learning", "neural", "diffusion", "transformer",
+                   "artificial intelligence", "\u5927\u6a21\u578b", "\u6a21\u578b"],
+}
+AI_PHRASES = ["free ai", "ai free", "ai api", "ai credit", "ai tier",
+              "ai subscription", "ai plan", "ai trial", "ai token"]
+
+
+def ai_relevance(text: str) -> tuple:
+    """Return (score, matched_terms).
+
+    score = number of DISTINCT AI terms present (word-boundary aware for short
+    ones), +2 when the URL is a known AI provider. A single passing mention of
+    "AI" scores 1; a page actually selling model access scores 3-6. This is what
+    separates "telemetry for hardware teams" (0) from "free LLM API credits" (3)
+    without needing an LLM in the loop.
+    """
+    low = f" {(text or '').lower()} "
+    hits = set()
+    for terms in AI_CONCEPTS.values():
+        for t in terms:
+            if t in low:
+                hits.add(t)
     if _AI_WORD.search(low):
-        return True
-    for t in AI_TERMS:
-        t = t.strip()
-        if len(t) <= 3:
-            continue                      # handled by the word-boundary pass
-        if t and t in low:
-            return True
-    return False
+        hits.add("ai")
+    for p in AI_PHRASES:
+        if p in low:
+            hits.add(p)
+    score = len(hits)
+    if any(h in low for h in AI_HOSTS):
+        score += 2
+        hits.add("host:ai_provider")
+    return score, sorted(hits)
 
 
 PRODUCT_PREFIX = re.compile(r"^\s*(?:show|ask|tell)\s+hn\s*[:\-]\s*(.+)$", re.I)

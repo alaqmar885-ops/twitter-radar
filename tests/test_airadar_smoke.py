@@ -29,7 +29,7 @@ def _cfg(tmp_db: str):
 def test_classifier_extracts_promo_code():
     cfg = _cfg(":memory:")
     c = OfferClassifier(cfg)
-    text = "Cursor AI Pro free for 2 weeks with code CURSORFREE - limited time!"
+    text = "Cursor AI code editor free for 2 weeks, 500 AI credits, with code CURSORFREE"
     it = Item(id="t1", platform="twitter", text=text, title="Free tier",
               url="https://example.com/x")
     assert c.is_offer(it) is True

@@ -11,6 +11,9 @@ log = logging.getLogger(__name__)
 PROMO_PATTERNS = [
     re.compile(r"(?:promo\s*code|coupon\s*code|discount\s*code)\s*[:\-]?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,23})", re.I),
     re.compile(r"\bcode\s*[:\-]\s*([A-Za-z0-9][A-Za-z0-9_-]{2,23})", re.I),
+    # "code CURSORFREE" / "code SAVE90" (no colon) - uppercase-only so it
+    # cannot swallow ordinary lowercase words.
+    re.compile(r"\bcode\s*[:=\-]?\s*([A-Z0-9][A-Z0-9_-]{3,23})\b"),
     re.compile(r"\b(?:use|with|apply)\s+(?:code\s+)?([A-Z][A-Z0-9_-]{4,23})\b"),
     # NOTE: a context-free "uppercase+digit" pattern was removed here. It matched
     # model names and product codes (e.g. "GPT2") and produced false promo codes.

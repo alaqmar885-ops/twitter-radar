@@ -1,0 +1,5 @@
+Plexus - Telemetry for hardware teams who could buil | relevance=0 | passes(min=1)=False
+Free tier, no credit card. Start free with 500 free  | relevance=1 | passes(min=2)=False
+OpenRouter free models, LLM inference API credits | relevance=1 | passes(min=3)=False
+Taxes while living abroad as a US citizen | relevance=0 | passes(min=1)=False
+Mojo compiler is open for open source contributions | relevance=0 | passes(min=1)=False

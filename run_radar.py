@@ -81,7 +81,7 @@ def _enricher(cfg):
 def _fixtures():
     return [
         Item(id="tw:fixture1", platform="twitter", author="levelsio", title="Free tier",
-             text="Cursor AI Pro free for 2 weeks with code CURSORFREE - limited time!",
+             text="Cursor AI code editor free for 2 weeks, 500 AI credits, with code CURSORFREE",
              url="https://example.com/cursor", created_at="2026-09-17T09:00:00Z",
              metrics={"likes": 120}),
         Item(id="hn:fixture2", platform="hackernews", author="pg",

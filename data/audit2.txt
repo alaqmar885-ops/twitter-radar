@@ -1,0 +1,3 @@
+verdicts: {'CARD_REQUIRED': 5, 'DERIVATIVE': 7, 'NOT_AN_OFFER': 15, 'NO_URL': 26, 'PARTIAL': 15, 'UNREACHABLE': 12, 'VERIFIED': 31, 'VERIFIED_NO_CC': 76, 'WEAK': 60}
+card-required: 5 (possible mislabels: 5)
+no-card evidence: 89

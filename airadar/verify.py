@@ -55,6 +55,37 @@ DERIVATIVE_HOSTS = (
     "t.me", "mastodon.social", "producthunt.com", "dev.to", "medium.com",
 )
 
+# A phrase like "credit card required" is NOT evidence of a card requirement
+# when it is negated ("no credit card required"). Substring matching alone got
+# this wrong and marked free-tier pages as card-required.
+_NEG_BEFORE = ("no ", "no-", "without ", "not ", "never ", "zero ", "0 ")
+
+
+def _negated(text: str, idx: int, span: int = 18) -> bool:
+    pre = (text or "")[max(0, idx - span):idx].lower()
+    return any(n in pre for n in _NEG_BEFORE)
+
+
+def find_card_signals(body: str) -> list:
+    """Card-required phrases that are not negated by a preceding 'no/without'."""
+    found = []
+    text = (body or "").lower()
+    for phrase in CARD_SIGNALS:
+        start = 0
+        while True:
+            i = text.find(phrase, start)
+            if i == -1:
+                break
+            if i > 0 and text[i - 1].isalnum():
+                start = i + 1
+                continue
+            if not _negated(text, i):
+                found.append(phrase)
+                break
+            start = i + 1
+    return found
+
+
 _TAG = re.compile(r"<[^>]+>")
 
 
@@ -70,6 +101,30 @@ class FindingVerifier:
     def __init__(self, cfg, enricher=None):
         self.cfg = cfg
         self.enricher = enricher
+
+    def _mcp_contents(self, url: str) -> str:
+        """Fetch rendered page text through the You.com MCP contents tool."""
+        try:
+            resp = self.enricher._call(  # noqa: SLF001 - intentional reuse
+                "tools/call",
+                {"name": "you-contents",
+                 "arguments": {"urls": [url], "formats": ["markdown"]}})
+            content = resp.get("result", {}).get("content", [])
+            if not content:
+                return ""
+            import json as _json
+            raw = content[0].get("text", "")
+            try:
+                data = _json.loads(raw)
+                if isinstance(data, list) and data:
+                    return str(data[0].get("markdown") or data[0].get("content") or "")[:200000]
+                if isinstance(data, dict):
+                    return str(data.get("markdown") or data.get("content") or "")[:200000]
+            except Exception:
+                return raw[:200000]
+        except Exception:
+            return ""
+        return ""
 
     def verify(self, offer) -> dict:
         url = (offer.url or "").strip()
@@ -97,7 +152,7 @@ class FindingVerifier:
                 body = page_text(r.text)
                 base["signals"] = [s for s in FREE_SIGNALS if s in body]
                 base["no_cc_signals"] = [s for s in NO_CC_SIGNALS if s in body]
-                base["card_signals"] = [s for s in CARD_SIGNALS if s in body]
+                base["card_signals"] = find_card_signals(body)
                 base["india_signals"] = [s for s in INDIA_SIGNALS if s in body]
                 base["upi_signals"] = [s for s in UPI_SIGNALS if s in body]
                 m = re.search(r"<title[^>]*>(.*?)</title>", r.text or "", re.I | re.S)
@@ -107,6 +162,22 @@ class FindingVerifier:
             base["status"] = "UNREACHABLE"
             base["notes"] = [f"fetch failed: {exc}"]
             return base
+
+        # JS-rendered pages serve a shell to a plain GET, so a static scan finds
+        # nothing (groq.com reads WEAK). Fall back to the You.com MCP "you-contents"
+        # extractor for those pages, which returns rendered text.
+        if not base["signals"] and self.enricher is not None and \
+                getattr(self.enricher, "available", lambda: False)():
+            text = self._mcp_contents(url)
+            if text:
+                body = text.lower()
+                base["signals"] = [s for s in FREE_SIGNALS if s in body]
+                base["no_cc_signals"] = [s for s in NO_CC_SIGNALS if s in body]
+                base["card_signals"] = find_card_signals(body)
+                base["india_signals"] = [s for s in INDIA_SIGNALS if s in body]
+                base["upi_signals"] = [s for s in UPI_SIGNALS if s in body]
+                if base["signals"]:
+                    base["notes"].append("signals recovered via MCP page extraction")
 
         web_hits = 0
         if self.enricher is not None and getattr(self.enricher, "available", lambda: False)():
@@ -130,10 +201,15 @@ class FindingVerifier:
         if not base["signals"]:
             status = "NOT_AN_OFFER"
             base["notes"].append("target page contains no free/offer signal")
+        elif strong and base["no_cc_signals"]:
+            # A pricing page that says "free tier, no credit card" and "Pro tier,
+            # card required" is a NO-CARD offer for its free tier. Explicit no-card
+            # wording wins over generic card wording.
+            status = "VERIFIED_NO_CC"
+            if base["card_signals"]:
+                base["notes"].append("page also mentions card for a paid tier")
         elif strong and base["card_signals"]:
             status = "CARD_REQUIRED"
-        elif strong and base["no_cc_signals"]:
-            status = "VERIFIED_NO_CC"
         elif strong:
             status = "VERIFIED"
         elif len(medium) >= 2:

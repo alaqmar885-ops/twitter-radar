@@ -1,0 +1,4 @@
+verdicts: {'CARD_REQUIRED': 1, 'DERIVATIVE': 8, 'NOT_AN_OFFER': 15, 'NO_URL': 26, 'PARTIAL': 15, 'UNREACHABLE': 11, 'VERIFIED': 31, 'VERIFIED_NO_CC': 80, 'WEAK': 60}
+card-required: 1
+no-card evidence: 90
+   card: Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud codi

@@ -67,6 +67,7 @@ class AIConfig:
     instagram_usernames: list = field(default_factory=list)
     offer_keywords: list = field(default_factory=lambda: list(DEFAULT_OFFER_KEYWORDS))
     require_ai_relevance: bool = True
+    min_ai_relevance: int = 2
     offer_signal_threshold: int = 3    # weighted-evidence floor for triage
     workers: int = 6                   # parallel source / verify workers
     min_offer_score: float = 0.35
@@ -102,7 +103,7 @@ def load_ai_config(path="config.yaml") -> AIConfig:
         if key in section and section[key] is not None:
             setattr(cfg, key, section[key])
     for key in ("min_offer_score", "per_source_limit", "request_timeout",
-                "delay_between_requests", "top_n", "offer_signal_threshold", "require_ai_relevance",
+                "delay_between_requests", "top_n", "offer_signal_threshold", "require_ai_relevance", "min_ai_relevance",
                 "workers"):
         if key in section and section[key] is not None:
             setattr(cfg, key, section[key])

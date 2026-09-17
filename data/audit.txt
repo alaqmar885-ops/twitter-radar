@@ -1,0 +1,12 @@
+CARD_REQUIRED findings: 51
+  of those, flagged as possible mislabel: 51
+no-card evidence findings: 88
+UPI evidence findings: 19
+India evidence findings: 39
+signals recovered by MCP page extraction: 0
+   ^ AI Free Trials 2026: Every Pro Tier You Can Actually Test fo | https://felloai.com/ai-free-trials/
+   ^ Free LLM API & Free AI API Directory 2026 — Verified Models, | https://free-model.com/
+   ^ OpenRouter Free Models: All 21 Listed (Sep 2026) | https://costgoat.com/pricing/openrouter-free-models
+   ^ Cloudflare Workers AI Free: 82 Models, 10,000 Neurons a Day | https://toolfreebie.com/cloudflare-workers-ai/
+   ^ Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Mode | https://tokenmix.ai/blog/groq-api-pricing
+   ^ Free LLM API Providers — Get Your API Key, No Credit Card Re | https://www.free-model.com/providers/

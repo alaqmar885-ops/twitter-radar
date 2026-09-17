@@ -1,0 +1,15 @@
+AI Free Trials 2026: Every Pro Tier You Can Actually Test for Free
+   url: https://felloai.com/ai-free-trials/
+   card signals: ['card required', 'requires payment'] | no-card: ['no credit card', 'no card required'] | free: ['free tier', 'free plan', 'free trial', 'free credits']
+Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models
+   url: https://tokenmix.ai/blog/groq-api-pricing
+   card signals: ['requires a credit card'] | no-card: ['no credit card'] | free: ['free tier', 'no credit card', 'pricing', 'free']
+Free LLM API Providers — Get Your API Key, No Credit Card Required
+   url: https://www.free-model.com/providers/
+   card signals: ['card required'] | no-card: ['no credit card', 'without a credit card'] | free: ['free tier', 'free credits', 'no credit card', 'credits']
+Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding age
+   url: https://hoplite.sh
+   card signals: ['card required'] | no-card: [] | free: ['free trial', 'start free', 'credits', 'pricing']
+Free trial
+   url: https://claudecoupons.com/claude-free-trial
+   card signals: ['card required'] | no-card: ['no card'] | free: ['free tier', 'free plan', 'free trial', 'start free']
