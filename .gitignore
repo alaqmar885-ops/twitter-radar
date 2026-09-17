@@ -1,22 +1,16 @@
-# Note: this repo intentionally tracks EVERYTHING in the workspace, including
-# the Python virtualenv (.venv/) and bytecode caches (__pycache__/), at the
-# owner's explicit request. To stop tracking them later:
-#   git rm -r --cached .venv ; git rm -r --cached */__pycache__ */*/__pycache__
-# and restore the ignore rules below.
-
-# Secrets / local config overrides
-# (secrets.env itself is tracked deliberately - see AGENTS.md section 10)
-.env
-.env.*
-secrets.json
-cookies.json
-config.local.yaml
-
-# OS / editor
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.idea/
-.vscode/
-*.sublime-*
+# No exclusions.
+#
+# This repository tracks EVERYTHING in the workspace at the owner's explicit
+# request: source, data, logs, the virtualenv (.venv/), bytecode caches
+# (__pycache__/) and any secrets-override files (.env, cookies.json,
+# secrets.json, config.local.yaml) if they ever appear.
+#
+# Consequence to be aware of: any file created with one of those names will now
+# be committed and pushed automatically. Treat .env / cookies.json as public
+# from the moment they exist.
+#
+# To restore conventional ignores later, re-add rules such as:
+#   .venv/
+#   __pycache__/
+#   .env
+#   cookies.json
