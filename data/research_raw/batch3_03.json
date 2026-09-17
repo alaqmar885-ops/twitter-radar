@@ -1,0 +1,61 @@
+{
+  "query": "Groq free tier no credit card developer",
+  "results": [
+    {
+      "title": "How to Get Your Groq API Key: Fast Inference Setup Guide",
+      "url": "https://sfailabs.com/guides/how-to-get-groq-api-key",
+      "description": "Get your Groq API key in minutes. Step-by-step setup, free tier limits, supported models, pricing, and how to connect Groq to Openclaw.",
+      "snippet": "# How to Get Your Groq API Key: Fast Inference Setup Guide\nGroq runs LLM inference on custom LPU hardware that delivers 276 tokens per second for Llama 3.3 70B, according to independent benchmarks by Artificial Analysis. That is roughly 3-5x faster than most GPU-based providers. Getting a Groq API key takes about two minutes, and the free tier requires no credit card. This guide covers account setup, key generation, pricing, supported models, and how to connect the key to tools like Openclaw",
+      "page_age": "2026-08-18T00:00:00"
+    },
+    {
+      "title": "Groq free tier — limits, API key and code",
+      "url": "https://itsfree.ai/provider/groq/",
+      "description": "Groq free tier: 1,000 requests per day. The fastest inference on the market. No credit card. Up to 131K of context.",
+      "snippet": "Groq free tier: 1,000 requests per day. The fastest inference on the market. No credit card. Up to 131K of context.",
+      "page_age": ""
+    },
+    {
+      "title": "Groq Pricing In 2026: Every Model, Tier, And Cost Compared",
+      "url": "https://www.cloudzero.com/blog/groq-pricing/",
+      "description": "Groq pricing starts at $0.05 per million input tokens. Compare every model, free tier limits, batch discounts, and see how Groq stacks up against OpenAI and Claude in 2026.",
+      "snippet": "# Groq Pricing In 2026: Every Model, Tier, And Cost Compared\nQuick Answer\n\nGroq pricing follows a pay-as-you-go, tokens-as-a-service model. Input token prices range from $0.05 per million tokens (Llama 3.1 8B) to $0.59 per million tokens (Llama 3.3 70B), with output tokens at $0.08 to $0.79 per million. A free tier includes every model with no credit card required",
+      "page_age": "2026-09-04T14:55:39"
+    },
+    {
+      "title": "Groq Cloud Pricing and Free Tier Details 2026",
+      "url": "https://neuraplus-ai.github.io/blog/groq-cloud-pricing-free-tier.html",
+      "description": "Read 'Groq Cloud Pricing and Free Tier Details 2026' on the NeuraPlusAI blog.",
+      "snippet": "# Groq Cloud Pricing and Free Tier Details 2026\nFREE$0/month14,400 req/dayAll models included30 req/min limitNo SLANo priority queuePOPULARPAY-AS-YOU-GOPer Tokenno monthly feeUnlimited requestsHigher rate limitsPriority inferenceAll modelsBatch API access99.9% SLAENTERPRISECustomvolume discountsDedicated capacityCustom rate limitsVolume discounts24/7 support SLAPrivate deploymentINPUT / 1M TOKENSLlama 3.3 70B$0.59Llama 3.1",
+      "page_age": "2026-04-09T00:00:00"
+    },
+    {
+      "title": "Groq Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/groq/free",
+      "description": "Groq offers a genuinely free, no-credit-card developer tier with access to every model on its ultra-fast LPU hardware, gated only by rate limits — there is no credits system and no per-token charge.",
+      "snippet": "Groq offers a genuinely free, no-credit-card developer tier with access to every model on its ultra-fast LPU hardware, gated only by rate limits — there is no credits system and no per-token charge.",
+      "page_age": ""
+    },
+    {
+      "title": "Groq API — Fast, Free LLM Inference (OpenAI-Compatible)",
+      "url": "https://freeapihub.com/apis/groq-api",
+      "description": "The Groq API runs open models at 500+ tokens/sec on LPU hardware. OpenAI-compatible, free tier with no card, streaming and tool calling. Add fast AI in minutes.",
+      "snippet": "The Groq API runs open models at 500+ tokens/sec on LPU hardware. OpenAI-compatible, free tier with no card, streaming and tool calling.",
+      "page_age": "2026-07-31T00:00:00"
+    },
+    {
+      "title": "Groq Free Tier 2026: Fastest LLM Inference API (No Credit Card) ...",
+      "url": "https://www.getaiperks.com/en/ai/groq-free-tier-2026",
+      "description": "Groq free tier gives 30,000 tokens/minute on Llama 4 Scout, Qwen3 32B, and more. Full guide to setup, use cases, and stacking with paid AI credits.",
+      "snippet": "# Groq Free Tier 2026: Fastest LLM Inference API (No Credit Card)\nGroq free tier provides 30,000 tokens/minute and 14,400 requests/day on models like Llama 3.1 8B, Llama 4 Scout, and Qwen3 32B. No credit card required. Stack with free Anthropic/OpenAI credits at [getaiperks.com](https://getaiperks.com) for premium model fallback.",
+      "page_age": "2026-05-08T00:00:00"
+    },
+    {
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models ...",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "description": "Groq API pricing 2026: free tier 30 req/min, paid from $0.05/M. 300-1,000 TPS speed. Rate limits by model, Groq vs OpenAI + DeepSeek comparison.",
+      "snippet": "# Groq API Pricing in 2026: Free Tier Limits, Rate Limits, Every Model, and Is the Speed Worth It?\nGroq is the fastest LLM inference provider in 2026 — pushing 300-1,000 tokens per second on its custom LPU hardware. The free tier gives you access to every model with no credit card. But \"fast and free\" has limits: rate caps, model selection restricted to open-source, and paid tiers that aren't always cheaper than going direct",
+      "page_age": "2026-04-29T06:54:05"
+    }
+  ]
+}

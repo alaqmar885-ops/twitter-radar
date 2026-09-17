@@ -1,0 +1,61 @@
+{
+  "query": "Hugging Face inference free tier no card required",
+  "results": [
+    {
+      "title": "Inference API (Hugging Face): Free Limits + How to Use",
+      "url": "https://www.ayautomate.com/free-models/huggingface-inference",
+      "description": "Is Inference API by Hugging Face free? Yes: Rate-limited · 1000s of models. Commercial use allowed. Setup steps, quickstart, and the catch.",
+      "snippet": "Is Inference API by Hugging Face free? Yes: Rate-limited · 1000s of models. Commercial use allowed.",
+      "page_age": ""
+    },
+    {
+      "title": "Hugging Face Launches Free Inference API: Steps, Limits, and ...",
+      "url": "https://yangmao.ai/en/deals/huggingface-free-inference-api-2026-05-29/",
+      "description": "Hugging Face Launches Free Inference API guide: Hugging Face launched a free inference API supporting multiple open-source models, no credit card required, with 30,000 free inference requests per month..",
+      "snippet": "Hugging Face Launches Free Inference API guide: Hugging Face launched a free inference API supporting multiple open-source models, no credit card required, with 30,000 free inference requests per month.. Includes requirements, difficulty, access notes, expiry handling, and alternatives",
+      "page_age": "2026-05-29T00:00:00"
+    },
+    {
+      "title": "Free Hugging Face API Key & Free Tier: Base URL, Rate Limits, 4 ...",
+      "url": "https://freellm.net/providers/hugging-face",
+      "description": "How to get a free Hugging Face API key, use free tier models, https://router.huggingface.co/v1, check Credit-metered, and compare 4 free or trial models.",
+      "snippet": "How to get a free Hugging Face API key, use free tier models, https://router.huggingface.co/v1, check Credit-metered, and compare 4 free or trial models.\n\nHugging Face logo",
+      "page_age": "2026-08-06T00:00:00"
+    },
+    {
+      "title": "Free-tier serverless inference",
+      "url": "https://theneuralbase.com/huggingface-hub/learn/intermediate/free-tier-serverless-inference/",
+      "description": "Use Hugging Face's free serverless inference API to run models without managing infrastructure or costs.",
+      "snippet": "# Free-tier serverless inference\nWhat you will learn\n\nUse Hugging Face's free serverless inference API to run models without managing infrastructure or costs.",
+      "page_age": "2026-04-11T00:00:00"
+    },
+    {
+      "title": "Hugging Face free tier — limits, API key and code",
+      "url": "https://itsfree.ai/provider/huggingface/",
+      "description": "Hugging Face free tier: $0.10 of credits per month. Inference Providers: thousands of open models with monthly credits. Up to 131K of context.",
+      "snippet": "Hugging Face free tier: $0.10 of credits per month. Inference Providers: thousands of open models with monthly credits. Up to 131K of context.",
+      "page_age": ""
+    },
+    {
+      "title": "Hugging Face Without Credit Card? Free AI Tool Guide — yangmao.ai",
+      "url": "https://yangmao.ai/en/providers/huggingface/no-credit-card/",
+      "description": "Does Hugging Face require a credit card, offer signup credits, work internationally, and what free alternatives can you use instead?",
+      "snippet": "# Can you use Hugging Face without a credit card?\n## Free API credits\n**Yes**\n\nFree tier · Varies\n\nFree Inference API tier, free Spaces hosting",
+      "page_age": ""
+    },
+    {
+      "title": "Hugging Face Pricing 2026: Is It Free? Complete Cost Breakdown ...",
+      "url": "https://www.metacto.com/blogs/the-true-cost-of-hugging-face-a-guide-to-pricing-and-integration",
+      "description": "Is Hugging Face free? Yes! This 2026 guide covers Hugging Face pricing: free tier, PRO ($9/mo), Enterprise Hub, Spaces ($0.40-$23.50/hr), Inference Endpoints ($0.03-$80/hr), and new per-TB storage. Get exact costs.",
+      "snippet": "Is Hugging Face free? Yes! This 2026 guide covers Hugging Face pricing: free tier, PRO ($9/mo), Enterprise Hub, Spaces ($0.40-$23.50/hr), Inference Endpoints ($0.03-$80/hr), and new per-TB storage.\nAI",
+      "page_age": "2026-05-12T00:00:00"
+    },
+    {
+      "title": "Hugging Face pricing explained: what you actually pay in 2026",
+      "url": "https://www.eesel.ai/blog/hugging-face-pricing",
+      "description": "Hugging Face pricing covers four account plans plus separate charges for compute, inference, and storage. Here's the full breakdown of what you actually pay in 2026.",
+      "snippet": "# Hugging Face pricing explained: what you actually pay in 2026\n## Account plans\n### Free\nThe free tier is more generous than most people expect. You get access to 2M+ models, 500k+ datasets, and over 1M Spaces on the Hub, 100 GB of private repository storage, community ZeroGPU access, and $0.10/month in Inference Provider credits. That credit doesn't go far in production, but it's enough for small experiments",
+      "page_age": "2026-06-08T00:00:00"
+    }
+  ]
+}

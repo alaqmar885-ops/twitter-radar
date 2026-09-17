@@ -1,0 +1,137 @@
+{
+  "offline": false,
+  "elapsed_s": 581.21,
+  "items": 574,
+  "kept": 236,
+  "offers": 216,
+  "top_offers": [
+    {
+      "title": "Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, & others",
+      "score": 0.88,
+      "label": "VERIFIED",
+      "type": "discount",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49730393"
+    },
+    {
+      "title": "free-model .com",
+      "score": 0.85,
+      "label": "VERIFIED",
+      "type": "free_tier",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://www.free-model.com/"
+    },
+    {
+      "title": "Show HN: Ear Training Exercise",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://clarena.app/app/try"
+    },
+    {
+      "title": "Show HN: I built a Mac app to make technical PDF textbooks easier to study",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://marginstudy.app/"
+    },
+    {
+      "title": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://unsnag.app"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 574,
+        "new_items": 154,
+        "twitter": 202,
+        "hackernews": 154,
+        "telegram": 28,
+        "mastodon": 48,
+        "rss": 45,
+        "html": 97
+      },
+      "notes": [],
+      "elapsed": 68.481
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 574,
+        "kept": 236,
+        "dropped": 338
+      },
+      "notes": [],
+      "elapsed": 0.004
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 216,
+        "from_items": 236
+      },
+      "notes": [],
+      "elapsed": 0.043
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 197,
+        "web_verified": 195,
+        "offers": 216
+      },
+      "notes": [],
+      "elapsed": 512.368
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 216,
+        "new_offers": 216
+      },
+      "notes": [],
+      "elapsed": 0.314
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789630952.html",
+        "md": "data\\digests\\airadar_digest_1789630952.md",
+        "json": "data\\digests\\airadar_digest_1789630952.json"
+      },
+      "notes": [],
+      "elapsed": 0.003
+    }
+  ]
+}

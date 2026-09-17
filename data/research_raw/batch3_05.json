@@ -1,0 +1,61 @@
+{
+  "query": "Cloudflare Workers AI free tier no credit card",
+  "results": [
+    {
+      "title": "Cloudflare Workers AI Free: 82 Models, 10,000 Neurons a Day",
+      "url": "https://toolfreebie.com/cloudflare-workers-ai/",
+      "description": "The free Workers plan gives 10,000 neurons a day across 82 models. Converted into real usage that is about 15-25 text generations, or roughly 230 FLUX images - one shared budget, no card, hard-stops instead of billing.",
+      "snippet": "The free Workers plan gives 10,000 neurons a day across 82 models. Converted into real usage that is about 15-25 text generations, or roughly 230 FLUX images - one shared budget, no card, hard-stops instead of billing.",
+      "page_age": "2026-09-08T15:36:07"
+    },
+    {
+      "title": "Cloudflare AI Pricing 2026 - Workers AI Costs and Free Tier Guide ...",
+      "url": "https://deploybase.ai/articles/cloudflare-ai-pricing",
+      "description": "Cloudflare Workers AI offers serverless inference at edge with free tier. Compare pricing to OpenAI and Anthropic. Guide to cost-effective AI deployment.",
+      "snippet": "# Cloudflare AI Pricing 2026 - Workers AI Costs and Free Tier Guide\n## Free Tier Details and Capacity\nFree tier: 10,000 requests daily. No credit card needed. Full API access, same response times as paid. Unlimited model switching.\n\nA chatbot doing 500 requests/day uses 5% of the free tier. Indie projects stay free unless they suddenly blow up",
+      "page_age": "2025-12-04T00:00:00"
+    },
+    {
+      "title": "+ 42 more models (Cloudflare Workers AI): Free Limits + How to Use",
+      "url": "https://www.ayautomate.com/free-models/cloudflare-workers-ai-42-more-models",
+      "description": "Is + 42 more models by Cloudflare Workers AI free? Yes: 10K neurons/day (shared). Setup steps, quickstart, and the catch.",
+      "snippet": "# + 42 more models by Cloudflare Workers AI\n10,000 Neurons/day free. 50+ models available on free tier.\n\nAccess\n\nFree API tier\n\nFree limits\n\n10K neurons/day (shared)\n\nModality\n\nembeddings, image, audio, text\n\nCredit card\n\nNot required\n\nCommercial use\n\nUnclear, verify\n\nBase URL\n\nhttps://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run\n\nLast verified\n\nJune 2026\n\nProvider docs Compare all 297 free models",
+      "page_age": "2026-07-23T00:00:00"
+    },
+    {
+      "title": "Cloudflare Workers AI API Key Guide: 10k Neurons/Day Free",
+      "url": "https://freeaiapi.org/articles/cloudflare-api-key-guide",
+      "description": "Step-by-step Cloudflare Workers AI guide: get API token & Account ID at dash.cloudflare.com, and call Workers AI models via REST and Python.",
+      "snippet": "# Cloudflare Workers AI API Key Guide: 10k Neurons/Day Free\n## Free Basis\n**10,000 Neurons/day per free account** — no credit card, GitHub login supported. Enough for hundreds of text generations or dozens of images per day. Pay only beyond free tier",
+      "page_age": ""
+    },
+    {
+      "title": "Cloudflare Workers AI Free API (2026)",
+      "url": "https://free-llm.com/provider/cloudflare-workers-ai",
+      "description": "Get free API access to Cloudflare Workers AI. Full guide on limits, Python/JS examples, and how to get a free API key.",
+      "snippet": "# Cloudflare Workers AI\nVerified ✅ Truly Free\n\nRun AI models on Cloudflare's global network. Workers AI gives you a generous free tier of 10,000 neurons per day across dozens of open-source models including Llama, Mistral, and more. No credit card required.\n\nFree Tier Edge Computing Global Network No Credit Card\n3",
+      "page_age": ""
+    },
+    {
+      "title": "Free Cloudflare Workers AI API Key & Free Tier: Base URL, Rate ...",
+      "url": "https://freellm.net/providers/cloudflare-workers-ai",
+      "description": "How to get a free Cloudflare Workers AI API key, use free tier models, https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run, check 10K neurons/day (shared), and compare 36 free or trial models.",
+      "snippet": "How to get a free Cloudflare Workers AI API key, use free tier models, https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run, check 10K neurons/day (shared), and compare 36 free or trial models.\n\nCloudflare Workers AI logo",
+      "page_age": "2026-07-24T00:00:00"
+    },
+    {
+      "title": "Cloudflare Workers AI Free Tier 2026 — Free Models, Credits & ...",
+      "url": "https://pricepertoken.com/endpoints/cloudflare/free",
+      "description": "Cloudflare Workers AI gives every account 10,000 free \"Neurons\" per day (Cloudflare's normalized unit of compute) on the Workers Free plan, resetting daily at 00:00 UTC. It is an ongoing free tier, not a one-time credit — beyond the daily ...",
+      "snippet": "# Cloudflare Workers AI Free Tier\n## Free Tier Details\n**Models Available**: ~80 models incl. Llama (3.x/4), Mistral, Qwen, Gemma, GPT-OSS, DeepSeek-R1 distills, plus FLUX/Stable Diffusion, Whisper, BGE embeddings\n**Credit Card Required**: No (Workers Free plan; a card is only needed to exceed the daily allocation)",
+      "page_age": ""
+    },
+    {
+      "title": "Cloudflare Workers AI Without Credit Card? Free AI Tool Guide — ...",
+      "url": "https://yangmao.ai/en/providers/cloudflare-workers-ai/no-credit-card/",
+      "description": "Does Cloudflare Workers AI require a credit card, offer signup credits, work internationally, and what free alternatives can you use instead?",
+      "snippet": "# Can you use Cloudflare Workers AI without a credit card?\n## Quick verdict\n- Free tier: 10,000 free requests/day\n- Free API trial: 每天 10000 神经元（永久有效）\n- Access: relatively direct\n- Best for: api / chat / image / embedding",
+      "page_age": ""
+    }
+  ]
+}

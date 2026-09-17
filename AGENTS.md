@@ -912,3 +912,32 @@ Results are stored in the `verifications` table plus a `verdict` column on
 Live result (2026-09-17, 145 findings): 62 VERIFIED, 12 PARTIAL, 40 WEAK,
 31 NOT_AN_OFFER - i.e. roughly half of the raw classifier output was noise,
 which is why the verification pass exists.
+
+### 20.7 No-credit-card mission (no-CC shortlist)
+
+`scripts/no_cc_report.py` turns the verification table into a shortlist of offers
+that need **no payment method**. Qualification rules (deliberately strict):
+
+- the destination page must show a *strong* free signal
+  (`free tier` / `free plan` / `free trial` / `start free` / `try free` /
+  `free credits` / `free forever` / `always free` / `free access`), **and**
+- an explicit no-card phrase (`no credit card`, `no card required`,
+  `no card needed`, `without a credit card`, `no payment method`,
+  `no payment required`, ...), and
+- results are deduplicated by URL.
+
+A page that also mentions "credit card required" for its *paid* tier still
+qualifies for its free tier (that combination is normal on pricing pages).
+Pages with card evidence but no no-card evidence are listed as rejected.
+
+Command:
+
+```bash
+python run_radar.py verify        # refresh page evidence (free/offer + card policy)
+python scripts/no_cc_report.py    # render data/verified/no_cc_*.{json,md,html}
+```
+
+Live result (2026-09-17): 361 findings verified -> **73 no-card offers**
+(Google AI Studio, OpenRouter, Ollama Cloud, Cloudflare Workers AI, ModelScope,
+NVIDIA NIM, Hugging Face free tiers, plus individual `:free` models), 2 rejected
+for requiring a card. Research backing: `docs/research/05_no_credit_card_free_ai.md`.

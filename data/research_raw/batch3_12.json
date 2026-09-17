@@ -1,0 +1,61 @@
+{
+  "query": "free AI coding assistant free tier no card",
+  "results": [
+    {
+      "title": "Gemini Code Assist",
+      "url": "https://codeassist.google/",
+      "description": "Get AI coding and programming help no matter the language or platform with Gemini Code Assist from Google.",
+      "snippet": "# Gemini Code Assist: AI-first coding in your natural language\n### Compare Gemini Code Assist offerings\n#### Gemini Code Assist for individuals\nGemini Code Assist for individual developers available at no cost, with no credit card required.\n\nPrice per user per month with an annual upfront commitment\n\n- $0/user/month\n\nAccess to Gemini 3\n\n- Join the waitlist (available immediately to Google AI Ultra subscribers)\n\nConversational assistant in your IDE using your opened files' context\n\n- Included\n\nPrice per user with no annual upfront commitment\n\n- $0/user/month",
+      "page_age": "2025-06-25T00:00:00"
+    },
+    {
+      "title": "Free.ai Coder — AI Coding Agent",
+      "url": "https://free.ai/coder/",
+      "description": "Free AI coding assistant. Write, debug, refactor code with AI. Supports Python, JavaScript, and 30+ languages. No sign up required.",
+      "snippet": "## Free.ai Coder\n##### 30,000 Free Tokens, Every Day\nJust enter your email - no password needed. We'll send you a link to set one later.\n\nNo credit card required 30,000 free tokens/day",
+      "page_age": ""
+    },
+    {
+      "title": "10 Best Free AI Coding Assistants in 2026 (Ranked and Tested)",
+      "url": "https://chat-sonic.ai/blog/best-free-ai-coding-assistants",
+      "description": "10 Best Free AI Coding Assistants in 2026 (Ranked and Tested) Finding reliable AI coding help without paying subscriptions means…",
+      "snippet": "# 10 Best Free AI Coding Assistants in 2026 (Ranked and Tested)\n## Chat-Sonic\nChat-Sonic provides the most complete free AI coding assistant experience in 2026. You get access to multiple premium AI models including GPT-4 and Claude within a single platform without any credit card requirement. Most free coding tools restrict you to one model. Chat-Sonic lets you switch between cutting-edge models based on your coding task, which means you can use GPT-4 for quick code generation and Claude for deep code analysis and debugging complex issues",
+      "page_age": "2026-02-26T06:49:12"
+    },
+    {
+      "title": "The best free AI coding tools in 2026 (no credit card required) ...",
+      "url": "https://daily.dev/blog/best-free-ai-coding-tools-no-credit-card-required/",
+      "description": "Free AI coding tools can be useful — but expect strict usage caps, weaker models, or to run local models for full control.",
+      "snippet": "# The best free AI coding tools in 2026 (no credit card required)\n- What counts as truly free AI coding in 2026\n- 1. GitHub Copilot Free\n- 2. Codeium\n- 3. Gemini Code Assist\n- 4. Sourcegraph Cody Free\n- 5. Cursor\n- 6. Windsurf\n- 7. Replit Starter\n- 8. Continue.dev\n- 9. Aider\n- 10. Tabby",
+      "page_age": "2026-08-05T02:20:50"
+    },
+    {
+      "title": "Best Free AI Coding Assistant 2026: 8 Real Picks",
+      "url": "https://www.toolcenter.ai/en/articles/best-free-ai-coding-assistant-2026",
+      "description": "Tested every meaningful free AI coding tool in 2026. Honest comparison of Codeium, Copilot Free, Cursor Hobby, Supermaven, Qwen Coder, Kilo Code, Tabnine, Amazon Q.",
+      "snippet": "# Best Free AI Coding Assistant in 2026: 8 Tools That Cost $0\n### Quick Insights\n- Codeium remains the strongest no-strings-attached free option — unlimited completions, no credit card, all major IDEs.\n- GitHub Copilot Free (released late 2024) gives you 2,000 completions + 50 chats per month — enough for hobbyists, tight for full-time devs.\n- Cursor Hobby is best treated as a free trial of Cursor Pro, not a daily driver — fast model access is rate-limited within hours",
+      "page_age": "2026-07-22T03:06:18"
+    },
+    {
+      "title": "Best AI for Coding Free in 2026: The Complete Guide to AI Tools ...",
+      "url": "https://serverspace.io/about/blog/best-ai-for-coding-free-in-2026-the-complete-guide-to-ai-tools-for-developers/",
+      "description": "Best free AI tools for coding in 2026: compare GitHub Copilot, OpenCode, Gemini Code Assist, and more. Limits, comparison table, and practical setup guide.",
+      "snippet": "# Best AI for Coding Free in 2026: The Complete Guide to AI Tools for Developers\n## Comparison of the best free AI tools for coding in 2026\n| Tool | Category | Free tier | IDE / Terminal | Open-source | Best for |\n| --- | --- | --- | --- | --- | --- |\n| GitHub Copilot Free | Code assistant | 2,000 completions + 50 chats/mo | VS Code, JetBrains | No | Daily coding in any language |\n| Gemini Code Assist | Code assistant | 1,000 requests/day | VS Code, JetBrains | No | Google Cloud users |\n| Cursor Free | AI IDE | 2,000 completions + 50 premium/mo | Own IDE | No | Multi-file editing and refactoring |\n| Amazon Q Developer | Code assistant | Unlimited completions + 50 agents/mo | VS Code, JetBrains | No | AWS ecosystem projects |\n| OpenCode | Terminal agent | Unlimited (LLM API cost only) | Terminal (TUI) | Yes | Complex repo-wide tasks |\n| Continue.dev | Code assistant | Unlimited (API cost only) | VS Code, JetBrains | Yes | Full control over model choice |\n| CodeRabbit | Code review | Free for open-source | GitHub, GitLab, Bitbucket | No | Automated pull request reviews |\n| Snyk | Security | Free tier (limited scans) | IDE, CI/CD, CLI | No | Vulnerability detection before merge |\n| Hugging Face | ML platform | Models + Spaces + Inference API | API, Gradio, Spaces | Yes | ML prototyping and model hosting |\n| Aider | Terminal agent | Unlimited (API cost only) | Terminal | Yes | Git-transparent AI coding |",
+      "page_age": "2026-08-03T12:43:34"
+    },
+    {
+      "title": "GitHub - 12britz/awesome-free-models: A curated list of free AI ...",
+      "url": "https://github.com/12britz/awesome-free-models",
+      "description": "A curated list of free AI models, APIs, and tools you can use without paying a cent. - 12britz/awesome-free-models",
+      "snippet": "# Awesome Free Models Awesome\n## 🔌 Free API Providers\n- Requesty — Free AI API with 200 requests/day. Works with Claude Code, Cline, Cursor. No credit card. OpenAI-compatible.\n- AINative Studio — **⚠️ Free tier ended (was 10M tokens/month).** Now a $5/mo Hobbyist plan with a 3-day trial only. 84+ models (Llama, DeepSeek, Mistral, Qwen)",
+      "page_age": "2026-09-16T10:18:54"
+    },
+    {
+      "title": "GitHub - ShaikhWarsi/free-ai-tools: Curated list of free and low ...",
+      "url": "https://github.com/ShaikhWarsi/free-ai-tools",
+      "description": "Curated list of free and low cost AI tools, LLM APIs, IDEs, agents, and infrastructure for building real AI apps - ShaikhWarsi/free-ai-tools",
+      "snippet": "# Free AI Tools\n## Quick Comparison\n### CLI Coding Tools with Free Pro-Grade Access\n| Tool | Pro-grade Models | Free Tier Limit | Credit Card |\n| --- | --- | --- | --- |\n| Gemini CLI | Gemini 3 Flash | 1,500 req/day | No |\n| Rovo Dev CLI | Claude Sonnet 4.6, GPT-5.5-Instant | 5M tokens/day | No |\n| Warp | GPT-5.5-Instant, Claude Sonnet 4.6 | 150 credits/mo (first 2 mo), 75/mo after | No |\n| GitHub Copilot | GPT-5.5-Instant, Sonnet 4.6, Gemini Flash | 50 chat + 2K completions/month | No |\n| Jules | Gemini 2.5 Pro | 15 tasks/day | No |\n| AWS Kiro | Claude Fable 5 \\[verify], Opus 4.8, Sonnet 4.6 | 50 credits/month + 500 bonus | No |\n| OpenCode | 75+ providers (BYOK) + Go bundle | Free (Zen) / Go $10/mo | No |\n| Xiaomi MiMo | MiMo-V2.5-Pro, MiMo-V2.5, MiMo-V2-Omni | Free API credits | No |\n| ForgeCode | 300+ models via OpenRouter | 10K tokens/day | No |\n| Amazon Q Developer | Claude Sonnet 4.6 | 50 agentic req/month (Deprecated) | Required |\n| RooCode | Bring your own keys | Unlimited (BYOK) | No |\n| Goose | Bring your own keys | Unlimited (BYOK) | No |\n| OhMyPi | Bring your own keys | Unlimited (BYOK) | No |\n| Antigravity | BYOK / Local model fallback | Unlimited (BYOK / 100% Offline) | No |",
+      "page_age": "2026-08-10T00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "generated": 1789630952,
+  "offers": [
+    {
+      "id": "43f2dd185882",
+      "title": "Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, & others",
+      "summary": "Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, & others",
+      "offer_type": "discount",
+      "value": "$19",
+      "promo_code": "SIGNER",
+      "product": "",
+      "url": "https://news.ycombinator.com/item?id=49730393",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.88,
+      "label": "VERIFIED",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "spacedcowboy",
+          "url": "https://news.ycombinator.com/item?id=49730393",
+          "text": "Hi folks,<p>So this is my announcement of a compiler[1] I&#x27;ve been working on for about 6 months now (so yes, to get the obvious out of the way early, this was written with Claude code).<p>The com"
+        },
+        {
+          "platform": "hackernews",
+          "author": "anshchokshi",
+          "url": "https://news.ycombinator.com/item?id=49552616",
+          "text": "Hi HN, I&#x27;m Ansh, founder of Mireye (<a href=\"https:&#x2F;&#x2F;www.mireye.com\">https:&#x2F;&#x2F;www.mireye.com</a>). I&#x27;m building the infrastructure AI agents use to make decisions about ph"
+        },
+        {
+          "platform": "hackernews",
+          "author": "rapind",
+          "url": "https://news.ycombinator.com/item?id=49113688",
+          "text": "https:&#x2F;&#x2F;support.stripe.com&#x2F;questions&#x2F;updates-to-radar-pricing-(january-2027)<p>Stripe just sent me an opt-opt notification about an automatic Radar upgrade. They&#x27;ve moved me t"
+        },
+        {
+          "platform": "hackernews",
+          "author": "vladimir_si",
+          "url": "https://news.ycombinator.com/item?id=49064283",
+          "text": "This story might never have happened, even though I&#x27;d been carrying the idea for a debugger for a long time. There was no trigger. But one day a trigger appeared that was strong enough that I set"
+        },
+        {
+          "platform": "hackernews",
+          "author": "louis030195",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and giv"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Show HN: macOS-cross-compiler",
+          "url": "https://news.ycombinator.com/item?id=39409816",
+          "description": "",
+          "snippet": "# Show HN: macOS-cross-compiler – Compile binaries for macOS on Linux (github.com/shepherdjerred)\n## roblabla\nIf you want to codesign and notarize your binary from linux, you can also use rcodesign[0]!",
+          "page_age": "2024-02-17T00:00:00"
+        },
+        {
+          "title": "Objective C on Windows or Linux - Stack Overflow",
+          "url": "https://stackoverflow.com/questions/3214719/objective-c-on-windows-or-linux",
+          "description": "I would like to learn objective-c, but don't have a Mac. How would I compile obj-c on Windows or Linux? I would prefer Windows, but Linux would be OK.",
+          "snippet": "# Objective C on Windows or Linux\n## 4 Answers 4\nSorted by: Reset to default\n\nGCC has an objective-C compiler. You may also want to investigate the GNUStep tools, which provide a clone of the OpenStep APIs (Which Cocoa is based on.)\nShare",
+          "page_age": ""
+        },
+        {
+          "title": "GitHub - fkhannouf/objc: Portable Object Compiler (GitHub mirror) ...",
+          "url": "https://github.com/fkhannouf/objc",
+          "description": "Portable Object Compiler (GitHub mirror). Contribute to fkhannouf/objc development by creating an account on GitHub.",
+          "snippet": "# fkhannouf/objc\n## Repository files navigation\n```\nPortable Object Compiler (c) 1997-2019.  All Rights Reserved.\n\n\nGETTING HELP\n------------\n\nFor help and reporting bugs : send email to me (stes@telenet.be)\n\nINSTALL\n-------\n\nRead the Install.txt file.\n\nIf this is a first-time installation, you have to start by installing a bootstrap package; do not install this package until you have installed a bootstrap package.  This can be either a binary package of the Portable Object Compiler, or in some cases when no binary \"port\" exists an objc-bootstrap.tar.gz source package.\n\nLICENSE\n-------\n\nRead the License.txt file (the \"GNU Library General Public License\").\n\nThe license file explains the difference between,\n\n (a) \"software using the Portable Object Compiler\", and \n (b) \"software based upon the Portable Object Compiler\".\n\n\nLATEST VERSION\n--------------\n\nThe latest bootstrap compilers and sources of the Portable Object Compiler\nare available at:\n\n\thttp://sunsite.unc.edu/pub/Linux/devel/lang/objc\n\nOr from my home page at:\n\n\thttp://users.pandora.be/stes/\n\nWHAT'S INCLUDED\n---------------\n\nThe \"objc\" distribution consists of the following parts :\n\n\t0. \"VICI\", interactive Objective-C debugger and interpreter\n\n\t1. \"objc\", the actual compiler\n\n\tConsists of driver script (\"objc\") and binary (\"objc1\").\n\t\"objc1\" is a precompiler for C.\n\tThe binary \"postlink\" is used\n\tfor preparing tables for runtime initialization.\n\n\t2. \"objcrt\", the Objective C Runtime Library for \"objc\"\n\n\tThis is a modern, portable, \"all C\" Objective C runtime\n\tThere's absolutely no assembly language needed, nor is there\n\ta dependency on stack layout, register allocation conventions etc.\n\n\tMost other runtimes, were derived from pre-\"all C\"-Stepstone \n\truntimes, so this is an important point of difference.\n\n\t3. \"objpak\", the \"Object Pak\" Objective C Collection Classes\n\n\tSimple, powerful set of classes.  Very portable.\n\tCan be used to develop with different compilers, then\n\tport with 'objc'.  Compatible with ICpak101, the collection class\n\tlibrary described in Brad Cox book, and used by existing\n\tObjective-C packages that were developed with Stepstone objc.\n\n\t4. \"cakit\", the \"Computer Algebra Kit\" Objective C classes\n\n\tSmall, concise, interface to a large set of classes for\n\tpolynomial computing and arbitrary precision integer arithmetic.\n\n\t5. Source of compiler and \"oclib\", a set of Objective C classes for\n        parsing C (and the Objective C extensions to C)\n  \n\"objc\" and \"vici\" are written in Objective C itself.  It's all\nwritten in portable Objective C : any Objective C compiler\nshould be able to compile the \"objc\" compiler.  From time to time,\nwe try a configure with other Objective-C compilers, to ensure that our\nsources are still compatible with e.g. Stepstone Objective C compiler.\n\nNOT included is a C compiler : in order to be able to use \"objc\", you will\nneed to elsewhere find a compatible C compiler.  This should be no problem\nsince one of our goals - see below - is to make \"objc\" work with as many C\ncompilers as possible.  On UNIX systems, the (free) \"gcc\" compiler is a\npossibility (not needed, but possible).  Another possibility, is to use\nthe (free) \"lcc\" compiler or the \"tcc\" TDF compiler system.\n\n\nNICE FEATURES\n-------------\n\n\t1.Easy to install or to modify.\n\n\t2.Works on many systems with the native cc, debugger, profiler etc.\n\t(Unix, Windows, Macintosh, Beos, OpenVMS etc. see Platforms.txt file)\n\n\t2a. Option for reference counted memory management (-refcnt).\n\tThis uses the native malloc(), free() etc. but the compiler generates\n\tstatements for keeping track of references.\n\t(Tested on a few platforms, such as IRIX 5.2 with the SGI malloc).\n\n\t3.Built-in possibility of tracing Objective C messages. (OBJCRTMSG)\n\n\t4.Straightforward \"C\" messenger; \"inline cache\" messenger.\n\tForwarding C messenger (to support -doesNotUnderstand:).\n\t\n\t5.All classes get a +initialize message at start-up, rather than\n\t'each class receives a +initialize before it receives its first\n\tmessage'.\n\n\t6.Some support for translating Objective-C to Smalltalk (-st80 option)\n\n\t7.Automatic archiver.  Compiler generates code for classes to save\n\tand load objects to and from disk (for all instance variables of\n\ttype \"id\").\n\n\t8.Option for Garbage Collection (using Boehm gc package).  Tested\n\ton some UNIXes and WIN32.   Option for reference counted memory\n\tmanagement (doesn't require Boehm).\n\n\t9.Exception handling scheme (using Objective-C Blocks) that allows\n\tto specify a default handler to be executed.\n\n\t10.Supports dynamically loading Objective-C modules on Windows,\n\tFreeBSD, HP-UX, Linux, IRIX, Digital Unix etc.\n\n\t11.Has a switch for double indirection for Object identifiers (id as\n\ta handle instead of a pointer). (-become: method)\n\n\t12.Supports forwarding messages (-doesNotUnderstand: method)\n\n        13.Support for Embedded SQL in Objective-C (Informix only for now)  \n\n\t14.Great system for experimentation with your own additions/extensions\n\tto Objective C !\n\n\nWANT TO HELP?\n-------------\n\nIf you like \"objc\", feel free to send e-mail to, \"stes@pandora.be\".\nI'm especially interested in bug-fixes, of course.  And in ports\nto machines that I don't have access to (e.g. CP/M, Atari).\n```",
+          "page_age": ""
+        },
+        {
+          "title": "This company has an x86-to-WASM compiler that lets you execute ...",
+          "url": "https://news.ycombinator.com/item?id=30687615",
+          "description": "",
+          "snippet": "gavinray on March 15, 2022 | parent | context | favorite | on: PartialExecuter: Reducing WebAssembly size by expl... This company has an x86-to-WASM compiler that lets you execute arbitrary binaries in the browser. Also a JVM to WASM transpiler. There's a fantastic Meetup presentation given by one of them where they show running a C++ multiplayer game with both client AND server running in a browser, using WebRTC as a networking polyfill",
+          "page_age": "2022-03-15T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "a8d516001c3b",
+      "title": "free-model .com",
+      "summary": "free-model .com",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://www.free-model.com/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.85,
+      "label": "VERIFIED",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://www.free-model.com/",
+          "text": "free-model .com"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://www.free-model.com/",
+          "text": "free-model.com"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/",
+          "text": "free-model .com"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Free LLM API & Free AI API Directory 2026 — Verified Models, ...",
+          "url": "https://free-model.com/",
+          "description": "Browse 147+ verified free LLM APIs. Live API tested — not just copied from READMEs. No credit card. One-click config for Claude Code, Cursor, and any OpenAI-compatible tool.",
+          "snippet": "Browse 147+ verified free LLM APIs. Live API tested — not just copied from READMEs. No credit card. One-click config for Claude Code, Cursor, and any OpenAI-compatible tool",
+          "page_age": ""
+        },
+        {
+          "title": "r/3Dmodeling on Reddit: What is the best place to find free 3d models?",
+          "url": "https://www.reddit.com/r/3Dmodeling/comments/192g79d/what_is_the_best_place_to_find_free_3d_models/",
+          "description": "24 votes, 19 comments. 1.5M subscribers in the 3Dmodeling community. A place where you can show off your 3D models, artworks, and designs.",
+          "snippet": "# What is the best place to find free 3d models?\n## caesium23\nSketchfab, BlenderKit, PolyHaven, Smithsonian Open Access, Three D Scans, Thingiverse, Unity Asset Store, Unreal Marketplace",
+          "page_age": "2024-01-09T14:40:30"
+        },
+        {
+          "title": "Figuro: Easy 3D Modeling Online",
+          "url": "https://www.figuro.io/",
+          "description": "Figuro is a free online 3D modeling website for students, 3D hobbyists, artists, game developers and more. Use Figuro to create 3D models quickly and easily.",
+          "snippet": "Figuro is a free online 3D modeling website for students, 3D hobbyists, artists, game developers and more.",
+          "page_age": ""
+        },
+        {
+          "title": "Freemodel",
+          "url": "https://www.freemodel.com/",
+          "description": "Freemodel provides full-service home renovations with no upfront costs. Every project is customized, managed by a local project director, and completed on time with exceptional results. Pay at close, staging, permits, and morel",
+          "snippet": "Freemodel provides full-service home renovations with no upfront costs. Every project is customized, managed by a local project director, and completed on time with exceptional results. Pay at close, staging, permits, and morel\n\nhero",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "5629242d5b09",
+      "title": "Show HN: Ear Training Exercise",
+      "summary": "Show HN: Ear Training Exercise",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Ear",
+      "url": "https://clarena.app/app/try",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "AlexFromClarena",
+          "url": "https://clarena.app/app/try",
+          "text": "Hi HN,<p>For a long time, I really wanted to develop my &quot;musical ear&quot;, but nothing seemed to be designed to teach me. That&#x27;s why I present &quot;Pitch Recognition&quot;, one of six free"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Ear",
+          "url": "https://en.wikipedia.org/wiki/Ear",
+          "description": "",
+          "snippet": "# Ear\n**Ear**\n\nThe human outer ear",
+          "page_age": "2026-07-23T15:03:57"
+        },
+        {
+          "title": "10 facts about your ears you might not know",
+          "url": "https://www.audika.co.uk/hearing-blog/hearing-loss/10-interesting-facts-about-your-ears",
+          "description": "Ears allow us to hear, but what else? We’ve put together ten more facts about your ears that you might not have known…",
+          "snippet": "{\r\n\t\t\"@context\": \"http://schema.org\",\r\n\t\t\"type\": \"BlogPosting\",\r\n\t\t\"headline\": \"10 interesting facts about your ears\",\r\n\t\t\t\r\n\t\t\t\t\t\"image\":\r\n\t\t\t\t\t\t{ \"@type\": \"ImageObject\", \r\n\t\t\t\t\t\t\t\"url\": \"https://assets-we.rt.demant.com/-/media/project/retail/audika/uk/blog/banner---960-x-540/blog-10-ear-facts-960.jpg?rev=e210c404e7e64b65872705f17a18e53b\",\r\n\t\t\t\t\t\t\t\"height\": 283, \"width\": 540 }\r\n\t\t\t\t\t,\r\n\t\t\t\t\t\r\n\t\t\"datePublished\": \"20250318T000000Z\",\r\n\t\t\"dateModified\": \"20250318T000000Z\",\r\n\t\t\"author\":\r\n\t\t{ \r\n\t\t\t\"@type\": \"Person\", \r\n\t\t\t\"name\": \"James Pocock\" \r\n\t\t},\r\n\t\t\"publisher\": {\r\n\t\t\t\"@type\": \"Organization\",\r\n\t\t\t\"name\": \"\"\r\n\t\t\t\r\n\t\t},\r\n\t\t\"description\": \"Ears allow us to hear, but what else? We’ve put together ten more facts about your ears that you might not have known…\",\r\n\t\t\"articleBody\": \"Ears allow us to hear, but what else? We’ve put together ten more facts about your ears that you might not have known…\n1. Without your ears, you would lose your balance\nInside your inner ear is a fascinating maze-like structure known as the vestibular system. Here you’ll find three canals filled with fluid and small hair cells that detect the rotational movement of your head, be it up and down, side to side, or tilting. Each semi-circular canal is located at a different angle so your brain can better judge where your head is moving. They are each responsible for a specific direction of head movement.\nInformation coming from the vestibular system is processed in the brain and then sent to other organs that need this information, such as the eyes and muscles. This allows us to remain balanced and know what position our body is in. In some situations (i.e. on a boat) different sensory organs, such as the eyes, send contradictory messages to the brain. This is what can then cause us to feel unwell, dizzy, or nauseous.1\n2. Your ears keep “growing” with age\nYou may have heard the rumour that our ears and nose are the only parts of our body that continue growing throughout our lives. They do indeed get bigger, but it’s not because they’re literally growing. It’s most likely a combination of natural ageing and the effects of gravity.2\nAs we age, our ears appear to be getting bigger but it’s because the cartilage in our ears slowly breaks down, and gravity makes them elongate over time.\n3. Ears are self-cleaning\nEar wax gets a bad rap.\nBut the truth is, it’s a completely natural (and essential) part of our ears.\nNormal ear wax production is a sign that your ears are doing a great job at cleaning themselves. This self-cleaning ability helps keep the ears moisturised and protected.\n4. Ears never sleep\nOur ears still hear 100% of the sounds around us when we are asleep, even if we’re not aware of it. It’s our brain that’s responsible for processing all the sounds around us and making sense of them.\nThe sleeping brain continues generating neural responses to surrounding events, but the sleeper is merely in “standby” mode as the brain continues to monitor for relevant signals.3\n5. Your ears have very important hairs (that don’t grow back)\nThe ear has tiny nerve fibres – or hair cells – that help us maintain balance, but they’re also there to help us hear. These delicate hair cells are very sensitive and can be easily damaged to the point where they break. Once they break, they don’t grow back.\nSome of the main reasons for this type of hair cell loss include sound exposure, natural ageing, and ear infections. To avoid your risk of hearing loss, it’s important to take care of your ears by avoiding loud noises when possible or by protecting your ears with ear plugs or ear defenders when exposed to excessive noise.4\n6. Sound exposure is the second leading cause of hearing loss\nThere are many things that can cause hearing loss, but sound exposure is one of the biggest culprits.\nThis type of hearing loss falls under the sensorineural hearing loss category, and though there can be other causes such as ageing, ear infections, and certain medications, it’s often caused by exposure to high levels of noise. It can be the result of one loud impulse sound, or from continual exposure to loud sounds over time.\nIt can happen to anyone, at any age.\n7. Your ears help regulate pressure changes\nHave you ever wondered what makes your ears “pop” on an aeroplane?\nOur middle ear has a certain amount of pressure around it, and a small tube (the Eustachian tube) that connects our ear to the back of our throat helps keep air pressure equal on both sides of the eardrum. This makes sure that the pressure does not build up when the surrounding air pressure changes (like on an aeroplane or somewhere else at a high altitude).5\nThe Eustachian tubes then open to relieve some of the pressure when we swallow, which equalises the pressure inside and outside our ear. That’s what makes them “pop.”\n8. The ears are connected to the nose and throat\nThe ears, nose, and throat are all intricately connected, that’s why there’s a type of doctor who looks at these parts of the body as one unit.\nA problem in one part can cause a problem in the others. So, if there’s an infection in the throat, for example, it can travel to the ear. This is because the Eustachian tube is the pathway that runs through each part and connects them all together.\n9. Hearing loss may cause cognitive decline\nA new report published by the Lancet Commission shows that hearing loss is a risk factor for dementia.6 In fact, moderate hearing impairment can increase one’s dementia risk by up to three times.\nEven mild levels of hearing loss can increase the long-term risk of cognitive decline and dementia in people who are cognitively intact but slightly hearing impaired. This could be because hearing loss leads to lowered mental stimulation, isolation, and depression – all of which contribute to accelerated cognitive decline.\n10. We have two ears for a reason\nHaving two ears helps us figure out which direction sounds are coming from.7 If you have hearing loss in one ear, you can probably notice that it’s hard to decipher where a particular sound is located. Therefore, it’s important to use two hearing aids instead of one when hearing loss is present in both ears, to help locate warning sounds around you, navigate safely through traffic, and walk safely across the road.\nWith our ears playing such an important role in our lives, it’s important to take care of our hearing health. If you’re worried about your hearing in any way, book a free appointment with one of our hearing care experts today.\nSources:\n1. “How Does Our Sense of Balance Work?” NCBI, IQWiG (Institute for Quality and Efficiency in Health Care), 7 Sept. 2017, www.ncbi.nlm.nih.gov/books/NBK279394.\n2. “What to Know About Nose and Ear Growth as You Age.” WebMD, 19 Mar. 2021, www.webmd.com/healthy-aging/what-to-know-about-nose-and-ear-growth-as-you-age#1.\n3. Legendre, Guillaume. “Sleepers Track Informative Speech in a...” Nature Human Behaviour, 14 Jan. 2019, www.nature.com/articles/s41562-018-0502-5?+utm_medium=affiliate&utm_source=commission_junction&utm_campaign=3_nsn6445_deeplink_PID100094349&utm_content=deeplink&error=cookies_not_supported&code=c32b47bb-225c-4135-8f65-955f23eee1dd.\n4. “Noise-Induced Hearing Loss.” NIDCD, 31 May 2019, www.nidcd.nih.gov/health/noise-induced-hearing-loss.\n5. Gaihede, Michael. “Middle Ear Pressure Regulation--Complementary Active Actions of the Mastoid and the Eustachian Tube.” PubMed, June 2010, pubmed.ncbi.nlm.nih.gov/20393372\n6. Orgeta, V., Mukadam, N., Sommerlad, A., & Livingston, G. (2019). The Lancet Commission on Dementia Prevention, Intervention, and Care: A call for action. Irish Journal of Psychological Medicine, 36(2), 85-88. doi:10.1017/ipm.2018.4\n7. Hebrank, Jack, and D. Wright. “Are Two Ears Necessary for Localization of Sound Sources on the Median Plane?” The Journal of the Acoustical Society of America, Acoustical Society of America, 1974, asa.scitation.org/doi/abs/10.1121/1.1903351.\n \"\r\n\t}",
+          "page_age": ""
+        },
+        {
+          "title": "Physiology, Ear - StatPearls - NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK540992/",
+          "description": "The human ear is the organ of hearing and equilibrium. It detects and analyzes sound by the mechanism of transduction, which is the process of converting sound waves into electrochemical impulses.",
+          "snippet": "# Physiology, Ear\n## Introduction\nThe human ear is the organ of hearing and equilibrium. It detects and analyzes sound by the mechanism of transduction, which is the process of converting sound waves into electrochemical impulses. Audition cannot take place adequately if the anatomy is abnormal.",
+          "page_age": "2023-08-14T00:00:00"
+        },
+        {
+          "title": "Ears",
+          "url": "https://kidshealth.org/en/parents/ears.html",
+          "description": "Hearing may be the ears' main job, but it's not all they do. Learn all about the ears in this Body Basics article.",
+          "snippet": "# Ears\n### What Are Ears and What Do They Do?\nThe ear is made up of three different sections that work together to collect sounds and send them to the brain: the outer ear, the middle ear, and the inner ear.\n\n- How the Ears Work How the Ears Work The ears gather sounds from our environment and turn them into messages for the brain to decode. Learn more in this video about the ears",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "12de5b1a6776",
+      "title": "Show HN: I built a Mac app to make technical PDF textbooks easier to study",
+      "summary": "Show HN: I built a Mac app to make technical PDF textbooks easier to study",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://marginstudy.app/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "alricsiu",
+          "url": "https://marginstudy.app/",
+          "text": "I&#x27;ve always been a lifelong learner and have always tried to get through digital textbooks. Anyone who&#x27;s used pdf textbooks know how much of a love&#x2F;hate relationship it is.<p>There are "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/macapps on Reddit: Pdf reading application for research purposes",
+          "url": "https://www.reddit.com/r/macapps/comments/rts6si/pdf_reading_application_for_research_purposes/",
+          "description": "14 votes, 15 comments. Hi there, I’m looking for an alternative to preview because of two issues that I am experiencing, most likely due to the same…",
+          "snippet": "# Pdf reading application for research purposes\n## XavierLightman\nskim.app?\nThis one? https://skim-app.sourceforge.io",
+          "page_age": "2022-01-01T20:49:42"
+        },
+        {
+          "title": "r/mac on Reddit: App for notetaking on PDF",
+          "url": "https://www.reddit.com/r/mac/comments/1rgp9ge/app_for_notetaking_on_pdf/",
+          "description": "Hi everyone! I’m studying for a board certification exam and my prep course provides summary PDFs for each class. I only have a MacBook (no iPad)…",
+          "snippet": "# App for notetaking on PDF\n## Maximum-Flaximum\n\nPreview allows markup of pdf.\n\n### Nabilau\n\nThanks!\n\n## Following_This\n\nBuilt-in Apple Preview app works great for quick annotations on macOS, iOS, or iPadOS.\n\n Goodnotes is awesome and cross platform (Apple products, plus Windows, Android, and web)",
+          "page_age": "2026-02-28T01:26:39"
+        },
+        {
+          "title": "PDF Study & Flashcards - App Store - Apple",
+          "url": "https://apps.apple.com/us/app/pdf-study-flashcards/id1580506756",
+          "description": "Download PDF Study & Flashcards by Foodmenu.world Inc. on the App Store. See screenshots, ratings and reviews, user tips, and more apps like PDF Study &…",
+          "snippet": "# PDF Study & Flashcards\n◆ All-in-One PDF Memorization App with Red Sheet Study Turn your PDFs, notes, textbooks, handouts, and images into powerful study materials. This app helps students memorize faster by hiding and revealing important parts of their own documents. Import PDF files, photos, scanned notes, class handouts, worksheets, and study materials, then create memorization blocks directly on the page. It works like a digital red sheet, flashcard maker, and PDF study tool in one simple app",
+          "page_age": ""
+        },
+        {
+          "title": "r/macapps on Reddit: [Dev] I built a Mac app to inspect PDF internals ...",
+          "url": "https://www.reddit.com/r/macapps/comments/1qanvnz/dev_i_built_a_mac_app_to_inspect_pdf_internals/",
+          "description": "21 votes, 15 comments. Hi r/MacApps , I’m an indie developer. I recently ran into issues trying to understand why certain PDF files were inexplicably…",
+          "snippet": "# [Dev] I built a Mac app to inspect PDF internals and debug structure (because Preview hides almost everything)\nHi r/MacApps,\n\nI’m an indie developer. I recently ran into issues trying to understand why certain PDF files were inexplicably large or triggering security warnings, and I realized most PDF apps for macOS are just \"readers\" or \"editors\"—they don't actually let you see under the hood.\n\nSo I built **PDF Auditor**",
+          "page_age": "2026-01-12T06:44:46"
+        }
+      ]
+    },
+    {
+      "id": "bff6896400ef",
+      "title": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "summary": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "unSnag",
+      "url": "https://unsnag.app",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "hydropax",
+          "url": "https://unsnag.app",
+          "text": "My garage has needed clearing out for quite a while, and to most people it looks like I&#x27;ve just been putting it off. But I&#x27;m not procrastinating; the truth is that I&#x27;m blocked from doin"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Unsnag — Stop Overthinking. Start Feeling.",
+          "url": "https://unsnag.co/",
+          "description": "Unsnag is a guided app that moves the feeling through your body in minutes — so it stops driving the overthinking, people-pleasing, and taking-it-all-on. 14 days free.",
+          "snippet": "Unsnag is a guided app that moves the feeling through your body in minutes — so it stops driving the overthinking, people-pleasing, and taking-it-all-on. 14 days free.",
+          "page_age": ""
+        },
+        {
+          "title": "UNSNAG Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/unsnag",
+          "description": "UNSNAG definition: to free from being caught on something. See examples of unsnag used in a sentence.",
+          "snippet": "UNSNAG definition: to free from being caught on something. See examples of unsnag used in a sentence",
+          "page_age": "2025-01-22T15:47:27"
+        },
+        {
+          "title": "unsnag - Translation into French - examples English",
+          "url": "https://context.reverso.net/translation/english-french/unsnag",
+          "description": "Translations in context of \"unsnag\" in English-French from Reverso Context: He needs to unsnag his fishing line from the tree branch.",
+          "snippet": "1. release from a snag or entanglement 2. remove a snag... See more",
+          "page_age": ""
+        },
+        {
+          "title": "unsnag - Wiktionary, the free dictionary",
+          "url": "https://en.wiktionary.org/wiki/unsnag",
+          "description": "",
+          "snippet": "# unsnag\n## English\n### Etymology\n\nFrom *un-* + *snag*.\n\n### Verb\n\n**unsnag** (*third-person singular simple present* **unsnags**, *present participle* **unsnagging**, *simple past and past participle* **unsnagged**)\n\n1. To remove a snag from.\n2. To release from a snag; unsnare; disentangle; disencumber",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "bbb162990730",
+      "title": "Show HN: Vending Machine Lab – Build business, leave for 2 wks, see what breaks",
+      "summary": "Show HN: Vending Machine Lab – Build business, leave for 2 wks, see what breaks",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Vending",
+      "url": "https://vending-machine-lab.pages.dev/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "professorgc",
+          "url": "https://vending-machine-lab.pages.dev/",
+          "text": "I spent a while exploring whether AI could help build businesses that operate with little ongoing owner involvement. This was inspired in part by Andon Labs’ Vending-Bench work on AI agents running si"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Vending machine",
+          "url": "https://en.wikipedia.org/wiki/Vending_machine",
+          "description": "",
+          "snippet": "# Vending machine\nA **vending machine** is an automated machine that dispenses items such as snacks, beverages, cigarettes, and lottery tickets to consumers after cash, a credit card, or other forms of payment are inserted into the machine or payment is otherwise made. The first modern vending machines were developed in England in the early 1880s and dispensed postcards. Vending machines exist in many countries and, in more recent times, specialized vending machines that provide less common products compared to traditional vending machine items have been created",
+          "page_age": "2026-09-04T13:26:49"
+        },
+        {
+          "title": "VENDING MACHINE Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/vending%20machine",
+          "description": "The meaning of VENDING MACHINE is a coin-operated machine for selling merchandise.",
+          "snippet": "The meaning of VENDING MACHINE is a coin-operated machine for selling merchandise.\n\na coin-operated machine for selling merchandise… See the full definition\nDictionary\n-\n-\n-",
+          "page_age": "2026-09-03T18:50:38"
+        },
+        {
+          "title": "New York City Vending - New York City Vending Services - Zero Cost ...",
+          "url": "https://newyork.vendingexchange.com/",
+          "description": "New York City Vending - New York City Vending Services - Get State-of-the-art Vending For Your Location At Zero Cost. Contact Us Today!",
+          "snippet": "# New York City Vending Services\nWe are a vending services provider serving businesses, locations & facilities in the New York City, NY area.\n\nMachines Provided At Zero Cost To You\n\nCompetitively Priced Snacks & Beverages\n\nUltra High Commissions Available to Qualified Locations",
+          "page_age": "2025-04-24T08:00:00"
+        },
+        {
+          "title": "Vending - Canteen - Food Service Solutions",
+          "url": "https://www.canteen.com/vending/",
+          "description": "Canteen is the nation's leading provider of workplace food service- Vending, markets, coffee, dining, & more - Elevate your breakroom",
+          "snippet": "## We bring break time to everyone\n#### Vending\n\nAs the largest vending company in the nation, we feed guests during those unexpected moments when they crave a snack or meal. Our innovative technology, healthy options, dedicated service, and custom solutions have kept us as a leader in the industry since it all began.\n\nGet Started\n\nTwo people eating snacks in front of a Canteen vending machine, snack and drink vending, vending options",
+          "page_age": "2025-06-25T15:42:56"
+        }
+      ]
+    },
+    {
+      "id": "079138372c13",
+      "title": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "summary": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "offer_type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "product": "Plexus",
+      "url": "https://plexus.company",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "annnnnnn",
+          "url": "https://plexus.company",
+          "text": "Hi, I&#x27;m Ann, building Plexus.<p>We gives hardware teams live dashboards and stored history for your sensor data, so you don&#x27;t have to build and maintain that setup yourself. You can try it w"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "PLEXUS Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/plexus",
+          "description": "The meaning of PLEXUS is a network of anastomosing or interlacing blood vessels or nerves.",
+          "snippet": "The meaning of PLEXUS is a network of anastomosing or interlacing blood vessels or nerves.\n\na network of anastomosing or interlacing blood vessels or nerves; an interwoven combination of parts or elements in a structure or system… See the full definition",
+          "page_age": "2026-07-01T00:00:00"
+        },
+        {
+          "title": "Plexus Corp.",
+          "url": "https://www.linkedin.com/company/plexus",
+          "description": "Plexus Corp. | 140,950 followers on LinkedIn. We help create the products that build a better world. | Since 1979, Plexus has been partnering with companies to create the products that build a better world.",
+          "snippet": "Plexus Corp. | 140,950 followers on LinkedIn. We help create the products that build a better world. | Since 1979, Plexus has been partnering with companies to create the products that build a better world. We are a team of over 20,000 individuals who are dedicated to providing Design and Development, Supply Chain Solutions, New Product Introduction, Manufacturing and Aftermarket Services. Plexus is a global leader that specializes in serving customers in industries with highly complex products and demanding regulatory environments",
+          "page_age": "2026-03-23T15:35:10"
+        },
+        {
+          "title": "Plexus Review: Is It Safe and Effective for Weight Loss?",
+          "url": "https://www.healthline.com/nutrition/plexus-slim",
+          "description": "With a line of weight management drinks and supplements, Plexus claims to help you quickly lose weight. Our dietitian breaks down the science in our comprehensive review of Plexus weight loss drinks.",
+          "snippet": "With a line of weight management drinks and supplements, Plexus claims to help you quickly lose weight. Our dietitian breaks down the science in our comprehensive review of Plexus weight loss drinks",
+          "page_age": "2023-07-20T00:00:00"
+        },
+        {
+          "title": "Plexus",
+          "url": "https://en.wikipedia.org/wiki/Plexus",
+          "description": "",
+          "snippet": "# Plexus\nIn anatomy, a **plexus** (from the Latin term for 'braid') is a branching network of blood vessels, lymphatic vessels, or nerves. The nerves are typically axons outside the central nervous system.\n\nThe standard plural form in English is **plexuses**. Alternatively, the Latin plural **plexūs** may be used",
+          "page_age": "2025-11-22T03:03:42"
+        }
+      ]
+    },
+    {
+      "id": "6209b7031842",
+      "title": "Show HN: Zill",
+      "summary": "Show HN: Zill",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Zill",
+      "url": "https://news.ycombinator.com/item?id=49730450",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "yhussain1110",
+          "url": "https://news.ycombinator.com/item?id=49730450",
+          "text": "<a href=\"https:&#x2F;&#x2F;zill.ninja&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;zill.ninja&#x2F;</a>\nA new free URL shortener built for fun."
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "zill - Wiktionary, the free dictionary",
+          "url": "https://en.wiktionary.org/wiki/zill",
+          "description": "",
+          "snippet": "# zill\n## English\n### Noun\n**zill** (*plural* **zills**)\n\n1. One of a set of small finger cymbals used in belly dancing and similar performances",
+          "page_age": "2025-10-31T00:00:00"
+        },
+        {
+          "title": "Zill",
+          "url": "https://en.wikipedia.org/wiki/Zill",
+          "description": "",
+          "snippet": "# Zill\n**Zill**\n\nA close-up of a person holding zills (traditionally, it would be held on the middle finger instead of the pointer, and above the last knuckle)\n\n**Percussion instrument**",
+          "page_age": "2026-07-18T16:18:50"
+        },
+        {
+          "title": "zill",
+          "url": "https://www.dictionary.com/culture/pop-culture/zill",
+          "description": "Zill can variously refer to a type of finger-cymbal used in belly dancing, different fictional characters in popular culture, or the indefinitely large number, zillion.",
+          "snippet": "Pop Culture Dictionary\n\n# zill\n\n*Zill* can variously refer to a type of finger-cymbal used in belly dancing, different fictional characters in popular culture, or the indefinitely large number, *zillion*",
+          "page_age": "2018-04-03T23:15:19"
+        },
+        {
+          "title": "Welcome to Zill",
+          "url": "https://zillnet.de/en/",
+          "description": "Welcome to Zill! The leading supplier of synthetic fabrics and films. Discover our diverse selection!",
+          "snippet": "Welcome to Zill! The leading supplier of synthetic fabrics and films.",
+          "page_age": "2026-06-22T14:05:46"
+        }
+      ]
+    },
+    {
+      "id": "ee852e76e360",
+      "title": "Show HN: Understanding your Claude Code with trajectory segmentation",
+      "summary": "Show HN: Understanding your Claude Code with trajectory segmentation",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Understanding",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ltononro",
+          "url": "https://github.com/lucastononro/cc-traj-seg",
+          "text": "Would love to get feedbacks.\nFeel free to open a PR with features that might be useful for you or fork it and take it off!<p>The goal is to make AI easier to be understood w&#x2F;o having to read the "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Understanding",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-72937-0_9",
+          "description": "People want to better understand well-being and data—both separately and together. Others need to consider understanding differently. Arguably data should improve knowledge of good and bad well-being and reveal how to apply this information ...",
+          "snippet": "# Understanding\n## 9.2 Meanings of Understanding\n**understanding** | ʌndəˈstandɪŋ |.\n\nnoun *[mass noun].*\n\n**1** the ability to understand something; comprehension: *foreign visitors with little understanding of English*.\n\n**•** the power of abstract thought; intellect: *a child of sufficient intelligence and understanding*.\n\n**•** an individual’s perception or judgement of a situation: *my understanding was that he would find a new supplier*",
+          "page_age": "2021-09-14T00:00:00"
+        },
+        {
+          "title": "Websters Dictionary 1828 - Webster's Dictionary 1828 - Understanding",
+          "url": "https://webstersdictionary1828.com/Dictionary/understanding",
+          "description": "Websters Dictionary 1828 – Online Edition is an excellent reference for classical literature and Bible studies",
+          "snippet": "### Understanding\n**UNDERSTAND'ING**, *participle present tense*\n\n**1.** Comprehending; apprehending the ideas or sense of another, or of a writing; learning or being informed.\n\n**2.** *adjective* Knowing; skillful. He is an *understanding* man.",
+          "page_age": ""
+        },
+        {
+          "title": "UNDERSTANDING Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/understanding",
+          "description": "The meaning of UNDERSTANDING is a mental grasp : comprehension —usually used with of. How to use understanding in a sentence.",
+          "snippet": "The meaning of UNDERSTANDING is a mental grasp : comprehension —usually used with of.\n\na mental grasp : comprehension —usually used with of; the power of comprehending; especially : the capacity to apprehend general relations of particulars; the power to make experience intelligible by applying concepts and categories… See the full definition",
+          "page_age": "2026-09-06T00:00:00"
+        },
+        {
+          "title": "UNDERSTANDING Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/understanding",
+          "description": "UNDERSTANDING definition: mental process of a person who comprehends; comprehension; personal interpretation. See examples of understanding used in a sentence.",
+          "snippet": "UNDERSTANDING definition: mental process of a person who comprehends; comprehension; personal interpretation.\n\nShowing results for \"understanding\"\n\n- present participle of understand.",
+          "page_age": "2025-11-25T12:07:38"
+        }
+      ]
+    },
+    {
+      "id": "6c233b279172",
+      "title": "Show HN: A free search console for grant making",
+      "summary": "Show HN: A free search console for grant making",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://data.charitysense.com/grants",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "mtweak",
+          "url": "https://data.charitysense.com/grants",
+          "text": "Built a tool for searching and filtering grant&#x2F;funding data. The commercial versions of this run a few thousand bucks a year, so I made a free one instead. No signup, just go use it.  As far as I"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "The #1 Grant Search Engine (2026) - GrantWatch",
+          "url": "https://www.grantwatch.com/grant-search.php",
+          "description": "Search Human Verified Grants™ for nonprofits, businesses, individuals, government, and colleges. Filter by category, location, funding source, and deadline.",
+          "snippet": "Search Human Verified Grants™ for nonprofits, businesses, individuals, government, and colleges. Filter by category, location, funding source, and deadline",
+          "page_age": "2026-04-14T00:00:00"
+        },
+        {
+          "title": "Grant Portal",
+          "url": "https://www.thegrantportal.com/",
+          "description": "Find 19,800+ grants for nonprofits, small businesses, individuals. Search our grants database, get daily alerts, and discover grants funding nationwide.",
+          "snippet": "# Largest Online Grant Catalog Nonprofits - Business - Individuals\n## Ask Our AI BOT for Help!\n**Ex: \"Do you have grants for nonprofits in Ohio?\"** Receive matching grants to your inbox. You can also use our **Search For Grants** tool to conduct unlimited searches.",
+          "page_age": "2024-09-30T00:00:00"
+        },
+        {
+          "title": "12,370 Active Grants for Nonprofits, Businesses & Individuals",
+          "url": "https://www.grantwatch.com/",
+          "description": "Every grant is Human Verified™ - active, not scraped or stale. Get daily alerts, browse by location, and see full details with MemberPlus+.",
+          "snippet": "Every grant is Human Verified™ - active, not scraped or stale. Get daily alerts, browse by location, and see full details with MemberPlus+",
+          "page_age": "2026-09-16T00:00:00"
+        },
+        {
+          "title": "Grant Search",
+          "url": "https://www.federalgrants.com/search.php",
+          "description": "The FederalGrants.com free federal grant search engine allows you to search for grants by keyword, by CFDA number, or by funding opportunity number.",
+          "snippet": "The FederalGrants.com free federal grant search engine allows you to search for grants by keyword, by CFDA number, or by funding opportunity number.\n\nFederal Grants",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "f4c2ca208caa",
+      "title": "Show HN: Freeform – One click shareable AI generated apps",
+      "summary": "Show HN: Freeform – One click shareable AI generated apps",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Freeform",
+      "url": "https://sharefreeform.com",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ReeseEJ",
+          "url": "https://sharefreeform.com",
+          "text": "TLDR: Curious if YC startup requests are a valid take, so I built freeform in a weekend.<p>Storytime: I’ve been working on a startup for a while (another context layer startup) and one night while I h"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Freeform (TV channel)",
+          "url": "https://en.wikipedia.org/wiki/Freeform_(TV_channel)",
+          "description": "",
+          "snippet": "# Freeform (TV channel)\n- **Country**: United States\n- **Broadcast area**: Nationwide\n- **Headquarters**: Walt Disney Studios, Burbank, California, US\n\n- **Languages**: English Spanish (via SAP audio track)\n- **Picture format**: 720p HDTV\n\n- **Owner**: Disney Entertainment Television\n- **Parent**: ABC Family Worldwide\n- **Sister channels**: List ABC Disney Channel Disney XD Disney Jr. FX FXX FXM National Geographic Nat Geo Wild",
+          "page_age": "2026-09-14T01:15:32"
+        },
+        {
+          "title": "Freeform - Download",
+          "url": "https://freeform.updatestar.com/",
+          "description": "Download Freeform 1.2, free, virus-checked. Freeform by Apple offers an intuitive workspace for brainstorming and collaboration, but lacks some advanced …",
+          "snippet": "Download Freeform 1.2, free, virus-checked. Freeform by Apple offers an intuitive workspace for brainstorming and collaboration, but lacks some advanced …",
+          "page_age": "2023-12-09T00:00:00"
+        },
+        {
+          "title": "Freeform (Apple)",
+          "url": "https://en.wikipedia.org/wiki/Freeform_(Apple)",
+          "description": "",
+          "snippet": "# Freeform (Apple)\n**Freeform**\n\nApp icon (dark mode) since iOS 26.4",
+          "page_age": "2026-05-25T00:02:58"
+        },
+        {
+          "title": "Freeform App - App Store",
+          "url": "https://apps.apple.com/us/app/freeform/id6443742539",
+          "description": "Download Freeform by Apple on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Freeform.",
+          "snippet": "Download Freeform by Apple on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Freeform",
+          "page_age": "2022-10-25T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "40e1a1ef579d",
+      "title": "Lepton from Valve to run Android games on Linux is now open source #Lepton #SteamFrame #SteamOS #OpenSource #Valve #Steam Lepton from Valve to run Andro...",
+      "summary": "Lepton from Valve to run Android games on Linux is now open source #Lepton #SteamFrame #SteamOS #OpenSource #Valve #Steam Lepton from Valve to run Andro...",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Linux",
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:m5dcinlrpxq6rm2uficksxp7/post/3mvp4unz4h724",
+      "platforms": [
+        "mastodon"
+      ],
+      "score": 0.77,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "mastodon",
+          "author": "gamingonlinux.com@bsky.brid.gy",
+          "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:m5dcinlrpxq6rm2uficksxp7/post/3mvp4unz4h724",
+          "text": "Lepton from Valve to run Android games on Linux is now open source #Lepton #SteamFrame #SteamOS #OpenSource #Valve #Steam Lepton from Valve to run Andro..."
+        },
+        {
+          "platform": "mastodon",
+          "author": "gamingonlinux",
+          "url": "https://mastodon.social/@gamingonlinux/117285192593747154",
+          "text": "Lepton from Valve to run Android games on Linux is now open source https://www. gamingonlinux.com/2026/09/lept on-from-valve-to-run-android-games-on-linux-is-now-open-source/ # Lepton # SteamFrame # S"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/linux4noobs on Reddit: What is linux?",
+          "url": "https://www.reddit.com/r/linux4noobs/comments/1ljteoi/what_is_linux/",
+          "description": "209 votes, 136 comments. I have always been curious about Linux but just never really understood what it really is. Is it like windows or Mac? Or is…",
+          "snippet": "# What is linux?\n## Deleted User\nJust like windows and macos, just different cuz it's a different operating system\n\nBenefits to using linux are....\n\nLess resource usage (cpu, ram, etc)\n\nA lot safer (Basically nobody creates viruses for linux)\n\nWay more stable (I dunno why, just is)\n\nCan go years without restarting or powering off (Extremely beneficial for niche cases)",
+          "page_age": "2025-06-25T22:16:28"
+        },
+        {
+          "title": "Introduction to Linux - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/",
+          "description": "Your All-in-One Learning Portal. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
+          "snippet": "# Introduction to Linux\nLast Updated : 11 Aug, 2026\n\nLinux is based on the UNIX operating system, a multi-user and multitasking platform developed in the 1970s at AT&T Bell Labs that became the foundation for many modern operating systems. Linux is free and open-source, encouraging global collaboration and innovation while providing strong security, flexibility, and reliable performance across different devices and industries",
+          "page_age": "2026-08-11T11:06:38"
+        },
+        {
+          "title": "Linux",
+          "url": "https://en.wikipedia.org/wiki/Linux",
+          "description": "",
+          "snippet": "# Linux\n## Page version status\nThis article is about the family of operating systems.\n\n**Linux**\n\nTux the penguin Tux, the mascot of Linux, created by Larry Ewing",
+          "page_age": "2001-11-20T02:27:22"
+        },
+        {
+          "title": "What is Linux? - Linux.com",
+          "url": "https://www.linux.com/what-is-linux/",
+          "description": "Looking to get started in Linux? Develop a good working knowledge of Linux using both the graphical interface and command line across the major Linux distribution families with The Linux Foundation’s Intro to Linux online course.",
+          "snippet": "# What is Linux?\nHaga clic aquí para Introducción a Linux.)*\n\nFrom smartphones to cars, supercomputers and home appliances, home desktops to enterprise servers, the Linux operating system is everywhere",
+          "page_age": "2022-08-26T20:22:20"
+        }
+      ]
+    },
+    {
+      "id": "befe899f5dc7",
+      "title": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "summary": "Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "offer_type": "open_source",
+      "value": "$1",
+      "promo_code": "NVFP4",
+      "product": "Swift",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.765,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "kisjovan",
+          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+          "text": "Hi everybody, we post-trained Qwen 3.8 27B to be more efficient by figuring out which tokens were linked to overthinking and penalizing them without &quot;attacking&quot; the reasoning length directly"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "SWIFT",
+          "url": "https://en.wikipedia.org/wiki/SWIFT",
+          "description": "",
+          "snippet": "# SWIFT\n- **Type**: Cooperative society\n- **Industry**: Telecommunications\n- **Founded**: 3 May 1973 (1973-05-03)\n- **Headquarters**: La Hulpe, Belgium 50°44′04″N 4°28′43″E / 50.73444°N 4.47861°E / 50.73444; 4.47861",
+          "page_age": "2026-08-27T14:48:55"
+        },
+        {
+          "title": "Swift Programming Language",
+          "url": "https://www.swift.org/",
+          "description": "Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.",
+          "snippet": "Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns",
+          "page_age": "2026-06-30T18:15:04"
+        },
+        {
+          "title": "SWIFT Banking System: How It Powers Global Financial Transactions",
+          "url": "https://www.investopedia.com/articles/personal-finance/050515/how-swift-system-works.asp",
+          "description": "Discover how the SWIFT system facilitates secure international money transfers, impacts global finance, and plays a role in economic sanctions across 200 countries.",
+          "snippet": "# SWIFT Banking System: How It Powers Global Financial Transactions\n## What Is the SWIFT Banking System?\nThe Society for Worldwide Interbank Financial Telecommunications (SWIFT) system is a global messaging network that enables secure and efficient international money and securities transfers. Founded in 1973 as a faster and more reliable alternative to the telex system, SWIFT now connects more than 11,000 financial institutions worldwide",
+          "page_age": "2025-10-14T12:36:22"
+        },
+        {
+          "title": "Suzuki Swift - Enjoy NZ's Favourite Small Car",
+          "url": "https://www.suzuki.co.nz/small-cars/overview/swift",
+          "description": "Faithful, fun, always by your side. Suzuki Swift is a Kiwi favourite. A self-charging hybrid car with smart safety made for busy lives. See more",
+          "snippet": "# Suzuki Swift\n## Hybrid efficiency on the go\nThe Suzuki Swift’s 12V Smart Hybrid technology combines a zippy petrol engine with stop start functionality and electric motor assist to save on fuel and improve fuel efficiency.\n\nWith no road user charges, no charging required and low emissions of 91-97 g/km*, the Swift is as affordable and as environmentally friendly as ever!",
+          "page_age": "2022-10-13T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "67d9e369aa8b",
+      "title": "Show HN: A writing coach that's not allowed to write your sentences",
+      "summary": "Show HN: A writing coach that's not allowed to write your sentences",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "HACKERNEWS2026",
+      "product": "",
+      "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ygjb",
+          "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+          "text": "Hi HN,<p>I&#x27;m  the technical advisor and one of the co-founders for Oghmere (<a href=\"https:&#x2F;&#x2F;oghmere.com\" rel=\"nofollow\">https:&#x2F;&#x2F;oghmere.com</a>), a writing tool for people wh"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/selfpublish on Reddit: Has anyone used ChatGPT's Creative Writing ...",
+          "url": "https://www.reddit.com/r/selfpublish/comments/1gv75iw/has_anyone_used_chatgpts_creative_writing_coach/",
+          "description": "I know there are a ton of good reason not to use ChatGPT to write your book for you, but I'm curious about letting it give me feedback on what I've…",
+          "snippet": "# Has anyone used ChatGPT's Creative Writing Coach?\n## kaizenmusicstudio\nUnpopular Opinion: Yes, and it's been very helpful. Oftentimes I really just need an objective perspective to let me know if I've overlooked something obvious in the editing process.",
+          "page_age": "2024-11-19T20:32:12"
+        },
+        {
+          "title": "Using ChatGPT as a Writing Coach",
+          "url": "https://blog.nateliason.com/p/chatgpt-writing-coach",
+          "description": "How to improve instead of atrophy",
+          "snippet": "# Using ChatGPT as a Writing Coach\n### How to improve instead of atrophy\nSo it makes me sad seeing writers use ChatGPT to *do* some of their writing for them. In the short term, it is convenient. But the price of that convenience is sacrificing their future competence.\n\nThere is, however, a way to use ChatGPT to become a better writer. To treat it as a writing coach instead of a writing robot.\n\nIn Benjamin Franklin’s autobiography, he outlines how he used *The Spectator* magazine to improve his writing:",
+          "page_age": "2023-02-13T19:59:54"
+        },
+        {
+          "title": "r/WritingWithAI on Reddit: Anybody able to recommend a good AI ...",
+          "url": "https://www.reddit.com/r/WritingWithAI/comments/1fk1igi/anybody_able_to_recommend_a_good_ai_writing_coach/",
+          "description": "In essence what i mean is that i wanna do my own writing but would still like some assistance/coaching when it comes to stuff like grammar, sentence…",
+          "snippet": "# Anybody able to recommend a good AI writing \"coach\"\n## Railroadin_Fool\nyou can use CHatGT for that.",
+          "page_age": "2024-09-18T19:36:02"
+        },
+        {
+          "title": "What is a Writing Coach? [And Do You Need One?]",
+          "url": "https://www.triviumwriting.com/blog/what-is-a-writing-coach",
+          "description": "Unsure if you need a writing coach? Not sure how to go about finding one? This guide will answer your questions and help you take the first steps.",
+          "snippet": "# What is a Writing Coach? \\[And Do You Need One?\\]\n## What is a Writing Coach?\nBut let me be clear: writing coaches are not glorified editors or grammar police. They are process experts, mindset partners, and structure strategists. Their job isn’t to write for you—but to help *you* write at your highest level. The best writing coaches help you see the ideas you can’t see, say what you really mean, and show up consistently to finish your book",
+          "page_age": "2026-04-10T14:28:46"
+        }
+      ]
+    },
+    {
+      "id": "fd9ce3ce9fcc",
+      "title": "DeepSeek API Free Credits",
+      "summary": "DeepSeek API Free Credits",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+          "text": "DeepSeek API Free Credits"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+          "text": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/ChatGPTCoding on Reddit: $200 Free API Credit for GPT5/Claud...",
+          "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1o4ptjp/200_free_api_credit_for_gpt5claudeglmdeepseek_no/",
+          "description": "Hey everyone Get $200 FREE AI API Credits instantly — no card required! Models: GPT-5 Codex, Claude Sonnet 4/4.5, GLM 4.5, deepseek How to Claim: 1…",
+          "snippet": "# $200 Free API Credit for GPT5/Claude/GLM/Deepseek | No CC needed\nHey everyone\n\n**Get $200 FREE AI API Credits instantly — no card required!**\n\nModels: GPT-5 Codex, Claude Sonnet 4/4.5, GLM 4.5, deepseek",
+          "page_age": "2025-10-12T14:00:29"
+        },
+        {
+          "title": "DeepSeek Free Plans, Trials, and Subscriptions: Token Grants, Usage ...",
+          "url": "https://www.datastudios.org/post/deepseek-free-plans-trials-and-subscriptions-token-grants-usage-caps-and-api-pricing-strategies",
+          "description": "DeepSeek stands out in the AI landscape for its aggressive “free-first” approach, granting public access to its latest models without mandatory subscriptions, and offering high-value trials for developers and enterprise teams.This article ...",
+          "snippet": "# DeepSeek Free Plans, Trials, and Subscriptions: Token Grants, Usage Caps, and API Pricing Strategies for Late 2025/2026\n## Every new DeepSeek API account receives a 5-million-token grant and a time-boxed trial window without requiring a credit card.\nWhen developers register for the API, DeepSeek credits each new account with **5 million free tokens** (roughly $8.40 value) valid for **30 days**",
+          "page_age": "2026-09-07T16:41:09"
+        },
+        {
+          "title": "DeepSeek Free API and Token Credits — yangmao.ai",
+          "url": "https://yangmao.ai/en/deals/category/deepseek-free-api/",
+          "description": "DeepSeek free API credits, signup tokens, China access, and OpenAI-compatible usage. 180 claimable AI deals tracked.",
+          "snippet": "DeepSeek free API credits, signup tokens, China access, and OpenAI-compatible usage. 180 claimable AI deals tracked",
+          "page_age": ""
+        },
+        {
+          "title": "Is DeepSeek Free? Chat, App, API & Local Costs",
+          "url": "https://seek-chat.com/guide/is-deepseek-ai-free/",
+          "description": "Compare free DeepSeek Chat and app access with paid API usage and local deployment costs, including token billing, hardware and practical limits.",
+          "snippet": "# Is DeepSeek AI Free? Chat, App, API, and Local Costs Explained\n**DeepSeek’s hosted chat and official mobile apps are currently free to access. The DeepSeek API is billed by token usage. Some DeepSeek model weights are available under permissive licenses, but downloading or self-hosting them does not eliminate infrastructure and operational costs.**",
+          "page_age": "2026-09-07T19:21:22"
+        }
+      ]
+    },
+    {
+      "id": "c49a2a05d1bf",
+      "title": "Try it free →",
+      "summary": "Try it free →",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://costgoat.com/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://costgoat.com/",
+          "text": "Try it free →"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://costgoat.com/",
+          "text": "Try For Free"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Try It Free app (@tryitfreeapp)",
+          "url": "https://www.facebook.com/tryitfreeapp/",
+          "description": "Try It Free app. 872 likes. Free app that allows you to try out businesses for free before becoming a customer.",
+          "snippet": "Try It Free app. 872 likes. Free app that allows you to try out businesses for free before becoming a customer",
+          "page_age": ""
+        },
+        {
+          "title": "Give Jax State a Try for Free! - Give Jax State a Try for Free!",
+          "url": "https://www.jsu.edu/tryit/index.html",
+          "description": "Jacksonville State University offers you the opportunity to take college courses free through the Try It program. Each semester will bring a new course that you can take online for free!",
+          "snippet": "Jacksonville State University offers you the opportunity to take college courses free through the Try It program. Each semester will bring a new course that you can take online for free!",
+          "page_age": ""
+        },
+        {
+          "title": "TryIt4Free - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tryit4free.customer&hl=en_US",
+          "description": "Try It Before You Buy It!",
+          "snippet": "# TryIt4Free\nWant to try trending beauty products for free? TryIt4Free lets you find, claim, and review free beauty samples from top brands right in your city! * Explore the latest makeup, skincare, and personal care samples available near you. * One-click to claim and reserve your favorite samples for pickup at local stores. * Real-time map search shows all nearby free sample locations, updated daily. * Rate products and give direct feedback to brands after trying them out. Whether you love discovering new beauty products or simply want to score the best freebies in town, TryIt4Free makes sampling fun and effortless",
+          "page_age": "2025-12-12T00:00:00"
+        },
+        {
+          "title": "TryitFree - App Store - Apple",
+          "url": "https://apps.apple.com/us/app/tryitfree/id1482372404",
+          "description": "Download TryitFree by Bluestone Apps, LLC Mobile on the App Store. See screenshots, ratings and reviews, user tips, and more apps like TryitFree.",
+          "snippet": "Download TryitFree by Bluestone Apps, LLC Mobile on the App Store. See screenshots, ratings and reviews, user tips, and more apps like TryitFree",
+          "page_age": "2019-10-31T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "64e3cebc0b3f",
+      "title": "free ChatGPT for academic researchers",
+      "summary": "free ChatGPT for academic researchers",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "ChatGPT",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+          "text": "free ChatGPT for academic researchers"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://apps.apple.com/app/id6447705369?ct=felloai-web-article-sidebar",
+          "text": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPhone, and iPad. Free on the App Store 4.7  ·  Free "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "What is ChatGPT?",
+          "url": "https://www.ibm.com/think/topics/chatgpt",
+          "description": "ChatGPT is a generative AI chatbot developed by OpenAI and powered by their proprietary GPT family of generative artificial intelligence (gen AI) models.",
+          "snippet": "# What is ChatGPT?\n## What is ChatGPT?\nChatGPT is a generative AI chatbot developed by OpenAI and powered by their proprietary GPT family of generative artificial intelligence (gen AI) models. It uses natural language processing (NLP) to hold lifelike conversations with users and generate content including articles, text summaries, advice and more",
+          "page_age": "2026-07-07T00:00:00"
+        },
+        {
+          "title": "ChatGPT",
+          "url": "https://en.wikipedia.org/wiki/ChatGPT",
+          "description": "",
+          "snippet": "# ChatGPT\n- **Developer**: OpenAI\n- **Release**: November 30, 2022 (2022-11-30)\n- **Stable release**: September 14, 2026 (2026-09-14)\n- **Engine**: GPT-6 Astra\n- **Operating system**: Web platform iOS Android macOS Windows iPadOS\n- **Platform**: Cloud computing platforms\n- **Available in**: 59 languages\n- **Type**: Chatbot Large language model Generative pre-trained transformer",
+          "page_age": "2026-09-15T19:38:02"
+        },
+        {
+          "title": "What Is ChatGPT? How It Works, How to Use It, and More",
+          "url": "https://www.coursera.org/articles/chatgpt",
+          "description": "Learn more about the different features and limitations of the large language model (LLM) ChatGPT, and different ways you can begin using it in your work safely and responsibly.",
+          "snippet": "# What Is ChatGPT? How It Works, How to Use It, and More\nWritten by Coursera Staff • Updated on Jan 26, 2026\n\nLearn more about the different features and limitations of the large language model (LLM) ChatGPT, and different ways you can begin using it in your work safely and responsibly.",
+          "page_age": "2025-08-15T15:45:22"
+        },
+        {
+          "title": "What is ChatGPT? How the world's most popular AI chatbot can benefit ...",
+          "url": "https://www.zdnet.com/article/what-is-chatgpt-how-the-worlds-most-popular-ai-chatbot-can-benefit-you/",
+          "description": "As the AI chatbot's advanced conversational capabilities continue to generate buzz, here are detailed answers to your most-asked questions.",
+          "snippet": "# What is ChatGPT? How the world’s most popular AI chatbot can benefit you\n## What is ChatGPT?\nChatGPT is an AI chatbot with advanced natural language processing (NLP) that allows you to have human-like conversations to complete various tasks. The generative AI tool can answer questions and assist you with composing text, code, and much more",
+          "page_age": "2024-11-13T19:16:00"
+        }
+      ]
+    },
+    {
+      "id": "a877bd3a76ab",
+      "title": "standard free trial of Google AI Pro",
+      "summary": "standard free trial of Google AI Pro",
+      "offer_type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://felloai.com/ai-free-trials/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/ai-free-trials/",
+          "text": "standard free trial of Google AI Pro"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/ai-free-trials/",
+          "text": "AI Free Trials 2026: Every Pro Tier You Can Actually Test for Free"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "How to Use Gemini Pro for Free in 2026 (9 Proven Ways)",
+          "url": "https://www.gamsgo.com/blog/google-gemini-free",
+          "description": "Discover 9 ways to use Gemini for free or less, including Google AI Pro trials, device offers, carrier benefits, family sharing, AI Studio, RITA, and GamsGo.",
+          "snippet": "# How to Use Gemini Pro for Free in 2026 (9 Proven Ways)\n## What’s the Difference Between Gemini Free and Google AI Pro?\n| Category | Gemini Free | Google AI Pro |\n| --- | --- | --- |\n| Price | $0, no credit card required | $19.99/month |\n| Models | A newer Flash model by default, with limited access to the most powerful Pro model | Full access to the most powerful Pro model |\n| Usage Limits | Standard daily or weekly limits that are easy to reach | Around four times the usage limits |\n| Deep Research | Around 5 reports per month | Higher daily limits |\n| Image and Video Generation | Image generation available, with limited video access | Enhanced image generation and video generation |\n| Storage | 15GB | 5TB |\n| Workspace Integration | Little to no integration | Integration with Gmail, Docs, and more, plus family sharing |",
+          "page_age": "2026-07-17T00:00:00"
+        },
+        {
+          "title": "Google AI Pro for Students 2026: Is It Still Free?",
+          "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+          "description": "Google relaunched the free student year on August 19, 2026: AI Pro free in the US, AI Plus in 140+ markets. Redeem by December 31 and re-verify each year.",
+          "snippet": "Google relaunched the free student year on August 19, 2026: AI Pro free in the US, AI Plus in 140+ markets. Redeem by December 31 and re-verify each year.",
+          "page_age": "2026-08-21T14:05:00"
+        },
+        {
+          "title": "AI Free Trials 2026: Every Pro Tier You Can Test Free",
+          "url": "https://felloai.com/ai-free-trials/",
+          "description": "The honest August 2026 list of AI free trials. Google AI Pro 30 days and Microsoft 365 Premium 1 month, plus why Copilot Pro is dead and ChatGPT has none.",
+          "snippet": "The honest August 2026 list of AI free trials. Google AI Pro 30 days and Microsoft 365 Premium 1 month, plus why Copilot Pro is dead and ChatGPT has none.",
+          "page_age": "2026-09-14T16:00:00"
+        },
+        {
+          "title": "Google AI plans with Cloud Storage - Google One",
+          "url": "https://one.google.com/intl/en/about/google-ai-plans/",
+          "description": "Explore Google AI plans. Access our most advanced AI, generate videos from text, and secure cloud storage.",
+          "snippet": "Explore Google AI plans. Access our most advanced AI, generate videos from text, and secure cloud storage.\n\nStudents get Google AI Pro free for 1 year. Study smarter with higher access to Gemini, a 24/7 personal AI agent, and 5 TB of storage.",
+          "page_age": "2026-03-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "3320b8047a76",
+      "title": "Show HN: An open source PDF Reader with annotation, notes, SRS, Linking support",
+      "summary": "Show HN: An open source PDF Reader with annotation, notes, SRS, Linking support",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://github.com/roshanmishra86/Mereth-Reader/releases/tag/v0.1.4",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "kobiguru",
+          "url": "https://github.com/roshanmishra86/Mereth-Reader/releases/tag/v0.1.4",
+          "text": "A calm, local-first desktop PDF reader designed to make sure you remember what you read. You can link notes across files and group notes&#x2F;annotations into a larger Markdown note, which can be link"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Show HN: I built a free alternative to Adobe Acrobat PDF viewer ...",
+          "url": "https://news.ycombinator.com/item?id=44901683",
+          "description": "",
+          "snippet": "# Show HN: I built a free alternative to Adobe Acrobat PDF viewer (github.com/embedpdf)\nI built EmbedPDF: an MIT-licensed, open-source PDF viewer that aims to match all of Adobe Acrobat’s paid features… for free.",
+          "page_age": "2025-08-18T00:00:00"
+        },
+        {
+          "title": "any pdf reader with annotation feature (open source)? - Android ...",
+          "url": "https://android.stackexchange.com/questions/27293/any-pdf-reader-with-annotation-feature-open-source",
+          "description": "I am looking for a pdf reader for android which can also annotate, select, highlight text. Any open source option? Like Foxit Reader?",
+          "snippet": "# any pdf reader with annotation feature (open source)? \\[closed\\]\n## 3 Answers 3\nSorted by: Reset to default\n\nAdobe Reader X for Android v10.3 now supports annotation, highlights and commenting. It is not open source, but it is free to the end user.\n\nThere are currently no open source Android PDF utilities that have worthwhile annotation features. This wiki page at the University of Massachusetts Boston lists several open source android PDF viewers, with links: http://howto.wikispaces.umb.edu/PDF+Annotation+with+Android",
+          "page_age": "2012-08-09T00:00:00"
+        },
+        {
+          "title": "Top 23 pdf-viewer Open-Source Projects",
+          "url": "https://libhunt.com/t/pdf-viewer",
+          "description": "Which are the best open-source pdf-viewer projects? This list will help you: sumatrapdf, xournalpp, bentopdf, react-pdf, sioyek, pdf2htmlEX, and pdfme.",
+          "snippet": "# Top 23 pdf-viewer Open-Source Projects\n\\[1\\] https://github.com/xournalpp/xournalpp/releases/tag/v1.2.8\n4. bentopdf **3** **7** **14,620** **9.8** JavaScript The Privacy First PDF Toolkit alam00000 logo **Project mention:** Show HN: Free, In-Browser PDF Editor \\| news.ycombinator.com \\| 2026-03-29",
+          "page_age": ""
+        },
+        {
+          "title": "Top 23 pdf-viewer Open-Source Projects",
+          "url": "https://www.libhunt.com/topic/pdf-viewer",
+          "description": "Which are the best open-source pdf-viewer projects? This list will help you: sumatrapdf, xournalpp, bentopdf, react-pdf, sioyek, pdf2htmlEX, and pdfme.",
+          "snippet": "Which are the best open-source pdf-viewer projects? This list will help you: sumatrapdf, xournalpp, bentopdf, react-pdf, sioyek, pdf2htmlEX, and pdfme",
+          "page_age": "2026-03-26T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "0a0a2005c130",
+      "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+      "summary": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Echodot",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "kariku",
+          "url": "https://github.com/ohkariku-boop/Echodot",
+          "text": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style.<p>Problem:\nMost AI writing tools either force you into their voice or require constant copy-pastin"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Echodot",
+          "url": "https://echodot.com/",
+          "description": "Echodot is a purveyor of fine software applications for Mac OS.",
+          "snippet": "Echodot is a purveyor of fine software applications for Mac OS.\n\nThis is Echodot. We write apps that help software developers",
+          "page_age": ""
+        },
+        {
+          "title": "Amazon Echo Dot",
+          "url": "https://www.ebay.com/shop/amazon-echo-dot?_nkw=amazon+echo+dot",
+          "description": "Explore a wide range of our Amazon Echo Dot selection. Find top brands, exclusive offers, and unbeatable prices on eBay. Shop now for fast shipping and easy returns!",
+          "snippet": "# Amazon Echo Dot\n## Results\n65 product ratings - Amazon Echo Dot 3rd Gen C78MP8 Charcoal Alexa Smart Speaker New Open Box $24.49$29.99 or Best Offer +$7.99 delivery in 2-4 days Located in United States Free returns Save up to 15% when you buy more erwag-9579 99.8% positive (1.8K) **derosnopS**",
+          "page_age": ""
+        },
+        {
+          "title": "Amazon Echo Dot (5th Gen) with Clock Smart speaker with Clock and ...",
+          "url": "https://www.homedepot.com/p/Amazon-Echo-Dot-5th-Gen-with-Clock-Smart-speaker-with-Clock-and-Alexa-Glacier-White-B09B8VN8YQ/323373206",
+          "description": "Listen to your favorite music while giving your outdoors a fantastic look with this Amazon Echo Dot with Clock Smart speaker with Clock and Alexa Glacier White.",
+          "snippet": "{\"name\":\"Amazon Echo Dot (5th Gen) with Clock Smart speaker with Clock and Alexa, Glacier White B09B8VN8YQ\",\"description\":\"Our most popular smart speaker features a sleek design and an improved LED display that shows the time, weather, song titles, and more. Enjoy enhanced audio for vibrant sound anywhere in your home, stay on track with help from Alexa, and control compatible smart home devices with your motion. Add up 1,000 sq. ft. of wifi coverage to a compatible eero network.\",\"productID\":\"323373206\",\"sku\":\"1008770466\",\"gtin13\":\"0840080558066\",\"model\":\"B09B8VN8YQ\",\"depth\":\"3.94 in\",\"color\":\"Glacier White\",\"weight\":\"\",\"brand\":{\"name\":\"Amazon\"},\"aggregateRating\":{\"ratingValue\":\"5\",\"reviewCount\":44},\"offers\":{\"priceCurrency\":\"USD\",\"price\":59.99,\"priceValidUntil\":\"8/7/2026\",\"hasMerchantReturnPolicy\":{\"applicableCountry\":\"US\",\"returnPolicyCategory\":\"https://schema.org/MerchantReturnFiniteReturnWindow\",\"merchantReturnDays\":90}},\"review\":[{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"New Glacier white Echo wi\"},\"reviewBody\":\"I love it the display is fantastic the sound quality is outstanding. So far it has exceeded my expectations. The shipping was great as well it came a day early, I got good updates. The packaging was intact. Overall very satisfied.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"Reviewer55\"},\"headline\":\"Worth The Upgrade!\",\"reviewBody\":\"[This review was collected as part of a promotion.] I am very impressed with all the great features this Echo Dot offers. The sleek design of the sphere and the cloud blue color is aesthetically pleasing. It's very easy to setup this device through the app and it connects to my existing amazon account with no difficulties. This newer version has a clock display that is very handy. The led display is very bright and can show not only the time but also the weather, song titles. . . and so much more. I like how I can stay informed about vital information, today I was notified automatically of a weather warning for my area which is a great feature. Connecting smart devices to the echo dot is easy to do. I connected all my smart lights and now I can tell my echo dot when I need a light on/off and I can also adjust the brightness too. One feature I really enjoy using is \\\"drop in\\\". You can use this device like an intercom. When I am in another room I can talk to others using my phone which is connected to the echo dot, such a great feature. Listening to audiobooks and music is another feature that works really well, the sound is perfect. This echo dot has so many great features, I highly recommend this product.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"Rhei\"},\"headline\":\"Love this!\",\"reviewBody\":\"I had an excellent sound quality. Alexa can hear me from a distance. The clock feature is an added feature that helps me to chose this product. Easy to use and set up. My daughter always playing music with it and always talking to Alexa asking different stuff.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"Ash80\"},\"headline\":\"Amazon EcoDot 5Gen\",\"reviewBody\":\"The Amazon EcoDot 5Gen, is a must smart speaker for your home . It has a bright LED time display, It's Bluetooth compatible a Microphone on and off button and hands free Alexa . It's been a great addition for my home in controlling smart home devices, Alarms, and I love I can do my shopping with my Amazon EcoDot 5Gen. My kids love to ask it questions and it's so helpful . You can ask about the weather, play your playlist , listen to podcast . Without fail the Amazon EcoDot is an amazing Smart speaker with so smart features, and the sound is sharp and has amazing sound. The LED shows not only time , but weather, song titles.My family enjoys it . I absolutely love how it actually helps me with task to with my day . I love it and truly recommend it for everyone's home\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"Maslam\"},\"headline\":\"BETTER!!!\",\"reviewBody\":\"Better sound, Better quality and now a better display. If you have ever used an Amazon Echo with Alexa you know they sound pretty decent. The Echo Gen 5 sound quality is much better with richer bass, clearer vocals and vibrant sound quality with an added bonus of an LED clock.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"Alex35\"},\"headline\":\"I love this Alexa!\",\"reviewBody\":\"I love this form for Alexa. I have Echo studio and the previous generation of echo dot. The dot has improved a lot on sound quality and this generation is very usable for a small room. The sound quality is great and the build-in display is perfect for a night stand clock.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"EricaM1985\"},\"headline\":\"Echo is a big part of my life!\",\"reviewBody\":\"I got the Echo Dot (5th Gen, 2022 release) with clock a few months ago. I use it more than i thought i would. The sound is amazing. It does everything your phone can do for you. I love that i can add to my grocery list at anytime. You can call and text anyone. The alarm clock is loud which is good because my husband could sleep through a tornado and never know. The music sounds beautiful. I love that it give you reminders on the days you need reminded about appointments or when bills are do. All you gotta do is download the Alexa APP and youre good to go. You can turn on lights throughout your house or turn your ring camera on or off just by asking alexa to do so. It turns dofferent colors which takes some time getting use too. For instance, my echo turns yellow when i have unread notifications on my phone that helps remind me to read them or when i have a missed call. Im very impressed with this new echo! I love being able to listen to video's of recipes or even a podcast while cooking. Alexa even reminds me when it's time to give my dog's their medication every day at certain times. Alexa quickly became my new best friend!\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"DAN\"}},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"BRITTANY\"},\"reviewBody\":\"Works well, easy to setup, hears me better than my other echo, and great size.\"},{\"reviewRating\":{\"ratingValue\":5,\"bestRating\":\"5\"},\"author\":{\"name\":\"HomeDepotCustomer\"},\"reviewBody\":\"Very easy to order the product from Home Depot. I like the notification text when the product was ready for pick up.\"}]}",
+          "page_age": "2025-05-06T03:28:04"
+        },
+        {
+          "title": "Amazon Echo Dot - 5th Generation",
+          "url": "https://www.energyearth.com/product/amazon-echo-dot-5th-generation-2",
+          "description": "",
+          "snippet": "# Amazon Echo Dot - 5th Generation\nOur most popular smart speaker features a sleek design and improved audio for vibrant sound anywhere in your home. With Echo Dot, you can stay on track with help from Alexa, control compatible smart home devices and start routines with your motion.\n\n$49.99",
+          "page_age": "2025-10-30T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "70ce725af57a",
+      "title": "Show HN: Compute:Arena – Community submitted local AI benchmarks",
+      "summary": "Show HN: Compute:Arena – Community submitted local AI benchmarks",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Compute",
+      "url": "https://computearena.ai",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "prabod",
+          "url": "https://computearena.ai",
+          "text": "Benchmarking AI models on real hardware is way harder than it looks. Between AMD, NVIDIA, Apple Silicon, Intel, and Qualcomm, plus hundreds of open source models and quants, getting the test bench rig"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "What is Compute?",
+          "url": "https://www.hpe.com/us/en/what-is/compute.html",
+          "description": "Compute is the processing power used to run applications, analyze data, and support cloud, edge, AI, and enterprise workloads. Learn how compute works.",
+          "snippet": "Compute is the processing power used to run applications, analyze data, and support cloud, edge, AI, and enterprise workloads.",
+          "page_age": "2026-07-27T00:00:00"
+        },
+        {
+          "title": "A Primer on Compute",
+          "url": "https://carnegieendowment.org/russia-eurasia/posts/2024/04/a-primer-on-compute",
+          "description": "This essay is the first of a three-part series that will seek to understand the considerations for building compute capacity and the different pathways to accessing compute in India.",
+          "snippet": "## A Primer on Compute\n### Introduction\nComputational power, or compute, is a fundamental building block in the development and deployment of artificial intelligence (AI)-based solutions at scale. Compute enables AI models to process vast amounts of data, perform complex calculations, and make intelligent decisions by learning from this data. Compute is required to train models to learn patterns and logic, enable real-time decision-making, and ensure a smooth user experience by reducing latency",
+          "page_age": "2026-02-26T15:45:59"
+        },
+        {
+          "title": "What is Compute?",
+          "url": "https://www.lenovo.com/us/en/glossary/compute/",
+          "description": "Looking to understand the differences between CPU and GPU compute in technology? Learn what you need to know about CPUs, GPUs, and more!",
+          "snippet": "{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"FAQPage\",\r\n  \"mainEntity\": [{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What does compute mean?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Compute is a term used to describe the act of performing calculations, particularly complex mathematical operations. It is commonly associated with the field of computer science and the use of computer systems to solve complex problems.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What are some common types of computing tasks?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Some common types of computing tasks include mathematical calculations, data processing, simulation, rendering graphics, machine learning, and artificial intelligence algorithms.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What is the difference between compute and computation?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Compute and computation are two terms that are often used interchangeably. However, compute typically refers to the process of performing calculations using a computer system, while computation is a more general term that can refer to any process of performing calculations.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What are compute resources?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"1.\tCentral Processing Unit (CPU): The CPU is responsible for execution of instructions and performing calculations. It is often called the \\\"brain\\\" of the computer.\r\n2.\tMemory (RAM): Random Access Memory (RAM) is a type of volatile memory used to store data and instructions temporarily while the CPU processes them. Faster RAM allows for quicker access to data and improves overall system performance.\r\n3.\tStorage: Storage devices, such as hard drives or solid-state drives (SSDs), provide non-volatile memory for storing data, applications, and operating systems.\r\n4.\tNetwork resources: Network interfaces, routers, and switches ease communication between devices and enable data transfer within a network or across different networks.\r\n5.\tGraphics Processing Unit (GPU): GPUs are specialized processors designed to handle graphics rendering and parallel processing tasks, often used in gaming, video editing, and machine learning applications.\r\n6.\tOperating system (OS): The operating system manages hardware resources and offers an environment for software applications to run efficiently.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"How does parallel computing work?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Parallel computing works by dividing a complex problem or computation into smaller, independent tasks that can be executed simultaneously by multiple processors or cores. This concurrent processing of tasks results in faster completion of the overall computation and improved performance, especially in high-performance computing and scientific applications.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What are the key benefits of parallel computing?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Parallel computing has several key benefits. It significantly speeds up performance by executing tasks simultaneously, making it ideal for complex problems. The method ensures efficient use of computing resources, such as processors or cores, by distributing tasks evenly. As computational demands grow, parallel systems can be easily scaled by adding more resources. This approach is cost-effective, saving on energy and infrastructure expenses. Parallel computing enables tackling larger and more intricate problems that were previously unattainable. Additionally, it supports real-time data processing, which is crucial for applications needing quick responses.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What is a compute node?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"A compute node is a physical or virtual server that is designed to perform computational tasks. These nodes are often used in high-performance computing clusters, where multiple nodes work together to solve complex problems.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What is a compute engine?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"A compute engine is a cloud-based service that offers virtual machines (VMs) for running applications and performing computations. These engines are often used by businesses and organizations that need large amounts of computing power but do not want to invest in their own hardware.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What is a compute cluster?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"A compute cluster is a group of computers that work together to perform a single task or set of tasks. These clusters are often used in scientific research, financial modeling, and other applications that require a lot of computational power.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What is compute power?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Compute power, also known as computing power or processing power, refers to the ability of a computer system, such as a CPU or GPU, to perform calculations and execute instructions efficiently. It is an indicator of the overall performance and speed of a computer system. It is influenced by various factors related to the hardware and software components of the system like clock speed, number of cores, cache size, processor architecture, and instruction sets. Higher compute power results in improved performance and speed for various tasks.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"Which are the different forms of cloud computing services?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"There are three primary forms of cloud computing services: infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). IaaS offers virtualized computing resources like virtual machines and storage. PaaS offers a platform where developers can build, deploy, and manage applications without worrying about the underlying infrastructure. SaaS delivers ready-to-use software applications accessible over the internet.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"How does quantum computing differ from traditional computing?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Quantum computing differs from traditional computing by using the principles of quantum mechanics. While traditional computers use bits, which represent either a 0 or a 1, quantum computers use quantum bits or qubits, which can exist in multiple states simultaneously. This allows quantum computers to perform certain computations much faster than classical computers for specific types of problems, such as factorizing large numbers or simulating quantum systems.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"How does compute power affect the performance of software applications?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"The compute power available to a software application directly affects its performance. A more powerful computer or computing system can handle complex calculations and process large amounts of data more quickly, resulting in faster response times and smoother execution. Compute power is particularly important for resource-intensive applications like video editing, 3D rendering, scientific simulations, and gaming.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What are the benefits of edge computing?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Edge computing brings compute power closer to the data source, reducing latency and improving real-time processing capabilities. By processing data locally on edge devices or edge servers, edge computing enables faster response times, better reliability in unstable network conditions, and reduced bandwidth requirements. This is particularly helpful in applications like the internet of things (IoT), autonomous vehicles, and real-time analytics.\"\r\n    }\r\n  },{\r\n    \"@type\": \"Question\",\r\n    \"name\": \"What are compute shaders?\",\r\n    \"acceptedAnswer\": {\r\n      \"@type\": \"Answer\",\r\n      \"text\": \"Compute shaders are a type of specialized shader in graphics programming that perform general-purpose computations on the GPU. Unlike traditional shaders, which focus on rendering graphics and visual effects, compute shaders handle complex calculations and data manipulation tasks, enabling parallel processing for improved performance. They are commonly used in applications such as physics simulations, image processing, and machine learning.\"\r\n    }\r\n  }]\r\n}",
+          "page_age": "2023-05-26T00:00:00"
+        },
+        {
+          "title": "COMPUTE Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/compute",
+          "description": "COMPUTE definition: to determine by calculation; reckon; calculate. See examples of compute used in a sentence.",
+          "snippet": "COMPUTE definition: to determine by calculation; reckon; calculate.",
+          "page_age": "2025-12-04T09:01:21"
+        }
+      ]
+    },
+    {
+      "id": "9791df9a82e0",
+      "title": "Show HN: Blue – open-source governance for coding agents",
+      "summary": "Show HN: Blue – open-source governance for coding agents",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Blue",
+      "url": "https://bluee.sh/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "tomislavs",
+          "url": "https://bluee.sh/",
+          "text": "Hey HN,<p>After migrating to an inference gateway to serve internal usage across an organization, problems have started to pop up. Once you detach from a managed ecosystem such as OpenAI or Anthropic "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "BLUE Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/blue",
+          "description": "BLUE definition: the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers. See examples of blue used in a sentence.",
+          "snippet": "BLUE definition: the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers.\n\nJump To:\n\n- blue blue noun the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers.\n- Blue Blue noun a nickname for a person with red hair\n\nSynonyms",
+          "page_age": "2026-07-31T00:00:00"
+        },
+        {
+          "title": "BLUE Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/blue",
+          "description": "The meaning of BLUE is of the color whose hue is that of the clear sky : of the color blue. How to use blue in a sentence.",
+          "snippet": "The meaning of BLUE is of the color whose hue is that of the clear sky : of the color blue.\n\nof the color whose hue is that of the clear sky : of the color blue; bluish; discolored by or as if by bruising… See the full definition",
+          "page_age": "2026-09-12T12:23:27"
+        },
+        {
+          "title": "Blue (English group)",
+          "url": "https://en.wikipedia.org/wiki/Blue_(English_group)",
+          "description": "",
+          "snippet": "# Blue (English group)\n- **Origin**: London, England\n- **Genres**: Pop R\\&B\n- **Years active**: 2000–2005 2011–present\n- **Labels**: BMG Music (current) Innocent Island Sony (formerly)\n- **Members**: Simon Webbe Duncan James Antony Costa Lee Ryan",
+          "page_age": "2026-09-10T17:13:33"
+        },
+        {
+          "title": "Blue",
+          "url": "https://en.wikipedia.org/wiki/Blue",
+          "description": "",
+          "snippet": "# Blue\n**Blue** is one of the three primary colours in the RGB (additive) colour model, as well as in the RYB colour model (traditional colour theory). It lies between violet and cyan on the spectrum of visible light. The term *blue* generally describes colours perceived by humans observing light with a dominant wavelength between approximately 450 and 495 nanometres. The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering. An optical effect called the Tyndall effect explains blue eyes",
+          "page_age": "2026-09-15T16:31:03"
+        }
+      ]
+    },
+    {
+      "id": "d0726b16389a",
+      "title": "Mojo compiler is open for open source contributions [Mojo]",
+      "summary": "Mojo compiler is open for open source contributions [Mojo]",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://forum.modular.com/t/mojo-compiler-is-open-for-open-source-contributions/3499",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ivell",
+          "url": "https://forum.modular.com/t/mojo-compiler-is-open-for-open-source-contributions/3499",
+          "text": "Mojo compiler is open for open source contributions [Mojo]"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Mojo 1.0 Is Fully Open Source: What Developers Must Do Now",
+          "url": "https://byteiota.com/mojo-1-open-source-python-ai-developers/",
+          "description": "From Bits to Bytes",
+          "snippet": "# Mojo 1.0 Is Fully Open Source: What Developers Must Do Now\nThree weeks after Qualcomm closed its $3.9 billion acquisition of Modular, the company did something most acquirers don’t: it open-sourced everything. Mojo 1.0 — the Python-compatible, AI-first language designed to replace Python for compute-heavy work — shipped on August 11 with its first stability guarantees. Then, on August 18 at ModCon 2026 in San Francisco, the Mojo compiler, toolchain, and the rest of the stack went fully public under Apache 2.0 with LLVM exceptions",
+          "page_age": "2026-09-11T02:10:19"
+        },
+        {
+          "title": "Modular's Got Its 'Mojo' Working Fully Open Source - FOSS Force",
+          "url": "https://fossforce.com/2026/08/modulars-got-its-mojo-working-fully-open-source/",
+          "description": "Modular has opened Mojo’s compiler and tooling under Apache 2.0, but says outside contributions will have to wait until later this year.",
+          "snippet": "# Modular’s Got Its ‘Mojo’ Working Fully Open Source\n### Modular has opened Mojo’s compiler and tooling under Apache 2.0, but says outside compiler contributions will have to wait until later this year.\nLast week, the Mojo programming language released version 1.0, which is generally considered the “we’re confidently ready for prime time” release. Yesterday, the project announced that it’s now fully open source, released under Apache 2.0 with LLVM exceptions. The latter means that programs written and compiled in the language won’t have to be released under Apache or any other open source license",
+          "page_age": "2026-08-19T20:17:33"
+        },
+        {
+          "title": "Mojo is now open source",
+          "url": "https://news.ycombinator.com/item?id=49348079",
+          "description": "",
+          "snippet": "# Mojo is now open source (modular.com)\n## andsoitis\nLove this intentionality: *” Our open source approach has been deliberate: we’ve found that small and tight-knit design teams (not committees) are the best for finding the “soul” of a language, but that feedback from a broader community is essential to escape an echo chamber. As such, we first open-sourced the Mojo standard library, then released hundreds of thousands of lines of kernel code written in Mojo, tools, and support. We built together with community feedback and public design proposals, and are now open sourcing the compiler",
+          "page_age": "2026-08-21T00:00:00"
+        },
+        {
+          "title": "Mojo Compiler Is Now Open Source — Qualcomm Delivers",
+          "url": "https://byteiota.com/mojo-compiler-open-source-modcon-2026/",
+          "description": "From Bits to Bytes",
+          "snippet": "# Mojo Compiler Is Now Open Source — Qualcomm Delivers\n23 hours ago 129 views 0\n\nShare\n\nMojo programming language compiler open source release at ModCon 2026 with Apache 2.0 license\n\nByteBot By ByteBot\n\nShare",
+          "page_age": "2026-08-19T11:10:56"
+        }
+      ]
+    },
+    {
+      "id": "b4b8b8bf30ab",
+      "title": "Italian pupils are now earning school credits for Free Software projects",
+      "summary": "Italian pupils are now earning school credits for Free Software projects",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.73,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "speckx",
+          "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+          "text": "Italian pupils are now earning school credits for Free Software projects"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "YH4F: Italian pupils are now earning school credits for Free Software ...",
+          "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+          "description": "For all Italian students, we are coming with an exciting project for you! Italian pupils can gain credit points for their extra curriculum while developing...",
+          "snippet": "# YH4F: Italian pupils are now earning school credits for Free Software projects!\nFor all Italian students, we are coming with an exciting project for you! Italian pupils can gain credit points for their extra curriculum while developing Free Software projects and competing in Youth Hacking 4 Freedom. As the FSFE’s programming competition is, from now on, integrated in the Italian extra school credit points system.",
+          "page_age": "2026-09-14T00:00:00"
+        },
+        {
+          "title": "Linux in Italian Schools, Part 3: DidaTux",
+          "url": "https://www.linuxjournal.com/article/8508",
+          "description": "",
+          "snippet": "# Linux in Italian Schools, Part 3: DidaTux\n## Linux Journal\nIn the first two parts of this series, I discussed how Linux is being used in technical high schools in Abruzzo and Sicily. Here in Part 3, I present a story that in several aspects is different from the previous stories. Enter Anna F. Leopardi, an elementary school teacher at the Direzione Didattica Statale Terzo Circolo of Pescara, which is the administrative center of the smallest province of the Abruzzi region",
+          "page_age": "2005-09-08T00:00:00"
+        },
+        {
+          "title": "Educational Groups and Projects - GNU Project - Free Software ...",
+          "url": "https://www.gnu.org/education/edu-projects.en.html",
+          "description": "",
+          "snippet": "## Groups and Projects\nThere are several groups and organizations around the world who follow the GNU philosophy and are working on projects aimed at bringing free software to the education field.",
+          "page_age": ""
+        },
+        {
+          "title": "Education - Case Studies in Italy - GNU Project - Free Software ...",
+          "url": "https://www.gnu.org/education/edu-cases-italy.en.html",
+          "description": "",
+          "snippet": "## Case Studies in Italy\nItaly consists of 20 administrative divisions called “regions,” fifteen of which have ordinary statutes, and five are autonomous under special statutes that grant them particular forms of autonomy.\n\nBelow are listed some of the educational institutions in Italy that are using free/libre software",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "8c25ea7c5fc2",
+      "title": "Show HN: Chickadee – Free, local, open-source text-to-speech for web pages",
+      "summary": "Show HN: Chickadee – Free, local, open-source text-to-speech for web pages",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Chickadee",
+      "url": "https://www.usechickadee.com",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.73,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "smahendrakar",
+          "url": "https://www.usechickadee.com",
+          "text": "I wanted to listen to articles without a robotic voice or another subscription, so I built Chickadee: a free, open-source Chrome extension that runs a voice model locally.<p>It runs Kokoro-82M, an 82-"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Black-capped chickadee",
+          "url": "https://en.wikipedia.org/wiki/Black-capped_chickadee",
+          "description": "",
+          "snippet": "# Black-capped chickadee\n**Black-capped chickadee**\n**Conservation status**\n\nLeast Concern Least Concern (IUCN 3.1)\n**Scientific classification Edit this classification**\n\n- Kingdom: · Animalia\n- Phylum: · Chordata\n- Class: · Aves\n- Order: · Passeriformes\n- Family: · Paridae\n- Genus: · Poecile\n- Species: · P. atricapillus",
+          "page_age": "2026-07-08T04:01:44"
+        },
+        {
+          "title": "Poecile",
+          "url": "https://en.wikipedia.org/wiki/Poecile",
+          "description": "",
+          "snippet": "# Poecile\n\"Chickadee\" redirects here.\n\n**Poecile**\n\nMarsh tit, Poecile palustris\n\nChestnut-backed chickadee, Poecile rufescens",
+          "page_age": "2026-08-16T13:15:33"
+        },
+        {
+          "title": "Black-capped Chickadee Overview, All About Birds, Cornell Lab of ...",
+          "url": "https://www.allaboutbirds.org/guide/Black-capped_Chickadee/overview",
+          "description": "A bird almost universally considered “cute” thanks to its oversized round head, tiny body, and curiosity about everything, including humans. The chickadee’s black cap and bib; white cheeks; gray back, wings, and tail; and whitish underside ...",
+          "snippet": "# Black-capped Chickadee\nChickadees Silhouette Chickadees\n\nBlack-capped Chickadee*Poecile atricapillus*\n\n- ORDER: Passeriformes\n- FAMILY: Paridae",
+          "page_age": ""
+        },
+        {
+          "title": "State Bird - Chickadee",
+          "url": "https://www.maine.gov/sos/kids/about/symbols/bird",
+          "description": "",
+          "snippet": "# State Bird - Chickadee\nChickadee image\n\nChickadee (Parus atricapillus): Adopted by the Legislature of 1927. The Black-capped Chickadee is a common sight in the woods and at backyard bird feeders throughout the state. The brownish-black bill is short, straight and rounded. The Chickadee's glossy head is large with a short neck and dark brown eyes. Its body is thick. The feathers are blended and short. The tail is long, arched, and rounded, with twelve slender feathers. Feet and claws are greyish-blue",
+          "page_age": ""
+        }
+      ]
+    }
+  ]
+}

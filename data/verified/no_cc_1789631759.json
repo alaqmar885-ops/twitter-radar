@@ -1,0 +1,836 @@
+{
+  "generated": 1789631759,
+  "no_card": 38,
+  "card_required": 0,
+  "findings": [
+    {
+      "verdict": "NO_CARD",
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "start free",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "start free",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "type": "free_credits",
+      "value": "$4.3",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "type": "free_credits",
+      "value": "$4.3",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "free AI image generators and editors",
+      "url": "https://felloai.com/free-ai-photo-generator-editor/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Free Hosting",
+      "url": "https://toolfreebie.com/category/free-hosting/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Tool Freebie",
+      "url": "https://toolfreebie.com/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Free AI coding agents",
+      "url": "https://itsfree.ai/free-ai-coding-agents/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "trial"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Free APIs with no sign-up",
+      "url": "https://itsfree.ai/free-ai-apis-without-signup/",
+      "score": 0.675,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Google AI Studio free tier",
+      "url": "https://itsfree.ai/provider/google-ai-studio/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "OpenRouter free tier",
+      "url": "https://itsfree.ai/provider/openrouter/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Ollama Cloud free tier",
+      "url": "https://itsfree.ai/provider/ollama-cloud/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Cloudflare Workers AI free tier",
+      "url": "https://itsfree.ai/provider/cloudflare-workers-ai/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "ModelScope free tier",
+      "url": "https://itsfree.ai/provider/cloud-modelscope/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "NVIDIA NIM free tier",
+      "url": "https://itsfree.ai/provider/nvidia-nim/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Hugging Face free tier",
+      "url": "https://itsfree.ai/provider/huggingface/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "DeepSeek V4 Flash for free",
+      "url": "https://itsfree.ai/model/deepseek-v4-flash/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "GLM 5.2 for free",
+      "url": "https://itsfree.ai/model/glm-5/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Nemotron 3 Ultra for free",
+      "url": "https://itsfree.ai/model/nemotron/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "DeepSeek V4 for free",
+      "url": "https://itsfree.ai/model/deepseek-v4/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "GPT-OSS 120B for free",
+      "url": "https://itsfree.ai/model/gpt-oss-120b/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Llama 3.3 70B for free",
+      "url": "https://itsfree.ai/model/llama-3-3-70b/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free",
+        "trial"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Qwen 3 for free",
+      "url": "https://itsfree.ai/model/qwen3/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "free"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "it's free * .ai",
+      "url": "https://itsfree.ai/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "DeepSeek 5M Free Tokens: Make Them Last 30 Days, Not 4",
+      "url": "https://tokenmix.ai/blog/deepseek-5m-tokens-make-it-last-30-days",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Free API Keys",
+      "url": "https://www.free-model.com/free-llm-api-keys/",
+      "score": 0.675,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "free AI image generators and editors",
+      "url": "https://felloai.com/free-ai-photo-generator-editor/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "ResumeSkip – automatically tailor your resume to jobs",
+      "url": "https://resumeskip.com/",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "ResumeSkip – automatically tailor your resume to jobs",
+      "url": "https://resumeskip.com/",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Papermill Press – An AI-friendly markup language for PDF generation",
+      "url": "https://news.ycombinator.com/item?id=48477708",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "CredScore – Deterministic wallet risk scoring, no model in the path",
+      "url": "https://www.credscore.us/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Wyro – Draw a backend on a canvas, export TypeScript with no lock-in",
+      "url": "https://news.ycombinator.com/item?id=49134292",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Saor.io – Persistent memory for AI agents, free, connects via MCP",
+      "url": "https://saor.io",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Wyro – Draw a backend on a canvas, export TypeScript with no lock-in",
+      "url": "https://news.ycombinator.com/item?id=49134292",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Saor.io – Persistent memory for AI agents, free, connects via MCP",
+      "url": "https://saor.io",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "Mail Memories – A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$29",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "CleanMyMedia – organize decades of photos, with local face recognition",
+      "url": "https://cleanmymedia.com",
+      "score": 0.58,
+      "type": "discount",
+      "value": "$29",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    },
+    {
+      "verdict": "NO_CARD",
+      "title": "CleanMyMedia – organize decades of photos, with local face recognition",
+      "url": "https://cleanmymedia.com",
+      "score": 0.58,
+      "type": "discount",
+      "value": "$29",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "no_cc_signals": null,
+      "card_signals": null,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ]
+    }
+  ]
+}

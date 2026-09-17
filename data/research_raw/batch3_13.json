@@ -1,0 +1,61 @@
+{
+  "query": "Together AI DeepInfra free tier without credit card",
+  "results": [
+    {
+      "title": "Together AI: Full Review and Comparison - AIonX",
+      "url": "https://aionx.co/ai-comparisons/together-ai-review/",
+      "description": "Together AI review 2025: Features, pricing, pros/cons. Access 200+ AI models at 11x lower cost than GPT-4. Compare to OpenAI, Claude & affordable alternatives.",
+      "snippet": "# Together AI: Full Review and Comparison\n- Together AI offers free credits at signup plus up to $50,000 via Startup Accelerator (no credit card required)\n- Access to 200+ open-source models including Llama 4 Maverick, DeepSeek V3.1, and Qwen 2.5\n- FlashAttention-3 delivers 1.5-2× speedup on H100 GPUs with up to 840 TFLOPs/s",
+      "page_age": "2026-09-03T14:37:16"
+    },
+    {
+      "title": "DeepInfra vs Together AI (2026 Comparison)",
+      "url": "https://app.softwarehope.com/compare/deepinfra-vs-together-ai",
+      "description": "Read verified user reviews, compare features, pricing, and pros/cons for DeepInfra vs Together AI in 2026. Find the best option for your business on...",
+      "snippet": "# DeepInfra vs Together AI\n## Together AI\n### Sentiment & Feedback\n#### Together AI Feedback\n- Competitive inference pricing starting at $0.10 per million tokens, with 50% discounts for batch inference and prompt caching.\n- No infrastructure management required; fully managed GPU inference for open-source models.\n- Purpose-built for generative media workloads including video, audio, and image models with performance acceleration.\n- Strong backing from NVIDIA and Salesforce Ventures, indicating long-term viability.\n- Flexible pay-as-you-go model with no monthly fees or long-term commitments",
+      "page_age": ""
+    },
+    {
+      "title": "Together AI Without Credit Card? Free AI Tool Guide — yangmao.ai",
+      "url": "https://yangmao.ai/en/providers/together/no-credit-card/",
+      "description": "Does Together AI require a credit card, offer signup credits, work internationally, and what free alternatives can you use instead?",
+      "snippet": "# Can you use Together AI without a credit card?\n## Quick verdict\n- Free tier: Credit-based ($5 signup bonus)\n- Free API trial: $5（注册赠送）\n- Access: relay or proxy may be needed\n- Best for: chat / coding / image / embedding",
+      "page_age": ""
+    },
+    {
+      "title": "Cheapest Together AI Models 2026 — API Pricing Compared",
+      "url": "https://pricepertoken.com/endpoints/together/free",
+      "description": "Together AI no longer offers free trial credits. Per its official docs, there are no free trials and using the platform requires a minimum $5 credit purchase upfront. Compare the cheapest Together AI models by API price per million tokens.",
+      "snippet": "Together AI no longer offers free trial credits. Per its official docs, there are no free trials and using the platform requires a minimum $5 credit purchase upfront.",
+      "page_age": ""
+    },
+    {
+      "title": "Cheapest DeepInfra Models 2026 — API Pricing Compared",
+      "url": "https://pricepertoken.com/endpoints/deepinfra/free",
+      "description": "DeepInfra is an ultra-low-cost pay-per-token inference provider rather than a free-tier service. Its official pricing page states you must add a card or pre-pay before using the API, and no permanently free models are advertised.",
+      "snippet": "DeepInfra is an ultra-low-cost pay-per-token inference provider rather than a free-tier service. Its official pricing page states you must add a card or pre-pay before using the API, and no permanently free models are advertised. A small one-time signup credit (~$1.80) was reported historically, but current docs do not confirm an active no-card free credit.",
+      "page_age": ""
+    },
+    {
+      "title": "A complete guide to Together AI pricing in 2026",
+      "url": "https://www.eesel.ai/blog/together-ai-pricing",
+      "description": "A full breakdown of Together AI pricing in 2026: serverless, dedicated, clusters, fine-tuning, plus how it compares to Fireworks, Groq and Replicate.",
+      "snippet": "# A complete guide to Together AI pricing in 2026\n## Fine-tuning pricing - and the hosting cost nobody warns you about\n- **No advertised free tier**. Every training run bills per token from the first token.\n- **LoRA is the default**, full fine-tuning is opt-in. The pricing-page deltas between LoRA and Full are small (about $0.30/M on the 70B tier), so the choice is usually about quality, not cost",
+      "page_age": "2026-06-05T00:00:00"
+    },
+    {
+      "title": "Together AI Free Tier 2026: Credits, Limits & Setup",
+      "url": "https://yangmao.ai/en/providers/together/free-tier/",
+      "description": "Together AI free tier guide: signup credits, open model API pricing, rate limits, setup notes, no-card checks, and alternatives.",
+      "snippet": "# Together AI Free Tier: Credits, Limits & Setup\n## Together AI free tier, credits, API limits, and setup\n**Short answer:** Together AI is useful for testing open models behind a managed API. Start with free credits, then compare per-token pricing and rate limits before production.\n\nFree credits**Signup credits when available**\n\nBest for**Managed open-model APIs**\n\nSetup**Developer API key**\n\nCompare**Fireworks / Groq / OpenRouter**",
+      "page_age": ""
+    },
+    {
+      "title": "Together AI Alternatives (2026): Pricing, Rate Limits, and 9 Compared ...",
+      "url": "https://www.morphllm.com/together-ai-alternative",
+      "description": "Together AI's serverless rates run above the field: DeepSeek V4 Pro is $2.10/$4.40 per M vs DeepInfra's $1.30/$2.60 and Fireworks' $1.74/$3.48.",
+      "snippet": "# Together AI Alternatives (2026): DeepInfra Runs DeepSeek V4 Pro at $1.30/$2.60 vs Together's $2.10/$4.40\n## Rate Limits and Batch Discounts\nRate limits and batch pricing\n\n| Provider | Rate limit | Batch discount |\n| --- | --- | --- |\n| Together AI | Dynamic per model, no fixed ceiling; dedicated endpoint for a known limit | Up to 50% off serverless, 24h window, 50k req/batch |\n| Fireworks | 6,000 RPM with card (10 RPM without) | 50% of serverless |\n| DeepInfra | 200 concurrent requests/account | Not published |\n| Groq | Per-model RPM/RPD/TPM/TPD on free; higher on Developer | 50% lower, 24h-7d window |\n| OpenRouter | 50 free model req/day (1,000 after $10 credit); :free variants 20 RPM | Pass-through provider rates |",
+      "page_age": "2026-06-09T00:00:00"
+    }
+  ]
+}

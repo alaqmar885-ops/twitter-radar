@@ -1,0 +1,61 @@
+{
+  "query": "GitHub Models free tier no credit card",
+  "results": [
+    {
+      "title": "GitHub Models Free API — Status, Models & Rate Limits",
+      "url": "https://free-llm-apis.pages.dev/providers/github-models/",
+      "description": "GitHub Models free API real-time status, response latency, rate limits (15 RPM / 150 RPD), and 32 models. Free model inference via GitHub PAT — access GPT-5, GPT-4.1, o3/o4, Llama 4, DeepSeek R1, Grok 3, Mistral and more.",
+      "snippet": "GitHub Models free API real-time status, response latency, rate limits (15 RPM / 150 RPD), and 32 models. Free model inference via GitHub PAT — access GPT-5, GPT-4.1, o3/o4, Llama 4, DeepSeek R1, Grok 3, Mistral and more. Low tier: 15 RPM / 150 RPD; High tier: 10 RPM / 50 RPD; reasoning models on per-model custom quota. No credit card required.",
+      "page_age": ""
+    },
+    {
+      "title": "awesome-free-llm-apis/README.md at main · mnfst/awesome-free-llm-apis",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis/blob/main/README.md",
+      "description": "List of Permanent Free LLM API (API Keys). Contribute to mnfst/awesome-free-llm-apis development by creating an account on GitHub.",
+      "snippet": "# Awesome Free LLM APIs\n## Provider APIs\n### Aion Labs 🇮🇱\nPermanent free tier, no credit card required. 15 RPM, 20K tokens/day. Specialized for roleplay and storytelling.\n\nBase URL: https://api.aionlabs.ai/v1",
+      "page_age": "2026-08-21T00:00:00"
+    },
+    {
+      "title": "GitHub - velo4705/awesome-free-byok-models: A curated list of AI ...",
+      "url": "https://github.com/velo4705/awesome-free-byok-models",
+      "description": "A curated list of AI Models with their API Providers that you never ever require a Credit Card for. - velo4705/awesome-free-byok-models",
+      "snippet": "# Awesome Free BYOK Models\n## Provider Showcases\n### AnyAPI AI\n| Capability | Tool Calls | Schema | Error Handling | Rate Limit Safe |\n| --- | --- | --- | --- | --- |\n| Status | ✅ | ✅ | ✅ | ✅ |\n\n🎁 **Free Tier Quota:** 100,000 tokens/day / No Credit Card\n\n🔗 **Base URL:** https://api.anyapi.ai/v1\n\n✅ **Verified:** September 08, 2026",
+      "page_age": ""
+    },
+    {
+      "title": "Add Requesty free models · Issue #400 · luongnv89/freetokens",
+      "url": "https://github.com/luongnv89/freetokens/issues/400",
+      "description": "Provider: Requesty What is free: Listed models at $0 (Nemotron, Laguna, Gemma, Leanstral, and others) through the OpenAI-compatible gateway. New orgs: 200 requests/day + 20 RPM. Paying orgs: 1,000/day + 60 RPM. No credit card. Amount: Fr...",
+      "snippet": "# Add Requesty free models #400\n## Description\nProvider: Requesty What is free: Listed models at $0 (Nemotron, Laguna, Gemma, Leanstral, and others) through the OpenAI-compatible gateway. New orgs: 200 requests/day + 20 RPM. Paying orgs: 1,000/day + 60 RPM. No credit card",
+      "page_age": "2026-09-14T07:36:37"
+    },
+    {
+      "title": "GitHub Models Without Credit Card? Free AI Tool Guide — yangmao.ai",
+      "url": "https://yangmao.ai/en/providers/github-models/no-credit-card/",
+      "description": "Does GitHub Models require a credit card, offer signup credits, work internationally, and what free alternatives can you use instead?",
+      "snippet": "# Can you use GitHub Models without a credit card?\n## Quick verdict\n- Free tier: Free playground and limited API requests are available for signed-in GitHub users; model-specific quota and rate limits can change\n- Free API trial: Free GitHub Models quota for signed-in GitHub accounts; paid Azure AI / provider routes may be required for production\n- Access: relay or proxy may be needed\n- Best for: llm / api / coding / router / openai-compatible",
+      "page_age": ""
+    },
+    {
+      "title": "Free GitHub Models API Key (2026) — Rate Limits & Config — ...",
+      "url": "https://www.free-model.com/providers/github-models/",
+      "description": "Get a free GitHub Models API key. Browse 13 free models with rate limits and one-click config for Claude Code & Cursor. No credit card.",
+      "snippet": "Get a free GitHub Models API key. Browse 13 free models with rate limits and one-click config for Claude Code & Cursor. No credit card",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - nejib1/Free-LLM: Directory of 34+ free LLM & AI APIs — ...",
+      "url": "https://github.com/nejib1/Free-LLM",
+      "description": "Directory of 34+ free LLM & AI APIs — permanent free tiers, trial credits, and no-card options. GPT-4o, Gemini, Claude, Llama, DeepSeek, Mistral & more. Synced daily from the live directory at free-llm.com. - nejib1/Free-LLM",
+      "snippet": "# Free-LLM — Open Directory of Free AI & LLM APIs\n## Quick Start — Use Any Free API in 30 Seconds\n### Python (OpenAI SDK)\n```\nfrom openai import OpenAI\n\nclient = OpenAI(\n    base_url=\"https://api.groq.com/openai/v1\",  # free, no credit card\n    api_key=\"GROQ_API_KEY\",                      # get at console.groq.com/keys\n)\n\nresponse = client.chat.completions.create(\n    model=\"llama-3.3-70b-versatile\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello!\"}],\n)\nprint(response.choices[0].message.content)\n# Groq free tier: 30 RPM, 14,400 requests/day — generous for personal use\n```",
+      "page_age": "2026-09-11T09:41:47"
+    },
+    {
+      "title": "Free GitHub Models API Key: Base URL, Rate Limits & 13 Models — ...",
+      "url": "https://freellm.net/providers/github-models",
+      "description": "How to get a free GitHub Models API key, use https://models.github.ai/inference, check 10 RPM, 50 RPD, and compare 13 free or trial models.",
+      "snippet": "# Free GitHub Models API Key, Base URL & Rate Limits\n## Provider Snapshot\nU Base URL **https://models.github.ai/inference**\n\nF Free Tier **13 free models online**",
+      "page_age": ""
+    }
+  ]
+}

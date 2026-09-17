@@ -1,0 +1,61 @@
+{
+  "query": "Google AI Studio Gemini API free tier no credit card",
+  "results": [
+    {
+      "title": "Google Just Dropped This Huge Free AI Tier — So Big Most Developers ...",
+      "url": "https://ai-engineering-trend.medium.com/google-just-dropped-this-huge-free-ai-tier-so-big-most-developers-think-its-a-scam-9bed44707aeb",
+      "description": "Google Just Dropped This Huge Free AI Tier — So Big Most Developers Think It’s A Scam By winkrun, June 30, 2026 Developers are buzzing after Google just quietly updated the free tier rules for …",
+      "snippet": "# Google Just Dropped This Huge Free AI Tier — So Big Most Developers Think It’s A Scam\nDevelopers are buzzing after Google just quietly updated the free tier rules for Gemini API on Google AI Studio — and the new limits are staggering: **1 million tokens per minute**, with absolutely no extra application hoops to jump through, no credit card required to sign up, and no hidden monthly fees.\n\nImage",
+      "page_age": "2026-06-30T00:58:09"
+    },
+    {
+      "title": "How to Get Free AI API Access with Google Gemini and Where It ...",
+      "url": "https://kathanpatel.vercel.app/blog/free-gemini-api-access-google-ai-studio-developer-guide",
+      "description": "Most developers assume AI API access costs money from day one. It doesn't have to. Google's Gemini API offers a free tier through Google AI Studio with real model access, meaningful rate limits, and zero billing setup.",
+      "snippet": "# How to Get Free AI API Access with Google Gemini and Where It Actually Makes Sense to Use It\nGoogle's approach is different. The Gemini API, accessed through Google AI Studio, offers a free tier that does not require a credit card, does not expire, and gives you access to real production-grade models — including the current-generation **Gemini 3.5 Flash**, the high-volume **Gemini 3.1 Flash-Lite**, and the still-available Gemini 2.5 family",
+      "page_age": "2026-05-11T09:10:28"
+    },
+    {
+      "title": "Free Gemini API & Google AI Studio: Cheapest Way to Use Gemini ...",
+      "url": "https://wetheflywheel.com/en/ai-model-access/free-gemini-api/",
+      "description": "Google AI Studio is the most generous free door to a frontier model anywhere — but free-tier prompts train Google. Here is every route to Gemini, what each costs, and where the no-cost path stops.",
+      "snippet": "# Free Gemini API & Google AI Studio: Cheapest Way to Use Gemini 3 (2026)\nRoutes to Gemini: Google AI Studio free, API free tier, pay-as-you-go, and the Gemini app\n\nWe The Flywheel\n\nWe The Flywheel Research & Analysis\n\nPublished May 27, 2026\n\n$0 to use Gemini in Google AI Studio\n\nYes free-tier prompts can train Google",
+      "page_age": "2026-05-27T00:00:00"
+    },
+    {
+      "title": "Gemini API Free Tier 2026: 1,500 Req/Day, 1M TPM — No Card - ...",
+      "url": "https://tokenmix.ai/blog/gemini-api-free-tier-limits",
+      "description": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "snippet": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "page_age": "2026-04-29T06:46:25"
+    },
+    {
+      "title": "Google AI (Gemini) Without Credit Card? Free AI Tool Guide — ...",
+      "url": "https://yangmao.ai/en/providers/google/no-credit-card/",
+      "description": "Does Google AI (Gemini) require a credit card, offer signup credits, work internationally, and what free alternatives can you use instead?",
+      "snippet": "# Can you use Google AI (Gemini) without a credit card?\n## Free API credits\n**Yes**\n\n免费 API 无需信用卡 · 15 RPM (Flash)\n\nGoogle AI Studio offers completely free API access, no credit card required, rate limited",
+      "page_age": ""
+    },
+    {
+      "title": "Is Google Gemini Free? What You Get Without Paying",
+      "url": "https://techjacksolutions.com/ai-tools/google-gemini/is-google-gemini-free/",
+      "description": "Wondering is Google Gemini free? Learn what features, daily limits, and API quotas you get at no cost in this authoritative 2026 guide.",
+      "snippet": "# Is Google Gemini Free? What You Get Without Paying\n## Is Google Gemini Free?\nYes, Google Gemini is free to use with any standard Google account. The free plan gives you access to Gemini's chatbot interface for text conversations, basic image generation, document reading, and limited access to advanced reasoning features. No credit card required, no trial period. You sign in with your Google account and start chatting",
+      "page_age": "2026-08-18T21:09:36"
+    },
+    {
+      "title": "Google Gemini API / AI Studio Free Tier No-Card Tokens plus First ...",
+      "url": "https://yangmao.ai/en/deals/google-gemini-api-free-tier-no-card/",
+      "description": "Google Gemini API / AI Studio Free Tier No-Card Tokens plus First Two Cloud App Deployments guide: Google's official Gemini Developer API pricing page states that developers can start free of charge with a Free Tier that includes free input/output ...",
+      "snippet": "Google Gemini API / AI Studio Free Tier No-Card Tokens plus First Two Cloud App Deployments guide: Google's official Gemini Developer API pricing page states that developers can start free of charge with a Free Tier that includes free input/output tokens for eligible models and AI Studio access. Billing docs state new accounts begin on the Free Tier; billing setup is for upgrading to Paid Tier",
+      "page_age": ""
+    },
+    {
+      "title": "Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path ...",
+      "url": "https://www.aifreeapi.com/en/posts/gemini-api-free-tier-complete-guide",
+      "description": "Master Gemini API free tier in 2026: complete rate limits for all models (5-15 RPM), tier upgrade framework, real cost breakdowns, and 7 strategies to maximize your free quota after December 2025 cuts.",
+      "snippet": "# Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path & Cost-Saving Strategies (2026)\n## TL;DR\nAll three models share a 250,000 tokens-per-minute limit and full access to the 1-million-token context window. Two additional preview models, Gemini 3 Flash and Gemini 3.1 Flash-Lite, are also available for free with more restrictive limits. No credit card is required to get started, but be aware that your prompts and responses on the free tier may be used to improve Google's products",
+      "page_age": "2026-03-17T00:00:00"
+    }
+  ]
+}
