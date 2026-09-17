@@ -1,0 +1,209 @@
+{
+  "generated": 1789635939,
+  "routes": [
+    {
+      "what": "Jio x Google AI Pro (free 18 months)",
+      "why": "Reliance Jio offers 18 months of Google AI Pro free to Jio users",
+      "url": "https://www.jio.com/google-gemini-offer/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "₹",
+        "jio",
+        "vi "
+      ],
+      "upi_signals": [
+        "autopay"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Airtel x Perplexity Pro",
+      "why": "Airtel bundles Perplexity Pro free for its users (worth ~Rs 17,000)",
+      "url": "https://www.airtel.in/",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "india_signals": [
+        "airtel"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "NPCI Unified Agent Protocol",
+      "why": "UPI is being extended so AI agents can make UPI payments",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Jio AI bundles",
+      "why": "Indian telco bundles that include premium AI",
+      "url": "https://www.jio.com/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "₹",
+        "jio",
+        "vi ",
+        "upi"
+      ],
+      "upi_signals": [
+        "upi"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Airtel AI bundles",
+      "why": "Airtel frequently bundles Perplexity/other AI",
+      "url": "https://www.airtel.in/",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "india_signals": [
+        "airtel"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Google AI Pro / One plans",
+      "why": "Google One AI plans have India pricing and Play billing",
+      "url": "https://one.google.com/about/plans",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Perplexity Pro",
+      "why": "Perplexity has run India-specific free/bundled Pro offers",
+      "url": "https://www.perplexity.ai/pro",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Gemini app",
+      "why": "Gemini free tier available in India",
+      "url": "https://gemini.google.com/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "inr",
+        "₹",
+        "upi",
+        "gpay",
+        "gst"
+      ],
+      "upi_signals": [
+        "upi",
+        "gpay"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Razorpay UPI gateway",
+      "why": "Proof UPI is available as a payment rail for Indian merchants",
+      "url": "https://razorpay.com/payment-gateway/upi/",
+      "status": "UNREACHABLE",
+      "page_status": 404,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "NPCI UPI overview",
+      "why": "Official UPI specification/description",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Google Play payment methods",
+      "why": "Play billing supports UPI in India (in-app subscriptions)",
+      "url": "https://support.google.com/googleplay/answer/2651410",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "gst"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "ChatGPT pricing",
+      "why": "OpenAI billing is card-based in most regions",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Claude pricing",
+      "why": "Anthropic billing is card-based; check Indian card support",
+      "url": "https://www.anthropic.com/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [
+        "no payment required"
+      ],
+      "web_hits": 4
+    },
+    {
+      "what": "Free model provider directory",
+      "why": "Free LLM APIs usable from India without a card",
+      "url": "https://www.free-model.com/providers/",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [
+        "no credit card",
+        "without a credit card",
+        "no card"
+      ],
+      "web_hits": 4
+    },
+    {
+      "what": "Ollama (self-host)",
+      "why": "No payment rail needed at all",
+      "url": "https://ollama.com/",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    }
+  ],
+  "upi_findings": [],
+  "india_findings": []
+}

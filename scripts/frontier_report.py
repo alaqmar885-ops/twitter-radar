@@ -69,7 +69,7 @@ def main() -> int:
     _load_secrets(r"D:\scrapper\secrets.env")
     import os
     from twitter_radar.enrich.youcom import YouComEnricher
-    key = os.environ.get("YDC_API_KEY", "")
+    key = os.environ["YDC_API_KEY"] if "YDC_API_KEY" in os.environ else ""
     enr = YouComEnricher(api_key=key, max_results=4) if key else None
 
     cfg = load_ai_config(r"D:\scrapper\config.yaml")

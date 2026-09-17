@@ -1,0 +1,931 @@
+{
+  "generated": 1789636113,
+  "routes": [
+    {
+      "what": "Jio x Google AI Pro (free 18 months)",
+      "why": "Reliance Jio offers 18 months of Google AI Pro free to Jio users",
+      "url": "https://www.jio.com/google-gemini-offer/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "₹",
+        "jio",
+        "vi "
+      ],
+      "upi_signals": [
+        "autopay"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Airtel x Perplexity Pro",
+      "why": "Airtel bundles Perplexity Pro free for its users (worth ~Rs 17,000)",
+      "url": "https://www.airtel.in/",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "india_signals": [
+        "airtel"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Jio free Google AI Pro - explainer",
+      "why": "Reporting on the 18-month free Google AI Pro offer for Jio users",
+      "url": "https://www.timesofai.com/news/free-google-ai-pro-plan-jio/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "inr",
+        "jio"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Jio Gemini offer - coverage",
+      "why": "Second source on the Jio/Google AI Pro offer",
+      "url": "https://technosports.co.in/jio-offers-google-ai-pro-free-for-18-months/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "₹",
+        "jio",
+        "airtel"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "AI tools that work in India",
+      "why": "India-tested AI tool roundup with local pricing",
+      "url": "https://aiinsider.in/blog/15-ai-tools-that-work-in-india-2026/",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "india_signals": [
+        "india"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "NPCI Unified Agent Protocol",
+      "why": "UPI is being extended so AI agents can make UPI payments",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Jio AI bundles",
+      "why": "Indian telco bundles that include premium AI",
+      "url": "https://www.jio.com/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "₹",
+        "jio",
+        "vi ",
+        "upi"
+      ],
+      "upi_signals": [
+        "upi"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Airtel AI bundles",
+      "why": "Airtel frequently bundles Perplexity/other AI",
+      "url": "https://www.airtel.in/",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "india_signals": [
+        "airtel"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Google AI Pro / One plans",
+      "why": "Google One AI plans have India pricing and Play billing",
+      "url": "https://one.google.com/about/plans",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Perplexity Pro",
+      "why": "Perplexity has run India-specific free/bundled Pro offers",
+      "url": "https://www.perplexity.ai/pro",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Gemini app",
+      "why": "Gemini free tier available in India",
+      "url": "https://gemini.google.com/",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "inr",
+        "₹",
+        "bsnl",
+        "upi",
+        "gpay",
+        "gst"
+      ],
+      "upi_signals": [
+        "upi",
+        "gpay"
+      ],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "Razorpay UPI gateway",
+      "why": "Proof UPI is available as a payment rail for Indian merchants",
+      "url": "https://razorpay.com/payment-gateway/upi/",
+      "status": "UNREACHABLE",
+      "page_status": 404,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "NPCI UPI overview",
+      "why": "Official UPI specification/description",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Google Play payment methods",
+      "why": "Play billing supports UPI in India (in-app subscriptions)",
+      "url": "https://support.google.com/googleplay/answer/2651410",
+      "status": "WEAK",
+      "page_status": 200,
+      "india_signals": [
+        "india",
+        "gst"
+      ],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    },
+    {
+      "what": "ChatGPT pricing",
+      "why": "OpenAI billing is card-based in most regions",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 0
+    },
+    {
+      "what": "Claude pricing",
+      "why": "Anthropic billing is card-based; check Indian card support",
+      "url": "https://www.anthropic.com/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [
+        "no payment required"
+      ],
+      "web_hits": 4
+    },
+    {
+      "what": "Free model provider directory",
+      "why": "Free LLM APIs usable from India without a card",
+      "url": "https://www.free-model.com/providers/",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [
+        "no credit card",
+        "without a credit card",
+        "no card"
+      ],
+      "web_hits": 4
+    },
+    {
+      "what": "Ollama (self-host)",
+      "why": "No payment rail needed at all",
+      "url": "https://ollama.com/",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "india_signals": [],
+      "upi_signals": [],
+      "no_cc_signals": [],
+      "web_hits": 4
+    }
+  ],
+  "upi_findings": [
+    {
+      "title": "Italian pupils are now earning school credits for Free Software projects",
+      "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+      "score": 0.73,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Italian pupils are now earning school credits for Free Software projects",
+      "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+      "score": 0.73,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "RE: https:// hachyderm.io/@picchio74/117285 039600725525 debate today # bfoss26 # erfurt free entry free catering 3 panels the mom",
+      "url": "https://mastodon.social/@pflegende/117285141557295070",
+      "score": 0.725,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "RE: https:// mastodon.social/@geoObserver/1 17285025163149516 today - have a drink for # linux on stage ! # bfoss26 # erfurt free",
+      "url": "https://mastodon.social/@pflegende/117285151139233493",
+      "score": 0.725,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "RE: https:// social.heise.de/@iX_Magazin/11 7284992745660344 today say @ Karlitschek hello on stage! # bfoss26 # erfurt free entry",
+      "url": "https://mastodon.social/@pflegende/117285160484581671",
+      "score": 0.725,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Shrinker Pro 1.3.0 is out: the native Apple Silicon image compressor for macOS. It resizes now: set a max size and nothing comes o",
+      "url": "https://mastodon.social/@ShrinkerPro/117285067222836868",
+      "score": 0.725,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Windows or Linux for your dedicated server? Linux distributions are open-source and free, making them perfect for # WordPress , #",
+      "url": "https://mastodon.social/@eServers/117284989005054059",
+      "score": 0.725,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "RE: https:// social.harald-schirmer.de/@har aldschirmer/117284867039667237 Grüße gehen raus an @ haraldschirmer von hier aus Erfur",
+      "url": "https://mastodon.social/@pflegende/117285184827796073",
+      "score": 0.71,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "CleverCrow, Get paid to work your backlog",
+      "url": "https://clevercrow.io",
+      "score": 0.7,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "CleverCrow, Get paid to work your backlog",
+      "url": "https://clevercrow.io",
+      "score": 0.7,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Recently we had the Blue Dragon unofficial open source native PC release, and we also have one for another Xbox classic with Lost",
+      "url": "https://mastodon.world/@gamingonlinux/117285216851168412",
+      "score": 0.695,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Le dichiarazioni di Amodei sui \"rischi esistenziali\" dell'IA meritano un'analisi lucida. I rischi su infrastrutture critiche vanno",
+      "url": "https://hachyderm.io/@picchio74/117285039600725525",
+      "score": 0.695,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "imgcmd: strumento open source per generare immagini # PNG in locale in modo sicuro # OpenSource # CLI # Developers # Tech # DevToo",
+      "url": "https://mastodon.uno/@WebAppsMagazine/117285012457417961",
+      "score": 0.695,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "vi ",
+        "upi"
+      ]
+    },
+    {
+      "title": "claiming Google AI Pro free for students",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "score": 0.675,
+      "upi": [
+        "google pay"
+      ],
+      "india": [
+        "google pay"
+      ]
+    },
+    {
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "score": 0.675,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "claiming Google AI Pro free for students",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "score": 0.675,
+      "upi": [
+        "google pay"
+      ],
+      "india": [
+        "google pay"
+      ]
+    },
+    {
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "score": 0.675,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "claiming Google AI Pro free for students",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "score": 0.675,
+      "upi": [
+        "google pay"
+      ],
+      "india": [
+        "google pay"
+      ]
+    },
+    {
+      "title": "Zenly – Investment research platform built around a quality/value score",
+      "url": "https://zenlyfinancial.com/",
+      "score": 0.647,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "atrium – a resumable, tiling workspace manager for Claude Code, Codex",
+      "url": "https://getatrium.dev",
+      "score": 0.647,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Zenly – Investment research platform built around a quality/value score",
+      "url": "https://zenlyfinancial.com/",
+      "score": 0.647,
+      "upi": [
+        "upi"
+      ],
+      "india": [
+        "upi"
+      ]
+    },
+    {
+      "title": "Sleezr – Manage your hosts file without opening a terminal",
+      "url": "https://www.sleezr.com/en",
+      "score": 0.632,
+      "upi": [
+        "google pay"
+      ],
+      "india": [
+        "google pay"
+      ]
+    },
+    {
+      "title": "Sleezr – Manage your hosts file without opening a terminal",
+      "url": "https://www.sleezr.com/en",
+      "score": 0.632,
+      "upi": [
+        "google pay"
+      ],
+      "india": [
+        "google pay"
+      ]
+    },
+    {
+      "title": "Cadenya – An Agent Runtime",
+      "url": "https://www.cadenya.com/",
+      "score": 0.61,
+      "upi": [
+        "gpay"
+      ],
+      "india": [
+        "gpay"
+      ]
+    },
+    {
+      "title": "Cadenya – An Agent Runtime",
+      "url": "https://www.cadenya.com/",
+      "score": 0.61,
+      "upi": [
+        "gpay"
+      ],
+      "india": [
+        "gpay"
+      ]
+    },
+    {
+      "title": "Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "score": 0.578,
+      "upi": [
+        "gpay"
+      ],
+      "india": [
+        "gpay",
+        "gst"
+      ]
+    },
+    {
+      "title": "ClassKeep – Booking, credits, and smart waitlists for boutique studios",
+      "url": "https://www.classkeep.app",
+      "score": 0.557,
+      "upi": [
+        "gpay"
+      ],
+      "india": [
+        "inr",
+        "gpay",
+        "gst"
+      ]
+    },
+    {
+      "title": "ClassKeep – Booking, credits, and smart waitlists for boutique studios",
+      "url": "https://www.classkeep.app",
+      "score": 0.557,
+      "upi": [
+        "gpay"
+      ],
+      "india": [
+        "inr",
+        "gpay",
+        "gst"
+      ]
+    }
+  ],
+  "india_findings": [
+    {
+      "title": "Try it free →",
+      "url": "https://costgoat.com/",
+      "score": 0.75,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Try it free →",
+      "url": "https://costgoat.com/",
+      "score": 0.75,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Compute:Arena – Community submitted local AI benchmarks",
+      "url": "https://computearena.ai",
+      "score": 0.745,
+      "india": [
+        "india"
+      ]
+    },
+    {
+      "title": "Compute:Arena – Community submitted local AI benchmarks",
+      "url": "https://computearena.ai",
+      "score": 0.745,
+      "india": [
+        "india"
+      ]
+    },
+    {
+      "title": "Chauffeur – One Click restore of your aplication Context",
+      "url": "https://www.emaginasion.com/",
+      "score": 0.722,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Chauffeur – One Click restore of your aplication Context",
+      "url": "https://www.emaginasion.com/",
+      "score": 0.722,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "SeasonMap – when to travel where? visualized with climate data",
+      "url": "https://seasonmap.app",
+      "score": 0.705,
+      "india": [
+        "india",
+        "indian",
+        "gst"
+      ]
+    },
+    {
+      "title": "SeasonMap – when to travel where? visualized with climate data",
+      "url": "https://seasonmap.app",
+      "score": 0.705,
+      "india": [
+        "india",
+        "indian",
+        "gst"
+      ]
+    },
+    {
+      "title": "Rate.fm – Letterboxd for Music, on iPhone and the Web",
+      "url": "https://rate.fm",
+      "score": 0.7,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Ardent, a code-first agent for non-engineering work",
+      "url": "https://ardent.ai/",
+      "score": 0.69,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "Ardent, a code-first agent for non-engineering work",
+      "url": "https://ardent.ai/",
+      "score": 0.69,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "Ardent, a code-first agent for non-engineering work",
+      "url": "https://ardent.ai/",
+      "score": 0.69,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "AI music generators with free tiers",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "score": 0.675,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "AI music generators with free tiers",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "score": 0.675,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "how to get Perplexity Pro for free or cheap",
+      "url": "https://felloai.com/how-to-claim-perplexity-pro-for-free-or-cheap/",
+      "score": 0.675,
+      "india": [
+        "india",
+        "airtel"
+      ]
+    },
+    {
+      "title": "Google Colab Free GPU in the browser for fine-tuning and experiments. playground",
+      "url": "https://colab.research.google.com",
+      "score": 0.675,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "AI music generators with free tiers",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "score": 0.675,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "how to get Perplexity Pro for free or cheap",
+      "url": "https://felloai.com/how-to-claim-perplexity-pro-for-free-or-cheap/",
+      "score": 0.675,
+      "india": [
+        "india",
+        "airtel"
+      ]
+    },
+    {
+      "title": "I built an AI music generator with some harnesses",
+      "url": "https://onlymusic.ai",
+      "score": 0.67,
+      "india": [
+        "india",
+        "indian"
+      ]
+    },
+    {
+      "title": "I built an AI music generator with some harnesses",
+      "url": "https://onlymusic.ai",
+      "score": 0.67,
+      "india": [
+        "india",
+        "indian"
+      ]
+    },
+    {
+      "title": "Vantage – One prioritized health action per day from Apple Health",
+      "url": "https://www.vantagehealthapp.com/",
+      "score": 0.67,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "I built an AI music generator with some harnesses",
+      "url": "https://onlymusic.ai",
+      "score": 0.67,
+      "india": [
+        "india",
+        "indian"
+      ]
+    },
+    {
+      "title": "Vantage – One prioritized health action per day from Apple Health",
+      "url": "https://www.vantagehealthapp.com/",
+      "score": 0.67,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "QodFlow – a Kanban board AI agents can drive via MCP",
+      "url": "https://www.qodflow.com",
+      "score": 0.647,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech/",
+      "score": 0.647,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "QodFlow – a Kanban board AI agents can drive via MCP",
+      "url": "https://www.qodflow.com",
+      "score": 0.647,
+      "india": [
+        "gst"
+      ]
+    },
+    {
+      "title": "Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech/",
+      "score": 0.647,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech/",
+      "score": 0.647,
+      "india": [
+        "vi "
+      ]
+    },
+    {
+      "title": "Lifetime Deals",
+      "url": "https://www.stacksocial.com/collections/lifetime-subscriptions",
+      "score": 0.63,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "Lifetime Deals",
+      "url": "https://www.stacksocial.com/collections/lifetime-subscriptions",
+      "score": 0.63,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "Lifetime Deals",
+      "url": "https://www.stacksocial.com/collections/lifetime-subscriptions",
+      "score": 0.63,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "My LinkedIn AI Tool made $30k last month (Lifetime Deal)",
+      "url": "https://www.dottypost.com/",
+      "score": 0.603,
+      "india": [
+        "inr",
+        "jio",
+        "gst"
+      ]
+    },
+    {
+      "title": "I build an AI tools for Birthday Invitation",
+      "url": "https://birthdayinvitation.ai",
+      "score": 0.603,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "My LinkedIn AI Tool made $30k last month (Lifetime Deal)",
+      "url": "https://www.dottypost.com/",
+      "score": 0.603,
+      "india": [
+        "inr",
+        "jio",
+        "gst"
+      ]
+    },
+    {
+      "title": "I build an AI tools for Birthday Invitation",
+      "url": "https://birthdayinvitation.ai",
+      "score": 0.603,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "My LinkedIn AI Tool made $30k last month (Lifetime Deal)",
+      "url": "https://www.dottypost.com/",
+      "score": 0.603,
+      "india": [
+        "inr",
+        "jio",
+        "gst"
+      ]
+    },
+    {
+      "title": "I build an AI tools for Birthday Invitation",
+      "url": "https://birthdayinvitation.ai",
+      "score": 0.603,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) 90% Off! 34 Reviews $49.00 $495.00",
+      "url": "https://www.stacksocial.com/sales/imagiyo-ai-image-generator-standard-plan-lifetime-subscription",
+      "score": 0.585,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) 90% Off! 34 Reviews $49.00 $495.00",
+      "url": "https://www.stacksocial.com/sales/imagiyo-ai-image-generator-standard-plan-lifetime-subscription",
+      "score": 0.585,
+      "india": [
+        "inr"
+      ]
+    },
+    {
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "score": 0.48,
+      "india": [
+        "india",
+        "₹"
+      ]
+    },
+    {
+      "title": "Student Beans",
+      "url": "https://www.studentbeans.com/en-us/us/beansid-connect/hosted/stacksocial",
+      "score": 0.48,
+      "india": [
+        "india"
+      ]
+    },
+    {
+      "title": "Student Beans",
+      "url": "https://www.studentbeans.com/en-us/us/beansid-connect/hosted/stacksocial",
+      "score": 0.48,
+      "india": [
+        "india"
+      ]
+    },
+    {
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "score": 0.48,
+      "india": [
+        "india",
+        "₹"
+      ]
+    }
+  ]
+}

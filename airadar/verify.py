@@ -29,6 +29,19 @@ CARD_SIGNALS = [
     "add your card", "enter your card", "requires payment",
 ]
 
+# Evidence that a page is relevant/usable for an Indian customer.
+INDIA_SIGNALS = [
+    "india", "indian", "inr", "\u20b9", "rupee", "rupees", "jio", "airtel",
+    "vi ", "bsnl", "upi", "razorpay", "paytm", "phonepe", "google pay", "gpay",
+    "netbanking", "net banking", "bharat", "gst",
+]
+
+# Subset: payment rails an Indian customer can actually pay with.
+UPI_SIGNALS = [
+    "upi", "razorpay", "paytm", "phonepe", "google pay", "gpay",
+    "netbanking", "net banking", "autopay", "mandate",
+]
+
 _TAG = re.compile(r"<[^>]+>")
 
 
@@ -48,7 +61,8 @@ class FindingVerifier:
     def verify(self, offer) -> dict:
         url = (offer.url or "").strip()
         base = {"page_status": 0, "signals": [], "no_cc_signals": [],
-                "card_signals": [], "web_hits": 0, "page_title": "", "notes": []}
+                "card_signals": [], "india_signals": [], "upi_signals": [],
+                "web_hits": 0, "page_title": "", "notes": []}
         if not url:
             base["status"] = "NO_URL"
             base["notes"] = ["no url on finding"]
@@ -68,6 +82,8 @@ class FindingVerifier:
                 base["signals"] = [s for s in FREE_SIGNALS if s in body]
                 base["no_cc_signals"] = [s for s in NO_CC_SIGNALS if s in body]
                 base["card_signals"] = [s for s in CARD_SIGNALS if s in body]
+                base["india_signals"] = [s for s in INDIA_SIGNALS if s in body]
+                base["upi_signals"] = [s for s in UPI_SIGNALS if s in body]
                 m = re.search(r"<title[^>]*>(.*?)</title>", r.text or "", re.I | re.S)
                 if m:
                     base["page_title"] = re.sub(r"\s+", " ", m.group(1)).strip()[:140]

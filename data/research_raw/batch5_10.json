@@ -1,0 +1,61 @@
+{
+  "query": "OpenAI API credits India payment UPI supported",
+  "results": [
+    {
+      "title": "AICredits — India's LLM API Gateway",
+      "url": "https://aicredits.in/",
+      "description": "India's LLM API gateway. Access GPT-4o, Claude, Gemini & 300+ AI models with one API key. Pay in ₹ via UPI — no international card needed. 2-line integration.",
+      "snippet": "India's LLM API gateway. Access GPT-4o, Claude, Gemini & 300+ AI models with one API key. Pay in ₹ via UPI — no international card needed. 2-line integration.\n\nOne API key for GPT-4o, Claude, Gemini & 300+ AI models. Pay in ₹ via UPI — no international card needed. Drop-in replacement for OpenAI SDK.\n\nOpenAI-Compatible · UPI Billing · 300+ Models",
+      "page_age": ""
+    },
+    {
+      "title": "How to Buy OpenAI API Credits — Billing, Pricing, and Common ...",
+      "url": "https://www.how2shout.com/how-to/how-to-buy-openai-api-credits.html",
+      "description": "How to buy OpenAI API credits in 2026? Add a card, prepay $5 minimum, set auto-recharge. Includes GPT-5 pricing, trust tiers, and quota error fixes.",
+      "snippet": "# How to Buy OpenAI API Credits — Billing, Pricing, and Common Fixes\n**Here’s the reality:** OpenAI doesn’t sell “**credits**” the way you might buy **gift cards** or prepaid phone minutes. The **API runs on a usage-based billing system** where you either **prepay** for a **balance** that gets drawn down as you **make API calls**, or you get **billed monthly** for what you use. The platform dashboard at **platform.openai.com** is where all of this happens — from adding a payment method to monitoring spend to setting limits that prevent surprise invoices",
+      "page_age": "2026-02-28T09:24:05"
+    },
+    {
+      "title": "How to Pay for OpenAI API in India Without an International Credit ...",
+      "url": "https://aicredits.in/blog/how-to-pay-openai-api-india-without-credit-card",
+      "description": "Most Indian debit cards and Rupay cards get declined on OpenAI's billing page. Here are your actual options — including one that requires no international card at all.",
+      "snippet": "# How to Pay for OpenAI API in India Without an International Credit Card\n## Why Indian cards get declined on OpenAI\nOpenAI's billing system requires an international credit card or a card with international transaction capabilities. Most Indian debit cards — including Rupay cards — are not accepted. Even VISA/Mastercard debit cards from Indian banks often fail because OpenAI's payment processor flags them as high-risk.\n\nWhen cards do work, you face a 3–5% international transaction fee on every top-up, an unpredictable monthly bill in USD, and potential bank blocks on recurring international charges",
+      "page_age": "2026-03-22T00:00:00"
+    },
+    {
+      "title": "Buy OpenAI API with UPI in India (No Credit Card Required)",
+      "url": "https://www.airouter.in/blog/buy-openai-api-with-upi-india",
+      "description": "Buy OpenAI API credits using UPI in India. No international credit card required. Recharge in INR and access OpenAI, Claude, Gemini, and more with Airouter.",
+      "snippet": "Buy OpenAI API credits using UPI in India. No international credit card required. Recharge in INR and access OpenAI, Claude, Gemini, and more with Airouter.",
+      "page_age": "2026-07-02T19:40:51"
+    },
+    {
+      "title": "How to Use the Claude API in India: UPI Payment, INR Billing, No ...",
+      "url": "https://masterprompting.net/blog/use-claude-api-india-inr-upi",
+      "description": "Anthropic doesn't support Indian payment methods. Here's how to access Claude Sonnet, Haiku, and Opus in India with a UPI payment via AICredits.in.",
+      "snippet": "## The workaround: AICredits.in\nAICredits.in is an API gateway that routes calls to Anthropic (and OpenAI, Google, and others) and bills you in INR via Razorpay. You pay with UPI, net banking, or a domestic card — whatever you already use. You get a single OpenAI-compatible API key. You point your existing code at https://api.aicredits.in/v1 instead of Anthropic's endpoint and everything works",
+      "page_age": "2026-03-22T00:00:00"
+    },
+    {
+      "title": "OpenAI adds UPI for low-cost ChatGPT in India",
+      "url": "https://coingeek.com/openai-adds-upi-for-low-cost-chatgpt-in-india/",
+      "description": "OpenAI rolls out ChatGPT Go in India for just ₹399 per month, adding UPI payments and bigger limits to make AI more accessible for everyone.",
+      "snippet": "OpenAI rolls out ChatGPT Go in India for just ₹399 per month, adding UPI payments and bigger limits to make AI more accessible for everyone.\nBusiness",
+      "page_age": "2025-08-27T09:00:00"
+    },
+    {
+      "title": "Multi‑currency billing",
+      "url": "https://help.openai.com/en/articles/10421635-multicurrency-billing",
+      "description": "Learn about which currencies and payment methods you can use to pay for your ChatGPT subscription",
+      "snippet": "# Supported currencies\nCLP ($) – Chile · CNY (¥) – China · COP ($) – Colombia\nCRC (₡) – Costa Rica · CZK (Kč) – Czech Republic · DKK (kr) – Denmark\nEGP (E£) – Egypt · EUR (€) – EEA · FJD ($) – Fiji\nGBP (£) – United Kingdom · GEL (₾) – Georgia · HUF (Ft) – Hungary\nIDR (Rp) – Indonesia · ILS (₪) – Israel · INR (₹) – India",
+      "page_age": "2026-09-01T19:30:05"
+    },
+    {
+      "title": "UPI Comes to ChatGPT: What This Means for Payments",
+      "url": "https://medium.com/data-science-in-your-pocket/upi-comes-to-chatgpt-what-this-means-for-payments-7cb981bc30d1",
+      "description": "UPI Comes to ChatGPT: What This Means for Payments ChatGPT can now use UPI for payments India has quietly taken a major step in digital payments. The National Payments Corporation of India (NPCI) …",
+      "snippet": "# UPI Comes to ChatGPT: What This Means for Payments\n## ChatGPT can now use UPI for payments\nIndia has quietly taken a major step in digital payments. The National Payments Corporation of India (NPCI), Razorpay, and OpenAI have launched a pilot program to enable UPI payments directly inside ChatGPT",
+      "page_age": "2025-10-09T13:23:42"
+    }
+  ]
+}

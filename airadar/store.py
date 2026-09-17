@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS offers (
 CREATE TABLE IF NOT EXISTS verifications (
     offer_id TEXT PRIMARY KEY, status TEXT, page_status INTEGER,
     signals TEXT, no_cc_signals TEXT, card_signals TEXT,
+    india_signals TEXT, upi_signals TEXT,
     web_hits INTEGER, page_title TEXT, notes TEXT, checked_at REAL
 );
 CREATE INDEX IF NOT EXISTS idx_items_platform ON items(platform);
@@ -45,7 +46,7 @@ class Store:
             self._conn.execute("ALTER TABLE offers ADD COLUMN verdict TEXT DEFAULT ''")
         except Exception:
             pass
-        for col in ("no_cc_signals", "card_signals"):
+        for col in ("no_cc_signals", "card_signals", "india_signals", "upi_signals"):
             try:
                 self._conn.execute(f"ALTER TABLE verifications ADD COLUMN {col} TEXT")
             except Exception:
@@ -106,12 +107,15 @@ class Store:
     def save_verification(self, offer_id: str, v: dict) -> None:
         self._conn.execute(
             "INSERT OR REPLACE INTO verifications (offer_id, status, page_status, "
-            "signals, no_cc_signals, card_signals, web_hits, page_title, notes, checked_at) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?)",
+            "signals, no_cc_signals, card_signals, india_signals, upi_signals, "
+            "web_hits, page_title, notes, checked_at) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
             (offer_id, v.get("status", ""), int(v.get("page_status") or 0),
              json.dumps(v.get("signals") or []),
              json.dumps(v.get("no_cc_signals") or []),
              json.dumps(v.get("card_signals") or []),
+             json.dumps(v.get("india_signals") or []),
+             json.dumps(v.get("upi_signals") or []),
              int(v.get("web_hits") or 0),
              v.get("page_title", ""), json.dumps(v.get("notes") or []), time.time()))
         self._conn.commit()
@@ -127,6 +131,8 @@ class Store:
                 "signals": json.loads(r["signals"] or "[]"),
                 "no_cc_signals": json.loads(d.get("no_cc_signals") or "[]"),
                 "card_signals": json.loads(d.get("card_signals") or "[]"),
+                "india_signals": json.loads(d.get("india_signals") or "[]"),
+                "upi_signals": json.loads(d.get("upi_signals") or "[]"),
                 "web_hits": r["web_hits"],
                 "page_title": r["page_title"] or "",
                 "notes": json.loads(r["notes"] or "[]"),

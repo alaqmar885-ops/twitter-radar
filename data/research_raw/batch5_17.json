@@ -1,0 +1,61 @@
+{
+  "query": "which AI services accept UPI in India list",
+  "results": [
+    {
+      "title": "AI agents may soon be able to make UPI payments for users: How ...",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/ai-agents-may-soon-be-able-to-make-upi-payments-for-users-how-it-may-work-what-will-be-allowed-and-what-not/articleshow/133952690.cms",
+      "description": "Tech News News: ​NPCI may soon allow AI agents to make UPI payments on your behalf. A Reuters report citing three people familiar with the matter claims India is prep.",
+      "snippet": "Tech News News: NPCI may soon allow AI agents to make UPI payments on your behalf. A Reuters report citing three people familiar with the matter claims India is prep.\nEdition\nIN\nEnglish\nWeather",
+      "page_age": "2026-09-09T04:31:00"
+    },
+    {
+      "title": "India Eyes AI-Driven UPI Payments as NPCI Weighs Agent Protocol",
+      "url": "https://finance.yahoo.com/technology/ai/articles/india-eyes-ai-driven-upi-084800065.html",
+      "description": "India’s digital payments infrastructure presents a sharp contrast. The Unified Payments Interface (UPI) processes 24.51 billion transactions monthly, representing roughly 49% of global real-time payments volume.",
+      "snippet": "# India Eyes AI-Driven UPI Payments as NPCI Weighs Agent Protocol\nIndia's digital payments infrastructure presents a sharp contrast. The Unified Payments Interface (UPI) processes 24.51 billion transactions monthly, representing roughly 49% of global real-time payments volume. Yet, the agentic commerce experience—where AI autonomously manages grocery lists or travel bookings—remains confined to experimental pilots. This gap between high-volume payment rails and an autonomous agent economy defines the next phase of financial architecture",
+      "page_age": "2026-09-09T08:48:00"
+    },
+    {
+      "title": "India Set to Launch AI-Driven Payments on UPI, Pioneering Agentic ...",
+      "url": "https://bfsi.economictimes.indiatimes.com/amp/articles/india-preparing-rollout-of-agentic-payments-on-upi-sources-say/133674086",
+      "description": "India is gearing up to introduce a framework for agentic payments via its Unified Payments Interface (UPI), allowing AI agents to process small payments without prior approval. This innovative move could make India a leader in AI-driven commerce, ...",
+      "snippet": "# India preparing rollout of agentic payments on UPI, sources say\nBy Ashwin Manikandan MUMBAI, Sept 1 - India is preparing a framework that would let AI agents make small digital payments without approval for every transaction, three sources familiar with the matter said, potentially making UPI one of the world's largest networks with agentic payments. While leading payment companies have launched such frameworks in the U.S., Europe, Singapore and Australia, a rollout on the popular Unified Payments Interface would also put India among the first countries to have ‌a national infrastructure for agentic AI payments",
+      "page_age": "2026-09-01T14:03:07"
+    },
+    {
+      "title": "Unified Payments Interface",
+      "url": "https://en.wikipedia.org/wiki/Unified_Payments_Interface",
+      "description": "",
+      "snippet": "# Unified Payments Interface\n## History\n### UPI 3.0\n#### Conversational Voice Payments\nThe feature enables users to initiate transactions using voice commands or by entering a UPI ID or mobile number. When a mobile number is provided, the system retrieves the associated UPI ID and generates a payment request through the user's default UPI application. The service is integrated with CoRover's BharatGPT and supports multiple Indian languages",
+      "page_age": "2026-09-16T03:06:40"
+    },
+    {
+      "title": "AI agents move closer to UPI payments as India builds authorisation ...",
+      "url": "https://www.newindianexpress.com/lifestyle/tech/2026/Sep/10/ai-agents-move-closer-to-upi-payments-as-india-builds-authorisation-framework",
+      "description": "NPCI is working on a registry to verify and monitor AI agents that make payments through UPI, according to reports",
+      "snippet": "# AI agents move closer to UPI payments as India builds authorisation framework\nAI companies and payment firms are building systems that allow AI agents to interact with payment infrastructure. In India, NPCI is developing a framework to identify and authorise agents making transactions through UPI, bringing the prospect of software making payments on a user’s behalf closer to reality",
+      "page_age": "2026-09-10T18:40:49"
+    },
+    {
+      "title": "How do AI-powered voice payments for UPI transactions impact ...",
+      "url": "https://indiaai.gov.in/article/how-do-ai-powered-voice-payments-for-upi-transactions-impact-india-s-digital-payments",
+      "description": "India has already brought out ways of making voice-based and offline digital payments with an aim to expand the country’s fast-growing digital infrastructure and reduce the yawning divide between rural and urban areas.",
+      "snippet": "## Current voice digital payment technologies\nPayPal was the first payment service to enable voice-activated technology for transaction processes in 2016. Another one is the voice chatbot built for the Eyowo payment platform using Rasberry Pri and Amazon Lex Service. Voice pay is another voice-activated digital payment system which simplifies the conventional digital payment processes. The DashCam system developed by Tymoszek is a face and voice-activated payment system that helps move vehicles",
+      "page_age": "2023-10-19T00:00:00"
+    },
+    {
+      "title": "India Readies UPI to Support Payments Initiated by AI Agents",
+      "url": "https://www.cio.inc/india-readies-upi-to-support-payments-initiated-by-ai-agents-a-32777",
+      "description": "The National Payments Corporation of India is developing a UAP under which customers could authorize agents to transact within predefined limits. Early use cases",
+      "snippet": "# India Readies UPI to Support Payments Initiated by AI Agents\n### The Liability Gap\nPrivate providers are already moving. Pine Labs launched its P3P protocol in June using UPI mandates and Reserve Pay, while Mastercard has demonstrated authenticated agentic transactions in India. UAP's larger promise is to standardize agent identity, authorization and auditability across the UPI ecosystem.",
+      "page_age": "2026-09-09T16:11:17"
+    },
+    {
+      "title": "Best UPI Apps in India: Performance & Security Review by a Software ...",
+      "url": "https://www.frugaltesting.com/blog/best-upi-apps-in-india-performance-security-review-by-a-software-tester",
+      "description": "Discover the best UPI apps in India with a software tester’s review on security, performance, fraud prevention, and future fintech trends.",
+      "snippet": "# Best UPI Apps in India: Performance & Security Review by a Software Tester\n## Tools Used for UPI App Performance and Security Testing\n- **JMeter** - Conducts **load testing** to evaluate app stability under high volumes of transactions.\n- **Burp Suite** - Identifies security loopholes in payment gateways and **encryption** layers.\n- **Appium** - Automates **mobile application** testing across different operating systems to ensure a seamless experience.\n- **Postman** - Validates Application Programming Interface (API) integrity for secure UPI transactions",
+      "page_age": "2025-04-11T00:00:00"
+    }
+  ]
+}
