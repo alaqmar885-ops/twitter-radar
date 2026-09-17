@@ -808,3 +808,81 @@ sqlite3 data/twitter_radar.db "SELECT headline, confidence FROM findings ORDER B
 
 *This file is the single source of truth for project context. Update it when
 the architecture changes.*
+
+---
+
+## 20. AIOfferRadar — multi-platform radar + agent team
+
+`airadar/` extends TwitterRadar from an X-only scraper into a **multi-platform
+free-AI-offer radar** driven by an **agent team**. Same philosophy (free first,
+no single point of failure, confidence not hype), new surface area.
+
+### 20.1 Platform sources (`airadar/sources/`)
+
+| Source | Method | Status 2026-09-17 |
+|--------|--------|-------------------|
+| `twitter` | wraps the existing `twitter_radar.router.Router` (FxTwitter no-auth) | OK (200 items) |
+| `hackernews` | Algolia `search_by_date` (no key) | OK (122) |
+| `telegram` | `https://t.me/s/<channel>` public HTML | OK (28) |
+| `mastodon` | `<instance>/api/v1/timelines/tag/<tag>` | OK (49) |
+| `rss` | generic RSS/Atom (`xml.etree`) | OK (45) |
+| `html` | generic HTML watch pages (deal sites) | OK (51) |
+| `reddit` | `old.reddit.com/r/<sub>/.rss` -> PullPush fallback | blocked (login redirect) |
+| `youtube` | channel RSS `feeds/videos.xml?channel_id=UC...` | endpoint blocked from this host (config empty) |
+| `threads` | public profile HTML (best-effort) | config empty |
+| `bluesky` | `public.api.bsky.app` searchPosts | 403 from this host |
+| `instagram` | optional, lazy (`instaloader`) | not installed -> unavailable |
+
+Endpoints and evidence: `docs/research/03_platform_access_2026.md`.
+
+### 20.2 Agent team (`airadar/agents/`)
+
+Scout -> Triage -> Analyst -> Verifier -> Curator -> Reporter, all sharing an
+`AgentContext` blackboard; each returns an `AgentReport`; the team writes
+`data/runs/run_<ts>.json`. Full table: [AGENT_TEAM.md](AGENT_TEAM.md).
+
+| Agent | Job |
+|-------|-----|
+| ScoutAgent | pull Items from every enabled source |
+| TriageAgent | keep only offer-looking items |
+| AnalystAgent | classify + cluster into Offers (type/value/promo code/product) |
+| VerifierAgent | link liveness + optional You.com corroboration |
+| CuratorAgent | merge duplicates, score, persist |
+| ReporterAgent | render digest (html/md/json) |
+
+### 20.3 Commands
+
+```bash
+python run_radar.py sources        # list sources + live availability
+python run_radar.py run            # full multi-platform agent-team cycle
+python run_radar.py run --offline  # zero-network fixture run
+python run_radar.py report         # re-render digest from store
+python run_radar.py status         # store stats
+```
+
+Config lives in the `airadar:` section of `config.yaml` (watchlists, offer
+keywords, limits). Store: `data/airadar.db` (items + offers). Digests:
+`data/digests/airadar_digest_*.{html,md,json}`.
+
+### 20.4 New file map additions
+
+```
+airadar/
+  __init__.py, models.py, config.py, store.py, router.py, classify.py, scoring.py
+  sources/  base.py twitter.py youtube.py reddit.py hackernews.py rss.py
+            html_watch.py telegram.py mastodon.py threads.py bluesky.py instagram.py
+  agents/   base.py scout.py triage.py analyst.py verifier.py curator.py
+            reporter.py team.py
+run_radar.py        <- entry point for the multi-platform radar
+tests/test_airadar_smoke.py   <- zero-network smoke test
+AGENT_TEAM.md       <- agent team reference
+docs/airadar_design.md, docs/research/03_platform_access_2026.md,
+docs/research/04_free_ai_offer_sources.md
+```
+
+### 20.5 Verified live run (2026-09-17)
+
+`python run_radar.py run` collected **495 items across 6 platforms**
+(twitter 200, hackernews 122, html 51, mastodon 49, rss 45, telegram 28) ->
+**160 offer-like** -> **107 offers** (HIGH 81 / MEDIUM 26), **92 offer links
+verified live**. Digest written to `data/digests/`.

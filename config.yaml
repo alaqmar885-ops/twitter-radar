@@ -82,3 +82,56 @@ db_path: data/twitter_radar.db
 digest_dir: data/digests
 digest_format: html                # html | markdown | json
 top_n_findings: 20
+
+
+# ============================================================================
+# AIOfferRadar - multi-platform free-AI-offer radar (agent team)
+# Run: python run_radar.py run     (see AGENT_TEAM.md)
+# ============================================================================
+airadar:
+  enabled_sources: [twitter, hackernews, telegram, mastodon, rss, html, reddit, youtube, threads, bluesky, instagram]
+  x_accounts:
+    - AIHighlight
+    - LinusEkenstam
+    - mreflow
+    - theresanaiforthat
+    - OpenAI
+    - AnthropicAI
+    - GoogleDeepMind
+    - perplexity_ai
+    - MistralAI
+    - huggingface
+    - cursor_ai
+    - levelsio
+  subreddits: [aisubscriptions, appsumo, toolsdeals, discountools, SideProject, LocalLLaMA, PromptEngineering, generativeAI, learnmachinelearning]
+  hn_queries: ["Show HN free", "free tier AI", "free credits", "lifetime deal AI", "open source model"]
+  # YouTube: add channel ids (UC...). A "@handle" entry is auto-resolved via the
+  # channel page's canonical link (verified working), the RSS endpoint may still
+  # be blocked from some hosts/IPs.
+  youtube_channel_ids: []
+  bluesky_queries: ["free AI credits", "free tier", "lifetime deal AI"]
+  telegram_channels: [Best_AI_tools, DeepLearning_ai]
+  mastodon_instance: https://mastodon.social
+  mastodon_tags: [ai, opensource]
+  rss_feeds:
+    - https://huggingface.co/blog/feed.xml
+    - https://blog.google/technology/ai/rss/
+  html_watch:
+    - https://costgoat.com/pricing/openrouter-free-models
+    - https://free-model.com/
+    - https://zplatform.ai/ai-deal/
+    - https://appsumo.com/collections/features/ai/
+    - https://www.stacksocial.com/collections/artificial-intelligence
+    - https://freellmapihub.com/programs/startups
+    - https://simplycodes.com/category/artificial-intelligence
+    - https://felloai.com/ai-deals/
+  threads_usernames: []
+  instagram_usernames: []
+  offer_keywords: ["free", "free tier", "free trial", "free credits", "free access", "no cost", "lifetime deal", "ltd", "promo code", "coupon", "100% off", "90% off", "discount", "giveaway", "beta access", "open source", "$0", "free forever", "student", "startup credits"]
+  min_offer_score: 0.35
+  per_source_limit: 25
+  request_timeout: 20
+  delay_between_requests: 1.0
+  db_path: data/airadar.db
+  digest_dir: data/digests
+  top_n: 25

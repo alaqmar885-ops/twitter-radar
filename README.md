@@ -197,3 +197,29 @@ Scraping **public** Twitter data is generally legal in the US (hiQ v. LinkedIn),
 ## License
 
 MIT — same as the upstream research reports' source projects.
+
+
+## AIOfferRadar - multi-platform free-AI-offer radar + agent team
+
+Beyond X/Twitter, `airadar/` adds a multi-platform collector and an autonomous
+agent team whose job is finding **free AI tools, credits, free tiers, promo codes
+and lifetime deals** across platforms.
+
+**Platforms:** twitter, youtube (channel RSS), reddit (old.reddit .rss / PullPush),
+hackernews (Algolia), telegram (t.me/s preview), mastodon (tag timelines),
+rss + generic HTML watch pages (deal sites), threads (public HTML, best-effort),
+bluesky (public API), instagram (optional, lazy).
+
+**Agent team:** Scout -> Triage -> Analyst -> Verifier -> Curator -> Reporter.
+See [AGENT_TEAM.md](AGENT_TEAM.md).
+
+```bash
+python run_radar.py sources        # sources + live availability
+python run_radar.py run            # full multi-platform cycle
+python run_radar.py run --offline  # zero-network smoke run
+python run_radar.py report         # re-render digest
+python run_radar.py status         # store stats
+```
+
+Research backing: [docs/research/03_platform_access_2026.md](docs/research/03_platform_access_2026.md)
+and [docs/research/04_free_ai_offer_sources.md](docs/research/04_free_ai_offer_sources.md).
