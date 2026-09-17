@@ -1,0 +1,139 @@
+{
+  "generated": 1789637525,
+  "candidates": 182,
+  "probed": 6,
+  "providers": [
+    {
+      "domain": "itsfree.ai",
+      "url": "https://itsfree.ai",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Free AI APIs and models — every free tier, compared",
+      "web_hits": 0
+    },
+    {
+      "domain": "freellmapi.co",
+      "url": "https://freellmapi.co/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "FreeLLMAPI Pricing — free router, $19/yr Premium",
+      "web_hits": 0
+    },
+    {
+      "domain": "aimlapi.com",
+      "url": "https://aimlapi.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Latest AI Models in One API: GPT, Gemini, Claude &amp; 1000+ Models | Best AI API",
+      "web_hits": 0
+    },
+    {
+      "domain": "openrouter.ai",
+      "url": "https://openrouter.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Pricing | OpenRouter",
+      "web_hits": 0
+    },
+    {
+      "domain": "bazaarlink.ai",
+      "url": "https://bazaarlink.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "upi",
+        "gst"
+      ],
+      "page_title": "BazaarLink — AI Agent LLM Gateway｜台灣・主流模型・中文支援",
+      "web_hits": 0
+    },
+    {
+      "domain": "agentrouter.org",
+      "url": "https://agentrouter.org/docs",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "off",
+        "免费额度",
+        "免费"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "AgentRouter 接入说明",
+      "web_hits": 0
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "offline": false,
+  "elapsed_s": 290.85,
+  "items": 606,
+  "kept": 113,
+  "offers": 102,
+  "top_offers": [
+    {
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "score": 0.875,
+      "label": "VERIFIED",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49552616"
+    },
+    {
+      "title": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://plexus.company"
+    },
+    {
+      "title": "DeepSeek API Free Credits",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits"
+    },
+    {
+      "title": "standard free trial of Google AI Pro",
+      "score": 0.75,
+      "label": "HIGH",
+      "type": "free_trial",
+      "platforms": [
+        "html"
+      ],
+      "url": "https://felloai.com/ai-free-trials/"
+    },
+    {
+      "title": "Show HN: Blue – open-source governance for coding agents",
+      "score": 0.745,
+      "label": "HIGH",
+      "type": "open_source",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://bluee.sh/"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 606,
+        "new_items": 52,
+        "twitter": 202,
+        "hackernews": 154,
+        "telegram": 28,
+        "mastodon": 49,
+        "rss": 45,
+        "html": 128
+      },
+      "notes": [],
+      "elapsed": 32.575
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 606,
+        "kept": 113,
+        "dropped": 493
+      },
+      "notes": [],
+      "elapsed": 0.024
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 102,
+        "from_items": 113
+      },
+      "notes": [],
+      "elapsed": 0.039
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 99,
+        "web_verified": 99,
+        "offers": 102
+      },
+      "notes": [],
+      "elapsed": 258.029
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 102,
+        "new_offers": 102
+      },
+      "notes": [],
+      "elapsed": 0.177
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789638239.html",
+        "md": "data\\digests\\airadar_digest_1789638239.md",
+        "json": "data\\digests\\airadar_digest_1789638239.json"
+      },
+      "notes": [],
+      "elapsed": 0.003
+    }
+  ]
+}

@@ -13,6 +13,9 @@ FREE_SIGNALS = [
     "free tier", "free plan", "free trial", "start free", "try free",
     "free credits", "free forever", "always free", "no credit card",
     "credits", "pricing", "free", "trial", "discount", "off",
+    # Chinese-first providers: the same evidence in another language
+    "\u514d\u8d39\u989d\u5ea6", "\u514d\u8d39\u8bd5\u7528", "\u6ce8\u518c\u9001",
+    "\u514d\u8d39", "\u8d60\u9001", "\u4f18\u60e0",
 ]
 
 # Strong evidence a page offers something free without a payment method.
@@ -20,6 +23,8 @@ NO_CC_SIGNALS = [
     "no credit card", "no credit-card", "no card required", "no card needed",
     "without a credit card", "without credit card", "no payment method",
     "no payment required", "no card", "no cc required", "free, no card",
+    # Chinese-first: "\u65e0\u9700\u4fe1\u7528\u5361" = no credit card needed
+    "\u65e0\u9700\u4fe1\u7528\u5361", "\u514d\u4fe1\u7528\u5361",
 ]
 
 # Strong evidence the free tier actually REQUIRES a card / payment method.
@@ -105,7 +110,8 @@ class FindingVerifier:
 
         STRONG = {"free tier", "free plan", "free trial", "start free", "try free",
                   "free credits", "free forever", "always free", "no credit card",
-                  "free access"}
+                  "free access",
+                  "\u514d\u8d39\u989d\u5ea6", "\u514d\u8d39\u8bd5\u7528", "\u6ce8\u518c\u9001"}
         MEDIUM = {"pricing", "trial", "discount", "credits"}
         strong = [s for s in base["signals"] if s in STRONG]
         medium = [s for s in base["signals"] if s in MEDIUM]

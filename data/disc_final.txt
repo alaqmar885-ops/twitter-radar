@@ -1,0 +1,2 @@
+agentrouter findings: 1
+verdict=VERIFIED signals=['off', '免费额度', '免费'] no_cc=[]

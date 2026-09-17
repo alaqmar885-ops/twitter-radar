@@ -1,0 +1,116 @@
+{
+  "offline": true,
+  "elapsed_s": 0.03,
+  "items": 4,
+  "kept": 3,
+  "offers": 3,
+  "top_offers": [
+    {
+      "title": "Free tier",
+      "score": 0.675,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "twitter"
+      ],
+      "url": "https://example.com/cursor"
+    },
+    {
+      "title": "Show HN: Free AI credits for developers",
+      "score": 0.675,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://example.com/credits"
+    },
+    {
+      "title": "Lifetime deal",
+      "score": 0.6,
+      "label": "HIGH",
+      "type": "lifetime_deal",
+      "platforms": [
+        "telegram"
+      ],
+      "url": "https://example.com/ltd"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 4,
+        "new_items": 4,
+        "twitter": 1,
+        "hackernews": 1,
+        "telegram": 1,
+        "rss": 1
+      },
+      "notes": [],
+      "elapsed": 0.0
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 4,
+        "kept": 3,
+        "dropped": 1
+      },
+      "notes": [],
+      "elapsed": 0.0
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 3,
+        "from_items": 3
+      },
+      "notes": [],
+      "elapsed": 0.001
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "skipped",
+      "counts": {
+        "live": 0,
+        "web_verified": 0
+      },
+      "notes": [
+        "offline mode: no network verification"
+      ],
+      "elapsed": 0.0
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 3,
+        "new_offers": 3
+      },
+      "notes": [],
+      "elapsed": 0.0
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 3,
+        "html": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789638443.html",
+        "md": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789638443.md",
+        "json": "D:\\scrapper\\data\\digests_test\\airadar_digest_1789638443.json"
+      },
+      "notes": [],
+      "elapsed": 0.031
+    }
+  ]
+}

@@ -1,0 +1,1422 @@
+{
+  "generated": 1789637743,
+  "offers": [
+    {
+      "id": "a97741b1681d",
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "summary": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "offer_type": "free_tier",
+      "value": "$19",
+      "promo_code": "",
+      "product": "",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.875,
+      "label": "VERIFIED",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "anshchokshi",
+          "url": "https://news.ycombinator.com/item?id=49552616",
+          "text": "Hi HN, I&#x27;m Ansh, founder of Mireye (<a href=\"https:&#x2F;&#x2F;www.mireye.com\">https:&#x2F;&#x2F;www.mireye.com</a>). I&#x27;m building the infrastructure AI agents use to make decisions about ph"
+        },
+        {
+          "platform": "hackernews",
+          "author": "rapind",
+          "url": "https://news.ycombinator.com/item?id=49113688",
+          "text": "https:&#x2F;&#x2F;support.stripe.com&#x2F;questions&#x2F;updates-to-radar-pricing-(january-2027)<p>Stripe just sent me an opt-opt notification about an automatic Radar upgrade. They&#x27;ve moved me t"
+        },
+        {
+          "platform": "hackernews",
+          "author": "vladimir_si",
+          "url": "https://news.ycombinator.com/item?id=49064283",
+          "text": "This story might never have happened, even though I&#x27;d been carrying the idea for a debugger for a long time. There was no trigger. But one day a trigger appeared that was strong enough that I set"
+        },
+        {
+          "platform": "hackernews",
+          "author": "louis030195",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and giv"
+        },
+        {
+          "platform": "hackernews",
+          "author": "samyar",
+          "url": "https://news.ycombinator.com/item?id=49641100",
+          "text": "Hi,<p>An institution asked me to help them in teaching poor kids to use AI and about AI. They are between 7 - 14 years old from poor families in third world country.<p>I think DeepSeek is a good choic"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Mireye SiteDNA 2026: AI Retail Site Selection From YC S26 - AI ...",
+          "url": "https://ailearningguides.com/mireye-sitedna-ai-retail-site-selection/",
+          "description": "Mireye's AI site selection software scores any US address against your best stores. See how SiteDNA and Proximity work, pricing from $19/mo, and a free tier.",
+          "snippet": "# Mireye SiteDNA 2026: AI Retail Site Selection From YC S26\nMost franchise and retail operators still pick their next location the old way: a broker’s flyer, a drive around the block, and a gut call dressed up as a spreadsheet afterward. Mireye, a new company out of Y Combinator’s Summer 2026 batch, thinks **AI site selection software** can replace that gut call with a pattern taken from your own best stores. Its SiteDNA tool works out what your top performers have in common and scores any US address against that pattern",
+          "page_age": "2026-09-12T00:18:15"
+        },
+        {
+          "title": "📰 Hacker News AI 社区动态日报 2026-09-04 · Issue #735 ...",
+          "url": "https://github.com/THTHDGCS/agents-radar/issues/735",
+          "description": "Hacker News AI 社区动态日报 2026-09-04 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-09-04 01:48 UTC Hacker News AI 社区动态日报（2026-09-04） 今日速览 今日 HN AI 社区核心热度集中在编程Agent生态...",
+          "snippet": "# Hacker News AI 社区动态日报（2026-09-04）\n## 今日速览\n产业端，GoPro 被收购后切入国防与机器人赛道、YC S26 推出物理世界 AI Agent 基础设施项目，均体现出 AI 向实体场景渗透的加速趋势。整体讨论偏务实，社区更关注 Agent 的落地成本、工具配套与商业化可能性。",
+          "page_age": "2026-09-04T02:15:19"
+        },
+        {
+          "title": "Issue · THTHDGCS/agents-radar",
+          "url": "https://github.com/THTHDGCS/agents-radar/issues/734",
+          "description": "Daily AI ecosystem digest from 10 sources (GitHub, ArXiv, HN, HuggingFace, Product Hunt, Dev.to, Lobste.rs). Bilingual ZH/EN reports via GitHub Actions. - Issue · THTHDGCS/agents-radar",
+          "snippet": "# Hacker News AI Community Digest (2026-09-04, Past 24 Hours)\n## 1. Today's Highlights\nBeyond software agents, physical world AI garnered growing attention: a YC S26 startup launching infrastructure for physical AI agents, commercial humanoid robots cleaning homes for $30 an hour, and GoPro’s acquisition-driven pivot into robotics and aerospace all struck a chord. Overall, the community is heavily focused on agent deployment and tooling — both for software and physical use cases — with far less emphasis on foundation model releases compared to recent cycles",
+          "page_age": "2026-09-04T02:15:14"
+        },
+        {
+          "title": "Best Product Launches: Sept 4, 2026 Recap - StartupCorners",
+          "url": "https://startupcorners.com/digest/product-digest-2026-09-04",
+          "description": "A curated recap of the top product launches on September 4, 2026, covering AI agents, developer tools, consumer apps, and creative platforms.",
+          "snippet": "# Top Product Launches September 4 2026: AI Agents and Dev Tools\n## AI Agents and Agentic Infrastructure\n- **Mireye** (YC S26): Infrastructure that gives AI agents location data, enrichment, and signals for any US address through a single API and MCP server. Source",
+          "page_age": "2026-09-04T06:30:36"
+        }
+      ]
+    },
+    {
+      "id": "48e99b4002ed",
+      "title": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "summary": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "offer_type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "product": "Plexus",
+      "url": "https://plexus.company",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "annnnnnn",
+          "url": "https://plexus.company",
+          "text": "Hi, I&#x27;m Ann, building Plexus.<p>We gives hardware teams live dashboards and stored history for your sensor data, so you don&#x27;t have to build and maintain that setup yourself. You can try it w"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "PLEXUS Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/plexus",
+          "description": "The meaning of PLEXUS is a network of anastomosing or interlacing blood vessels or nerves.",
+          "snippet": "The meaning of PLEXUS is a network of anastomosing or interlacing blood vessels or nerves.\n\na network of anastomosing or interlacing blood vessels or nerves; an interwoven combination of parts or elements in a structure or system… See the full definition",
+          "page_age": "2026-07-01T00:00:00"
+        },
+        {
+          "title": "Plexus Corp.",
+          "url": "https://www.linkedin.com/company/plexus",
+          "description": "Plexus Corp. | 140,950 followers on LinkedIn. We help create the products that build a better world. | Since 1979, Plexus has been partnering with companies to create the products that build a better world.",
+          "snippet": "Plexus Corp. | 140,950 followers on LinkedIn. We help create the products that build a better world. | Since 1979, Plexus has been partnering with companies to create the products that build a better world. We are a team of over 20,000 individuals who are dedicated to providing Design and Development, Supply Chain Solutions, New Product Introduction, Manufacturing and Aftermarket Services. Plexus is a global leader that specializes in serving customers in industries with highly complex products and demanding regulatory environments",
+          "page_age": "2026-03-23T15:35:10"
+        },
+        {
+          "title": "Plexus Review: Is It Safe and Effective for Weight Loss?",
+          "url": "https://www.healthline.com/nutrition/plexus-slim",
+          "description": "With a line of weight management drinks and supplements, Plexus claims to help you quickly lose weight. Our dietitian breaks down the science in our comprehensive review of Plexus weight loss drinks.",
+          "snippet": "With a line of weight management drinks and supplements, Plexus claims to help you quickly lose weight. Our dietitian breaks down the science in our comprehensive review of Plexus weight loss drinks",
+          "page_age": "2023-07-20T00:00:00"
+        },
+        {
+          "title": "Plexus",
+          "url": "https://en.wikipedia.org/wiki/Plexus",
+          "description": "",
+          "snippet": "# Plexus\nIn anatomy, a **plexus** (from the Latin term for 'braid') is a branching network of blood vessels, lymphatic vessels, or nerves. The nerves are typically axons outside the central nervous system.\n\nThe standard plural form in English is **plexuses**. Alternatively, the Latin plural **plexūs** may be used",
+          "page_age": "2025-11-22T03:03:42"
+        }
+      ]
+    },
+    {
+      "id": "4b1cb67e43ac",
+      "title": "DeepSeek API Free Credits",
+      "summary": "DeepSeek API Free Credits",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+          "text": "DeepSeek API Free Credits"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://tokenmix.ai/blog/deepseek-api-free-credits",
+          "text": "DeepSeek API Free Credits: 5M Tokens, ~2,500 Calls Explained"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/ChatGPTCoding on Reddit: $200 Free API Credit for GPT5/Claud...",
+          "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1o4ptjp/200_free_api_credit_for_gpt5claudeglmdeepseek_no/",
+          "description": "Hey everyone Get $200 FREE AI API Credits instantly — no card required! Models: GPT-5 Codex, Claude Sonnet 4/4.5, GLM 4.5, deepseek How to Claim: 1…",
+          "snippet": "# $200 Free API Credit for GPT5/Claude/GLM/Deepseek | No CC needed\nHey everyone\n\n**Get $200 FREE AI API Credits instantly — no card required!**\n\nModels: GPT-5 Codex, Claude Sonnet 4/4.5, GLM 4.5, deepseek",
+          "page_age": "2025-10-12T14:00:29"
+        },
+        {
+          "title": "DeepSeek Free Plans, Trials, and Subscriptions: Token Grants, Usage ...",
+          "url": "https://www.datastudios.org/post/deepseek-free-plans-trials-and-subscriptions-token-grants-usage-caps-and-api-pricing-strategies",
+          "description": "DeepSeek stands out in the AI landscape for its aggressive “free-first” approach, granting public access to its latest models without mandatory subscriptions, and offering high-value trials for developers and enterprise teams.This article ...",
+          "snippet": "# DeepSeek Free Plans, Trials, and Subscriptions: Token Grants, Usage Caps, and API Pricing Strategies for Late 2025/2026\n## Every new DeepSeek API account receives a 5-million-token grant and a time-boxed trial window without requiring a credit card.\nWhen developers register for the API, DeepSeek credits each new account with **5 million free tokens** (roughly $8.40 value) valid for **30 days**",
+          "page_age": "2026-09-07T16:41:09"
+        },
+        {
+          "title": "DeepSeek Free API and Token Credits — yangmao.ai",
+          "url": "https://yangmao.ai/en/deals/category/deepseek-free-api/",
+          "description": "DeepSeek free API credits, signup tokens, China access, and OpenAI-compatible usage. 180 claimable AI deals tracked.",
+          "snippet": "DeepSeek free API credits, signup tokens, China access, and OpenAI-compatible usage. 180 claimable AI deals tracked",
+          "page_age": ""
+        },
+        {
+          "title": "DeepSeek AI: Complete Free Guide 2026",
+          "url": "https://yuv.ai/learn/deepseek",
+          "description": "Master DeepSeek AI - the powerful FREE alternative to ChatGPT. Complete guide to DeepSeek R1, V3, API setup, and practical tutorials. Learn how to use DeepSeek for coding, research, and more.",
+          "snippet": "# DeepSeek AI\n## DeepSeek vs ChatGPT: Which is Better?\n### DeepSeek Advantages\n- **Price:** 100% FREE for web interface\n- **API Cost:** ~10x cheaper than GPT-4\n- **Open Source:** We can run it locally for privacy\n- **Reasoning:** R1 shows chain-of-thought like o1\n- **Coding:** Excellent for programming tasks",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "2bce1936128e",
+      "title": "standard free trial of Google AI Pro",
+      "summary": "standard free trial of Google AI Pro",
+      "offer_type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://felloai.com/ai-free-trials/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/ai-free-trials/",
+          "text": "standard free trial of Google AI Pro"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/ai-free-trials/",
+          "text": "AI Free Trials 2026: Every Pro Tier You Can Actually Test for Free"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "How to Use Gemini Pro for Free in 2026 (9 Proven Ways)",
+          "url": "https://www.gamsgo.com/blog/google-gemini-free",
+          "description": "Discover 9 ways to use Gemini for free or less, including Google AI Pro trials, device offers, carrier benefits, family sharing, AI Studio, RITA, and GamsGo.",
+          "snippet": "# How to Use Gemini Pro for Free in 2026 (9 Proven Ways)\n## What’s the Difference Between Gemini Free and Google AI Pro?\n| Category | Gemini Free | Google AI Pro |\n| --- | --- | --- |\n| Price | $0, no credit card required | $19.99/month |\n| Models | A newer Flash model by default, with limited access to the most powerful Pro model | Full access to the most powerful Pro model |\n| Usage Limits | Standard daily or weekly limits that are easy to reach | Around four times the usage limits |\n| Deep Research | Around 5 reports per month | Higher daily limits |\n| Image and Video Generation | Image generation available, with limited video access | Enhanced image generation and video generation |\n| Storage | 15GB | 5TB |\n| Workspace Integration | Little to no integration | Integration with Gmail, Docs, and more, plus family sharing |",
+          "page_age": "2026-07-17T00:00:00"
+        },
+        {
+          "title": "Google AI Pro for Students 2026: Is It Still Free?",
+          "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+          "description": "Google relaunched the free student year on August 19, 2026: AI Pro free in the US, AI Plus in 140+ markets. Redeem by December 31 and re-verify each year.",
+          "snippet": "Google relaunched the free student year on August 19, 2026: AI Pro free in the US, AI Plus in 140+ markets. Redeem by December 31 and re-verify each year.",
+          "page_age": "2026-08-21T14:05:00"
+        },
+        {
+          "title": "AI Free Trials 2026: Every Pro Tier You Can Test Free",
+          "url": "https://felloai.com/ai-free-trials/",
+          "description": "The honest August 2026 list of AI free trials. Google AI Pro 30 days and Microsoft 365 Premium 1 month, plus why Copilot Pro is dead and ChatGPT has none.",
+          "snippet": "The honest August 2026 list of AI free trials. Google AI Pro 30 days and Microsoft 365 Premium 1 month, plus why Copilot Pro is dead and ChatGPT has none.",
+          "page_age": "2026-09-14T16:00:00"
+        },
+        {
+          "title": "Google AI plans with Cloud Storage - Google One",
+          "url": "https://one.google.com/intl/en/about/google-ai-plans/",
+          "description": "Explore Google AI plans. Access our most advanced AI, generate videos from text, and secure cloud storage.",
+          "snippet": "Explore Google AI plans. Access our most advanced AI, generate videos from text, and secure cloud storage.\n\nStudents get Google AI Pro free for 1 year. Study smarter with higher access to Gemini, a 24/7 personal AI agent, and 5 TB of storage.",
+          "page_age": "2026-03-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "298ff1fd26da",
+      "title": "Show HN: Blue – open-source governance for coding agents",
+      "summary": "Show HN: Blue – open-source governance for coding agents",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Blue",
+      "url": "https://bluee.sh/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "tomislavs",
+          "url": "https://bluee.sh/",
+          "text": "Hey HN,<p>After migrating to an inference gateway to serve internal usage across an organization, problems have started to pop up. Once you detach from a managed ecosystem such as OpenAI or Anthropic "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "BLUE Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/blue",
+          "description": "BLUE definition: the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers. See examples of blue used in a sentence.",
+          "snippet": "BLUE definition: the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers.\n\nJump To:\n\n- blue blue noun the pure color of a clear sky; the primary color between green and violet in the visible spectrum, an effect of light with a wavelength between 450 and 500 nanometers.\n- Blue Blue noun a nickname for a person with red hair\n\nSynonyms",
+          "page_age": "2026-07-31T00:00:00"
+        },
+        {
+          "title": "BLUE Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/blue",
+          "description": "The meaning of BLUE is of the color whose hue is that of the clear sky : of the color blue. How to use blue in a sentence.",
+          "snippet": "The meaning of BLUE is of the color whose hue is that of the clear sky : of the color blue.\n\nof the color whose hue is that of the clear sky : of the color blue; bluish; discolored by or as if by bruising… See the full definition",
+          "page_age": "2026-09-12T12:23:27"
+        },
+        {
+          "title": "Blue (English group)",
+          "url": "https://en.wikipedia.org/wiki/Blue_(English_group)",
+          "description": "",
+          "snippet": "# Blue (English group)\n- **Origin**: London, England\n- **Genres**: Pop R\\&B\n- **Years active**: 2000–2005 2011–present\n- **Labels**: BMG Music (current) Innocent Island Sony (formerly)\n- **Members**: Simon Webbe Duncan James Antony Costa Lee Ryan",
+          "page_age": "2026-09-10T17:13:33"
+        },
+        {
+          "title": "Blue",
+          "url": "https://en.wikipedia.org/wiki/Blue",
+          "description": "",
+          "snippet": "# Blue\n**Blue** is one of the three primary colours in the RGB (additive) colour model, as well as in the RYB colour model (traditional colour theory). It lies between violet and cyan on the spectrum of visible light. The term *blue* generally describes colours perceived by humans observing light with a dominant wavelength between approximately 450 and 495 nanometres. The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering. An optical effect called the Tyndall effect explains blue eyes",
+          "page_age": "2026-09-15T16:31:03"
+        }
+      ]
+    },
+    {
+      "id": "5c00c78d8eb1",
+      "title": "Show HN: A writing coach that's not allowed to write your sentences",
+      "summary": "Show HN: A writing coach that's not allowed to write your sentences",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.73,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ygjb",
+          "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+          "text": "Hi HN,<p>I&#x27;m  the technical advisor and one of the co-founders for Oghmere (<a href=\"https:&#x2F;&#x2F;oghmere.com\" rel=\"nofollow\">https:&#x2F;&#x2F;oghmere.com</a>), a writing tool for people wh"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "r/selfpublish on Reddit: Has anyone used ChatGPT's Creative Writing ...",
+          "url": "https://www.reddit.com/r/selfpublish/comments/1gv75iw/has_anyone_used_chatgpts_creative_writing_coach/",
+          "description": "I know there are a ton of good reason not to use ChatGPT to write your book for you, but I'm curious about letting it give me feedback on what I've…",
+          "snippet": "# Has anyone used ChatGPT's Creative Writing Coach?\n## kaizenmusicstudio\nUnpopular Opinion: Yes, and it's been very helpful. Oftentimes I really just need an objective perspective to let me know if I've overlooked something obvious in the editing process.",
+          "page_age": "2024-11-19T20:32:12"
+        },
+        {
+          "title": "Using ChatGPT as a Writing Coach",
+          "url": "https://blog.nateliason.com/p/chatgpt-writing-coach",
+          "description": "How to improve instead of atrophy",
+          "snippet": "# Using ChatGPT as a Writing Coach\n### How to improve instead of atrophy\nSo it makes me sad seeing writers use ChatGPT to *do* some of their writing for them. In the short term, it is convenient. But the price of that convenience is sacrificing their future competence.\n\nThere is, however, a way to use ChatGPT to become a better writer. To treat it as a writing coach instead of a writing robot.\n\nIn Benjamin Franklin’s autobiography, he outlines how he used *The Spectator* magazine to improve his writing:",
+          "page_age": "2023-02-13T19:59:54"
+        },
+        {
+          "title": "r/WritingWithAI on Reddit: Anybody able to recommend a good AI ...",
+          "url": "https://www.reddit.com/r/WritingWithAI/comments/1fk1igi/anybody_able_to_recommend_a_good_ai_writing_coach/",
+          "description": "In essence what i mean is that i wanna do my own writing but would still like some assistance/coaching when it comes to stuff like grammar, sentence…",
+          "snippet": "# Anybody able to recommend a good AI writing \"coach\"\n## Railroadin_Fool\nyou can use CHatGT for that.",
+          "page_age": "2024-09-18T19:36:02"
+        },
+        {
+          "title": "What is a Writing Coach? [And Do You Need One?]",
+          "url": "https://www.triviumwriting.com/blog/what-is-a-writing-coach",
+          "description": "Unsure if you need a writing coach? Not sure how to go about finding one? This guide will answer your questions and help you take the first steps.",
+          "snippet": "# What is a Writing Coach? \\[And Do You Need One?\\]\n## What is a Writing Coach?\nBut let me be clear: writing coaches are not glorified editors or grammar police. They are process experts, mindset partners, and structure strategists. Their job isn’t to write for you—but to help *you* write at your highest level. The best writing coaches help you see the ideas you can’t see, say what you really mean, and show up consistently to finish your book",
+          "page_age": "2026-04-10T14:28:46"
+        }
+      ]
+    },
+    {
+      "id": "72913c7d3a01",
+      "title": "Show HN: Chauffeur – One Click restore of your aplication Context",
+      "summary": "Show HN: Chauffeur – One Click restore of your aplication Context",
+      "offer_type": "free_tier",
+      "value": "free forever",
+      "promo_code": "",
+      "product": "Chauffeur",
+      "url": "https://www.emaginasion.com/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.722,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "dmaginas",
+          "url": "https://www.emaginasion.com/",
+          "text": "Hi Hacker News, I am the developer of the application Chauffeur.<p>Every time I had to open all my apps by hand — VS Code on the right folders, the Chrome tabs, some files edited in Notepad++, open PD"
+        },
+        {
+          "platform": "hackernews",
+          "author": "dmaginas",
+          "url": "https://www.emaginasion.com/",
+          "text": "Hi Hacker News, I am the developer of the application Chauffeur.<p>Every time I had to open all my apps by hand — VS Code on the right folders, the Chrome tabs, some files edited in Notepad++, open PD"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Chauffeur",
+          "url": "https://en.wikipedia.org/wiki/Chauffeur",
+          "description": "",
+          "snippet": "# Chauffeur\nA **chauffeur** (French pronunciation: [ʃɔ.fœʁ]) is a professional driver of a passenger motor vehicle, especially a luxury vehicle such as a large sedan, SUV or a limousine",
+          "page_age": "2026-08-15T11:38:41"
+        },
+        {
+          "title": "What Is a Chauffeur? (Plus Work Environment and Salary)",
+          "url": "https://www.indeed.com/career-advice/finding-a-job/what-is-a-chauffeur",
+          "description": "Learn about the role of a chauffeur, including the skills necessary for this position, average salary and work environment.",
+          "snippet": "# What Is a Chauffeur? (Plus Work Environment and Salary)\nQuick Answer:\n\nA chauffeur is a professional driver who transports clients safely and on time while providing courteous, personalized service. Chauffeurs may work for households, government agencies, corporations or limousine companies, often with variable schedules; they earn an average salary of $59,004 per year",
+          "page_age": "2026-08-14T16:15:13"
+        },
+        {
+          "title": "CHAUFFEUR",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/chauffeur",
+          "description": "CHAUFFEUR meaning: 1. someone whose job is to drive a car for a rich or important person: 2. to drive someone…. Learn more.",
+          "snippet": "CHAUFFEUR meaning: 1. someone whose job is to drive a car for a rich or important person: 2. to drive someone….",
+          "page_age": "2026-09-01T21:09:39"
+        },
+        {
+          "title": "Chauffeur Service NYC",
+          "url": "https://www.detaileddrivers.com/locations/new-york/chauffeur-service",
+          "description": "NYC chauffeur service with vetted TLC-licensed chauffeurs for executives, families, hotels, events, airports, and as-directed city days. All-in estimates from $120/hr. (888) 420-0177.",
+          "snippet": "NYC chauffeur service with vetted TLC-licensed chauffeurs for executives, families, hotels, events, airports, and as-directed city days. All-in estimates from $120/hr. (888) 420-0177",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "1f9619429c28",
+      "title": "Show HN: Usero MCP, give your coding agent your user feedback",
+      "summary": "Show HN: Usero MCP, give your coding agent your user feedback",
+      "offer_type": "free_credits",
+      "value": "$0",
+      "promo_code": "",
+      "product": "Usero",
+      "url": "https://usero.io/docs/mcp",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.7,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "willsmith72",
+          "url": "https://usero.io/docs/mcp",
+          "text": "Usero is a feedback tool: widget, email, Slack and app reviews into one clustered inbox. I recently put an MCP server in front of it at <a href=\"https:&#x2F;&#x2F;usero.io&#x2F;mcp\" rel=\"nofollow\">htt"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Usero - Feedback Becomes Code. Automatically.",
+          "url": "https://usero.io/",
+          "description": "Users report issues, request features, or flag UX problems. AI clusters the signal. Claude reads your codebase and opens a PR.",
+          "snippet": "Users report issues, request features, or flag UX problems. AI clusters the signal. Claude reads your codebase and opens a PR.\n\n6,000+feedback received from\n\nDiscord GitHub Canny Gmail Featurebase Intercom Productboard Discord GitHub Canny Gmail Featurebase Intercom Productboard\n\nfeedback ops, solved",
+          "page_age": ""
+        },
+        {
+          "title": "UserVoice vs Usero: Honest Comparison (2026)",
+          "url": "https://usero.io/blog/uservoice-vs-usero",
+          "description": "UserVoice vs Usero: a $16k/yr enterprise platform versus a free-to-start tool that opens a GitHub PR from feedback. The honest split.",
+          "snippet": "UserVoice vs Usero: a $16k/yr enterprise platform versus a free-to-start tool that opens a GitHub PR from feedback.",
+          "page_age": "2026-06-03T00:00:00"
+        },
+        {
+          "title": "Adriana Usero - The Washington Post",
+          "url": "https://www.washingtonpost.com/people/adriana-usero/",
+          "description": "Adriana Usero has been a video editor on The Fact Checker since 2020. Adriana was part of a team of journalists that won a Pulitzer Prize for Public Service in 2021. She was previously embedded with the General Assignment desk and Opinions section.",
+          "snippet": "Adriana Usero has been a video editor on The Fact Checker since 2020. Adriana was part of a team of journalists that won a Pulitzer Prize for Public Service in 2021. She was previously embedded with the General Assignment desk and Opinions section. She joined The Post in 2016 and was born and raised in San Juan, Puerto Rico.\nVideo",
+          "page_age": ""
+        },
+        {
+          "title": "usero (@usero_jw) on X",
+          "url": "https://x.com/usero_jw?lang=en",
+          "description": "artist; ru he/him 20; я люблю יְהֹוָה telegram: https://t.co/1OfqNdv2Wl",
+          "snippet": "artist; ru he/him 20; я люблю יְהֹוָה telegram: https://t.co/1OfqNdv2Wl\n\nLog in Sign up\n\nusero\n\n68 posts\n\nusero profile banner\n\nuser avatar",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "e997e281b312",
+      "title": "Show HN: SyntheticAIdata – synthetic data for CV, 100k free credits/month",
+      "summary": "Show HN: SyntheticAIdata – synthetic data for CV, 100k free credits/month",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "SyntheticAIdata",
+      "url": "https://app.syntheticaidata.com/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.7,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "gvuksic",
+          "url": "https://app.syntheticaidata.com/",
+          "text": "Hi HN, I&#x27;m Goran, founder of syntheticAIdata.<p>Collecting and labeling images for computer vision takes time, especially when you need specific objects, viewpoints, or conditions. We built synth"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "What is Synthetic Data Generation (SDG)?",
+          "url": "https://www.nvidia.com/en-us/glossary/synthetic-data-generation/",
+          "description": "The process of creating text, 2D or 3D images in the visual and non-visual spectrum from computer simulations, generative AI models, or a combination of the two.",
+          "snippet": "The process of creating text, 2D or 3D images in the visual and non-visual spectrum from computer simulations, generative AI models, or a combination of the two.\n\nCheck NVIDIA Glossary for more details",
+          "page_age": "2024-10-08T00:00:00"
+        },
+        {
+          "title": "What is synthetic data? - MOSTLY AI powered by Syntho",
+          "url": "https://mostly.ai/synthetic-data-basics",
+          "description": "What is synthetic data and what it isn't? What are the different types of synthetic data and how is synthetic data used? Everything you need to know.",
+          "snippet": "# Synthetic Data Basics\nSynthetic data is generated by advanced Generative AI models trained on real-world datasets. These models learn the patterns, correlations, and statistical properties of the source data, then produce new, artificial records that are statistically identical to the original but contain no personally identifiable information (PII). This makes synthetic data ideal for analytics, testing, and AI training while enabling privacy-preserving data use and broad sharing without compliance risks",
+          "page_age": "2025-08-06T13:36:08"
+        },
+        {
+          "title": "What is Synthetic Data? - Synthetic Data Explained - AWS",
+          "url": "https://aws.amazon.com/what-is/synthetic-data/",
+          "description": "What is Synthetic Data how and why businesses use Synthetic Data, and how to use Synthetic Data with AWS.",
+          "snippet": "# What is Synthetic Data?\n## What is synthetic data?\nSynthetic data is data generated by an algorithm rather than observed from real-world measurements, for example by generative AI technologies. A synthetic data set has the same mathematical properties as the actual data it is based on, but only for information that is permitted to be inferred especially when based on the source data's labeling. Organizations use synthetic data for research, testing, new development, and machine learning research. Recent innovations in AI have made synthetic data generation efficient and fast but have also increased its importance in data regulatory concerns",
+          "page_age": "2026-08-20T20:36:28"
+        },
+        {
+          "title": "What is synthetic data and how is it used?",
+          "url": "https://cloud.google.com/discover/what-is-synthetic-data",
+          "description": "What is synthetic data? Learn how artificially generated data solves privacy and scarcity challenges for AI training. Explore generation techniques.",
+          "snippet": "# What is synthetic data?\nSynthetic data is information that's artificially generated by computer algorithms instead of being collected from real-world events. Think of it like a flight simulator for artificial intelligence (AI). Just as a pilot learns to fly in a simulated cockpit without risking a real plane, AI models can learn to recognize patterns using simulated data without risking user privacy",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "c45fd5ca6eee",
+      "title": "Show HN: Community curated list of 310 AI providers offering $4.3k free credits",
+      "summary": "Show HN: Community curated list of 310 AI providers offering $4.3k free credits",
+      "offer_type": "free_credits",
+      "value": "$4.3",
+      "promo_code": "",
+      "product": "Community",
+      "url": "https://www.uprouter.online/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.7,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "opensrcme",
+          "url": "https://www.uprouter.online/",
+          "text": "Hey people! I have been compiling a directory of AI API providers which provide a combined total of $4.3k in free API credits and I&#x27;m super proud of it so far. It serves as a community-curated di"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "COMMUNITY Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/community",
+          "description": "The meaning of COMMUNITY is a unified body of individuals. How to use community in a sentence.",
+          "snippet": "The meaning of COMMUNITY is a unified body of individuals.\n\na unified body of individuals: such as; the people with common interests living in a particular area; broadly : the area itself; a group of people with a common characteristic or interest living together within a larger society… See the full definition\nDictionary",
+          "page_age": "2026-09-08T00:00:00"
+        },
+        {
+          "title": "Community (TV series)",
+          "url": "https://en.wikipedia.org/wiki/Community_(TV_series)",
+          "description": "",
+          "snippet": "# Community (TV series)\n**Community**\n\n- **Genre**: Sitcom Surreal humor Satire\n- **Created by**: Dan Harmon\n- **Showrunners**: Dan Harmon (seasons 1–3, 5–6) David Guarascio (season 4) Moses Port (season 4)\n- **Starring**: Joel McHale Gillian Jacobs Danny Pudi Yvette Nicole Brown Alison Brie Donald Glover Ken Jeong Chevy Chase Jim Rash\n- **Opening theme**: \"At Least It Was Here\" by the 88\n- **Composer**: Ludwig Göransson",
+          "page_age": "2026-09-08T18:09:51"
+        },
+        {
+          "title": "Watch Community",
+          "url": "https://www.netflix.com/title/70155589",
+          "description": "After his bachelor's degree is revoked, lawyer Jeff Winger returns to community college, where he forms a study group with a few oddballs. Watch trailers & learn more.",
+          "snippet": "After his bachelor's degree is revoked, lawyer Jeff Winger returns to community college, where he forms a study group with a few oddballs.\nOh no! This title currently isn’t available to watch in your country",
+          "page_age": "2023-02-13T00:00:00"
+        },
+        {
+          "title": "COMMUNITY",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/community",
+          "description": "COMMUNITY meaning: 1. the people living in one particular area or people who are considered as a unit because of their…. Learn more.",
+          "snippet": "COMMUNITY meaning: 1. the people living in one particular area or people who are considered as a unit because of their….",
+          "page_age": "2026-09-09T01:51:17"
+        }
+      ]
+    },
+    {
+      "id": "b751359a8d1b",
+      "title": "Show HN: Ardent, a code-first agent for non-engineering work",
+      "summary": "Show HN: Ardent, a code-first agent for non-engineering work",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "FIRST",
+      "product": "Ardent",
+      "url": "https://ardent.ai/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.69,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "nkohari",
+          "url": "https://ardent.ai/",
+          "text": "I’m Nate, the founder of Ardent. We just shipped our public beta, and we’d love your thoughts!<p>Ardent is an agent running in a desktop (Electron) app built to help with knowledge work, designed for "
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "ARDENT definition in American English",
+          "url": "https://www.collinsdictionary.com/us/dictionary/english/ardent",
+          "description": "4 senses: 1. expressive of or characterized by intense desire or emotion; passionate 2. intensely enthusiastic; eager 3..... Click for more definitions.",
+          "snippet": "4 senses: 1. expressive of or characterized by intense desire or emotion; passionate 2. intensely enthusiastic; eager 3.....\nEnglish\nFrench\nGerman\nItalian\nSpanish\nHindi\nChinese\nKorean\nJapanese\n×",
+          "page_age": "2020-02-13T00:00:00"
+        },
+        {
+          "title": "ARDENT Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/ardent",
+          "description": "ARDENT definition: having, expressive of, or characterized by intense feeling; passionate; fervent. See examples of ardent used in a sentence.",
+          "snippet": "ARDENT definition: having, expressive of, or characterized by intense feeling; passionate; fervent.",
+          "page_age": "2025-12-04T17:24:58"
+        },
+        {
+          "title": "ARDENT Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/ardent",
+          "description": "The meaning of ARDENT is characterized by warmth of feeling typically expressed in eager zealous support or activity. How to use ardent in a sentence. Synonym Discussion of Ardent.",
+          "snippet": "The meaning of ARDENT is characterized by warmth of feeling typically expressed in eager zealous support or activity.\n\ncharacterized by warmth of feeling typically expressed in eager zealous support or activity; fiery, hot; shining, glowing… See the full definition\nDictionary",
+          "page_age": "2026-08-30T00:00:00"
+        },
+        {
+          "title": "Ardent - Definition, Meaning & Synonyms",
+          "url": "https://www.vocabulary.com/dictionary/ardent",
+          "description": "If you are ardent, you are passionate about something. A pop star's ardent admirers might go so crazy at his concert that they faint from excitement.",
+          "snippet": "# ardent\n/ˈɑrdnt/\n\n/ˈɑdənt/\nIPA guide\n\nIf you are *ardent*, you are passionate about something. A pop star's *ardent* admirers might go so crazy at his concert that they faint from excitement",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "a3126b32a04e",
+      "title": "minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet.",
+      "summary": "minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet.",
+      "offer_type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://glama.ai/mcp/connectors/uk.minia2a/minia2a-mcp",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://glama.ai/mcp/connectors/uk.minia2a/minia2a-mcp",
+          "text": "minia2a-mcp Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet."
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "GitHub - minia2auk/minia2a-mcp: Remote MCP server for minia2a.uk ...",
+          "url": "https://github.com/minia2auk/minia2a-mcp",
+          "description": "Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet. - minia2auk/minia2a-mcp",
+          "snippet": "Remote MCP server for minia2a.uk — 1,680+ x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per wallet. - minia2auk/minia2a-mcp",
+          "page_age": ""
+        },
+        {
+          "title": "minia2a-mcp by minia2a-org",
+          "url": "https://glama.ai/mcp/servers/minia2a-org/minia2a-mcp",
+          "description": "MCP server for the x402 micropayment marketplace minia2a.uk, enabling AI agents to discover, call, and pay for 1,700+ services using USDC micropayments with no API keys or subscriptions.",
+          "snippet": "MCP server for the x402 micropayment marketplace minia2a.uk, enabling AI agents to discover, call, and pay for 1,700+ services using USDC micropayments with no API keys or subscriptions. Supports registration, credits, service browsing, and autonomous calling with Claude Code auto-mode.",
+          "page_age": ""
+        },
+        {
+          "title": "minia2a-mcp by minia2a",
+          "url": "https://glama.ai/mcp/servers/minia2a/minia2a-mcp",
+          "description": "Enables AI agents to discover, call, and pay for 170+ x402 micropayment services via the minia2a marketplace, with automatic USDC payments and no API keys or subscriptions.",
+          "snippet": "Enables AI agents to discover, call, and pay for 170+ x402 micropayment services via the minia2a marketplace, with automatic USDC payments and no API keys or subscriptions.\n\nminia2a",
+          "page_age": ""
+        },
+        {
+          "title": "minia2a-mcp by minia2auk",
+          "url": "https://glama.ai/mcp/servers/minia2auk/minia2a-mcp",
+          "description": "minia2a.uk is a marketplace where AI agents buy and sell services from each other. Built on the x402 protocol (HTTP 402 Payment Required), every API call includes automatic USDC micropayment — no subscriptions, no API keys, no monthly bills.",
+          "snippet": "# minia2a-mcp\nOfficial Favorite\n\nby minia2auk\n\nOverview Schema Source Related Servers Discussions Admin\n\nTypeScript\n\nRemote\n\nThis server lets AI agents discover, trial, pay for, and call x402 micropayment services on minia2a.uk using USDC, with support for wallet registration, free trials, and Claude Code auto-mode readiness checks",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "8b6ed31c87b3",
+      "title": "Free trial",
+      "summary": "Free trial",
+      "offer_type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://claudecoupons.com/claude-free-trial",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://claudecoupons.com/claude-free-trial",
+          "text": "Free trial"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "T-Mobile Trial: Try Our 5G & Satellite Network, Free eSIM Trial Today",
+          "url": "https://www.t-mobile.com/offers/free-trial",
+          "description": "Try our 5G and satellite network free for 30 days. No commitment or credit card required. Keep your number and see how our network stacks up.",
+          "snippet": "Try our 5G and satellite network free for 30 days. No commitment or credit card required. Keep your number and see how our network stacks up.\n\nT-MOBILE\n\nTRIAL",
+          "page_age": "2022-01-23T00:00:00"
+        },
+        {
+          "title": "What is Free Trial? - Chargebee Glossaries",
+          "url": "https://www.chargebee.com/resources/glossaries/what-is-free-trial/",
+          "description": "What is a free trial and how can you leverage this acquisition model for your SaaS business? Get the answers and more here.",
+          "snippet": "## Login\n\n- Billing\n- Receivables\n- RevRec\n- Growth\n\n# What is Free Trial?\n\nA free trial is an acquisition model where a product/service is offered to customers for a limited period of time, for free, so that they can learn about the product and discover value before actually paying for it",
+          "page_age": "2020-11-03T10:07:43"
+        },
+        {
+          "title": "Verizon Free Trial FAQs - Mobile phone service free for 30 days ...",
+          "url": "https://www.verizon.com/support/verizon-free-trial-faqs/",
+          "description": "Learn how to try Verizon's mobile phone service for free for 30 days with no obligation. Keep your current phone number and carrier service during your trial.",
+          "snippet": "Learn how to try Verizon's mobile phone service for free for 30 days with no obligation. Keep your current phone number and carrier service during your trial.\nSupport\nEspañol\nMobile\nMobile",
+          "page_age": "2023-03-23T00:00:00"
+        },
+        {
+          "title": "FREE TRIAL",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/free-trial",
+          "description": "FREE TRIAL meaning: a product or service that is offered to customers for free for a short period of time so they can…. Learn more.",
+          "snippet": "FREE TRIAL meaning: a product or service that is offered to customers for free for a short period of time so they can…. Learn more",
+          "page_age": "2026-08-19T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "da4fdf46c6d6",
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models",
+      "summary": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models",
+      "offer_type": "free_credits",
+      "value": "$0.05",
+      "promo_code": "",
+      "product": "",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://tokenmix.ai/blog/groq-api-pricing",
+          "text": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Groq API Pricing & Free Tier Rate Limits 2026 - Dmytro Klymentiev",
+          "url": "https://klymentiev.com/blog/groq-pricing",
+          "description": "Groq pricing in 2026: Llama 3.1 8B $0.05/M, Llama 70B $0.59/M, Kimi K2 $1/M. Free tier limits, Batch + caching 75% off, LPU speed.",
+          "snippet": "# Groq API Pricing & Free Tier Rate Limits 2026\n*Last updated: June 2026*\n\nGroq pricing in June 2026 ranges from **$0.05 per million input tokens** (Llama 3.1 8B) to **$1.00 per million** (Kimi K2), making it the **cheapest fast inference option** for open-source LLMs. The free tier requires no credit card and gives every developer access to all supported models at 30 requests per minute",
+          "page_age": "2026-06-10T00:00:00"
+        },
+        {
+          "title": "Groq API Tutorial 2026: Free, 315 TPS, First Call in 3 Minutes ...",
+          "url": "https://tokenmix.ai/blog/groq-api-tutorial-getting-started",
+          "description": "Groq API tutorial 2026: free tier no credit card, 315 TPS Llama (3-10x faster than GPU). Setup + first call in 3 min. Python + Node.js, rate limit patterns.",
+          "snippet": "# Groq API Tutorial: Getting Started With the Fastest AI Inference in 2026\n## Quick Reference: Groq API Models and Pricing\n| Model | Model ID | Input $/M | Output $/M | Speed (tok/s) | Context | Free Tier |\n| --- | --- | --- | --- | --- | --- | --- |\n| Llama 3.3 70B | llama-3.3-70b-versatile | $0.59 | $0.79 | 200-350 | 128K | 6K TPM |\n| Llama 4 Scout | meta-llama/llama-4-scout-17b-16e-instruct | $0.11 | $0.34 | 300-500 | 512K | 6K TPM |\n| Llama 4 Maverick | meta-llama/llama-4-maverick-17b-128e-instruct | $0.50 | $0.77 | 150-250 | 256K | 6K TPM |\n| Mistral Saba | mistral-saba-24b | $0.20 | $0.60 | 250-400 | 32K | 6K TPM |\n| DeepSeek R1 Distill | deepseek-r1-distill-llama-70b | $0.75 | $0.99 | 150-250 | 128K | 6K TPM |\n| Gemma 2 9B | gemma2-9b-it | $0.20 | $0.20 | 400-600 | 8K | 6K TPM |",
+          "page_age": "2026-04-29T06:46:50"
+        },
+        {
+          "title": "Groq Pricing 2026: $0.05-$3.00/M Tokens",
+          "url": "https://costbench.com/software/llm-api-providers/groq/",
+          "description": "Groq API pricing: Llama 3.1 8B at $0.05/M input tokens, Llama 3.3 70B at $0.59/$0.79/M tokens. Free tier available. 500-1,000+ tokens/second on LPU hard...",
+          "snippet": "# Groq Pricing 2026\n## All Groq Plans & Pricing\n| Plan | Monthly | Annual | Best For |\n| --- | --- | --- | --- |\n| ▾ Free rate\\_limit: Limited requests per minute | Free | Free | Prototyping and evaluation |\n| Verified pricing · last checked July 2026 · 3 sources Get this price at Groq → |  |  |  |\n| What's included at Free Best for: Prototyping and evaluation Free API key Pay-as-you-go access All models available Rate-limited Limits rate\\_limit Limited requests per minute |  |  |  |\n| ▾ Developer | Contact Sales | Contact Sales | Production API usage |\n| Verified pricing · last checked July 2026 · 3 sources Get this price at Groq → |  |  |  |\n| What's included at Developer Best for: Production API usage Llama 3.1 8B Instant at $0.05/$0.08 per M tokens (in/out) GPT OSS 20B at $0.075/$0.30 per M tokens (cached input $0.0375) GPT OSS 120B at $0.15/$0.60 per M tokens (cached input $0.075) Llama 3.3 70B Versatile at $0.59/$0.79 per M tokens Qwen 3.6 27B at $0.60/$3.00 per M tokens Kimi K2 at $1.00/$3.00 per M tokens (cached input $0.50) Whisper Large v3 at $0.111/hour, Turbo at $0.04/hour TTS: Canopy Labs Orpheus English $22/M chars, Arabic $40/M chars Built-in tools: Web search $5-$8/1000 req, code execution $0.18/hour Prompt caching: 50% off input tokens on cache hit Batch API: 50% lower cost (24h to 7-day window) Up to 1,000 tokens/second on LPU hardware |  |  |  |\n| ▾ Enterprise | Contact Sales | Contact Sales | High-volume enterprise deployments |\n| Verified pricing · last checked July 2026 · 3 sources Get this price at Groq → |  |  |  |\n| What's included at Enterprise Best for: High-volume enterprise deployments Dedicated support Custom rate limits Large-scale solutions SLA guarantees On-prem deployment options Enterprise-only models: Minimax M2.7 Fine-tuned models available on request |  |  |  |\n\nView all features by plan (compare side-by-side)",
+          "page_age": "2026-07-29T00:00:00"
+        },
+        {
+          "title": "Groq pricing in 2026: every model, free tier, and hidden discounts ...",
+          "url": "https://www.eesel.ai/blog/groq-pricing",
+          "description": "Complete Groq API pricing guide for 2026. Free tier limits, paid model costs per 1M tokens, Whisper pricing, batch API discounts, and rate limit details.",
+          "snippet": "# Groq pricing in 2026: every model, free tier, and hidden discounts explained\n## Groq free tier: what you actually get\n| Model | RPM | TPM | Requests/day |\n| --- | --- | --- | --- |\n| llama-3.1-8b-instant | 30 | 6,000 | 14,400 |\n| llama-3.3-70b-versatile | 30 | 12,000 | 1,000 |\n| meta-llama/llama-4-scout-17b-16e-instruct | 30 | 30,000 | 1,000 |\n| openai/gpt-oss-20b | 30 | 8,000 | 1,000 |\n| openai/gpt-oss-120b | 30 | 8,000 | 1,000 |\n| qwen/qwen3-32b | 60 | 6,000 | 1,000 |\n| groq/compound | 30 | 70,000 | 250 |\n| whisper-large-v3 | 20 | - | 2,000 audio reqs |\n| whisper-large-v3-turbo | 20 | - | 2,000 audio reqs |",
+          "page_age": "2026-06-08T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "d6ce117196a2",
+      "title": "Hugging Face free tier",
+      "summary": "Hugging Face free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Hugging Face",
+      "url": "https://itsfree.ai/provider/huggingface/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/huggingface/",
+          "text": "Hugging Face free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "What Is Hugging Face?",
+          "url": "https://www.techtarget.com/whatis/definition/Hugging-Face",
+          "description": "Discover Hugging Face, an AI company renowned for its Transformers library, offering cutting-edge models for diverse natural language processing tasks.",
+          "snippet": "Discover Hugging Face, an AI company renowned for its Transformers library, offering cutting-edge models for diverse natural language processing tasks.\nDefinition",
+          "page_age": "2023-10-30T10:24:00"
+        },
+        {
+          "title": "What Is Hugging Face?",
+          "url": "https://www.coursera.org/articles/what-is-hugging-face",
+          "description": "Discover more about Hugging Face’s uses with natural language processing and machine learning applications. Learn about its pre-trained models, ecosystem, and use cases in chatbots, sentiment analysis, and data science.",
+          "snippet": "# What Is Hugging Face?\n## Key takeaways\nHugging Face is a popular platform for simplifying the training and deployment of machine learning models.\n\n- You can upload machine learning models to Hugging Face for tasks like image classification and processing, text summarization, translation, and question answering.\n\n- The Hugging Face community is active and trustworthy, regularly contributing new models, tutorials, and updates",
+          "page_age": "2026-05-30T20:56:09"
+        },
+        {
+          "title": "Hugging Face",
+          "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+          "description": "",
+          "snippet": "# Hugging Face\n- **Type**: Private\n- **Industry**: Artificial intelligence\n- **Founded**: 2016 (2016)\n- **Headquarters**: Manhattan, New York City\n- **Area served**: Worldwide\n- **Key people**: Clément Delangue (CEO) Julien Chaumond (CTO) Thomas Wolf (CSO)\n- **Revenue**: Increase US$150 million (2025)\n- **Number of employees**: 250 (2025)\n- **Parent**: Nvidia (100%)",
+          "page_age": "2026-09-10T14:33:54"
+        },
+        {
+          "title": "OpenAI–HuggingFace incident",
+          "url": "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident",
+          "description": "",
+          "snippet": "# OpenAI–HuggingFace incident\n**OpenAI–HuggingFace incident**\n\n**Malware details**\n\n- **Type**: Autonomous intrusion, remote code execution, credential harvesting\n\n**Cyberattack event**",
+          "page_age": "2026-09-17T03:02:33"
+        }
+      ]
+    },
+    {
+      "id": "b8e3845f5f9b",
+      "title": "NVIDIA NIM free tier",
+      "summary": "NVIDIA NIM free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "NVIDIA NIM",
+      "url": "https://itsfree.ai/provider/nvidia-nim/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/nvidia-nim/",
+          "text": "NVIDIA NIM free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "NIM for Developers",
+          "url": "https://developer.nvidia.com/nim",
+          "description": "NVIDIA NIM is a set of accelerated inference microservices that allow organizations to run AI models on NVIDIA GPUs anywhere.",
+          "snippet": "NVIDIA NIM is a set of accelerated inference microservices that allow organizations to run AI models on NVIDIA GPUs anywhere.\n\nRun AI models on NVIDIA GPUs in the cloud, data center, workstations, and PCs.",
+          "page_age": "2026-04-27T00:00:00"
+        },
+        {
+          "title": "Overview — NVIDIA NIM for Large Language Models (LLM) and Vision ...",
+          "url": "https://docs.nvidia.com/nim/large-language-models/latest/about-nim-llm/overview.html",
+          "description": "",
+          "snippet": "# Overview\nNVIDIA NIM for Large Language Models (LLM) and Vision Language Models (VLM) (NIM LLM and VLM) is a production-ready way to run large language models and vision language models with NVIDIA inference microservices (NIMs). NIM LLM and VLM brings state-of-the-art LLM and VLM serving to enterprise and developer workflows with validated containers, curated weights, and direct alignment with upstream inference engines",
+          "page_age": "2026-09-11T00:00:00"
+        },
+        {
+          "title": "NVIDIA NIM",
+          "url": "https://perspectives.nvidia.com/nim/",
+          "description": "NVIDIA NIM (NVIDIA Inference Microservices) is a set of prebuilt, containerized inference microservices that let organizations run AI models on NVIDIA GPUs anywhere—in the cloud, data center, workstations, and PCs.",
+          "snippet": "# NVIDIA NIM\nNVIDIA NIM (NVIDIA Inference Microservices) is a set of prebuilt, containerized inference microservices that let organizations run AI models on NVIDIA GPUs anywhere—in the cloud, data center, workstations, and PCs. Each container bundles an optimized model with its runtime and exposes industry-standard APIs for simple integration into AI applications, with inference engines built on frameworks like TensorRT, TensorRT-LLM, vLLM, and SGLang",
+          "page_age": "2026-08-25T00:00:00"
+        },
+        {
+          "title": "NVIDIA NIM Microservices for Accelerated AI Inference",
+          "url": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+          "description": "Prebuilt, optimized inference microservices to deploy AI foundation models with security and stability on any NVIDIA-accelerated infrastructure.",
+          "snippet": "Prebuilt, optimized inference microservices to deploy AI foundation models with security and stability on any NVIDIA-accelerated infrastructure.",
+          "page_age": "2026-04-28T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "e2ff39c47817",
+      "title": "ModelScope free tier",
+      "summary": "ModelScope free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "ModelScope",
+      "url": "https://itsfree.ai/provider/cloud-modelscope/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/cloud-modelscope/",
+          "text": "ModelScope free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "modelscope/README_ja.md at master · modelscope/modelscope",
+          "url": "https://github.com/modelscope/modelscope/blob/master/README_ja.md",
+          "description": "ModelScope: bring the notion of Model-as-a-Service to life. - modelscope/README_ja.md at master · modelscope/modelscope",
+          "snippet": "ModelScope: bring the notion of Model-as-a-Service to life. - modelscope/README_ja.md at master · modelscope/modelscope\n\nModelScope: bring the notion of Model-as-a-Service to life.",
+          "page_age": ""
+        },
+        {
+          "title": "ModelScope",
+          "url": "https://www.modelscope.ai/home",
+          "description": "ModelScope——A one-stop service that brings together the most advanced machine learning models from various fields, offering model exploration experience, inference, training, deployment, and application.",
+          "snippet": "ModelScope——A one-stop service that brings together the most advanced machine learning models from various fields, offering model exploration experience, inference, training, deployment, and application",
+          "page_age": ""
+        },
+        {
+          "title": "GitHub - modelscope/modelscope: ModelScope: bring the notion of ...",
+          "url": "https://github.com/modelscope/modelscope",
+          "description": "ModelScope: bring the notion of Model-as-a-Service to life. - modelscope/modelscope",
+          "snippet": "# Introduction\nModelScope is built upon the notion of “Model-as-a-Service” (MaaS). It seeks to bring together most advanced machine learning models from the AI community, and streamlines the process of leveraging AI models in real-world applications. The core ModelScope library open-sourced in this repository provides the interfaces and implementations that allow developers to perform model inference, training and evaluation",
+          "page_age": "2023-08-03T09:35:02"
+        },
+        {
+          "title": "Modelscope AI Text to Video",
+          "url": "https://modelscopeai.com/",
+          "description": "Modelscope AI is an Text to Video AI model developed for generating video content from textual descriptions. This technology uses advancements in natural",
+          "snippet": "Skip to content\n\n##### Modelscope AI Text to Video \\| AI Video Generator\n\nModelscope AI is an Text to Video AI model developed for generating video content from textual descriptions. This technology uses advancements in natural language processing (NLP) and computer vision to create videos that correspond to given text prompts.\n\n**Price:** Free\n\n**Operating System:** Web Application\n\n**Application Category:** AI Video Generator\n\n**Editor's Rating:** 4",
+          "page_age": "2025-11-05T12:15:53"
+        }
+      ]
+    },
+    {
+      "id": "3493978d4f7e",
+      "title": "Cloudflare Workers AI free tier",
+      "summary": "Cloudflare Workers AI free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://itsfree.ai/provider/cloudflare-workers-ai/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/cloudflare-workers-ai/",
+          "text": "Cloudflare Workers AI free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Cloudflare Workers AI Tutorial: REST, Wrangler, and SDK",
+          "url": "https://eastondev.com/blog/en/posts/ai/20251121-workers-ai-tutorial/",
+          "description": "Complete Workers AI tutorial: Free access to Llama 3.1, Mistral and other open-source LLMs. 10,000 Neurons daily free tier, 90% cost savings compared to OpenAI API. Includes complete code examples and real-world use cases.",
+          "snippet": "Complete Workers AI tutorial: Free access to Llama 3.1, Mistral and other open-source LLMs. 10,000 Neurons daily free tier, 90% cost savings compared to OpenAI API. Includes complete code examples and real-world use cases",
+          "page_age": "2026-07-30T10:35:39"
+        },
+        {
+          "title": "Cloudflare Workers AI Free: 82 Models, 10,000 Neurons a Day",
+          "url": "https://toolfreebie.com/cloudflare-workers-ai/",
+          "description": "The free Workers plan gives 10,000 neurons a day across 82 models. Converted into real usage that is about 15-25 text generations, or roughly 230 FLUX images - one shared budget, no card, hard-stops instead of billing.",
+          "snippet": "# Cloudflare Workers AI Free: 82 Models on 10,000 Neurons a Day\n**Quick answer:** Cloudflare Workers AI is a serverless inference platform that runs 82 open models — text, image, speech, and embeddings — at the edge across 300+ cities. The free tier gives you **10,000 neurons/day with no credit card** (roughly 15–25 Llama 3.1 8B text calls), and it’s the only free AI API that covers all four modalities in a single key",
+          "page_age": "2026-09-08T15:36:07"
+        },
+        {
+          "title": "Cloudflare AI Gateway Pricing Explained For 2026",
+          "url": "https://www.truefoundry.com/blog/cloudflare-ai-gateway-pricing",
+          "description": "Learn how Cloudflare AI Gateway pricing works, what impacts cost, and when teams consider alternatives for predictable AI spend. Compare Cloudflare plans now.",
+          "snippet": "# Cloudflare AI Gateway Pricing: Costs, Hidden Fees, and Alternatives\n## Cloudflare AI Gateway Pricing Tiers\nFor example, Cloudflare’s free (Workers Free) tier includes **100,000 total AI Gateway logs** per month (across all gateways) and stops logging beyond that. To increase limits, you must upgrade to a Workers Paid plan, which provides **1,000,000 logs total**. Notably, Cloudflare does *not* charge per log on the free or paid tiers – you either stay within the included logs or upgrade",
+          "page_age": "2026-08-31T00:00:00"
+        },
+        {
+          "title": "+ 42 more models (Cloudflare Workers AI): Free Limits + How to Use",
+          "url": "https://www.ayautomate.com/free-models/cloudflare-workers-ai-42-more-models",
+          "description": "Is + 42 more models by Cloudflare Workers AI free? Yes: 10K neurons/day (shared). Setup steps, quickstart, and the catch.",
+          "snippet": "# + 42 more models by Cloudflare Workers AI\n## Frequently asked\n### Is + 42 more models free?\nYes. Cloudflare Workers AI offers it as Free API tier with these limits: 10K neurons/day (shared). No credit card is required",
+          "page_age": "2026-07-23T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": "c2c67aac834d",
+      "title": "Ollama Cloud free tier",
+      "summary": "Ollama Cloud free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Ollama Cloud",
+      "url": "https://itsfree.ai/provider/ollama-cloud/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/ollama-cloud/",
+          "text": "Ollama Cloud free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Ollama Cloud Review: From Local LLMs to Seamless Cloud Inference ...",
+          "url": "https://awesomeagents.ai/reviews/review-ollama-cloud/",
+          "description": "Ollama Cloud extends the popular local LLM runner to the cloud, letting you push models from your laptop and serve them globally. We test latency, cold starts, pricing, and the developer experience against dedicated inference providers.",
+          "snippet": "# Ollama Cloud Review: From Local LLMs to Seamless Cloud Inference\nOllama Cloud extends the popular local LLM runner to the cloud, letting you push models from your laptop and serve them globally. We test latency, cold starts, pricing, and the developer experience against dedicated inference providers.\nShare",
+          "page_age": "2026-02-27T16:25:32"
+        },
+        {
+          "title": "Ollama Cloud Models: Remote Inference Explained - Serverman",
+          "url": "https://www.serverman.co.uk/ai/ollama/ollama-cloud/",
+          "description": "Ollama Cloud routes the :cloud suffix to remote datacentres — no GPU needed. Covers all 37 models, pricing tiers, and a local-vs-cloud decision guide.",
+          "snippet": "Ollama Cloud routes the :cloud suffix to remote datacentres — no GPU needed. Covers all 37 models, pricing tiers, and a local-vs-cloud decision guide.",
+          "page_age": "2026-06-29T20:41:22"
+        },
+        {
+          "title": "Ollama Cloud Free vs Pro — Usage Limits, Pricing & What You ...",
+          "url": "https://dev.to/amareswer/ollama-cloud-free-vs-pro-usage-limits-pricing-what-you-actually-get-2026-3ieo",
+          "description": "Originally published on DevToolHub, where I keep this guide updated every time Ollama revises its... Tagged with ollama, ai, llm, devops.",
+          "snippet": "# Ollama Cloud Free vs Pro — Usage Limits, Pricing & What You Actually Get (2026)\n## What Ollama Cloud is\nOllama Cloud is a managed inference service that runs large open-source models on Ollama's datacenter GPUs — no local GPU required. The key advantage: your existing local Ollama setup works identically with cloud models. No code rewrites, no new SDKs.",
+          "page_age": "2026-06-11T00:39:50"
+        },
+        {
+          "title": "Cloud - Ollama",
+          "url": "https://docs.ollama.com/cloud",
+          "description": "",
+          "snippet": "# Cloud\n## Cloud Models\nOllama’s cloud models are a new kind of model in Ollama that can run without a powerful GPU. Instead, cloud models are automatically offloaded to Ollama’s cloud service while offering the same capabilities as local models, making it possible to keep using your local tools while running larger models that wouldn’t fit on a personal computer",
+          "page_age": "2026-07-02T02:43:28"
+        }
+      ]
+    },
+    {
+      "id": "3274e26742ad",
+      "title": "OpenRouter free tier",
+      "summary": "OpenRouter free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "OpenRouter",
+      "url": "https://itsfree.ai/provider/openrouter/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/openrouter/",
+          "text": "OpenRouter free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "What is OpenRouter? A Guide with Practical Examples",
+          "url": "https://www.codecademy.com/article/what-is-openrouter",
+          "description": "Learn what OpenRouter is and how it unifies 400+ AI models through one API, with setup guidance and practical examples.",
+          "snippet": "Learn what OpenRouter is and how it unifies 400+ AI models through one API, with setup guidance and practical examples.",
+          "page_age": ""
+        },
+        {
+          "title": "What is Open Router? A Unified Gateway for Large Language Models ...",
+          "url": "https://medium.com/@tahirbalarabe2/what-is-open-router-a-unified-gateway-for-large-language-models-8b15597af7b7",
+          "description": "What is Open Router? A Unified Gateway for Large Language Models I’ve been noticing more people talking about Open Router lately. It’s one of those things that sounds like it should be obvious …",
+          "snippet": "# What is Open Router? A Unified Gateway for Large Language Models\n## What It Is\nPress enter or click to view image in full size\n\nOpen Router is a service that gives you access to a bunch of different large language models through a single API. Instead of signing up for OpenAI, Anthropic, and a dozen other AI companies separately, you sign up for Open Router once and then you can call any of them",
+          "page_age": "2026-03-10T13:17:21"
+        },
+        {
+          "title": "About - The Unified Interface For LLMs",
+          "url": "https://openrouter.ai/about",
+          "description": "OpenRouter provides developers with seamless access to 500+ AI models through a single API. Backed by leading investors and trusted by millions.",
+          "snippet": "OpenRouter provides developers with seamless access to 500+ AI models through a single API. Backed by leading investors and trusted by millions",
+          "page_age": ""
+        },
+        {
+          "title": "OpenRouter · GitHub",
+          "url": "https://github.com/OpenRouterTeam",
+          "description": "The unified interface for LLMs. Find the best models & prices for your prompts. - OpenRouter",
+          "snippet": "# OpenRouter\nThe unified interface for LLMs. Find the best models & prices for your prompts.\n- 4.1k followers\n- https://openrouter.ai\nOpenRouter\n\n**The unified interface for LLMs.**\n\nFind the best models & prices for your prompts — through a single, OpenAI-compatible API.",
+          "page_age": "2026-09-13T22:02:39"
+        }
+      ]
+    },
+    {
+      "id": "a1c71164d658",
+      "title": "Google AI Studio free tier",
+      "summary": "Google AI Studio free tier",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Studio",
+      "url": "https://itsfree.ai/provider/google-ai-studio/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/provider/google-ai-studio/",
+          "text": "Google AI Studio free tier"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Studio",
+          "url": "https://en.wikipedia.org/wiki/Studio",
+          "description": "",
+          "snippet": "# Studio\n**Studio**\n\nIn the Studio, by Marie Bashkirtseff, 1881, oil on canvas, Dnipro State Art Museum, Dnipro, Ukraine",
+          "page_age": "2026-08-22T20:54:05"
+        },
+        {
+          "title": "STUDIO Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/studio",
+          "description": "The meaning of STUDIO is the working place of a painter, sculptor, or photographer.",
+          "snippet": "The meaning of STUDIO is the working place of a painter, sculptor, or photographer.\n\nthe working place of a painter, sculptor, or photographer; a place for the study of an art (such as dancing, singing, or acting); a place where movies are made… See the full definition",
+          "page_age": "2026-09-08T19:19:23"
+        },
+        {
+          "title": "Studio: AI Apps to Achieve Anything, Created by Experts",
+          "url": "https://studio.com/",
+          "description": "Studio is a marketplace of AI-powered apps built by the world's most trusted experts — personalized coaching for health, fitness, business, music, and creativity.",
+          "snippet": "Studio is a marketplace of AI-powered apps built by the world's most trusted experts — personalized coaching for health, fitness, business, music, and creativity.",
+          "page_age": "2026-06-08T16:54:05"
+        },
+        {
+          "title": "Studio",
+          "url": "https://www.youtube.com/@Studio",
+          "description": "Studio is a hands-on learning platform for cultivating your creative side.\n\nStudio offers immersive learning and making experiences by the world’s most creative people, including GRAMMY-Award-winning artist H.E.R., magician David Blaine, Milk ...",
+          "snippet": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket\n\n© 2026 Google LLC\n\nStudio is a hands-on learning platform for cultivating your creative side.Studio offers immersive learning and making experiences by the world’s most creativ",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "0d4b7f73c39d",
+      "title": "Free APIs with no credit card",
+      "summary": "Free APIs with no credit card",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://itsfree.ai/free-ai-apis-without-credit-card/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://itsfree.ai/free-ai-apis-without-credit-card/",
+          "text": "Free APIs with no credit card"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Best Free AI API Without Credit Card: 2026 Developer Shortlist",
+          "url": "https://yangmao.ai/en/questions/best-free-ai-api-no-credit-card/",
+          "description": "Answer-first shortlist of free AI APIs you can test without a credit card: OpenRouter free models, SiliconFlow, Zhipu GLM, Qwen credits, Groq, and Cloudflare Workers AI.",
+          "snippet": "Answer-first shortlist of free AI APIs you can test without a credit card: OpenRouter free models, SiliconFlow, Zhipu GLM, Qwen credits, Groq, and Cloudflare Workers AI",
+          "page_age": ""
+        },
+        {
+          "title": "How to get Free AI Model APIs with 'Unlimited' Tokens",
+          "url": "https://pinggy.io/blog/free_ai_model_apis_unlimited_tokens_openrouter/",
+          "description": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.",
+          "snippet": "# How to get Free AI Model APIs with 'Unlimited' Tokens\nThe honest version is less exciting but more useful: OpenRouter gives you free, no-credit-card access to dozens of large language models with **zero cost per token** - but “unlimited” isn’t the right word. You get 20 requests per minute and either 50 or 1,000 requests per day depending on whether you’ve ever bought credits. No token cap, but a very real request cap",
+          "page_age": "2026-07-10T06:00:00"
+        },
+        {
+          "title": "Free LLM API — Free AI API Key, No Credit Card",
+          "url": "https://bazaarlink.ai/free",
+          "description": "Get a free LLM API key instantly. BazaarLink is a free OpenAI-compatible AI API gateway with all major AI models. Free AI API key — no credit card required. Use auto:free for zero-cost inference. Free agent AI API gateway.",
+          "snippet": "Get a free LLM API key instantly. BazaarLink is a free OpenAI-compatible AI API gateway with all major AI models. Free AI API key — no credit card required. Use auto:free for zero-cost inference. Free agent AI API gateway.\n\nFree — No Credit Card Required",
+          "page_age": ""
+        },
+        {
+          "title": "GitHub - OuterSpacee/free-ai-apis: A collective list of free AI ...",
+          "url": "https://github.com/OuterSpacee/free-ai-apis",
+          "description": "A collective list of free AI APIs for developers. 100+ APIs, 15 categories. No credit card required. - OuterSpacee/free-ai-apis",
+          "snippet": "# Free AI APIs\n## LLM / Text Generation\n| API | Description | Free Tier | Auth | Docs |\n| --- | --- | --- | --- | --- |\n| Google AI Studio | Gemini 2.5 Pro/Flash | 1,500 req/day, 2M context | apiKey | Docs |\n| Groq | Ultra-fast inference (Llama, Mixtral) | 1,000 req/day, 6K tokens/min | apiKey | Docs |\n| Cerebras | Fastest inference available | Free tier included | apiKey | Docs |\n| OpenRouter | 100+ models, some free | Several models at $0 | apiKey | Docs |\n| Hugging Face | 500K+ open-source models | Free Inference API | apiKey | Docs |\n| Mistral AI | Mistral/Mixtral models | Daily free token quota | apiKey | Docs |\n| Cohere | Command R models | Trial API keys, rate limited | apiKey | Docs |\n| Together AI | 100+ open-source models | $5 free credits | apiKey | Docs |\n| Fireworks AI | Fast open-source inference | $1 free credits | apiKey | Docs |\n| DeepInfra | Serverless model inference | Free credits on signup | apiKey | Docs |\n| Ollama | Run LLMs locally | Unlimited (local) | None | Docs |\n| LM Studio | Local model server | Unlimited (local) | None | Docs |\n| Puter | Free LLM API in browser | Free, no signup | None | Docs |\n| AIML API | 200+ models unified API | Free tier included | apiKey | Docs |\n| SambaNova | Fast inference platform | Free tier available | apiKey | Docs |\n| Novita AI | LLM and image APIs | $0.50 free credits | apiKey | Docs |\n| Hyperbolic | Open-source model hosting | Free tier available | apiKey | Docs |\n\nBack to top",
+          "page_age": ""
+        }
+      ]
+    },
+    {
+      "id": "644f5f9bc08f",
+      "title": "claiming Google AI Pro free for students",
+      "summary": "claiming Google AI Pro free for students",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Pro",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+          "text": "claiming Google AI Pro free for students"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "PRO Definition & Meaning",
+          "url": "https://www.dictionary.com/browse/pro",
+          "description": "PRO definition: in favor of a proposition, opinion, etc. See examples of pro used in a sentence.",
+          "snippet": "PRO definition: in favor of a proposition, opinion, etc. See examples of pro used in a sentence.\n\nJump To:\n\n- pro pro adverb in favor of a proposition, opinion, etc.\n- Pro Pro abbreviation proline.\n- PRO PRO public relations officer.\n- pro- pro- a prefix indicating favor for some party, system, idea, etc., without identity with the group (*pro-British; pro-Communist; proslavery* ), having *anti-* as its opposite.",
+          "page_age": "2026-06-07T00:00:00"
+        },
+        {
+          "title": "Pro - Definition, Meaning & Synonyms",
+          "url": "https://www.vocabulary.com/dictionary/pro",
+          "description": "Pro is a Latin root word meaning for. If you make a list of pros and cons, you are listing the reasons for doing something and the reasons not to, respectively.",
+          "snippet": "# pro\n/proʊ/\n\n/prəʊ/\nIPA guide\n\nOther forms: **pros**\n\n*Pro* is a Latin root word meaning for. If you make a list of *pros* and cons, you are listing the reasons for doing something and the reasons not to, respectively",
+          "page_age": "2025-11-02T00:00:00"
+        },
+        {
+          "title": "PRO Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/pro",
+          "description": "The meaning of PRO is an argument or evidence in affirmation. How to use pro in a sentence.",
+          "snippet": "The meaning of PRO is an argument or evidence in affirmation.\n\nan argument or evidence in affirmation; the affirmative side or one holding it… See the full definition",
+          "page_age": "2026-09-11T21:58:02"
+        },
+        {
+          "title": "PRO (linguistics)",
+          "url": "https://en.wikipedia.org/wiki/PRO_(linguistics)",
+          "description": "",
+          "snippet": "# PRO (linguistics)\nIn generative linguistics, **PRO** (called \"big PRO\", distinct from *pro*, \"small pro\" or \"little pro\") is a pronominal determiner phrase (DP) without phonological content. As such, it is part of the set of empty categories. The null pronoun PRO is postulated in the subject position of non-finite clauses. One property of PRO is that, when it occurs in a non-finite complement clause, it can be bound by the main clause subject (\"subject control\") or the main clause object (\"object control\")",
+          "page_age": "2025-11-26T06:30:15"
+        }
+      ]
+    },
+    {
+      "id": "7e468192edbb",
+      "title": "AI music generators with free tiers",
+      "summary": "AI music generators with free tiers",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.675,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/best-ai-music-generators/",
+          "text": "AI music generators with free tiers"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Best Free AI Music Generators 2026: 7 Free Tiers Tested",
+          "url": "https://toolchase.com/blog/best-free-ai-music-generators-2026/",
+          "description": "The 7 best free AI music generators in 2026, ranked by free song limits, commercial rights, and download rules, verified July 2026.",
+          "snippet": "# Best Free AI Music Generators in 2026: Ranked by What You Get for $0\n## TL;DR: the quick picks\n- **Best free music overall:** Suno AI: 10 full songs a day at $0, the most usable free ceiling for vocal tracks\n- **Best free song quality:** Udio: daily plus monthly free credits and unusually clean vocals\n- **Best free instant release:** Boomy: create unlimited and push one track to Spotify and TikTok free\n- **Best free for composers:** AIVA: generate and download three cinematic tracks a month, editable as MIDI",
+          "page_age": "2026-09-01T00:00:00"
+        },
+        {
+          "title": "What's The Best Free AI Music Generator? I Wasted Hours So You Won't",
+          "url": "https://makebestmusic.com/blog/whats-the-best-free-ai-music-generator",
+          "description": "Tested dozens of free AI music generators so you don't have to. Honest comparison of licensing, audio quality, and free tier limits for every creator type.",
+          "snippet": "# What's The Best Free AI Music Generator? I Wasted Hours So You Won't\n## Top Free AI Music Generators Ranked and Compared\n| Tool Name | Free Tier Details | Audio Quality | Commercial License on Free Tier | Best For | Key Limitation |\n| --- | --- | --- | --- | --- | --- |\n| MakeBestMusic | Free generations with no credit card required; text-to-music prompt workflow | High (MP3 export, clean mastering) | Yes — royalty-free commercial use included | Creators needing royalty-free music for videos, podcasts, games, and social content | Smaller platform ecosystem compared to Suno or Udio |\n| Suno | \\~50 credits/day (approximately 5 full songs daily) | Very high (studio-quality vocals and instrumentation) | No — commercial rights require paid plan | Full AI songs with vocals, rapid iteration | Free outputs are non-commercial; rights tied to subscription |\n| Udio | 10 daily + 100 monthly credits | Very high (up to 48kHz) | No — paid plan required for commercial use | Advanced editing, remix, and song refinement | Steeper learning curve; limited free credits |\n| Beatoven.ai | Unlimited previews; limited free minutes for download | Good (mood-optimized instrumentals) | Yes — per-download licensing included | Emotion-driven background music for video and podcasts | No vocal generation; downloads billed by duration on paid plans |\n| SOUNDRAW | Unlimited preview generations; no free downloads | Good (customizable stems and mixing) | No — subscription required for downloads and commercial use | Customizable instrumental tracks with structure editing | Free tier is listen-only; cannot export without paying |\n| AIVA | 3 downloads/month (non-commercial) | High (orchestral and cinematic focus, MIDI export) | No — Pro plan (\\~€49/month) for commercial rights | Cinematic scoring and orchestral composition | Free tier is non-commercial with strict download cap |\n| Remusic.ai | Limited free generations with basic export | Moderate to good | Varies by plan | Quick text-to-music for casual creators | Smaller model; less genre versatility than top-tier tools |",
+          "page_age": "2026-09-04T08:29:00"
+        },
+        {
+          "title": "Best Free AI Music Generators in 2026: 9 Tools Actually Worth Using ...",
+          "url": "https://musci.io/blog/ai-music-generator-free",
+          "description": "We tested 9 free AI music generators. Real free tiers, actual limits, and which ones produce usable output without paying.",
+          "snippet": "# Best Free AI Music Generators in 2026: 9 Tools Actually Worth Using\n## Quick Comparison: Free AI Music Generators\n| Tool | Free Allowance | Sign-Up Required | Vocals | Commercial Use | Best For |\n| --- | --- | --- | --- | --- | --- |\n| Suno | 50 credits/day (\\~10 songs) | Yes | Yes | No (free tier) | Full songs with vocals |\n| Udio | 600/month (10/day cap) | Yes | Yes | No (free tier) | High-quality audio output |\n| ACE-Step | Unlimited (open source) | No | No | Yes (MIT license) | Instrumental music |\n| MusicHero.ai | 3 songs | No | Yes | Check terms | Quick one-off generations |\n| AIMusicGen.ai | Unlimited basic use | No | No | Check terms | Instrumental loops |\n| Brev AI | Free tier available | No (basic use) | Yes | Check terms | No-hassle generation |\n| Mubert | Free tier (personal) | Yes | No | No (free tier) | Ambient/background music |\n| Boomy | Free generation | Yes | Yes | Yes (via distribution) | Getting music on Spotify |\n| Musci.io | Free credits | Yes | Yes | Check plan | Trying multiple AI models |",
+          "page_age": "2026-03-27T00:00:00"
+        },
+        {
+          "title": "Best AI Music Generator Free No Sign Up: 7 Real Tools (2026)",
+          "url": "https://pexo.ai/blog/best-ai-music-generator-free-no-sign-up-2799",
+          "description": "The best free AI music generators with no sign up: 7 tools that generate songs or instrumentals with no account. Compare limits, watermarks, and vocals.",
+          "snippet": "# Best AI Music Generator Free No Sign Up: 7 Real Tools (2026)\n## The Best Free No-Sign-Up AI Music Generators at a Glance\n| Tool | Best for | Music type | Free limit | Watermark | Account needed |\n| --- | --- | --- | --- | --- | --- |\n| SongGenerator.io | Full songs with vocals | Songs + lyrics + AI vocals | Daily generation cap | None on audio | No |\n| MusicHero.ai | Style control, no account | Full songs + instrumentals | 3 tracks total | None | No |\n| AIMusicGen.ai | Royalty-free instrumentals | Instrumentals (Meta MusicGen) | Multiple per day | None | No |\n| Remusic.ai | Longer tracks up to 4 min | Songs + covers + remix | Free, capped per session | None on audio | No |\n| NoteGPT | Quick browser clips | Lyrics or instrumental | 15 uses | None | No |\n| Vidnoz AI Music | Text-to-music for video | Instrumental from text | \\~3 clips, commercial OK | None on audio; video may | No |\n| AIMusic.so | A no-frills free generator | Songs + instrumentals | Free, two songs per run | None | No |",
+          "page_age": "2026-09-10T03:07:07"
+        }
+      ]
+    },
+    {
+      "id": "58a578699fbb",
+      "title": "Show HN: Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "summary": "Show HN: Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Stateful",
+      "url": "https://github.com/DomWane/workers-personal-agent",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.67,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": true,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "DomWane",
+          "url": "https://github.com/DomWane/workers-personal-agent",
+          "text": "Show HN: Stateful AI agent on Cloudflare Workers free tier, with evals"
+        }
+      ],
+      "web_sources": [
+        {
+          "title": "Stateful Definition & Meaning",
+          "url": "https://www.yourdictionary.com/stateful",
+          "description": "Stateful definition: Capable of retaining information about transactions or sessions.",
+          "snippet": "Stateful definition: Capable of retaining information about transactions or sessions",
+          "page_age": ""
+        },
+        {
+          "title": "stateful - Wiktionary, the free dictionary",
+          "url": "https://en.wiktionary.org/wiki/stateful",
+          "description": "",
+          "snippet": "# stateful\n## English\n### Etymology\nFrom *state* + *-ful*. In the computing sense it is intended as an opposite for *stateless*",
+          "page_age": "2026-03-25T00:00:00"
+        },
+        {
+          "title": "terminology - Stateless vs Stateful - Stack Overflow",
+          "url": "https://stackoverflow.com/questions/5329618/stateless-vs-stateful",
+          "description": "I'm interested in articles which have some concrete information about stateless and stateful design in programming. I'm interested because I want to learn more about it, but I really can't find any...",
+          "snippet": "# Stateless vs Stateful\nAnyways, really short, here's what I know 'bout stateful vs stateless:\n\nStateful (like WinForms): Stores the data for further use, but limits the scalability of an application, because it's limited by CPU or memory limits",
+          "page_age": "2011-03-16T00:00:00"
+        },
+        {
+          "title": "Stateful vs. Stateless: Understanding Key Differences for Apps ...",
+          "url": "https://www.splunk.com/en_us/blog/learn/stateful-vs-stateless.html",
+          "description": "Stateful and stateless are important terms in programming. “Stateful” means information about the state is tracked. In contrast, “stateless” tracks no information.",
+          "snippet": "Stateful and stateless are important terms in programming. “Stateful” means information about the state is tracked. In contrast, “stateless” tracks no information",
+          "page_age": "2025-04-04T00:00:00"
+        }
+      ]
+    }
+  ]
+}

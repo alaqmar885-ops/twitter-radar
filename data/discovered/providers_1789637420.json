@@ -1,0 +1,294 @@
+{
+  "generated": 1789637420,
+  "candidates": 182,
+  "probed": 14,
+  "providers": [
+    {
+      "domain": "itsfree.ai",
+      "url": "https://itsfree.ai",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Free AI APIs and models — every free tier, compared",
+      "web_hits": 0
+    },
+    {
+      "domain": "free-model.com",
+      "url": "https://free-model.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "without a credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Free LLM API &amp; Free AI API Directory 2026 — Verified Models, No Credit Card | free-model.com",
+      "web_hits": 0
+    },
+    {
+      "domain": "freellmapi.co",
+      "url": "https://freellmapi.co/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "FreeLLMAPI Pricing — free router, $19/yr Premium",
+      "web_hits": 0
+    },
+    {
+      "domain": "aimlapi.com",
+      "url": "https://aimlapi.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Latest AI Models in One API: GPT, Gemini, Claude &amp; 1000+ Models | Best AI API",
+      "web_hits": 0
+    },
+    {
+      "domain": "deepinfra.com",
+      "url": "https://deepinfra.com/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [
+        "add a payment method"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Simple Pricing | Machine Learning Infrastructure | DeepInfra",
+      "web_hits": 0
+    },
+    {
+      "domain": "openrouter.ai",
+      "url": "https://openrouter.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Pricing | OpenRouter",
+      "web_hits": 0
+    },
+    {
+      "domain": "bazaarlink.ai",
+      "url": "https://bazaarlink.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "upi",
+        "gst"
+      ],
+      "page_title": "BazaarLink — AI Agent LLM Gateway｜台灣・主流模型・中文支援",
+      "web_hits": 0
+    },
+    {
+      "domain": "cerebras.ai",
+      "url": "https://cerebras.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "jio",
+        "upi",
+        "gst"
+      ],
+      "page_title": "Cerebras",
+      "web_hits": 0
+    },
+    {
+      "domain": "hyperbolic.xyz",
+      "url": "https://hyperbolic.xyz",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [
+        "add a payment method"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Hyperbolic — Open-Access GPU &amp; AI Cloud",
+      "web_hits": 0
+    },
+    {
+      "domain": "novita.ai",
+      "url": "https://novita.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Novita AI - AI &amp; Agent Cloud for Developers",
+      "web_hits": 0
+    },
+    {
+      "domain": "together.ai",
+      "url": "https://together.ai/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Together AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "agentrouter.org",
+      "url": "https://agentrouter.org/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "AgentRouter 接入说明",
+      "web_hits": 0
+    },
+    {
+      "domain": "groq.com",
+      "url": "https://groq.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Groq is the premier neocloud for fast inference",
+      "web_hits": 0
+    },
+    {
+      "domain": "kluster.ai",
+      "url": "https://kluster.ai",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    }
+  ]
+}

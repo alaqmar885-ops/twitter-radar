@@ -33,6 +33,25 @@ class HtmlWatchSource(BaseSource):
                 soup = BeautifulSoup(r.text, "html.parser")
                 seen = set()
                 n = 0
+
+                # (a) the watched page may itself BE the offer (e.g. a provider's
+                # pricing/docs page). Emit it directly so a provider added to the
+                # watchlist is actually captured, not just its outbound links.
+                try:
+                    from ..signals import is_offer_text
+                    title = (soup.title.get_text(strip=True) if soup.title else "")
+                    body = soup.get_text(" ", strip=True)[:4000]
+                    if is_offer_text(f"{title} {body}"):
+                        h0 = hashlib.sha1(page.encode("utf-8", "ignore")).hexdigest()[:16]
+                        seen.add(h0)
+                        items.append(Item(id=f"html:{h0}", platform="html",
+                                          author=(page.split("/")[2] if "//" in page else ""),
+                                          title=title[:180] or page, text=body[:500],
+                                          url=page, created_at="", metrics={},
+                                          source=self.name, query=page))
+                        n += 1
+                except Exception as exc:  # noqa: BLE001
+                    log.debug("self-offer check failed for %s: %s", page, exc)
                 for a in soup.find_all("a", href=True):
                     text = (a.get_text(" ", strip=True) or "")[:180]
                     href = a["href"]

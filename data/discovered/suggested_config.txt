@@ -1,0 +1,4 @@
+  # discovered free providers - paste into airadar.html_watch
+  html_watch:
+    - https://itsfree.ai
+    - https://freellmapi.co/pricing

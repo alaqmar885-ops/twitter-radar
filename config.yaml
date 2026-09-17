@@ -117,6 +117,17 @@ airadar:
     - https://huggingface.co/blog/feed.xml
     - https://blog.google/technology/ai/rss/
   html_watch:
+    # --- discovered free providers (scripts/discover_providers.py) ---
+    - https://agentrouter.org/docs
+    - https://freellmapi.co/pricing
+    - https://api.airforce/pricing
+    - https://chutes.ai/pricing
+    - https://siliconflow.com/pricing
+    - https://glama.ai
+    - https://bazaarlink.ai
+    - https://ardent.ai
+    - https://awesomeagents.ai/pricing
+    - https://claudecoupons.com
     # no-credit-card trackers
     - https://www.free-model.com/providers/
     - https://tokenmix.ai/blog/free-llm-api

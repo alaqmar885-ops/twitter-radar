@@ -1,0 +1,3549 @@
+{
+  "generated": 1789637384,
+  "candidates": 182,
+  "providers": [
+    {
+      "domain": "dynotable.com",
+      "url": "https://dynotable.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "start free",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card needed",
+        "no card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required",
+        "add a payment method"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "The DynamoDB GUI with real SQL &amp; your AI agent — DynoTable",
+      "web_hits": 0
+    },
+    {
+      "domain": "qodflow.com",
+      "url": "https://qodflow.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free trial",
+        "start free",
+        "try free",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "QodFlow — The AI-Native Kanban Board for Humans + AI Agents",
+      "web_hits": 0
+    },
+    {
+      "domain": "getaiperks.com",
+      "url": "https://getaiperks.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free trial",
+        "try free",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [
+        "google pay"
+      ],
+      "india_signals": [
+        "inr",
+        "google pay"
+      ],
+      "page_title": "AI Credits &amp; Startup Perks: Save up to $7M on 220+ Tools | Get AI Perks",
+      "web_hits": 0
+    },
+    {
+      "domain": "birthdayinvitation.ai",
+      "url": "https://birthdayinvitation.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [
+        "inr"
+      ],
+      "page_title": "AI Birthday Invitation Card Generator | Birthday Invitation",
+      "web_hits": 0
+    },
+    {
+      "domain": "classkeep.app",
+      "url": "https://classkeep.app",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free trial",
+        "start free",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [
+        "gpay"
+      ],
+      "india_signals": [
+        "inr",
+        "gpay",
+        "gst"
+      ],
+      "page_title": "ClassKeep – Studio &amp; Class Management Software",
+      "web_hits": 0
+    },
+    {
+      "domain": "cloro.dev",
+      "url": "https://cloro.dev/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "start free",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | cloro",
+      "web_hits": 0
+    },
+    {
+      "domain": "itsfree.ai",
+      "url": "https://itsfree.ai",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Free AI APIs and models — every free tier, compared",
+      "web_hits": 0
+    },
+    {
+      "domain": "uprouter.online",
+      "url": "https://uprouter.online",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Find the best free AI API keys - Use them all in one endpoint",
+      "web_hits": 0
+    },
+    {
+      "domain": "api.zafronix.com",
+      "url": "https://api.zafronix.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Football Data APIs — World Cup, Champions League, Top-5 Leagues &amp; More · Zafronix Sports APIs",
+      "web_hits": 0
+    },
+    {
+      "domain": "costgoat.com",
+      "url": "https://costgoat.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "try free",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "CostGoat | AI, Cloud &amp; SaaS Cost Monitoring",
+      "web_hits": 0
+    },
+    {
+      "domain": "futuresearch.ai",
+      "url": "https://futuresearch.ai/pricing",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "no card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | FutureSearch",
+      "web_hits": 0
+    },
+    {
+      "domain": "pingchange.com",
+      "url": "https://pingchange.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "start free",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Website Change Monitoring &amp; API Diff Alerts | PingChange",
+      "web_hits": 0
+    },
+    {
+      "domain": "braintrust.dev",
+      "url": "https://braintrust.dev/pricing",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing - Braintrust",
+      "web_hits": 0
+    },
+    {
+      "domain": "clarena.app",
+      "url": "https://clarena.app/pricing",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing — Free Plan and Premium | Clarena",
+      "web_hits": 0
+    },
+    {
+      "domain": "claude.com",
+      "url": "https://claude.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no payment required"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Claude",
+      "web_hits": 0
+    },
+    {
+      "domain": "cleanmymedia.com",
+      "url": "https://cleanmymedia.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card needed",
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "CleanMyMedia — free photo organizer and duplicate photo finder for Mac, Windows and Linux",
+      "web_hits": 0
+    },
+    {
+      "domain": "danubia.tech",
+      "url": "https://danubia.tech",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "discount"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Danubia | Turn any web page into clean text",
+      "web_hits": 0
+    },
+    {
+      "domain": "fetchrelay.com",
+      "url": "https://fetchrelay.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "FetchRelay — Web Scraping API, Crawling &amp; Monitoring",
+      "web_hits": 0
+    },
+    {
+      "domain": "free-model.com",
+      "url": "https://free-model.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card",
+        "without a credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Free LLM API &amp; Free AI API Directory 2026 — Verified Models, No Credit Card | free-model.com",
+      "web_hits": 0
+    },
+    {
+      "domain": "freellmapi.co",
+      "url": "https://freellmapi.co/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "FreeLLMAPI Pricing — free router, $19/yr Premium",
+      "web_hits": 0
+    },
+    {
+      "domain": "shortapi.ai",
+      "url": "https://shortapi.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "jio",
+        "bsnl",
+        "upi",
+        "gst"
+      ],
+      "page_title": "ShortAPI: Unified LLM, Video, Image &amp; Music API",
+      "web_hits": 0
+    },
+    {
+      "domain": "skillboss.co",
+      "url": "https://skillboss.co/pricing",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Pricing - Pay-as-You-Go AI Platform",
+      "web_hits": 0
+    },
+    {
+      "domain": "slickfast.com",
+      "url": "https://slickfast.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free forever",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "SlickFast — a deterministic render engine",
+      "web_hits": 0
+    },
+    {
+      "domain": "tenux.dev",
+      "url": "https://tenux.dev",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "start free",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Tenux — Coding from your phone finally makes sense",
+      "web_hits": 0
+    },
+    {
+      "domain": "usero.io",
+      "url": "https://usero.io/pricing",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing - Usero | Simple, Transparent Pricing for Developers",
+      "web_hits": 0
+    },
+    {
+      "domain": "zenlyfinancial.com",
+      "url": "https://zenlyfinancial.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Zenly Financial - Portfolio Tracker & Research Tool",
+      "web_hits": 0
+    },
+    {
+      "domain": "api.airforce",
+      "url": "https://api.airforce/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing — Simple, transparent plans | Api.Airforce",
+      "web_hits": 0
+    },
+    {
+      "domain": "explainx.ai",
+      "url": "https://explainx.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "explainx.ai: Free personalized AI learning, workshops &amp; bootcamps",
+      "web_hits": 0
+    },
+    {
+      "domain": "formrobin.com",
+      "url": "https://formrobin.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Forms that feel human - FormRobin",
+      "web_hits": 0
+    },
+    {
+      "domain": "getbriefing.io",
+      "url": "https://getbriefing.io/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "try free",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Briefing AI - AI Meeting Preparation Tool",
+      "web_hits": 0
+    },
+    {
+      "domain": "morphllm.com",
+      "url": "https://morphllm.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Morph - Inference Built for Agents",
+      "web_hits": 0
+    },
+    {
+      "domain": "onlymusic.ai",
+      "url": "https://onlymusic.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "india",
+        "indian"
+      ],
+      "page_title": "Free AI Music Generator, No Sign Up | onlymusic.ai",
+      "web_hits": 0
+    },
+    {
+      "domain": "plaudera.com",
+      "url": "https://plaudera.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Private-First Feedback Management for SaaS Teams | Plaudera | Plaudera",
+      "web_hits": 0
+    },
+    {
+      "domain": "aimlapi.com",
+      "url": "https://aimlapi.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Latest AI Models in One API: GPT, Gemini, Claude &amp; 1000+ Models | Best AI API",
+      "web_hits": 0
+    },
+    {
+      "domain": "ardent.ai",
+      "url": "https://ardent.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "vi "
+      ],
+      "page_title": "Ardent AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "chutes.ai",
+      "url": "https://chutes.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing - Chutes",
+      "web_hits": 0
+    },
+    {
+      "domain": "claudecoupons.com",
+      "url": "https://claudecoupons.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Claude Code Passes | Claude Coupons",
+      "web_hits": 0
+    },
+    {
+      "domain": "cloudflare.com",
+      "url": "https://cloudflare.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Cloudflare: Build for the agent era",
+      "web_hits": 0
+    },
+    {
+      "domain": "github.com",
+      "url": "https://github.com/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing · Plans for every developer · GitHub",
+      "web_hits": 0
+    },
+    {
+      "domain": "glypho.app",
+      "url": "https://glypho.app",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "AI SVG Generator for Editable, Consistent SVG Sets | GlyPho",
+      "web_hits": 0
+    },
+    {
+      "domain": "hoplite.sh",
+      "url": "https://hoplite.sh",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Hoplite",
+      "web_hits": 0
+    },
+    {
+      "domain": "kilo.ai",
+      "url": "https://kilo.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Kilo – Open Source AI Coding Agent in IDE, CLI and Cloud",
+      "web_hits": 0
+    },
+    {
+      "domain": "kilocode.ai",
+      "url": "https://kilocode.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Kilo – Open Source AI Coding Agent in IDE, CLI and Cloud",
+      "web_hits": 0
+    },
+    {
+      "domain": "resumeskip.com",
+      "url": "https://resumeskip.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "ResumeSkip: Tailor Your Resume Without Inventing Experience",
+      "web_hits": 0
+    },
+    {
+      "domain": "saor.io",
+      "url": "https://saor.io",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "saor.io — Your AI remembers now",
+      "web_hits": 0
+    },
+    {
+      "domain": "wotai.co",
+      "url": "https://wotai.co",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "free trial",
+        "free forever",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "WotAI - AI Automation That Actually Ships",
+      "web_hits": 0
+    },
+    {
+      "domain": "zplatform.ai",
+      "url": "https://zplatform.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "AI Tools: Reviews, Rankings, Alternatives &amp; Research | ZPlatform AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "armature.tech",
+      "url": "https://armature.tech",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [
+        "vi "
+      ],
+      "page_title": "Armature · Get discovered and used by coding agents",
+      "web_hits": 0
+    },
+    {
+      "domain": "arrivl.ai",
+      "url": "https://arrivl.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Arrivl | Turn AI traffic into customers",
+      "web_hits": 0
+    },
+    {
+      "domain": "breezedoc.com",
+      "url": "https://breezedoc.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "BreezeDoc | Simple e-signature and document signing",
+      "web_hits": 0
+    },
+    {
+      "domain": "captchainbox.com",
+      "url": "https://captchainbox.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Captchainbox - Make unknown senders pay to reach you",
+      "web_hits": 0
+    },
+    {
+      "domain": "credscore.us",
+      "url": "https://credscore.us",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "CredScore: Onchain Wallet Risk Intelligence",
+      "web_hits": 0
+    },
+    {
+      "domain": "deepinfra.com",
+      "url": "https://deepinfra.com/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [
+        "add a payment method"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Simple Pricing | Machine Learning Infrastructure | DeepInfra",
+      "web_hits": 0
+    },
+    {
+      "domain": "dottypost.com",
+      "url": "https://dottypost.com/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "inr",
+        "jio",
+        "gst"
+      ],
+      "page_title": "Dottypost - Pricing",
+      "web_hits": 0
+    },
+    {
+      "domain": "fastrecall.ai",
+      "url": "https://fastrecall.ai",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "FastRecall | Home",
+      "web_hits": 0
+    },
+    {
+      "domain": "getmaxim.ai",
+      "url": "https://getmaxim.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "free forever",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Bifrost OSS and Enterprise",
+      "web_hits": 0
+    },
+    {
+      "domain": "iwtlp.com",
+      "url": "https://iwtlp.com/pricing",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [
+        "no card required",
+        "no card"
+      ],
+      "card_signals": [
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing, free learning and optional certifications | IWTLP",
+      "web_hits": 0
+    },
+    {
+      "domain": "mailmemories.com",
+      "url": "https://mailmemories.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Mail Memories | Rescue Your Forgotten Photos From Gmail",
+      "web_hits": 0
+    },
+    {
+      "domain": "mistral.ai",
+      "url": "https://mistral.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Mistral",
+      "web_hits": 0
+    },
+    {
+      "domain": "openrouter.ai",
+      "url": "https://openrouter.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Pricing | OpenRouter",
+      "web_hits": 0
+    },
+    {
+      "domain": "plexus.company",
+      "url": "https://plexus.company",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Plexus · See your hardware. Stay on the mission.",
+      "web_hits": 0
+    },
+    {
+      "domain": "sharefreeform.com",
+      "url": "https://sharefreeform.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Freeform | AI native platform for shareable apps",
+      "web_hits": 0
+    },
+    {
+      "domain": "siliconflow.com",
+      "url": "https://siliconflow.com/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Pricing Plans - SiliconFlow | Transparent Pay-as-You-Go",
+      "web_hits": 0
+    },
+    {
+      "domain": "tidycal.com",
+      "url": "https://tidycal.com",
+      "status": "CARD_REQUIRED",
+      "page_status": 200,
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no credit card"
+      ],
+      "card_signals": [
+        "credit card required",
+        "card required"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "TidyCal | Simple calendar management and booking solution",
+      "web_hits": 0
+    },
+    {
+      "domain": "bazaarlink.ai",
+      "url": "https://bazaarlink.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "upi",
+        "gst"
+      ],
+      "page_title": "BazaarLink — AI Agent LLM Gateway｜台灣・主流模型・中文支援",
+      "web_hits": 0
+    },
+    {
+      "domain": "cadenya.com",
+      "url": "https://cadenya.com/docs",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free plan",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Introduction - Cadenya",
+      "web_hits": 0
+    },
+    {
+      "domain": "cerebras.ai",
+      "url": "https://cerebras.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "inr",
+        "jio",
+        "gst"
+      ],
+      "page_title": "Cerebras",
+      "web_hits": 0
+    },
+    {
+      "domain": "deiko.app",
+      "url": "https://deiko.app",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Deiko — Point at it. Say it. Hand it to your agent.",
+      "web_hits": 0
+    },
+    {
+      "domain": "digitalocean.com",
+      "url": "https://digitalocean.com/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "google pay"
+      ],
+      "india_signals": [
+        "inr",
+        "google pay",
+        "gst"
+      ],
+      "page_title": "Budget-Friendly Cloud Server Pricing | DigitalOcean",
+      "web_hits": 0
+    },
+    {
+      "domain": "edenai.co",
+      "url": "https://edenai.co/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Eden AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "fireworks.ai",
+      "url": "https://fireworks.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Fireworks - Pricing",
+      "web_hits": 0
+    },
+    {
+      "domain": "getatrium.dev",
+      "url": "https://getatrium.dev",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "atrium — The agent workspace that adapts to you",
+      "web_hits": 0
+    },
+    {
+      "domain": "glama.ai",
+      "url": "https://glama.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "The MCP Server Registry, Inspector & Gateway | Glama",
+      "web_hits": 0
+    },
+    {
+      "domain": "ollama.com",
+      "url": "https://ollama.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "always free",
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Ollama",
+      "web_hits": 0
+    },
+    {
+      "domain": "pidgeiot.com",
+      "url": "https://pidgeiot.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "PidgeIoT: Open-Source IoT Device Management",
+      "web_hits": 0
+    },
+    {
+      "domain": "sleezr.com",
+      "url": "https://sleezr.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "google pay"
+      ],
+      "india_signals": [
+        "google pay"
+      ],
+      "page_title": "ToggleHosts: Hosts File Manager with Automatic DNS Flush",
+      "web_hits": 0
+    },
+    {
+      "domain": "strata.space",
+      "url": "https://strata.space",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Strata: knowledge for the age of agents",
+      "web_hits": 0
+    },
+    {
+      "domain": "toolfreebie.com",
+      "url": "https://toolfreebie.com",
+      "status": "VERIFIED_NO_CC",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Tool Freebie - Free AI Tools, APIs &amp; Developer Resources",
+      "web_hits": 0
+    },
+    {
+      "domain": "vidscio.com",
+      "url": "https://vidscio.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "What Movie Is This? AI Movie Finder &amp; Identifier | VidScio",
+      "web_hits": 0
+    },
+    {
+      "domain": "workik.com",
+      "url": "https://workik.com/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Leverage AI for Development. Unlock complete AI access with premium",
+      "web_hits": 0
+    },
+    {
+      "domain": "app.oghmere.com",
+      "url": "https://app.oghmere.com",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "inr"
+      ],
+      "page_title": "Oghmere",
+      "web_hits": 0
+    },
+    {
+      "domain": "awesomeagents.ai",
+      "url": "https://awesomeagents.ai/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Awesome Agents",
+      "web_hits": 0
+    },
+    {
+      "domain": "backprompter.com",
+      "url": "https://backprompter.com",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Backprompter — Build, Test &amp; Deploy AI Agents Without a Backend",
+      "web_hits": 0
+    },
+    {
+      "domain": "cactuscompute.com",
+      "url": "https://cactuscompute.com/docs",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "gpay"
+      ],
+      "india_signals": [
+        "gpay",
+        "gst"
+      ],
+      "page_title": "Overview | Cactus",
+      "web_hits": 0
+    },
+    {
+      "domain": "cline.bot",
+      "url": "https://cline.bot/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing - Cline AI Coding Agent",
+      "web_hits": 0
+    },
+    {
+      "domain": "d5s.tech",
+      "url": "https://d5s.tech/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing · d5s",
+      "web_hits": 0
+    },
+    {
+      "domain": "dev.to",
+      "url": "https://dev.to/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "(Free Forever) - DEV Community",
+      "web_hits": 0
+    },
+    {
+      "domain": "education.github.com",
+      "url": "https://education.github.com",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "india",
+        "indian"
+      ],
+      "page_title": "GitHub Education · GitHub",
+      "web_hits": 0
+    },
+    {
+      "domain": "featherless.ai",
+      "url": "https://featherless.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Featherless - Serverless LLM Hosting",
+      "web_hits": 0
+    },
+    {
+      "domain": "felloai.com",
+      "url": "https://felloai.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "inr",
+        "upi"
+      ],
+      "page_title": "Fello AI: All the Best AI Models in One Native App",
+      "web_hits": 0
+    },
+    {
+      "domain": "huggingface.co",
+      "url": "https://huggingface.co/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing - Hugging Face",
+      "web_hits": 0
+    },
+    {
+      "domain": "hyperbolic.xyz",
+      "url": "https://hyperbolic.xyz",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [
+        "add a payment method"
+      ],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Hyperbolic — Open-Access GPU &amp; AI Cloud",
+      "web_hits": 0
+    },
+    {
+      "domain": "leiolai.com",
+      "url": "https://leiolai.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Leiolai: An intelligence that pays you for saving water",
+      "web_hits": 0
+    },
+    {
+      "domain": "marginstudy.app",
+      "url": "https://marginstudy.app",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "PDF Study Tool for Mac — Textbook Notes | Margin",
+      "web_hits": 0
+    },
+    {
+      "domain": "novita.ai",
+      "url": "https://novita.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Novita AI - AI &amp; Agent Cloud for Developers",
+      "web_hits": 0
+    },
+    {
+      "domain": "nvidia.com",
+      "url": "https://nvidia.com",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "india",
+        "upi"
+      ],
+      "page_title": "World Leader in Artificial Intelligence Computing | NVIDIA",
+      "web_hits": 0
+    },
+    {
+      "domain": "ringup.dev",
+      "url": "https://ringup.dev/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [
+        "no card"
+      ],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "What is Ringup - Ringup",
+      "web_hits": 0
+    },
+    {
+      "domain": "seasonmap.app",
+      "url": "https://seasonmap.app/pricing",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | SeasonMap",
+      "web_hits": 0
+    },
+    {
+      "domain": "together.ai",
+      "url": "https://together.ai/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Together AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "vantagehealthapp.com",
+      "url": "https://vantagehealthapp.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "vi "
+      ],
+      "page_title": "Vantage: A coach, not a dashboard.",
+      "web_hits": 0
+    },
+    {
+      "domain": "yangmao.ai",
+      "url": "https://yangmao.ai",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free credits",
+        "credits",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "yangmao.ai — 全球 AI 工具价格、模型能力和免费额度每日雷达",
+      "web_hits": 0
+    },
+    {
+      "domain": "developer.puter.com",
+      "url": "https://developer.puter.com",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Puter.js - The Backend for AI-Generated Apps",
+      "web_hits": 0
+    },
+    {
+      "domain": "gpt4all.io",
+      "url": "https://gpt4all.io",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "GPT4All - Private &amp; Local AI Chatbot | Nomic",
+      "web_hits": 0
+    },
+    {
+      "domain": "haimaker.ai",
+      "url": "https://haimaker.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "gpay"
+      ],
+      "india_signals": [
+        "gpay",
+        "gst"
+      ],
+      "page_title": "haimaker.ai — AI API Gateway | 200+ LLM Models, One Endpoint",
+      "web_hits": 0
+    },
+    {
+      "domain": "moonshot.ai",
+      "url": "https://moonshot.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Moonshot AI",
+      "web_hits": 0
+    },
+    {
+      "domain": "shillguardapp.com",
+      "url": "https://shillguardapp.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Market Without Fear | ShillGuard",
+      "web_hits": 0
+    },
+    {
+      "domain": "skillsllm.com",
+      "url": "https://skillsllm.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "SkillsLLM - AI Skills Marketplace",
+      "web_hits": 0
+    },
+    {
+      "domain": "studentbeans.com",
+      "url": "https://studentbeans.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "india"
+      ],
+      "page_title": "Student Beans",
+      "web_hits": 0
+    },
+    {
+      "domain": "tokenmix.ai",
+      "url": "https://tokenmix.ai",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "TokenMix — AI API Relay and Multi-Model Gateway",
+      "web_hits": 0
+    },
+    {
+      "domain": "usechickadee.com",
+      "url": "https://usechickadee.com",
+      "status": "VERIFIED",
+      "page_status": 200,
+      "signals": [
+        "free forever",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Chickadee — reads pages aloud, on your machine",
+      "web_hits": 0
+    },
+    {
+      "domain": "username.md",
+      "url": "https://username.md",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "username.md — One Handle. Now Make it Yours.",
+      "web_hits": 0
+    },
+    {
+      "domain": "wisgate.ai",
+      "url": "https://wisgate.ai/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "discount",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing &amp; Plans - WisGate",
+      "web_hits": 0
+    },
+    {
+      "domain": "z.ai",
+      "url": "https://z.ai/pricing",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Pricing | Z.ai",
+      "web_hits": 0
+    },
+    {
+      "domain": "aider.chat",
+      "url": "https://aider.chat",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Aider - AI Pair Programming in Your Terminal",
+      "web_hits": 0
+    },
+    {
+      "domain": "bytesalt.com",
+      "url": "https://bytesalt.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Bytesalt — Your AI QA Teammate",
+      "web_hits": 0
+    },
+    {
+      "domain": "colab.research.google.com",
+      "url": "https://colab.research.google.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Google Colab",
+      "web_hits": 0
+    },
+    {
+      "domain": "continue.dev",
+      "url": "https://continue.dev",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Continue (acquired by Cursor)",
+      "web_hits": 0
+    },
+    {
+      "domain": "developers.cloudflare.com",
+      "url": "https://developers.cloudflare.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Cloudflare Developer Docs | Cloudflare Docs",
+      "web_hits": 0
+    },
+    {
+      "domain": "emaginasion.com",
+      "url": "https://emaginasion.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Chauffeur – Deine Arbeitsumgebung mit einem Klick zurück",
+      "web_hits": 0
+    },
+    {
+      "domain": "everydev.ai",
+      "url": "https://everydev.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "EveryDev.ai - With AI, Everyone is a Dev",
+      "web_hits": 0
+    },
+    {
+      "domain": "fed.brid.gy",
+      "url": "https://fed.brid.gy/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Bridgy Fed",
+      "web_hits": 0
+    },
+    {
+      "domain": "fsfe.org",
+      "url": "https://fsfe.org",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "FSFE - Free Software Foundation Europe",
+      "web_hits": 0
+    },
+    {
+      "domain": "functioncraft.dev",
+      "url": "https://functioncraft.dev",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Functioncraft - Developer Tools",
+      "web_hits": 0
+    },
+    {
+      "domain": "lava.so",
+      "url": "https://lava.so/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "What Is Lava Desktop - Lava Documentation",
+      "web_hits": 0
+    },
+    {
+      "domain": "lmarena.ai",
+      "url": "https://lmarena.ai/pricing",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Arena | Benchmark &amp; Compare the Best AI Models",
+      "web_hits": 0
+    },
+    {
+      "domain": "opencode.ai",
+      "url": "https://opencode.ai/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Intro | AI coding agent built for the terminal",
+      "web_hits": 0
+    },
+    {
+      "domain": "rate.fm",
+      "url": "https://rate.fm",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "Rate.fm - Rate Music, Write Reviews, Discover the Best Albums",
+      "web_hits": 0
+    },
+    {
+      "domain": "rxcheck.dev",
+      "url": "https://rxcheck.dev/pricing",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing",
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing — RxCheck Drug Interaction API",
+      "web_hits": 0
+    },
+    {
+      "domain": "themenonlab.blog",
+      "url": "https://themenonlab.blog",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "The Menon Lab - AI &amp; Open Source Insights",
+      "web_hits": 0
+    },
+    {
+      "domain": "theozard.com",
+      "url": "https://theozard.com/pricing",
+      "status": "PARTIAL",
+      "page_status": 200,
+      "signals": [
+        "credits",
+        "pricing"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Pricing | Theozard",
+      "web_hits": 0
+    },
+    {
+      "domain": "urbanmind.net",
+      "url": "https://urbanmind.net",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Home | 🌟 Urbanmind.net – A private, anti-censorship social network powered by the Fediverse. Weird, fun, and free. No data mining, no algori",
+      "web_hits": 0
+    },
+    {
+      "domain": "waxspinner.com",
+      "url": "https://waxspinner.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free",
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Wax Spinner — Share What You&#x27;re Spinning",
+      "web_hits": 0
+    },
+    {
+      "domain": "agentrouter.org",
+      "url": "https://agentrouter.org/docs",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "AgentRouter 接入说明",
+      "web_hits": 0
+    },
+    {
+      "domain": "bluee.sh",
+      "url": "https://bluee.sh",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Blue | One harness to rule them all",
+      "web_hits": 0
+    },
+    {
+      "domain": "brolly.sh",
+      "url": "https://brolly.sh",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "brolly.sh - Plain Text Weather Forecast",
+      "web_hits": 0
+    },
+    {
+      "domain": "canirun.ai",
+      "url": "https://canirun.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Can I run AI locally? Best models for your GPU",
+      "web_hits": 0
+    },
+    {
+      "domain": "clevercrow.io",
+      "url": "https://clevercrow.io",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "CleverCrow · Get paid to work your backlog.",
+      "web_hits": 0
+    },
+    {
+      "domain": "computearena.ai",
+      "url": "https://computearena.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "india"
+      ],
+      "page_title": "ComputeArena · Edge device benchmarks",
+      "web_hits": 0
+    },
+    {
+      "domain": "data.charitysense.com",
+      "url": "https://data.charitysense.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "CharitySense Data | Nonprofit Due Diligence",
+      "web_hits": 0
+    },
+    {
+      "domain": "deepseek.com",
+      "url": "https://deepseek.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "pricing"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "gst"
+      ],
+      "page_title": "DeepSeek | 深度求索",
+      "web_hits": 0
+    },
+    {
+      "domain": "demo.convolens.ai",
+      "url": "https://demo.convolens.ai",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Convolens – Real-Time Fact-Checking &amp; Slides",
+      "web_hits": 0
+    },
+    {
+      "domain": "forum.modular.com",
+      "url": "https://forum.modular.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Modular - Enable AI to be used by anyone, anywhere",
+      "web_hits": 0
+    },
+    {
+      "domain": "gemini.google",
+      "url": "https://gemini.google",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi",
+        "gpay"
+      ],
+      "india_signals": [
+        "inr",
+        "₹",
+        "upi",
+        "gpay",
+        "gst"
+      ],
+      "page_title": "‎Google Gemini",
+      "web_hits": 0
+    },
+    {
+      "domain": "groq.com",
+      "url": "https://groq.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Groq is the premier neocloud for fast inference",
+      "web_hits": 0
+    },
+    {
+      "domain": "hackobar.com",
+      "url": "https://hackobar.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "HACKOBAR_ // One feed for AI signal. No noise.",
+      "web_hits": 0
+    },
+    {
+      "domain": "promptsrush.com",
+      "url": "https://promptsrush.com",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "PromptsRush - Discover, Share &amp; Grow with AI Prompts",
+      "web_hits": 0
+    },
+    {
+      "domain": "recca0120.github.io",
+      "url": "https://recca0120.github.io",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "free"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "recca0120 技術筆記",
+      "web_hits": 0
+    },
+    {
+      "domain": "smartspreadsheets.co",
+      "url": "https://smartspreadsheets.co",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Google Sheets Automation Tools: Smartspreadsheets.co",
+      "web_hits": 0
+    },
+    {
+      "domain": "traibe.xyz",
+      "url": "https://traibe.xyz",
+      "status": "WEAK",
+      "page_status": 200,
+      "signals": [
+        "off"
+      ],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "traibe - Your Ultimate AI Co-founder",
+      "web_hits": 0
+    },
+    {
+      "domain": "0xzr.github.io",
+      "url": "https://0xzr.github.io",
+      "status": "UNREACHABLE",
+      "page_status": 404,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "account.functioncraft.dev",
+      "url": "https://account.functioncraft.dev",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "ai-suguan.com",
+      "url": "https://ai-suguan.com",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "api.github.com",
+      "url": "https://api.github.com",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "app.syntheticaidata.com",
+      "url": "https://app.syntheticaidata.com",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "syntheticAIdata - Developer Platform",
+      "web_hits": 0
+    },
+    {
+      "domain": "glhf.chat",
+      "url": "https://glhf.chat",
+      "status": "UNREACHABLE",
+      "page_status": 522,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "googletagmanager.com",
+      "url": "https://googletagmanager.com",
+      "status": "UNREACHABLE",
+      "page_status": 404,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "hachyderm.io",
+      "url": "https://hachyderm.io",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Hachyderm.io",
+      "web_hits": 0
+    },
+    {
+      "domain": "igeek.gamer-geek-news.com",
+      "url": "https://igeek.gamer-geek-news.com",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "kluster.ai",
+      "url": "https://kluster.ai",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "mastodon.social",
+      "url": "https://mastodon.social",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Mastodon",
+      "web_hits": 0
+    },
+    {
+      "domain": "mastodon.uno",
+      "url": "https://mastodon.uno",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "vi ",
+        "upi"
+      ],
+      "page_title": "Mastodon Uno Social - Italia",
+      "web_hits": 0
+    },
+    {
+      "domain": "mastodon.world",
+      "url": "https://mastodon.world",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [
+        "upi"
+      ],
+      "india_signals": [
+        "upi"
+      ],
+      "page_title": "Mastodon",
+      "web_hits": 0
+    },
+    {
+      "domain": "modelscope.cn",
+      "url": "https://modelscope.cn",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "ModelScope",
+      "web_hits": 0
+    },
+    {
+      "domain": "perplexity.ai",
+      "url": "https://perplexity.ai",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "pinggy.io",
+      "url": "https://pinggy.io",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "pollinations.ai",
+      "url": "https://pollinations.ai",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "pollinations.ai",
+      "web_hits": 0
+    },
+    {
+      "domain": "puter.com",
+      "url": "https://puter.com",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "qwen.ai",
+      "url": "https://qwen.ai",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [
+        "inr"
+      ],
+      "page_title": "Qwen",
+      "web_hits": 0
+    },
+    {
+      "domain": "rabbitholes.ai",
+      "url": "https://rabbitholes.ai",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "runboli.com",
+      "url": "https://runboli.com",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "salestrics.com",
+      "url": "https://salestrics.com",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "stacksocial.com",
+      "url": "https://stacksocial.com",
+      "status": "UNREACHABLE",
+      "page_status": 403,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "stirring-dieffenbachia-dfcdcf.netlify.app",
+      "url": "https://stirring-dieffenbachia-dfcdcf.netlify.app",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Docu-AI Pro - Instant Code Documentation",
+      "web_hits": 0
+    },
+    {
+      "domain": "studio.cogram.com",
+      "url": "https://studio.cogram.com",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Cogram Studio",
+      "web_hits": 0
+    },
+    {
+      "domain": "tajd.github.io",
+      "url": "https://tajd.github.io",
+      "status": "UNREACHABLE",
+      "page_status": 404,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "teardownhq.io",
+      "url": "https://teardownhq.io",
+      "status": "UNREACHABLE",
+      "page_status": 503,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "tiktokenizer.vercel.app",
+      "url": "https://tiktokenizer.vercel.app",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Tiktokenizer",
+      "web_hits": 0
+    },
+    {
+      "domain": "token.llm7.io",
+      "url": "https://token.llm7.io",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    },
+    {
+      "domain": "uavradar.live",
+      "url": "https://uavradar.live",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "UAV Radar — live drone &amp; missile alert map, Ukraine &amp; Russia",
+      "web_hits": 0
+    },
+    {
+      "domain": "unsnag.app",
+      "url": "https://unsnag.app",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "unSnag — Beta",
+      "web_hits": 0
+    },
+    {
+      "domain": "vending-machine-lab.pages.dev",
+      "url": "https://vending-machine-lab.pages.dev",
+      "status": "NOT_AN_OFFER",
+      "page_status": 200,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "Vending Machine Lab — Try two weeks without you",
+      "web_hits": 0
+    },
+    {
+      "domain": "zerolith.io",
+      "url": "https://zerolith.io",
+      "status": "UNREACHABLE",
+      "page_status": 0,
+      "signals": [],
+      "no_cc_signals": [],
+      "card_signals": [],
+      "upi_signals": [],
+      "india_signals": [],
+      "page_title": "",
+      "web_hits": 0
+    }
+  ]
+}

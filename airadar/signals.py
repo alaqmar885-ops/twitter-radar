@@ -20,6 +20,9 @@ STRONG = {
     "free api": 2, "promo code": 2, "coupon code": 2, "giveaway": 2,
     "beta access": 2, "no cost": 2, "$0": 2, "credits": 1,
     "open source": 1, "self-hosted": 1, "free": 1, "trial": 1,
+    # Chinese-first providers (SiliconFlow / ModelScope / AgentRouter ...)
+    "免费额度": 3, "免费试用": 3, "注册送": 3, "无需信用卡": 3, "免信用卡": 3,
+    "赠送额度": 3, "免费": 1, "试用": 1, "赠送": 2, "优惠": 2,
     "discount": 2, "% off": 2, "deal": 2, "launch": 1,
 }
 
