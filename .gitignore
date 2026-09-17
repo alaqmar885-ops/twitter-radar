@@ -1,21 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.eggs/
-build/
-dist/
-.venv/
-venv/
-env/
-.python-version
-
-# NOTE: runtime data IS tracked on purpose.
-# data/ holds the radar's real work products: collected items, scored offers,
-# digests, verification reports, run records, the raw You.com MCP research
-# results and run logs. The upstream project ignored these; this fork keeps
-# them so every result in the docs can be traced back to its raw evidence.
+# Note: this repo intentionally tracks EVERYTHING in the workspace, including
+# the Python virtualenv (.venv/) and bytecode caches (__pycache__/), at the
+# owner's explicit request. To stop tracking them later:
+#   git rm -r --cached .venv ; git rm -r --cached */__pycache__ */*/__pycache__
+# and restore the ignore rules below.
 
 # Secrets / local config overrides
 # (secrets.env itself is tracked deliberately - see AGENTS.md section 10)
