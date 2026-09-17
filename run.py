@@ -18,6 +18,13 @@ import logging
 import sys
 from pathlib import Path
 
+# Windows consoles default to a legacy codepage (e.g. cp1252) that cannot
+# encode emoji in tweet text; force UTF-8 with lossy replacement so printing
+# tweet content never raises UnicodeEncodeError.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+
 # Ensure local package importable when run as a script.
 sys.path.insert(0, str(Path(__file__).parent))
 
