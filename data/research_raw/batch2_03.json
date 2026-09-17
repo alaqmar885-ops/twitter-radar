@@ -1,0 +1,61 @@
+{
+  "query": "OpenRouter free models API list",
+  "results": [
+    {
+      "title": "Top 13 Free AI Models on OpenRouter: Technical Guide ...",
+      "url": "https://apidog.com/blog/free-ai-models/",
+      "description": "",
+      "snippet": "## Technical Overview: The 13 Best Free AI Models on OpenRouter\n### 3. moonshotai/kimi-vl-a3b-thinking:free\n- MathVision: 76.2%, MMMU: 64.8%, MathVista: 72.3%, VQAv2: 79.1%\n\n**Use Cases:** Visual reasoning, math problem-solving with images, multimodal edge AI",
+      "page_age": "2026-06-12T02:07:46"
+    },
+    {
+      "title": "How to get Free AI Model APIs with 'Unlimited' Tokens",
+      "url": "https://pinggy.io/blog/free_ai_model_apis_unlimited_tokens_openrouter/",
+      "description": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.",
+      "snippet": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.\n\nAI",
+      "page_age": "2026-07-10T06:00:00"
+    },
+    {
+      "title": "OpenRouter free models list 2026: 25 models, limits and tests — ...",
+      "url": "https://rubentorney.com/blog/en/openrouter-modeles-gratuits-2026.html",
+      "description": "Verified July 2026 list of 25 free AI models on OpenRouter, with limits and models from Qwen, NVIDIA, Llama, OpenAI, Gemma and LiquidAI.",
+      "snippet": "Verified July 2026 list of 25 free AI models on OpenRouter, with limits and models from Qwen, NVIDIA, Llama, OpenAI, Gemma and LiquidAI.",
+      "page_age": "2026-08-17T00:00:00"
+    },
+    {
+      "title": "Best OpenRouter Free Models 2026: All 14 Ranked, No Card",
+      "url": "https://www.teamday.ai/blog/best-free-ai-models-openrouter-2026",
+      "description": "All 14 free OpenRouter models ranked for August 2026 — no credit card. Best free pick for coding, chat, and research, plus real rate limits and when to upgrade.",
+      "snippet": "Free AI OpenRouter Llama DeepSeek Mistral NVIDIA No Credit Card 2026",
+      "page_age": "2026-08-03T00:00:00"
+    },
+    {
+      "title": "OpenRouter Free API & Models 2026: Limits, Keys & Tips",
+      "url": "https://buldrr.com/openrouter-free-api-keys-free-models-simple-guide/",
+      "description": "Use OpenRouter free API to access 100+ AI models at no cost. Step-by-step guide with real n8n workflow examples. Start building your first automation today.",
+      "snippet": "# 100+ OpenRouter Free Models 2026: API Key, Limits & Rotation Tips\nNote: the free-model lineup rotates — DeepSeek and Mistral, for example, both had popular free variants in the past but currently (July 2026) have none, while newer providers like Poolside and Cohere have added their own free coding models. This guide reflects what’s verified live on openrouter.ai/models today",
+      "page_age": "2026-07-24T20:27:18"
+    },
+    {
+      "title": "OpenRouter Models - Unified Access to 400+ AI Models",
+      "url": "https://openrouter.ai/docs/guides/overview/models",
+      "description": "One API for hundreds of models",
+      "snippet": "# Models\n## Single Model Lookup\n```\n# Look up a specific model\ncurl \"https://openrouter.ai/api/v1/model/openai/gpt-4o\"\n\n# Aliases resolve automatically\ncurl \"https://openrouter.ai/api/v1/model/anthropic/claude-3-5-sonnet\"\n\n# Catalog variants return their own entry (id: \"poolside/laguna-s-2.1:free\")\ncurl \"https://openrouter.ai/api/v1/model/poolside/laguna-s-2.1:free\"\n\n# Routing variants return the base entry (id: \"openai/gpt-4o\")\ncurl \"https://openrouter.ai/api/v1/model/openai/gpt-4o:nitro\"\n```",
+      "page_age": "2026-07-14T17:19:40"
+    },
+    {
+      "title": "Free Models Router - Zero-Cost AI Inference",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/free-router",
+      "description": "Get free AI inference by routing to available free models",
+      "snippet": "# Free Models Router\n## Available Free Models\nThe Free Models Router selects from all currently available free models on OpenRouter. Some popular options include:\n\nFree model availability changes frequently. Check the models page for the current list of free models.\n\n- **DeepSeek R1 (free)** - DeepSeek’s reasoning model\n- **Llama models (free)** - Various Meta Llama models\n- **Qwen models (free)** - Alibaba’s Qwen family\n- And other community-contributed free models",
+      "page_age": "2026-07-03T01:01:12"
+    },
+    {
+      "title": "OpenRouter Free Models: All 21 Listed (Sep 2026)",
+      "url": "https://costgoat.com/pricing/openrouter-free-models",
+      "description": "All free AI models on OpenRouter, zero cost, no credit card. Compare context lengths, capabilities, and rate limits. Updated live.",
+      "snippet": "# OpenRouter Free Models\n## OpenRouter Free Model List (21)\nOfficial pricing:\n\nOpenRouter\n\n•\n\nQuality Scores: Theozard\n\nSort by:\n\nQuality Popularity Context Name Provider\n\n(z-ai/glm-5.2:free)\n\nProvider\n\nZ.ai\n\nContext\n\n33K\n\nQuality\n\n64\n\nPopularity\n\n#15\n\nCapabilities\n\n(thinkingmachines/inkling-small:free)\n\nProvider\n\nthinkingmachines\n\nContext\n\n1.0M\n\nQuality\n\n49\n\nPopularity\n\n#70\n\nCapabilities",
+      "page_age": "2026-09-16T10:50:06"
+    }
+  ]
+}

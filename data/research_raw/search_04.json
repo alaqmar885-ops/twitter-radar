@@ -1,0 +1,61 @@
+{
+  "query": "gallery-dl Instagram public metadata no login",
+  "results": [
+    {
+      "title": "gallery-dl Instagram Windows — Download Photos, Reels & Stories 2026",
+      "url": "https://gallery-dlp.github.io/instagram.html",
+      "description": "How to download Instagram photos, reels, stories and highlights with gallery-dl on Windows 11/10. Includes cookie login for private accounts. Copy-paste commands.",
+      "snippet": "How to download Instagram photos, reels, stories and highlights with gallery-dl on Windows 11/10. Includes cookie login for private accounts.\n\nBulk download Instagram photos, reels, stories and highlights with gallery-dl on Windows.\n\nWindows 11/10  ·  Login required  ·  Photos, Reels, Stories, Highlights",
+      "page_age": "2026-06-09T00:00:00"
+    },
+    {
+      "title": "Can't even view an instagram link without a login, Meta junk.",
+      "url": "https://news.ycombinator.com/item?id=35105915",
+      "description": "",
+      "snippet": "pengaru on March 11, 2023 | parent | context | favorite | on: Modern Symbolics Lisp Machine Keyboard Replica: Ke... Can't even view an instagram link without a login, Meta junk. pabs3 on March 11, 2023 | next \\[–\\] Try gallery-dl, it can often get stuff without hitting a login: https://github.com/mikf/gallery-dl/ After a lot of downloads you may get a login though",
+      "page_age": ""
+    },
+    {
+      "title": "Instaloader — Download Instagram Photos and Metadata",
+      "url": "https://instaloader.github.io/",
+      "description": "Free command line tool to download photos from Instagram. Scrapes public and private profiles, hashtags, stories, feeds, saved media, and their metadata, comments and captions. Written in Python.",
+      "snippet": "Free command line tool to download photos from Instagram. Scrapes public and private profiles, hashtags, stories, feeds, saved media, and their metadata, comments and captions.",
+      "page_age": "2022-10-12T00:00:00"
+    },
+    {
+      "title": "gallery-dl · con/serve",
+      "url": "https://con.github.io/serve/tools/media/gallery-dl/",
+      "description": "Download image galleries and collections from over 100 websites",
+      "snippet": "# gallery-dl\n**Repository:** https://github.com/mikf/gallery-dl",
+      "page_age": "2026-02-12T00:00:00"
+    },
+    {
+      "title": "Assistance With Instagram · mikf/gallery-dl · Discussion #5415",
+      "url": "https://github.com/mikf/gallery-dl/discussions/5415",
+      "description": "Assistance With Instagram",
+      "snippet": "# Assistance With Instagram #5415\n## wright546 Apr 1, 2024\nThis is my very basic config: { \"postprocessor\": { \"insta-meta\": { \"name\": \"metadata\", \"event\": \"post\", \"mode\": \"custom\", \"format\": \"{description}\\\\n\", \"filename\": \"{post\\_shortcode}by{username}.html\" } }, \"extractor\": { \"instagram\": { \"username\": \"user.name\", \"password\": \"random string\", \"directory\": \\[\"{category}\"\\], \"filename\":",
+      "page_age": "2024-04-01T00:00:00"
+    },
+    {
+      "title": "r/DataHoarder on Reddit: gallery-dl doesn't download Instagram ...",
+      "url": "https://www.reddit.com/r/DataHoarder/comments/y6740i/gallerydl_doesnt_download_instagram_profile/",
+      "description": "When I try downloading my profile picture with the URL of my page, it just downloads the posts. Using the `--get-urls` option, i get this output: >…",
+      "snippet": "# gallery-dl doesn't download Instagram profile pictures\n```\n> gallery-dl --cookies .\\my_cookies.txt \"https://www.instagram.com/zmn_hamid\" -g\nhttps://www.instagram.com/zmn_hamid/posts/\n```\n\nAs you see, it's redirecting to my posts url. Do you know any trick or alternative to this?",
+      "page_age": "2022-10-19T09:33:55"
+    },
+    {
+      "title": "Does not work for 18+ instagram profiles · Issue #4062 · ...",
+      "url": "https://github.com/mikf/gallery-dl/issues/4062",
+      "description": "[instagram][error] AuthorizationError: Login required to access this profile Getting this error trying to rip from https://www.instagram.com/shinratensei_98/ gallery-dl -u myusername -p mypassword https://www.instagram.com/shinratensei_98/",
+      "snippet": "# Does not work for 18+ instagram profiles #4062\n## Description\n@rhgtuh\n\nrhgtuh\n\nopened on May 14, 2023\n\nIssue body actions\n\n[instagram][error] AuthorizationError: Login required to access this profile\n\nGetting this error trying to rip from\n\nhttps://www.instagram.com/shinratensei_98/\n\ngallery-dl -u myusername -p mypassword https://www.instagram.com/shinratensei_98/",
+      "page_age": "2023-05-14T23:55:52"
+    },
+    {
+      "title": "Setting custom instagram name outputs and metadata? · Issue #6998 ...",
+      "url": "https://github.com/mikf/gallery-dl/issues/6998",
+      "description": "I've been trying to find if it's possible to make gallery-dl name my outputs, I checked the documentation and either it's not there or I couldn't find it. While googling I stumbled upon this issue ticket #6677 In this post he has a wildl...",
+      "snippet": "# Setting custom instagram name outputs and metadata? #6998\n## Description\n@xathian\n\nxathian\n\nopened on Feb 15, 2025\n\nIssue body actions\n\nI've been trying to find if it's possible to make gallery-dl name my outputs, I checked the documentation and either it's not there or I couldn't find it. While googling I stumbled upon this issue ticket\n\n#6677\n\nIn this post he has a wildly customized config for instagram.",
+      "page_age": "2025-02-15T11:59:38"
+    }
+  ]
+}

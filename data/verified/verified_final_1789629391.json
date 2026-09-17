@@ -1,0 +1,2898 @@
+{
+  "generated": 1789629391,
+  "counts": {
+    "WEAK": 40,
+    "NOT_AN_OFFER": 31,
+    "PARTIAL": 12,
+    "VERIFIED": 62
+  },
+  "findings": [
+    {
+      "verdict": "VERIFIED",
+      "title": "Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "url": "https://plexus.company",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Plexus · See your hardware. Stay on the mission.",
+      "signals": [
+        "start free",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Fello AI From the publisher All AI models in one app ChatGPT, Claude, Gemini, Grok, DeepSeek and more. One native app for Mac, iPh",
+      "url": "https://felloai.com/chatgpt-for-academic-researchers/",
+      "score": 0.75,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "ChatGPT for Academic Researchers: Rules and How to Apply",
+      "signals": [
+        "free tier",
+        "credits",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "AI Free Trials 2026: Every Pro Tier You Can Actually Test for Free",
+      "url": "https://felloai.com/ai-free-trials/",
+      "score": 0.75,
+      "type": "free_trial",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "AI Free Trials 2026: Every Pro Tier You Can Test Free",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Try it free →",
+      "url": "https://costgoat.com/",
+      "score": 0.75,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "CostGoat | AI, Cloud &amp; SaaS Cost Monitoring",
+      "signals": [
+        "free trial",
+        "try free",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Chickadee – Free, local, open-source text-to-speech for web pages",
+      "url": "https://www.usechickadee.com",
+      "score": 0.73,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Chickadee — reads pages aloud, on your machine",
+      "signals": [
+        "free forever",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Community curated list of 310 AI providers offering $4.3k free credits",
+      "url": "https://www.uprouter.online/",
+      "score": 0.7,
+      "type": "free_credits",
+      "value": "$4.3",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Find the best free AI API keys - Use them all in one endpoint",
+      "signals": [
+        "free tier",
+        "free trial",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Ardent, a code-first agent for non-engineering work",
+      "url": "https://ardent.ai/",
+      "score": 0.69,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "FIRST",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Ardent AI",
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "FastRecall, ultra-cheap memory across AI models",
+      "url": "https://fastrecall.ai/",
+      "score": 0.685,
+      "type": "discount",
+      "value": "$2",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "FastRecall | Home",
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "AI music generators with free tiers",
+      "url": "https://felloai.com/best-ai-music-generators/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best AI Music Generators 2026: Ranked, Tested &amp; Compared",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "free AI image generators and editors",
+      "url": "https://felloai.com/free-ai-photo-generator-editor/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best Free AI Image Generator 2026: 10 Tools Tested",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "claiming Google AI Pro free for students",
+      "url": "https://felloai.com/how-to-claim-your-free-google-ai-pro-for-students/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Google AI Pro for Students 2026: Is It Still Free?",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "how to get Perplexity Pro for free or cheap",
+      "url": "https://felloai.com/how-to-claim-perplexity-pro-for-free-or-cheap/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "How to Get Perplexity Pro for Free or Cheap (2026)",
+      "signals": [
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "qwen/qwen3.5-122b-a10b Free NVIDIA NIM · 262K ctx text image",
+      "url": "https://free-model.com/models/nvidia-nim/qwen-qwen3-5-122b-a10b",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free qwen/qwen3.5-122b-a10b AI Model &amp; API by NVIDIA NIM — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free @cf/meta/llama-4-scout-17b-16e-instruct AI Model &amp; API by Cloudflare Workers AI — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "@cf/meta/llama-3.2-11b-vision-instruct Free Cloudflare Workers AI · 131K ctx text image",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-3-2-11b-vision-instruct",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free @cf/meta/llama-3.2-11b-vision-instruct AI Model &amp; API by Cloudflare Workers AI — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "All models in one place Stop crawling 4 different GitHub READMEs. Search, filter, and compare 147+ free models from 20 providers —",
+      "url": "https://free-model.com/models/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Verified Free LLM APIs — 147+ Tested Models, No Credit Card | free-model.com",
+      "signals": [
+        "free credits",
+        "no credit card",
+        "credits",
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Free LLM APIs for Coding 17 models",
+      "url": "https://free-model.com/use-cases/coding",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best Free LLM API for Coding — No Credit Card | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Free LLM APIs for Chat 144 models",
+      "url": "https://free-model.com/use-cases/chat",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best Free LLM API for Chat — No Credit Card | free-model.com",
+      "signals": [
+        "free tier",
+        "free credits",
+        "no credit card",
+        "credits",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Arcee AI: Trinity Large Thinking (free)",
+      "url": "https://free-model.com/models/openrouter/arcee-ai-trinity-large-thinking",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Arcee AI: Trinity Large Thinking (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Google: Lyria 3 Pro Preview Free OpenRouter · 1.0M ctx text image",
+      "url": "https://free-model.com/models/openrouter/google-lyria-3-pro-preview",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Google: Lyria 3 Pro Preview AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Google: Lyria 3 Clip Preview Free OpenRouter · 1.0M ctx text image",
+      "url": "https://free-model.com/models/openrouter/google-lyria-3-clip-preview",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Google: Lyria 3 Clip Preview AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "deepseek-ai/deepseek-v4-flash Free NVIDIA NIM · 1.0M ctx text",
+      "url": "https://free-model.com/models/nvidia-nim/deepseek-ai-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free deepseek-ai/deepseek-v4-flash AI Model &amp; API by NVIDIA NIM — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "free-model .com",
+      "url": "https://free-model.com/",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free LLM API &amp; Free AI API Directory 2026 — Verified Models, No Credit Card | free-model.com",
+      "signals": [
+        "free tier",
+        "free plan",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Baidu Qianfan: CoBuddy (free)",
+      "url": "https://free-model.com/models/openrouter/baidu-cobuddy",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Baidu Qianfan: CoBuddy (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "url": "https://free-model.com/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free NVIDIA: Nemotron 3 Nano Omni (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Poolside: Laguna XS.2 (free)",
+      "url": "https://free-model.com/models/openrouter/poolside-laguna-xs.2",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Poolside: Laguna XS.2 (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Poolside: Laguna M.1 (free)",
+      "url": "https://free-model.com/models/openrouter/poolside-laguna-m.1",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Poolside: Laguna M.1 (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "DeepSeek: DeepSeek V4 Flash (free)",
+      "url": "https://free-model.com/models/openrouter/deepseek-deepseek-v4-flash",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free DeepSeek: DeepSeek V4 Flash (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Google: Gemma 4 26B A4B (free)",
+      "url": "https://free-model.com/models/openrouter/google-gemma-4-26b-a4b-it",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Google: Gemma 4 26B A4B (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Google: Gemma 4 31B (free)",
+      "url": "https://free-model.com/models/openrouter/google-gemma-4-31b-it",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Free Google: Gemma 4 31B (free) AI Model &amp; API by OpenRouter — Rate Limits &amp; Config | free-model.com",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "OpenRouter Free Models",
+      "url": "https://costgoat.com/pricing/openrouter-free-models",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "OpenRouter Free Models: All 21 Listed (Sep 2026)",
+      "signals": [
+        "free trial",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "I built a site to share and find Claude Code passes",
+      "url": "https://claudecoupons.com",
+      "score": 0.67,
+      "type": "free_credits",
+      "value": "$10 in",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Claude Code Passes | Claude Coupons",
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "VidScio – Identify movie/series from a URL, image or description",
+      "url": "https://www.vidscio.com",
+      "score": 0.67,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "What Movie Is This? AI Movie Finder &amp; Identifier | VidScio",
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "PingChange – monitor web pages and OpenAPI specs for meaningful changes",
+      "url": "https://pingchange.com",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Website Change Monitoring &amp; API Diff Alerts | PingChange",
+      "signals": [
+        "free plan",
+        "start free",
+        "free forever",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "MCP app for Android, drive apps via AI (no root, PII redacted locally)",
+      "url": "https://github.com/danielealbano/android-remote-control-mcp/",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - danielealbano/android-remote-control-mcp: An MCP Server for Android running on the phone, optmized for token usage, supports also f",
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "EU-hosted content extraction API",
+      "url": "https://danubia.tech",
+      "score": 0.67,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Danubia | Turn any web page into clean text",
+      "signals": [
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Web Scraping and Crawling – FetchRelay",
+      "url": "https://fetchrelay.com",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "FetchRelay — Web Scraping API, Crawling &amp; Monitoring",
+      "signals": [
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "I built an AI music generator with some harnesses",
+      "url": "https://onlymusic.ai",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Free AI Music Generator, No Sign Up | onlymusic.ai",
+      "signals": [
+        "free trial",
+        "start free",
+        "free credits",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "ResumeSkip – automatically tailor your resume to jobs",
+      "url": "https://resumeskip.com/",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "ResumeSkip: Tailor Your Resume Without Inventing Experience",
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "url": "https://github.com/DomWane/workers-personal-agent",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - DomWane/workers-personal-agent: Personal AI agent on Cloudflare Workers: Durable Object per conversation, markdown memory in R2, ve",
+      "signals": [
+        "free tier",
+        "free plan",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Vantage – One prioritized health action per day from Apple Health",
+      "url": "https://www.vantagehealthapp.com/",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Vantage: A coach, not a dashboard.",
+      "signals": [
+        "free tier",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Tenux – Access your computer from your phone (terminal, files, browser)",
+      "url": "https://tenux.dev",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Tenux — Coding from your phone finally makes sense",
+      "signals": [
+        "free tier",
+        "start free",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Generous free tier for SERP and AI web scraping",
+      "url": "https://cloro.dev/",
+      "score": 0.647,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "cloro | The API for Google Search and AI Answers",
+      "signals": [
+        "free plan",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "GlyPho – Generate editable SVG families from prompts",
+      "url": "https://www.glypho.app/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "AI SVG Generator for Editable, Consistent SVG Sets | GlyPho",
+      "signals": [
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "SlickFast Deterministic Chart/Dash Renderer, No Browser(JSON → SVG/PNG)",
+      "url": "https://slickfast.com/",
+      "score": 0.647,
+      "type": "free_credits",
+      "value": "$10",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "SlickFast — a deterministic render engine",
+      "signals": [
+        "free tier",
+        "free forever",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Simple self-hosted LLM assistant with user-steered compounding context",
+      "url": "https://github.com/kol3x/pawmc",
+      "score": 0.647,
+      "type": "free_credits",
+      "value": "$0",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - kol3x/pawmc: Pawmc: Private Assistant with Managed Context · GitHub",
+      "signals": [
+        "free tier",
+        "no credit card",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "url": "https://hoplite.sh",
+      "score": 0.647,
+      "type": "free_credits",
+      "value": "$100 in free",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Hoplite",
+      "signals": [
+        "free trial",
+        "start free",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Armature · Get discovered and used by coding agents",
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Wyro – Draw a backend on a canvas, export TypeScript with no lock-in",
+      "url": "https://news.ycombinator.com/item?id=49134292",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Wyro – Draw a backend on a canvas, export TypeScript with no lock-in | Hacker News",
+      "signals": [
+        "free tier",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Saor.io – Persistent memory for AI agents, free, connects via MCP",
+      "url": "https://saor.io",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "saor.io — Your AI remembers now",
+      "signals": [
+        "start free",
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Lifetime Deals",
+      "url": "https://zplatform.ai/ai-deals/best-ai-lifetime-deals/",
+      "score": 0.63,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best AI Lifetime Deals 2026: 13 I&#39;d Actually Buy | zPlatform.ai",
+      "signals": [
+        "free tier",
+        "credits",
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Was winging important meetings. So I built an AI that briefs me in secs",
+      "url": "https://getbriefing.io/",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$49",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Briefing AI | Walk In. Win the Room.",
+      "signals": [
+        "try free",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Make senders work to get into your inbox",
+      "url": "https://www.captchainbox.com",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Captchainbox - Make unknown senders pay to reach you",
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Captchainbox – make senders work to get into your inbox",
+      "url": "https://www.captchainbox.com",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Captchainbox - Make unknown senders pay to reach you",
+      "signals": [
+        "no credit card",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "I turn scattered feedback into a prioritized roadmap in 5 min",
+      "url": "https://plaudera.com",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$49",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Private-First Feedback Management for SaaS Teams | Plaudera | Plaudera",
+      "signals": [
+        "free trial",
+        "no credit card",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "I build an AI tools for Birthday Invitation",
+      "url": "https://birthdayinvitation.ai",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "AI Birthday Invitation Card Generator | Birthday Invitation",
+      "signals": [
+        "free trial",
+        "start free",
+        "free credits",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "Claude student discount guide",
+      "url": "https://felloai.com/claude-student-discount/",
+      "score": 0.585,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Claude Student Discount 2026: Real Routes, No Fake Codes",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "B AI Deals Best Black Friday AI Deals 2026 Which AI tools actually discount on Black Friday 2026 across 90 tracked: verdicts, coup",
+      "url": "https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/",
+      "score": 0.585,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best Black Friday AI Deals 2026: What Actually Discounts",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "CleanMyMedia – organize decades of photos, with local face recognition",
+      "url": "https://cleanmymedia.com",
+      "score": 0.58,
+      "type": "discount",
+      "value": "$29",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "CleanMyMedia — free photo organizer and duplicate photo finder for Mac, Windows and Linux",
+      "signals": [
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "GitHub Student Developer Pack",
+      "url": "https://education.github.com/pack",
+      "score": 0.48,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub Student Developer Pack - GitHub Education",
+      "signals": [
+        "free forever",
+        "no credit card",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "how students can use AI for presentations, essays, and study docs",
+      "url": "https://felloai.com/how-students-can-use-ai-for-presentations-essays-and-study-docs/",
+      "score": 0.48,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "How Students Can Use AI for Presentations &amp; Essays",
+      "signals": [
+        "free plan",
+        "free trial",
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "VERIFIED",
+      "title": "AI tools for students and researchers",
+      "url": "https://felloai.com/ai-tools-for-students-and-researchers/",
+      "score": 0.48,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Best AI Tools for Students and Researchers in 2026",
+      "signals": [
+        "free tier",
+        "free plan",
+        "free trial",
+        "credits",
+        "pricing",
+        "free",
+        "trial",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Understanding your Claude Code with trajectory segmentation",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - lucastononro/cc-traj-seg: Trajectory segmentation for long Claude Code sessions: a pane that keeps a running account of what the ag",
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "I built a Mac app to make technical PDF textbooks easier to study",
+      "url": "https://marginstudy.app/",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Margin — PDF textbook reader &amp; inline notes for Mac",
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+      "score": 0.765,
+      "type": "open_source",
+      "value": "$1",
+      "promo_code": "NVFP4",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "ukisai/Swift-Qwen3.8-27b · Hugging Face",
+      "signals": [
+        "pricing",
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Echodot – Local-first AI that writes replies in your tone",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "score": 0.745,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - ohkariku-boop/Echodot: Echo your voice across every app. · GitHub",
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Pizza Bot – An inbox for AI agents that work in the background",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "score": 0.7,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - pizza-bot-app/pizza-bot: A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph. · GitHub",
+      "signals": [
+        "pricing",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Rebuno - An open-source runtime for production agents",
+      "url": "https://github.com/rebuno/rebuno",
+      "score": 0.7,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - rebuno/rebuno: Execution runtime for production agents · GitHub",
+      "signals": [
+        "pricing",
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Roled – User and role management across multiple applications",
+      "url": "https://github.com/roledio/roled",
+      "score": 0.67,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "GitHub - roledio/roled: Open source, centralized user and role management platform for all your projects. Self-hosted or cloud. · GitHub",
+      "signals": [
+        "pricing",
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "FutureSearch, AI forecasting you can verify",
+      "url": "https://futuresearch.ai/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "FutureSearch: Search the Future",
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Backprompter – create, test, and deploy agents without a back end",
+      "url": "https://backprompter.com/",
+      "score": 0.64,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Backprompter — Build, Test &amp; Deploy AI Agents Without a Backend",
+      "signals": [
+        "credits",
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Cadenya – An Agent Runtime",
+      "url": "https://www.cadenya.com/",
+      "score": 0.61,
+      "type": "discount",
+      "value": "$20",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Cadenya — Bring agentic possibilities to life",
+      "signals": [
+        "credits",
+        "pricing",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "SaaS launch tomorrow – lifetime deal or subscription?",
+      "url": "https://news.ycombinator.com/item?id=44232217",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$19",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Ask HN: SaaS launch tomorrow – lifetime deal or subscription? | Hacker News",
+      "signals": [
+        "credits",
+        "pricing",
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "PARTIAL",
+      "title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) 90% Off! 34 Reviews $49.00 $495.00",
+      "url": "https://www.stacksocial.com/sales/imagiyo-ai-image-generator-standard-plan-lifetime-subscription",
+      "score": 0.585,
+      "type": "discount",
+      "value": "90% Off",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Imagiyo AI Image Generator: Lifetime Subscription (Standard Plan) | StackSocial",
+      "signals": [
+        "free",
+        "trial",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "How I built a debugging tool, and the agent, using it, found bugs in it",
+      "url": "https://news.ycombinator.com/item?id=49730393",
+      "score": 0.88,
+      "type": "open_source",
+      "value": "$19",
+      "promo_code": "SIGNER",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, &amp; others | Hacker News",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Zill",
+      "url": "https://news.ycombinator.com/item?id=49730450",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: Zill | Hacker News",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "A writing coach that's not allowed to write your sentences",
+      "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+      "score": 0.75,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "HACKERNEWS2026",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Try Oghmere — free writing feedback",
+      "signals": [
+        "credits",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Compute:Arena – Community submitted local AI benchmarks",
+      "url": "https://computearena.ai",
+      "score": 0.745,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "ComputeArena · Edge device benchmarks",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Blue – open-source governance for coding agents",
+      "url": "https://bluee.sh/",
+      "score": 0.745,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Blue | One harness to rule them all",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Mojo compiler is open for open source contributions [Mojo]",
+      "url": "https://forum.modular.com/t/mojo-compiler-is-open-for-open-source-contributions/3499",
+      "score": 0.745,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Mojo compiler is open for open source contributions - Mojo - Modular",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Taxes while living abroad as a US citizen",
+      "url": "https://news.ycombinator.com/item?id=49706870",
+      "score": 0.73,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Ask HN: Taxes while living abroad as a US citizen | Hacker News",
+      "signals": [
+        "credits",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Italian pupils are now earning school credits for Free Software projects",
+      "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+      "score": 0.73,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "YH4F: Italian pupils are now earning school credits for Free Software projects! - FSFE",
+      "signals": [
+        "credits",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Shrinker Pro 1.3.0 is out: the native Apple Silicon image compressor for macOS. It resizes now: set a max size and nothing comes o",
+      "url": "https://mastodon.social/@ShrinkerPro/117285067222836868",
+      "score": 0.725,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "mastodon"
+      ],
+      "page_status": 200,
+      "page_title": "Shrinker Pro: &quot;Shrinker Pro 1.3.0 is out: the native Apple Silic…&quot; - Mastodon",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Windows or Linux for your dedicated server? Linux distributions are open-source and free, making them perfect for # WordPress , #",
+      "url": "https://mastodon.social/@eServers/117284989005054059",
+      "score": 0.725,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "mastodon"
+      ],
+      "page_status": 200,
+      "page_title": "eServers: &quot;Windows or Linux for your dedicated server? Lin…&quot; - Mastodon",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "SeasonMap – when to travel where? visualized with climate data",
+      "url": "https://seasonmap.app",
+      "score": 0.705,
+      "type": "discount",
+      "value": "$7",
+      "promo_code": "ERA5",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "SeasonMap — where to travel, by the weather you actually want",
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "CleverCrow, Get paid to work your backlog",
+      "url": "https://clevercrow.io",
+      "score": 0.7,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "CleverCrow · Get paid to work your backlog.",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Usero MCP, give your coding agent your user feedback",
+      "url": "https://usero.io/docs/mcp",
+      "score": 0.7,
+      "type": "free_credits",
+      "value": "$0",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Feedback MCP server | Usero Docs",
+      "signals": [
+        "pricing",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Le dichiarazioni di Amodei sui \"rischi esistenziali\" dell'IA meritano un'analisi lucida. I rischi su infrastrutture critiche vanno",
+      "url": "https://hachyderm.io/@picchio74/117285039600725525",
+      "score": 0.695,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "mastodon"
+      ],
+      "page_status": 200,
+      "page_title": "Quirino Scaramastra: &quot;Le dichiarazioni di Amodei sui &quot;rischi esistenzia…&quot; - Hachyderm.io",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Deiko – point at your screen, talk, and hand the brief to your agent",
+      "url": "https://deiko.app/",
+      "score": 0.685,
+      "type": "discount",
+      "value": "$99",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Deiko — Point at it. Say it. Hand it to your agent.",
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "D5s, an AI coworking space for people and agents",
+      "url": "https://www.d5s.tech",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "d5s | Collaborative AI Agent Workspace",
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "The AI agent that works inside the apps you use",
+      "url": "https://www.lava.so/#download",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Lava | The software you love with the AI you want",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Convolens – Real time slides and fact-checking",
+      "url": "https://demo.convolens.ai",
+      "score": 0.67,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Convolens – Real-Time Fact-Checking &amp; Slides",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "The real tokenmaxxing move: use frontier agents to build small classifiers for large-scale data curation. Small classifiers alread",
+      "url": "https://x.com/vanstriendaniel/status/2098080038885200160",
+      "score": 0.665,
+      "type": "free_credits",
+      "value": "$0.70 in",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "Daniel van Strien on X: &quot;The real tokenmaxxing move: use frontier agents to build small classifiers for large-scale data curation. Smal",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "10. Microsoft Learn Free learning paths for Microsoft Copilot, Azure AI, and machine learning. https://learn.microsoft.com/en-us/t",
+      "url": "https://x.com/AIHighlight/status/2099889820554154012",
+      "score": 0.665,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "AI Highlight on X: &quot;10. Microsoft Learn Free learning paths for Microsoft Copilot, Azure AI, and machine learning. https://t.co/R5WfifR",
+      "signals": [
+        "free",
+        "off"
+      ],
+      "web_hits": 0
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Q2D-Web draws on 23,000 PII-free production searches across ten languages and dozens of domains, collected over nine months. Agent",
+      "url": "https://x.com/perplexity_ai/status/2097782501238595594",
+      "score": 0.665,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "Perplexity on X: &quot;Q2D-Web draws on 23,000 PII-free production searches across ten languages and dozens of domains, collected over nine ",
+      "signals": [
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "STOP PAYING FOR AI COURSES. The companies building AI are teaching it for free. Here are 10 resources that can take you from begin",
+      "url": "https://x.com/AIHighlight/status/2099886700386296228",
+      "score": 0.665,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "AI Highlight on X: &quot;STOP PAYING FOR AI COURSES. The companies building AI are teaching it for free. Here are 10 resources that can take",
+      "signals": [
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "A ChatGPT co-inventor just launched a model where output tokens are free. It is called Jev, and he says it runs 40 to 400x cheaper",
+      "url": "https://x.com/AIHighlight/status/2099949255783821689",
+      "score": 0.665,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "AI Highlight on X: &quot;A ChatGPT co-inventor just launched a model where output tokens are free. It is called Jev, and he says it runs 40 ",
+      "signals": [
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Username.md – a signed, agent-readable identity page you own",
+      "url": "https://username.md/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "$49",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "username.md — One Handle. Now Make it Yours.",
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "The AI revolution will not be centralized. 🤗 📢 Calling all AI builders to San Francisco on Friday, October 16, one month from toda",
+      "url": "https://x.com/jeffboudier/status/2100282921211117662",
+      "score": 0.635,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "Jeff Boudier 🤗 on X: &quot;The AI revolution will not be centralized. 🤗 📢 Calling all AI builders to San Francisco on Friday, October 16, on",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Lifetime Deals",
+      "url": "https://www.stacksocial.com/collections/lifetime-subscriptions",
+      "score": 0.63,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Lifetime Subscriptions",
+      "signals": [
+        "free",
+        "trial",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Open-source Cloudflare deployed agent native task management and wiki",
+      "url": "https://tajd.github.io/projektor/",
+      "score": 0.618,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "AI-native project management on Cloudflare | Projektor",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "A launch video used to mean hiring an editor, a voice artist and a motion designer. @videoclawapp does all of it from one prompt o",
+      "url": "https://x.com/AIHighlight/status/2100280981684961488",
+      "score": 0.605,
+      "type": "discount",
+      "value": "$50 in free",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "AI Highlight on X: &quot;A launch video used to mean hiring an editor, a voice artist and a motion designer. @videoclawapp does all of it fr",
+      "signals": [
+        "credits",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "I Built a Google Sheets Alternative to $50K/Year in SaaS Subscriptions",
+      "url": "https://smartspreadsheets.co/",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$50",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Google Sheets Automation Tools: Smartspreadsheets.co",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "My LinkedIn AI Tool made $30k last month (Lifetime Deal)",
+      "url": "https://www.dottypost.com/",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$30",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Dottypost - Grow Your LinkedIn Audience",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Stop hoarding content – I built a tool to make it useful",
+      "url": "https://news.ycombinator.com/item?id=44963305",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: Stop hoarding content – I built a tool to make it useful | Hacker News",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "AI Notetaker shipping new features: OCR, upgraded STT and TTS",
+      "url": "https://news.ycombinator.com/item?id=45152280",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: AI Notetaker shipping new features: OCR, upgraded STT and TTS | Hacker News",
+      "signals": [
+        "discount"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "I built a tool to stop my posts from getting shadowbanned",
+      "url": "https://www.shillguardapp.com/",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Market Without Fear | ShillGuard",
+      "signals": [
+        "pricing",
+        "free",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Shark Tank is just free PR for investors",
+      "url": "https://news.ycombinator.com/item?id=47528777",
+      "score": 0.588,
+      "type": "discount",
+      "value": "$600",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Shark Tank is just free PR for investors | Hacker News",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Nauma new features (financial planning)",
+      "url": "https://news.ycombinator.com/item?id=49424883",
+      "score": 0.58,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: Nauma new features (financial planning) | Hacker News",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Hi. 😊 Swedish dude here If you get diabetes and need insulin, in Sweden it costs you nothing. Zero. By law. Not a coupon. Not a ch",
+      "url": "https://x.com/LinusEkenstam/status/2100329563045978357",
+      "score": 0.575,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "Linus ✦ Ekenstam on X: &quot;Hi. 😊 Swedish dude here If you get diabetes and need insulin, in Sweden it costs you nothing. Zero. By law. Not",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Introducing Higgsfield API. 50+ frontier models in one API, at lower prices than a subscription. > Get up to 50% OFF discount on y",
+      "url": "https://x.com/higgsfield/status/2100305266688610746",
+      "score": 0.575,
+      "type": "discount",
+      "value": "50% OFF",
+      "promo_code": "",
+      "platforms": [
+        "twitter"
+      ],
+      "page_status": 200,
+      "page_title": "Higgsfield AI 🧩 on X: &quot;Introducing Higgsfield API. 50+ frontier models in one API, at lower prices than a subscription. &gt; Get up to ",
+      "signals": [
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Traibe – Your Ultimate AI Co-Founder",
+      "url": "https://www.traibe.xyz",
+      "score": 0.557,
+      "type": "discount",
+      "value": "70% off",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "traibe - Your Ultimate AI Co-founder",
+      "signals": [
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "CompareGPT – Spotting LLM Hallucinations with Multi-Model Comparison",
+      "url": "https://news.ycombinator.com/item?id=45163546",
+      "score": 0.557,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Show HN: CompareGPT – Spotting LLM Hallucinations with Multi-Model Comparison | Hacker News",
+      "signals": [
+        "free"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "WEAK",
+      "title": "Student Beans",
+      "url": "https://www.studentbeans.com/en-us/us/beansid-connect/hosted/stacksocial",
+      "score": 0.48,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "StackSocial discount codes &amp; deals",
+      "signals": [
+        "free",
+        "discount",
+        "off"
+      ],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Freeform – One click shareable AI generated apps",
+      "url": "https://sharefreeform.com",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 403,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "A free search console for grant making",
+      "url": "https://data.charitysense.com/grants",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Grant Console - Grant Discovery for Funders | CharitySense",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Ear Training Exercise",
+      "url": "https://clarena.app/app/try",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Clarena · Cognitive Practice",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "unSnag – Display tasks you can do and graph task dependencies",
+      "url": "https://unsnag.app",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "unSnag — Beta",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Vending Machine Lab – Build business, leave for 2 wks, see what breaks",
+      "url": "https://vending-machine-lab.pages.dev/",
+      "score": 0.775,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Vending Machine Lab — Try two weeks without you",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "SyntheticAIdata – synthetic data for CV, 100k free credits/month",
+      "url": "https://app.syntheticaidata.com/",
+      "score": 0.7,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "syntheticAIdata - Developer Platform",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "imgcmd: strumento open source per generare immagini # PNG in locale in modo sicuro # OpenSource # CLI # Developers # Tech # DevToo",
+      "url": "https://mastodon.uno/@WebAppsMagazine/117285012457417961",
+      "score": 0.695,
+      "type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "mastodon"
+      ],
+      "page_status": 200,
+      "page_title": "Web Apps Magazine :verified:: &quot;imgcmd: strumento open source per generare immagi…&quot; - Mastodon Uno Social - Italia",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Halo 3's Guardian, playable in the browser, as my personal website",
+      "url": "https://runboli.com",
+      "score": 0.675,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Cogram Studio – CAD and BIM workspace for humans and agents",
+      "url": "https://studio.cogram.com/",
+      "score": 0.67,
+      "type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Cogram Studio",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Salestrics – An open MCP server and CRM for AI-native revenue teams",
+      "url": "https://www.salestrics.com/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "Free Forever",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "A detailed air alert map of Ukraine and Russia, built on free tier",
+      "url": "https://uavradar.live/",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "UAV Radar — live drone &amp; missile alert map, Ukraine &amp; Russia",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Brolly, a plain-text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "score": 0.647,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "York, England, United Kingdom Weather Forecast - brolly.sh",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "I created a gallery of 3D icons, free to download",
+      "url": "https://www.ai-suguan.com/",
+      "score": 0.632,
+      "type": "lifetime_deal",
+      "value": "$9.9",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 AI Gallery 🎯 Generate an image from text 🎯 Try image-to-image editing 🎯 Use an inpainting workflow 🏷️ Image & Design #AIGallery",
+      "url": "",
+      "score": 0.625,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "I built a CLI tool that uses AI to document an entire Python codebase",
+      "url": "https://stirring-dieffenbachia-dfcdcf.netlify.app/",
+      "score": 0.603,
+      "type": "lifetime_deal",
+      "value": "$49",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 200,
+      "page_title": "Docu-AI Pro - Instant Code Documentation",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 BGBye 🎯 Remove a product-photo background 🎯 Create a transparent PNG 🎯 Process several images in a folder 🏷️ Image & Design #BGB",
+      "url": "",
+      "score": 0.58,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Config in 30 seconds Claude Code, Cursor, Codex, Gemini CLI — each tool has its own config format. Pick a tool, pick a free model,",
+      "url": "https://free-model.com/config/",
+      "score": 0.575,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 451,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Easily deploy vibecode apps through MCP",
+      "url": "https://zerolith.io/",
+      "score": 0.57,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 Mathos AI 🎯 Work through a photographed homework problem 🎯 Ask for a hint instead of the full answer 🎯 Graph a function 🏷️ Resea",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 Qwen3-Coder 🎯 Ask an agent to inspect a repository and plan a multi-file change 🎯 Use long context to work across documentation,",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 Pomelli 🎯 Build a brand profile from a business website 🎯 Generate a campaign concept with on-brand images and copy 🎯 Create and",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 Elf Help 🎯 Find a gift for a hobbyist 🎯 Plan a gift within a budget 🎯 Generate ideas for a difficult recipient 🏷️ Utilities & Ot",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🤖 EnhancePhoto.ai 🎯 Sharpen a blurry photo 🎯 Improve a product image 🎯 Restore an old photo 🏷️ Image & Design #EnhancePhotoai #fre",
+      "url": "",
+      "score": 0.52,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "TeardownHQ, teardowns/playbooks of how indie startups grew",
+      "url": "https://teardownhq.io",
+      "score": 0.503,
+      "type": "lifetime_deal",
+      "value": "$40",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 503,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "InsAIts V2 – Real-time monitoring for multi-agent AI communication",
+      "url": "https://github.com/Nomadu27/InsAIts",
+      "score": 0.503,
+      "type": "lifetime_deal",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 404,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Join our channel dedicated to sharing limited free offers for Udemy courses in all fields. https://t.me/DataScienceC",
+      "url": "",
+      "score": 0.497,
+      "type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "student offer",
+      "url": "https://gemini.google/students/",
+      "score": 0.48,
+      "type": "other",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "html"
+      ],
+      "page_status": 200,
+      "page_title": "Gemini for Students — અભ્યાસ માટેનું Googleનું તમારું AI સાથી",
+      "signals": [],
+      "web_hits": 4
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Chat with AI Models on an Infinite Canvas",
+      "url": "https://www.rabbitholes.ai",
+      "score": 0.458,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "hackernews"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "Oxlo.ai - AI APIs & Compute for Developers (FREE Access 🚀 ) 👉 https://www.oxlo.ai/ Oxlo.ai is a developer-focused AI infra platfor",
+      "url": "",
+      "score": 0.457,
+      "type": "discount",
+      "value": "",
+      "promo_code": "OXLOSTARTER",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🚨 Today Only! Get 30% OFF on All Article Orders + Full Writing Package 🚨 🎯 Want your research published in top Q1 journals and Nat",
+      "url": "",
+      "score": 0.408,
+      "type": "discount",
+      "value": "30% OFF",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    },
+    {
+      "verdict": "NOT_AN_OFFER",
+      "title": "🚀 Master Data Science & Programming! Unlock your potential with this curated list of Telegram channels. Whether you need books, da",
+      "url": "",
+      "score": 0.408,
+      "type": "discount",
+      "value": "",
+      "promo_code": "",
+      "platforms": [
+        "telegram"
+      ],
+      "page_status": 0,
+      "page_title": "",
+      "signals": [],
+      "web_hits": 0
+    }
+  ]
+}

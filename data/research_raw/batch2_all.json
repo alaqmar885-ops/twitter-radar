@@ -1,0 +1,1162 @@
+{
+  "Groq API free tier rate limits 2026": [
+    {
+      "title": "Groq Free Tier Limits 2026: 30 RPM, 6K TPM, 14.4K Req/Day - TokenMix ...",
+      "url": "https://tokenmix.ai/blog/groq-free-tier-limits-2026",
+      "description": "Groq free tier limits 2026: 30 RPM, 6K TPM, 14.4K req/day. Exact limits per model (Llama 70B, 8B, Qwen3, Mixtral). Developer tier upgrade guide included.",
+      "snippet": "Groq free tier limits 2026: 30 RPM, 6K TPM, 14.4K req/day. Exact limits per model (Llama 70B, 8B, Qwen3, Mixtral). Developer tier upgrade guide included.\n\nTokenMix Research Lab · 2026-04-13\n\nGroq Free Tier Limits 2026: 30 RPM, 6K TPM, 14.4K Req/Day",
+      "page_age": "2026-04-29T06:46:46"
+    },
+    {
+      "title": "Groq free tier rate limit increased: Steps, Limits, and Alternatives ...",
+      "url": "https://yangmao.ai/en/deals/groq-free-tier-rate-limits-increased-2026-05-29/",
+      "description": "Groq free tier rate limit increased guide: Groq increased free tier rate limit to 60 requests per minute, suitable for dev testing.. Includes requirements, difficulty, access notes, expiry handling, and alternatives.",
+      "snippet": "Groq free tier rate limit increased guide: Groq increased free tier rate limit to 60 requests per minute, suitable for dev testing.. Includes requirements, difficulty, access notes, expiry handling, and alternatives",
+      "page_age": "2026-05-29T00:00:00"
+    },
+    {
+      "title": "Groq free tier limits: What you need to know in 2026",
+      "url": "https://theneuralbase.com/groq/qna/groq-free-tier-limits/",
+      "description": "Understand the current free tier limits for Groq API usage, including request quotas and model access details for developers integrating Groq AI models.",
+      "snippet": "# Groq free tier limits\nThe openai SDK works with Groq via base_url, but the article omits that you must use from groq import Groq instead for proper Groq-specific features and error handling - the openai.OpenAI client with base_url is a workaround, not the native approach. Groq free tier limits are 10,000 requests/month and 5 million tokens/month combined across all models; exceeding either triggers immediate 429 errors with no partial request - there is no graceful degradation",
+      "page_age": "2026-04-11T00:00:00"
+    },
+    {
+      "title": "Groq API Free Tier Limits in 2026: What You Actually Get - Grizzly ...",
+      "url": "https://www.grizzlypeaksoftware.com/articles/p/groq-api-free-tier-limits-in-2026-what-you-actually-get-uwysd6mb",
+      "description": "Groq API free tier limits in 2026: exact RPM, RPD, TPM, and TPD for every model including Llama 3.3, Llama 4 Scout, and Whisper.",
+      "snippet": "# Groq API Free Tier Limits in 2026: What You Actually Get\n## The Free Tier Rate Limits (March 2026)\n| Model | RPM | RPD | TPM | TPD |\n| --- | --- | --- | --- | --- |\n| llama-3.1-8b-instant | 30 | 14,400 | 6,000 | 500,000 |\n| llama-3.3-70b-versatile | 30 | 1,000 | 12,000 | 100,000 |\n| meta-llama/llama-4-scout-17b-16e-instruct | 30 | 1,000 | 30,000 | 500,000 |\n| moonshotai/kimi-k2-instruct | 60 | 1,000 | 10,000 | 300,000 |\n| qwen/qwen3-32b | 60 | 1,000 | 6,000 | 500,000 |\n| openai/gpt-oss-120b | 30 | 1,000 | 8,000 | 200,000 |\n| openai/gpt-oss-20b | 30 | 1,000 | 8,000 | 200,000 |\n| groq/compound | 30 | 250 | 70,000 | — |\n| groq/compound-mini | 30 | 250 | 70,000 | — |\n| allam-2-7b | 30 | 7,000 | 6,000 | 500,000 |\n| whisper-large-v3 (speech-to-text) | 20 | 2,000 | — | — |\n| whisper-large-v3-turbo | 20 | 2,000 | — | — |",
+      "page_age": "2026-03-27T23:25:00"
+    },
+    {
+      "title": "Groq Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/groq/free",
+      "description": "Groq offers a genuinely free, no-credit-card developer tier with access to every model on its ultra-fast LPU hardware, gated only by rate limits — there is no credits system and no per-token charge.",
+      "snippet": "# Groq Free Tier\n## Free Tier Details\n**Free Tier**: No credits system — free access gated only by rate limits\n**Rate Limits**: ~30 req/min, ~14,400 req/day; per-model token limits (e.g. ~12K tokens/min on Llama 3.3 70B)\n**Models Available**: All models (Llama, GPT-OSS, Whisper, etc.)\n**Credit Card Required**: No — adding a card unlocks the Developer tier (~10x limits + 25% discount, no minimum spend)",
+      "page_age": ""
+    },
+    {
+      "title": "Groq API Pricing & Free Tier Rate Limits 2026 - Dmytro Klymentiev",
+      "url": "https://klymentiev.com/blog/groq-pricing",
+      "description": "Groq pricing in 2026: Llama 3.1 8B $0.05/M, Llama 70B $0.59/M, Kimi K2 $1/M. Free tier limits, Batch + caching 75% off, LPU speed.",
+      "snippet": "# Groq API Pricing & Free Tier Rate Limits 2026\n*Last updated: June 2026*\n\nGroq pricing in June 2026 ranges from **$0.05 per million input tokens** (Llama 3.1 8B) to **$1.00 per million** (Kimi K2), making it the **cheapest fast inference option** for open-source LLMs. The free tier requires no credit card and gives every developer access to all supported models at 30 requests per minute",
+      "page_age": "2026-06-10T00:00:00"
+    },
+    {
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models ...",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "description": "Groq API pricing 2026: free tier 30 req/min, paid from $0.05/M. 300-1,000 TPS speed. Rate limits by model, Groq vs OpenAI + DeepSeek comparison.",
+      "snippet": "Groq API pricing 2026: free tier 30 req/min, paid from $0.05/M. 300-1,000 TPS speed. Rate limits by model, Groq vs OpenAI + DeepSeek comparison.",
+      "page_age": "2026-04-29T06:54:05"
+    },
+    {
+      "title": "Groq Pricing In 2026: Every Model, Tier, And Cost Compared",
+      "url": "https://www.cloudzero.com/blog/groq-pricing/",
+      "description": "Groq pricing starts at $0.05 per million input tokens. Compare every model, free tier limits, batch discounts, and see how Groq stacks up against OpenAI and Claude in 2026.",
+      "snippet": "# Groq Pricing In 2026: Every Model, Tier, And Cost Compared\n## How Does Groq’s Tier Structure And API Pricing Work?\n### Three tiers govern access and rates:\n- **Groq free tier.** Every model, no credit card. Rate-limited to 30 requests per minute, 6,000 tokens per minute, and 14,400 requests per day. Limits apply at the organization level, multiple API keys don’t help. Enough for prototyping. Nowhere near enough for production",
+      "page_age": "2026-09-04T14:55:39"
+    }
+  ],
+  "Mistral La Plateforme free tier API key limits": [
+    {
+      "title": "Is Mistral AI Free? Free Tier Limits & When to Upgrade (2026)",
+      "url": "https://costbench.com/software/llm-api-providers/mistral-ai/free-plan/",
+      "description": "Mistral AI's free tier on La Plateforme provides rate-limited API access to all models including Mistral Small, Mistral Medium, and Mistral Large, with ...",
+      "snippet": "Mistral AI's free tier on La Plateforme provides rate-limited API access to all models including Mistral Small, Mistral Medium, and Mistral Large, with ...",
+      "page_age": "2026-07-27T00:00:00"
+    },
+    {
+      "title": "Ultimate Guide to Access, Models & Pricing - Mistral AI API",
+      "url": "https://iamistral.com/api/",
+      "description": "Unlock Mistral AI's powerful LLMs! This 2025 guide covers API key access, all models (Large, Codestral, Small), latest pricing, endpoints & SDKs.",
+      "snippet": "# Mistral AI API\n## Decoding Mistral AI API Pricing (Updated 2025): Tiers & Token Costs\n**Data Point (Illustrative – always check official site for current limits):** The free tier typically provides generous limits, such as approximately 1 request per second (RPS), 500,000 tokens per minute, and up to 1 billion tokens per month, applicable to select models like open-mistral-7b or open-mixtral-8x7b. **Verify current limits directly on La Plateforme.**",
+      "page_age": "2025-05-16T15:27:36"
+    },
+    {
+      "title": "Mistral Free API 2026: La Plateforme Limits, Models & Setup",
+      "url": "https://yangmao.ai/en/providers/mistral/free-api/",
+      "description": "Mistral free API guide: La Plateforme free-tier snapshot, 1 RPM limit note, OpenAI-compatible setup, European open-model positioning, China access, and alternatives.",
+      "snippet": "Mistral free API guide: La Plateforme free-tier snapshot, 1 RPM limit note, OpenAI-compatible setup, European open-model positioning, China access, and alternatives",
+      "page_age": ""
+    },
+    {
+      "title": "Mistral AI Free Credits 2026: API Pricing and Free Tier",
+      "url": "https://www.getaiperks.com/en/blogs/21-mistral-free-credits",
+      "description": "Mistral AI offers a free experiment tier plus up to $30K in startup credits. Compare pricing and get free AI credits through AI Perks.",
+      "snippet": "# Mistral AI Free Credits 2026: API Pricing and Free Tier\nMistral AI offers a free experiment tier plus up to $30K in startup credits.\nAndrew",
+      "page_age": "2026-02-09T00:00:00"
+    },
+    {
+      "title": "r/MistralAI on Reddit: Mistral API quota and rate limits pools ...",
+      "url": "https://www.reddit.com/r/MistralAI/comments/1rc8rwf/mistral_api_quota_and_rate_limits_pools_analysis/",
+      "description": "46 votes, 16 comments. The goal of research is to map which models share quota pools and rate limits on the Mistral Free Tier, and document the…",
+      "snippet": "# Mistral API quota and rate limits pools analysis for Free Tier plan (20.02.2026)\n**Important note:** On the Mistral Free Tier, there is a global rate limit of **1 request per second** per API key, applicable to all models regardless of per-minute quotas.\n---\n\n\\## Methodology\n\nA single curl request to `https://api.mistral.ai/v1/chat/completions` with a minimal payload (`max_tokens=3`) returns rate-limit headers.",
+      "page_age": "2026-02-23T05:25:23"
+    },
+    {
+      "title": "Every Free AI API in 2026: The Complete Guide to Zero-Cost Inference ...",
+      "url": "https://awesomeagents.ai/tools/free-ai-inference-providers-2026/",
+      "description": "A comprehensive comparison of 20+ free AI inference providers - from Google AI Studio and Groq to OpenRouter and Cerebras. Rate limits, model access, quotas, and how to get started.",
+      "snippet": "# Every Free AI API in 2026: The Complete Guide to Zero-Cost Inference\n## Tier 1: Truly Free - No Credit Card, No Expiry\n### Mistral AI\nMistral offers a free \"Experiment\" tier on their La Plateforme API that includes access to all Mistral models: Large, Small, Codestral, Pixtral 12B, and even their embedding and OCR models. The rate limits on the free tier are restrictive at 2 requests per minute, but you get 1 billion tokens per month, and the model quality is excellent",
+      "page_age": "2026-04-08T11:38:29"
+    },
+    {
+      "title": "Mistral La Plateforme - Free LLM API Resources",
+      "url": "https://mintlify.wiki/cheahjs/free-llm-api-resources/providers/free/mistral-plateforme",
+      "description": "Free tier access to Mistral AI models with generous token limits",
+      "snippet": "## Rate Limits\nRate limits are applied per-model, not shared across models.\n\n| Limit Type | Free Tier (Per Model) |\n| --- | --- |\n| Requests per second | 1 |\n| Tokens per minute | 500,000 |\n| Tokens per month | 1,000,000,000 |",
+      "page_age": "2026-03-06T08:51:42"
+    },
+    {
+      "title": "Mistral AI Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/mistral/free",
+      "description": "Mistral La Plateforme offers a free Experiment tier with rate-limited access to all API models (including Mistral Large and Codestral) at $0, with roughly a 1-billion-token-per-month cap.",
+      "snippet": "Mistral La Plateforme offers a free Experiment tier with rate-limited access to all API models (including Mistral Large and Codestral) at $0, with roughly a 1-billion-token-per-month cap. It is for evaluation, not production.",
+      "page_age": ""
+    }
+  ],
+  "Google AI Studio Gemini API free tier limits 2026": [
+    {
+      "title": "Gemini API Free Tier 2026: 1,500 Req/Day, 1M TPM — No Card - ...",
+      "url": "https://tokenmix.ai/blog/gemini-api-free-tier-limits",
+      "description": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "snippet": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "page_age": "2026-04-29T06:46:25"
+    },
+    {
+      "title": "Gemini API Free Tier Limits 2026: the Billing Trap That Deletes ...",
+      "url": "https://usagebox.com/articles/gemini-api-billing-free-tier-confusion",
+      "description": "The 2026 Gemini API free-tier limits by model (RPM, RPD, TPM) - plus the catch the docs bury: enabling billing on a project silently deletes its free tier, so every call bills from the first token.",
+      "snippet": "# Gemini API Free Tier Limits 2026: the Billing Trap That Deletes Them\n## Gemini API free tier limits in 2026\n| Model | RPM | RPD | TPM | Free tier |\n| --- | --- | --- | --- | --- |\n| Gemini 3 Flash | \\~10 | \\~1,500 | \\~250,000 | Yes |\n| Gemini 3.1 Flash-Lite | \\~15 | \\~1,000 to 1,500 | \\~250,000 | Yes |\n| Gemini 2.5 Flash | \\~10 to 15 | \\~1,500 | up to 1,000,000 | Yes |\n| Gemini 2.5 Flash-Lite | \\~15 to 30 | \\~1,000 to 1,500 | 250,000 to 1,000,000 | Yes |\n| Gemma 3 | \\~30 | \\~1,500 | up to 1,000,000 | Yes |\n| Gemini 2.5 Pro | \\~5 | \\~50 | trial-level | Trial only |",
+      "page_age": "2026-06-08T00:00:00"
+    },
+    {
+      "title": "Rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "description": "",
+      "snippet": "# Rate limits\n## How rate limits work\n### Spend-based rate limits\n| Usage tier | Spend rate limit (per 10 minutes) |\n| --- | --- |\n| Free | N/A |\n| Tier 1 | $10 |\n| Tier 2 | $50 |\n| Tier 3 | $200 |",
+      "page_age": "2026-09-02T00:00:00"
+    },
+    {
+      "title": "Gemini pricing in 2026: every model, every plan, and the thinking ...",
+      "url": "https://www.cloudzero.com/blog/gemini-pricing/",
+      "description": "Gemini API pricing ranges from $0.10 per million input tokens to $2.00 per million. Full 2026 model table, subscription plans, and costs.",
+      "snippet": "# Gemini pricing in 2026: every model, every plan, and the thinking tokens nobody budgeted for\n## What does the Gemini free tier include in 2026?\nSince April 1, 2026, Pro models are no longer available on the free tier. Only Flash and Flash-Lite models retain free access. Rate limits are 5-15 requests per minute with up to 1,000 daily requests. Your data may be used to improve Google’s products on the free tier (but not on the paid tier)",
+      "page_age": "2026-09-04T14:55:35"
+    },
+    {
+      "title": "Google AI Studio Free Tier 2026 — Free Models, Credits & Limits ...",
+      "url": "https://pricepertoken.com/endpoints/google-ai-studio/free",
+      "description": "Google AI Studio offers a no-credit-card free tier with rate-limited access to Flash-class Gemini models. As of April 2026, Pro-series models were moved to paid-only, so the free tier is now Flash / Flash-Lite.",
+      "snippet": "# Google AI Studio Free Tier\n## Free Tier Details\nFree\n\nrate-limited free access, no credits\n\nFree tier\n\n**Free Tier**: Rate-limited free usage (no dollar credits)\n**Gemini 2.5 Flash**: 10 req/min, 250 req/day\n**Gemini 2.5 Flash-Lite**: 15 req/min, 1,000 req/day\n**Credit Card Required**: No",
+      "page_age": ""
+    },
+    {
+      "title": "Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path ...",
+      "url": "https://www.aifreeapi.com/en/posts/gemini-api-free-tier-complete-guide",
+      "description": "Master Gemini API free tier in 2026: complete rate limits for all models (5-15 RPM), tier upgrade framework, real cost breakdowns, and 7 strategies to maximize your free quota after December 2025 cuts.",
+      "snippet": "# Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path & Cost-Saving Strategies (2026)\n## TL;DR\nThe Gemini API free tier currently offers three stable models with rate limits ranging from 5 to 15 requests per minute, depending on which model you choose. Here is the essential breakdown every developer needs to know before writing a single line of code",
+      "page_age": "2026-03-17T00:00:00"
+    },
+    {
+      "title": "Gemini API Rate Limits by Tier: Read Active Limits and Diagnose ...",
+      "url": "https://www.aifreeapi.com/en/posts/gemini-api-rate-limits-per-tier",
+      "description": "Understand Gemini API usage tiers without relying on stale RPM tables. Check active limits in AI Studio, identify RPM, input TPM, RPD or spend limits, and choose the right 429 response.",
+      "snippet": "# Gemini API Rate Limits by Tier: Read Active Limits and Diagnose 429s\n## Current tier qualifications and spend controls\n| Usage tier | Current qualification | Billing-account monthly cap | Rolling 10-minute spend limit |\n| --- | --- | --- | --- |\n| Free | Active project or free trial | Not applicable | Not applicable |\n| Tier 1 | Set up and link an active billing account | $250 | $10 |\n| Tier 2 | $100 paid and 3 days since the first successful payment | $2,000 | $50 |\n| Tier 3 | $1,000 paid and 30 days since the first successful payment | $20,000–$100,000+ | $200 |",
+      "page_age": "2026-09-12T00:00:00"
+    },
+    {
+      "title": "Google Gemini API Free Tier 2026: Complete Limits Guide + 429 Error ...",
+      "url": "https://yingtu.ai/en/blog/google-gemini-api-free-tier",
+      "description": "Complete guide to Google Gemini API free tier in 2026. Learn exact RPM/TPM/RPD limits for Flash and Flash-Lite models, handle 429 errors with production-ready code, and compare free vs paid tiers with real cost analysis.",
+      "snippet": "# Google Gemini API Free Tier 2026: Complete Limits Guide + 429 Error Solutions\n**Key Numbers for January 2026**: Gemini 2.5 Flash free tier provides 10 RPM (requests per minute), 250,000 TPM (tokens per minute), and 250 RPD (requests per day). Flash-Lite offers higher limits at 30 RPM and 1,000 RPD, making it the better choice for most free tier users",
+      "page_age": "2026-07-10T00:00:00"
+    }
+  ],
+  "OpenRouter free models API list": [
+    {
+      "title": "Top 13 Free AI Models on OpenRouter: Technical Guide ...",
+      "url": "https://apidog.com/blog/free-ai-models/",
+      "description": "",
+      "snippet": "## Technical Overview: The 13 Best Free AI Models on OpenRouter\n### 3. moonshotai/kimi-vl-a3b-thinking:free\n- MathVision: 76.2%, MMMU: 64.8%, MathVista: 72.3%, VQAv2: 79.1%\n\n**Use Cases:** Visual reasoning, math problem-solving with images, multimodal edge AI",
+      "page_age": "2026-06-12T02:07:46"
+    },
+    {
+      "title": "How to get Free AI Model APIs with 'Unlimited' Tokens",
+      "url": "https://pinggy.io/blog/free_ai_model_apis_unlimited_tokens_openrouter/",
+      "description": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.",
+      "snippet": "How to get free access to AI model APIs on OpenRouter in 2026 - real rate limits, the current free model catalog (Nemotron 3 Ultra, Owl Alpha, Tencent Hy3), code examples, and how the $10 credit threshold works.\n\nAI",
+      "page_age": "2026-07-10T06:00:00"
+    },
+    {
+      "title": "OpenRouter free models list 2026: 25 models, limits and tests — ...",
+      "url": "https://rubentorney.com/blog/en/openrouter-modeles-gratuits-2026.html",
+      "description": "Verified July 2026 list of 25 free AI models on OpenRouter, with limits and models from Qwen, NVIDIA, Llama, OpenAI, Gemma and LiquidAI.",
+      "snippet": "Verified July 2026 list of 25 free AI models on OpenRouter, with limits and models from Qwen, NVIDIA, Llama, OpenAI, Gemma and LiquidAI.",
+      "page_age": "2026-08-17T00:00:00"
+    },
+    {
+      "title": "Best OpenRouter Free Models 2026: All 14 Ranked, No Card",
+      "url": "https://www.teamday.ai/blog/best-free-ai-models-openrouter-2026",
+      "description": "All 14 free OpenRouter models ranked for August 2026 — no credit card. Best free pick for coding, chat, and research, plus real rate limits and when to upgrade.",
+      "snippet": "Free AI OpenRouter Llama DeepSeek Mistral NVIDIA No Credit Card 2026",
+      "page_age": "2026-08-03T00:00:00"
+    },
+    {
+      "title": "OpenRouter Free API & Models 2026: Limits, Keys & Tips",
+      "url": "https://buldrr.com/openrouter-free-api-keys-free-models-simple-guide/",
+      "description": "Use OpenRouter free API to access 100+ AI models at no cost. Step-by-step guide with real n8n workflow examples. Start building your first automation today.",
+      "snippet": "# 100+ OpenRouter Free Models 2026: API Key, Limits & Rotation Tips\nNote: the free-model lineup rotates — DeepSeek and Mistral, for example, both had popular free variants in the past but currently (July 2026) have none, while newer providers like Poolside and Cohere have added their own free coding models. This guide reflects what’s verified live on openrouter.ai/models today",
+      "page_age": "2026-07-24T20:27:18"
+    },
+    {
+      "title": "OpenRouter Models - Unified Access to 400+ AI Models",
+      "url": "https://openrouter.ai/docs/guides/overview/models",
+      "description": "One API for hundreds of models",
+      "snippet": "# Models\n## Single Model Lookup\n```\n# Look up a specific model\ncurl \"https://openrouter.ai/api/v1/model/openai/gpt-4o\"\n\n# Aliases resolve automatically\ncurl \"https://openrouter.ai/api/v1/model/anthropic/claude-3-5-sonnet\"\n\n# Catalog variants return their own entry (id: \"poolside/laguna-s-2.1:free\")\ncurl \"https://openrouter.ai/api/v1/model/poolside/laguna-s-2.1:free\"\n\n# Routing variants return the base entry (id: \"openai/gpt-4o\")\ncurl \"https://openrouter.ai/api/v1/model/openai/gpt-4o:nitro\"\n```",
+      "page_age": "2026-07-14T17:19:40"
+    },
+    {
+      "title": "Free Models Router - Zero-Cost AI Inference",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/free-router",
+      "description": "Get free AI inference by routing to available free models",
+      "snippet": "# Free Models Router\n## Available Free Models\nThe Free Models Router selects from all currently available free models on OpenRouter. Some popular options include:\n\nFree model availability changes frequently. Check the models page for the current list of free models.\n\n- **DeepSeek R1 (free)** - DeepSeek’s reasoning model\n- **Llama models (free)** - Various Meta Llama models\n- **Qwen models (free)** - Alibaba’s Qwen family\n- And other community-contributed free models",
+      "page_age": "2026-07-03T01:01:12"
+    },
+    {
+      "title": "OpenRouter Free Models: All 21 Listed (Sep 2026)",
+      "url": "https://costgoat.com/pricing/openrouter-free-models",
+      "description": "All free AI models on OpenRouter, zero cost, no credit card. Compare context lengths, capabilities, and rate limits. Updated live.",
+      "snippet": "# OpenRouter Free Models\n## OpenRouter Free Model List (21)\nOfficial pricing:\n\nOpenRouter\n\n•\n\nQuality Scores: Theozard\n\nSort by:\n\nQuality Popularity Context Name Provider\n\n(z-ai/glm-5.2:free)\n\nProvider\n\nZ.ai\n\nContext\n\n33K\n\nQuality\n\n64\n\nPopularity\n\n#15\n\nCapabilities\n\n(thinkingmachines/inkling-small:free)\n\nProvider\n\nthinkingmachines\n\nContext\n\n1.0M\n\nQuality\n\n49\n\nPopularity\n\n#70\n\nCapabilities",
+      "page_age": "2026-09-16T10:50:06"
+    }
+  ],
+  "Cerebras inference free tier API": [
+    {
+      "title": "Cerebras API: Free Tier Replaced by a Card Trial",
+      "url": "https://toolfreebie.com/cerebras-free-api/",
+      "description": "Cerebras no longer has a no-card free tier: new accounts get of credit expiring in 30 days, and must add a payment method. Groq measured 527 tok/s and still needs no card.",
+      "snippet": "# Cerebras API: Fast, But the Free Tier Now Needs a Card\n**Quick answer:** Cerebras runs inference on wafer-scale hardware and is genuinely among the fastest anywhere — but **the no-credit-card free tier is gone**. New accounts now get **$5 in trial credits that expire after 30 days, and a payment method is required to activate them** (Cerebras’ own rate-limit docs state that API access stays inactive until you add one). It’s still OpenAI-compatible and still very fast; it just isn’t free to start any more",
+      "page_age": "2026-09-01T13:50:17"
+    },
+    {
+      "title": "Cerebras Launches the World’s Fastest AI Inference - Cerebras",
+      "url": "https://www.cerebras.ai/press-release/cerebras-launches-the-worlds-fastest-ai-inference",
+      "description": "20X performance and 1/5th the price of GPUs- available today. Developers can now leverage the power of wafer-scale compute for AI inference via a simple API.",
+      "snippet": "# Cerebras Launches the World’s Fastest AI Inference - Cerebras\n-\n  - **The Free Tier** offers free API access and generous usage limits to anyone who logs in.\n  - **The Developer Tier**, designed for flexible, serverless deployment, provides users with an API endpoint at a fraction of the cost of alternatives in the market, with Llama 3.1 8B and 70B models priced at 10 cents and 60 cents per million tokens, respectively. Looking ahead, Cerebras will be continuously rolling out support for many more models",
+      "page_age": "2025-03-07T16:43:46"
+    },
+    {
+      "title": "Cerebras Inference API Pricing 2026: Plans & Hidden Costs",
+      "url": "https://costbench.com/software/llm-api-providers/cerebras-inference/",
+      "description": "Cerebras Inference API pricing: Free tier (Developer) (free), Enterprise (custom). Compare plans, hidden costs, and real user data.",
+      "snippet": "# Cerebras Inference API Pricing 2026\n## All Cerebras Inference API Plans & Pricing\n| Plan | Monthly | Annual | Best For |\n| --- | --- | --- | --- |\n| ▾ Free tier (Developer) | Free | Free | Testing Cerebras's unique speed advantage |\n| What's included at Free tier (Developer) Best for: Testing Cerebras's unique speed advantage 1M tokens/day free (Llama 3.3 70B) Rate-limited to 30 req/min World-record throughput: 2,000+ tokens/sec on WSE-3 |  |  |  |\n| ▾ Pay-as-you-go | Custom | — | Latency-critical apps needing sub-second time-to-first-token |\n| What's included at Pay-as-you-go Best for: Latency-critical apps needing sub-second time-to-first-token Llama 3.3 70B: $0.85/1M input, $1.20/1M output Llama 3.1 8B: $0.10/1M input, $0.10/1M output Qwen 3 32B: $0.40/1M input, $0.80/1M output \\~20× faster than GPU-based inference on same model |  |  |  |\n| ▾ Enterprise | Contact Sales | Contact Sales | Latency-critical production deployments |\n| What's included at Enterprise Best for: Latency-critical production deployments Dedicated WSE capacity SLAs On-prem inference option |  |  |  |\n\nView all features by plan (compare side-by-side)",
+      "page_age": "2026-05-19T00:00:00"
+    },
+    {
+      "title": "Is Cerebras Inference Free? Trial Credits & Upgrade Triggers (2026)",
+      "url": "https://costbench.com/software/llm-api-providers/cerebras-inference/free-plan/",
+      "description": "Cerebras Inference offers a one-time $5 trial credit valid for 30 days (requires a verified payment method); there is no permanently free tier — Pay-as-...",
+      "snippet": "Cerebras Inference offers a one-time $5 trial credit valid for 30 days (requires a verified payment method); there is no permanently free tier — Pay-as-...",
+      "page_age": "2026-08-06T00:00:00"
+    },
+    {
+      "title": "Cerebras Free Tier 2026: Limits, Pricing & What Changed",
+      "url": "https://agentdeals.dev/vendor/cerebras",
+      "description": "Cerebras free tier includes Ultra-fast LLM inference API. Verified August 2026. Compare with 12 alternatives in AI / ML.",
+      "snippet": "Cerebras free tier includes Ultra-fast LLM inference API.",
+      "page_age": "2026-08-15T00:00:00"
+    },
+    {
+      "title": "Cerebras Inference API - Ultra-Fast AI Inference API Service",
+      "url": "https://getfreeai.net/en/services/api/cerebras/",
+      "description": "Cerebras Inference API offers the world's fastest AI inference service with 1 million free tokens daily, 20x faster than GPUs, supporting Llama 4, Qwen 3, and other mainstream models.",
+      "snippet": "Cerebras Inference API offers the world's fastest AI inference service with 1 million free tokens daily, 20x faster than GPUs, supporting Llama 4, Qwen 3, and other mainstream models. Built on Wafer-Scale Engine WSE technology with OpenAI-compatible interface.\nHome",
+      "page_age": "2026-01-28T04:30:58"
+    },
+    {
+      "title": "Cerebras Inference: API, pricing, agent signup & quickstart — ...",
+      "url": "https://dreaming.press/stack/cerebras",
+      "description": "Cerebras Inference — The fastest LLM inference in 2026 (1,800+ tokens/sec) on wafer-scale CS-3 chips, for open models like Llama and Qwen.",
+      "snippet": "# Cerebras Inference\nThe fastest LLM inference in 2026 (1,800+ tokens/sec) on wafer-scale CS-3 chips, for open models like Llama and Qwen.\n\nAPI key Freemium🔵 agent: self serve instant key\n\nGet API key → instant key, usually no card Docs Website\n\nCategory LLM gateways & inference\n\nType API service\n\nAuth api-key\n\nPricing Freemium\n\nAgent signup🔵 self serve instant key",
+      "page_age": ""
+    },
+    {
+      "title": "Cerebras Free Tier: 1M Tokens/Day, API Limits, and Speed Benchmarks ...",
+      "url": "https://adam.holter.com/cerebras-opens-a-free-1m-tokens-per-day-inference-tier-and-ccerebras-now-offers-free-inference-with-1m-tokens-per-day-real-speed-benchmarks-show-2600-tokens-sec-on-llama4scout-here-are-the-actual-n/",
+      "description": "Cerebras offers a free AI inference API with 1 million tokens per day and no credit card required. Here are the API limits, speed benchmarks, and what develo...",
+      "snippet": "# Cerebras Free Tier: 1M Tokens/Day, API Limits, and Speed Benchmarks\nCerebras just made inference cheap to try and fast to ship. The company opened its Inference API with a free tier of 1 million tokens per day and is publishing head‑to‑head numbers that claim up to 20x faster throughput than NVIDIA on key large models.",
+      "page_age": "2026-07-20T13:03:29"
+    }
+  ],
+  "GitHub Models free tier API playground": [
+    {
+      "title": "GitHub Models API Pricing, Free Credits, and OpenAI-Compatible Setup ...",
+      "url": "https://yangmao.ai/en/providers/github-models/api-pricing/",
+      "description": "GitHub Models API free credits, pricing notes, rate limits, OpenAI SDK compatibility, relay options, and lower-cost alternatives.",
+      "snippet": "# GitHub Models API Pricing and Free Trial\n## Quick verdict\n- Free tier: Free playground and limited API requests are available for signed-in GitHub users; model-specific quota and rate limits can change\n- Free API trial: Free GitHub Models quota for signed-in GitHub accounts; paid Azure AI / provider routes may be required for production\n- Access: relay or proxy may be needed\n- Best for: llm / api / coding / router / openai-compatible",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Open Source Alternatives, Local Models, and Free ...",
+      "url": "https://yangmao.ai/en/providers/github-models/open-source-alternative/",
+      "description": "Compare open-source alternatives to GitHub Models, local deployment options, free models, API compatibility, and cost tradeoffs.",
+      "snippet": "# GitHub Models Open Source Alternatives\n## Alternatives\n**llama.cpp** MIT open-source; unlimited local use subject to hardware **LocalAI** MIT open-source, zero API cost when self-hosted. **Qwen (Alibaba)** 70M DashScope/Bailian signup tokens; RPM/TPM, expiry, and model access vary by account **Google AI (Gemini)** Gemini free tier unlimited **Baseten** Free trial / startup credits may be available; quota depends on account and sales approval **RunPod** Account promotions and community credits vary; paid GPU/serverless usage is the default **GitHub",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Free Tier: Current Limits and Change History",
+      "url": "https://getaitools.dev/service/github-models",
+      "description": "What GitHub Models gives you for free, hand-verified: High-tier models 50 req/day (10/min), mini models 150 req/day; 8K tokens in / 4K out per request",
+      "snippet": "# GitHub Models\n## Current free tier\n**What's free**: Playground and API access to GPT, Llama and more with any GitHub account.\n**Limits**: High-tier models 50 req/day (10/min), mini models 150 req/day; 8K tokens in / 4K out per request\n**The catch**: Prototyping only: per-request token caps are tight and concurrency is 2.",
+      "page_age": "2026-07-02T00:00:00"
+    },
+    {
+      "title": "GitHub Models Free Tier, Signup Credits, and Limits — yangmao.ai",
+      "url": "https://yangmao.ai/en/providers/github-models/free-tier/",
+      "description": "Check GitHub Models free tier, signup credits, model limits, free API access, Mainland China accessibility, and alternatives. Updated by yangmao.ai.",
+      "snippet": "# GitHub Models Free Tier Guide\n## Free API credits\n**Yes**\n\nFree GitHub Models quota for signed-in GitHub accounts; paid Azure AI / provider routes may be required for production · Model, account, and preview quota dependent; verify current GitHub Models limits before automation\n\nGitHub Models provides a model playground, API-key testing, and OpenAI SDK-compatible examples; the free path is best for developer smoke tests, not production SLA assumptions",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Guide 2025: Try & Compare AI Models in GitHub — ...",
+      "url": "https://prismix.dev/guides/github-models-guide",
+      "description": "GitHub Models guide 2025 — what it is (Azure AI-backed model marketplace in GitHub), available models (GPT-4o, o3-mini, Llama 3, Mistral, Phi-4, Cohere, Gemma), playground UI, rate limits (15 req/min free tier), Python SDK quickstart with ...",
+      "snippet": "GitHub Models guide 2025 — what it is (Azure AI-backed model marketplace in GitHub), available models (GPT-4o, o3-mini, Llama 3, Mistral, Phi-4, Cohere, Gemma), playground UI, rate limits (15 req/min free tier), Python SDK quickstart with GitHub token as API key, switching to Azure production endpoint, GitHub Models vs Copilot vs Azure OpenAI comparison.\n\nGitHub LLM API 8 min read",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - open-free-llm-api/awesome-freellm-apis: 134+ free LLM ...",
+      "url": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+      "description": "134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex. - open-free-llm-api/awesome-freellm-apis",
+      "snippet": "# awesome-free-llm-apis\n## Provider Directory\n### ⚡ Permanent Free Tiers\n| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |\n| --- | --- | --- | --- | --- | --- |\n| NVIDIA NIM | 131 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | → |\n| ModelScope | 59 | Registration | 1M | audio, image, reasoning, text, video, vision | → |\n| Cloudflare Workers AI | 40 | No | 262K | code, image, reasoning, text, video | → |\n| Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | → |\n| LLM7.io | 19 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | → |\n| Ollama Cloud | 17 | Registration | 1M | code, image, reasoning, text, video, vision | → |\n| GitHub Models | 16 | No | 1M | image, pdf, reasoning, text | → |\n| Mistral AI | 15 | No | 256K | code, image, text | → |\n| Kilo Code | 15 | No | 1M | audio, code, image, reasoning, text, video | → |\n| OVHcloud AI Endpoints | 14 | Registration | 262K | audio, code, image, reasoning, text, video | → |\n| OpenCode Zen | 13 | Registration | 1M | audio, reasoning, vision | → |\n| Groq | 12 | No | 262K | image, reasoning, text | → |\n| Cohere | 12 | No | 256K | image, text | → |\n| Aion Labs | 11 | Registration | 131K | text | → |\n| Z AI (Zhipu AI) | 8 | No | 200K | image, reasoning, text, video | → |\n| Hugging Face | 8 | No | 131K | code, image, text | → |\n| Cerebras | 6 | No | 131K | reasoning, text | → |\n| Agnes AI | 5 | Registration | 256K | image, reasoning, text, video, vision | → |\n| Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | → |\n| Cline | 5 | Registration | 0 | text | → |\n| SambaNova | 4 | Registration | 128K | image, reasoning, text | → |\n| SiliconFlow | 3 | Registration | 131K | text | → |\n| xAI | 3 | Registration | 2M | text | → |\n| Chutes.ai | 2 | Registration | 131K | reasoning, text | → |\n| Glhf.chat | 2 | Registration | 131K | text | → |\n| Grok (xAI) | 2 | Registration | 131K | text | → |\n| AI21 Labs | 2 | Registration | 256K | text | → |\n| DeepSeek | 2 | Registration | 128K | text | → |\n| Nscale | 2 | Registration | 128K | text | → |\n| Nebius | 1 | Registration | 128K | text | → |",
+      "page_age": "2026-09-15T02:08:24"
+    },
+    {
+      "title": "Free LLM API & Free AI API Directory 2026 — Verified Models, ...",
+      "url": "https://free-model.com/",
+      "description": "Browse 147+ verified free LLM APIs. Live API tested — not just copied from READMEs. No credit card. One-click config for Claude Code, Cursor, and any OpenAI-compatible tool.",
+      "snippet": "# Free AI APIs & Free LLM Models — No Credit Card. One-Click Config for Claude Code, Codex, Gemini, OpenClaw & Hermes.\n## Frequently Asked Questions — Free LLM APIs\n### Is there a free GPT API?\nYes. **Groq** and **Cerebras** host openai/gpt-oss-120b and gpt-oss-20b for free with no credit card. **GitHub Models** provides free access to GPT-5, GPT-4.1, GPT-4o, and o4-mini (rate limits tied",
+      "page_age": ""
+    },
+    {
+      "title": "11 AI Free Tiers Compared: Limits and Catches (2026)",
+      "url": "https://pecollective.com/blog/ai-free-tiers-compared/",
+      "description": "Compare AI free tiers for developers, including OpenAI credits, Hugging Face inference limits, Gemini, Copilot, vector databases, and more.",
+      "snippet": "# AI Free Tiers Compared for Developer Prototypes\n## Master Free Tier Comparison Table\n| Tool | What's Free | Key Limits | First Paid Tier |\n| --- | --- | --- | --- |\n| Pinecone | Starter plan with 2 GB storage | Limited namespaces, 1 project, no hybrid search | Standard from $50/mo |\n| Weaviate Cloud | 1 sandbox cluster | Limited collections, sandbox expires after 14 days idle, no production SLA | Standard from $25/mo |\n| Replit | Basic editor and hosting | Limited AI features, no always-on, limited compute | Core from $20/mo |\n| Windsurf | 50 completions/day, limited Chat | Daily completion cap, restricted model access, no priority queue | Pro from $15/mo |\n| GitHub Models | Rate-limited model access | Low requests per minute, limited token throughput, playground only | Pay-as-you-go from $0 |\n| GitHub Copilot | Free tier with 2,000 completions/mo | Monthly completion cap, limited chat messages, no CLI access | Pro from $10/mo |\n| Cohere | 1,000 API calls/mo | Rate limited, no production use allowed, limited model selection | Production from $0 (pay-as-you-go) |\n| Hugging Face | Free inference API (rate limited) | Shared GPU queue, timeout on large models, cold starts | Pro from $9/mo |\n| OpenAI API | $5 free credits for new accounts | Credits expire after 3 months, rate limits on free tier, limited models | Pay-as-you-go (no minimum) |\n| Anthropic API | No free tier | Pay-as-you-go only, $5 minimum credit purchase | Pay-as-you-go from $5 |\n| Google AI Studio | Free Gemini API access | Rate limits (15 RPM on free tier), limited to specific models | Pay-as-you-go from $0 |\n| Felo | Product access | Usage limits vary | n/a |\n| CreateOS | Product access | Usage limits vary | n/a |\n| Viggle | Product access | Usage limits vary | n/a |",
+      "page_age": "2026-09-02T00:00:00"
+    }
+  ],
+  "AWS Activate Microsoft for Startups Google for Startups free cloud credits AI": [
+    {
+      "title": "Cloudshipai",
+      "url": "https://www.cloudshipai.com/blog/startup-cloud-credits-guide-2025",
+      "description": "",
+      "snippet": "# AWS Startup Credits 2025: Complete Guide to Getting $100,000+ in Free Cloud Credits\n**Quick Answer:** Pre-Series B startups can get up to **$100,000 in AWS Activate credits** through accelerator partnerships, **$350,000 from Google Cloud** for AI startups, and **$150,000 from Microsoft for Startups**. Total potential: **$600,000+ in combined credits**",
+      "page_age": "2025-10-03T00:00:00"
+    },
+    {
+      "title": "AWS vs Azure for Startups:Which Cloud Platform Wins in 2026?",
+      "url": "https://gartsolutions.com/comparing-aws-gcp-and-azure-startup-programs/",
+      "description": "Learn more and compare AWS Activate, Google for Startups Cloud Program, and Microsoft for Startups programs.",
+      "snippet": "# AWS vs Azure for Startups:Which Cloud Platform Wins in 2026?\n## Microsoft for Startups Founders Hub: Azure’s Offer\nMicrosoft’s answer to AWS Activate is the **Founders Hub** — a revamped program that bundles Azure cloud credits with access to Microsoft’s broader product suite, enterprise sales network, and AI tooling including Azure OpenAI Service",
+      "page_age": "2025-08-28T11:40:06"
+    },
+    {
+      "title": "AWS Startup Programs, Cloud Credits, & the Real Game Behind AI ...",
+      "url": "https://www.theainewsdigest.com/p/aws-startup-programs-cloud-credits",
+      "description": "The cloud giants are giving away billions in free compute to AI startups, but the credits are a loss leader designed to lock in the next Anthropic before it outgrows the platform",
+      "snippet": "# AWS Startup Programs, Cloud Credits, & the Real Game Behind AI Startup Funding\n## AWS Startup Programs Are the On-Ramp for AI Companies\nIf you are building an AI startup in 2026, the first financial decision you make is probably which cloud provider’s credits to accept. AWS Activate, Microsoft for Startups, and Google Cloud for Startups all offer significant free compute to early-stage companies. The amounts vary, but the strategy is the same: subsidize startups now, collect infrastructure revenue for decades",
+      "page_age": "2026-05-01T07:51:32"
+    },
+    {
+      "title": "Cloud Credits for Startups: The Complete Guide",
+      "url": "https://www.startupbricks.in/blog/cloud-credits-for-startups/",
+      "description": "Build your startup for free. The complete guide to cloud credits from AWS, Google Cloud, Azure, and 15+ other providers.",
+      "snippet": "# Cloud Credits for Startups: The Complete Guide\n## Quick Takeaways: Cloud Credits for Startups\n- **Sequence strategically**: Phase 1 (Microsoft, $5K), Phase 2 (AWS Activate via Stripe Atlas/Posthog, $100K), Phase 3 (Google Cloud, $200K), Phase 4 (Oracle/Akamai/IBM for specific workloads)\n- **Burn aggressively to unlock more**: Don’t be frugal - treat credits like monopoly money. Spending $25K quickly unlocks the next $150K tier",
+      "page_age": "2026-02-15T00:00:00"
+    },
+    {
+      "title": "AWS vs Azure vs GCP: Best for Startups",
+      "url": "https://codestory.co/aws-vs-azure-vs-gcp-startups/",
+      "description": "Explore the strengths of AWS, Azure, and GCP to find the best cloud platform for your startup's growth, tech needs, and budget considerations.",
+      "snippet": "# AWS vs Azure vs GCP: Best for Startups\n- **AWS Activate**: Up to $100,000 in credits, ideal for heavy infrastructure and AI SaaS startups.\n- **Microsoft for Startups**: Up to $150,000 in credits for venture-backed startups, great for those using Microsoft tools like .NET and Office 365.\n- **Google for Startups Cloud Program**: Up to $350,000 in credits for AI and Web3 startups, with standout tools like Vertex AI and Firebase",
+      "page_age": "2025-12-21T04:56:01"
+    },
+    {
+      "title": "Free Cloud Credits Compared 2026: AWS, Azure, GCP & Oracle",
+      "url": "https://cloudkompas.com/blog/free-cloud-credits-for-startups-AWS-azure-google-cloud-oci",
+      "description": "Every major startup credit program side by side: exact amounts, eligibility at a glance, how to stack $450K+ — and what to do when the credits run out.",
+      "snippet": "# Free Cloud Credits for Startups: AWS, Azure, Google Cloud, and OCI Offers Compared (2026)\n## Comparing Credit Programs Side-by-Side\n### Credit Amount and Accessibility\nGoogle Cloud offers the highest maximum credits at $200,000 over two years. Microsoft provides $150,000 over two years with staged disbursement. AWS Activate delivers $100,000 over two years. Oracle varies from $500 to $100,000 based on partnerships",
+      "page_age": "2026-07-14T13:34:56"
+    },
+    {
+      "title": "Startup Credits 2026: $500k+ Free (AWS, GCP, AI & More)",
+      "url": "https://orbitmoney.io/deals/blog/startup-credits",
+      "description": "How to claim $500k+ in startup credits: AWS, Google Cloud, Anthropic and 40+ programs compared. Eligibility, application steps and tips to get approved.",
+      "snippet": "# Startup Credits 2026: $500k+ Free (AWS, GCP, AI & More)\n## Frequently Asked Questions About Startup Credits\n### Can I get startup credits without being VC-backed?\nYes! Programs like Microsoft for Startups Founders Hub ($1,000 Azure), AWS Activate ($1,000 tier), and Notion for Startups ($500) are available to any startup without requiring VC funding. However, the largest credit amounts ($100k+) typically require either VC backing or participation in a recognized accelerator",
+      "page_age": ""
+    },
+    {
+      "title": "How to Get Startup Cloud Credits: AWS, GCP, Azure, AI",
+      "url": "https://www.stackmatix.com/blog/startup-cloud-credits-guide",
+      "description": "Which cloud and AI credit programs early-stage startups qualify for, how the tiers work, how to apply, and how to avoid the post-credit bill cliff.",
+      "snippet": "## How to Get Startup Cloud Credits: AWS, GCP, Azure, AI\nblog-facebook blog-linkedin blog-twitter blog-instagram\n\n**Startup cloud credits are free or discounted cloud and AI compute offered by providers like AWS, Google, Microsoft, and model labs to help early-stage companies build cheaply.** You apply through each provider's startup program, usually with an accelerator or investor referral, and the credits last a limited window before converting to a normal bill you must plan for",
+      "page_age": "2026-08-05T08:00:00"
+    }
+  ],
+  "NVIDIA Inception program free credits startups AI": [
+    {
+      "title": "NVIDIA Inception Program 2026: Free AI Startup Support, Training, ...",
+      "url": "https://opportunitiesfeed.com/2026/09/14/nvidia-inception-program/",
+      "description": "AI startups looking for technical resources, training, cloud support and opportunities to connect with investors can apply for the NVIDIA Inception Program.",
+      "snippet": "# NVIDIA Inception Program 2026: Free AI Startup Support, Training, Cloud Credits and Investor Access\nNVIDIA Inception is a **free program for AI startups** designed to support companies as they move from prototype development toward production and business growth. Through the program, eligible startups can access developer tools, technical training, preferred pricing on selected NVIDIA technologies, partner offers, cloud credits and opportunities for exposure to NVIDIA’s global investor ecosystem",
+      "page_age": "2026-09-14T10:47:27"
+    },
+    {
+      "title": "NVIDIA Startup Credits: GPU Access for AI Startups in 2026",
+      "url": "https://www.stackmatix.com/blog/nvidia-startup-credits-guide",
+      "description": "NVIDIA Inception and startup credit programs give AI founders free GPU compute. Learn the tiers, how to apply, and what each program offers for training and inference workloads.",
+      "snippet": "NVIDIA Inception and startup credit programs give AI founders free GPU compute. Learn the tiers, how to apply, and what each program offers for training and inference workloads",
+      "page_age": "2026-08-19T12:30:00"
+    },
+    {
+      "title": "NVIDIA Inception 2026: Free Global AI Startup Program with Cloud ...",
+      "url": "https://www.globalsouthopportunities.com/2026/09/14/inception/",
+      "description": "AI startups around the world can now join NVIDIA Inception, a free global program designed to help innovative companies accelerate product development, access",
+      "snippet": "# NVIDIA Inception 2026: Free Global AI Startup Program with Cloud Credits, Training & Investor Access\nAI startups around the world can now join **NVIDIA Inception**, a free global program designed to help innovative companies accelerate product development, access cutting-edge AI technologies, and connect with investors and strategic partners. With **no application fees, no membership fees, and no equity requirements**, NVIDIA Inception supports startups from prototype through production, regardless of their funding stage",
+      "page_age": "2026-09-14T06:40:40"
+    },
+    {
+      "title": "How to Get Into NVIDIA Inception: A Founder First Guide",
+      "url": "https://www.ellenox.com/post/how-to-get-into-nvidia-inception",
+      "description": "How to join NVIDIA Inception and make the most of its tools, credits, and startup ecosystem.",
+      "snippet": "# How to Get Into NVIDIA Inception: A Founder First Guide\n## What Is the NVIDIA Inception Program and How Does It Work\nNVIDIA Inception is a free membership program for AI startups, from prototype stage through growth. It is not a time-boxed accelerator. It is a platform built around four things:\n\n- Developer tools and technical training\n- Preferred hardware and software pricing\n- Cloud credits from partner providers\n- Access to NVIDIA's investor network",
+      "page_age": "2026-04-08T00:00:00"
+    },
+    {
+      "title": "NVIDIA Inception Startup Program & Credits",
+      "url": "https://creditforstartups.com/companies/nvidia-inception",
+      "description": "The NVIDIA Inception program is free for AI startups — hardware and software discounts, technical training, and go-to-market support. How to join.",
+      "snippet": "The NVIDIA Inception program is free for AI startups — hardware and software discounts, technical training, and go-to-market support.",
+      "page_age": "2026-06-01T00:00:00"
+    },
+    {
+      "title": "NVIDIA Inception Review 2026 -- Free AI Startup Program with 30% ...",
+      "url": "https://saastweaks.com/startup-credits/nvidia-inception",
+      "description": "NVIDIA Inception is a free program for AI startups offering 30% off DGX Cloud H100 compute, preferred hardware pricing and access to a 20,000-member.",
+      "snippet": "NVIDIA Inception is a free program for AI startups offering 30% off DGX Cloud H100 compute, preferred hardware pricing and access to a 20,000-member.",
+      "page_age": ""
+    },
+    {
+      "title": "NVIDIA Inception, Free program, value in partnerships, pricing, ...",
+      "url": "https://guptadeepak.com/startup-offers/programs/nvidia-inception",
+      "description": "Free program for AI/ML startups, preferred hardware pricing, VC Alliance exposure, unlocks downstream credits.",
+      "snippet": "# NVIDIA Inception\nFree program for AI/ML startups, preferred hardware pricing, VC Alliance exposure, unlocks downstream credits.",
+      "page_age": ""
+    },
+    {
+      "title": "NVIDIA Inception Program for AI Startups with Cloud Credits and ...",
+      "url": "https://grantedai.com/grants/nvidia-inception-program-ai-startups-cloud-credits-hardware-nvidia-b5c6d7e8",
+      "description": "NVIDIA Inception supports AI startups worldwide with up to $100K AWS credits and GPU pricing. No equity.",
+      "snippet": "# NVIDIA Inception Program for AI Startups with Cloud Credits and Hardware Benefits\n## Quick Facts\n**Agency**: NVIDIA\n**Funding**: Free NVIDIA Deep Learning Institute (DLI) training credits, preferred pricing on hardware and software, access to partner cloud credits including up to $100,000 AWS Activate credits and up to $150,000 Nebius cloud credits. Ongoing program with no application fees.\n**Deadline**: Rolling\n**Status**: Active\n**Eligibility**: AI startups at any funding stage",
+      "page_age": "2026-03-30T00:00:00"
+    }
+  ],
+  "Product Hunt launches API scraping without key 2026": [
+    {
+      "title": "Product Hunt Scraper — Launches, Votes & Makers · Apify",
+      "url": "https://apify.com/cryptosignals/producthunt-scraper",
+      "description": "Scrape Product Hunt launches, votes, maker profiles, and comments. Track trending products. Export to CSV, Excel, JSON. Zapier, Make.com, Python, JavaSc...",
+      "snippet": "# Product Hunt Scraper — Launches, Products & Maker Data\nScrape Product Hunt product launches, search results, and detailed product pages. Track daily launches, discover trending products, and extract maker information — no API key required",
+      "page_age": "2026-03-30T22:12:48"
+    },
+    {
+      "title": "Product Hunt Scraper - Free Launches, Makers & Reviews API API ...",
+      "url": "https://apify.com/dz_omar/product-hunt-pro/api/javascript",
+      "description": "Learn how to interact with Product Hunt Pro API in JavaScript. Includes an example JavaScript code snippet to help you get started quickly.",
+      "snippet": "# Product Hunt Pro\nTry for free\n\nScrape Product Hunt launches free: daily, weekly, monthly and yearly leaderboards with ranks and upvotes, company websites, makers and hunters with LinkedIn, full review text with star ratings, comments, topics and media. Search by keyword, topic or URL. No API key needed.\nRating\n0.0",
+      "page_age": "2026-09-14T01:40:19"
+    },
+    {
+      "title": "Product Hunt Scraper - Free Launches, Makers & Reviews API · Apify",
+      "url": "https://apify.com/dz_omar/product-hunt-pro",
+      "description": "Free Product Hunt scraper. Export launches, leaderboard ranks, upvotes, company websites, founder LinkedIn profiles, reviews and comments to JSON or CSV.",
+      "snippet": "# Product Hunt Pro — Launches, Makers, Reviews & Emails\n## FAQ\n**Do I need a Product Hunt account or API key?** No. Just set the input and run.\n\n**How fresh is the data?** It is read live from Product Hunt at the moment the run starts.\n\n**Why is websiteUrl sometimes empty?** A few Product Hunt entries have no external website listed. The field is null rather than a guess",
+      "page_age": "2026-09-14T01:40:19"
+    },
+    {
+      "title": "Product Hunt Scraper - Daily Product Launches · Apify",
+      "url": "https://apify.com/parseforge/producthunt-scraper",
+      "description": "Pulls posts from Product Hunt. Each row has product name, tagline, votes, featured flag, maker, topic, image gallery, and launch date.",
+      "snippet": "# 🚀 Product Hunt Scraper\n🚀 **Export daily Product Hunt launches with votes, comments, and maker info in seconds.** No API key, no account, no scraping setup.\n\n🕒 **Last updated:** 2026-05-22 · **📊 12 fields** per record · **Up to 20 launches per day** · **Covers up to 30 days back**",
+      "page_age": "2026-06-11T23:20:57"
+    },
+    {
+      "title": "Product Hunt Products, Upvotes & Makers Scraper API · Apify",
+      "url": "https://apify.com/scrapers_lat/product-hunt-scraper/api",
+      "description": "Learn how to interact with Product Hunt Scraper: Launches, Makers, Reviews, No API Key via API. Includes an example code snippet for your convenience.",
+      "snippet": "Learn how to interact with Product Hunt Scraper: Launches, Makers, Reviews, No API Key via API.",
+      "page_age": "2026-09-04T04:07:49"
+    },
+    {
+      "title": "Product Hunt Scraper: Daily Launches, Votes, No API Key API in ...",
+      "url": "https://apify.com/tagadanar/producthunt-scraper/api/javascript",
+      "description": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) API in JavaScript. Includes an example JavaScript code snippet to help ...",
+      "snippet": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) API in JavaScript.\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key) avatar\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)\n\nPricing\n\nfrom $1.05 / 1,000 launches\n\nTry for free\n\nGo to Apify Store\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)",
+      "page_age": "2026-08-29T20:49:05"
+    },
+    {
+      "title": "Product Hunt Scraper — Daily Launches & Makers · Apify",
+      "url": "https://apify.com/ninhothedev/producthunt-scraper",
+      "description": "$0.5/1K 🔥 Fast Product Hunt scraper! Daily launches — name, tagline, maker, date & link. No key. JSON, CSV, Excel or API in seconds. Pull the newest pr...",
+      "snippet": "# Product Hunt Scraper — Daily Launches & Makers\n$0.5/1K 🔥 Fast Product Hunt scraper! Daily launches — name, tagline, maker, date & link. No key. JSON, CSV, Excel or API in seconds.",
+      "page_age": "2026-08-29T02:39:08"
+    },
+    {
+      "title": "Product Hunt Scraper: Daily Launches, Votes, No API Key API · Apify",
+      "url": "https://apify.com/tagadanar/producthunt-scraper/api",
+      "description": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) via API. Includes an example code snippet for your convenience.",
+      "snippet": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) via API.\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key) avatar\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)\n\nPricing\n\nfrom $1.05 / 1,000 launches\n\nTry for free\n\nGo to Apify Store\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)",
+      "page_age": "2026-08-29T20:49:05"
+    }
+  ],
+  "GitHub trending repositories how to scrape API": [
+    {
+      "title": "GitHub Trending API: scrape today's hottest repos for $2.00/1K ...",
+      "url": "https://dev.to/devil_scrapes/github-trending-api-scrape-todays-hottest-repos-for-2001k-5b2b",
+      "description": "Quick answer: GitHub's Trending page (github.com/trending) has no public API and no bulk export. To... Tagged with webscraping, python, apify, data.",
+      "snippet": "Quick answer: GitHub's Trending page (github.com/trending) has no public API and no bulk export.",
+      "page_age": "2026-06-01T18:49:26"
+    },
+    {
+      "title": "GitHub Explore Scraper - Extract Trending Repos, Stars API · Apify",
+      "url": "https://apify.com/samer-samaha/github-scraper/api",
+      "description": "Learn how to interact with GitHub Explore Scraper - Trending Repos, Stars & Metadata via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Explore Scraper - Trending Repos, Stars & Metadata\n## You might also like\n### GitHub Trending Repos Scraper\nmoney_machine_agent/github-trending-scraper\n\nPulls trending repos from github.com/trending. Returns owner, name, description, language, stars, forks, today star delta, built-by avatars. Filter by language + time period.\n3",
+      "page_age": "2026-09-03T00:41:52"
+    },
+    {
+      "title": "GitHub Trending Repositories Scraper API · Apify",
+      "url": "https://apify.com/fanciful_geode/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repositories Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repositories Scraper\n## You might also like\n### GitHub Trending Scraper\nleftwinglautus/github-trending-scraper\n\nScrapes GitHub trending repositories by language and time period. Extracts repo name, author, description, language, stars, forks, and daily star growth.\n2",
+      "page_age": "2026-07-06T07:18:06"
+    },
+    {
+      "title": "GitHub Trending Repository Scraper Daily Top Projects API · Apify",
+      "url": "https://apify.com/rambunctious_fingerprint/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repos Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repos Scraper\n## You might also like\n### GitHub Repository & Trending Scraper\nrupom888/github-repository-scraper\n\nSearch GitHub repos, scrape user profiles with repos, get repo details with contributors, or track GitHub trending. Uses public API - optional token for higher rate limits.\n21",
+      "page_age": "2026-07-22T01:03:29"
+    },
+    {
+      "title": "GitHub Trending Scraper - Track Popular Repos API · Apify",
+      "url": "https://apify.com/lafuan/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Tracker via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Tracker\n## You might also like\n### GitHub Trending Repos Scraper\nparseforge/github-trending-scraper\n\nScrapes trending repositories from GitHub Trending. Filter by programming language, time period, and spoken language. Returns repo name, description, stars, forks, and today's stars.\n2",
+      "page_age": "2026-09-05T22:24:31"
+    },
+    {
+      "title": "GitHub Trending Scraper — Repos, Stars & Language Rankings API ...",
+      "url": "https://apify.com/samwise.agency/github-trending/api",
+      "description": "Learn how to interact with GitHub Trending Scraper — Repos, Stars & Language Rankings via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Scraper — Repos, Stars & Language Rankings\n## You might also like\n### GitHub Repository Scraper\nnavy_currant/github-repo-scraper\n\nSearch and export GitHub repositories via the official GitHub API. Filter by keyword, language, and stars; get full repo metadata for market research, lead generation, and dev intelligence.\n2",
+      "page_age": "2026-07-26T03:33:47"
+    },
+    {
+      "title": "GitHub Trending Repositories Scraper API API · Apify",
+      "url": "https://apify.com/atlas-data/github-trending-repos-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repositories Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repositories Scraper\n## You might also like\n### GitHub Trending Scraper - Daily Trending Repositories\n```bash\n# Set API token\n$API_TOKEN=\n\n# Prepare Actor input\n$cat > input.json << 'EOF'\n<{\n<  \"language\": \"javascript\"\n<}",
+      "page_age": "2026-07-14T13:39:17"
+    },
+    {
+      "title": "GitHub Trending Repository Scraper Daily Top Projects API in Python ...",
+      "url": "https://apify.com/rambunctious_fingerprint/github-trending-scraper/api/python",
+      "description": "Learn how to interact with GitHub Trending Repos Scraper API in Python. Includes an example Python code snippet to help you get started quickly.",
+      "snippet": "# GitHub Trending Repos Scraper\n## You might also like\n### GitHub Trending Repos Scraper\nmoney_machine_agent/github-trending-scraper\n\nPulls trending repos from github.com/trending. Returns owner, name, description, language, stars, forks, today star delta, built-by avatars. Filter by language + time period.\n2",
+      "page_age": "2026-07-22T01:03:29"
+    }
+  ],
+  "StackSocial AI lifetime deals subscriptions": [
+    {
+      "title": "ChatPlayground AI: Lifetime Subscription (Unlimited Plan)",
+      "url": "https://www.stacksocial.com/sales/chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "description": "Compare the 20+ top AI models, including ChatGPT-4, Google Gemini, Claude 3.5 Sonnet, DeepSeek R1, Llama, Grok, Perplexity, Mixtral, and more!",
+      "snippet": "- Apps & Software\n- ›\n- Productivity\n\nChatPlayground AI: Lifetime Subscription (Unlimited Plan)\n\nChatPlayground AI: Lifetime Subscription (Unlimited Plan)\n\nChatPlayground AI: Lifetime Subscription (Unlimited Plan)",
+      "page_age": ""
+    },
+    {
+      "title": "Leelo AI: Lifetime Subscription",
+      "url": "https://www.stacksocial.com/sales/leelo-ai-personal-plan-lifetime-subscription",
+      "description": "Transform Written Words Into Lifelike Speech: Over 800 Distinct Voices, 142 Languages & 15 Emotions",
+      "snippet": "# Leelo AI: Lifetime Subscription\n## Choose Plan:\nPersonal Plan\n\n$49.99$443.40(88% off)\n\nPro Plan\n\n$79.99$745.80(89% off)\n\nLeelo AI: Lifetime Subscription",
+      "page_age": ""
+    },
+    {
+      "title": "Prep for the Future of AI",
+      "url": "https://www.stacksocial.com/collections/artificial-intelligence",
+      "description": "There's no denying it: Artificial intelligence is the way of the future. Learn how to develop and integrate AI into your daily life with helpful courses and a ChatGPT plugin.",
+      "snippet": "## Unlock the Power of AI\n$249.00\n\nLeelo AI: Lifetime Subscription (Pro Plan)\n\n**Leelo AI: Lifetime Subscription (Pro Plan)**\n\n89% Off!\n\n3 Reviews\n\n$79.99\n\n$745.80\n\nPitchBob: AI Pitch Deck Generator & Startup Building Co-Pilot: Super Pro Lifetime Subscription\n\n**PitchBob: AI Pitch Deck Generator & Startup Building Co-Pilot: Super Pro Lifetime Subscription**\n\n49% Off!\n\n$99.90",
+      "page_age": ""
+    },
+    {
+      "title": "1min.AI: Lifetime Subscription",
+      "url": "https://www.stacksocial.com/sales/1minai-pro-plan-lifetime-subscription",
+      "description": "Unlock the power of AI for all your creative needs. 1minAI is an all-in-one platform that empowers you with AI tools for text, writing, image, audio, and video.",
+      "snippet": "Unlock the power of AI for all your creative needs. 1minAI is an all-in-one platform that empowers you with AI tools for text, writing, image, audio, and video.\n\n- Utilities\n\n1min.AI: Lifetime Subscription",
+      "page_age": "2025-12-18T00:20:46"
+    },
+    {
+      "title": "The 2026 AI Content Creation Lifetime Subscription Bundle",
+      "url": "https://www.stacksocial.com/sales/the-2026-ai-content-creation-lifetime-subscription-bundle",
+      "description": "WordPop AI and SpeakBreez AI deliver the fastest idea-to-audience workflow available—whether you’re a marketer, creator, agency, or entrepreneur.",
+      "snippet": "# The 2026 AI Content Creation Lifetime Subscription Bundle\n1 Review\n\nDeal Price$39.99\n\nSuggested Price\n\n$2,070.00\n\nYou save 98%",
+      "page_age": ""
+    },
+    {
+      "title": "Ditch the Monthly AI Subscription and Get Lifetime 1min.AI Advanced ...",
+      "url": "https://www.cnet.com/deals/1minai-lifetime-subcription-stacksocial-deal/",
+      "description": "Pay once for 1min.AI and unlock ChatGPT, Claude, Gemini and more with zero recurring bills.",
+      "snippet": "# Ditch the Monthly AI Subscription and Get Lifetime 1min.AI Advanced for Just $70\n#### Sneha Iyer\n**Save $470:** A lifetime subscription to 1min.AI’s Advanced Business Plan is down to $70 on StackSocial right now, down from its regular $540 price. You don’t have to worry about monthly fees or renewals. StackSocial says the deal expires soon, but we don’t know exactly when, so buy soon if you have your eye on this.",
+      "page_age": "2026-08-11T12:13:50"
+    },
+    {
+      "title": "1min.AI: Lifetime Subscription (Business Plan)",
+      "url": "https://www.stacksocial.com/sales/1minai-business-plan-lifetime-subscription",
+      "description": "Unlock the power of AI for all your creative needs. 1minAI is an all-in-one platform that empowers you with AI tools for text, writing, image, audio, and video.",
+      "snippet": "Unlock the power of AI for all your creative needs. 1minAI is an all-in-one platform that empowers you with AI tools for text, writing, image, audio, and video.\n\n- Apps & Software\n- ›\n- Utilities\n\n1min.AI: Lifetime Subscription (Business Plan)\n\n1min.AI: Lifetime Subscription (Business Plan)",
+      "page_age": "2025-11-30T00:37:19"
+    },
+    {
+      "title": "AI Magicx: Lifetime Subscription",
+      "url": "https://www.stacksocial.com/sales/ai-magicx-spark-plan-lifetime-subscription",
+      "description": "Supercharge output with all‑in‑one AI intelligence. From content creation to workflow automation and app integrations powered by MCP, AI Magicx delivers.",
+      "snippet": "# AI Magicx: Lifetime Subscription\n## Specs\n**System Requirements**\n\n- Latest version of any modern browser\n\n**Important Details**\n\n- Length of access: lifetime\n- Redemption deadline: redeem your code within 30 days of purchase\n- Access options: desktop or mobile\n- Max number of device(s): 999\n- Version: 4+\n- Updates included",
+      "page_age": ""
+    }
+  ],
+  "Telegram channels AI tools deals free credits": [
+    {
+      "title": "Best Deepnude Telegram Bots (2026) - AI Tools",
+      "url": "https://cpa.live/en/ai-tools/deepnude-telegram-bots/",
+      "description": "Looking for a deepnude Telegram bot? Discover 5 AI bots that generate images and videos in TG. Compare features, pricing and free credits.",
+      "snippet": "# Best Deepnude Telegram Bots: 5 AI Bots for Image Processing\n3. Best Deepnude Telegram Bots\n4. 1. Skinyx AI\n5. 2. NeuroSilk\n6. 3. LunaForm AI\n7. 4. Diva Reveal",
+      "page_age": "2026-09-11T15:14:23"
+    },
+    {
+      "title": "[2026] How to Build an AI Chatbot for Telegram Without Coding",
+      "url": "https://www.gptbots.ai/blog/telegram-ai-chatbot",
+      "description": "You can automate the Telegram chatbot with a powerful and intelligent chatbot. Stick around to learn how to build a Telegram AI chatbot in minutes without coding.",
+      "snippet": "# \\[100% Working\\] How to Build an AI Chatbot for Telegram Without Coding\n## Conclusion\nSign up with GPTBots, get 100 free credits every month, and embrace on a journey of creating a customized Telegram chatbot for your business today.",
+      "page_age": "2025-10-21T02:18:29"
+    },
+    {
+      "title": "Telegram channel \"AI Tools\" — @Best_AI_tools — TGStat",
+      "url": "https://tgstat.com/channel/@Best_AI_tools",
+      "description": "📢 Advertising & partnerships: @Advertise_on_Telegram 🚀 Discover the best AI tools for productivity, business, and creativity! 💡 Stay updated with the latest apps, tutorials, and tips to work smarter.",
+      "snippet": "# AI Tools\n##### AI Tools\nAppDeploy includes the infrastructure needed for real apps: 🔐 User login and permissions 🗄️ Storage, database, realtime sync and notifications 🤖 Built in AI capabilities ☁️ Full backend, background jobs and scheduled tasks 🧪 Automatic QA for every change and built in versioning 🌐 Custom domains, secrets management and more **Free to use.",
+      "page_age": ""
+    },
+    {
+      "title": "Best 9 Telegram Chatbots (2026)",
+      "url": "https://botpress.com/blog/top-telegram-chatbots",
+      "description": "Telegram chatbots are popular for their anonymity and easy building process. Here are 9 of the best Telegram chatbots available.",
+      "snippet": "# Best 9 Telegram Chatbots (2026)\n## 1. Botpress\n### Pros and Cons\nOne of the biggest pros of Botpress is its transparent and affordable pricing model. You can **build a bot for free** without a credit card, and if you need additional features you can add them as your usage grows without having to talk to a sales person. They even give users $5 to spend on AI costs to keep it accessible to small businesses",
+      "page_age": "2026-01-14T16:27:47"
+    },
+    {
+      "title": "Artificial Intelligence && Deep Learning",
+      "url": "https://t.me/s/DeepLearning_ai?before=1208",
+      "description": "Channel for who have a passion for - * Artificial Intelligence * Machine Learning * Deep Learning * Data Science * Computer vision * Image Processing * Research Papers With advertising offers contact:",
+      "snippet": "**Free Access to our premium Machine Learning & AI Channel ***👇👇***** **https://t.me/+19r0V3YpcJMzOTUx** **Amazing premium resources only for my subscribers ***🎁*** Free Data Science Courses ***🎁*** Machine Learning Notes ***🎁*** Python Free Learning Resources ***🎁*** Learn AI with ChatGPT ***🎁*** Build Chatbots using LLM ***🎁*** Learn Generative AI ***🎁*** Free Coding Certified Courses Learn Data Science in 30 Days",
+      "page_age": "2025-04-12T00:00:00"
+    },
+    {
+      "title": "Free Telegram Chatbots for Chatgpt based tool - 21 Free AI tools",
+      "url": "https://free.theresanaiforthat.com/telegram/s/chatgpt+based+tool/",
+      "description": "Browse 21 Free Telegram Chatbots for Chatgpt based tool AIs. These AI tools are 100% free to use. Includes tasks such as Productivity, Accounting, SEO analysis, AI visibility and Knowledge bases.",
+      "snippet": "## Chatgpt based tool\n### Featured matches\nProductivity Open TheLibrarian.io website 522,295 thelibrarian.io Duck Typer profile picture Duck Typer 🙏 255 karma Feb 12, 2025 @TheLibrarian.io Great tool! Was very helpful in content production 221 62 Reply Share Edit Delete Report Share Released 27d ago Free + from $9.99/mo 584,287 1,041 4.6",
+      "page_age": "2025-12-19T00:00:00"
+    },
+    {
+      "title": "AI Telegram Chatbot - Top AI tools",
+      "url": "https://topai.tools/s/ai-telegram-chatbot",
+      "description": "Browse AI Telegram Chatbot AI, discover the best free and paid AI tools for AI Telegram Chatbot and use our AI search to find more.",
+      "snippet": "# AI Telegram Chatbot\n## Explore 70 AI for AI Telegram Chatbot\n### YesChat AI\n- **Add to Collection** Build shareable stack\n\nYesChat is an AI tool that integrates GPT-4V, DALLE3, and Claude2 to offer enhanced AI capabilities. It supports rich interactions with AI, image generation, document analysis, code generation, and conversational abilities.\nChat\n\nFreemium",
+      "page_age": ""
+    },
+    {
+      "title": "Parallel.ai Free $80 Credits With Your Work Email",
+      "url": "https://resourify.com/resources/parallel-ai",
+      "description": "Instantly unlock $80 in API credits to power your AI agents with state-of-the-art web search and deep research capabilities.",
+      "snippet": "# Parallel.ai Free $80 Credits With Your Work Email\n## Parallel.ai Free $80 Credits With Your Work Email\n****The Deal:**** Parallel is offering ****$80 in free credits**** to new users who sign up with a professional domain.\n\nparallel.ai free credits.png",
+      "page_age": "2026-08-24T11:18:09"
+    }
+  ],
+  "Bluesky AT Protocol public API search posts without auth": [
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) API · Apify",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper/api",
+      "description": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Bluesky Posts Scraper — Search & User Feed (No Auth)\nTry for free\n\nScrape posts from Bluesky social network via the public AT Protocol API. Search by keyword, hashtag, or user handle. No API key required. Outputs post text, author, likes, reposts, replies, images, URLs, and tags. PPE $0.003/post.",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) · Apify",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper",
+      "description": "Scrape posts from Bluesky social network via the public AT Protocol API. Search by keyword, hashtag, or user handle. No API key required. Outputs post t...",
+      "snippet": "# Bluesky Posts Scraper — Search & User Feed (No Auth)\n## What does Bluesky Posts Scraper do?\n**Bluesky Posts Scraper** extracts posts from the Bluesky social network using the public **AT Protocol** AppView API — no login, no API key, no OAuth flow required. Search any keyword or hashtag across the entire network, or pull the full post history of any public Bluesky account. Each post comes with text, author details, engagement metrics (likes, reposts, replies), image indicators, hashtags, URLs, and language code",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) MCP server ...",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper/api/mcp",
+      "description": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) via Model Context Protocol (MCP) Server for AI Integration. Includes an ...",
+      "snippet": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) via Model Context Protocol (MCP) Server for AI Integration.",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) API through ...",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper/api/cli",
+      "description": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) API through the CLI. Includes an CLI example to help you get started qui...",
+      "snippet": "# Bluesky Posts Scraper — Search & User Feed (No Auth)\n## Bluesky Posts Scraper — Search & User Feed (No Auth) API through CLI\nThe Apify CLI is the official tool that allows you to use Bluesky Posts Scraper — Search & User Feed (No Auth) locally, providing convenience functions and automatic retries on errors",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) API in Python ...",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper/api/python",
+      "description": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) API in Python. Includes an example Python code snippet to help you get s...",
+      "snippet": "# Bluesky Posts Scraper — Search & User Feed (No Auth)\n## You might also like\n### Bluesky Scraper - Posts & Profiles\nimahmood/bluesky-posts-scraper\n\nSearch and export public Bluesky posts by keyword or hashtag via the open AT Protocol. No login needed. Get text, author, engagement counts and links.\n1",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Posts Scraper — Search & User Feed (No Auth) OpenAPI ...",
+      "url": "https://apify.com/gochujang/bluesky-posts-scraper/api/openapi",
+      "description": "Learn how to interact with Bluesky Posts Scraper — Search & User Feed (No Auth) in OpenAPI. Includes an OpenAPI example code snippet for you to get star...",
+      "snippet": "# Bluesky Posts Scraper — Search & User Feed (No Auth)\n## You might also like\n### Bluesky Scraper\nYou can access the Bluesky Posts Scraper — Search & User Feed (No Auth) programmatically from your own applications by using the Apify API. You can also choose the language preference from below. To use the Apify API, you’ll need an Apify account and your API token, found in API & Integrations in Apify Console.\nPython\nPython\nJavaScript\nJavaScript\nHTTP",
+      "page_age": "2026-09-06T10:19:40"
+    },
+    {
+      "title": "Bluesky Author Posts Scraper — public, no login · Apify",
+      "url": "https://apify.com/pappy-dev/bluesky-posts",
+      "description": "Collect the public posts of any Bluesky account: text, timestamps, like/repost/reply/quote counts, language, and original authors of reposts. No login r...",
+      "snippet": "# Bluesky Author Posts Scraper — public accounts, no login\nIssues\n\n**Bluesky API** — Collect the public posts of any Bluesky account: text, timestamps, like/repost/reply/quote counts, language, and original authors of reposts. No login required",
+      "page_age": "2026-09-09T15:19:30"
+    },
+    {
+      "title": "Bluesky Author Posts Scraper — public, no login API · Apify",
+      "url": "https://apify.com/pappy-dev/bluesky-posts/api",
+      "description": "Learn how to interact with Bluesky Author Posts Scraper — public accounts, no login via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Bluesky Author Posts Scraper — public accounts, no login\nTry for free\n\nCollect the public posts of any Bluesky account (AT Protocol) without logging in: text, timestamps, like/repost/reply/quote counts, language, and reposts (with the original author separated from the account that boosted it). No account, no proxies, no personal data beyond the public profile handle.",
+      "page_age": "2026-09-09T15:19:30"
+    }
+  ],
+  "Mastodon public API search timelines without auth instance list": [
+    {
+      "title": "Mastodon Scraper — Posts, Hashtags & Timelines API · Apify",
+      "url": "https://apify.com/puskin/mastodon-scraper",
+      "description": "Scrape public Mastodon/Fediverse posts, hashtag timelines, and account statuses from any instance. No authentication required.",
+      "snippet": "Scrape public Mastodon/Fediverse posts, hashtag timelines, and account statuses from any instance. No authentication required.",
+      "page_age": "2026-07-04T09:58:13"
+    },
+    {
+      "title": "Mastodon Scraper — Hashtags, Public Timeline & Accounts API · Apify",
+      "url": "https://apify.com/logiover/mastodon-scraper/api",
+      "description": "Learn how to interact with Mastodon Scraper — Posts, Hashtags & Public Timeline via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Mastodon Scraper — Posts, Hashtags & Public Timeline\n## You might also like\n### Mastodon Scraper — Posts, Profiles & Trends\nthriftykiwi/mastodon-scraper\n\nExtract public data from Mastodon via the REST API. Search posts by hashtag, get account profiles and posts, browse public timelines, and trending content. Works with any Mastodon instance. No auth required.\n2",
+      "page_age": "2026-09-12T10:12:39"
+    },
+    {
+      "title": "Mastodon Scraper — Posts, Hashtags & Timelines API API · Apify",
+      "url": "https://apify.com/puskin/mastodon-scraper/api",
+      "description": "Learn how to interact with Mastodon Scraper — Posts, Hashtags & Timelines via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Mastodon Scraper — Posts, Hashtags & Timelines\n## You might also like\n### Mastodon Scraper - Posts, Hashtags, Accounts & Trends\nnavy_currant/mastodon-social-scraper\n\nScrape Mastodon (any instance) via the official public REST API: hashtag timelines, account posts + profiles, trending statuses/tags/links, and account/hashtag search. No credentials, no proxy required.\n3",
+      "page_age": "2026-07-04T09:58:13"
+    },
+    {
+      "title": "Mastodon Scraper - Hashtags & Public Timeline (No Login) OpenAPI ...",
+      "url": "https://apify.com/arjunannamalai/mastodon-scraper/api/openapi",
+      "description": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) in OpenAPI. Includes an OpenAPI example code snippet for you to get ...",
+      "snippet": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) in OpenAPI.",
+      "page_age": "2026-06-24T09:59:24"
+    },
+    {
+      "title": "Mastodon Posts Scraper — Hashtags & Accounts, No Login API · Apify",
+      "url": "https://apify.com/devilscrapes/mastodon-posts-scraper/api",
+      "description": "Learn how to interact with Mastodon Posts Scraper — Hashtags & Accounts via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Mastodon Posts Scraper — Hashtags & Accounts\nTry for free\n\nScrape Mastodon posts by hashtag or by account across any federated instance via the public REST API — no login, no app registration. We paginate the Link-header timeline, retry on rate limits, and skip dead hashtags/accounts instead of failing the run.\nRating\n0.0",
+      "page_age": "2026-09-10T08:00:56"
+    },
+    {
+      "title": "Mastodon Scraper - Hashtags & Public Timeline (No Login) API · Apify",
+      "url": "https://apify.com/arjunannamalai/mastodon-scraper/api",
+      "description": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) via API. Includes an example code snippet for your convenience.",
+      "snippet": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) via API.",
+      "page_age": "2026-06-24T09:59:24"
+    },
+    {
+      "title": "Mastodon Scraper — Hashtags, Public Timeline & Accounts API in ...",
+      "url": "https://apify.com/logiover/mastodon-scraper/api/python",
+      "description": "Learn how to interact with Mastodon Scraper — Posts, Hashtags & Public Timeline API in Python. Includes an example Python code snippet to help you get s...",
+      "snippet": "# Mastodon Scraper — Posts, Hashtags & Public Timeline\n## You might also like\nMastodon Scraper - Hashtags & Public Timeline (No Login) avatar\n\n### Mastodon Scraper - Hashtags & Public Timeline (No Login)\n\narjunannamalai/mastodon-scraper\n\nScrape public Mastodon posts by hashtag across any instance, plus the public timeline where allowed. Clean text + engagement + author data. No login.\n2",
+      "page_age": "2026-09-12T10:12:39"
+    },
+    {
+      "title": "Mastodon Scraper - Hashtags & Public Timeline (No Login) API in ...",
+      "url": "https://apify.com/arjunannamalai/mastodon-scraper/api/python",
+      "description": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) API in Python. Includes an example Python code snippet to help you g...",
+      "snippet": "Learn how to interact with Mastodon Scraper - Hashtags & Public Timeline (No Login) API in Python.",
+      "page_age": "2026-06-24T09:59:24"
+    }
+  ],
+  "Hugging Face blog RSS feed papers RSS URL": [
+    {
+      "title": "GitHub - CorjanBos/ai-rss-feed: RSS Feed for the Anthropic ...",
+      "url": "https://github.com/CorjanBos/ai-rss-feed",
+      "description": "RSS Feed for the Anthropic Engineering Blog. Contribute to CorjanBos/ai-rss-feed development by creating an account on GitHub.",
+      "snippet": "# CorjanBos/ai-rss-feed\n## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| Latest commit History 4,045 Commits 4,045 Commits |  |  |  |\n| .github/workflows | .github/workflows |  |  |\n| github\\_trending\\_data | github\\_trending\\_data |  |  |\n| rss | rss |  |  |\n| .gitignore | .gitignore |  |  |\n| LICENSE | LICENSE |  |  |\n| README.md | README.md |  |  |\n| anthropic\\_rss.py | anthropic\\_rss.py |  |  |\n| deeplearning\\_rss.py | deeplearning\\_rss.py |  |  |\n| github\\_ranking\\_ai\\_rss.py | github\\_ranking\\_ai\\_rss.py |  |  |\n| github\\_trending\\_rss.py | github\\_trending\\_rss.py |  |  |\n| huggingface\\_rss.py | huggingface\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": "2026-04-06T14:56:00"
+    },
+    {
+      "title": "GitHub - cnzhujie/ai-rss-feed: RSS Feed for the Anthropic Engineering ...",
+      "url": "https://github.com/cnzhujie/ai-rss-feed",
+      "description": "RSS Feed for the Anthropic Engineering Blog. Contribute to cnzhujie/ai-rss-feed development by creating an account on GitHub.",
+      "snippet": "## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| .github/workflows | .github/workflows |  |  |\n| github\\_trending\\_data | github\\_trending\\_data |  |  |\n| rss | rss |  |  |\n| .gitignore | .gitignore |  |  |\n| LICENSE | LICENSE |  |  |\n| README.md | README.md |  |  |\n| anthropic\\_rss.py | anthropic\\_rss.py |  |  |\n| deeplearning\\_rss.py | deeplearning\\_rss.py |  |  |\n| github\\_ranking\\_ai\\_rss.py | github\\_ranking\\_ai\\_rss.py |  |  |\n| github\\_trending\\_rss.py | github\\_trending\\_rss.py |  |  |\n| huggingface\\_rss.py | huggingface\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - AzureSilent/hf-paper-rss: Hugging Face Daily Papers RSS ...",
+      "url": "https://github.com/AzureSilent/hf-paper-rss",
+      "description": "Hugging Face Daily Papers RSS. Contribute to AzureSilent/hf-paper-rss development by creating an account on GitHub.",
+      "snippet": "## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| .github/workflows | .github/workflows |  |  |\n| docs | docs |  |  |\n| .gitignore | .gitignore |  |  |\n| .nojekyll | .nojekyll |  |  |\n| README.md | README.md |  |  |\n| README.zh-CN.md | README.zh-CN.md |  |  |\n| fetch\\_daily\\_papers.py | fetch\\_daily\\_papers.py |  |  |\n| generate\\_rss.py | generate\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - huangboming/huggingface-daily-paper-feed: Unofficial ...",
+      "url": "https://github.com/huangboming/huggingface-daily-paper-feed",
+      "description": "Unofficial Huggingface daily paper rss feed. Contribute to huangboming/huggingface-daily-paper-feed development by creating an account on GitHub.",
+      "snippet": "Unofficial Huggingface daily paper rss feed.",
+      "page_age": ""
+    },
+    {
+      "title": "@takarajordan on Hugging Face: \"I made an RSS feed for HuggingFace ...",
+      "url": "https://huggingface.co/posts/takarajordan/806643001426071",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "snippet": "#### Join the conversation\nI made an RSS feed for HuggingFace Daily Papers!! 🤗 Just Subscribe here: https://papers.takara.ai/api/feed It updates every 24 hours, completely written as a serverless go script with a Redis cache (to avoid hitting HF all the time). I'm open sourcing the code, you can check out my repo and deploy it on Vercel extremely easily! https://github.com/404missinglink/HF-Daily-Papers-Feeds thanks to @John6666 @p3nGu1nZz for your early support",
+      "page_age": "2025-09-19T00:00:00"
+    },
+    {
+      "title": "GitHub - takara-ai/papers-api: A serverless RSS feed for ...",
+      "url": "https://github.com/takara-ai/papers-api",
+      "description": "A serverless RSS feed for HuggingFace's Daily Papers - takara-ai/papers-api",
+      "snippet": "A serverless RSS feed for HuggingFace's Daily Papers - takara-ai/papers-api\n\nSkip to content\n\nYou signed in with another tab or window.",
+      "page_age": ""
+    },
+    {
+      "title": "Hugging Face Papers RSS Feed - with words, wonder",
+      "url": "https://jamesg.blog/2024/05/23/hf-papers-rss",
+      "description": "",
+      "snippet": "# Hugging Face Papers RSS Feed\nMay 23, 2024 • Technology\n\nJames\n\nI enjoy making RSS feeds for sites whose content I would like to follow. I have made an RSS feed for Hugging Face Daily Papers, a curated list of research papers in machine learning. This feed is available at:\n\n```\nhttps://jamesg.blog/hf-papers.xml\n```\n\nYou can also subscribe to the JSON Feed representation of the feed at:",
+      "page_age": "2024-05-23T00:00:00"
+    },
+    {
+      "title": "RSS feed for hf.co/papers · Issue #2296 · huggingface/blog ...",
+      "url": "https://github.com/huggingface/blog/issues/2296",
+      "description": "cc @AK391 could be a good idea! RSS feed for hf.co/papers Originally posted by @julien-c in #42 (comment) As already proposed in issue #42, it would be great to have an official RSS feed for hf.co/papers. For those that stumble upon this...",
+      "snippet": "# RSS feed for hf.co/papers #2296\nNew issue\n\nCopy link\n\nNew issue\n\nCopy link\n\nOpen\n\nOpen\n\nRSS feed for hf.co/papers#2296\n\nCopy link\n\n@natema",
+      "page_age": "2024-08-13T11:41:51"
+    }
+  ],
+  "LinkedIn public company posts scraping without login 2026 status": [
+    {
+      "title": "LinkedIn Posts Scraper · Apify",
+      "url": "https://apify.com/artificially/linkedin-posts-scraper",
+      "description": "Search and scrape LinkedIn posts without login, cookies, or authentication. Find posts by keywords, profiles, companies, or hashtags.",
+      "snippet": "# LinkedIn Posts Scraper - No Login Required\n## Key Features\n- **No Login Required** - Works without LinkedIn credentials\n- **No Cookies Needed** - Uses public company pages only\n- **Rich Data** - Post text, timestamps, engagement metrics\n- **Bulk Scraping** - Process multiple companies at once",
+      "page_age": "2026-01-23T12:15:09"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper - $0.90/1k, No Login · Apify",
+      "url": "https://apify.com/dami_studio/linkedin-company-posts-scraper",
+      "description": "Scrape public posts from any LinkedIn company page: post text, reactions, comments and URLs. No login or cookies. $0.90 per 1,000 posts.",
+      "snippet": "Scrape public posts from any LinkedIn company page: post text, reactions, comments and URLs. No login or cookies. $0.90 per 1,000 posts.",
+      "page_age": "2026-09-05T04:28:53"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper",
+      "url": "https://apify.com/generous_fog/linkedin-company-posts-scraper",
+      "description": "Scrape public LinkedIn company posts without login. Extract full text, dates, reactions, comments, media, company data, filters, and quality-scored API ...",
+      "snippet": "# LinkedIn Company Posts Scraper & Content Monitor\nExtract structured public LinkedIn company posts without a LinkedIn login or customer cookies. The Actor discovers publicly indexed company post URLs, verifies the company author, and enriches each result from its public LinkedIn post page",
+      "page_age": "2026-09-08T06:46:11"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper for AI Agents · Apify",
+      "url": "https://apify.com/khadinakbar/linkedin-company-posts-scraper",
+      "description": "Scrape public LinkedIn company posts without cookies. Export post text, URLs, dates, engagement counts, company profile fields and provider source. $0.0...",
+      "snippet": "# LinkedIn Company Posts Scraper\nScrape public posts from LinkedIn company pages without asking users for LinkedIn cookies.\n\nThis actor uses managed social-data APIs:\n\n- Primary: ScrapeCreators /v1/linkedin/company/posts\n- Secondary: SociaVault /v1/scrape/linkedin/company and /v1/scrape/linkedin/post",
+      "page_age": "2026-09-10T13:13:20"
+    },
+    {
+      "title": "Is Scraping LinkedIn Legal? Yes, With 3 Caveats (2026)",
+      "url": "https://linkedrent.com/is-scraping-linkedin-legal-saas/",
+      "description": "Is scraping LinkedIn legal? Yes for public data after hiQ v. LinkedIn, but the User Agreement, GDPR, and CCPA still bite. The honest 2026 compliance posture.",
+      "snippet": "Is scraping LinkedIn legal? Yes for public data after hiQ v. LinkedIn, but the User Agreement, GDPR, and CCPA still bite.",
+      "page_age": "2026-07-17T15:18:58"
+    },
+    {
+      "title": "Is LinkedIn Scraping Dead in 2026? Here's What Still Works",
+      "url": "https://generect.com/blog/linkedin-scraping/",
+      "description": "LinkedIn scraping in 2026: what is legal, what gets accounts banned, and the safer APIs, exports, and enrichment workflows that still work.",
+      "snippet": "# Is LinkedIn Scraping Dead in 2026? Here’s What Still Works\n**Last updated: July 2026.** Short answer: LinkedIn scraping is not technically dead, but authenticated automation, fake accounts, and attempts to bypass access controls carry the highest account and legal risk. The durable 2026 options are first-party exports, approved APIs, public-data providers with clear provenance, and human-reviewed enrichment workflows",
+      "page_age": "2026-07-21T05:09:29"
+    },
+    {
+      "title": "Scrape LinkedIn Company Posts with Engagement — No Login API ...",
+      "url": "https://apify.com/northbell/linkedin-company-posts-scraper/api",
+      "description": "Learn how to interact with LinkedIn Company Posts + Engagement (No Cookies) via API. Includes an example code snippet for your convenience.",
+      "snippet": "# LinkedIn Company Posts + Engagement (No Cookies)\nTry for free\n\nScrape a company's LinkedIn posts with exact reaction and comment counts — plus the posting date, which the public page does not show. Run it again and you get how fast each post is still gaining. No login, no cookies.\nRating",
+      "page_age": "2026-09-05T12:45:15"
+    },
+    {
+      "title": "How to Scrape LinkedIn in 2026: Profiles, Jobs, Companies",
+      "url": "https://fullscraper.com/en/blog/how-to-scrape-linkedin",
+      "description": "Scrape LinkedIn profiles, jobs, and companies the right way. Public endpoints, Python code, anti-detection tactics, and the hiQ v. LinkedIn legal ground.",
+      "snippet": "# How to Scrape LinkedIn in 2026: Profiles, Jobs, Companies\n## Is scraping LinkedIn legal in 2026?\n**hiQ Labs v. LinkedIn (9th Circuit, 2022)** — The court ruled that scraping publicly accessible data is not a violation of the CFAA. \"Without authorization\" in the CFAA applies to bypassing technical access barriers (passwords, authentication), not to reading pages anyone can open",
+      "page_age": "2026-04-18T00:00:00"
+    }
+  ],
+  "TikTok public data scraping without login 2026 status": [
+    {
+      "title": "How to Scrape TikTok in 2026: A Developer's Guide",
+      "url": "https://www.socialcrawl.dev/blog/how-to-scrape-tiktok-2026",
+      "description": "Scrape TikTok profiles, videos, and comments in 2026 without Selenium: why the official Research API won't help, the DIY realities, and a working API tutorial with real code and a real response.",
+      "snippet": "# How to Scrape TikTok in 2026: A Developer's Guide\nThe quickest way to scrape TikTok in 2026 is a single GET request to a data API, no headless browser and no reverse-engineered mobile endpoints. Here is the whole thing:\n\n```\ncurl \"https://www.socialcrawl.dev/v1/tiktok/profile?handle=mrbeast\" \\\n  -H \"x-api-key: sc_your_api_key_here\"\n```",
+      "page_age": "2026-08-25T16:23:53"
+    },
+    {
+      "title": "TikTok Profile Scraper — followers, likes, bio (no login) · Apify",
+      "url": "https://apify.com/myagizm/tiktok-profile-scraper",
+      "description": "Scrape public TikTok profiles: follower/following/likes/video counts, bio, verified. No login, no API key. Clean JSON.",
+      "snippet": "Scrape public TikTok profiles: follower/following/likes/video counts, bio, verified. No login, no API key.",
+      "page_age": "2026-08-04T22:26:02"
+    },
+    {
+      "title": "TikTok Data Scraping API",
+      "url": "https://ensembledata.com/tiktok-api",
+      "description": "Scrape public TikTok data at scale with EnsembleData's TikTok API. Extract user profiles, posts, comments, hashtags, followers, and engagement metrics without managing proxies or accounts.",
+      "snippet": "# TikTok Data Scraping API\n## TikTok Scraper API Features\n### Scrape TikTok data without an account\nYou don't need a TikTok account to use our API. All endpoints fetch public data, so there's no session management, and no risk of getting your account flagged",
+      "page_age": ""
+    },
+    {
+      "title": "Extract Video Engagement Metrics and Public User Profiles from ...",
+      "url": "https://www.scraperapi.com/solutions/tiktok-scraper/",
+      "description": "Scrape TikTok public profiles with ScraperAPI; automate anti-bot bypassing, CAPTCHA handling, and IP rotation to extract millions of TikTok pages.",
+      "snippet": "# Extract Video Engagement Metrics and Public User Profiles from TikTok with Our Powerful API\n## TikTok Scraping FAQs: Learn More About Using ScraperAPI\n### Is it Legal to scrape data from TikTok?\nYes, scraping publicly visible TikTok content is legal, provided you’re not accessing login-restricted data or bypassing private areas of the platform",
+      "page_age": "2026-07-14T15:37:20"
+    },
+    {
+      "title": "TikTok Scraper for Profiles, Posts, Videos & Photos · Apify",
+      "url": "https://apify.com/scrapingmonkey/tiktok-scraper",
+      "description": "Scrape public TikTok profiles, recent posts, video and photo metadata, playlists, photo search results, and LIVE status without a browser or login.",
+      "snippet": "Scrape public TikTok profiles, recent posts, video and photo metadata, playlists, photo search results, and LIVE status without a browser or login.",
+      "page_age": "2026-08-13T04:59:22"
+    },
+    {
+      "title": "TikTok Post Scraper - No Cookies · Apify",
+      "url": "https://apify.com/sophisticated_zythum/tiktok-scraper",
+      "description": "Extract TikTok posts by keyword, hashtag, or profile. Get views, likes, comments, video URLs, hashtags, and creator data. No login required. Pay only fo...",
+      "snippet": "# TikTok Post Scraper - No Cookies\nUnder maintenance\n\nTry for free\n\nExtract TikTok posts by keyword, hashtag, or profile. Get views, likes, comments, video URLs, hashtags, and creator data. No login required. Pay only for results delivered.\nRating\n0.0",
+      "page_age": "2026-08-17T20:11:34"
+    },
+    {
+      "title": "TikTok Data Scraping Made Easy with This Comprehensive Guide",
+      "url": "https://www.octoparse.com/blog/scraping-tiktok-with-octoparse",
+      "description": "TikTok data is valuable, getting it reliably is the hard part. Learn how to scrape TikTok data using no-code templates, custom workflows, Python, and AI-powered methods. Step-by-step guide with real workflow combinations and anti-detection explained.",
+      "snippet": "# How to Scrape TikTok Data Without Getting Blocked (Complete Guide)\n## FAQs About TikTok Data Scraping\nYes. The TikTok Search Scraper (No Login Required) is specifically designed for no-login operation. It is the paid, simpler, and more stable option. The TikTok Profile Scraper and TikTok Video Details & Comments Scraper also work without an account on public profiles and content. If you prefer to avoid per-result charges and are comfortable logging in, the TikTok Search Scraper (Login Required) is an alternative, though it requires more setup and can be less stable",
+      "page_age": "2026-06-04T19:13:20"
+    },
+    {
+      "title": "TikTok Profile Scraper",
+      "url": "https://apify.com/simple.actors/tiktok-profile-posts",
+      "description": "Scrape public TikTok profiles for their latest posts: caption, hashtags, views, likes, comments, shares and video files, plus exact follower counts.",
+      "snippet": "# TikTok Profile Scraper – Posts, Views & Followers\nTry for free\n\nScrape any public TikTok profile for its latest posts — caption, hashtags, views, likes, comments, shares, video files, photo carousels and the sound used — plus the account record with exact follower count. No login, no cookies, no API key. Up to 13 latest posts per profile. Unofficial.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-09-11T17:59:34"
+    }
+  ],
+  "TheZAI free AI tools newsletter websites aggregator 2026": [
+    {
+      "title": "The 5 Best AI Newsletters to Subscribe to in 2026",
+      "url": "https://www.joinleland.com/library/a/ai-newsletters",
+      "description": "Stop over-subscribing. The best AI newsletters ranked by role with committed picks, honest weaknesses, and what to unsubscribe from today.",
+      "snippet": "# The 5 Best AI Newsletters to Subscribe to in 2026\n## The AI Newsletters You Don’t Want to Miss\n| Newsletter | Best For | Frequency | Price |\n| --- | --- | --- | --- |\n| TLDR AI | Daily scan, all roles | Daily (Mon-Fri) | Free |\n| The Batch by DeepLearning.AI | Weekly technical synthesis | Weekly | Free |\n| Latent Space | AI engineers and technical PMs | Weekly+ | Free / Paid |\n| One Useful Thing | Executives and business leaders | Weekly | Free |\n| The Rundown AI | Generalist daily briefing | Daily | Free |",
+      "page_age": "2026-06-12T08:59:55"
+    },
+    {
+      "title": "Best AI News Aggregators: 7 Tools Tested (2026)",
+      "url": "https://www.readless.app/blog/best-ai-news-aggregators-2026",
+      "description": "The best AI news aggregators in 2026, tested: Particle, Ground News, Feedly, Inoreader and more — pricing, source transparency, and which cuts noise fastest.",
+      "snippet": "# Best AI News Aggregators: 7 Tools Tested (2026)\n## What Is the Best AI News Aggregator?\n| Tool | Best For | Starting Price | Why It Stands Out |\n| --- | --- | --- | --- |\n| Particle | Fast catch-up on big stories | Free; Particle+ from $2.99/month | Clear summaries with source transparency |\n| Ground News | Bias-aware reading | From $9.99/year | Blindspot, bias, and ownership context across 50,000+ sources |\n| Feedly | Topic monitoring and source control | Free; Pro from $6/month annual | 15M+ users; strong feed organization, AI in the Pro+ tier |\n| Inoreader | Power-user RSS and newsletters | Free; Pro from $7.50/month annual | Rules, newsletter feeds, and AI summaries |\n| NewsBreak + NBot | Local and conversational personalization | Free | Topic, location, and notification tuning across 10,000+ sources |\n| Syft AI | Custom topic channels | No public pricing | Personalized channels and multilingual summaries |\n| FeedWave | Privacy-first AI RSS reading | Free tier | Local-first positioning with AI summaries |",
+      "page_age": "2026-08-09T00:00:00"
+    },
+    {
+      "title": "News Aggregator - Top AI tools",
+      "url": "https://topai.tools/s/news-aggregator",
+      "description": "Explore the top 20+ News Aggregator AI, including ai news, content ai, automated summarization, personalized feeds, smart aggregator and more",
+      "snippet": "# News Aggregator\n## Explore 50 AI for News Aggregator\n### News Minimalist\n- **Add to Collection** Build shareable stack\n\nNews Minimalist is an AI-driven news aggregator that ranks articles by significance (0-10) from 30,000 daily sources across 12 languages. It highlights major events (scores 5+) via a newsletter or platform, delivering concise updates 2-3 times weekly.\n\nNews\n\nFreemium\n\nNewsCord thumbnail",
+      "page_age": ""
+    },
+    {
+      "title": "Best AI Newsletter Summarizer 2026: 8 Tools Tested + Ranked",
+      "url": "https://www.readless.app/blog/best-ai-newsletter-summarizers",
+      "description": "Readless, Mailbrew, Meco, Shortwave & more compared. Turn 30 newsletters into a 5-min digest — only one of these does cross-source dedup. See the 2026 ranking.",
+      "snippet": "# Best AI Newsletter Summarizer 2026: 8 Tools Tested + Ranked\n## 4. Shortwave — Best AI Inside Your Existing Gmail\n**Shortwave is the best AI newsletter summarizer for users who want AI summaries inside their existing Gmail rather than as a separate digest.** Founded by ex-Googlers (the team behind Google Inbox), Shortwave layers AI on top of standard Gmail with automatic per-thread summaries, AI search, and an inline AI assistant. According to TechCrunch, summaries appear automatically at the top of each thread",
+      "page_age": "2026-05-10T00:00:00"
+    },
+    {
+      "title": "Best AI Tools for Newsletter Creators (2026 Stack) - 9-to-Thrive",
+      "url": "https://thrivewithcarrie.substack.com/p/best-ai-tools-newsletter-creators-2025",
+      "description": "The best AI tools for newsletter creators in 2026: the under-$175/month stack I use to run a six-figure solo newsletter with no team. See it.",
+      "snippet": "# Best AI Tools for Newsletter Creators 2026 (Six-Figure Solo Stack)\nThe best AI tools for newsletter creators in 2026 are Perplexity Pro for research and Claude Pro for writing and building, supported by Wispr Flow, Ideogram, Gamma, and Lovable for voice, visuals, and custom tools. I run a six-figure Substack as one person — no VA, no copywriter, no developer — on a stack that costs under $175/month and replaces roughly $7,000–$13,000 in monthly services",
+      "page_age": "2026-06-14T02:15:26"
+    },
+    {
+      "title": "Best AI Newsletters to Subscribe To in 2026: 16 Picks Ranked",
+      "url": "https://www.readless.app/blog/best-ai-newsletters-to-subscribe",
+      "description": "The 16 best AI newsletters to subscribe to in 2026, ranked: The Rundown AI, TLDR AI, Superhuman AI, TAAFT, Import AI & more. Verified counts, free vs paid.",
+      "snippet": "# Best AI Newsletters to Subscribe To in 2026: 16 Picks Ranked\n## What are the best AI newsletters to subscribe to in 2026?\n**The best AI newsletters to subscribe to in 2026 are The Rundown AI, TLDR AI, Superhuman AI, There's An AI For That, Ben's Bites, Import AI, Ahead of AI, and The Batch.** The three big dailies — The Rundown AI (2M+ subscribers), Superhuman AI (1.5M+), and TLDR AI (~1.1M) —",
+      "page_age": "2026-08-09T00:00:00"
+    },
+    {
+      "title": "AI newsletters",
+      "url": "https://journaliststoolbox.ai/ai-newsletters/",
+      "description": "",
+      "snippet": "# AI newsletters\n##### Updated August 14, 2026\nKnowTechie’s Weekly Download Weekly digest of tools, apps, etc.\n\nAI Artists: Top 25 Newsletters\n\nJournalists on Hugging Face\n\nWayfinder A weekly tech and media newsletter by Ezra Eeman, strategy and innovation director at NPO. Includes a lot of AI links.\n\nThe Audiencers Newsletter Covers audience engagement, AI, etc.\n\nData is Plural Weekly newsletter of cool datasets. Includes some AI tools",
+      "page_age": "2026-06-20T19:02:08"
+    },
+    {
+      "title": "GitHub - alternbits/awesome-ai-newsletters: A curated list of top ...",
+      "url": "https://github.com/alternbits/awesome-ai-newsletters",
+      "description": "A curated list of top best AI Related Newsletters and ai agents newsletters - alternbits/awesome-ai-newsletters",
+      "snippet": "# Awesome AI Newsletters\n## General\n- The Neuron - Don't fall behind on AI. Get the AI trends and tools you need to know.\n- Death to Humans - Your daily AI briefing in 3 minutes or less.\n- FutureTools Weekly - 5 Innovative AI Tools, 3 Exciting News Articles, 3 Inspiring Videos, and 1 New Way to Make Money With AI... Delivered to your inbox weekly!\n- The Loz Letter - Insights & news into the wonderful world of AI.\n- AI Hustle - Stay up to date with the latest news and developments in AI",
+      "page_age": ""
+    }
+  ],
+  "coupon codes AI subscriptions SaaS reddit twitter 2026": [
+    {
+      "title": "7 Sider AI Coupon Codes",
+      "url": "https://techiecoupons.com/store/sider-ai",
+      "description": "Unlock massive savings with working and latest Sider AI Coupon Codes of September 2026 and get upto 80% Discount on premium AI features.",
+      "snippet": "# Sider AI Promo Codes & Deals – Save 80% on Premium AI Plans\n## Sider.ai Discount Codes – September 2026\n| Coupon Code | Discount Offer | Expiry Date |\n| --- | --- | --- |\n| SITEWIDEOFF | Get up to 10% off on all sitewide subscriptions | September 30, 2026 |\n| YEARLY10 | Enjoy 10% off the yearly unlimited subscription plan | September 30, 2026 |\n| ANNUAL38 | Unlock 38% off annual Pro plans for a limited time | Limited Time Offer |\n| BASIC33 | Save 33% on the annual Basic plan | September 31, 2026 |\n| PRO17 | Get 17% off Pro plans on select annual billing deals | Expires Soon |\n| UNLIMITED30 | Take 30% off the monthly Unlimited plan | Ongoing |",
+      "page_age": "2026-09-07T08:45:26"
+    },
+    {
+      "title": "GitHub - 75-OFF-Secta-Ai-Promo-Code-100-Discount/Secta-Ai-Promo: ...",
+      "url": "https://github.com/75-OFF-Secta-Ai-Promo-Code-100-Discount/Secta-Ai-Promo",
+      "description": "Secta Ai Promo Code Reddit – Get Exclusive 75% OFF Deal - 75-OFF-Secta-Ai-Promo-Code-100-Discount/Secta-Ai-Promo",
+      "snippet": "# Secta Ai Promo Code Reddit – Get Exclusive 75% OFF Deal\nIn this guide, we’ll show you exactly how to find those hidden Secta Ai coupon gems on Reddit—and how to make sure they’re legit.\n\n🎁 **Exclusive Secta Ai Discount Link:** https://secta.ai/?via=50OFF 💥 **Use Promo Code:** ram50\n\nDiscount button",
+      "page_age": "2025-04-24T00:00:00"
+    },
+    {
+      "title": "75% OFF Saas-AI Coupon Codes - August 2026 Promo Codes",
+      "url": "https://saas-ai.tenereteam.com/coupons",
+      "description": "These 10 Available Saas-AI discount codes last updated TODAY can help you save Upto 75% OFF. Buy cheaper with Saas-AI coupons & promo codes NOW!",
+      "snippet": "# Saas-AI Coupons & Promo Codes with 75% off (6 Working Codes) April 2026\n## Community Verified Working Saas-AI Codes\n### Verification Activity\nNoe Johnson\n\nNoe Johnson\n\n1 month ago, Noe Johnson (Deal Editor) confirmed the promo code TFRRYHSO was working",
+      "page_age": "2025-09-05T08:15:08"
+    },
+    {
+      "title": "Grok AI Promo Codes & Coupons August 2026",
+      "url": "https://simplycodes.com/store/grok.x.ai",
+      "description": "Find all Grok AI promo codes and savings opportunities, tracked in real-time. Includes verified codes and single-use codes & more. Updated Sep 2026.",
+      "snippet": "# Grok AI Promo Codes & Coupons September 2026\n## Today's Grok AI competitor discounts\n### My AskAI\n### Speeko\n\n#### 20% Off (Storewide) at My AskAI at My AskAI\n\nMy AskAI is offering **20% Off (Storewide) at My AskAI**. Compare deals from similar brands.\n\nSee all My AskAI codes\n\nAI PERSO discount code",
+      "page_age": "2026-09-16T00:00:00"
+    },
+    {
+      "title": "AI Software Coupons, Promo Codes & Deals",
+      "url": "https://simplycodes.com/category/artificial-intelligence",
+      "description": "Find the best AI Software coupons, promo codes and deals at SimplyCodes. Browse 6,009+ verified codes with Health Scores.",
+      "snippet": "# Best AI Software Coupon Codes for September 2026\n## Best AI Software codes right now.\nTop Pick\n\nMerlin AI $204 off\n\nVerified 100% success rate\n\nGet Code\n\n✓ Worked today for 11 shoppers All Merlin AI codes ›\n\nFreed $50 off\n\nVerified 100% success rate\n\nGet Code\n\n✓ Worked 8d ago for 2 shoppers All Freed codes ›\n\nHitPaw $5 off\n\nVerified 99% success rate\n\nGet Code",
+      "page_age": "2026-09-16T00:00:00"
+    },
+    {
+      "title": "Claude Discount Guide: Every Way to Save on Claude AI in 2026",
+      "url": "https://www.gamsgo.com/blog/claude-discount",
+      "description": "Looking for a Claude discount? This guide covers every verified way to save on Claude Pro and Max in 2026 — unlock a long-term 50% off purchase option.",
+      "snippet": "# Claude Discount Guide: Every Way to Save on Claude AI in 2026\n## How to Get Claude Pro and Max for Less\n### Claude Education Plan: Cheaper Access for Students and Institutions\nIf your institution isn’t yet partnered with Anthropic, you can reach out to your school’s student services or IT department to encourage them to apply. At the moment, Anthropic does not offer individual student discount codes or a standalone application process",
+      "page_age": "2026-08-06T00:00:00"
+    },
+    {
+      "title": "AI Deals 2026: Every Way to Save on AI Tools That Works",
+      "url": "https://felloai.com/ai-deals/",
+      "description": "Every legit AI deal in 2026: student discounts, annual savings, free tiers, the fake codes to avoid, plus the bundles that beat ChatGPT, Claude and Gemini.",
+      "snippet": "# AI Deals 2026: Every Way to Save on AI Tools That Works\n## What Each AI Discount Actually Saves You\n### AI Deals Comparison Table 2026\n| Tool | Free tier useful? | Annual saves | Student discount | Best other deal |\n| --- | --- | --- | --- | --- |\n| ChatGPT | Yes, GPT free is solid | None; no annual billing | None in 2026 (ended May 2025) | ChatGPT Go $8/mo globally (cheaper in many Asian markets); ChatGPT Edu via universities |\n| Claude | Yes, limited daily quota | \\~15% ($17/mo vs $20/mo) | No public discount | Credits during model launches; occasional 3-month 50% offers via official email |\n| Gemini / Google AI Pro | Yes, Gemini Free is generous | \\~17% | Free for 12 months again since August 19, 2026: AI Pro in the US, AI Plus in 140+ markets | AI Plus cut to $4.99/mo (400 GB) on June 8, 2026; Workspace bundles include Gemini features |\n| Perplexity | Yes, free search is core feature | 15–20% | Education Pro $10/mo with SheerID | PayPal/Venmo free-year promo ended Dec 31, 2025; Airtel and Samsung deals in select regions |\n| Notion AI | Complimentary AI responses on Free and Plus | \\~20% annual on Business plan | Free Education Plus plan (Notion AI itself sits inside Business plan, no AI-specific student rate) | Student org program (whole team gets Plus free) |\n| GitHub Copilot | Free tier with usage caps | Annual \\~$100 vs $10/mo | Free via Student Developer Pack | Free for verified open-source maintainers |\n| Cursor | Free tier with usage caps | 20% ($16/mo annual vs $20/mo monthly) | One free year of Cursor Pro for verified students with a .edu email | Annual $192 vs $240/year |\n| Otter | 300 transcription minutes/mo | \\~51% on annual ($8.33/mo vs $16.99/mo) | 20% off Pro for verified students and teachers | Annual plan also discounts business team seats |\n| Fello AI | App store free download | Monthly pricing | No formal discount, already bundle-priced | $9.99/mo for Claude, ChatGPT, Gemini, Grok, DeepSeek in one Mac and iPhone app |",
+      "page_age": "2026-09-06T09:00:00"
+    },
+    {
+      "title": "5 Grok Promo Codes - Working 82% Discount (Sep 2026)",
+      "url": "https://techiecoupons.com/store/grok-ai",
+      "description": "Grab the latest Grok Promo Codes & Coupons of September 2026 to save up to 82% on subscriptions and API plans this month.",
+      "snippet": "# Grok Discount & Coupon Code, Get upto 82% OFF on xAI Chatbot Plans\nWith **verified Grok AI discount & promo codes,** you can enjoy premium access at a reduced cost. Whether you’re testing Grok for the first time or upgrading to unlock its full potential, these offers make it more affordable.\n\nGrok Promo Code – 70% OFF First Order\n\nNew users can get 70% off their very first Grok AI subscription.",
+      "page_age": "2026-09-07T08:45:36"
+    }
+  ],
+  "university startup programs free OpenAI Anthropic credits academics": [
+    {
+      "title": "Free Claude Credits for Students 2026: Complete Guide",
+      "url": "https://www.getaiperks.com/en/ai/claude-credits-for-students",
+      "description": "Students can get free Anthropic Claude API credits through education programs, hackathons, and accelerators. Get $200-$5,000+ in free Claude access in 2026.",
+      "snippet": "# Free Claude Credits for Students 2026: Complete Guide\n10,949•April 26, 2026\n\nQuick Answer\n\nStudents can claim Anthropic free trial credits ($5), apply for student-friendly credit programs, participate in Claude-sponsored hackathons, or access Claude through cloud platforms (AWS Educate, Google Cloud for Education). Combined paths can yield $200-$5,000+ in free credits via getaiperks.com.",
+      "page_age": "2026-04-26T00:00:00"
+    },
+    {
+      "title": "How to Get Free Anthropic Credits in 2026",
+      "url": "https://www.getaiperks.com/en/blogs/17-free-anthropic-credits",
+      "description": "Free Anthropic and Claude API credits exist - up to $150,000+. Built by founders from YC, Techstars, and Antler who know exactly where to find them.",
+      "snippet": "# How to Get Free Anthropic Credits in 2026\n## Why Most Developers Pay Full Price for Claude API\n- **8 separate programs** offer free Anthropic and Claude credits in 2026\n- Credits range from **$5 to $100,000** per program\n- Programs can be **stacked together** for a combined total exceeding $150,000\n- Several programs have **no funding requirement** - solo developers and bootstrapped founders qualify\n- Most applications take **under 30 minutes** when you know what to include",
+      "page_age": "2026-02-08T00:00:00"
+    },
+    {
+      "title": "AI Credits for Startups 2026: OpenAI, Anthropic, Google - Fin AI",
+      "url": "https://fin.ai/learn/ai-credits-for-startups",
+      "description": "AI credits for startups, verified against vendor pages: OpenAI, Anthropic, Google and more. What's confirmed, what's withdrawn, and what's wrong elsewhere.",
+      "snippet": "# AI credits for startups in 2026: what's actually on offer, and what isn't\n## AI model and API providers\n| Provider | Program | Amount | VC required? | Free tier? | Source |\n| --- | --- | --- | --- | --- | --- |\n| OpenAI | Startup credits | Not published | Yes (VC-gated) | No | openai.com/business/why-openai/startups/ |\n| Anthropic | Startup program | Not published | No | No | claude.com/programs/startups |\n| Mistral | No active public program |  |  | Yes (Free plan: $10/month credits) | mistral.ai |\n| Together AI | Startup Accelerator | Up to $50K | Yes (funding-gated) | No ($5 minimum) | together.ai/startup-accelerator |\n| Groq | Appears withdrawn |  |  | Yes (rate-limited) | console.groq.com/docs/rate-limits |\n| Fireworks AI | Startup program | Not published | Yes ($500K+ raised) | $1 credit on signup | fireworks.ai/startups |\n| Google AI Studio | No startup program |  |  | Yes | ai.google.dev |\n| Cohere | No active credit program |  |  | Yes (1,000 calls/month) | cohere.com |\n| Hugging Face | No program |  |  | Yes ($0.10/month) | huggingface.co |\n| OpenRouter | No program |  |  | Yes (free model variants) | openrouter.ai |",
+      "page_age": "2026-08-19T00:00:00"
+    },
+    {
+      "title": "Anthropic Research Credits 2026: Free Claude Credits for Researchers ...",
+      "url": "https://www.getaiperks.com/en/ai/anthropic-research-credit-program",
+      "description": "Anthropic research credit programs in 2026. Free Claude API credits for academic researchers, scientists, and AI safety work.",
+      "snippet": "# Anthropic Research Credits 2026: Free Claude Credits for Researchers\n## Anthropic Research Credit Programs in 2026\n**Anthropic runs several research-focused credit programs that grant free Claude API access to academics, AI safety researchers, scientists, and qualifying nonprofits in 2026.** Credit grants range from $500 for individual student projects to $25,000+ for institutional research collaborations",
+      "page_age": "2026-05-07T00:00:00"
+    },
+    {
+      "title": "$400K in Free AI API Credits 2026: OpenAI, Anthropic, Mistral, ...",
+      "url": "https://klymentiev.com/blog/free-ai-api-credits",
+      "description": "Every AI startup credit program in 2026: OpenAI for Startups, Anthropic Startup Program, Mistral Mistralship, Together AI, Cohere, Deepgram, AssemblyAI, Runway, Fireworks, ElevenLabs, Perplexity, Thesys.",
+      "snippet": "# $400K in Free AI API Credits 2026: OpenAI, Anthropic, Mistral, Together + 8 More\n*Last updated: June 2026*\n\nThe big AI providers have quietly set aside over $400,000 in free API credits for early-stage builders. OpenAI, Anthropic, Mistral, Together, Deepgram, AssemblyAI, Runway, ElevenLabs, and several more all run startup programs that hand out real credits, not trial balances. Most of them do not require VC funding, an accelerator, or a pitch deck",
+      "page_age": "2026-06-10T00:00:00"
+    },
+    {
+      "title": "AI Startup Programs — NVIDIA Inception, OpenAI, Anthropic",
+      "url": "https://creditforstartups.com/programs/ai",
+      "description": "AI-focused startup programs from NVIDIA, OpenAI, Anthropic, and other AI platforms.",
+      "snippet": "# AI Startup Programs\n| Tool | Potential Value | Description | Approval Index | Action |\n| --- | --- | --- | --- | --- |\n| Anthropic logo Anthropic AI models / API | $100,000 | Claude startup credits: free Claude API credits and Anthropic's highest rate limits for startups founded in the last four years with institutional equity funding. Community tier is open to any early-stage founder. Self-serve application on claude.com. | Open to All |  |\n| Approval Index Open to All Available to most startups Eligibility For credits: founded within the last four years, equity funding from an institutional investor, and no previous Anthropic startup credits Community tier is open to any early-stage founder; backing from an Anthropic partner VC / accelerator unlocks additional benefits Credits apply to the first-party Claude API only (not Bedrock, Vertex AI or Foundry) Programs Claude for Startups $25,000 - $100,000+ View full breakdown Apply on Anthropic |  |  |  |  |\n| Databricks logo Databricks Data & AI | $50,000 | Provides up to $50,000 in credits for data and AI workloads. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility VC‑backed focus; pre‑seed/seed in accelerator. Programs Databricks for Startups Up to $50,000 View full breakdown Apply on Databricks |  |  |  |  |\n| Mistral AI logo Mistral AI AI models / API | $30,000 | Provides approximately €30,000 in credits for La Plateforme plus cohort mentorship through their 6-month startup program. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility Cohorts of \\~10 startups; 6‑month program. Programs Mistralship (Startup Program) $30,000 View full breakdown Apply on Mistral AI |  |  |  |  |\n| OpenAI logo OpenAI AI models / API | $5,000 | Up to $5,000 in OpenAI API credits — including the GPT-4o and ChatGPT API models — for venture-backed startups through OpenAI for Startups. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Must be less than 5 years old from incorporation Must be venture-backed via an OpenAI partner VC/accelerator OR enrolled through Ramp with verified VC funding Pre-revenue startups eligible with a functional product or prototype One credit grant per OpenAI organization — cannot be stacked Credits expire 12 months from issuance and are non-transferable Programs OpenAI for Startups Up to $5,000 in API credits View full breakdown Apply on OpenAI |  |  |  |  |\n| Cohere logo Cohere AI models / API | Varies | Offers discounted enterprise AI pricing (up to 25% off) and grant access through Cohere Labs for early-stage startups. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Early‑stage startups; separate Catalyst Grants for researchers/impact orgs. Programs Cohere Startup Program Varies View full breakdown Apply on Cohere |  |  |  |  |\n| New credits added monthly — get them first Join 3,000+ founders. One email/month, no spam. Email address |  |  |  |  |\n| NVIDIA Inception logo NVIDIA Inception AI Program | Varies | The NVIDIA Inception program is free for AI and data-science startups — discounts on NVIDIA hardware/software, technical training, and go-to-market support. No fees, no equity, open globally at every stage. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Building products in AI, deep learning, or data science Privately held; less than $20M raised (lower tiers) Programs NVIDIA Inception Free + partner discounts View full breakdown Apply on NVIDIA Inception |  |  |  |  |",
+      "page_age": ""
+    },
+    {
+      "title": "Claude Free Credits 2026: Anthropic Startup Program, Claude for ...",
+      "url": "https://klymentiev.com/blog/claude-free-credits",
+      "description": "Every route to free Anthropic Claude API credits in 2026: $5 trial, Anthropic Startup Program (up to $25K direct), Claude for Open Source (Max 20x 6 months free, $1,200 value, 10K spots), Anthology Fund (+$25K + $100K investment). Updated June 2026.",
+      "snippet": "Every route to free Anthropic Claude API credits in 2026: $5 trial, Anthropic Startup Program (up to $25K direct), Claude for Open Source (Max 20x 6 months free, $1,200 value, 10K spots), Anthology Fund (+$25K + $100K investment).",
+      "page_age": "2026-06-10T00:00:00"
+    },
+    {
+      "title": "Vaibhav Sisinty on X: \"Here's how you can get $100K+ in free AI ...",
+      "url": "https://x.com/VaibhavSisinty/status/2064331947661533586?lang=en",
+      "description": "Here's how you can get $100K+ in free AI credits right now. Most people have no idea these programs exist. 🤯 A Korean founder recently went viral for getting $10K in free Claude credits just by joining a local startup association.",
+      "snippet": "https://t.co/TwYC8GlUFe → Google for Startups : $10K specifically for Claude via Model Garden plus up to $350K in GCP credits. https://t.co/huWswVVffZ → Anthropic AI for Science : up to $20K for researchers, academics, and nonprofits. https://t.co/bOBrAlZBMq → Claude for Open Source : 6 months of Claude Max free for OSS maintainers with 5K+ GitHub stars.",
+      "page_age": "2026-06-09T13:01:04"
+    }
+  ]
+}

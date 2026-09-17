@@ -1,0 +1,61 @@
+{
+  "query": "Hugging Face blog RSS feed papers RSS URL",
+  "results": [
+    {
+      "title": "GitHub - CorjanBos/ai-rss-feed: RSS Feed for the Anthropic ...",
+      "url": "https://github.com/CorjanBos/ai-rss-feed",
+      "description": "RSS Feed for the Anthropic Engineering Blog. Contribute to CorjanBos/ai-rss-feed development by creating an account on GitHub.",
+      "snippet": "# CorjanBos/ai-rss-feed\n## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| Latest commit History 4,045 Commits 4,045 Commits |  |  |  |\n| .github/workflows | .github/workflows |  |  |\n| github\\_trending\\_data | github\\_trending\\_data |  |  |\n| rss | rss |  |  |\n| .gitignore | .gitignore |  |  |\n| LICENSE | LICENSE |  |  |\n| README.md | README.md |  |  |\n| anthropic\\_rss.py | anthropic\\_rss.py |  |  |\n| deeplearning\\_rss.py | deeplearning\\_rss.py |  |  |\n| github\\_ranking\\_ai\\_rss.py | github\\_ranking\\_ai\\_rss.py |  |  |\n| github\\_trending\\_rss.py | github\\_trending\\_rss.py |  |  |\n| huggingface\\_rss.py | huggingface\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": "2026-04-06T14:56:00"
+    },
+    {
+      "title": "GitHub - cnzhujie/ai-rss-feed: RSS Feed for the Anthropic Engineering ...",
+      "url": "https://github.com/cnzhujie/ai-rss-feed",
+      "description": "RSS Feed for the Anthropic Engineering Blog. Contribute to cnzhujie/ai-rss-feed development by creating an account on GitHub.",
+      "snippet": "## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| .github/workflows | .github/workflows |  |  |\n| github\\_trending\\_data | github\\_trending\\_data |  |  |\n| rss | rss |  |  |\n| .gitignore | .gitignore |  |  |\n| LICENSE | LICENSE |  |  |\n| README.md | README.md |  |  |\n| anthropic\\_rss.py | anthropic\\_rss.py |  |  |\n| deeplearning\\_rss.py | deeplearning\\_rss.py |  |  |\n| github\\_ranking\\_ai\\_rss.py | github\\_ranking\\_ai\\_rss.py |  |  |\n| github\\_trending\\_rss.py | github\\_trending\\_rss.py |  |  |\n| huggingface\\_rss.py | huggingface\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - AzureSilent/hf-paper-rss: Hugging Face Daily Papers RSS ...",
+      "url": "https://github.com/AzureSilent/hf-paper-rss",
+      "description": "Hugging Face Daily Papers RSS. Contribute to AzureSilent/hf-paper-rss development by creating an account on GitHub.",
+      "snippet": "## Folders and files\n| Name | Name | Last commit message | Last commit date |\n| --- | --- | --- | --- |\n| .github/workflows | .github/workflows |  |  |\n| docs | docs |  |  |\n| .gitignore | .gitignore |  |  |\n| .nojekyll | .nojekyll |  |  |\n| README.md | README.md |  |  |\n| README.zh-CN.md | README.zh-CN.md |  |  |\n| fetch\\_daily\\_papers.py | fetch\\_daily\\_papers.py |  |  |\n| generate\\_rss.py | generate\\_rss.py |  |  |\n| requirements.txt | requirements.txt |  |  |\n|  |  |  |  |",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - huangboming/huggingface-daily-paper-feed: Unofficial ...",
+      "url": "https://github.com/huangboming/huggingface-daily-paper-feed",
+      "description": "Unofficial Huggingface daily paper rss feed. Contribute to huangboming/huggingface-daily-paper-feed development by creating an account on GitHub.",
+      "snippet": "Unofficial Huggingface daily paper rss feed.",
+      "page_age": ""
+    },
+    {
+      "title": "@takarajordan on Hugging Face: \"I made an RSS feed for HuggingFace ...",
+      "url": "https://huggingface.co/posts/takarajordan/806643001426071",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "snippet": "#### Join the conversation\nI made an RSS feed for HuggingFace Daily Papers!! 🤗 Just Subscribe here: https://papers.takara.ai/api/feed It updates every 24 hours, completely written as a serverless go script with a Redis cache (to avoid hitting HF all the time). I'm open sourcing the code, you can check out my repo and deploy it on Vercel extremely easily! https://github.com/404missinglink/HF-Daily-Papers-Feeds thanks to @John6666 @p3nGu1nZz for your early support",
+      "page_age": "2025-09-19T00:00:00"
+    },
+    {
+      "title": "GitHub - takara-ai/papers-api: A serverless RSS feed for ...",
+      "url": "https://github.com/takara-ai/papers-api",
+      "description": "A serverless RSS feed for HuggingFace's Daily Papers - takara-ai/papers-api",
+      "snippet": "A serverless RSS feed for HuggingFace's Daily Papers - takara-ai/papers-api\n\nSkip to content\n\nYou signed in with another tab or window.",
+      "page_age": ""
+    },
+    {
+      "title": "Hugging Face Papers RSS Feed - with words, wonder",
+      "url": "https://jamesg.blog/2024/05/23/hf-papers-rss",
+      "description": "",
+      "snippet": "# Hugging Face Papers RSS Feed\nMay 23, 2024 • Technology\n\nJames\n\nI enjoy making RSS feeds for sites whose content I would like to follow. I have made an RSS feed for Hugging Face Daily Papers, a curated list of research papers in machine learning. This feed is available at:\n\n```\nhttps://jamesg.blog/hf-papers.xml\n```\n\nYou can also subscribe to the JSON Feed representation of the feed at:",
+      "page_age": "2024-05-23T00:00:00"
+    },
+    {
+      "title": "RSS feed for hf.co/papers · Issue #2296 · huggingface/blog ...",
+      "url": "https://github.com/huggingface/blog/issues/2296",
+      "description": "cc @AK391 could be a good idea! RSS feed for hf.co/papers Originally posted by @julien-c in #42 (comment) As already proposed in issue #42, it would be great to have an official RSS feed for hf.co/papers. For those that stumble upon this...",
+      "snippet": "# RSS feed for hf.co/papers #2296\nNew issue\n\nCopy link\n\nNew issue\n\nCopy link\n\nOpen\n\nOpen\n\nRSS feed for hf.co/papers#2296\n\nCopy link\n\n@natema",
+      "page_age": "2024-08-13T11:41:51"
+    }
+  ]
+}

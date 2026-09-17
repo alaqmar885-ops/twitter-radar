@@ -1,0 +1,61 @@
+{
+  "query": "YouTube channel RSS feed videos.xml channel_id fields without API key",
+  "results": [
+    {
+      "title": "r/rss on Reddit: RSS Feeds for custom URLs and legacy usernames?",
+      "url": "https://www.reddit.com/r/rss/comments/s4c2gw/rss_feeds_for_custom_urls_and_legacy_usernames/",
+      "description": "I'm trying to use the youtube RSS feature ( https://www.youtube.com/feeds/videos.xml?channel_id= ), and it works fine for channels whose URL ends…",
+      "snippet": "# RSS Feeds for custom URLs and legacy usernames?\nI'm trying to use the youtube RSS feature (`https://www.youtube.com/feeds/videos.xml?channel_id=`), and it works fine for channels whose URL ends with `/channel/CHANNEL_ID`, but it gives either a 404 or 400 error when I try the same with channels that end with `/user/CHANNEL_NAME` or `/c/CHANNEL_NAME`",
+      "page_age": "2022-01-15T04:43:19"
+    },
+    {
+      "title": "YouTube RSS Feed Generator: Get Channel Feed",
+      "url": "https://sanishtech.com/tools/youtube-rss-feed-generator/",
+      "description": "Generate a YouTube channel RSS feed from a channel handle, URL, or ID. Copy the feed URL, preview the XML, and download it free online with no signup.",
+      "snippet": "# YouTube RSS Feed Generator\n## What the YouTube RSS Feed Generator Creates\nThis tool does not host a separate custom feed. It identifies the channel ID and retrieves the public Atom XML feed provided by YouTube. People often call this an RSS feed because most modern feed readers support both RSS and Atom URLs.\n\nThe generated address follows this structure:\n\nhttps://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID\n\nYouTube uses the channel ID to identify the correct creator. This is helpful because a channel’s visible @handle can change, while its underlying UC channel ID usually remains the more dependable identifier",
+      "page_age": "2026-08-22T05:09:50"
+    },
+    {
+      "title": "php - How to get a Youtube channel RSS feed after 2015 April 20 ...",
+      "url": "https://stackoverflow.com/questions/29752447/how-to-get-a-youtube-channel-rss-feed-after-2015-april-20-without-v3-api",
+      "description": "Now that API v2 is gone, what would be a way to get a simple RSS feed of a channel, without v3 API? I'm open to Yahoo Pipes or any workaround that is simpler than creating an application for v3 API...",
+      "snippet": "# How to get a Youtube channel RSS feed after 2015 April 20 (without v3 API)?\n## 15 Answers 15\n```\nhttps://www.youtube.com/feeds/videos.xml?channel_id=XXXX\n```\n\nSo you could generate new feeds from this structure if you know the channel id. This kind of feeds are not getting the \"https://youtube.com/devicesupport\" error, so I expect they are going to keep working.\n\nShare\n\nShare a link to this answer\n\nCC BY-SA 3.0",
+      "page_age": "2015-04-20T00:00:00"
+    },
+    {
+      "title": "YouTube RSS Feed: Find Any Channel Without a Tool (2026)",
+      "url": "https://www.wprssaggregator.com/youtube-rss-feed/",
+      "description": "Every YouTube channel has a hidden RSS feed. Learn how to find the feed URL, what you can do with it, and how to display YouTube videos on your WordPress site.",
+      "snippet": "# YouTube RSS Feed: Find Any Channel Without a Tool (2026)\n**Every public YouTube channel has a free RSS feed at https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID. Replace CHANNEL_ID with the channel’s ID (a string starting with “UC”). The feed returns that channel’s 15 most recent uploads in XML, with title, link, thumbnail, description, publish date, and view count for each video.**",
+      "page_age": "2026-07-14T01:07:40"
+    },
+    {
+      "title": "Self-Hosted YouTube RSS Subscriptions Feed, No API Key - ...",
+      "url": "https://philippdubach.com/posts/degoogling-cost-me-my-youtube-feed-so-i-made-my-own/",
+      "description": "I dropped the YouTube app and rebuilt only my subscriptions feed as a self-hosted Cloudflare Worker that reads each channel's RSS, no API key, no tracking.",
+      "snippet": "# Degoogling cost me my YouTube feed, so I made my own\n## How it works without an API key\nEvery channel publishes a public RSS feed at feeds/videos.xml with its recent uploads as Atom XML, and the Worker reads that directly, parsed with fast-xml-parser. No quota, no Google project, no token to rotate",
+      "page_age": "2026-06-15T07:08:18"
+    },
+    {
+      "title": "YouTube RSS Feed Generator & Channel ID Finder - Channel Surfer",
+      "url": "https://channelsurfer.tv/tools/youtube-rss-feed/",
+      "description": "Free YouTube RSS feed generator. Paste a channel or playlist URL to get its RSS feed URL and channel ID instantly. No account or API key needed. Follow any channel's uploads in your RSS reader.",
+      "snippet": "Free YouTube RSS feed generator. Paste a channel or playlist URL to get its RSS feed URL and channel ID instantly. No account or API key needed. Follow any channel's uploads in your RSS reader.\n\nTurn any YouTube channel or playlist into its public RSS feed URL, right in your browser.",
+      "page_age": ""
+    },
+    {
+      "title": "How to subscribe to YouTube RSS Feeds without third-party services ...",
+      "url": "https://www.ghacks.net/2022/08/01/how-to-subscribe-to-youtube-rss-feeds-without-third-party-services/",
+      "description": "Find out how to create YouTube channel feeds and YouTube playlist RSS feeds without using any third-party tools.",
+      "snippet": "# How to subscribe to YouTube RSS Feeds without third-party services\n## How to subscribe to YouTube creator RSS feeds manually\nIt takes a bit of code digging to reveal the RSS feed of a channel or a playlist without third-party tools.\n\nThe core URL that you require is https://www.youtube.com/feeds/videos.xml?channel_id=CHANNELID.\n\nYou need to replace CHANNELID with the ID of the channel, and that is where it may get tricky for some",
+      "page_age": "2022-07-31T13:59:56"
+    },
+    {
+      "title": "YouTube Channel ID Finder & RSS Feed Generator - Keep.md",
+      "url": "https://keep.md/tools/youtube-channel-id-finder",
+      "description": "Find any YouTube channel ID from a URL, @handle, or video link, plus the RSS feed URL for your reader. Free, no account or API key needed.",
+      "snippet": "Skip to content\n\n# YouTube channel ID finder + RSS feed\n\nFind any YouTube channel ID from a URL, @handle, or video link, plus the RSS feed URL for your reader. Free, no account or API key needed.\nYouTube URL, handle, or channel ID\n\nTry:@mkbhd https://www.youtube.com/@v…UCsXVk37bltHxD1rDPwtNM8Q https://www.youtube.com/@L…",
+      "page_age": ""
+    }
+  ]
+}

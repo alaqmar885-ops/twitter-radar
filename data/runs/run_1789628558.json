@@ -1,0 +1,137 @@
+{
+  "offline": false,
+  "elapsed_s": 365.22,
+  "items": 496,
+  "kept": 159,
+  "offers": 145,
+  "top_offers": [
+    {
+      "title": "Show HN: An ObjC-like compiler for Mac ARM, x86_64(Linux, Win), WASM, & others",
+      "score": 0.88,
+      "label": "VERIFIED",
+      "type": "discount",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49730393"
+    },
+    {
+      "title": "Show HN: Ear Training Exercise",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://clarena.app/app/try"
+    },
+    {
+      "title": "Show HN: I built a Mac app to make technical PDF textbooks easier to study",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://marginstudy.app/"
+    },
+    {
+      "title": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://unsnag.app"
+    },
+    {
+      "title": "Show HN: Vending Machine Lab – Build business, leave for 2 wks, see what breaks",
+      "score": 0.775,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://vending-machine-lab.pages.dev/"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 496,
+        "new_items": 82,
+        "twitter": 202,
+        "hackernews": 122,
+        "telegram": 28,
+        "mastodon": 48,
+        "rss": 45,
+        "html": 51
+      },
+      "notes": [],
+      "elapsed": 63.442
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 496,
+        "kept": 159,
+        "dropped": 337
+      },
+      "notes": [],
+      "elapsed": 0.002
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 145,
+        "from_items": 159
+      },
+      "notes": [],
+      "elapsed": 0.031
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 128,
+        "web_verified": 127,
+        "offers": 145
+      },
+      "notes": [],
+      "elapsed": 301.492
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 145,
+        "new_offers": 145
+      },
+      "notes": [],
+      "elapsed": 0.249
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789628558.html",
+        "md": "data\\digests\\airadar_digest_1789628558.md",
+        "json": "data\\digests\\airadar_digest_1789628558.json"
+      },
+      "notes": [],
+      "elapsed": 0.0
+    }
+  ]
+}

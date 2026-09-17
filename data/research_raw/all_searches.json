@@ -1,0 +1,1046 @@
+{
+  "Threads.net scraping public profile posts without login undocumented API 2026": [
+    {
+      "title": "Threads.net Posts Scraper · Apify",
+      "url": "https://apify.com/skillmerc/threads-posts-scraper",
+      "description": "Scrape public Threads posts by keyword search, hashtag, or user profile. Returns post text, engagement metrics, media URLs, and author info. No login re...",
+      "snippet": "# Threads.net Posts Scraper\nTry for free\n\nScrape public Threads posts by keyword search, hashtag, or user profile. Returns post text, engagement metrics, media URLs, and author info. No login required.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-09-09T15:51:37"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login API · Apify",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper/api",
+      "description": "Learn how to interact with Threads Posts Scraper 🧵 Public Profiles, No Login via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Posts Scraper 🧵 Public Profiles, No Login\n## You might also like\n### Threads Posts Scraper\nendspec/threads-instant-posts-scraper\n\nScrape posts from any public Threads profile: full text, like/reply/repost/quote counts, media, and timestamps.\n2",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Profile Scraper 🧵 Posts, Replies & Reposts API · Apify",
+      "url": "https://apify.com/gatherworks/threads-profile-scraper/api",
+      "description": "Learn how to interact with Threads Profile Scraper 🧵 Posts, Replies & Reposts via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Profile Scraper 🧵 Posts, Replies & Reposts\nTry for free\n\nScrape any Threads (threads.com) creator profile plus their posts, replies and reposts. Followers, bio, verification, links and engagement counts on every row. Paste handles or profile URLs. Meta Threads data as JSON, CSV or Excel. No login, no API key.",
+      "page_age": "2026-08-30T07:09:00"
+    },
+    {
+      "title": "Threads Profile Scraper - Public Account Data API through CLI · Apify",
+      "url": "https://apify.com/thenetaji/threads-profile-scraper/api/cli",
+      "description": "Learn how to interact with Threads Profile Scraper - Public Account Data API through the CLI. Includes an CLI example to help you get started quickly.",
+      "snippet": "# Threads Profile Scraper - Public Account Data\n## You might also like\n### Threads Scraper - Posts, Likes & Replies\nthirdwatch/threads-scraper\n\nScrape public posts from any Meta Threads (threads.net / threads.com) profile. Get post text, like counts, timestamps, author details, media URLs, and thread links via the public guest GraphQL API. No login, API key, or proxy needed.\n6",
+      "page_age": "2026-08-29T04:13:57"
+    },
+    {
+      "title": "Threads Profile Scraper - Public Account Data API · Apify",
+      "url": "https://apify.com/thenetaji/threads-profile-scraper/api",
+      "description": "Learn how to interact with Threads Profile Scraper - Public Account Data via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Profile Scraper - Public Account Data\nTry for free\n\nGet any public Threads account by username: bio, follower count, verification, avatar and topic tags. No Threads login or account needed.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-08-29T04:13:57"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login · Apify",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper",
+      "description": "Scrape the latest posts from public Threads profiles. Text, likes, replies and reposts to JSON or CSV. No login, incremental mode for scheduled monitoring.",
+      "snippet": "# Threads Posts Scraper — monitor profiles, no login\nLatest posts from any public Threads profile. Text, likes, replies, reposts, quotes and timestamps. No login, no app password, no API key",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login OpenAPI ...",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper/api/openapi",
+      "description": "Learn how to interact with Threads Posts Scraper 🧵 Public Profiles, No Login in OpenAPI. Includes an OpenAPI example code snippet for you to get starte...",
+      "snippet": "# Threads Posts Scraper 🧵 Public Profiles, No Login\nTry for free\n\nScrape posts from any public Threads profile. Pass profile handles or URLs; get post text, like, reply and repost counts, author handle, publish date and a direct post URL as JSON or CSV. No login required. Since date filter makes scheduled monitoring cheap.\n\nPricing\n\nfrom $1.43 / 1,000 post returneds\n\nRating\n\n5.0",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Scraper: Posts, Profiles & Replies Export · Apify",
+      "url": "https://apify.com/logiover/threads-scraper",
+      "description": "Scrape Threads posts, profiles and replies by username, URL or keyword. No-login Threads API alternative to export public post and engagement data to CS...",
+      "snippet": "Scrape Threads posts, profiles and replies by username, URL or keyword. No-login Threads API alternative to export public post and engagement data to CS...\n\nThreads Scraper - Scrape threads.net Posts, No Login avatar\n\nThreads Scraper - Scrape threads.net Posts, No Login\n\nPricing\n\nfrom $3.50 / 1,000 results\n\nTry for free\n\nGo to Apify Store\n\nThreads Scraper - Scrape threads.net Posts, No Login",
+      "page_age": "2026-09-11T17:12:56"
+    }
+  ],
+  "threads-python library github status working unofficial Threads API": [
+    {
+      "title": "GitHub - junhoyeo/threads-py: Unofficial, Reverse-Engineered Python ...",
+      "url": "https://github.com/junhoyeo/threads-py",
+      "description": "Unofficial, Reverse-Engineered Python client for Meta's Threads. - junhoyeo/threads-py",
+      "snippet": "This repository was archived by the owner on Sep 8, 2023. It is now read-only.\n- Star 68\n\nUnofficial, Reverse-Engineered Python client for Meta's Threads.",
+      "page_age": "2023-09-08T00:00:00"
+    },
+    {
+      "title": "GitHub - Danie1/threads-api: Unofficial Python API for Meta's Threads ...",
+      "url": "https://github.com/Danie1/threads-api",
+      "description": "Unofficial Python API for Meta's Threads App. Contribute to Danie1/threads-api development by creating an account on GitHub.",
+      "snippet": "## Repository files navigation\nAs of October 1st 2023 this repository is archived, and no longer be maintained",
+      "page_age": "2023-07-20T00:00:00"
+    },
+    {
+      "title": "threads-api/README.md at main · Danie1/threads-api",
+      "url": "https://github.com/Danie1/threads-api/blob/main/README.md",
+      "description": "Unofficial Python API for Meta's Threads App. Contribute to Danie1/threads-api development by creating an account on GitHub.",
+      "snippet": "Unofficial Python API for Meta's Threads App.",
+      "page_age": ""
+    },
+    {
+      "title": "r/pythoncoding on Reddit: Now we can upload post to META- THREADS ...",
+      "url": "https://www.reddit.com/r/pythoncoding/comments/14vhu79/now_we_can_upload_post_to_meta_threads_via/",
+      "description": "Same repo : https://github.com/Danie1/threads-api , upload available in latest versionInstall : pip install threads-api Check out my threads profile…",
+      "snippet": "# Now we can upload post to META- THREADS via API(unofficial)\nSame repo : https://github.com/Danie1/threads-api, upload available in latest versionInstall : `pip install threads-api`\n\nCheck out my threads profile : https://www.threads.net/@74rut\n\nUpload script I used:",
+      "page_age": "2023-07-10T03:08:36"
+    },
+    {
+      "title": "GitHub - marclove/pythreads: A Python wrapper of Meta's Threads ...",
+      "url": "https://github.com/marclove/pythreads",
+      "description": "A Python wrapper of Meta's Threads API. Contribute to marclove/pythreads development by creating an account on GitHub.",
+      "snippet": "# PyThreads\n# marclove/pythreads\n\n## Repository files navigation\n\nPyPI - Version PyPI - Python Version Code Coverage\n\nOfficial Documentation\n\nPyThreads is a Python wrapper for Meta's Threads API. It is still in beta, but is well-tested and covers all the published endpoints documented by Meta.\n\nSince it is in pre-release, the API is not yet guaranteed to be stable. Once there's been some opportunity to weed out any bugs and identify any DX inconveniences, a v1 with a stable API will be released. This project follows Semantic Versioning",
+      "page_age": "2024-07-14T00:00:00"
+    },
+    {
+      "title": "threads-api · GitHub Topics · GitHub",
+      "url": "https://github.com/topics/threads-api?o=asc&s=updated",
+      "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+      "snippet": "# threads-api\n## Here are 115 public repositories matching this topic...\n### clarkmiyamoto / threads-python\nStar 2\n\n(Unofficial) Python client for Meta's Threads.",
+      "page_age": ""
+    },
+    {
+      "title": "Introducing PyThreads, a Python client for the @threads API.",
+      "url": "https://www.threads.com/@marcslove/post/C9aJqt8pnCd?hl=en",
+      "description": "Introducing PyThreads, a Python client for the @threads API. It's well-tested, works in all current versions of Python, and even has documentation!...",
+      "snippet": "Introducing PyThreads, a Python client for the @threads API. It's well-tested, works in all current versions of Python, and even has documentation!",
+      "page_age": "2024-07-14T00:00:00"
+    },
+    {
+      "title": "Unofficial Python Meta Threads API is Available - DEV Community",
+      "url": "https://dev.to/danie1/unofficial-python-meta-threads-api-is-available-258o",
+      "description": "I started yesterday to develop an unofficial Python Threads-API package for the all new Meta's... Tagged with opensource, python, socialmedia, news.",
+      "snippet": "I started yesterday to develop an unofficial Python Threads-API package for the all new Meta's... Tagged with opensource, python, socialmedia, news.",
+      "page_age": "2023-07-07T21:47:21"
+    }
+  ],
+  "Instagram public profile JSON endpoint without login 2026 status": [
+    {
+      "title": "Instagram Profile Data Without the Meta API: Python Guide 2026",
+      "url": "https://www.web-data-labs.com/blog/instagram-profile-scraper-python",
+      "description": "Meta locked down the Instagram API in 2022. Extract Instagram profile stats, follower counts, and post data with Python -- no API approval needed.",
+      "snippet": "# Instagram Profile Data Without the Meta API: Python Guide 2026\nMeta's Instagram Graph API requires business verification, a Facebook Page connected to the Instagram account, and approval from Meta for any useful permission scope. Even after approval, you can only read data from *accounts you own or manage* -- not arbitrary public profiles. For competitive research, influencer analytics, or brand monitoring, the official API is effectively useless",
+      "page_age": ""
+    },
+    {
+      "title": "Instagram Profile Scraper (No Login) · Apify",
+      "url": "https://apify.com/koreyoshi/instagram-profile-scraper",
+      "description": "Scrape public Instagram profile data without logging in. Extracts followers, bio, posts, profile pic, verification status, category, public email, exter...",
+      "snippet": "# Instagram Profile Scraper\n## Why this actor\n- **No login required.** Uses Instagram's public web\\_profile\\_info endpoint with a public X-IG-App-ID header.\n- **No Instagram account.** No cookies, no session tokens, no risk of account ban.\n- **Residential proxy included.** Each request rotates through a clean IP — Instagram blocks datacenter IPs with 429s.\n- **Structured data.** Every field parsed and normalized — ready for downstream pipelines.\n- **Battle-tested.** Works for public accounts including verified, business, and creator profiles",
+      "page_age": "2026-06-13T00:31:02"
+    },
+    {
+      "title": "Instagram Profile API - real-time profile JSON · Apify",
+      "url": "https://apify.com/myagizm/instagram-profile-api",
+      "description": "Standby HTTP API returning any Instagram profile as JSON in real time. GET https://myagizm--instagram-profile-api.apify.actor/profile?username=",
+      "snippet": "Standby HTTP API returning any Instagram profile as JSON in real time. GET https://myagizm--instagram-profile-api.apify.actor/profile?username=\n\nInstagram Profile API (Standby) avatar\n\nInstagram Profile API (Standby)\n\nPricing\n\nfrom $0.94 / 1,000 instagram profile record returneds\n\nTry for free\n\nGo to Apify Store\n\nInstagram Profile API (Standby)",
+      "page_age": "2026-08-02T00:05:18"
+    },
+    {
+      "title": "How to Scrape Instagram in 2026: A Developer's Guide",
+      "url": "https://www.socialcrawl.dev/blog/how-to-scrape-instagram-2026",
+      "description": "Scrape Instagram profiles, posts, and comments in 2026 without a browser: the official Graph API limits, the DIY realities, and a working API tutorial with real code and a real response.",
+      "snippet": "# How to Scrape Instagram in 2026: A Developer's Guide\nThe quickest way to scrape Instagram in 2026 is a single GET request to a data API, no browser automation and no logged-in session. Here is the whole thing:\n\n```\ncurl \"https://www.socialcrawl.dev/v1/instagram/profile?handle=nasa\" \\\n  -H \"x-api-key: sc_your_api_key_here\"\n```",
+      "page_age": "2026-08-25T09:29:40"
+    },
+    {
+      "title": "Instagram API — 8 Endpoints for Profiles, Posts, Reels,",
+      "url": "https://anysite.io/sources/instagram/",
+      "description": "Profiles, posts, reels, comments, likes, followers, and content search as clean JSON — no Instagram login, no Facebook Business verification. 7-day free trial.",
+      "snippet": "Profiles, posts, reels, comments, likes, followers, and content search as clean JSON — no Instagram login, no Facebook Business verification.",
+      "page_age": "2026-03-01T00:00:00"
+    },
+    {
+      "title": "Instagram Profile & Posts Scraper — No Login Required API · Apify",
+      "url": "https://apify.com/axery/instagram-profile-posts-scraper/api",
+      "description": "Learn how to interact with Instagram Profile & Posts Scraper — No Login Required via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Instagram Profile & Posts Scraper — No Login Required\nTry for free\n\nScrape public Instagram profiles - follower count, post count, verification - plus recent posts with like and comment counts. No login, no API key.\nRating\n0.0\n(0)",
+      "page_age": "2026-09-12T19:13:37"
+    },
+    {
+      "title": "Instagram Profile & Posts Scraper — No Login Required · Apify",
+      "url": "https://apify.com/axery/instagram-profile-posts-scraper",
+      "description": "Scrape public Instagram profiles - follower count, post count, verification - plus recent posts with like and comment counts. No login, no API key.",
+      "snippet": "# Instagram Profile & Recent Posts Scraper\nScrapes public Instagram profiles — follower count, post count, verification — plus recent posts with like and comment counts. No login, no session cookie, no API key.\n\nUseful for influencer vetting, competitor tracking, audience-size research, and building a creator database",
+      "page_age": "2026-09-12T19:13:37"
+    },
+    {
+      "title": "Instagram Data Without the API: Posts and Reels in 2026 · logiover",
+      "url": "https://logiover.com/guides/instagram-data-without-api-2026/",
+      "description": "Get Instagram data without the API in 2026 — pull public posts, reels, and profiles from the web surface when the Graph API needs a business account.",
+      "snippet": "# Instagram Data Without the API: Posts and Reels in 2026\nAnyone who has tried to read public Instagram data programmatically hits the same wall: there is no public read API anymore. Meta deprecated the old public endpoints years ago, and what remains — the Instagram Graph API and the Instagram Basic Display sunset — only covers accounts you own or manage. You need a Facebook app, an app review, a connected Instagram Business or Creator account, and a Page. None of that lets you read an arbitrary public profile or pull a competitor’s reels",
+      "page_age": "2026-06-08T00:00:00"
+    }
+  ],
+  "instaloader public profile scraping without login rate limit 429": [
+    {
+      "title": "Instaloader ... Beware, current version seems to be at odds with ...",
+      "url": "https://www.reddit.com/r/DataHoarder/comments/kpmdbo/instaloader_beware_current_version_seems_to_be_at/",
+      "description": "21 votes, 13 comments. 958K subscribers in the DataHoarder community. This is a sub that aims at bringing data hoarders together to share their…",
+      "snippet": "# Instaloader ... Beware, current version seems to be at odds with apparently updated Instagram filters, bot detectors etc\n## superjet1\nI hit the same 429 issue, literally on first API call, Instagram is just crazy strict now on ip ranges. The only way to fix it (for public accounts, this what I was interested in) was using custom proxified instaloader fork https://github.com/restyler/instaloader which uses residential proxies network. It's paid for real volumes, but it gets work done and works fine and stable for my use case",
+      "page_age": "2021-01-04T06:18:34"
+    },
+    {
+      "title": "The 6 Best Open-Source Instagram Scrapers (GitHub, 2026)",
+      "url": "https://scrapfly.io/blog/posts/best-open-source-instagram-scrapers",
+      "description": "Compare the 6 best open-source Instagram scrapers in 2026. Ranked by job, auth model, account-ban risk, and maintenance status with working code.",
+      "snippet": "# 6 Best Open-Source Instagram Scrapers in 2026\n## Which Open-Source Instagram Scraper Should You Use?\n- Download public profile media -> **Instaloader**\n- Production reliability with no account-ban risk -> **Scrapfly instagram-scraper**\n- Full automation in Python (posts, stories, DMs, comments) -> **instagrapi**\n- No-login CLI for users, hashtags, locations -> **instagram-scraper (drawrowfly)**, dormant since 2022",
+      "page_age": "2026-08-11T17:09:43"
+    },
+    {
+      "title": "Instaloader 429 Error: Real Problems I Hit and How I Fixed Them",
+      "url": "https://pnt.jacbex.com/instaloader-429-errors.html",
+      "description": "Real problems with Instaloader 429 errors, rate limiting, and getting blocked. What actually works: proxies, delays, session management, and when to just give up.",
+      "snippet": "## Problem 1: 429 Error After a Few Requests\n### What Actually Worked\nAfter much testing, I found the combination that works:\n\n```\nimport instaloader\nimport time\nimport random\n\nL = instaloader.Instaloader()\n\n# Load session if exists\ntry:\n    L.load_session_from_file('your_username', 'session_file')\nexcept:\n    pass\n\n# Add delay between requests\nL.context.quiet = True\n\ndef download_with_delay(profile):\n    try:\n        # Random delay 3-8 seconds\n        time.sleep(random.uniform(3, 8))\n\n        # Download with metadata only (faster, less API calls)\n        profile = instaloader.Profile.from_username(L.context, profile)\n\n        # Download posts one by one with longer delays\n        for post in profile.get_posts():\n            time.sleep(random.uniform(5, 10))\n            L.download_post(post, target=profile.username)\n\n            # Stop after 50 posts to avoid hitting limits\n            if post.shortcode == list(profile.get_posts())[49].shortcode:\n                break\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n        # Wait longer on error\n        time.sleep(60)\n```",
+      "page_age": ""
+    },
+    {
+      "title": "Instaloader Notes: Download Instagram Photos Without Login",
+      "url": "https://pnt.jacbex.com/instaloader.html",
+      "description": "Notes on using Instaloader to download Instagram photos and videos. Covers login issues, 429 errors, rate limiting, and using proxies.",
+      "snippet": "## Why Instaloader?\nNeeded to download some Instagram photos for a project. Looked around and found Instaloader - a Python tool that can download photos, videos, and stories from Instagram.\n\nThe nice thing is you don't necessarily need to log in. Works fine for public profiles. For private profiles you'll need credentials, but then you run into rate limiting pretty quickly.",
+      "page_age": ""
+    },
+    {
+      "title": "InstaLoader - Bellingcat's Online Investigation Toolkit - GitBook",
+      "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/instaloader",
+      "description": "Download pictures or videos (with metadata) from Instagram.",
+      "snippet": "# InstaLoader\n## Requirements\n### Access Requirements\n- **Anonymous Access**: Some public profile and single-post downloads may work without logging in, but hashtag and location targets require login, and Instagram may still rate-limit or block anonymous access.\n- **Logged-In Access**: To scrape private profiles or retrieve user-specific data (e.g., user feed, saved posts), you must log in with valid Instagram credentials. Instaloader stores a session file to avoid repeated logins",
+      "page_age": "2026-06-30T00:00:00"
+    },
+    {
+      "title": "429 Too Many Requests on web_profile_info · Issue #2726 · ...",
+      "url": "https://github.com/instaloader/instaloader/issues/2726",
+      "description": "Describe the bug Profile.from_username() returns a 429 Too Many Requests on the very first request to api/v1/users/web_profile_info/, with no prior requests made in the session. This is reproducible: On a completely fresh, valid session ...",
+      "snippet": "# 429 Too Many Requests on web\\_profile\\_info #2726\n## Description\n**Describe the bug** Profile.from_username() returns a 429 Too Many Requests on the very first request to api/v1/users/web_profile_info/, with no prior requests made in the session.",
+      "page_age": "2026-08-07T01:35:35"
+    },
+    {
+      "title": "toolkit/gitbook/tools/instaloader/README.md at main · belling...",
+      "url": "https://github.com/bellingcat/toolkit/blob/main/gitbook/tools/instaloader/README.md",
+      "description": "Contribute to bellingcat/toolkit development by creating an account on GitHub.",
+      "snippet": "# InstaLoader\n## Limitations\n- Using proxies or VPNs may result in stricter rate limits for anonymous scraping.\n3. Instagram does **not publicly disclose** the exact thresholds for the web endpoints, so the limits can change without notice. Based on user experiences, the thresholds have become **much stricter in recent years**. For example, one user noted that previously, you could make on the order of *~200 requests per minute* without issues. Current anecdotal ceiling is closer to **1–2 requests / 30s** for unauthenticated scrapes; thresholds vary by endpoint and change frequently.",
+      "page_age": ""
+    },
+    {
+      "title": "Troubleshooting — Instaloader documentation",
+      "url": "https://instaloader.github.io/troubleshooting.html",
+      "description": "",
+      "snippet": "# Troubleshooting\n## 429 Too Many Requests\nThe latter one implies that restarting or reinstantiating Instaloader often within short time is prone to cause a 429.\n\nSince the behavior of the rate controller might change between different versions of Instaloader, make sure to use the current version of Instaloader, especially when encountering many 429 errors",
+      "page_age": ""
+    }
+  ],
+  "gallery-dl Instagram public metadata no login": [
+    {
+      "title": "gallery-dl Instagram Windows — Download Photos, Reels & Stories 2026",
+      "url": "https://gallery-dlp.github.io/instagram.html",
+      "description": "How to download Instagram photos, reels, stories and highlights with gallery-dl on Windows 11/10. Includes cookie login for private accounts. Copy-paste commands.",
+      "snippet": "How to download Instagram photos, reels, stories and highlights with gallery-dl on Windows 11/10. Includes cookie login for private accounts.\n\nBulk download Instagram photos, reels, stories and highlights with gallery-dl on Windows.\n\nWindows 11/10  ·  Login required  ·  Photos, Reels, Stories, Highlights",
+      "page_age": "2026-06-09T00:00:00"
+    },
+    {
+      "title": "Can't even view an instagram link without a login, Meta junk.",
+      "url": "https://news.ycombinator.com/item?id=35105915",
+      "description": "",
+      "snippet": "pengaru on March 11, 2023 | parent | context | favorite | on: Modern Symbolics Lisp Machine Keyboard Replica: Ke... Can't even view an instagram link without a login, Meta junk. pabs3 on March 11, 2023 | next \\[–\\] Try gallery-dl, it can often get stuff without hitting a login: https://github.com/mikf/gallery-dl/ After a lot of downloads you may get a login though",
+      "page_age": ""
+    },
+    {
+      "title": "Instaloader — Download Instagram Photos and Metadata",
+      "url": "https://instaloader.github.io/",
+      "description": "Free command line tool to download photos from Instagram. Scrapes public and private profiles, hashtags, stories, feeds, saved media, and their metadata, comments and captions. Written in Python.",
+      "snippet": "Free command line tool to download photos from Instagram. Scrapes public and private profiles, hashtags, stories, feeds, saved media, and their metadata, comments and captions.",
+      "page_age": "2022-10-12T00:00:00"
+    },
+    {
+      "title": "gallery-dl · con/serve",
+      "url": "https://con.github.io/serve/tools/media/gallery-dl/",
+      "description": "Download image galleries and collections from over 100 websites",
+      "snippet": "# gallery-dl\n**Repository:** https://github.com/mikf/gallery-dl",
+      "page_age": "2026-02-12T00:00:00"
+    },
+    {
+      "title": "Assistance With Instagram · mikf/gallery-dl · Discussion #5415",
+      "url": "https://github.com/mikf/gallery-dl/discussions/5415",
+      "description": "Assistance With Instagram",
+      "snippet": "# Assistance With Instagram #5415\n## wright546 Apr 1, 2024\nThis is my very basic config: { \"postprocessor\": { \"insta-meta\": { \"name\": \"metadata\", \"event\": \"post\", \"mode\": \"custom\", \"format\": \"{description}\\\\n\", \"filename\": \"{post\\_shortcode}by{username}.html\" } }, \"extractor\": { \"instagram\": { \"username\": \"user.name\", \"password\": \"random string\", \"directory\": \\[\"{category}\"\\], \"filename\":",
+      "page_age": "2024-04-01T00:00:00"
+    },
+    {
+      "title": "r/DataHoarder on Reddit: gallery-dl doesn't download Instagram ...",
+      "url": "https://www.reddit.com/r/DataHoarder/comments/y6740i/gallerydl_doesnt_download_instagram_profile/",
+      "description": "When I try downloading my profile picture with the URL of my page, it just downloads the posts. Using the `--get-urls` option, i get this output: >…",
+      "snippet": "# gallery-dl doesn't download Instagram profile pictures\n```\n> gallery-dl --cookies .\\my_cookies.txt \"https://www.instagram.com/zmn_hamid\" -g\nhttps://www.instagram.com/zmn_hamid/posts/\n```\n\nAs you see, it's redirecting to my posts url. Do you know any trick or alternative to this?",
+      "page_age": "2022-10-19T09:33:55"
+    },
+    {
+      "title": "Does not work for 18+ instagram profiles · Issue #4062 · ...",
+      "url": "https://github.com/mikf/gallery-dl/issues/4062",
+      "description": "[instagram][error] AuthorizationError: Login required to access this profile Getting this error trying to rip from https://www.instagram.com/shinratensei_98/ gallery-dl -u myusername -p mypassword https://www.instagram.com/shinratensei_98/",
+      "snippet": "# Does not work for 18+ instagram profiles #4062\n## Description\n@rhgtuh\n\nrhgtuh\n\nopened on May 14, 2023\n\nIssue body actions\n\n[instagram][error] AuthorizationError: Login required to access this profile\n\nGetting this error trying to rip from\n\nhttps://www.instagram.com/shinratensei_98/\n\ngallery-dl -u myusername -p mypassword https://www.instagram.com/shinratensei_98/",
+      "page_age": "2023-05-14T23:55:52"
+    },
+    {
+      "title": "Setting custom instagram name outputs and metadata? · Issue #6998 ...",
+      "url": "https://github.com/mikf/gallery-dl/issues/6998",
+      "description": "I've been trying to find if it's possible to make gallery-dl name my outputs, I checked the documentation and either it's not there or I couldn't find it. While googling I stumbled upon this issue ticket #6677 In this post he has a wildl...",
+      "snippet": "# Setting custom instagram name outputs and metadata? #6998\n## Description\n@xathian\n\nxathian\n\nopened on Feb 15, 2025\n\nIssue body actions\n\nI've been trying to find if it's possible to make gallery-dl name my outputs, I checked the documentation and either it's not there or I couldn't find it. While googling I stumbled upon this issue ticket\n\n#6677\n\nIn this post he has a wildly customized config for instagram.",
+      "page_age": "2025-02-15T11:59:38"
+    }
+  ],
+  "YouTube channel RSS feed videos.xml channel_id fields without API key": [
+    {
+      "title": "r/rss on Reddit: RSS Feeds for custom URLs and legacy usernames?",
+      "url": "https://www.reddit.com/r/rss/comments/s4c2gw/rss_feeds_for_custom_urls_and_legacy_usernames/",
+      "description": "I'm trying to use the youtube RSS feature ( https://www.youtube.com/feeds/videos.xml?channel_id= ), and it works fine for channels whose URL ends…",
+      "snippet": "# RSS Feeds for custom URLs and legacy usernames?\nI'm trying to use the youtube RSS feature (`https://www.youtube.com/feeds/videos.xml?channel_id=`), and it works fine for channels whose URL ends with `/channel/CHANNEL_ID`, but it gives either a 404 or 400 error when I try the same with channels that end with `/user/CHANNEL_NAME` or `/c/CHANNEL_NAME`",
+      "page_age": "2022-01-15T04:43:19"
+    },
+    {
+      "title": "YouTube RSS Feed Generator: Get Channel Feed",
+      "url": "https://sanishtech.com/tools/youtube-rss-feed-generator/",
+      "description": "Generate a YouTube channel RSS feed from a channel handle, URL, or ID. Copy the feed URL, preview the XML, and download it free online with no signup.",
+      "snippet": "# YouTube RSS Feed Generator\n## What the YouTube RSS Feed Generator Creates\nThis tool does not host a separate custom feed. It identifies the channel ID and retrieves the public Atom XML feed provided by YouTube. People often call this an RSS feed because most modern feed readers support both RSS and Atom URLs.\n\nThe generated address follows this structure:\n\nhttps://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID\n\nYouTube uses the channel ID to identify the correct creator. This is helpful because a channel’s visible @handle can change, while its underlying UC channel ID usually remains the more dependable identifier",
+      "page_age": "2026-08-22T05:09:50"
+    },
+    {
+      "title": "php - How to get a Youtube channel RSS feed after 2015 April 20 ...",
+      "url": "https://stackoverflow.com/questions/29752447/how-to-get-a-youtube-channel-rss-feed-after-2015-april-20-without-v3-api",
+      "description": "Now that API v2 is gone, what would be a way to get a simple RSS feed of a channel, without v3 API? I'm open to Yahoo Pipes or any workaround that is simpler than creating an application for v3 API...",
+      "snippet": "# How to get a Youtube channel RSS feed after 2015 April 20 (without v3 API)?\n## 15 Answers 15\n```\nhttps://www.youtube.com/feeds/videos.xml?channel_id=XXXX\n```\n\nSo you could generate new feeds from this structure if you know the channel id. This kind of feeds are not getting the \"https://youtube.com/devicesupport\" error, so I expect they are going to keep working.\n\nShare\n\nShare a link to this answer\n\nCC BY-SA 3.0",
+      "page_age": "2015-04-20T00:00:00"
+    },
+    {
+      "title": "YouTube RSS Feed: Find Any Channel Without a Tool (2026)",
+      "url": "https://www.wprssaggregator.com/youtube-rss-feed/",
+      "description": "Every YouTube channel has a hidden RSS feed. Learn how to find the feed URL, what you can do with it, and how to display YouTube videos on your WordPress site.",
+      "snippet": "# YouTube RSS Feed: Find Any Channel Without a Tool (2026)\n**Every public YouTube channel has a free RSS feed at https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID. Replace CHANNEL_ID with the channel’s ID (a string starting with “UC”). The feed returns that channel’s 15 most recent uploads in XML, with title, link, thumbnail, description, publish date, and view count for each video.**",
+      "page_age": "2026-07-14T01:07:40"
+    },
+    {
+      "title": "Self-Hosted YouTube RSS Subscriptions Feed, No API Key - ...",
+      "url": "https://philippdubach.com/posts/degoogling-cost-me-my-youtube-feed-so-i-made-my-own/",
+      "description": "I dropped the YouTube app and rebuilt only my subscriptions feed as a self-hosted Cloudflare Worker that reads each channel's RSS, no API key, no tracking.",
+      "snippet": "# Degoogling cost me my YouTube feed, so I made my own\n## How it works without an API key\nEvery channel publishes a public RSS feed at feeds/videos.xml with its recent uploads as Atom XML, and the Worker reads that directly, parsed with fast-xml-parser. No quota, no Google project, no token to rotate",
+      "page_age": "2026-06-15T07:08:18"
+    },
+    {
+      "title": "YouTube RSS Feed Generator & Channel ID Finder - Channel Surfer",
+      "url": "https://channelsurfer.tv/tools/youtube-rss-feed/",
+      "description": "Free YouTube RSS feed generator. Paste a channel or playlist URL to get its RSS feed URL and channel ID instantly. No account or API key needed. Follow any channel's uploads in your RSS reader.",
+      "snippet": "Free YouTube RSS feed generator. Paste a channel or playlist URL to get its RSS feed URL and channel ID instantly. No account or API key needed. Follow any channel's uploads in your RSS reader.\n\nTurn any YouTube channel or playlist into its public RSS feed URL, right in your browser.",
+      "page_age": ""
+    },
+    {
+      "title": "How to subscribe to YouTube RSS Feeds without third-party services ...",
+      "url": "https://www.ghacks.net/2022/08/01/how-to-subscribe-to-youtube-rss-feeds-without-third-party-services/",
+      "description": "Find out how to create YouTube channel feeds and YouTube playlist RSS feeds without using any third-party tools.",
+      "snippet": "# How to subscribe to YouTube RSS Feeds without third-party services\n## How to subscribe to YouTube creator RSS feeds manually\nIt takes a bit of code digging to reveal the RSS feed of a channel or a playlist without third-party tools.\n\nThe core URL that you require is https://www.youtube.com/feeds/videos.xml?channel_id=CHANNELID.\n\nYou need to replace CHANNELID with the ID of the channel, and that is where it may get tricky for some",
+      "page_age": "2022-07-31T13:59:56"
+    },
+    {
+      "title": "YouTube Channel ID Finder & RSS Feed Generator - Keep.md",
+      "url": "https://keep.md/tools/youtube-channel-id-finder",
+      "description": "Find any YouTube channel ID from a URL, @handle, or video link, plus the RSS feed URL for your reader. Free, no account or API key needed.",
+      "snippet": "Skip to content\n\n# YouTube channel ID finder + RSS feed\n\nFind any YouTube channel ID from a URL, @handle, or video link, plus the RSS feed URL for your reader. Free, no account or API key needed.\nYouTube URL, handle, or channel ID\n\nTry:@mkbhd https://www.youtube.com/@v…UCsXVk37bltHxD1rDPwtNM8Q https://www.youtube.com/@L…",
+      "page_age": ""
+    }
+  ],
+  "yt-dlp extract channel metadata flat playlist no authentication": [
+    {
+      "title": "Extract Metadata from YouTube Videos: 4 Methods (2026)",
+      "url": "https://fast.io/resources/metadata-extraction-from-youtube-videos/",
+      "description": "Learn four methods to extract YouTube video metadata: the Data API v3, yt-dlp CLI, Python scripts, and browser tools. Includes code examples for each.",
+      "snippet": "# How to Extract Metadata from YouTube Videos\n## Method 1: YouTube Data API v3\n### Making a Request\nHere's a curl request that pulls all the common parts at once:\n\n```\ncurl \"https://www.googleapis.com/youtube/v3/videos\\\n?part=snippet,contentDetails,statistics,topicDetails\\\n&id=dQw4w9WgXcQ\\\n&key=YOUR_API_KEY\"\n```\n\nThe response is a JSON object with an items array. Each item contains the requested parts as nested objects. You can request multiple parts in one call without extra quota cost",
+      "page_age": "2026-04-30T00:00:00"
+    },
+    {
+      "title": "[Feature Request] Download playlist & channel metadata · Issue ...",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/36",
+      "description": "Checklist I'm reporting a feature request I've verified that I'm running yt-dlp version 2021.01.24 I've searched the bugtracker for similar feature requests including closed ones Description Pretty much this guy's description - ytdl-org/...",
+      "snippet": "# \\[Feature Request\\] Download playlist & channel metadata #36\n## Description\nRelevant from the original ask \"The closest command to what I want is I found is youtube-dl --skip-download --flat-playlist --dump-single-json [playlist_id]",
+      "page_age": "2021-01-27T21:40:29"
+    },
+    {
+      "title": "YT-DLP",
+      "url": "https://notes.nicolasdeville.com/python/library-yt-dlp/",
+      "description": "Feature-rich command-line audio/video downloader",
+      "snippet": "# Options\n## GENERAL OPTIONS\n```\n-h, --help                      Print this help text and exit\n--version                       Print program version and exit\n-U, --update                    Update this program to the latest version\n--no-update                     Do not check for updates (default)\n--update-to [CHANNEL]@[TAG]     Upgrade/downgrade to a specific version.\n                                CHANNEL can be a repository as well. CHANNEL\n                                and TAG default to \"stable\" and \"latest\"\n                                respectively if omitted; See \"UPDATE\" for\n                                details. Supported channels: stable,\n                                nightly, master\n-i, --ignore-errors             Ignore download and postprocessing errors.\n                                The download will be considered successful\n                                even if the postprocessing fails\n--no-abort-on-error             Continue with next video on download errors;\n                                e.g. to skip unavailable videos in a\n                                playlist (default)\n--abort-on-error                Abort downloading of further videos if an\n                                error occurs (Alias: --no-ignore-errors)\n--dump-user-agent               Display the current user-agent and exit\n--list-extractors               List all supported extractors and exit\n--extractor-descriptions        Output descriptions of all supported\n                                extractors and exit\n--use-extractors NAMES          Extractor names to use separated by commas.\n                                You can also use regexes, \"all\", \"default\"\n                                and \"end\" (end URL matching); e.g. --ies\n                                \"holodex.*,end,youtube\". Prefix the name\n                                with a \"-\" to exclude it, e.g. --ies\n                                default,-generic. Use --list-extractors for\n                                a list of extractor names. (Alias: --ies)\n--default-search PREFIX         Use this prefix for unqualified URLs. E.g.\n                                \"gvsearch2:python\" downloads two videos from\n                                google videos for the search term \"python\".\n                                Use the value \"auto\" to let yt-dlp guess\n                                (\"auto_warning\" to emit a warning when\n                                guessing). \"error\" just throws an error. The\n                                default value \"fixup_error\" repairs broken\n                                URLs, but emits an error if this is not\n                                possible instead of searching\n--ignore-config                 Don't load any more configuration files\n                                except those given to --config-locations.\n                                For backward compatibility, if this option\n                                is found inside the system configuration\n                                file, the user configuration is not loaded.\n                                (Alias: --no-config)\n--no-config-locations           Do not load any custom configuration files\n                                (default). When given inside a configuration\n                                file, ignore all previous --config-locations\n                                defined in the current file\n--config-locations PATH         Location of the main configuration file;\n                                either the path to the config or its\n                                containing directory (\"-\" for stdin). Can be\n                                used multiple times and inside other\n                                configuration files\n--plugin-dirs PATH              Path to an additional directory to search\n                                for plugins. This option can be used\n                                multiple times to add multiple directories.\n                                Use \"default\" to search the default plugin\n                                directories (default)\n--no-plugin-dirs                Clear plugin directories to search,\n                                including defaults and those provided by\n                                previous --plugin-dirs\n--flat-playlist                 Do not extract a playlist's URL result\n                                entries; some entry metadata may be missing\n                                and downloading may be bypassed\n--no-flat-playlist              Fully extract the videos of a playlist\n                                (default)\n--live-from-start               Download livestreams from the start.\n                                Currently only supported for YouTube\n                                (Experimental)\n--no-live-from-start            Download livestreams from the current time\n                                (default)\n--wait-for-video MIN[-MAX]      Wait for scheduled streams to become\n                                available. Pass the minimum number of\n                                seconds (or range) to wait between retries\n--no-wait-for-video             Do not wait for scheduled streams (default)\n--mark-watched                  Mark videos watched (even with --simulate)\n--no-mark-watched               Do not mark videos watched (default)\n--color [STREAM:]POLICY         Whether to emit color codes in output,\n                                optionally prefixed by the STREAM (stdout or\n                                stderr) to apply the setting to. Can be one\n                                of \"always\", \"auto\" (default), \"never\", or\n                                \"no_color\" (use non color terminal\n                                sequences). Use \"auto-tty\" or \"no_color-tty\"\n                                to decide based on terminal support only.\n                                Can be used multiple times\n--compat-options OPTS           Options that can help keep compatibility\n                                with youtube-dl or youtube-dlc\n                                configurations by reverting some of the\n                                changes made in yt-dlp. See \"Differences in\n                                default behavior\" for details\n--alias ALIASES OPTIONS         Create aliases for an option string. Unless\n                                an alias starts with a dash \"-\", it is\n                                prefixed with \"--\". Arguments are parsed\n                                according to the Python string formatting\n                                mini-language. E.g. --alias get-audio,-X\n                                \"-S=aext:{0},abr -x --audio-format {0}\"\n                                creates options \"--get-audio\" and \"-X\" that\n                                takes an argument (ARG0) and expands to\n                                \"-S=aext:ARG0,abr -x --audio-format ARG0\".\n                                All defined aliases are listed in the --help\n                                output. Alias options can trigger more\n                                aliases; so be careful to avoid defining\n                                recursive options. As a safety measure, each\n                                alias may be triggered a maximum of 100\n                                times. This option can be used multiple times\n```",
+      "page_age": "2026-06-11T07:10:34"
+    },
+    {
+      "title": "How to use yt-dlp in 2026: Complete step-by-step guide",
+      "url": "https://roundproxies.com/blog/yt-dlp/",
+      "description": "Learn how to use yt-dlp to download videos and audio safely, choose formats, grab playlists, and unlock advanced features step by step.",
+      "snippet": "# How to use yt-dlp in 2026: Complete Step-by-step guide\n## What is yt-dlp?\n### What yt-dlp can do\n- Download video in any format the site offers, including 4K and 8K where the source has it\n- Extract audio only and convert it to mp3, m4a, flac, opus, vorbis, or wav\n- Pull entire playlists and channels, with an archive file so a repeat run only fetches what's new",
+      "page_age": "2026-09-04T14:13:09"
+    },
+    {
+      "title": "youtube dl - Set metadata based on the output filename in yt-dlp ...",
+      "url": "https://stackoverflow.com/questions/71347719/set-metadata-based-on-the-output-filename-in-yt-dlp",
+      "description": "I can extract audio from video: yt-dlp -x --audio-format vorbis --audio-quality 256k --embed-thumbnail -P ~/Music -o \"John Doe - Cool song.%(ext)s\" tubelink.kom Now, I would like to embed",
+      "snippet": "# Set metadata based on the output filename in yt-dlp\n## 2 Answers 2\n```bash\nlocal downloadTimestamp=\"$(date +'%F %T %Z')\";\n# double-escape any colons ONCE to prevent them being interpreted by --parse-metadata\ndownloadTimestamp=\"${downloadTimestamp//:/\\\\:}\";\n\nyt-dlp -f \"bestvideo+bestaudio/best\" \\\n  --format-sort res:480,+size,+br,codec  \\\n  -o \"%(uploader)s_-_%(title)s.%(ext)s\" \\\n  --parse-metadata \"${downloadTimestamp}:%(meta_download_date)s\" \\\n  --parse-metadata \"%(like_count)s:%(meta_likes)s\" \\\n  --parse-metadata \"%(dislike_count)s:%(meta_dislikes)s\" \\\n  --parse-metadata \"%(view_count)s:%(meta_views)s\" \\\n  --parse-metadata \"%(average_rating)s:%(meta_rating)s\" \\\n  --parse-metadata \"%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s:%(meta_publish_date)s\" \\\n  --restrict-filenames --windows-filenames \\\n  --quiet --no-warnings \\\n  --ignore-errors --prefer-free-formats \\\n  --xattrs --no-overwrites \\\n  --sub-lang en --embed-subs --add-metadata --merge-output-format mkv \\\n  --write-auto-subs --embed-metadata --embed-thumbnail \\\n  \"${url}\"\n```",
+      "page_age": "2022-03-04T00:00:00"
+    },
+    {
+      "title": "Download a Playlist or Whole Channel with yt-dlp",
+      "url": "https://yt-dlp.net/guides/download-playlist",
+      "description": "Playlists are where yt-dlp goes from a command to a workflow: archives so reruns skip what you have, ranges so you get videos 5-20, and rate limits so you finish instead of getting a 429.",
+      "snippet": "# Download a Playlist or Whole Channel with yt-dlp\nthe command worth memorising copy\n\n```\nyt-dlp --download-archive archive.txt --sleep-requests 2 --limit-rate 2M -i \\\n  -o \"%(playlist)s/%(playlist_index)02d - %(title)s.%(ext)s\" \\\n  \"PLAYLIST_URL\"\n```",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - dbeley/youtube_extract: Extract metadata for all videos ...",
+      "url": "https://github.com/dbeley/youtube_extract",
+      "description": "Extract metadata for all videos of a youtube channel. - dbeley/youtube_extract",
+      "snippet": "# youtube\\_extract\n## Usage\n### Fast Extraction (Flat Mode)\nFor a ~10-100x speedup when you don't need format details (best_format, filesize_bytes), use the --extract-flat flag:\n\n```\nyoutube_extract CHANNEL_URL --extract-flat\n```\n\nThis skips format resolution entirely and only extracts basic metadata",
+      "page_age": ""
+    },
+    {
+      "title": "yt-dlp(1) — Arch manual pages",
+      "url": "https://man.archlinux.org/man/yt-dlp.1",
+      "description": "",
+      "snippet": "# OPTIONS\n## General Options:\nBy default, no remote components are allowed\n**--no-remote-components**: Disallow fetching of all remote components, including any previously allowed by --remote-components or defaults.\n**--flat-playlist**: Do not extract a playlist's URL result entries; some entry metadata may be missing and downloading may be bypassed\n**--no-flat-playlist**: Fully extract the videos of a playlist (default)\n**--live-from-start**: Download livestreams from the start. Currently experimental and only supported for YouTube, Twitch, TVer, and mellow-fan",
+      "page_age": "2023-08-21T00:00:00"
+    }
+  ],
+  "Reddit JSON API without OAuth blocked 403 datacenter IP User-Agent rules": [
+    {
+      "title": "Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still ...",
+      "url": "https://crawlora.hashnode.dev/why-reddit-blocked-unauthenticated-json-in-2026-and-how-to-still-get-reddit-data",
+      "description": "Key takeaways On May 28, 2026, Reddit announced it is deprecating unauthenticated .json endpoints — within days, appending .json to a URL started returning 403, silently breaking most open-source Red",
+      "snippet": "Key takeaways On May 28, 2026, Reddit announced it is deprecating unauthenticated .json endpoints — within days, appending .json to a URL started returning 403, silently breaking most open-source Red\n\nSkip to main content",
+      "page_age": "2026-06-15T06:27:47"
+    },
+    {
+      "title": "Reddit's .json Endpoint Is Dead in 2026: How to Pull Data",
+      "url": "https://www.redditapis.com/blogs/reddit-json-endpoint-dead-2026",
+      "description": "The reddit.com/....json endpoint is rate-limited and blocked in 2026. Every way to still pull Reddit data: Data API, OAuth, PullPush, REST, dumps.",
+      "snippet": "The reddit.com/....json endpoint is rate-limited and blocked in 2026. Every way to still pull Reddit data: Data API, OAuth, PullPush, REST, dumps.",
+      "page_age": "2026-07-03T00:00:00"
+    },
+    {
+      "title": "Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still ...",
+      "url": "https://crawlora.net/blog/reddit-json-api-blocked-2026",
+      "description": "Reddit deprecated unauthenticated .json endpoints in 2026 (now 403). Why it happened — AI data licensing and bots — and how to get Reddit data now.",
+      "snippet": "# Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still Get Reddit Data)\nReddit deprecated unauthenticated .json endpoints in 2026 (now 403). Why it happened — AI data licensing and bots — and how to get Reddit data now.",
+      "page_age": "2026-07-27T00:00:00"
+    },
+    {
+      "title": "r/redditdev on Reddit: Is there an officially sanctioned way to ...",
+      "url": "https://www.reddit.com/r/redditdev/comments/1ts4j3r/is_there_an_officially_sanctioned_way_to_access/",
+      "description": "31 votes, 15 comments. A few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library…",
+      "snippet": "# Is there an officially sanctioned way to access Reddit's JSON feeds now?\n## reseph\nPer the admins:\n\n> Authenticated in this case means requests without Oauth or user credentials will be blocked. That said, it looks [...] bots that have an API token so they shouldn't be impacted!",
+      "page_age": "2026-05-30T16:31:02"
+    },
+    {
+      "title": "r/selfhosted on Reddit: Did Reddit kill unauthenticated JSON requests?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1trz8ld/did_reddit_kill_unauthenticated_json_requests/",
+      "description": "239 votes, 30 comments. Pretty much every self-hosted app that used Reddit for me is now returning 403. I couldn't find any news or announcement this…",
+      "snippet": "# Did Reddit kill unauthenticated JSON requests?\n## jake_that_dude\nrss works if you only need post lists, but it is not a drop-in for `.json` or comments. for anything API-ish, make a Reddit script app and use an OAuth bearer token with a real User-Agent. unauthenticated old/new `.json` calls are now hitting the network-policy 403 path pretty consistently",
+      "page_age": "2026-05-30T12:56:17"
+    },
+    {
+      "title": "r/redditdev on Reddit: Reddit .json endpoints returning 403",
+      "url": "https://www.reddit.com/r/redditdev/comments/1txd5mm/reddit_json_endpoints_returning_403/",
+      "description": "16 votes, 13 comments. Trying to fetch public Reddit data using the .json endpoints for a small personal Python project, but I keep getting 40…",
+      "snippet": "# Reddit .json endpoints returning 403\n## TourStrong8443\nA while back Reddit updated their API usage policies, even for public data.\n\n You need authorization now",
+      "page_age": "2026-06-05T06:46:20"
+    },
+    {
+      "title": "How to Scrape Reddit Without the API (After the 2023 Price Changes) ...",
+      "url": "https://dev.to/odeeb/how-to-scrape-reddit-without-the-api-after-the-2023-price-changes-3nhm",
+      "description": "A precise, honest guide to scraping Reddit without the API: what actually works in 2024, the 403/CORS traps, and old.reddit.com HTML. Tagged with webscraping, python, api, datascience.",
+      "snippet": "# How to Scrape Reddit Without the API (After the 2023 Price Changes)\n## The thing everyone tries first (and why it fails)\n- **From a datacenter server (AWS, GCP, a VPS):** the .json endpoints increasingly return **HTTP 403** from datacenter IP ranges. Reddit tightened this after the API changes specifically to stop the \"just hit .json from a Lambda\" pattern",
+      "page_age": "2026-05-31T17:37:19"
+    },
+    {
+      "title": "How to Fix Reddit 403 Forbidden Error in n8n [2026 Guide]",
+      "url": "https://medium.com/@jjoe81372/how-to-fix-reddit-403-forbidden-error-in-n8n-2026-guide-0b5dc0949fa2",
+      "description": "How to Fix Reddit 403 Forbidden Error in n8n [2026 Guide] You’re building a powerful Reddit automation workflow in n8n. Maybe you’re monitoring multiple subreddits for competitor mentions …",
+      "snippet": "# How to Fix Reddit 403 Forbidden Error in n8n \\[2026 Guide\\]\nHere’s the truth that most developers discover too late: the problem isn’t your credentials, your OAuth configuration, or Reddit’s API pricing tiers. It’s that traditional API-based scraping methods are fundamentally incompatible with Reddit’s 2026 anti-bot detection systems. No amount of credential tweaking will fix a detection problem",
+      "page_age": "2026-01-19T03:43:46"
+    }
+  ],
+  "Reddit subreddit .rss feed alternative when json blocked": [
+    {
+      "title": "r/rss on Reddit: feed43 is no longer supported. I'd be happy to ...",
+      "url": "https://www.reddit.com/r/rss/comments/xv6y8d/feed43_is_no_longer_supported_id_be_happy_to_pay/",
+      "description": "21 votes, 51 comments. (Please understand if my English is weird.)I'm not a developer. However, I use the no-code service well. I understand the…",
+      "snippet": "# feed43 is no longer supported. I'd be happy to pay if someone made this for me. I have an idea for an RSS feed generator.\nfeed43 developer doesn't respond at all. The service is just neglected. And the certificate expires today, causing problems in IFTTT or Zapier.",
+      "page_age": "2022-10-06T06:37:03"
+    },
+    {
+      "title": "Reddit RSS feeds recent rate limiting and solution",
+      "url": "https://lapcatsoftware.com/articles/2026/6/3.html",
+      "description": "",
+      "snippet": "# Reddit RSS feeds recent rate limiting and solution\n### June 12 2026\n**Deprecating unauthenticated JSON access**: We’ll also be shutting down unauthenticated .json endpoints. These endpoints can be used to scrape Reddit without accountability. Logged-in and authenticated access won’t be impacted. Otherwise, developers who need structured access to Reddit content should use Devvit, which includes various ways to access Reddit data",
+      "page_age": "2026-06-12T00:00:00"
+    },
+    {
+      "title": "r/redditdev on Reddit: Is there an officially sanctioned way to ...",
+      "url": "https://www.reddit.com/r/redditdev/comments/1ts4j3r/is_there_an_officially_sanctioned_way_to_access/",
+      "description": "31 votes, 15 comments. A few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library…",
+      "snippet": "# Is there an officially sanctioned way to access Reddit's JSON feeds now?\nA few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library:\n\n> json_feed = requests.get(url, headers = {'User-agent': 'Friendly RSS Bot'})",
+      "page_age": "2026-05-30T16:31:02"
+    },
+    {
+      "title": "r/feedly on Reddit: How do I get reddit RSS without connecting ...",
+      "url": "https://www.reddit.com/r/feedly/comments/13x40yh/how_do_i_get_reddit_rss_without_connecting_account/",
+      "description": "I know subreddits have RSS feeds, how do I use those without connecting an account?",
+      "snippet": "# How do I get reddit RSS without connecting account?\n## markzzy\nNot sure what the other poster is talking about, but Reddit already provides RSS feeds for subreddits. Just add `.rss` to the end of the subreddit.\n\n Example: https://www.reddit.com/r/feedly.rss",
+      "page_age": "2023-06-01T01:06:48"
+    },
+    {
+      "title": "r/rss on Reddit: I built a better RSS feed for Reddit",
+      "url": "https://www.reddit.com/r/rss/comments/fvg3ed/i_built_a_better_rss_feed_for_reddit/",
+      "description": "90 votes, 23 comments. I have been getting into Feedly pro lately and tried to subscribe to some of the Reddit feeds. I discovered they weren't…",
+      "snippet": "# I built a better RSS feed for Reddit\n1. Go to a subreddit or meta feed you like example: https://www.reddit.com/r/Android/\n2. Add .json onto the end: https://www.reddit.com/r/Android.json\n3. Change the domain name to, reddit.0qz.fun like: https://reddit.0qz.fun/r/android.json\n4. Subscribe to ^^^ that url in your favorite feed reader",
+      "page_age": "2020-04-05T16:03:45"
+    },
+    {
+      "title": "r/rss on Reddit: Many RSS readers are failing on Reddit feeds lately.",
+      "url": "https://www.reddit.com/r/rss/comments/1uhnax3/many_rss_readers_are_failing_on_reddit_feeds/",
+      "description": "19 votes, 13 comments. If your reader recently started showing errors on Reddit (failed to fetch, 403, or just empty feeds), you are not alone. A lot…",
+      "snippet": "# Many RSS readers are failing on Reddit feeds lately. Here is a fix that worked for me\nBut the plain .rss feed links still work fine:\n\n* a subreddit: https://www.reddit.com/r/rss/.rss\n* a specific user: https://www.reddit.com/user//submitted.rss\n\n* a post's comments: https://www.reddit.com/r/rss/comments//.rss",
+      "page_age": "2026-06-28T04:18:08"
+    },
+    {
+      "title": "Reddit RSS - DEV Community",
+      "url": "https://dev.to/trashhalo/reddit-rss-44a0",
+      "description": "A tiny project I have been maintaining since April 2020 is an alternative rss feed for Reddit called... Tagged with showdev, go, rss.",
+      "snippet": "A tiny project I have been maintaining since April 2020 is an alternative rss feed for Reddit called...",
+      "page_age": "2020-11-09T16:20:48"
+    },
+    {
+      "title": "r/RedReader on Reddit: Alternative way to view reddit after the ...",
+      "url": "https://www.reddit.com/r/RedReader/comments/13ja54w/alternative_way_to_view_reddit_after_the_apis/",
+      "description": "It's not the best experience and it's read only, but if you want, you can turn any subreddit into an rss feed by adding \".rss\" at the end of the url.",
+      "snippet": "# Alternative way to view reddit after the api's death: RSS feeds\nIt's not the best experience and it's read only, but if you want, you can turn any subreddit into an rss feed by adding \".rss\" at the end of the url.\nBest\nBest\nTop\nNew\nOld",
+      "page_age": "2023-05-16T16:35:01"
+    }
+  ],
+  "Hacker News Algolia API search_by_date parameters tags numericFilters": [
+    {
+      "title": "The Hacker News Search API: Free, No-Key, and Surprisingly Powerful ...",
+      "url": "https://dev.to/odeeb/the-hacker-news-search-api-free-no-key-and-surprisingly-powerful-5e8l",
+      "description": "A practical guide to the free, no-key Hacker News search API (hn.algolia.com): tags, numeric filters, relevance vs. date sorting, and runnable code. Tagged with api, javascript, webdev, datascience.",
+      "snippet": "A practical guide to the free, no-key Hacker News search API (hn.algolia.com): tags, numeric filters, relevance vs. date sorting, and runnable code.",
+      "page_age": "2026-06-01T08:42:22"
+    },
+    {
+      "title": "Hacker News API: The Complete Guide to Algolia Search and Firebase ...",
+      "url": "https://cotera.co/articles/hacker-news-api-guide",
+      "description": "A practical walkthrough of the two Hacker News APIs — Algolia for search and Firebase for raw data. Endpoints, parameters, code examples, and real use cases.",
+      "snippet": "# Hacker News API: The Complete Guide to Algolia Search and Firebase Data\n## Two APIs, One Hacker News\nThen there's the **Algolia Search API** (hn.algolia.com/api/v1). Algolia crawls and indexes everything on HN and slaps a full-text search layer on top. Date filters, tag filters, pagination, the works.",
+      "page_age": "2026-02-20T00:00:00"
+    },
+    {
+      "title": "Issue searching for comments with points filter · Issue #55 · ...",
+      "url": "https://github.com/algolia/hn-search/issues/55",
+      "description": "Hi, It appears the combination of tags=comment and numericFilters=points>X is no longer returning new results. The latest results are from early October 2014: https://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=point...",
+      "snippet": "Hi, It appears the combination of tags=comment and numericFilters=points>X is no longer returning new results. The latest results are from early October 2014: https://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=point",
+      "page_age": "2015-02-08T17:51:21"
+    },
+    {
+      "title": "Hacker News API - Get the most popular items",
+      "url": "https://stackoverflow.com/questions/25886009/hacker-news-api-get-the-most-popular-items",
+      "description": "I stumbled upon Hacker News API (https://hn.algolia.com/api) and I was wondering if I am missing how to get the list of the most popular stories featured in the homepage. Is there another API to do...",
+      "snippet": "# Hacker News API - Get the most popular items\n## 1 Answer 1\nhttps://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points>100\n\nOtherwise I afraid you have to make your own crawler, which would request front-page frequently or on-demand, just make sure it is within limits. There was a discussion on HN on this subject, but I cannot find out right now.\nShare",
+      "page_age": "2014-09-17T00:00:00"
+    },
+    {
+      "title": "Unlocking Hacker News with the Algolia API: A Practical Guide - ...",
+      "url": "https://deepeshsoni.com/archives/70",
+      "description": "Unlocking Hacker News with the Algolia API: A Practical Guide Hacker News is a barometer of the tech world, offering timely stories, thoughtful discussions, and a pulse on new ideas.",
+      "snippet": "# Unlocking Hacker News with the Algolia API: A Practical Guide\n## Key endpoints and what they do\n### Search by date\n```\nhttps://hn.algolia.com/api/v1/search_by_date?query=web%20performance&tags=story\n```",
+      "page_age": "2025-08-26T03:13:43"
+    },
+    {
+      "title": "hn-search",
+      "url": "https://lobehub.com/skills/dylanfeltus-skills-hn-search",
+      "description": "Search and monitor Hacker News stories, comments, and users via the free Algolia API. Use when the user asks about HN discussions, wants to find posts about ...",
+      "snippet": "# hn-search\n## Summary\nKey features include two endpoints (/search for relevance, /search_by_date for recency), flexible tag filters (story, comment, show_hn, ask_hn, author_USERNAME, story_ID, front_page), numericFilters (e.g., points>100), paging and hitsPerPage (up to 1000), and a generous 10,000 requests/hour limit. Responses are structured JSON suitable for automated web_fetch calls, enabling fast lookups, dashboards, and monitoring workflows without an API key.",
+      "page_age": "2026-03-15T02:55:26"
+    },
+    {
+      "title": "How to Use a Hacker News data from Algolia API",
+      "url": "https://medium.com/@otabekjon0302/how-to-use-a-hacker-news-data-from-algolia-api-d7dd32341436",
+      "description": "How to Use a Hacker News data from Algolia API In this tutorial, we will build a mini Search News in React using Context and Chakra ui. We will be using React Hooks syntax for building this …",
+      "snippet": "# How to Use a Hacker News data from Algolia API\n## Introduction to the API\nWe will be using the Hackernews API from this url.\n\n```\nThe Hacker News Algolia Search API provides various endpoints for fetching data:\n\n1. **Get Item Details:**\n   - Story/Comment details: `http://hn.algolia.com/api/v1/items/:id`\n\n2. **Get User Details:**\n   - User details: `http://hn.algolia.com/api/v1/users/:username`\n\n3. **Search by Relevance, Points, and Comments:**\n   - `GET http://hn.algolia.com/api/v1/search?query=...`\n   - Results are sorted by relevance, then points, and then the number of comments.\n\n4. **Search by Date (Recent First):**\n   - `GET http://hn.algolia.com/api/v1/search_by_date?query=...`\n   - Results are sorted by date, more recent first.\n\n5. **Search with Tags and Logical Operators:**\n   - Tags are ANDed by default, ORed if between parenthesis.\n   - Example: `author_pg,(story,poll)` filters on author=pg AND (type=story OR type=poll).\n\n6. **Pagination and Result Configuration:**\n   - A limited number of results are returned in each page.\n   - Use `nbPages` and `hitsPerPage` as variables to specify the number of results and page number.\n   - Example: `&page=2` or `hitsPerPage=50` in the search URL parameters.\n\n7. **Examples:**\n   - All stories matching \"foo\": `http://hn.algolia.com/api/v1/search?query=foo&tags=story`\n   - All comments matching \"bar\": `http://hn.algolia.com/api/v1/search?query=bar&tags=comment`\n   - Last stories: `http://hn.algolia.com/api/v1/search_by_date?tags=story`\n   - Comments since timestamp X: `http://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=created_at_i>X`\n   - Stories between timestamp X and Y: `http://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i>X,created_at_i",
+      "page_age": "2024-01-15T21:57:33"
+    },
+    {
+      "title": "Hacker News Search API: Query HN",
+      "url": "https://www.socialcrawl.dev/platforms/hackernews/search",
+      "description": "Hacker News Search API: query stories and comments by keyword with tags, numeric filters, hitsPerPage, and page paging. Tech-trend monitoring. Free 100 credits.",
+      "snippet": "# Hacker News Search API\nScrape Hacker News Search data with one API call. Searches Hacker News stories, comments, and front-page items via the Algolia HN API. Defaults to story-only results sorted by relevance. The HN Algolia index only exposes `created_at_i` for numeric filtering, so use `numericFilters` for date windows (e.g. `created_at_i>1700000000`)",
+      "page_age": "2026-08-18T20:36:46"
+    }
+  ],
+  "RSSHub routes instagram youtube reddit threads available instances": [
+    {
+      "title": "Deploy RSSHub",
+      "url": "https://railway.com/deploy/deploy-rsshub",
+      "description": "Deploy RSSHub | Convert any website to RSS to the cloud for free with Railway, the all-in-one intelligent cloud provider. 1-Click Deploy RSSHub - Self-Hosted RSS Feeds for YouTube, GitHub & More",
+      "snippet": "# Deploy and Host RSSHub\n## Common Use Cases\n- **Content aggregation** — pull YouTube channels, newsletters, and blogs into a single RSS reader (Feedly, NetNewsWire, Miniflux)\n- **Developer monitoring** — track GitHub releases, PyPI package updates, or Hacker News mentions of your project\n- **Media monitoring** — follow brand mentions and competitor activity across Reddit, Twitter/X, and forums without platform accounts\n- **Privacy-first social following** — subscribe to public social feeds without handing engagement data to the platform",
+      "page_age": "2026-03-09T18:06:03"
+    },
+    {
+      "title": "Deploy & Host RSSHub",
+      "url": "https://railway.com/deploy/rsshub-convert-any-website-to-rss--deploy-rsshub",
+      "description": "Deploy and host RSSHub | Convert any website to RSS on Railway in one click — always-on servers, built-in databases, and GitHub auto-deploys. 1-Click Deploy RSSHub - Self-Hosted RSS Feeds for YouTube, GitHub & More",
+      "snippet": "# Deploy RSSHub \\| Convert any website to RSS\n## Deploy and Host RSSHub\n### Getting Started with RSSHub After Deploying\n```\nhttps://your-app.railway.app/youtube/channel/UCxxxxxxxxxxxxxxxxxxxxxx\n```\n\n4. **Paste into your RSS reader** — drop that URL into Feedly, NetNewsWire, Miniflux, or any RSS client\n5. **Install RSSHub Radar** — the browser extension auto-detects available RSSHub routes on any page you visit, making discovery instant",
+      "page_age": "2026-03-09T00:00:00"
+    },
+    {
+      "title": "Deploy RSSHub — Turn Any Website Into an RSS Feed",
+      "url": "https://railway.com/deploy/rsshub-rss-generator",
+      "description": "Deploy RSSHub — Turn Any Website Into an RSS Feed to the cloud for free with Railway, the all-in-one intelligent cloud provider. Self-host RSSHub: turn any site into RSS. No rate limits.",
+      "snippet": "# Deploy and Host RSSHub on Railway\nRSSHub RSS feed generator\n\nRSSHub is the open-source RSS feed generator with **41k+ GitHub stars** that makes everything RSSible — turn YouTube channels, Reddit threads, Telegram groups, Twitter/X accounts, GitHub releases, Bilibili, Weibo, and 1,000+ other sources into clean RSS feeds, even when the site dropped native RSS years ago. Maintained by DIYgod and 800+ contributors, with new routes added constantly and a companion browser extension (RSSHub Radar) that detects feeds on any page",
+      "page_age": "2026-07-08T12:00:02"
+    },
+    {
+      "title": "Deploy & Host RSSHub — Turn Any Website Into an RSS Feed",
+      "url": "https://railway.com/deploy/rsshub-turn-any-website-into-an-rss-feed--rsshub-rss-generator",
+      "description": "Deploy and host RSSHub — Turn Any Website Into an RSS Feed on Railway in one click — always-on servers, built-in databases, and GitHub auto-deploys. Self-host RSSHub: turn any site into RSS. No rate limits.",
+      "snippet": "# Deploy and Host RSSHub on Railway\n## Deploy in Under 3 Minutes\n2. REDIS\\_URL and CACHE\\_TYPE=redis are pre-wired between the services\n3. Open your Railway URL — you'll see the RSSHub homepage with a searchable route list\n4. Build a feed URL: your domain + a route, e.g. /youtube/user/@channelname or /telegram/channel/name",
+      "page_age": "2026-07-08T00:00:00"
+    },
+    {
+      "title": "RSSHub: The Revolutionary RSS Generator Every Developer Needs - ...",
+      "url": "https://www.blog.brightcoding.dev/2026/02/10/rsshub-the-revolutionary-rss-generator-every-developer-needs",
+      "description": "Discover RSSHub, the revolutionary open-source RSS generator with 5,000+ instances. Learn installation, custom routes, and real code examples to transform any website into a feed. Complete technical guide.",
+      "snippet": "Discover RSSHub, the revolutionary open-source RSS generator with 5,000+ instances. Learn installation, custom routes, and real code examples to transform any website into a feed.",
+      "page_age": "2026-06-07T19:27:27"
+    },
+    {
+      "title": "r/rss on Reddit: I replaced my Twitter and Instagram accounts with ...",
+      "url": "https://www.reddit.com/r/rss/comments/9xeki7/i_replaced_my_twitter_and_instagram_accounts_with/",
+      "description": "true",
+      "snippet": "# I replaced my Twitter and Instagram accounts with RSSHub\n```\nhttps://rsshub.app/instagram/user/username   \n(I also did youtube channels because why not)   \nhttps://rsshub.app/youtube/user/username   \nhttps://rsshub.app/youtube/channel/channel-id```    \n*this site works with many other services, just check the docs for anything you might be interested in*\n\nTo preface, the only reason I use Instagram or Twitter is to follow the internet personalities I'm interested in. I had no reason to post anything, I was there for the updates. Though as a result of having an account for just updates, my twitter had hundreds of inferred interests of mine and I had to deactivate ~300 advertisers manually. Instagram, being owned by Facebook, is definitely doing the same thing except with 100% less end user control. If I'm not  even really taking part, then why do I have to consent to all this garbage???     \nI'm making this in case anyone else has been looking for a solution to a similar problem.\n\nA few days ago I found the RSSHub Docs and was a bit suprised to see something new claiming to work with Instagram and Twitter. Then it actually *did* work. I added all the accounts I actually cared about to a text file, then used some replace magic to add the preceding links to make them feeds.\n\nI imported all the resulting links into [Flym](https://f-droid.org/app/net.frju.flym), and grouped them according to 'creed'. Now these updates I wanted from different places and different accounts all appear, organized in a single app. \n\nAnd the best part: I don't even need an account with these companies anymore. I don't need to consent to anything just to see that my dude said he's gonna stream soon or whatever.\n\nTLDR: Visit the first link below, export your subscriptions, find an RSS reader that you like, and group your feeds.\n\n[RSSHub Website/Documentation](https://docs.rsshub.app/en#twitter)   \n[RSSHub Repo](https://github.com/DIYgod/RSSHub)    \n*Disclaimers: The creator speaks and makes commits in Chinese.   \nThe Twitter RSS doesn't currenty support seeing replies or whats being retweeted, but it probably could with the right minds working on it*\n\nI am in no way affiliated with RSSHub, nor its creators/supporters.\n```",
+      "page_age": "2018-11-15T19:48:11"
+    },
+    {
+      "title": "Welcome to RSSHub!",
+      "url": "https://rsshub.rssforever.com/",
+      "description": "",
+      "snippet": "# Welcome to RSSHub!\nHot Routes: 498897 /telegram/channel/:username/:routeParams? 57690 /twitter/user/:id/:routeParams? 27960 /api/route/status 14633 /36kr/:category/:subCategory?/:keyword? 7277 /bilibili/user/video/:uid/:embed? 5999 /cls/telegraph/:category? 5887 /weibo/user/:uid/:routeParams? 5790 /jin10/:important?",
+      "page_age": "2025-11-07T11:47:36"
+    },
+    {
+      "title": "social-media",
+      "url": "https://rsshub.netlify.app/routes/social-media",
+      "description": "Bilibili",
+      "snippet": "# social-media\n## Bilibili\n### 分区视频\n广告\n\n广告\n166\n\n资讯\n\n| 热点 | 环球 | 社会 | 综合 |\n| --- | --- | --- | --- |\n| 203 | 204 | 205 | 206 |\n\n娱乐\n\n| 综艺 | 明星 | Korea 相关 |\n| --- | --- | --- |\n| 71 | 137 | 131 |\n\n影视",
+      "page_age": "2024-03-17T00:00:00"
+    }
+  ],
+  "AppSumo AI tools lifetime deal RSS feed": [
+    {
+      "title": "FeedBoss - Exclusive Lifetime Deal: $59 once vs $144/yr",
+      "url": "https://appsumo.com/products/feedboss/",
+      "description": "Get a LinkedIn strategist that decides what to post, drafts in your voice, and grounds it in your knowledge. Discover the best deal for FeedBoss on AppSumo today.",
+      "snippet": "# FeedBoss FeedBoss\n### Choose a plan\n- Lifetime access\n- Refundable up to 60 days\n- Plus members are covered by our We Got Your Back guarantee\n\nAppSumo Launchpad\n\nChosen by AppSumo for their potential and innovation\n\nJust because your LinkedIn post from Thursday is going viral doesn't mean you're off the hook for Friday. FeedBoss learns your profile, voice, and knowledge, then hands you a fresh idea whenever you need it",
+      "page_age": ""
+    },
+    {
+      "title": "Great software with a huge potential!",
+      "url": "https://appsumo.com/products/postoplan/questions/how-many-rss-feeds-can-we-connect-1164333/",
+      "description": "Great software with a huge potential! There is just one core feature I cant find; multilingual language support. To have the live chat translated in real time.",
+      "snippet": "### POSTOPLAN\n##### Related questions\n- It's not fair... we Appsum users believed and invested in you who changed plans.... now at 6.90 per month you give unlimited posts when we start from 500 with lifetimes. Instead of considering ourselves founders and adapting the our plans to those of the public you have left us behind. Sad\n\nView product details",
+      "page_age": "2024-08-04T19:57:33"
+    },
+    {
+      "title": "50 Best AppSumo Lifetime Deals in August 2026",
+      "url": "https://www.99signals.com/appsumo-deals/",
+      "description": "Discover the 50 most powerful AppSumo lifetime deals this month. Curated and updated weekly with real savings.",
+      "snippet": "# 50 Best AppSumo Lifetime Deals in August 2026\nThe best part about the deals offered by AppSumo is that, in most cases, you get lifetime access to the products, meaning you just need to pay once for a software that follows a monthly subscription model. In other words, with AppSumo, **you’ll never have to pay full price for business software again.**",
+      "page_age": "2026-08-11T02:59:19"
+    },
+    {
+      "title": "SendFox - Lifetime Deal: $29 once vs Mailchimp $156/yr",
+      "url": "https://appsumo.com/products/sendfox/",
+      "description": "Schedule campaigns, automate sequences, and grow your list with branded landing pages and forms. Discover the best deal for SendFox on AppSumo today.",
+      "snippet": "# SendFox SendFox\n## Write, automate, and grow your list with a block-based editor, smart dashboard, and custom-domain landing pages\n### Let your automations do the follow-up\n- **Build multi-step welcome, onboarding, or launch sequences** that run on their own.\n- **A/B test the emails inside an automation**—split traffic between two variants and let SendFox pick the winner.\n- **Turn new blog or podcast posts into newsletters automatically** with RSS-to-email Smart Campaigns.\n\nLet your automations do the follow-up",
+      "page_age": "2026-06-09T17:39:00"
+    },
+    {
+      "title": "Shop by feature: AI",
+      "url": "https://appsumo.com/collections/features/ai/",
+      "description": "Find AI tools that help you run your business for less",
+      "snippet": "# Shop by feature: AI\n10 reviews\n\n4.9 stars\n\n4.9 stars\n\n10 reviews\n\n$59/lifetime$120\n\nFeedBoss\n\nFeedBoss\n\nPrice increases in 4 days\n\nFeedBoss in Social Media Management\n\nGet a LinkedIn strategist that decides what to post, drafts in your voice, and grounds it in your knowledge\n\n4.93 stars\n\n4.93 stars\n\n61 reviews\n\n4.93 stars\n\n4.93 stars\n\n61 reviews\n\n4.93 stars\n\n4.93 stars\n\n61 reviews",
+      "page_age": "2026-08-10T02:30:26"
+    },
+    {
+      "title": "100+ Best AppSumo Lifetime Deals & Offers (August 2026)",
+      "url": "https://lifetimedeals.bloggingjoy.com/",
+      "description": "Discover the best AppSumo lifetime deals in December 2025. Compare top software offers, coupons, and discounts to save on SaaS tools with one-time pricing.",
+      "snippet": "# Best Lifetime Deals for Entrepreneurs, Creators & Small Businesses\n## Featured AppSumo Black Friday Deals 2025\n### AI Studio Bundle – 95% OFF\nGet 1-year access to three premium AI tools — Fathom, Speechify, and HeyGen — to create, record, transcribe, and automate content faster than ever.\n\n**Why to grab:** Save $700+ in one bundle, limited-time offer, insane value for creators\n\n**Best for:** Content creators, founders, marketers, and remote teams",
+      "page_age": "2025-12-10T05:18:57"
+    },
+    {
+      "title": "Browse software deals for your business.",
+      "url": "https://appsumo.com/browse/",
+      "description": "Top software deals for entrepreneurs at incredible prices. Discover the latest productivity, marketing, and content tools for your business with no monthly fees.",
+      "snippet": "# Browse products\n14 reviews\n\n4.21 stars\n\n4.21 stars\n\n14 reviews\n\n$139/lifetime$299\n\nFeedBoss\n\nFeedBoss\n\nPrice increases in 2 days\n\nFeedBoss in Social Media Management\n\nGet a LinkedIn strategist that decides what to post, drafts in your voice, and grounds it in your knowledge\n\n4.93 stars\n\n4.93 stars\n\n61 reviews\n\n4.93 stars\n\n4.93 stars\n\n61 reviews\n\n4.93 stars\n\n4.93 stars\n\n61 reviews",
+      "page_age": "2024-10-07T16:45:04"
+    },
+    {
+      "title": "RSS FEED",
+      "url": "https://appsumo.com/products/followr/questions/rss-feed-1365742/",
+      "description": "Hi |I have looked through questions asked and you stated in a post that RSS was coming soon. Id Like to ask if that is now ready? Thanks",
+      "snippet": "Followr\nSold out\nAppSumo Select\nFollowr\nWhite label this AI-powered platform and automate social media management for your clients\n3.80 stars\n3.80 stars\n301 reviews\n|Product details external link icon\n**This deal is unavailable (a bummer, we know).** Don't miss a great deal again — drop your email to get all our latest tools!",
+      "page_age": "2025-05-22T18:53:15"
+    }
+  ],
+  "theresanaiforthat Futurepedia new AI tools feed RSS": [
+    {
+      "title": "AI Tools Scraper",
+      "url": "https://apify.com/scrapesage/futurepedia-scraper/api/javascript",
+      "description": "Learn how to interact with Futurepedia Scraper - AI Tools, Ratings, Pricing & Leads API in JavaScript. Includes an example JavaScript code snippet to he...",
+      "snippet": "# Futurepedia Scraper - AI Tools, Ratings, Pricing & Leads\n## You might also like\n### AI Tools Directory Scraper - Trending AI Tools + Maker Emails\nalexdany/ai-tools-launch-radar\n\nScrape a live, ranked feed of trending & newly-launched AI tools with categories, tags, ratings, launch dates, plus optional maker-email enrichment for AI startup leads. Pay-per-result from $3/1K, sourced from TheresAnAIForThat (TAAFT).\nAlex\n2",
+      "page_age": "2026-09-03T06:29:26"
+    },
+    {
+      "title": "Feed rss - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/feed+rss/",
+      "description": "Browse 22 Feed rss AIs. Includes tasks such as Newsletters, Email management, Productivity, News summaries and Podcasts.",
+      "snippet": "Browse 22 Feed rss AIs. Includes tasks such as Newsletters, Email management, Productivity, News summaries and Podcasts.",
+      "page_age": ""
+    },
+    {
+      "title": "AI Tools Scraper",
+      "url": "https://apify.com/scrapesage/futurepedia-scraper",
+      "description": "Scrape the Futurepedia AI tools directory: ratings, pricing tiers, categories, websites & socials. Monitor new AI tool launches or export B2B leads.",
+      "snippet": "# Futurepedia Scraper — AI Tools, Ratings, Pricing & Leads\n## How to use\n1. Sign up for Apify — the free plan is enough to try this actor.\n2. Open the **Futurepedia Scraper**, enter search keywords or categories (or leave empty to grab the newest tools), and click **Start**.\n3. Watch results stream into the dataset table.\n4. **Export** as JSON, CSV, Excel, XML, or RSS — or pull results programmatically via the Apify API",
+      "page_age": "2026-09-03T06:29:26"
+    },
+    {
+      "title": "Rss - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss/",
+      "description": "Browse 40 Rss AIs. Includes tasks such as Newsletters, Websites, Global news summaries, Customer calls analysis and Summaries.",
+      "snippet": "Browse 40 Rss AIs. Includes tasks such as Newsletters, Websites, Global news summaries, Customer calls analysis and Summaries",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feed - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feed/",
+      "description": "Browse 17 Rss feed AIs. Includes tasks such as Newsletters, News, Email management, Social media posts and Productivity.",
+      "snippet": "Browse 17 Rss feed AIs. Includes tasks such as Newsletters, News, Email management, Social media posts and Productivity.",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feeds - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feeds/",
+      "description": "Browse 17 Rss feeds AIs. Includes tasks such as Global news summaries, Customer calls analysis, Apps, Newsletters and Email management.",
+      "snippet": "Browse 17 Rss feeds AIs. Includes tasks such as Global news summaries, Customer calls analysis, Apps, Newsletters and Email management",
+      "page_age": ""
+    },
+    {
+      "title": "Provide an rss feed and get a brief summary - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/provide+an+rss+feed+and+get+a+brief+summary/",
+      "description": "Browse 11 Provide an rss feed and get a brief summary AIs. Includes tasks such as Book summaries, Newsletters, Summaries, Global news summaries and Reading.",
+      "snippet": "Browse 11 Provide an rss feed and get a brief summary AIs. Includes tasks such as Book summaries, Newsletters, Summaries, Global news summaries and Reading.",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feed integration - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feed+integration/",
+      "description": "Browse 18 Rss feed integration AIs. Includes tasks such as Social media posts, Newsletters, Social media, Podcast summaries and Content.",
+      "snippet": "Browse 18 Rss feed integration AIs. Includes tasks such as Social media posts, Newsletters, Social media, Podcast summaries and Content.",
+      "page_age": ""
+    }
+  ],
+  "free AI credits startups 2026 cloud LLM API credits programs": [
+    {
+      "title": "Free AI API Credits 2026: Every Provider Compared",
+      "url": "https://www.getaiperks.com/en/blogs/27-ai-api-free-tier-credits-2026",
+      "description": "Compare free AI API credits from OpenAI, Anthropic, Gemini, Grok, Mistral & 10+ more. See sign-up credits, free tiers, and how to get $10,000+ via AI Perks.",
+      "snippet": "# Free AI API Credits 2026: Every Provider Compared\n## How Much Free AI API Credit Can You Get in 2026?\n| Provider | Sign-Up Credits | Free Tier Type | Credit Card Required | Best For |\n| --- | --- | --- | --- | --- |\n| OpenAI | $5 | Trial credits (3-month expiry) | No | GPT-4o, GPT-4.1, o3 |\n| Anthropic | $5 | Trial credits | No | Claude Sonnet, Haiku, Opus |\n| Google Gemini | Unlimited | Rate-limited free access | No | All Gemini models |\n| xAI (Grok) | $25 + $150/mo | Sign-up bonus + data program | No | Grok-3, Grok-3 Mini |\n| Mistral | Unlimited | Free Experiment plan | No | All Mistral models |\n| Together AI | Up to $100 | Trial credits | No | 200+ open-source models |\n| Groq | Unlimited | Rate-limited free access | No | Ultra-fast inference |\n| DeepSeek | Unlimited | Rate-limited free access | No | DeepSeek-V3, R1 |\n| AI21 | $10 | Trial credits (3-month expiry) | No | Jamba models |\n| Cohere | Free trial | Rate-limited, non-commercial | No | Embeddings, RAG |\n| Fireworks AI | $1 | Trial credit | No | Fast inference |\n| Cerebras | Unlimited | Rate-limited free access | No | Ultra-fast inference |\n| Stability AI | Free tier | Rate-limited access | No | Image generation |\n| fal.ai | Free credits | Trial credits | No | Image and video AI |\n| OpenRouter | Free models | Rate-limited access | No | Model aggregation |",
+      "page_age": "2026-02-19T00:00:00"
+    },
+    {
+      "title": "Free credits for startups · Free LLM API Hub",
+      "url": "https://freellmapihub.com/programs/startups",
+      "description": "Apply-to-get credit programs that can fund LLM / AI-model API usage — volatile, so confirm the current terms before you rely on one. Different from the self-serve dataset: these need eligibility and an application.",
+      "snippet": "# Free credits for startups\n| Program | What you get | Funds LLM API? | Who qualifies |\n| --- | --- | --- | --- |\n| AWS Activate | Up to $200k AWS credits (marketing max; self-serve tier far smaller); explicitly redeemable on Bedrock LLMs | ◐ via cloud | Any stage; top tiers need a referral from an approved AWS Activate provider |\n| Microsoft for Startups Founders Hub | Up to $150k Azure credits (unlocked across tiers); covers Azure OpenAI | ◐ via cloud | Software startups; no stage/funding threshold; services-only firms excluded |\n| Google for Startups Cloud | Up to $200k GCP credits over 2 yr (up to $350k for AI-focused startups); covers Vertex AI / Gemini | ◐ via cloud | Equity-funded early-stage, no prior GCP credits; higher tiers via accelerator/VC |\n| OVHcloud Startup | €10k (Start) to €100k (Scale) cloud credits over 12 months + engineer time | ◐ via cloud | Early-stage / scale-up, by approval; EU (GPU-focused) |\n| Anthropic — Claude for Startups | Free Claude API credits + priority rate limits (amount not published) | ✅ LLM API | Equity-backed, founded <4 yr ago, no prior Anthropic credits; first-party API only |\n| OpenAI Startup Program | Free OpenAI API credits + rate-limit upgrades + SE time | ✅ LLM API | Backed by a partner-network VC; needs an investor referral code — not self-serve |\n| Cohere Startup Program | Reduced API pricing + support (discount % not on the official page) | ◐ via cloud | Early-stage AI startups; zero-equity; rolling applications |\n| Together AI Startup Accelerator | Up to $15k / $30k / $50k platform credits by funding tier (hosted open models + fine-tuning) | ✅ LLM API | AI-native, tiered by raise ($10M) |\n| Fireworks AI Startup Program | \"Build credits\" + higher rate limits (amount not published) | ✅ LLM API | Early-stage AI startups (apply) |\n| Baseten AI Startup Program | Up to $27.5k credits ($25k dedicated + $2.5k Model APIs) + eng support | ✅ LLM API | Seed–Series A, <5 yr, AI-central, new customer |\n| Nebius for Startups | $5k intro credits (\\~1,600 H100-hrs) + up to $100k discounts (GPU/compute) | ◐ via cloud | AI-native, <7 yr, VC-backed, \\~$5M+ raised; selective |\n| Modal for Startups | \"Thousands\" of free GPU credits (serverless compute) | ◐ via cloud | Seed–B+, VC-backed or >$1M raised, new customer |\n| NVIDIA Inception | Preferred hardware pricing, partner cloud credits, training, ecosystem access | ◐ via cloud | Incorporated, <10 yr, ≥1 developer; pre-revenue OK |\n| Scaleway Startup Program | €1k / €9k / €36k credits by tier; covers Generative APIs | ◐ via cloud | <5 yr, <50 employees, going to market, not yet a client (EU) |\n| Perplexity for Startups | $5k Sonar API credits + 6 months Enterprise Pro (up to 50 seats) | ✅ LLM API | <5 yr old, raised <$20M, backed by an approved VC/accelerator partner |\n| DigitalOcean Hatch | Up to \\~$10k/mo credit limit over 12 mo (amount varies); base credits exclude GPU Droplets — select startups invited to apply for separate GPU credits | ◐ via cloud | AI-native startups that raised ≤$10M; business email required |\n| Pinecone Startup Program | Free Standard tier + Pro Support + usage credits (amount not published); vector DB / RAG infra, not model inference | ✖ perks only | <100 employees, Series A or earlier; no VC referral required |\n| Weaviate Startup Deal | Discounted Weaviate Cloud access (terms not published); vector DB / RAG infra | ✖ perks only | Early-stage with a partner-program / VC affiliation (e.g. YC, Techstars) |",
+      "page_age": ""
+    },
+    {
+      "title": "Free AI API Credits in 2026: 11 Providers Compared",
+      "url": "https://perkstack.co/blog/free-ai-api-credits",
+      "description": "Free AI API credits in 2026 at a glance: 11 providers, amounts, and card requirements in one table, from a $5 no-card grant to $300 in cloud credit.",
+      "snippet": "# Free AI API Credits in 2026: 11 Providers Compared\n## Free AI credits at a glance\n| Provider | Type | Amount | Card required | Best for |\n| --- | --- | --- | --- | --- |\n| SambaNova | Signup credit | \\~$5 | No | Fast open-model LLM calls |\n| Google AI Studio | Free tier | Indefinite | No | General LLM + image |\n| Groq | Free tier | Daily allowance | No | Low-latency LLM |\n| Cerebras | Free tier | \\~1M tokens/day | No | High-volume prototyping |\n| Deepgram | Signup credit | $200 | No | Speech-to-text / TTS |\n| AssemblyAI | Signup credit | $50 | No | Transcription |\n| fal.ai | Signup credit | \\~$20 | No | Image / video |\n| Baseten | Signup credit | $30 | No | Model deployment |\n| DigitalOcean | Cloud credit | $200 / 60d | Yes | Hosting |\n| Oracle Cloud | Cloud credit | $300 + Always Free | Yes | Hosting + permanent free |\n| Modal | Free tier | $30 / month | No | Serverless GPU |",
+      "page_age": "2026-08-05T00:00:00"
+    },
+    {
+      "title": "$400K in Free AI API Credits 2026: OpenAI, Anthropic, Mistral, ...",
+      "url": "https://klymentiev.com/blog/free-ai-api-credits",
+      "description": "Every AI startup credit program in 2026: OpenAI for Startups, Anthropic Startup Program, Mistral Mistralship, Together AI, Cohere, Deepgram, AssemblyAI, Runway, Fireworks, ElevenLabs, Perplexity, Thesys.",
+      "snippet": "Every AI startup credit program in 2026: OpenAI for Startups, Anthropic Startup Program, Mistral Mistralship, Together AI, Cohere, Deepgram, AssemblyAI, Runway, Fireworks, ElevenLabs, Perplexity, Thesys.",
+      "page_age": "2026-06-10T00:00:00"
+    },
+    {
+      "title": "The Complete 2026 Startup Credits Stack: Over $1M in Free Cl",
+      "url": "https://www.callmissed.com/en/blog/the-complete-2026-startup-credits-stack-over-1m-in-free-cloud-ai-and-saas",
+      "description": "Did you know that in 2026, startups can unlock over $1 million in free credits spanning cloud, AI, and SaaS tools, often with no strings attached? For the...",
+      "snippet": "# The Complete 2026 Startup Credits Stack: Over $1M in Free Cloud, AI, and SaaS\n## Prerequisites & Setup (TABLE)\n| Provider/Program | Key Prerequisites | Typical Credit Range | Application Complexity | Eligibility Factors |\n| --- | --- | --- | --- | --- |\n| AWS Activate | Valid business email, startup website, company incorporated  No prior AWS Activate benefits claimed | $1,000–$100,000+ | Moderate | Early-stage, up to Series A, select accelerators |\n| Google Cloud for Startups | VC/accelerator backing preferred, business domain, pitch deck  Company <5 years old | $2,000–$350,000 | Moderate | New cloud users, startup, or alumni of select programs |\n| Microsoft Founders Hub | LinkedIn profile, valid company domain, product overview | $1,000–$150,000 | Low–Moderate | Open to all stages, no funding required up front |\n| Anthropic Startup Program | AI focus, pitch deck, founder details  Preference for ML/AI products | $3,000–$100,000+ | Moderate | 2020+ founded, global, AI-first teams |\n| CallMissed AI Stack Credits | Product/website, early-stage focus, use case statement | Up to $10,000 | Low | Tech startups, preference for Indian or APAC startups |\n| Stripe Atlas/Startup | Business incorporation docs, product URL  Stripe account | $5,000–$50,000 (partner offers) | Easy–Moderate | New businesses, often US/EU focus, global exceptions |",
+      "page_age": "2026-06-01T09:01:04"
+    },
+    {
+      "title": "Free OpenAI API Credits 2026: What's Real and What Isn't",
+      "url": "https://perkstack.co/blog/openai-api-free-credits",
+      "description": "OpenAI no longer hands out standing free API credits: here's what's actually available, plus the free alternatives that let you test GPT-class models for $0.",
+      "snippet": "# Free OpenAI API Credits 2026: What's Real and What Isn't\n## The better play: free alternatives for the same workloads\n- **Google Gemini**: a free tier with no credit card and no billing setup. See our Gemini free tier guide.\n- **Cerebras**: up to 1,000,000 tokens/day free.\n- **Groq, Mistral, Cohere**: free tiers for prototyping.\n- **SambaNova**: $5 in instant signup credits",
+      "page_age": "2026-07-23T00:00:00"
+    },
+    {
+      "title": "AI Credits for Startups — Anthropic, OpenAI, Mistral & More",
+      "url": "https://creditforstartups.com/credits/ai",
+      "description": "AI credits for startups: claim free credits on Anthropic, OpenAI, Cohere, Mistral, Perplexity and other AI platforms. Compare offers side by side.",
+      "snippet": "# AI & ML Credits for Startups\n| Tool | Potential Value | Description | Approval Index | Action |\n| --- | --- | --- | --- | --- |\n| Google Cloud logo Google Cloud Cloud | $350,000 | Provides up to $200,000 in credits for cloud services and infrastructure. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility Must be less than 5 years old Must have received less than Series A funding Must not be a previous Google Cloud Platform program participant Must have a company website Must be associated with an approved accelerator, incubator, or VC firm (for full program) Programs Google for Startups Cloud Program $200,000 Google for Startups Cloud Program (AI track) $350,000 View full breakdown Apply on Google Cloud |  |  |  |  |\n| Microsoft logo Microsoft Cloud | $150,000 | Offers up to $150,000 in Azure credits for cloud services and development tools. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility Must be less than 7 years old Must have annual revenue less than $10M Must not be a previous Microsoft for Startups participant Must have a professional website Must be building a business-to-business technology solution Programs Microsoft for Startups Founders Hub $150,000 Azure Cloud Credits for Startups $5,000 Microsoft for Startups — Investor Offer $100,000 View full breakdown Apply on Microsoft |  |  |  |  |\n| IBM logo IBM Cloud | $120,000 | Provides up to $120,000 cloud credits for cloud services and AI. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Must be less than 5 years old Must have less than $1M in annual revenue Must not be a current IBM Cloud customer Must have a minimum viable product Must be building an innovative technology solution Programs Startup with IBM $120,000 View full breakdown Apply on IBM |  |  |  |  |\n| AWS logo AWS Cloud | $100,000 | Up to $100,000 in AWS startup credits through AWS Activate — cloud infrastructure, AI model credits via Amazon Bedrock, and up to $1M for select accelerator cohorts. | Open to All |  |\n| Approval Index Open to All Available to most startups Eligibility Must be less than 10 years old Must not have previously received AWS Activate credits Must be privately held Must have a professional company website and email Must be a member of an approved accelerator, incubator, VC, or other startup organization (for full $100k credits) Programs AWS Activate $100,000 AWS Activate Founders $1,000 AWS Activate (Portfolio/Founders) $100,000 View full breakdown Apply on AWS |  |  |  |  |\n| Anthropic logo Anthropic AI models / API | $100,000 | Claude startup credits: free Claude API credits and Anthropic's highest rate limits for startups founded in the last four years with institutional equity funding. Community tier is open to any early-stage founder. Self-serve application on claude.com. | Open to All |  |\n| Approval Index Open to All Available to most startups Eligibility For credits: founded within the last four years, equity funding from an institutional investor, and no previous Anthropic startup credits Community tier is open to any early-stage founder; backing from an Anthropic partner VC / accelerator unlocks additional benefits Credits apply to the first-party Claude API only (not Bedrock, Vertex AI or Foundry) Programs Claude for Startups $25,000 - $100,000+ View full breakdown Apply on Anthropic |  |  |  |  |\n| New credits added monthly — get them first Join 3,000+ founders. One email/month, no spam. Email address |  |  |  |  |\n| Databricks logo Databricks Data & AI | $50,000 | Provides up to $50,000 in credits for data and AI workloads. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility VC‑backed focus; pre‑seed/seed in accelerator. Programs Databricks for Startups Up to $50,000 View full breakdown Apply on Databricks |  |  |  |  |\n| Together AI logo Together AI AI / Infrastructure | $50,000 | AI acceleration cloud offering tiered platform credits up to $50K plus dedicated AI engineering support for inference, fine-tuning, and clusters. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Startup building generative AI applications on the Together AI platform Tier set by fundraising: Build under $5M, Scale $5M-$10M, Grow over $10M Programs Together AI Startup Accelerator Up to $50,000 in platform credits View full breakdown Apply on Together AI |  |  |  |  |\n| Mistral AI logo Mistral AI AI models / API | $30,000 | Provides approximately €30,000 in credits for La Plateforme plus cohort mentorship through their 6-month startup program. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility Cohorts of \\~10 startups; 6‑month program. Programs Mistralship (Startup Program) $30,000 View full breakdown Apply on Mistral AI |  |  |  |  |\n| Runware logo Runware Partner AI / Infrastructure | $30,000 | Unified AI inference API for image, video, audio, LLM, and 3D generation, offering up to $30K in API credits through its Grant Program for early-stage teams building on Runware. | Open to All |  |\n| Approval Index Open to All Available to most startups Eligibility A real product or a credible MVP — not just an idea on paper Early-stage startup, before Series A (bootstrapped teams welcome) Building or launching on Runware within the next six months Reachable via a business email tied to your product or company Programs Runware Grant Program Up to $30,000 in API credits View full breakdown Apply on Runware |  |  |  |  |\n| Modal logo Modal AI / Infrastructure | $25,000 | Serverless GPU and CPU compute platform offering early-stage AI startups up to $25K in credits, engineering support, and a founder community. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility New to Modal (not an existing paid customer) Raised from a Modal VC partner, or over $1M from any fund (Seed-Series A) Programs Modal Startup Program Up to $25,000 in credits View full breakdown Apply on Modal |  |  |  |  |\n| Neo4j logo Neo4j Partner Database / AI | $16,000 | Neo4j's Startup Program gives early-stage teams Aura credits for a fully managed, production-ready graph database, plus technical enablement and go-to-market support for building GraphRAG and AI apps. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Series B or earlier, building a single product for many customers (dev shops, consultants, and marketing agencies are not eligible) Live, functioning website and a valid company LinkedIn profile with a direct association to the applicant Programs Neo4j Startup Program Up to $16,000 in Aura credits View full breakdown Apply on Neo4j |  |  |  |  |\n| Fireworks AI logo Fireworks AI AI / Infrastructure | $10,000 | Fast-inference platform offering AI-native startups build credits, higher rate limits, and applied-engineer support to ship generative AI on open-weight models. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility AI-native startup building generative AI apps that need fast, reliable inference Early-stage company (pre-seed through Series B per third-party listings) Programs Fireworks for Startups Up to $10,000 in credits View full breakdown Apply on Fireworks AI |  |  |  |  |\n| Replicate logo Replicate AI / Infrastructure | $10,000 | Run open-weight AI models via API with per-second billing; startups can claim inference credits with no VC referral required. | VC-Backed |  |\n| Approval Index VC-Backed Typically requires VC partner intro Eligibility AI/ML startup building a production product (not research), pre-Series B Company-domain identity and a legitimate use case Programs Replicate Startup Program $1,000-$10,000 in inference credits View full breakdown Apply on Replicate |  |  |  |  |\n| Perplexity AI logo Perplexity AI AI search / API | $5,000 | Grants 6 months of Enterprise Pro (up to 50 seats) plus $5,000 in API credits for AI-powered search integration. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Must be associated with an approved startup partner; early‑stage focus. Programs Perplexity for Startups $5,000 View full breakdown Apply on Perplexity AI |  |  |  |  |\n| OpenAI logo OpenAI AI models / API | $5,000 | Up to $5,000 in OpenAI API credits — including the GPT-4o and ChatGPT API models — for venture-backed startups through OpenAI for Startups. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Must be less than 5 years old from incorporation Must be venture-backed via an OpenAI partner VC/accelerator OR enrolled through Ramp with verified VC funding Pre-revenue startups eligible with a functional product or prototype One credit grant per OpenAI organization — cannot be stacked Credits expire 12 months from issuance and are non-transferable Programs OpenAI for Startups Up to $5,000 in API credits View full breakdown Apply on OpenAI |  |  |  |  |\n| ElevenLabs logo ElevenLabs AI voice | $4,000+ | 33 million characters of audio generation (680+ hours) over 12 months for startups with fewer than 25 employees. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Early‑stage companies building with voice AI; rolling application. Programs ElevenLabs Startup Grants $4,000+ (33M characters) View full breakdown Apply on ElevenLabs |  |  |  |  |\n| Weights & Biases logo Weights & Biases AI / Infrastructure | $3,000 | ML experiment tracking and LLM evaluation platform offering startups discounted Pro access, mainly through Microsoft and Google Cloud partner programs. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility New W&B customer (Microsoft offer is new-customers-only) Member of a qualifying partner program (Microsoft for Startups or Google Cloud Startup Perks) Programs W&B for Startups (via partners) 50% off Pro for 1 year (\\~$3,000) View full breakdown Apply on Weights & Biases |  |  |  |  |\n| Hugging Face logo Hugging Face AI / Infrastructure | $108 | Open-source AI hub offering startups free PRO access for a limited time, distributed via partner perk marketplaces and promo codes. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Early-stage AI startup building on Hugging Face infrastructure Eligible HF account with the perk or promo applied before upgrading Programs Hugging Face PRO for Startups Free PRO ($9/mo value) for a limited time View full breakdown Apply on Hugging Face |  |  |  |  |\n| Cohere logo Cohere AI models / API | Varies | Offers discounted enterprise AI pricing (up to 25% off) and grant access through Cohere Labs for early-stage startups. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Early‑stage startups; separate Catalyst Grants for researchers/impact orgs. Programs Cohere Startup Program Varies View full breakdown Apply on Cohere |  |  |  |  |\n| Pinecone logo Pinecone Vector DB | Varies | Offers usage credits, discounts, Pro support, and access to all regions for vector database infrastructure. | Conditions |  |\n| Approval Index Conditions Specific eligibility criteria apply Eligibility Series A or earlier; <100 employees. Programs Pinecone for Startups Varies View full breakdown Apply on Pinecone |  |  |  |  |\n| MongoDB logo MongoDB Database / AI | Varies |  |  |  |",
+      "page_age": "2026-07-07T13:45:05"
+    },
+    {
+      "title": "Anthropic Claude Free Credits: up to $300 of free credits - 2026",
+      "url": "https://www.founderpass.com/partners/claude",
+      "description": "Get $300 in free Anthropic Claude credits via LLM API. No markup, no subscription. Ideal for founders building and testing AI products.",
+      "snippet": "# Anthropic Claude Free Credits\nNew users with business email addresses can access free credits ranging from $50 to $300 for Google Gemini models via the LLM API platform. To claim credits, deposit between $50 and $300 to your LLM API account, and you'll receive 2x credits.\n\nThese credits are available to new users and can be used across key Claude models, including Claude 3.5 Sonnet and Opus. LLM API operates as a free gateway, meaning founders pay standard Anthropic rates with no additional platform fees or subscription requirements",
+      "page_age": "2026-09-07T00:00:00"
+    }
+  ],
+  "OpenAI Google Anthropic Mistral official blog RSS feed URL": [
+    {
+      "title": "GitHub - Olshansk/rss-feeds: Generate RSS feeds for all the blogs ...",
+      "url": "https://github.com/Olshansk/rss-feeds",
+      "description": "Generate RSS feeds for all the blogs that don't have one - Olshansk/rss-feeds",
+      "snippet": "# RSS Feed Generator\n## tl;dr Available RSS Feeds\n| Blog | Feed |\n| --- | --- |\n| AI at Meta Blog | feed\\_meta\\_ai.xml |\n| AI FIRST Podcast (German) | feed\\_ai\\_first\\_podcast.xml |\n| AISI Blog | feed\\_aisi.xml |\n| Anthropic Engineering | feed\\_anthropic\\_engineering.xml |\n| Anthropic Frontier Red Team | feed\\_anthropic\\_red.xml |\n| Anthropic News | feed\\_anthropic\\_news.xml |\n| Anthropic Research | feed\\_anthropic\\_research.xml |\n| Chander Ramesh's Writing | feed\\_chanderramesh.xml |\n| Claude Blog | feed\\_claude.xml |\n| Claude Code Changelog | Official RSS |\n| Cloudflare skills (commits/main) | Official RSS |\n| Cohere Blog | feed\\_cohere.xml |\n| Cursor Blog | feed\\_cursor.xml |\n| Dagster Blog | feed\\_dagster.xml |\n| FAR.AI Publications | feed\\_far\\_ai.xml |\n| EleutherAI Papers | feed\\_eleuther\\_papers.xml |\n| Goodfire Research | feed\\_goodfire.xml |\n| Google DeepMind Blog | Official RSS |\n| Google Developers Blog - AI | feed\\_google\\_ai.xml |\n| Groq Blog | feed\\_groq.xml |\n| Hamel Husain's Blog | Official RSS |\n| Interconnected (Matt Webb) | Official RSS |\n| Mistral AI News | feed\\_mistral.xml |\n| Ollama Blog | feed\\_ollama.xml |\n| OpenAI Engineering | Official RSS |\n| OpenAI Developer Blog | feed\\_openai\\_developer.xml |\n| OpenAI Engineering | feed\\_openai\\_engineering.xml |\n| OpenAI Research | Official RSS |\n| Paul Graham's Articles | feed\\_paulgraham.xml |\n| Perplexity Hub | feed\\_perplexity\\_hub.xml |\n| Pinecone Blog | feed\\_pinecone.xml |\n| Simon Willison's Blog (Tools) | Official RSS |\n| Supabase Blog | Official RSS |\n| Surge AI Blog | feed\\_blogsurgeai.xml |\n| The Batch by DeepLearning.AI | feed\\_the\\_batch.xml |\n| Thinking Machines Lab | Official RSS |\n| Transluce Research | feed\\_transluce.xml |\n| Timaeus Research | feed\\_timaeus.xml |\n| Weaviate Blog | feed\\_weaviate.xml |\n| Windsurf Blog | feed\\_windsurf\\_blog.xml |\n| Windsurf Changelog | feed\\_windsurf\\_changelog.xml |\n| Windsurf Next Changelog | feed\\_windsurf\\_next\\_changelog.xml |\n| xAI News | feed\\_xainews.xml |",
+      "page_age": "2025-01-07T00:00:00"
+    },
+    {
+      "title": "Anthropic RSS Feed + 200 AI & Tech RSS Sources (2026)",
+      "url": "https://windflash.us/rss-sources",
+      "description": "Anthropic has no official RSS feed — get a working one here. Copy-paste feed URLs for Anthropic, OpenAI, arXiv cs.AI, Google DeepMind, Hugging Face & 200 curated AI/tech sources.",
+      "snippet": "Anthropic has no official RSS feed — get a working one here. Copy-paste feed URLs for Anthropic, OpenAI, arXiv cs.AI, Google DeepMind, Hugging Face & 200 curated AI/tech sources.\n\nAnthropic has no official RSS feed — get a working one here, plus copy-paste feed URLs for OpenAI, arXiv cs.AI, Google DeepMind and 200 curated AI/tech sources",
+      "page_age": ""
+    },
+    {
+      "title": "OpenAI Blog RSS Feed - James' Coffee Blog",
+      "url": "https://jamesg.blog/2023/05/21/openai-rss-feed",
+      "description": "",
+      "snippet": "# OpenAI Blog RSS Feed\nMay 21, 2023 • IndieWeb\n\nJames\n\n**Update (September 12th, 2025):** OpenAI now publishes an official RSS feed again at https://openai.com/news/rss.xml, so this project is no longer active.\n\nI made an RSS feed for the OpenAI blog. You can subscribe to the feed in your feed reader using this address:\n\n```\nhttps://jamesg.blog/openai.xml\n```",
+      "page_age": "2023-05-21T00:00:00"
+    },
+    {
+      "title": "GitHub - 0xSMW/rss-feeds: AI / SV RSS Feeds · GitHub",
+      "url": "https://github.com/0xSMW/rss-feeds",
+      "description": "AI / SV RSS Feeds. Contribute to 0xSMW/rss-feeds development by creating an account on GitHub.",
+      "snippet": "# AI RSS Feeds\n## Repository files navigation\n\n| AI Blog | Feed |\n| --- | --- |\n| Anthropic News | feed\\_anthropic\\_news.xml |\n| Anthropic Research | feed\\_anthropic\\_research.xml |\n| Anthropic Red Teaming | feed\\_anthropic\\_red.xml |\n| Digg AI Feed from X | feed\\_digg\\_tech.xml |\n| Mistral AI News | feed\\_mistral\\_news.xml |\n| OpenAI Alignment Research | feed\\_openai\\_alignment.xml |\n| OpenAI Research News | feed\\_openai\\_research.xml |\n| Thinking Machines Blog | feed\\_thinkingmachines.xml |\n| xAI News | feed\\_xai\\_news.xml |\n| AI Research Feed (All) | feed\\_ai\\_research.xml |",
+      "page_age": ""
+    },
+    {
+      "title": "Best RSS Feeds for AI News in 2026: 10 Verified Sources",
+      "url": "https://www.readless.app/blog/best-ai-news-rss-feeds-2026",
+      "description": "The best RSS feeds for AI news in 2026: OpenAI, Anthropic, Hugging Face, MarkTechPost, MIT Tech Review, Ahead of AI, and more — with verified feed URLs.",
+      "snippet": "The best RSS feeds for AI news in 2026: OpenAI, Anthropic, Hugging Face, MarkTechPost, MIT Tech Review, Ahead of AI, and more — with verified feed URLs",
+      "page_age": "2026-07-25T00:00:00"
+    },
+    {
+      "title": "Best AI RSS Feeds by Category (2026)",
+      "url": "https://rss.feedspot.com/ai_rss_feeds/",
+      "description": "The most comprehensive AI RSS feed list on the web organized into specialized subcategories so you can follow exactly the areas that matter to you. Covers AI news, machine learning, generative AI and LLMs, research labs, data scienc",
+      "snippet": "# Best AI RSS Feeds by Category (2026)\n## AI Research Labs and Foundations\n### 1. OpenAI Blog RSS Feed\nOpenAI Blog **RSS Feed** openai.com/news/rss.xml   Follow RSS **Website** openai.com/blog OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence (AGI) benefits all of humanity. We will attempt to directly build safe and beneficial AGI, but will also consider our mission fulfilled if our work aids others to achieve this outcome",
+      "page_age": "2026-09-10T01:34:14"
+    },
+    {
+      "title": "Best Machine Learning RSS Feeds by Category (2026)",
+      "url": "https://rss.feedspot.com/machine_learning_rss_feeds/",
+      "description": "Best Machine Learning RSS feeds online. Subscribe to your favorite machine learning rss feeds on Feedspot RSS Reader",
+      "snippet": "# Best Machine Learning RSS Feeds by Category (2026)\n## AI Research Labs and Corporate Research\n### 1. Google Research Blog RSS Feed\nGoogle Research Blog **RSS Feed** feeds.feedburner.com/blogspo..   Follow RSS **Website** research.google/blog Google's research arm — machine learning, quantum computing, systems, and HCI.",
+      "page_age": "2026-09-03T10:14:11"
+    },
+    {
+      "title": "OpenAI website RSS feed inquiry - Community - OpenAI Developer ...",
+      "url": "https://community.openai.com/t/openai-website-rss-feed-inquiry/733747",
+      "description": "I typically would follow news on OpenAI using the RSS feed at openai.com/blog/rss.xml. However, I noticed recently that the OpenAI website was revamped, and the RSS link does not work anymore, and I am also unable to fin…",
+      "snippet": "I typically would follow news on OpenAI using the RSS feed at openai.com/blog/rss.xml. However, I noticed recently that the OpenAI website was revamped, and the RSS link does not work anymore, and I am also unable to find the new link if it exists. Is the RSS feed gone forever or will it come back at some point? As an RSS enthusiast and someone who likes to be updated on OpenAI’s stuff, I would be very disappointed if it’s the former.",
+      "page_age": "2024-05-02T07:57:37"
+    }
+  ],
+  "Perplexity AI changelog free Pro offers page": [
+    {
+      "title": "Perplexity Free Trial for Pro, Max & Computer Routes in 2026",
+      "url": "https://suprmind.ai/hub/perplexity/free-trial/",
+      "description": "Does Perplexity have a free trial? The real story on Pro, Max and Computer, which partner offers still work in 2026, and how to get Perplexity free trial today.",
+      "snippet": "# How to Get a Perplexity Free Trial for Pro and Max Plans, Student and Partner Offers\n## Does Perplexity offer a free trial in 2026?\nNot as a self-serve offer you can start yourself. The Free plan exists permanently for every account, and paid Pro or Max access only comes free through partner promotions and eligibility programs. Perplexity’s own billing documentation describes these as promotional or trial subscriptions tied to partner redemptions, never a standing trial any visitor can begin on the pricing page",
+      "page_age": "2026-08-21T19:35:37"
+    },
+    {
+      "title": "Perplexity Pro Free Trial (2026) → 9 Legit Ways",
+      "url": "https://www.demandsage.com/perplexity-pro-trial/",
+      "description": "Grab the Perplexity for free for 2026 and get 12 months of Pro completely free plus a simple 17% discount on your subscription.",
+      "snippet": "# Perplexity Pro Free Trial (2026) → 9 Legit Ways\n## How to Get Perplexity Pro for Free? (9 Legitimate Ways & Global Offers)\n| Services | Country | Perplexity Offer Duration | How to Claim |\n| --- | --- | --- | --- |\n| Perplexity for Education  | United States | Annual Education Pro at 50% Off | By verifying your student & educator ID |\n| U.S. Government Employees | United States | Free Perplexity Pro for 1 year or Enterprise Pro at $0.25/agency for 15 months | Log in to Perplexity with a .gov or .mil domain |\n| Bell Mobility | Canada | Free 1-year Perplexity Pro | Receive the promo code through the MyBell app |\n| Samsung TV (Models 2023 & Later) | Global | Perplexity Pro for 12 Months | Download Perplexity from the Samsung Galaxy Store to claim the offer |\n| Logitech  | Global  | Perplexity Pro for Six Months | Get the offer on MX, Ergo, & Tablet Keyboard Case purchases |\n| New Motorola Devices (including Razr and Edge 60) | Global  | Perplexity Pro for Three Months | Get Pre-installed Perplexity App with Pro Access |\n| SK Telecom | South Korea | Perplexity Pro powered AI-assistant “A. (Adot)” | Accessible to all SK Telecom users |\n| Softbank | Japan | Free Perplexity Enterprise Pro for Six Months | Free access to Softbank employees |\n| Lark Suite | Global  | Free Perplexity AI Pro for Six Months | Sign up for Lark Pro (or renew subscription) to claim the offer |",
+      "page_age": "2026-03-24T10:53:22"
+    },
+    {
+      "title": "Is Perplexity AI Free? Free Plan Limits in 2026",
+      "url": "https://felloai.com/is-perplexity-ai-free/",
+      "description": "Is Perplexity AI free? Yes, with unlimited cited searches plus a few daily Pro Searches. See what the free plan includes, its limits, and when to pay.",
+      "snippet": "Is Perplexity AI free? Yes, with unlimited cited searches plus a few daily Pro Searches.",
+      "page_age": "2026-09-05T12:00:00"
+    },
+    {
+      "title": "How to Get Perplexity Pro for Free: Legit Methods (2026)",
+      "url": "https://www.glbgpt.com/hub/how-to-get-perplexity-pro-for-free-legit-methods-2026/",
+      "description": "Learn how to get Perplexity Pro for free in 2026. Discover legit methods like telecom bundles, Xfinity Rewards, free trials, and student plans—no hacks or scams.",
+      "snippet": "# How to Get Perplexity Pro for Free: Legit Methods (2026)\n**Can you get Perplexity Pro for free in 2026?** Yes, but only through official or partner routes. The clean options are account-specific promotions, telecom or device bundles, member rewards such as Xfinity Rewards when available, short back-to-school campaigns, and verified Education Pro discounts. There is no legal way to get Pro by bypassing payment, sharing cracked accounts, or using a coupon generator",
+      "page_age": "2026-07-23T07:28:56"
+    },
+    {
+      "title": "How to Get Perplexity Pro for Free in 2026 (5 Proven Ways)",
+      "url": "https://www.gamsgo.com/blog/free-perplexity-pro",
+      "description": "Free Perplexity Pro in 2026 is possible! Check out 5 proven, risk-free methods to unlock premium benefits without spending.",
+      "snippet": "# How to Get Perplexity Pro for Free in 2026 (5 Proven Ways)\n## Can You Get Perplexity Pro for Free in 2026?\nYes, Perplexity does offer a few ways to access Pro for free. For example, students can get a one-month free trial, and some new users may be randomly granted a month of Pro access. However, these opportunities are usually time-limited or restricted to specific groups",
+      "page_age": "2026-07-08T00:00:00"
+    },
+    {
+      "title": "How to Get Perplexity Pro for Free or Cheap (2026)",
+      "url": "https://felloai.com/how-to-claim-perplexity-pro-for-free-or-cheap/",
+      "description": "Get Perplexity Pro free or cheap in 2026. Students and teachers pay $10 a month, verified students get one free month, and US federal workers pay nothing.",
+      "snippet": "Get Perplexity Pro free or cheap in 2026. Students and teachers pay $10 a month, verified students get one free month, and US federal workers pay nothing.",
+      "page_age": "2026-08-19T12:00:00"
+    },
+    {
+      "title": "Pro Perks, Academic homepage, and revamped Finance homepage",
+      "url": "https://www.perplexity.ai/en-GB/changelog/what-we-shipped-may-23rd",
+      "description": "This week, Perplexity launched Pro Perks, refreshed Academic and Finance homepages, audio/video file search, Spaces templates, and smarter shopping…",
+      "snippet": "This week, Perplexity launched Pro Perks, refreshed Academic and Finance homepages, audio/video file search, Spaces templates, and smarter shopping…\n\nBack",
+      "page_age": ""
+    },
+    {
+      "title": "Perplexity Pro Free Trial (2026): 13 Ways to Get Access",
+      "url": "https://resourcera.com/deals/free-perplexity-pro/",
+      "description": "Claim a Perplexity Pro free account for 1 year using 13 verified methods. Follow step-by-step instructions to unlock premium features safely in 2026.",
+      "snippet": "# Perplexity Pro Free Trial (2026): 13 Ways to Get Access\n## 13 Ways To Claim Free Perplexity Pro In 2026\n| Sr No | Perplexity Collaboration | Country/Duration |\n| --- | --- | --- |\n| 1 | Samsung Surprise Offer  | USA (1 Year) |\n| 2 | PayPal and Venmo Subscription  | USA (1-Year) |\n| 3 | Airtel  | India (1-Year) |\n| 4 | Bell Mobility  | Canada (1-Year) |\n| 5 | Optus  | Australia (1-Year) |\n| 6 | Logitech  | Worldwide (6-Months) |\n| 7 | Motorola | Worldwide (3-Months) |\n| 8 | SK Telecom | South Korea (1-Year) |\n| 9 | SoftBank  | Japan (6-Months)  |\n| 10 | Perplexity Education Pro  | USA (Avail at $4.99/month) |\n| 11 | Perplexity Pro for USA Government Employees | USA (Price as low as $0.25) |\n| 12 | Student Referral Program | USA (1-Month) |\n| 13 | Other Promotional | – |",
+      "page_age": "2026-04-13T14:49:28"
+    }
+  ],
+  "AI tool giveaway lifetime deal aggregator websites 2026": [
+    {
+      "title": "15 Best AI Lifetime Deal Sites in 2026 (Tested & Ranked)",
+      "url": "https://alstonantony.com/seo-deals/best-ai-lifetime-deal-sites/",
+      "description": "I tested 15+ AI lifetime deal platforms and spent $5,000+ on deals. Here are the best sites to buy AI tools at 80-95% off retail. See the full rankings.",
+      "snippet": "# 15 Best AI Lifetime Deal Sites in 2026: Where to Buy AI Tools at 80-95% Off\nBy Alston Antony Last updated: April 16, 2026\n\n**TL;DR:** The best AI lifetime deal sites in 2026 are ZPlatform.ai (for honest, tested AI deal reviews with BUY/WAIT/SKIP verdicts), AppSumo (largest marketplace with 60-day refunds), and Dealify (highest-rated platform at 4.9/5 on Trustpilot)",
+      "page_age": "2026-04-16T00:00:00"
+    },
+    {
+      "title": "AI Lifetime Deals, Discounts & Deals 2026: 395 Verified AI Tool ...",
+      "url": "https://zplatform.ai/ai-deal/",
+      "description": "395 AI tool deals hand-tested: 376 lifetime deals, 16 discounts, and SEO deals, each with an honest Buy/Wait/Skip verdict. Pay once and save up to 95%, or",
+      "snippet": "# AI Lifetime Deals, Discounts & Deals\n## SEO Deals & SEO Lifetime Deals\n| SEO Tool | Category | Lifetime price | Verdict |\n| --- | --- | --- | --- |\n| Internal Linking Related Contents | AI SEO | — | Buy |\n| WriterZen | AI SEO | $79 | Buy |\n| ZeroRank AI | AI SEO | $69 | Buy |\n| SearchIQ | AI SEO | $39 | Wait |\n| Screpy Plus | AI SEO | $69 | Wait |\n| BacklinkScan | AI SEO | $49 | Wait |\n| CrawlWP | AI SEO | $59 | Wait |\n| Snow SEO | AI SEO | $79 | Wait |\n| GrackerAI | AI SEO | $69 | Wait |\n| Labrika | AI SEO | $68 | Wait |\n| Screpy | AI SEO | $59 | Wait |\n| Smart Spreadsheets | AI SEO | $49 | Wait |",
+      "page_age": ""
+    },
+    {
+      "title": "15 Best AI Tools With Lifetime Deals in 2026",
+      "url": "https://dmchamp.com/best/best-ai-lifetime-deals-2026/",
+      "description": "15 AI tools with active lifetime deals in May 2026. DM Champ, Synthesys, and 13 more. With LTD payback math and tier credibility checks.",
+      "snippet": "# 15 Best AI Tools With Lifetime Deals in 2026\n## The verdict\nDM Champ is the strongest lifetime deal in the white-label AI sales agent category, with 6 tiers running from 0 to unlimited sub-accounts. NeuronWriter is the strongest SEO content LTD active in May 2026. SaveDay is the strongest AI knowledge assistant LTD. Many \"AI lifetime deals\" advertised online are expired, scams, or apply to a stripped-down older version of the product. Verify the AppSumo listing before buying",
+      "page_age": "2026-05-22T00:00:00"
+    },
+    {
+      "title": "Best AI Tool Lifetime Deals 2026 — Up to 95% Off",
+      "url": "https://affinityally.com/best-ai-tool-lifetime-deals/",
+      "description": "Stop paying monthly for AI tools. Discover the best AI tool lifetime deals in 2026—writing, SEO, chatbots, video, and automation tools at up to 95% off. Updated weekly.",
+      "snippet": "# Best AI Tool Lifetime Deals 2026 — Pay Once, Use Forever\n## 📋 AI Tool Lifetime Deal Comparison Table\n| Tool | Category | LTD Price | Normal Price | Savings | Rating |\n| --- | --- | --- | --- | --- | --- |\n| Writeseed | AI Writing | $44 | $588/yr | Save 92% | ⭐ 4.8 |\n| Writecream | AI Writing | $59 | $1,140/yr | Save 95% | ⭐ 4.7 |\n| WordHero | AI Writing | $89 | $588/yr | Save 84% | ⭐ 4.6 |\n| NeuronWriter | AI SEO | $89 | $756/yr | Save 88% | ⭐ 4.8 |\n| ClickRank | AI SEO | $69 | $588/yr | Save 88% | ⭐ 4.7 |\n| Screpy | SEO Monitor | $59 | $360/yr | Save 83% | ⭐ 4.8 |\n| Yapper | AI Video | $69 | $588/yr | Save 88% | ⭐ 4.6 |\n| Jogg AI | AI Video Ads | $79 | $480/yr | Save 83% | ⭐ 4.5 |\n| Tiny Talk | AI Chatbot | $49 | $360/yr | Save 86% | ⭐ 4.6 |\n| Dialora | AI Voice Sales | $79 | $588/yr | Save 86% | ⭐ 4.5 |",
+      "page_age": "2026-06-26T15:48:44"
+    },
+    {
+      "title": "7 AI Tools with Lifetime Deals We're Obsessed With in 2026",
+      "url": "https://tipsonblogging.com/2023/09/ai-lifetime-deals/",
+      "description": "Discover the best AI lifetime deals to transform your business. Save Huge on AI copywriting, SEO, Social Media, Marketing & Sales, etc.",
+      "snippet": "Best AI Lifetime Deals Ever (May 2026) 7 Best AI Lifetime Deals 2026 to Save Huge 1. Writecream (Marketing Copies & Cold Emails): 96% OFF 2. Airbrush (AI Art Generator): 73% OFF 3. GAJIX (AI Learning Assistant): 49% OFF 4. Screpy (SEO Monitoring): 76% OFF 5",
+      "page_age": "2026-05-01T15:09:10"
+    },
+    {
+      "title": "Best Lifetime Deals 2026: 20 Verified Software LTDs",
+      "url": "https://www.dealkeep.io/best-lifetime-deal-tools",
+      "description": "The 20 best lifetime deals live now: SaaS software LTDs from $29 — prices, tiers, ratings and refund windows verified on AppSumo, plus the deals already gone.",
+      "snippet": "# The 20 Best Lifetime Deals of 2026, Verified Live\n## The 20 best lifetime deals live right now\n| # | Tool | Category | Price (LTD) | Tiers | Rating | Refund |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | TruConversionreplaces Hotjar / Crazy Egg | CRO & analytics | $79–$1,049$499 | 6 | 4.91 (1,547) | 60 days |\n| 2 | Reoon Email Verifierreplaces ZeroBounce / NeverBounce credits | Email deliverability | $79–$395$418.50 | 5 | 4.93 (755) | 60 days |\n| 3 | Kattebreplaces Jasper / Writesonic seats | AI writing | $39–$390$108 | 10 | 4.65 (923) | 60 days |\n| 4 | Screpyreplaces Ahrefs Site Audit / a rank tracker seat | SEO audit & rank tracking | $59–$177$204 | 3 | 4.61 (910) | 60 days |\n| 5 | Writecreamreplaces Copy.ai / ad-copy tools | AI writing & ads | $59–$295$1,440 | 5 | 4.84 (633) | 60 days |\n| 6 | FlexClipreplaces Canva Video / InVideo | Video editing | $99–$297$600 | 3 | 4.62 (496) | 60 days |\n| 7 | WordHeroreplaces Jasper seats | AI writing | $89–$445$2,088 | 5 | 4.56 (434) | 60 days |\n| 8 | Switchyreplaces Bitly / Rebrandly | Link tracking & retargeting | $39–$195$1,200 | 5 | 4.87 (275) | 60 days |\n| 9 | Visitor Trackingreplaces Google Analytics dashboards / a light Mixpanel | Web analytics | $79–$711$288 | 9 | 4.84 (358) | 60 days |\n| 10 | SuiteDashreplaces HoneyBook / Dubsado + a CRM + a portal | Client portal & CRM | $159–$1,590$1,188 | 10 | 4.58 (387) | 60 days |\n| 11 | GoBrunchreplaces Zoom Webinars / Hopin | Webinars & virtual events | $89–$269$870 | 3 | 4.77 (330) | 60 days |\n| 12 | TidyCalreplaces Calendly | Scheduling | $29–$79$144 | 2 | 4.35 (919) | 60 days |\n| 13 | Acadlereplaces Teachable / Thinkific | Courses & LMS | $109–$1,090$468 | 10 | 4.85 (280) | 60 days |\n| 14 | Divhuntreplaces Webflow seats | No-code website builder | $79–$790$180 | 10 | 4.86 (259) | 60 days |\n| 15 | Formlyreplaces Typeform | Forms & surveys | $99–$495$696 | 5 | 4.62 (237) | 60 days |\n| 16 | eniston Knowledge Basesreplaces Help Scout Docs / Document360 | Knowledge base & docs | $79$1,080 | 1 | 4.95 (181) | 60 days |\n| 17 | Hedy AIreplaces Otter / Fireflies | AI meeting assistant | $179$299 | 1 | 4.76 (215) | 60 days |\n| 18 | SheetMagicreplaces GPT for Sheets subscriptions | AI in Google Sheets | $69–$207$1,196 | 3 | 4.73 (270) | 60 days |\n| 19 | BannerBooreplaces Creatopy / Bannersnack | Ad creative | $59–$599$599 | 5 | 4.86 (276) | 60 days |\n| 20 | AnyChatreplaces Tidio / Crisp | Customer support & chat | $49–$147$108 | 3 | 4.80 (148) | 60 days |",
+      "page_age": "2026-09-01T00:00:00"
+    },
+    {
+      "title": "The Best AI Lifetime Deals in 2026: A Curator's Working List — ...",
+      "url": "https://predrop.ai/best-ai-lifetime-deals",
+      "description": "Nine AI lifetime deals worth buying in 2026 — prompt engineering, image generation, automation, SEO, and dev tools. Real picks with real prices, plus what to skip.",
+      "snippet": "# The best AI lifetime deals in 2026: a working list from someone who reads every one.\n## Side-by-side: nine picks, sorted by price\n| Tool | Category | Price | Where |\n| --- | --- | --- | --- |\n| PromptBuilder | Multi-model prompts | $39 | Dealify |\n| 1minAI | Multi-model bundle | $39 | Dealify |\n| CopyMail | Email templates | $59 | Dealify |\n| AI Mentions | LLM brand monitoring | $59 | Dealify |\n| SheetMagic | Sheets + AI + BYOK | $69 | Dealify |\n| BacklinkScan | Backlink monitoring | $99 | Dealify |\n| Flux Pro Bundle | Image generation | $99 | DealMirror |\n| devActivity | Eng analytics | $199 | Dealify |\n| N8Nitro | Managed n8n | $220 | Dealify |\n\n13",
+      "page_age": ""
+    },
+    {
+      "title": "AI Tools Lifetime Deals: The Full Review, Worth The Investment ...",
+      "url": "https://otoslinks.com/ai-tools-lifetime-deals/",
+      "description": "Let's talk about something that's been buzzing in the entrepreneurial world lately: AI tools lifetime deals. If you've been watching your monthly software",
+      "snippet": "# AI Tools Lifetime Deals: The Full Review, Worth the Investment in 2026?\n## AppSumo Leads the Pack\n## Where to Find the Best Lifetime Deals\n\nAppSumo pioneered this entire marketplace and remains the biggest player. They vet their deals, though you still need to do your own evaluation. Their sixty-day refund policy gives you plenty of time for testing, which is reassuring",
+      "page_age": "2025-11-02T15:21:24"
+    }
+  ],
+  "Reddit subreddits where free AI tool deals are posted": [
+    {
+      "title": "r/aisubscriptions",
+      "url": "https://www.reddit.com/r/aisubscriptions/",
+      "description": "r/aisubscriptions: Join my Reddit Community where I share the best deals for AI Subscriptions Offers, Giveaways and Sales Proofs.",
+      "snippet": "r/aisubscriptions: Join my Reddit Community where I share the best deals for AI Subscriptions Offers, Giveaways and Sales Proofs.",
+      "page_age": "2026-01-31T18:35:06"
+    },
+    {
+      "title": "r/toolsdeals",
+      "url": "https://www.reddit.com/r/toolsdeals/",
+      "description": "r/toolsdeals: Welcome to Tools Deals! This is a place to find discounts on tools, apps, and software. We share the best deals so you can save money…",
+      "snippet": "# r/toolsdeals\n### Community highlights\nWelcome to r/toolsdeals!\nWelcome to r/toolsdeals! subscriber-goal u/subscriber-goal\n\n🎁 PicMonkey — 2 Months Free Access\n\nu/No-Knowledge-5828\n\n•\n\n🎁 PicMonkey — 2 Months Free Access\n\nr/toolsdeals - 🎁 PicMonkey — 2 Months Free Access\n\nr/toolsdeals - 🎁 PicMonkey — 2 Months Free Access\n\nSelling OpenArt 1-Year Subscription (Unused/Available)",
+      "page_age": "2025-08-25T09:51:06"
+    },
+    {
+      "title": "r/shopify on Reddit: Really free and really good AI tools (at least ...",
+      "url": "https://www.reddit.com/r/shopify/comments/1kv9jqa/really_free_and_really_good_ai_tools_at_least/",
+      "description": "15 votes, 35 comments. There are so many advertisements out there for AI that will edit your product shots to make them awesome or will build out…",
+      "snippet": "10 Best Free AI Tools You Can Use Right Now r/AiChatGPT • 10 Best Free AI Tools You Can Use Right Now upvotes · comments Top 10 Best Free AI Tools for 2025 r/Productivitycafe • Top 10 Best Free AI Tools for 2025 upvotes · comments Most Accurate Free AI for Academic Purposes? r/ArtificialInteligence • Most Accurate Free AI for Academic Purposes? upvotes · comments I need a free AI tier list. r/Bard • I need a free AI tier list",
+      "page_age": "2025-05-25T18:31:37"
+    },
+    {
+      "title": "r/discountools",
+      "url": "https://www.reddit.com/r/discountools/",
+      "description": "r/discountools: get great deals for pocket friendly price and get premium method for free related to ai tools",
+      "snippet": "r/discountools: get great deals for pocket friendly price and get premium method for free related to ai tools\n\nget great deals for pocket friendly price and get premium method for free related to ai tools\n\nSkip to main content",
+      "page_age": "2025-10-21T07:55:02"
+    },
+    {
+      "title": "r/generativeAI on Reddit: My list of AI tools with real free credits ...",
+      "url": "https://www.reddit.com/r/generativeAI/comments/1t9dk7j/my_list_of_ai_tools_with_real_free_credits_has/",
+      "description": "34 votes, 34 comments. Hi everyone, I posted a roundup a while back ( Do you want some newer AI tools with actual free quotas ) of newer AI tools…",
+      "snippet": "# My list of AI tools with real free credits has now grown to 70+\nHi everyone, I posted a roundup a while back (Do you want some newer AI tools with actual free quotas) of newer AI tools that give you actual free usage — not trials, real recurring quotas. I've kept adding to it, and my site **freeailist.org** has now grown to 70+ tools.",
+      "page_age": "2026-05-10T17:43:18"
+    },
+    {
+      "title": "r/learnmachinelearning on Reddit: The free AI tools I actually ...",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1stxddi/the_free_ai_tools_i_actually_use_every_week_no/",
+      "description": "Seeing a lot of posts recommending expensive AI subscriptions. Here’s what actually works for free right now: The Stack: Writing & Brainstorming…",
+      "snippet": "# The free AI tools I actually use every week (no subscriptions needed)\nSeeing a lot of posts recommending expensive AI subscriptions. Here’s what actually works for free right now:\n\nThe Stack:\n\nWriting & Brainstorming: ChatGPT (Free Tier) — the best all-rounder.\n\nComplex Documents: Claude.ai (Free) — better for nuance and long text.\n\nVisuals: Microsoft Designer/Bing Image Creator — fast and high quality",
+      "page_age": "2026-04-23T22:21:22"
+    },
+    {
+      "title": "r/learnmachinelearning on Reddit: you don't need to pay for AI ...",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1s81jvk/you_dont_need_to_pay_for_ai_tools_right_now_heres/",
+      "description": "17 votes, 15 comments. nobody told me how much was just sitting there for free. i spent the first six months paying for things i didn't need to. not…",
+      "snippet": "upvotes · comments 12 of the Best (Free to Use) AI Tools to Increase Your Productivity + Automate Your Work r/coolguides • 12 of the Best (Free to Use) AI Tools to Increase Your Productivity + Automate Your Work r/coolguides - 12 of the Best (Free to Use) AI Tools to Increase Your Productivity + Automate Your Work upvotes · comments What are some free AI tools that no one is talking about but really worthwhile? r/AI_India • What are some free AI tools that no one is talking about but really worthwhile?",
+      "page_age": "2026-03-30T20:00:49"
+    },
+    {
+      "title": "r/PromptEngineering on Reddit: You don't need to pay for AI tools ...",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1s80pf6/you_dont_need_to_pay_for_ai_tools_right_now_heres/",
+      "description": "769 votes, 188 comments. nobody told me how much was just sitting there for free. i spent the first six months paying for things i didn't need to…",
+      "snippet": "# You don't need to pay for AI tools right now. here's everything free.\nChatGPT free gets you GPT-4o. limited but real. more than enough for focused single-session work.\n\n**for research:**\n\nPerplexity free gives you real-time web search with source citations. five pro searches a day. unlimited standard. i use this more than google now.\n\n**for images:**\n\nLeonardo AI gives you 150 credits daily. that's roughly 50 images. i have never once hit that ceiling in a normal day.",
+      "page_age": "2026-03-30T23:50:53"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "query": "Product Hunt launches API scraping without key 2026",
+  "results": [
+    {
+      "title": "Product Hunt Scraper — Launches, Votes & Makers · Apify",
+      "url": "https://apify.com/cryptosignals/producthunt-scraper",
+      "description": "Scrape Product Hunt launches, votes, maker profiles, and comments. Track trending products. Export to CSV, Excel, JSON. Zapier, Make.com, Python, JavaSc...",
+      "snippet": "# Product Hunt Scraper — Launches, Products & Maker Data\nScrape Product Hunt product launches, search results, and detailed product pages. Track daily launches, discover trending products, and extract maker information — no API key required",
+      "page_age": "2026-03-30T22:12:48"
+    },
+    {
+      "title": "Product Hunt Scraper - Free Launches, Makers & Reviews API API ...",
+      "url": "https://apify.com/dz_omar/product-hunt-pro/api/javascript",
+      "description": "Learn how to interact with Product Hunt Pro API in JavaScript. Includes an example JavaScript code snippet to help you get started quickly.",
+      "snippet": "# Product Hunt Pro\nTry for free\n\nScrape Product Hunt launches free: daily, weekly, monthly and yearly leaderboards with ranks and upvotes, company websites, makers and hunters with LinkedIn, full review text with star ratings, comments, topics and media. Search by keyword, topic or URL. No API key needed.\nRating\n0.0",
+      "page_age": "2026-09-14T01:40:19"
+    },
+    {
+      "title": "Product Hunt Scraper - Free Launches, Makers & Reviews API · Apify",
+      "url": "https://apify.com/dz_omar/product-hunt-pro",
+      "description": "Free Product Hunt scraper. Export launches, leaderboard ranks, upvotes, company websites, founder LinkedIn profiles, reviews and comments to JSON or CSV.",
+      "snippet": "# Product Hunt Pro — Launches, Makers, Reviews & Emails\n## FAQ\n**Do I need a Product Hunt account or API key?** No. Just set the input and run.\n\n**How fresh is the data?** It is read live from Product Hunt at the moment the run starts.\n\n**Why is websiteUrl sometimes empty?** A few Product Hunt entries have no external website listed. The field is null rather than a guess",
+      "page_age": "2026-09-14T01:40:19"
+    },
+    {
+      "title": "Product Hunt Scraper - Daily Product Launches · Apify",
+      "url": "https://apify.com/parseforge/producthunt-scraper",
+      "description": "Pulls posts from Product Hunt. Each row has product name, tagline, votes, featured flag, maker, topic, image gallery, and launch date.",
+      "snippet": "# 🚀 Product Hunt Scraper\n🚀 **Export daily Product Hunt launches with votes, comments, and maker info in seconds.** No API key, no account, no scraping setup.\n\n🕒 **Last updated:** 2026-05-22 · **📊 12 fields** per record · **Up to 20 launches per day** · **Covers up to 30 days back**",
+      "page_age": "2026-06-11T23:20:57"
+    },
+    {
+      "title": "Product Hunt Products, Upvotes & Makers Scraper API · Apify",
+      "url": "https://apify.com/scrapers_lat/product-hunt-scraper/api",
+      "description": "Learn how to interact with Product Hunt Scraper: Launches, Makers, Reviews, No API Key via API. Includes an example code snippet for your convenience.",
+      "snippet": "Learn how to interact with Product Hunt Scraper: Launches, Makers, Reviews, No API Key via API.",
+      "page_age": "2026-09-04T04:07:49"
+    },
+    {
+      "title": "Product Hunt Scraper: Daily Launches, Votes, No API Key API in ...",
+      "url": "https://apify.com/tagadanar/producthunt-scraper/api/javascript",
+      "description": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) API in JavaScript. Includes an example JavaScript code snippet to help ...",
+      "snippet": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) API in JavaScript.\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key) avatar\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)\n\nPricing\n\nfrom $1.05 / 1,000 launches\n\nTry for free\n\nGo to Apify Store\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)",
+      "page_age": "2026-08-29T20:49:05"
+    },
+    {
+      "title": "Product Hunt Scraper — Daily Launches & Makers · Apify",
+      "url": "https://apify.com/ninhothedev/producthunt-scraper",
+      "description": "$0.5/1K 🔥 Fast Product Hunt scraper! Daily launches — name, tagline, maker, date & link. No key. JSON, CSV, Excel or API in seconds. Pull the newest pr...",
+      "snippet": "# Product Hunt Scraper — Daily Launches & Makers\n$0.5/1K 🔥 Fast Product Hunt scraper! Daily launches — name, tagline, maker, date & link. No key. JSON, CSV, Excel or API in seconds.",
+      "page_age": "2026-08-29T02:39:08"
+    },
+    {
+      "title": "Product Hunt Scraper: Daily Launches, Votes, No API Key API · Apify",
+      "url": "https://apify.com/tagadanar/producthunt-scraper/api",
+      "description": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) via API. Includes an example code snippet for your convenience.",
+      "snippet": "Learn how to interact with Product Hunt Scraper 🚀 (launches, votes, no API key) via API.\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key) avatar\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)\n\nPricing\n\nfrom $1.05 / 1,000 launches\n\nTry for free\n\nGo to Apify Store\n\nProduct Hunt Scraper 🚀 (launches, votes, no API key)",
+      "page_age": "2026-08-29T20:49:05"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "query": "Cerebras inference free tier API",
+  "results": [
+    {
+      "title": "Cerebras API: Free Tier Replaced by a Card Trial",
+      "url": "https://toolfreebie.com/cerebras-free-api/",
+      "description": "Cerebras no longer has a no-card free tier: new accounts get of credit expiring in 30 days, and must add a payment method. Groq measured 527 tok/s and still needs no card.",
+      "snippet": "# Cerebras API: Fast, But the Free Tier Now Needs a Card\n**Quick answer:** Cerebras runs inference on wafer-scale hardware and is genuinely among the fastest anywhere — but **the no-credit-card free tier is gone**. New accounts now get **$5 in trial credits that expire after 30 days, and a payment method is required to activate them** (Cerebras’ own rate-limit docs state that API access stays inactive until you add one). It’s still OpenAI-compatible and still very fast; it just isn’t free to start any more",
+      "page_age": "2026-09-01T13:50:17"
+    },
+    {
+      "title": "Cerebras Launches the World’s Fastest AI Inference - Cerebras",
+      "url": "https://www.cerebras.ai/press-release/cerebras-launches-the-worlds-fastest-ai-inference",
+      "description": "20X performance and 1/5th the price of GPUs- available today. Developers can now leverage the power of wafer-scale compute for AI inference via a simple API.",
+      "snippet": "# Cerebras Launches the World’s Fastest AI Inference - Cerebras\n-\n  - **The Free Tier** offers free API access and generous usage limits to anyone who logs in.\n  - **The Developer Tier**, designed for flexible, serverless deployment, provides users with an API endpoint at a fraction of the cost of alternatives in the market, with Llama 3.1 8B and 70B models priced at 10 cents and 60 cents per million tokens, respectively. Looking ahead, Cerebras will be continuously rolling out support for many more models",
+      "page_age": "2025-03-07T16:43:46"
+    },
+    {
+      "title": "Cerebras Inference API Pricing 2026: Plans & Hidden Costs",
+      "url": "https://costbench.com/software/llm-api-providers/cerebras-inference/",
+      "description": "Cerebras Inference API pricing: Free tier (Developer) (free), Enterprise (custom). Compare plans, hidden costs, and real user data.",
+      "snippet": "# Cerebras Inference API Pricing 2026\n## All Cerebras Inference API Plans & Pricing\n| Plan | Monthly | Annual | Best For |\n| --- | --- | --- | --- |\n| ▾ Free tier (Developer) | Free | Free | Testing Cerebras's unique speed advantage |\n| What's included at Free tier (Developer) Best for: Testing Cerebras's unique speed advantage 1M tokens/day free (Llama 3.3 70B) Rate-limited to 30 req/min World-record throughput: 2,000+ tokens/sec on WSE-3 |  |  |  |\n| ▾ Pay-as-you-go | Custom | — | Latency-critical apps needing sub-second time-to-first-token |\n| What's included at Pay-as-you-go Best for: Latency-critical apps needing sub-second time-to-first-token Llama 3.3 70B: $0.85/1M input, $1.20/1M output Llama 3.1 8B: $0.10/1M input, $0.10/1M output Qwen 3 32B: $0.40/1M input, $0.80/1M output \\~20× faster than GPU-based inference on same model |  |  |  |\n| ▾ Enterprise | Contact Sales | Contact Sales | Latency-critical production deployments |\n| What's included at Enterprise Best for: Latency-critical production deployments Dedicated WSE capacity SLAs On-prem inference option |  |  |  |\n\nView all features by plan (compare side-by-side)",
+      "page_age": "2026-05-19T00:00:00"
+    },
+    {
+      "title": "Is Cerebras Inference Free? Trial Credits & Upgrade Triggers (2026)",
+      "url": "https://costbench.com/software/llm-api-providers/cerebras-inference/free-plan/",
+      "description": "Cerebras Inference offers a one-time $5 trial credit valid for 30 days (requires a verified payment method); there is no permanently free tier — Pay-as-...",
+      "snippet": "Cerebras Inference offers a one-time $5 trial credit valid for 30 days (requires a verified payment method); there is no permanently free tier — Pay-as-...",
+      "page_age": "2026-08-06T00:00:00"
+    },
+    {
+      "title": "Cerebras Free Tier 2026: Limits, Pricing & What Changed",
+      "url": "https://agentdeals.dev/vendor/cerebras",
+      "description": "Cerebras free tier includes Ultra-fast LLM inference API. Verified August 2026. Compare with 12 alternatives in AI / ML.",
+      "snippet": "Cerebras free tier includes Ultra-fast LLM inference API.",
+      "page_age": "2026-08-15T00:00:00"
+    },
+    {
+      "title": "Cerebras Inference API - Ultra-Fast AI Inference API Service",
+      "url": "https://getfreeai.net/en/services/api/cerebras/",
+      "description": "Cerebras Inference API offers the world's fastest AI inference service with 1 million free tokens daily, 20x faster than GPUs, supporting Llama 4, Qwen 3, and other mainstream models.",
+      "snippet": "Cerebras Inference API offers the world's fastest AI inference service with 1 million free tokens daily, 20x faster than GPUs, supporting Llama 4, Qwen 3, and other mainstream models. Built on Wafer-Scale Engine WSE technology with OpenAI-compatible interface.\nHome",
+      "page_age": "2026-01-28T04:30:58"
+    },
+    {
+      "title": "Cerebras Inference: API, pricing, agent signup & quickstart — ...",
+      "url": "https://dreaming.press/stack/cerebras",
+      "description": "Cerebras Inference — The fastest LLM inference in 2026 (1,800+ tokens/sec) on wafer-scale CS-3 chips, for open models like Llama and Qwen.",
+      "snippet": "# Cerebras Inference\nThe fastest LLM inference in 2026 (1,800+ tokens/sec) on wafer-scale CS-3 chips, for open models like Llama and Qwen.\n\nAPI key Freemium🔵 agent: self serve instant key\n\nGet API key → instant key, usually no card Docs Website\n\nCategory LLM gateways & inference\n\nType API service\n\nAuth api-key\n\nPricing Freemium\n\nAgent signup🔵 self serve instant key",
+      "page_age": ""
+    },
+    {
+      "title": "Cerebras Free Tier: 1M Tokens/Day, API Limits, and Speed Benchmarks ...",
+      "url": "https://adam.holter.com/cerebras-opens-a-free-1m-tokens-per-day-inference-tier-and-ccerebras-now-offers-free-inference-with-1m-tokens-per-day-real-speed-benchmarks-show-2600-tokens-sec-on-llama4scout-here-are-the-actual-n/",
+      "description": "Cerebras offers a free AI inference API with 1 million tokens per day and no credit card required. Here are the API limits, speed benchmarks, and what develo...",
+      "snippet": "# Cerebras Free Tier: 1M Tokens/Day, API Limits, and Speed Benchmarks\nCerebras just made inference cheap to try and fast to ship. The company opened its Inference API with a free tier of 1 million tokens per day and is publishing head‑to‑head numbers that claim up to 20x faster throughput than NVIDIA on key large models.",
+      "page_age": "2026-07-20T13:03:29"
+    }
+  ]
+}

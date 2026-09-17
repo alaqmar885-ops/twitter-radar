@@ -11,19 +11,14 @@ venv/
 env/
 .python-version
 
-# Runtime data (generated per-run, not source)
-data/
-*.db
-*.sqlite
-*.sqlite3
-digests/
-*.html.bak
-# But KEEP committed sample snapshots under docs/
-!docs/examples/*.db
-!docs/examples/*.html
-!docs/research/*.html
+# NOTE: runtime data IS tracked on purpose.
+# data/ holds the radar's real work products: collected items, scored offers,
+# digests, verification reports, run records, the raw You.com MCP research
+# results and run logs. The upstream project ignored these; this fork keeps
+# them so every result in the docs can be traced back to its raw evidence.
 
 # Secrets / local config overrides
+# (secrets.env itself is tracked deliberately - see AGENTS.md section 10)
 .env
 .env.*
 secrets.json
@@ -38,7 +33,3 @@ Thumbs.db
 .idea/
 .vscode/
 *.sublime-*
-
-# Logs
-*.log
-logs/

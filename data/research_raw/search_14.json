@@ -1,0 +1,61 @@
+{
+  "query": "OpenAI Google Anthropic Mistral official blog RSS feed URL",
+  "results": [
+    {
+      "title": "GitHub - Olshansk/rss-feeds: Generate RSS feeds for all the blogs ...",
+      "url": "https://github.com/Olshansk/rss-feeds",
+      "description": "Generate RSS feeds for all the blogs that don't have one - Olshansk/rss-feeds",
+      "snippet": "# RSS Feed Generator\n## tl;dr Available RSS Feeds\n| Blog | Feed |\n| --- | --- |\n| AI at Meta Blog | feed\\_meta\\_ai.xml |\n| AI FIRST Podcast (German) | feed\\_ai\\_first\\_podcast.xml |\n| AISI Blog | feed\\_aisi.xml |\n| Anthropic Engineering | feed\\_anthropic\\_engineering.xml |\n| Anthropic Frontier Red Team | feed\\_anthropic\\_red.xml |\n| Anthropic News | feed\\_anthropic\\_news.xml |\n| Anthropic Research | feed\\_anthropic\\_research.xml |\n| Chander Ramesh's Writing | feed\\_chanderramesh.xml |\n| Claude Blog | feed\\_claude.xml |\n| Claude Code Changelog | Official RSS |\n| Cloudflare skills (commits/main) | Official RSS |\n| Cohere Blog | feed\\_cohere.xml |\n| Cursor Blog | feed\\_cursor.xml |\n| Dagster Blog | feed\\_dagster.xml |\n| FAR.AI Publications | feed\\_far\\_ai.xml |\n| EleutherAI Papers | feed\\_eleuther\\_papers.xml |\n| Goodfire Research | feed\\_goodfire.xml |\n| Google DeepMind Blog | Official RSS |\n| Google Developers Blog - AI | feed\\_google\\_ai.xml |\n| Groq Blog | feed\\_groq.xml |\n| Hamel Husain's Blog | Official RSS |\n| Interconnected (Matt Webb) | Official RSS |\n| Mistral AI News | feed\\_mistral.xml |\n| Ollama Blog | feed\\_ollama.xml |\n| OpenAI Engineering | Official RSS |\n| OpenAI Developer Blog | feed\\_openai\\_developer.xml |\n| OpenAI Engineering | feed\\_openai\\_engineering.xml |\n| OpenAI Research | Official RSS |\n| Paul Graham's Articles | feed\\_paulgraham.xml |\n| Perplexity Hub | feed\\_perplexity\\_hub.xml |\n| Pinecone Blog | feed\\_pinecone.xml |\n| Simon Willison's Blog (Tools) | Official RSS |\n| Supabase Blog | Official RSS |\n| Surge AI Blog | feed\\_blogsurgeai.xml |\n| The Batch by DeepLearning.AI | feed\\_the\\_batch.xml |\n| Thinking Machines Lab | Official RSS |\n| Transluce Research | feed\\_transluce.xml |\n| Timaeus Research | feed\\_timaeus.xml |\n| Weaviate Blog | feed\\_weaviate.xml |\n| Windsurf Blog | feed\\_windsurf\\_blog.xml |\n| Windsurf Changelog | feed\\_windsurf\\_changelog.xml |\n| Windsurf Next Changelog | feed\\_windsurf\\_next\\_changelog.xml |\n| xAI News | feed\\_xainews.xml |",
+      "page_age": "2025-01-07T00:00:00"
+    },
+    {
+      "title": "Anthropic RSS Feed + 200 AI & Tech RSS Sources (2026)",
+      "url": "https://windflash.us/rss-sources",
+      "description": "Anthropic has no official RSS feed — get a working one here. Copy-paste feed URLs for Anthropic, OpenAI, arXiv cs.AI, Google DeepMind, Hugging Face & 200 curated AI/tech sources.",
+      "snippet": "Anthropic has no official RSS feed — get a working one here. Copy-paste feed URLs for Anthropic, OpenAI, arXiv cs.AI, Google DeepMind, Hugging Face & 200 curated AI/tech sources.\n\nAnthropic has no official RSS feed — get a working one here, plus copy-paste feed URLs for OpenAI, arXiv cs.AI, Google DeepMind and 200 curated AI/tech sources",
+      "page_age": ""
+    },
+    {
+      "title": "OpenAI Blog RSS Feed - James' Coffee Blog",
+      "url": "https://jamesg.blog/2023/05/21/openai-rss-feed",
+      "description": "",
+      "snippet": "# OpenAI Blog RSS Feed\nMay 21, 2023 • IndieWeb\n\nJames\n\n**Update (September 12th, 2025):** OpenAI now publishes an official RSS feed again at https://openai.com/news/rss.xml, so this project is no longer active.\n\nI made an RSS feed for the OpenAI blog. You can subscribe to the feed in your feed reader using this address:\n\n```\nhttps://jamesg.blog/openai.xml\n```",
+      "page_age": "2023-05-21T00:00:00"
+    },
+    {
+      "title": "GitHub - 0xSMW/rss-feeds: AI / SV RSS Feeds · GitHub",
+      "url": "https://github.com/0xSMW/rss-feeds",
+      "description": "AI / SV RSS Feeds. Contribute to 0xSMW/rss-feeds development by creating an account on GitHub.",
+      "snippet": "# AI RSS Feeds\n## Repository files navigation\n\n| AI Blog | Feed |\n| --- | --- |\n| Anthropic News | feed\\_anthropic\\_news.xml |\n| Anthropic Research | feed\\_anthropic\\_research.xml |\n| Anthropic Red Teaming | feed\\_anthropic\\_red.xml |\n| Digg AI Feed from X | feed\\_digg\\_tech.xml |\n| Mistral AI News | feed\\_mistral\\_news.xml |\n| OpenAI Alignment Research | feed\\_openai\\_alignment.xml |\n| OpenAI Research News | feed\\_openai\\_research.xml |\n| Thinking Machines Blog | feed\\_thinkingmachines.xml |\n| xAI News | feed\\_xai\\_news.xml |\n| AI Research Feed (All) | feed\\_ai\\_research.xml |",
+      "page_age": ""
+    },
+    {
+      "title": "Best RSS Feeds for AI News in 2026: 10 Verified Sources",
+      "url": "https://www.readless.app/blog/best-ai-news-rss-feeds-2026",
+      "description": "The best RSS feeds for AI news in 2026: OpenAI, Anthropic, Hugging Face, MarkTechPost, MIT Tech Review, Ahead of AI, and more — with verified feed URLs.",
+      "snippet": "The best RSS feeds for AI news in 2026: OpenAI, Anthropic, Hugging Face, MarkTechPost, MIT Tech Review, Ahead of AI, and more — with verified feed URLs",
+      "page_age": "2026-07-25T00:00:00"
+    },
+    {
+      "title": "Best AI RSS Feeds by Category (2026)",
+      "url": "https://rss.feedspot.com/ai_rss_feeds/",
+      "description": "The most comprehensive AI RSS feed list on the web organized into specialized subcategories so you can follow exactly the areas that matter to you. Covers AI news, machine learning, generative AI and LLMs, research labs, data scienc",
+      "snippet": "# Best AI RSS Feeds by Category (2026)\n## AI Research Labs and Foundations\n### 1. OpenAI Blog RSS Feed\nOpenAI Blog **RSS Feed** openai.com/news/rss.xml   Follow RSS **Website** openai.com/blog OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence (AGI) benefits all of humanity. We will attempt to directly build safe and beneficial AGI, but will also consider our mission fulfilled if our work aids others to achieve this outcome",
+      "page_age": "2026-09-10T01:34:14"
+    },
+    {
+      "title": "Best Machine Learning RSS Feeds by Category (2026)",
+      "url": "https://rss.feedspot.com/machine_learning_rss_feeds/",
+      "description": "Best Machine Learning RSS feeds online. Subscribe to your favorite machine learning rss feeds on Feedspot RSS Reader",
+      "snippet": "# Best Machine Learning RSS Feeds by Category (2026)\n## AI Research Labs and Corporate Research\n### 1. Google Research Blog RSS Feed\nGoogle Research Blog **RSS Feed** feeds.feedburner.com/blogspo..   Follow RSS **Website** research.google/blog Google's research arm — machine learning, quantum computing, systems, and HCI.",
+      "page_age": "2026-09-03T10:14:11"
+    },
+    {
+      "title": "OpenAI website RSS feed inquiry - Community - OpenAI Developer ...",
+      "url": "https://community.openai.com/t/openai-website-rss-feed-inquiry/733747",
+      "description": "I typically would follow news on OpenAI using the RSS feed at openai.com/blog/rss.xml. However, I noticed recently that the OpenAI website was revamped, and the RSS link does not work anymore, and I am also unable to fin…",
+      "snippet": "I typically would follow news on OpenAI using the RSS feed at openai.com/blog/rss.xml. However, I noticed recently that the OpenAI website was revamped, and the RSS link does not work anymore, and I am also unable to find the new link if it exists. Is the RSS feed gone forever or will it come back at some point? As an RSS enthusiast and someone who likes to be updated on OpenAI’s stuff, I would be very disappointed if it’s the former.",
+      "page_age": "2024-05-02T07:57:37"
+    }
+  ]
+}

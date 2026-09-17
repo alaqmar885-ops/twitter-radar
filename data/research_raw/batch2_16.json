@@ -1,0 +1,61 @@
+{
+  "query": "TikTok public data scraping without login 2026 status",
+  "results": [
+    {
+      "title": "How to Scrape TikTok in 2026: A Developer's Guide",
+      "url": "https://www.socialcrawl.dev/blog/how-to-scrape-tiktok-2026",
+      "description": "Scrape TikTok profiles, videos, and comments in 2026 without Selenium: why the official Research API won't help, the DIY realities, and a working API tutorial with real code and a real response.",
+      "snippet": "# How to Scrape TikTok in 2026: A Developer's Guide\nThe quickest way to scrape TikTok in 2026 is a single GET request to a data API, no headless browser and no reverse-engineered mobile endpoints. Here is the whole thing:\n\n```\ncurl \"https://www.socialcrawl.dev/v1/tiktok/profile?handle=mrbeast\" \\\n  -H \"x-api-key: sc_your_api_key_here\"\n```",
+      "page_age": "2026-08-25T16:23:53"
+    },
+    {
+      "title": "TikTok Profile Scraper — followers, likes, bio (no login) · Apify",
+      "url": "https://apify.com/myagizm/tiktok-profile-scraper",
+      "description": "Scrape public TikTok profiles: follower/following/likes/video counts, bio, verified. No login, no API key. Clean JSON.",
+      "snippet": "Scrape public TikTok profiles: follower/following/likes/video counts, bio, verified. No login, no API key.",
+      "page_age": "2026-08-04T22:26:02"
+    },
+    {
+      "title": "TikTok Data Scraping API",
+      "url": "https://ensembledata.com/tiktok-api",
+      "description": "Scrape public TikTok data at scale with EnsembleData's TikTok API. Extract user profiles, posts, comments, hashtags, followers, and engagement metrics without managing proxies or accounts.",
+      "snippet": "# TikTok Data Scraping API\n## TikTok Scraper API Features\n### Scrape TikTok data without an account\nYou don't need a TikTok account to use our API. All endpoints fetch public data, so there's no session management, and no risk of getting your account flagged",
+      "page_age": ""
+    },
+    {
+      "title": "Extract Video Engagement Metrics and Public User Profiles from ...",
+      "url": "https://www.scraperapi.com/solutions/tiktok-scraper/",
+      "description": "Scrape TikTok public profiles with ScraperAPI; automate anti-bot bypassing, CAPTCHA handling, and IP rotation to extract millions of TikTok pages.",
+      "snippet": "# Extract Video Engagement Metrics and Public User Profiles from TikTok with Our Powerful API\n## TikTok Scraping FAQs: Learn More About Using ScraperAPI\n### Is it Legal to scrape data from TikTok?\nYes, scraping publicly visible TikTok content is legal, provided you’re not accessing login-restricted data or bypassing private areas of the platform",
+      "page_age": "2026-07-14T15:37:20"
+    },
+    {
+      "title": "TikTok Scraper for Profiles, Posts, Videos & Photos · Apify",
+      "url": "https://apify.com/scrapingmonkey/tiktok-scraper",
+      "description": "Scrape public TikTok profiles, recent posts, video and photo metadata, playlists, photo search results, and LIVE status without a browser or login.",
+      "snippet": "Scrape public TikTok profiles, recent posts, video and photo metadata, playlists, photo search results, and LIVE status without a browser or login.",
+      "page_age": "2026-08-13T04:59:22"
+    },
+    {
+      "title": "TikTok Post Scraper - No Cookies · Apify",
+      "url": "https://apify.com/sophisticated_zythum/tiktok-scraper",
+      "description": "Extract TikTok posts by keyword, hashtag, or profile. Get views, likes, comments, video URLs, hashtags, and creator data. No login required. Pay only fo...",
+      "snippet": "# TikTok Post Scraper - No Cookies\nUnder maintenance\n\nTry for free\n\nExtract TikTok posts by keyword, hashtag, or profile. Get views, likes, comments, video URLs, hashtags, and creator data. No login required. Pay only for results delivered.\nRating\n0.0",
+      "page_age": "2026-08-17T20:11:34"
+    },
+    {
+      "title": "TikTok Data Scraping Made Easy with This Comprehensive Guide",
+      "url": "https://www.octoparse.com/blog/scraping-tiktok-with-octoparse",
+      "description": "TikTok data is valuable, getting it reliably is the hard part. Learn how to scrape TikTok data using no-code templates, custom workflows, Python, and AI-powered methods. Step-by-step guide with real workflow combinations and anti-detection explained.",
+      "snippet": "# How to Scrape TikTok Data Without Getting Blocked (Complete Guide)\n## FAQs About TikTok Data Scraping\nYes. The TikTok Search Scraper (No Login Required) is specifically designed for no-login operation. It is the paid, simpler, and more stable option. The TikTok Profile Scraper and TikTok Video Details & Comments Scraper also work without an account on public profiles and content. If you prefer to avoid per-result charges and are comfortable logging in, the TikTok Search Scraper (Login Required) is an alternative, though it requires more setup and can be less stable",
+      "page_age": "2026-06-04T19:13:20"
+    },
+    {
+      "title": "TikTok Profile Scraper",
+      "url": "https://apify.com/simple.actors/tiktok-profile-posts",
+      "description": "Scrape public TikTok profiles for their latest posts: caption, hashtags, views, likes, comments, shares and video files, plus exact follower counts.",
+      "snippet": "# TikTok Profile Scraper – Posts, Views & Followers\nTry for free\n\nScrape any public TikTok profile for its latest posts — caption, hashtags, views, likes, comments, shares, video files, photo carousels and the sound used — plus the account record with exact follower count. No login, no cookies, no API key. Up to 13 latest posts per profile. Unofficial.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-09-11T17:59:34"
+    }
+  ]
+}

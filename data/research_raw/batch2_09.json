@@ -1,0 +1,61 @@
+{
+  "query": "GitHub trending repositories how to scrape API",
+  "results": [
+    {
+      "title": "GitHub Trending API: scrape today's hottest repos for $2.00/1K ...",
+      "url": "https://dev.to/devil_scrapes/github-trending-api-scrape-todays-hottest-repos-for-2001k-5b2b",
+      "description": "Quick answer: GitHub's Trending page (github.com/trending) has no public API and no bulk export. To... Tagged with webscraping, python, apify, data.",
+      "snippet": "Quick answer: GitHub's Trending page (github.com/trending) has no public API and no bulk export.",
+      "page_age": "2026-06-01T18:49:26"
+    },
+    {
+      "title": "GitHub Explore Scraper - Extract Trending Repos, Stars API · Apify",
+      "url": "https://apify.com/samer-samaha/github-scraper/api",
+      "description": "Learn how to interact with GitHub Explore Scraper - Trending Repos, Stars & Metadata via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Explore Scraper - Trending Repos, Stars & Metadata\n## You might also like\n### GitHub Trending Repos Scraper\nmoney_machine_agent/github-trending-scraper\n\nPulls trending repos from github.com/trending. Returns owner, name, description, language, stars, forks, today star delta, built-by avatars. Filter by language + time period.\n3",
+      "page_age": "2026-09-03T00:41:52"
+    },
+    {
+      "title": "GitHub Trending Repositories Scraper API · Apify",
+      "url": "https://apify.com/fanciful_geode/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repositories Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repositories Scraper\n## You might also like\n### GitHub Trending Scraper\nleftwinglautus/github-trending-scraper\n\nScrapes GitHub trending repositories by language and time period. Extracts repo name, author, description, language, stars, forks, and daily star growth.\n2",
+      "page_age": "2026-07-06T07:18:06"
+    },
+    {
+      "title": "GitHub Trending Repository Scraper Daily Top Projects API · Apify",
+      "url": "https://apify.com/rambunctious_fingerprint/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repos Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repos Scraper\n## You might also like\n### GitHub Repository & Trending Scraper\nrupom888/github-repository-scraper\n\nSearch GitHub repos, scrape user profiles with repos, get repo details with contributors, or track GitHub trending. Uses public API - optional token for higher rate limits.\n21",
+      "page_age": "2026-07-22T01:03:29"
+    },
+    {
+      "title": "GitHub Trending Scraper - Track Popular Repos API · Apify",
+      "url": "https://apify.com/lafuan/github-trending-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Tracker via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Tracker\n## You might also like\n### GitHub Trending Repos Scraper\nparseforge/github-trending-scraper\n\nScrapes trending repositories from GitHub Trending. Filter by programming language, time period, and spoken language. Returns repo name, description, stars, forks, and today's stars.\n2",
+      "page_age": "2026-09-05T22:24:31"
+    },
+    {
+      "title": "GitHub Trending Scraper — Repos, Stars & Language Rankings API ...",
+      "url": "https://apify.com/samwise.agency/github-trending/api",
+      "description": "Learn how to interact with GitHub Trending Scraper — Repos, Stars & Language Rankings via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Scraper — Repos, Stars & Language Rankings\n## You might also like\n### GitHub Repository Scraper\nnavy_currant/github-repo-scraper\n\nSearch and export GitHub repositories via the official GitHub API. Filter by keyword, language, and stars; get full repo metadata for market research, lead generation, and dev intelligence.\n2",
+      "page_age": "2026-07-26T03:33:47"
+    },
+    {
+      "title": "GitHub Trending Repositories Scraper API API · Apify",
+      "url": "https://apify.com/atlas-data/github-trending-repos-scraper/api",
+      "description": "Learn how to interact with GitHub Trending Repositories Scraper via API. Includes an example code snippet for your convenience.",
+      "snippet": "# GitHub Trending Repositories Scraper\n## You might also like\n### GitHub Trending Scraper - Daily Trending Repositories\n```bash\n# Set API token\n$API_TOKEN=\n\n# Prepare Actor input\n$cat > input.json << 'EOF'\n<{\n<  \"language\": \"javascript\"\n<}",
+      "page_age": "2026-07-14T13:39:17"
+    },
+    {
+      "title": "GitHub Trending Repository Scraper Daily Top Projects API in Python ...",
+      "url": "https://apify.com/rambunctious_fingerprint/github-trending-scraper/api/python",
+      "description": "Learn how to interact with GitHub Trending Repos Scraper API in Python. Includes an example Python code snippet to help you get started quickly.",
+      "snippet": "# GitHub Trending Repos Scraper\n## You might also like\n### GitHub Trending Repos Scraper\nmoney_machine_agent/github-trending-scraper\n\nPulls trending repos from github.com/trending. Returns owner, name, description, language, stars, forks, today star delta, built-by avatars. Filter by language + time period.\n2",
+      "page_age": "2026-07-22T01:03:29"
+    }
+  ]
+}

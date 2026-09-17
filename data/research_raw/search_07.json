@@ -1,0 +1,61 @@
+{
+  "query": "Reddit JSON API without OAuth blocked 403 datacenter IP User-Agent rules",
+  "results": [
+    {
+      "title": "Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still ...",
+      "url": "https://crawlora.hashnode.dev/why-reddit-blocked-unauthenticated-json-in-2026-and-how-to-still-get-reddit-data",
+      "description": "Key takeaways On May 28, 2026, Reddit announced it is deprecating unauthenticated .json endpoints — within days, appending .json to a URL started returning 403, silently breaking most open-source Red",
+      "snippet": "Key takeaways On May 28, 2026, Reddit announced it is deprecating unauthenticated .json endpoints — within days, appending .json to a URL started returning 403, silently breaking most open-source Red\n\nSkip to main content",
+      "page_age": "2026-06-15T06:27:47"
+    },
+    {
+      "title": "Reddit's .json Endpoint Is Dead in 2026: How to Pull Data",
+      "url": "https://www.redditapis.com/blogs/reddit-json-endpoint-dead-2026",
+      "description": "The reddit.com/....json endpoint is rate-limited and blocked in 2026. Every way to still pull Reddit data: Data API, OAuth, PullPush, REST, dumps.",
+      "snippet": "The reddit.com/....json endpoint is rate-limited and blocked in 2026. Every way to still pull Reddit data: Data API, OAuth, PullPush, REST, dumps.",
+      "page_age": "2026-07-03T00:00:00"
+    },
+    {
+      "title": "Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still ...",
+      "url": "https://crawlora.net/blog/reddit-json-api-blocked-2026",
+      "description": "Reddit deprecated unauthenticated .json endpoints in 2026 (now 403). Why it happened — AI data licensing and bots — and how to get Reddit data now.",
+      "snippet": "# Why Reddit Blocked Unauthenticated JSON in 2026 (and How to Still Get Reddit Data)\nReddit deprecated unauthenticated .json endpoints in 2026 (now 403). Why it happened — AI data licensing and bots — and how to get Reddit data now.",
+      "page_age": "2026-07-27T00:00:00"
+    },
+    {
+      "title": "r/redditdev on Reddit: Is there an officially sanctioned way to ...",
+      "url": "https://www.reddit.com/r/redditdev/comments/1ts4j3r/is_there_an_officially_sanctioned_way_to_access/",
+      "description": "31 votes, 15 comments. A few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library…",
+      "snippet": "# Is there an officially sanctioned way to access Reddit's JSON feeds now?\n## reseph\nPer the admins:\n\n> Authenticated in this case means requests without Oauth or user credentials will be blocked. That said, it looks [...] bots that have an API token so they shouldn't be impacted!",
+      "page_age": "2026-05-30T16:31:02"
+    },
+    {
+      "title": "r/selfhosted on Reddit: Did Reddit kill unauthenticated JSON requests?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1trz8ld/did_reddit_kill_unauthenticated_json_requests/",
+      "description": "239 votes, 30 comments. Pretty much every self-hosted app that used Reddit for me is now returning 403. I couldn't find any news or announcement this…",
+      "snippet": "# Did Reddit kill unauthenticated JSON requests?\n## jake_that_dude\nrss works if you only need post lists, but it is not a drop-in for `.json` or comments. for anything API-ish, make a Reddit script app and use an OAuth bearer token with a real User-Agent. unauthenticated old/new `.json` calls are now hitting the network-policy 403 path pretty consistently",
+      "page_age": "2026-05-30T12:56:17"
+    },
+    {
+      "title": "r/redditdev on Reddit: Reddit .json endpoints returning 403",
+      "url": "https://www.reddit.com/r/redditdev/comments/1txd5mm/reddit_json_endpoints_returning_403/",
+      "description": "16 votes, 13 comments. Trying to fetch public Reddit data using the .json endpoints for a small personal Python project, but I keep getting 40…",
+      "snippet": "# Reddit .json endpoints returning 403\n## TourStrong8443\nA while back Reddit updated their API usage policies, even for public data.\n\n You need authorization now",
+      "page_age": "2026-06-05T06:46:20"
+    },
+    {
+      "title": "How to Scrape Reddit Without the API (After the 2023 Price Changes) ...",
+      "url": "https://dev.to/odeeb/how-to-scrape-reddit-without-the-api-after-the-2023-price-changes-3nhm",
+      "description": "A precise, honest guide to scraping Reddit without the API: what actually works in 2024, the 403/CORS traps, and old.reddit.com HTML. Tagged with webscraping, python, api, datascience.",
+      "snippet": "# How to Scrape Reddit Without the API (After the 2023 Price Changes)\n## The thing everyone tries first (and why it fails)\n- **From a datacenter server (AWS, GCP, a VPS):** the .json endpoints increasingly return **HTTP 403** from datacenter IP ranges. Reddit tightened this after the API changes specifically to stop the \"just hit .json from a Lambda\" pattern",
+      "page_age": "2026-05-31T17:37:19"
+    },
+    {
+      "title": "How to Fix Reddit 403 Forbidden Error in n8n [2026 Guide]",
+      "url": "https://medium.com/@jjoe81372/how-to-fix-reddit-403-forbidden-error-in-n8n-2026-guide-0b5dc0949fa2",
+      "description": "How to Fix Reddit 403 Forbidden Error in n8n [2026 Guide] You’re building a powerful Reddit automation workflow in n8n. Maybe you’re monitoring multiple subreddits for competitor mentions …",
+      "snippet": "# How to Fix Reddit 403 Forbidden Error in n8n \\[2026 Guide\\]\nHere’s the truth that most developers discover too late: the problem isn’t your credentials, your OAuth configuration, or Reddit’s API pricing tiers. It’s that traditional API-based scraping methods are fundamentally incompatible with Reddit’s 2026 anti-bot detection systems. No amount of credential tweaking will fix a detection problem",
+      "page_age": "2026-01-19T03:43:46"
+    }
+  ]
+}

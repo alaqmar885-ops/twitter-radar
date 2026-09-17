@@ -1,0 +1,61 @@
+{
+  "query": "Groq API free tier rate limits 2026",
+  "results": [
+    {
+      "title": "Groq Free Tier Limits 2026: 30 RPM, 6K TPM, 14.4K Req/Day - TokenMix ...",
+      "url": "https://tokenmix.ai/blog/groq-free-tier-limits-2026",
+      "description": "Groq free tier limits 2026: 30 RPM, 6K TPM, 14.4K req/day. Exact limits per model (Llama 70B, 8B, Qwen3, Mixtral). Developer tier upgrade guide included.",
+      "snippet": "Groq free tier limits 2026: 30 RPM, 6K TPM, 14.4K req/day. Exact limits per model (Llama 70B, 8B, Qwen3, Mixtral). Developer tier upgrade guide included.\n\nTokenMix Research Lab · 2026-04-13\n\nGroq Free Tier Limits 2026: 30 RPM, 6K TPM, 14.4K Req/Day",
+      "page_age": "2026-04-29T06:46:46"
+    },
+    {
+      "title": "Groq free tier rate limit increased: Steps, Limits, and Alternatives ...",
+      "url": "https://yangmao.ai/en/deals/groq-free-tier-rate-limits-increased-2026-05-29/",
+      "description": "Groq free tier rate limit increased guide: Groq increased free tier rate limit to 60 requests per minute, suitable for dev testing.. Includes requirements, difficulty, access notes, expiry handling, and alternatives.",
+      "snippet": "Groq free tier rate limit increased guide: Groq increased free tier rate limit to 60 requests per minute, suitable for dev testing.. Includes requirements, difficulty, access notes, expiry handling, and alternatives",
+      "page_age": "2026-05-29T00:00:00"
+    },
+    {
+      "title": "Groq free tier limits: What you need to know in 2026",
+      "url": "https://theneuralbase.com/groq/qna/groq-free-tier-limits/",
+      "description": "Understand the current free tier limits for Groq API usage, including request quotas and model access details for developers integrating Groq AI models.",
+      "snippet": "# Groq free tier limits\nThe openai SDK works with Groq via base_url, but the article omits that you must use from groq import Groq instead for proper Groq-specific features and error handling - the openai.OpenAI client with base_url is a workaround, not the native approach. Groq free tier limits are 10,000 requests/month and 5 million tokens/month combined across all models; exceeding either triggers immediate 429 errors with no partial request - there is no graceful degradation",
+      "page_age": "2026-04-11T00:00:00"
+    },
+    {
+      "title": "Groq API Free Tier Limits in 2026: What You Actually Get - Grizzly ...",
+      "url": "https://www.grizzlypeaksoftware.com/articles/p/groq-api-free-tier-limits-in-2026-what-you-actually-get-uwysd6mb",
+      "description": "Groq API free tier limits in 2026: exact RPM, RPD, TPM, and TPD for every model including Llama 3.3, Llama 4 Scout, and Whisper.",
+      "snippet": "# Groq API Free Tier Limits in 2026: What You Actually Get\n## The Free Tier Rate Limits (March 2026)\n| Model | RPM | RPD | TPM | TPD |\n| --- | --- | --- | --- | --- |\n| llama-3.1-8b-instant | 30 | 14,400 | 6,000 | 500,000 |\n| llama-3.3-70b-versatile | 30 | 1,000 | 12,000 | 100,000 |\n| meta-llama/llama-4-scout-17b-16e-instruct | 30 | 1,000 | 30,000 | 500,000 |\n| moonshotai/kimi-k2-instruct | 60 | 1,000 | 10,000 | 300,000 |\n| qwen/qwen3-32b | 60 | 1,000 | 6,000 | 500,000 |\n| openai/gpt-oss-120b | 30 | 1,000 | 8,000 | 200,000 |\n| openai/gpt-oss-20b | 30 | 1,000 | 8,000 | 200,000 |\n| groq/compound | 30 | 250 | 70,000 | — |\n| groq/compound-mini | 30 | 250 | 70,000 | — |\n| allam-2-7b | 30 | 7,000 | 6,000 | 500,000 |\n| whisper-large-v3 (speech-to-text) | 20 | 2,000 | — | — |\n| whisper-large-v3-turbo | 20 | 2,000 | — | — |",
+      "page_age": "2026-03-27T23:25:00"
+    },
+    {
+      "title": "Groq Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/groq/free",
+      "description": "Groq offers a genuinely free, no-credit-card developer tier with access to every model on its ultra-fast LPU hardware, gated only by rate limits — there is no credits system and no per-token charge.",
+      "snippet": "# Groq Free Tier\n## Free Tier Details\n**Free Tier**: No credits system — free access gated only by rate limits\n**Rate Limits**: ~30 req/min, ~14,400 req/day; per-model token limits (e.g. ~12K tokens/min on Llama 3.3 70B)\n**Models Available**: All models (Llama, GPT-OSS, Whisper, etc.)\n**Credit Card Required**: No — adding a card unlocks the Developer tier (~10x limits + 25% discount, no minimum spend)",
+      "page_age": ""
+    },
+    {
+      "title": "Groq API Pricing & Free Tier Rate Limits 2026 - Dmytro Klymentiev",
+      "url": "https://klymentiev.com/blog/groq-pricing",
+      "description": "Groq pricing in 2026: Llama 3.1 8B $0.05/M, Llama 70B $0.59/M, Kimi K2 $1/M. Free tier limits, Batch + caching 75% off, LPU speed.",
+      "snippet": "# Groq API Pricing & Free Tier Rate Limits 2026\n*Last updated: June 2026*\n\nGroq pricing in June 2026 ranges from **$0.05 per million input tokens** (Llama 3.1 8B) to **$1.00 per million** (Kimi K2), making it the **cheapest fast inference option** for open-source LLMs. The free tier requires no credit card and gives every developer access to all supported models at 30 requests per minute",
+      "page_age": "2026-06-10T00:00:00"
+    },
+    {
+      "title": "Groq API Pricing 2026: Free Tier, 315 TPS, $0.05/M Paid Models ...",
+      "url": "https://tokenmix.ai/blog/groq-api-pricing",
+      "description": "Groq API pricing 2026: free tier 30 req/min, paid from $0.05/M. 300-1,000 TPS speed. Rate limits by model, Groq vs OpenAI + DeepSeek comparison.",
+      "snippet": "Groq API pricing 2026: free tier 30 req/min, paid from $0.05/M. 300-1,000 TPS speed. Rate limits by model, Groq vs OpenAI + DeepSeek comparison.",
+      "page_age": "2026-04-29T06:54:05"
+    },
+    {
+      "title": "Groq Pricing In 2026: Every Model, Tier, And Cost Compared",
+      "url": "https://www.cloudzero.com/blog/groq-pricing/",
+      "description": "Groq pricing starts at $0.05 per million input tokens. Compare every model, free tier limits, batch discounts, and see how Groq stacks up against OpenAI and Claude in 2026.",
+      "snippet": "# Groq Pricing In 2026: Every Model, Tier, And Cost Compared\n## How Does Groq’s Tier Structure And API Pricing Work?\n### Three tiers govern access and rates:\n- **Groq free tier.** Every model, no credit card. Rate-limited to 30 requests per minute, 6,000 tokens per minute, and 14,400 requests per day. Limits apply at the organization level, multiple API keys don’t help. Enough for prototyping. Nowhere near enough for production",
+      "page_age": "2026-09-04T14:55:39"
+    }
+  ]
+}

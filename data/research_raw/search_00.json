@@ -1,0 +1,61 @@
+{
+  "query": "Threads.net scraping public profile posts without login undocumented API 2026",
+  "results": [
+    {
+      "title": "Threads.net Posts Scraper · Apify",
+      "url": "https://apify.com/skillmerc/threads-posts-scraper",
+      "description": "Scrape public Threads posts by keyword search, hashtag, or user profile. Returns post text, engagement metrics, media URLs, and author info. No login re...",
+      "snippet": "# Threads.net Posts Scraper\nTry for free\n\nScrape public Threads posts by keyword search, hashtag, or user profile. Returns post text, engagement metrics, media URLs, and author info. No login required.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-09-09T15:51:37"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login API · Apify",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper/api",
+      "description": "Learn how to interact with Threads Posts Scraper 🧵 Public Profiles, No Login via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Posts Scraper 🧵 Public Profiles, No Login\n## You might also like\n### Threads Posts Scraper\nendspec/threads-instant-posts-scraper\n\nScrape posts from any public Threads profile: full text, like/reply/repost/quote counts, media, and timestamps.\n2",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Profile Scraper 🧵 Posts, Replies & Reposts API · Apify",
+      "url": "https://apify.com/gatherworks/threads-profile-scraper/api",
+      "description": "Learn how to interact with Threads Profile Scraper 🧵 Posts, Replies & Reposts via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Profile Scraper 🧵 Posts, Replies & Reposts\nTry for free\n\nScrape any Threads (threads.com) creator profile plus their posts, replies and reposts. Followers, bio, verification, links and engagement counts on every row. Paste handles or profile URLs. Meta Threads data as JSON, CSV or Excel. No login, no API key.",
+      "page_age": "2026-08-30T07:09:00"
+    },
+    {
+      "title": "Threads Profile Scraper - Public Account Data API through CLI · Apify",
+      "url": "https://apify.com/thenetaji/threads-profile-scraper/api/cli",
+      "description": "Learn how to interact with Threads Profile Scraper - Public Account Data API through the CLI. Includes an CLI example to help you get started quickly.",
+      "snippet": "# Threads Profile Scraper - Public Account Data\n## You might also like\n### Threads Scraper - Posts, Likes & Replies\nthirdwatch/threads-scraper\n\nScrape public posts from any Meta Threads (threads.net / threads.com) profile. Get post text, like counts, timestamps, author details, media URLs, and thread links via the public guest GraphQL API. No login, API key, or proxy needed.\n6",
+      "page_age": "2026-08-29T04:13:57"
+    },
+    {
+      "title": "Threads Profile Scraper - Public Account Data API · Apify",
+      "url": "https://apify.com/thenetaji/threads-profile-scraper/api",
+      "description": "Learn how to interact with Threads Profile Scraper - Public Account Data via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Threads Profile Scraper - Public Account Data\nTry for free\n\nGet any public Threads account by username: bio, follower count, verification, avatar and topic tags. No Threads login or account needed.\nRating\n0.0\n(0)\nDeveloper",
+      "page_age": "2026-08-29T04:13:57"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login · Apify",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper",
+      "description": "Scrape the latest posts from public Threads profiles. Text, likes, replies and reposts to JSON or CSV. No login, incremental mode for scheduled monitoring.",
+      "snippet": "# Threads Posts Scraper — monitor profiles, no login\nLatest posts from any public Threads profile. Text, likes, replies, reposts, quotes and timestamps. No login, no app password, no API key",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Posts Scraper — Monitor Profiles, No Login OpenAPI ...",
+      "url": "https://apify.com/cleanfeed/meta-threads-posts-scraper/api/openapi",
+      "description": "Learn how to interact with Threads Posts Scraper 🧵 Public Profiles, No Login in OpenAPI. Includes an OpenAPI example code snippet for you to get starte...",
+      "snippet": "# Threads Posts Scraper 🧵 Public Profiles, No Login\nTry for free\n\nScrape posts from any public Threads profile. Pass profile handles or URLs; get post text, like, reply and repost counts, author handle, publish date and a direct post URL as JSON or CSV. No login required. Since date filter makes scheduled monitoring cheap.\n\nPricing\n\nfrom $1.43 / 1,000 post returneds\n\nRating\n\n5.0",
+      "page_age": "2026-09-04T21:08:04"
+    },
+    {
+      "title": "Threads Scraper: Posts, Profiles & Replies Export · Apify",
+      "url": "https://apify.com/logiover/threads-scraper",
+      "description": "Scrape Threads posts, profiles and replies by username, URL or keyword. No-login Threads API alternative to export public post and engagement data to CS...",
+      "snippet": "Scrape Threads posts, profiles and replies by username, URL or keyword. No-login Threads API alternative to export public post and engagement data to CS...\n\nThreads Scraper - Scrape threads.net Posts, No Login avatar\n\nThreads Scraper - Scrape threads.net Posts, No Login\n\nPricing\n\nfrom $3.50 / 1,000 results\n\nTry for free\n\nGo to Apify Store\n\nThreads Scraper - Scrape threads.net Posts, No Login",
+      "page_age": "2026-09-11T17:12:56"
+    }
+  ]
+}

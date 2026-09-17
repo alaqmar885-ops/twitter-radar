@@ -1,0 +1,61 @@
+{
+  "query": "Instagram public profile JSON endpoint without login 2026 status",
+  "results": [
+    {
+      "title": "Instagram Profile Data Without the Meta API: Python Guide 2026",
+      "url": "https://www.web-data-labs.com/blog/instagram-profile-scraper-python",
+      "description": "Meta locked down the Instagram API in 2022. Extract Instagram profile stats, follower counts, and post data with Python -- no API approval needed.",
+      "snippet": "# Instagram Profile Data Without the Meta API: Python Guide 2026\nMeta's Instagram Graph API requires business verification, a Facebook Page connected to the Instagram account, and approval from Meta for any useful permission scope. Even after approval, you can only read data from *accounts you own or manage* -- not arbitrary public profiles. For competitive research, influencer analytics, or brand monitoring, the official API is effectively useless",
+      "page_age": ""
+    },
+    {
+      "title": "Instagram Profile Scraper (No Login) · Apify",
+      "url": "https://apify.com/koreyoshi/instagram-profile-scraper",
+      "description": "Scrape public Instagram profile data without logging in. Extracts followers, bio, posts, profile pic, verification status, category, public email, exter...",
+      "snippet": "# Instagram Profile Scraper\n## Why this actor\n- **No login required.** Uses Instagram's public web\\_profile\\_info endpoint with a public X-IG-App-ID header.\n- **No Instagram account.** No cookies, no session tokens, no risk of account ban.\n- **Residential proxy included.** Each request rotates through a clean IP — Instagram blocks datacenter IPs with 429s.\n- **Structured data.** Every field parsed and normalized — ready for downstream pipelines.\n- **Battle-tested.** Works for public accounts including verified, business, and creator profiles",
+      "page_age": "2026-06-13T00:31:02"
+    },
+    {
+      "title": "Instagram Profile API - real-time profile JSON · Apify",
+      "url": "https://apify.com/myagizm/instagram-profile-api",
+      "description": "Standby HTTP API returning any Instagram profile as JSON in real time. GET https://myagizm--instagram-profile-api.apify.actor/profile?username=",
+      "snippet": "Standby HTTP API returning any Instagram profile as JSON in real time. GET https://myagizm--instagram-profile-api.apify.actor/profile?username=\n\nInstagram Profile API (Standby) avatar\n\nInstagram Profile API (Standby)\n\nPricing\n\nfrom $0.94 / 1,000 instagram profile record returneds\n\nTry for free\n\nGo to Apify Store\n\nInstagram Profile API (Standby)",
+      "page_age": "2026-08-02T00:05:18"
+    },
+    {
+      "title": "How to Scrape Instagram in 2026: A Developer's Guide",
+      "url": "https://www.socialcrawl.dev/blog/how-to-scrape-instagram-2026",
+      "description": "Scrape Instagram profiles, posts, and comments in 2026 without a browser: the official Graph API limits, the DIY realities, and a working API tutorial with real code and a real response.",
+      "snippet": "# How to Scrape Instagram in 2026: A Developer's Guide\nThe quickest way to scrape Instagram in 2026 is a single GET request to a data API, no browser automation and no logged-in session. Here is the whole thing:\n\n```\ncurl \"https://www.socialcrawl.dev/v1/instagram/profile?handle=nasa\" \\\n  -H \"x-api-key: sc_your_api_key_here\"\n```",
+      "page_age": "2026-08-25T09:29:40"
+    },
+    {
+      "title": "Instagram API — 8 Endpoints for Profiles, Posts, Reels,",
+      "url": "https://anysite.io/sources/instagram/",
+      "description": "Profiles, posts, reels, comments, likes, followers, and content search as clean JSON — no Instagram login, no Facebook Business verification. 7-day free trial.",
+      "snippet": "Profiles, posts, reels, comments, likes, followers, and content search as clean JSON — no Instagram login, no Facebook Business verification.",
+      "page_age": "2026-03-01T00:00:00"
+    },
+    {
+      "title": "Instagram Profile & Posts Scraper — No Login Required API · Apify",
+      "url": "https://apify.com/axery/instagram-profile-posts-scraper/api",
+      "description": "Learn how to interact with Instagram Profile & Posts Scraper — No Login Required via API. Includes an example code snippet for your convenience.",
+      "snippet": "# Instagram Profile & Posts Scraper — No Login Required\nTry for free\n\nScrape public Instagram profiles - follower count, post count, verification - plus recent posts with like and comment counts. No login, no API key.\nRating\n0.0\n(0)",
+      "page_age": "2026-09-12T19:13:37"
+    },
+    {
+      "title": "Instagram Profile & Posts Scraper — No Login Required · Apify",
+      "url": "https://apify.com/axery/instagram-profile-posts-scraper",
+      "description": "Scrape public Instagram profiles - follower count, post count, verification - plus recent posts with like and comment counts. No login, no API key.",
+      "snippet": "# Instagram Profile & Recent Posts Scraper\nScrapes public Instagram profiles — follower count, post count, verification — plus recent posts with like and comment counts. No login, no session cookie, no API key.\n\nUseful for influencer vetting, competitor tracking, audience-size research, and building a creator database",
+      "page_age": "2026-09-12T19:13:37"
+    },
+    {
+      "title": "Instagram Data Without the API: Posts and Reels in 2026 · logiover",
+      "url": "https://logiover.com/guides/instagram-data-without-api-2026/",
+      "description": "Get Instagram data without the API in 2026 — pull public posts, reels, and profiles from the web surface when the Graph API needs a business account.",
+      "snippet": "# Instagram Data Without the API: Posts and Reels in 2026\nAnyone who has tried to read public Instagram data programmatically hits the same wall: there is no public read API anymore. Meta deprecated the old public endpoints years ago, and what remains — the Instagram Graph API and the Instagram Basic Display sunset — only covers accounts you own or manage. You need a Facebook app, an app review, a connected Instagram Business or Creator account, and a Page. None of that lets you read an arbitrary public profile or pull a competitor’s reels",
+      "page_age": "2026-06-08T00:00:00"
+    }
+  ]
+}

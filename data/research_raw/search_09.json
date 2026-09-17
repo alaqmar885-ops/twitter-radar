@@ -1,0 +1,61 @@
+{
+  "query": "Hacker News Algolia API search_by_date parameters tags numericFilters",
+  "results": [
+    {
+      "title": "The Hacker News Search API: Free, No-Key, and Surprisingly Powerful ...",
+      "url": "https://dev.to/odeeb/the-hacker-news-search-api-free-no-key-and-surprisingly-powerful-5e8l",
+      "description": "A practical guide to the free, no-key Hacker News search API (hn.algolia.com): tags, numeric filters, relevance vs. date sorting, and runnable code. Tagged with api, javascript, webdev, datascience.",
+      "snippet": "A practical guide to the free, no-key Hacker News search API (hn.algolia.com): tags, numeric filters, relevance vs. date sorting, and runnable code.",
+      "page_age": "2026-06-01T08:42:22"
+    },
+    {
+      "title": "Hacker News API: The Complete Guide to Algolia Search and Firebase ...",
+      "url": "https://cotera.co/articles/hacker-news-api-guide",
+      "description": "A practical walkthrough of the two Hacker News APIs — Algolia for search and Firebase for raw data. Endpoints, parameters, code examples, and real use cases.",
+      "snippet": "# Hacker News API: The Complete Guide to Algolia Search and Firebase Data\n## Two APIs, One Hacker News\nThen there's the **Algolia Search API** (hn.algolia.com/api/v1). Algolia crawls and indexes everything on HN and slaps a full-text search layer on top. Date filters, tag filters, pagination, the works.",
+      "page_age": "2026-02-20T00:00:00"
+    },
+    {
+      "title": "Issue searching for comments with points filter · Issue #55 · ...",
+      "url": "https://github.com/algolia/hn-search/issues/55",
+      "description": "Hi, It appears the combination of tags=comment and numericFilters=points>X is no longer returning new results. The latest results are from early October 2014: https://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=point...",
+      "snippet": "Hi, It appears the combination of tags=comment and numericFilters=points>X is no longer returning new results. The latest results are from early October 2014: https://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=point",
+      "page_age": "2015-02-08T17:51:21"
+    },
+    {
+      "title": "Hacker News API - Get the most popular items",
+      "url": "https://stackoverflow.com/questions/25886009/hacker-news-api-get-the-most-popular-items",
+      "description": "I stumbled upon Hacker News API (https://hn.algolia.com/api) and I was wondering if I am missing how to get the list of the most popular stories featured in the homepage. Is there another API to do...",
+      "snippet": "# Hacker News API - Get the most popular items\n## 1 Answer 1\nhttps://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points>100\n\nOtherwise I afraid you have to make your own crawler, which would request front-page frequently or on-demand, just make sure it is within limits. There was a discussion on HN on this subject, but I cannot find out right now.\nShare",
+      "page_age": "2014-09-17T00:00:00"
+    },
+    {
+      "title": "Unlocking Hacker News with the Algolia API: A Practical Guide - ...",
+      "url": "https://deepeshsoni.com/archives/70",
+      "description": "Unlocking Hacker News with the Algolia API: A Practical Guide Hacker News is a barometer of the tech world, offering timely stories, thoughtful discussions, and a pulse on new ideas.",
+      "snippet": "# Unlocking Hacker News with the Algolia API: A Practical Guide\n## Key endpoints and what they do\n### Search by date\n```\nhttps://hn.algolia.com/api/v1/search_by_date?query=web%20performance&tags=story\n```",
+      "page_age": "2025-08-26T03:13:43"
+    },
+    {
+      "title": "hn-search",
+      "url": "https://lobehub.com/skills/dylanfeltus-skills-hn-search",
+      "description": "Search and monitor Hacker News stories, comments, and users via the free Algolia API. Use when the user asks about HN discussions, wants to find posts about ...",
+      "snippet": "# hn-search\n## Summary\nKey features include two endpoints (/search for relevance, /search_by_date for recency), flexible tag filters (story, comment, show_hn, ask_hn, author_USERNAME, story_ID, front_page), numericFilters (e.g., points>100), paging and hitsPerPage (up to 1000), and a generous 10,000 requests/hour limit. Responses are structured JSON suitable for automated web_fetch calls, enabling fast lookups, dashboards, and monitoring workflows without an API key.",
+      "page_age": "2026-03-15T02:55:26"
+    },
+    {
+      "title": "How to Use a Hacker News data from Algolia API",
+      "url": "https://medium.com/@otabekjon0302/how-to-use-a-hacker-news-data-from-algolia-api-d7dd32341436",
+      "description": "How to Use a Hacker News data from Algolia API In this tutorial, we will build a mini Search News in React using Context and Chakra ui. We will be using React Hooks syntax for building this …",
+      "snippet": "# How to Use a Hacker News data from Algolia API\n## Introduction to the API\nWe will be using the Hackernews API from this url.\n\n```\nThe Hacker News Algolia Search API provides various endpoints for fetching data:\n\n1. **Get Item Details:**\n   - Story/Comment details: `http://hn.algolia.com/api/v1/items/:id`\n\n2. **Get User Details:**\n   - User details: `http://hn.algolia.com/api/v1/users/:username`\n\n3. **Search by Relevance, Points, and Comments:**\n   - `GET http://hn.algolia.com/api/v1/search?query=...`\n   - Results are sorted by relevance, then points, and then the number of comments.\n\n4. **Search by Date (Recent First):**\n   - `GET http://hn.algolia.com/api/v1/search_by_date?query=...`\n   - Results are sorted by date, more recent first.\n\n5. **Search with Tags and Logical Operators:**\n   - Tags are ANDed by default, ORed if between parenthesis.\n   - Example: `author_pg,(story,poll)` filters on author=pg AND (type=story OR type=poll).\n\n6. **Pagination and Result Configuration:**\n   - A limited number of results are returned in each page.\n   - Use `nbPages` and `hitsPerPage` as variables to specify the number of results and page number.\n   - Example: `&page=2` or `hitsPerPage=50` in the search URL parameters.\n\n7. **Examples:**\n   - All stories matching \"foo\": `http://hn.algolia.com/api/v1/search?query=foo&tags=story`\n   - All comments matching \"bar\": `http://hn.algolia.com/api/v1/search?query=bar&tags=comment`\n   - Last stories: `http://hn.algolia.com/api/v1/search_by_date?tags=story`\n   - Comments since timestamp X: `http://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=created_at_i>X`\n   - Stories between timestamp X and Y: `http://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i>X,created_at_i",
+      "page_age": "2024-01-15T21:57:33"
+    },
+    {
+      "title": "Hacker News Search API: Query HN",
+      "url": "https://www.socialcrawl.dev/platforms/hackernews/search",
+      "description": "Hacker News Search API: query stories and comments by keyword with tags, numeric filters, hitsPerPage, and page paging. Tech-trend monitoring. Free 100 credits.",
+      "snippet": "# Hacker News Search API\nScrape Hacker News Search data with one API call. Searches Hacker News stories, comments, and front-page items via the Algolia HN API. Defaults to story-only results sorted by relevance. The HN Algolia index only exposes `created_at_i` for numeric filtering, so use `numericFilters` for date windows (e.g. `created_at_i>1700000000`)",
+      "page_age": "2026-08-18T20:36:46"
+    }
+  ]
+}

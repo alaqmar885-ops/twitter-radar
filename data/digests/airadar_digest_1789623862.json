@@ -1,0 +1,852 @@
+{
+  "generated": 1789623862,
+  "offers": [
+    {
+      "id": "5c6127f47564",
+      "title": "A ChatGPT co-inventor just launched a model where output tokens are free.\n\n It is called Jev, and he says it runs 40 to 400x cheaper than the frontier models everyone is paying for right now.",
+      "summary": "A ChatGPT co-inventor just launched a model where output tokens are free.\n\n It is called Jev, and he says it runs 40 to 400x cheaper than the frontier models everyone is paying for right now.",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "It",
+      "url": "https://x.com/AIHighlight/status/2099949255783821689",
+      "platforms": [
+        "twitter",
+        "hackernews",
+        "mastodon"
+      ],
+      "score": 0.95,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "twitter",
+          "author": "AIHighlight",
+          "url": "https://x.com/AIHighlight/status/2099949255783821689",
+          "text": "A ChatGPT co-inventor just launched a model where output tokens are free.\n\n It is called Jev, and he says it runs 40 to 400x cheaper than the frontier models everyone is paying for right now."
+        },
+        {
+          "platform": "hackernews",
+          "author": "professorgc",
+          "url": "https://vending-machine-lab.pages.dev/",
+          "text": "I spent a while exploring whether AI could help build businesses that operate with little ongoing owner involvement. This was inspired in part by Andon Labs’ Vending-Bench work on AI agents running si"
+        },
+        {
+          "platform": "hackernews",
+          "author": "ygjb",
+          "url": "https://app.oghmere.com/try/HACKERNEWS2026",
+          "text": "Hi HN,<p>I&#x27;m  the technical advisor and one of the co-founders for Oghmere (<a href=\"https:&#x2F;&#x2F;oghmere.com\" rel=\"nofollow\">https:&#x2F;&#x2F;oghmere.com</a>), a writing tool for people wh"
+        },
+        {
+          "platform": "hackernews",
+          "author": "felixdoerp",
+          "url": "https://www.captchainbox.com",
+          "text": "Hi HN :) really excited to share this with you.<p>The one thing AI reliably does is generate noise. Half the tools I see launch are just machines for producing more noise across more channels. And peo"
+        },
+        {
+          "platform": "hackernews",
+          "author": "felixdoerp",
+          "url": "https://www.captchainbox.com",
+          "text": "Hi HN,<p>The one thing AI reliably does is generate noise. Half the tools I see launch are just machines for producing more noise across more channels. And people are starting to see this in the form "
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "671e0f3712e2",
+      "title": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "summary": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "This",
+      "url": "https://unsnag.app",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.95,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "hydropax",
+          "url": "https://unsnag.app",
+          "text": "My garage has needed clearing out for quite a while, and to most people it looks like I&#x27;ve just been putting it off. But I&#x27;m not procrastinating; the truth is that I&#x27;m blocked from doin"
+        },
+        {
+          "platform": "hackernews",
+          "author": "petreradu",
+          "url": "https://www.vantagehealthapp.com/",
+          "text": "Hello, there. This is Petre, Adrian and Diana and we are building Vantage while maintaining day jobs and poor relationships with sleep. We shipped Vantage to the App Store on August 12th and we curren"
+        },
+        {
+          "platform": "hackernews",
+          "author": "wnolens",
+          "url": "https://news.ycombinator.com/item?id=49706870",
+          "text": "I&#x27;m contemplating moving out of the US for personal reasons (to a place I am also a citizen) and would like to hear the stories of US citizens who live outside the US.<p>The tax implications and "
+        },
+        {
+          "platform": "hackernews",
+          "author": "alexander-g",
+          "url": "https://claudecoupons.com",
+          "text": "This is an exchange site for people with paid Claude accounts who want to get free credits for sharing their passes.<p>When someone redeems your Claude Code coupon, Anthropic credits you $10 in usage."
+        },
+        {
+          "platform": "hackernews",
+          "author": "aj-srivastava",
+          "url": "https://backprompter.com/",
+          "text": "Hi everyone,<p>I am a professor in AI, and I often build AI apps as a hobby and for academic projects. I felt that I was wasting too much time setting up backends, DB, and secrets for each app, and te"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "584df191ccde",
+      "title": "Show HN: Zill",
+      "summary": "Show HN: Zill",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Show",
+      "url": "https://news.ycombinator.com/item?id=49730450",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.95,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "yhussain1110",
+          "url": "https://news.ycombinator.com/item?id=49730450",
+          "text": "<a href=\"https:&#x2F;&#x2F;zill.ninja&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;zill.ninja&#x2F;</a>\nA new free URL shortener built for fun."
+        },
+        {
+          "platform": "hackernews",
+          "author": "spacedcowboy",
+          "url": "https://news.ycombinator.com/item?id=49730393",
+          "text": "Hi folks,<p>So this is my announcement of a compiler[1] I&#x27;ve been working on for about 6 months now (so yes, to get the obvious out of the way early, this was written with Claude code).<p>The com"
+        },
+        {
+          "platform": "hackernews",
+          "author": "mtweak",
+          "url": "https://data.charitysense.com/grants",
+          "text": "Built a tool for searching and filtering grant&#x2F;funding data. The commercial versions of this run a few thousand bucks a year, so I made a free one instead. No signup, just go use it.  As far as I"
+        },
+        {
+          "platform": "hackernews",
+          "author": "alongtheflow",
+          "url": "https://seasonmap.app",
+          "text": "Author here. I&#x27;m trying to visit every country and I&#x27;ve been to 158 so far.<p>Before I decide where to travel, I&#x27;d ask a local friend which season to avoid, or open up dozens of browser"
+        },
+        {
+          "platform": "hackernews",
+          "author": "abuhl98",
+          "url": "https://www.salestrics.com/",
+          "text": "Hey HN, I’m Austin, founder of Salestrics (salestrics.com).<p>The Problem: &gt; Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giv"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "b7850f57abbb",
+      "title": "Show HN: Freeform – One click shareable AI generated apps",
+      "summary": "Show HN: Freeform – One click shareable AI generated apps",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "What",
+      "url": "https://sharefreeform.com",
+      "platforms": [
+        "hackernews",
+        "mastodon"
+      ],
+      "score": 0.95,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ReeseEJ",
+          "url": "https://sharefreeform.com",
+          "text": "TLDR: Curious if YC startup requests are a valid take, so I built freeform in a weekend.<p>Storytime: I’ve been working on a startup for a while (another context layer startup) and one night while I h"
+        },
+        {
+          "platform": "hackernews",
+          "author": "iedayan03",
+          "url": "https://news.ycombinator.com/item?id=45900352",
+          "text": "Hi HN! We&#x27;re excited to share Sentient, an AI-powered customer intelligence platform that transforms raw customer feedback into actionable business insights in under 60 seconds.<p>What is Sentien"
+        },
+        {
+          "platform": "mastodon",
+          "author": "radwebhosting",
+          "url": "https://mastodon.social/@radwebhosting/117284601638139167",
+          "text": "🚀 How to Deploy # XWiki on # Debian # VPS This article provides a guide demonstrating how to deploy XWiki on Debian VPS. What is XWiki? XWiki is a free, open-source enterprise # wiki and application d"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "f0d1ede17ed2",
+      "title": "Show HN: Simple self-hosted LLM assistant with user-steered compounding context",
+      "summary": "Show HN: Simple self-hosted LLM assistant with user-steered compounding context",
+      "offer_type": "free_credits",
+      "value": "$0",
+      "promo_code": "",
+      "product": "There",
+      "url": "https://github.com/kol3x/pawmc",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.875,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "kol3x",
+          "url": "https://github.com/kol3x/pawmc",
+          "text": "I built a personal LLM assistant on Cloudflare Workers + Durable Objects. You specify a category and topic when starting a new conversation, so the backend maintains a summary for each category&#x2F;t"
+        },
+        {
+          "platform": "hackernews",
+          "author": "louis030195",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "text": "Hi Hacker News, I&#x27;m Louis. I built Screenpipe (<a href=\"https:&#x2F;&#x2F;screenpipe.com\">https:&#x2F;&#x2F;screenpipe.com</a>), an app that records your screen and audio locally (only!), and giv"
+        },
+        {
+          "platform": "hackernews",
+          "author": "opensrcme",
+          "url": "https://www.uprouter.online/",
+          "text": "Hey people! I have been compiling a directory of AI API providers which provide a combined total of $4.3k in free API credits and I&#x27;m super proud of it so far. It serves as a community-curated di"
+        },
+        {
+          "platform": "hackernews",
+          "author": "epigos",
+          "url": "https://pingchange.com",
+          "text": "I built PingChange after watching the same thing happen over and over: a competitor prices change, a company policy is updated or important web content changes but there is often no reliable way to tr"
+        },
+        {
+          "platform": "hackernews",
+          "author": "falloutx",
+          "url": "https://news.ycombinator.com/item?id=46574121",
+          "text": "The industry is kind of in a bad spot, and I dont think its due to AI or Vibe Coding, because thats still niche. I am talking about the general sense of the market.<p>We are producing too much softwar"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "c11caa6980a5",
+      "title": "Show HN: Understanding your Claude Code with trajectory segmentation",
+      "summary": "Show HN: Understanding your Claude Code with trajectory segmentation",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Feel",
+      "url": "https://github.com/lucastononro/cc-traj-seg",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.85,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ltononro",
+          "url": "https://github.com/lucastononro/cc-traj-seg",
+          "text": "Would love to get feedbacks.\nFeel free to open a PR with features that might be useful for you or fork it and take it off!<p>The goal is to make AI easier to be understood w&#x2F;o having to read the "
+        },
+        {
+          "platform": "hackernews",
+          "author": "yojukawa",
+          "url": "https://zerolith.io/",
+          "text": "To let your friends deploy the apps they&#x27;ve vibecode without having to set up a VPS for them (true story).<p>I&#x27;m trying to streamline this a bit and include everything needed for rapid proto"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "7b3db2db76ee",
+      "title": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "summary": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "NVIDIA",
+      "url": "https://free-model.com/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.85,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
+          "text": "NVIDIA: Nemotron 3 Nano Omni (free)"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/nvidia-nim/deepseek-ai-deepseek-v4-flash",
+          "text": "deepseek-ai/deepseek-v4-flash Free NVIDIA NIM · 1.0M ctx text"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/nvidia-nim/qwen-qwen3-5-122b-a10b",
+          "text": "qwen/qwen3.5-122b-a10b Free NVIDIA NIM · 262K ctx text image"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "d5ede0846a07",
+      "title": "Google: Gemma 4 26B A4B (free)",
+      "summary": "Google: Gemma 4 26B A4B (free)",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Google",
+      "url": "https://free-model.com/models/openrouter/google-gemma-4-26b-a4b-it",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.85,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/google-gemma-4-26b-a4b-it",
+          "text": "Google: Gemma 4 26B A4B (free)"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/google-gemma-4-31b-it",
+          "text": "Google: Gemma 4 31B (free)"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/google-lyria-3-pro-preview",
+          "text": "Google: Lyria 3 Pro Preview Free OpenRouter · 1.0M ctx text image"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/google-lyria-3-clip-preview",
+          "text": "Google: Lyria 3 Clip Preview Free OpenRouter · 1.0M ctx text image"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://felloai.com/ai-free-trials/",
+          "text": "standard free trial of Google AI Pro"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "444e153b53ea",
+      "title": "Ask HN: As a teacher how should I teach kids to use AI?",
+      "summary": "Ask HN: As a teacher how should I teach kids to use AI?",
+      "offer_type": "free_credits",
+      "value": "",
+      "promo_code": "",
+      "product": "DeepSeek",
+      "url": "https://news.ycombinator.com/item?id=49641100",
+      "platforms": [
+        "hackernews",
+        "html"
+      ],
+      "score": 0.825,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "samyar",
+          "url": "https://news.ycombinator.com/item?id=49641100",
+          "text": "Hi,<p>An institution asked me to help them in teaching poor kids to use AI and about AI. They are between 7 - 14 years old from poor families in third world country.<p>I think DeepSeek is a good choic"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/deepseek-deepseek-v4-flash",
+          "text": "DeepSeek: DeepSeek V4 Flash (free)"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "00d463b3e38e",
+      "title": "STOP PAYING FOR AI COURSES.\n\nThe companies building AI are teaching it for free.\n\nHere are 10 resources that can take you from beginner to job-ready:",
+      "summary": "STOP PAYING FOR AI COURSES.\n\nThe companies building AI are teaching it for free.\n\nHere are 10 resources that can take you from beginner to job-ready:",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "STOP",
+      "url": "https://x.com/AIHighlight/status/2099886700386296228",
+      "platforms": [
+        "twitter",
+        "html"
+      ],
+      "score": 0.8,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "twitter",
+          "author": "AIHighlight",
+          "url": "https://x.com/AIHighlight/status/2099886700386296228",
+          "text": "STOP PAYING FOR AI COURSES.\n\nThe companies building AI are teaching it for free.\n\nHere are 10 resources that can take you from beginner to job-ready:"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/",
+          "text": "All models in one place Stop crawling 4 different GitHub READMEs. Search, filter, and compare 147+ free models from 20 providers — in seconds. Search 147+ models →"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "5c5ddf010b04",
+      "title": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "summary": "Show HN: Plexus – Telemetry for hardware teams who could build it but shouldn't",
+      "offer_type": "free_tier",
+      "value": "$500",
+      "promo_code": "",
+      "product": "We",
+      "url": "https://plexus.company",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "annnnnnn",
+          "url": "https://plexus.company",
+          "text": "Hi, I&#x27;m Ann, building Plexus.<p>We gives hardware teams live dashboards and stored history for your sensor data, so you don&#x27;t have to build and maintain that setup yourself. You can try it w"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "363435dc6182",
+      "title": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
+      "summary": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "AI",
+      "url": "https://resumeskip.com/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.775,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ghosts_",
+          "url": "https://resumeskip.com/",
+          "text": "just gonna make it simple: all job portals scan resumes with AI now, if you aren&#x27;t tailoring your resume to each posting you&#x27;re already behind.. Some companies even use AI to interview ().<p"
+        },
+        {
+          "platform": "hackernews",
+          "author": "xiaoyu2006",
+          "url": "https://news.ycombinator.com/item?id=49659652",
+          "text": "Three years ago I asked the same question (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=35327092), and the landscape has changed since then. Just say that even the most AI skepticism people wil"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "4cb54df0367b",
+      "title": "Try it free →",
+      "summary": "Try it free →",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Try",
+      "url": "https://costgoat.com/",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://costgoat.com/",
+          "text": "Try it free →"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://costgoat.com/",
+          "text": "Try For Free"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "3afa80c49ac4",
+      "title": "Poolside: Laguna XS.2 (free)",
+      "summary": "Poolside: Laguna XS.2 (free)",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Poolside",
+      "url": "https://free-model.com/models/openrouter/poolside-laguna-xs.2",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/poolside-laguna-xs.2",
+          "text": "Poolside: Laguna XS.2 (free)"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/openrouter/poolside-laguna-m.1",
+          "text": "Poolside: Laguna M.1 (free)"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "678cea0d0029",
+      "title": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text",
+      "summary": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Cloudflare",
+      "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct",
+          "text": "@cf/meta/llama-4-scout-17b-16e-instruct Free Cloudflare Workers AI · 10.0M ctx text"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/models/cloudflare-workers-ai/cf-meta-llama-3-2-11b-vision-instruct",
+          "text": "@cf/meta/llama-3.2-11b-vision-instruct Free Cloudflare Workers AI · 131K ctx text image"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "7b6e5d390c8d",
+      "title": "Free LLM APIs for Coding 17 models",
+      "summary": "Free LLM APIs for Coding 17 models",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "LLM",
+      "url": "https://free-model.com/use-cases/coding",
+      "platforms": [
+        "html"
+      ],
+      "score": 0.75,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/use-cases/coding",
+          "text": "Free LLM APIs for Coding 17 models"
+        },
+        {
+          "platform": "html",
+          "author": "",
+          "url": "https://free-model.com/use-cases/chat",
+          "text": "Free LLM APIs for Chat 144 models"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "3358aa43da7d",
+      "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+      "summary": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Completely",
+      "url": "https://github.com/ohkariku-boop/Echodot",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "kariku",
+          "url": "https://github.com/ohkariku-boop/Echodot",
+          "text": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style.<p>Problem:\nMost AI writing tools either force you into their voice or require constant copy-pastin"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "ec912d6f53cf",
+      "title": "Show HN: Put an AI agent on a FaceTime audio/video call (open source, WebRTC)",
+      "summary": "Show HN: Put an AI agent on a FaceTime audio/video call (open source, WebRTC)",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "FaceTime",
+      "url": "https://github.com/cherthq/chert-facetime-opensource",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "garygao",
+          "url": "https://github.com/cherthq/chert-facetime-opensource",
+          "text": "Hey everyone, Gary here from Chert (YC P26). We just open-sourced a framework for putting AI agents on FaceTime audio&#x2F;video calls: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;cherthq&#x2F;chert-fa"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "097fde55c77f",
+      "title": "Show HN: Blue – open-source governance for coding agents",
+      "summary": "Show HN: Blue – open-source governance for coding agents",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Authentication",
+      "url": "https://bluee.sh/",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "tomislavs",
+          "url": "https://bluee.sh/",
+          "text": "Hey HN,<p>After migrating to an inference gateway to serve internal usage across an organization, problems have started to pop up. Once you detach from a managed ecosystem such as OpenAI or Anthropic "
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "ed629751b492",
+      "title": "Mojo compiler is open for open source contributions [Mojo]",
+      "summary": "Mojo compiler is open for open source contributions [Mojo]",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Mojo",
+      "url": "https://forum.modular.com/t/mojo-compiler-is-open-for-open-source-contributions/3499",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.745,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "ivell",
+          "url": "https://forum.modular.com/t/mojo-compiler-is-open-for-open-source-contributions/3499",
+          "text": "Mojo compiler is open for open source contributions [Mojo]"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "12937637aaf2",
+      "title": "Italian pupils are now earning school credits for Free Software projects",
+      "summary": "Italian pupils are now earning school credits for Free Software projects",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "Italian",
+      "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+      "platforms": [
+        "hackernews"
+      ],
+      "score": 0.73,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "hackernews",
+          "author": "speckx",
+          "url": "https://fsfe.org/news/2026/news-20260914-01.en.html",
+          "text": "Italian pupils are now earning school credits for Free Software projects"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "f8fe1715747c",
+      "title": "SFD-001 — Who maintains freedom? Software Freedom Day · bibliography This September 19th, Software Freedom Day will be celebrated once again. Rather than simply collecting software, I am interested in",
+      "summary": "SFD-001 — Who maintains freedom? Software Freedom Day · bibliography This September 19th, Software Freedom Day will be celebrated once again. Rather than simply collecting software, I am interested in",
+      "offer_type": "open_source",
+      "value": "",
+      "promo_code": "",
+      "product": "SFD",
+      "url": "https://mathstodon.xyz/@dbeng/117284744700705738",
+      "platforms": [
+        "mastodon"
+      ],
+      "score": 0.725,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "mastodon",
+          "author": "dbeng@mathstodon.xyz",
+          "url": "https://mathstodon.xyz/@dbeng/117284744700705738",
+          "text": "SFD-001 — Who maintains freedom? Software Freedom Day · bibliography This September 19th, Software Freedom Day will be celebrated once again. Rather than simply collecting software, I am interested in"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "c96a315ac701",
+      "title": "Just shipped this after getting burned one too many times: Claude Code Guardrails Pack — free hooks... # showdev # ai # claudecode # opensource # software # coding # development # engineering # inclus",
+      "summary": "Just shipped this after getting burned one too many times: Claude Code Guardrails Pack — free hooks... # showdev # ai # claudecode # opensource # software # coding # development # engineering # inclus",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Just",
+      "url": "https://www.urbanmind.net/display/f7dd981d-02d455f2-d3c8d9d7ab4d1254",
+      "platforms": [
+        "mastodon"
+      ],
+      "score": 0.725,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "mastodon",
+          "author": "hackaday@www.urbanmind.net",
+          "url": "https://www.urbanmind.net/display/f7dd981d-02d455f2-d3c8d9d7ab4d1254",
+          "text": "Just shipped this after getting burned one too many times: Claude Code Guardrails Pack — free hooks... # showdev # ai # claudecode # opensource # software # coding # development # engineering # inclus"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "47deb5afb7cd",
+      "title": "A researcher quits, warns AI may kill us all, then goes on TV to say so. Another leaves to study poetry. I stopped asking whether the warning is true and asked who it serves. The answer points at both",
+      "summary": "A researcher quits, warns AI may kill us all, then goes on TV to say so. Another leaves to study poetry. I stopped asking whether the warning is true and asked who it serves. The answer points at both",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "Another",
+      "url": "https://mastodon.social/@radionomadlive/117284401223026347",
+      "platforms": [
+        "mastodon"
+      ],
+      "score": 0.725,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "mastodon",
+          "author": "radionomadlive",
+          "url": "https://mastodon.social/@radionomadlive/117284401223026347",
+          "text": "A researcher quits, warns AI may kill us all, then goes on TV to say so. Another leaves to study poetry. I stopped asking whether the warning is true and asked who it serves. The answer points at both"
+        }
+      ],
+      "web_sources": []
+    },
+    {
+      "id": "37a11b041557",
+      "title": "Hi DEV 👋 I'm a network engineer who spends a lot of my free time building things. Most of my projects start with a simple question: \"Could this work?\" Sometimes the answer is yes. Sometimes I spend ho",
+      "summary": "Hi DEV 👋 I'm a network engineer who spends a lot of my free time building things. Most of my projects start with a simple question: \"Could this work?\" Sometimes the answer is yes. Sometimes I spend ho",
+      "offer_type": "free_tier",
+      "value": "",
+      "promo_code": "",
+      "product": "DEV",
+      "url": "https://www.urbanmind.net/display/f7dd981d-2f0ae6d7-e97b8ec1934e406a",
+      "platforms": [
+        "mastodon"
+      ],
+      "score": 0.725,
+      "label": "HIGH",
+      "link_ok": true,
+      "web_verified": false,
+      "sources": [
+        {
+          "platform": "mastodon",
+          "author": "hackaday@www.urbanmind.net",
+          "url": "https://www.urbanmind.net/display/f7dd981d-2f0ae6d7-e97b8ec1934e406a",
+          "text": "Hi DEV 👋 I'm a network engineer who spends a lot of my free time building things. Most of my projects start with a simple question: \"Could this work?\" Sometimes the answer is yes. Sometimes I spend ho"
+        }
+      ],
+      "web_sources": []
+    }
+  ]
+}

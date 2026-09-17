@@ -1,0 +1,139 @@
+{
+  "offline": false,
+  "elapsed_s": 189.08,
+  "items": 495,
+  "kept": 160,
+  "offers": 107,
+  "top_offers": [
+    {
+      "title": "A ChatGPT co-inventor just launched a model where output tokens are free.\n\n It is called Jev, and he",
+      "score": 0.95,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "twitter",
+        "hackernews"
+      ],
+      "url": "https://x.com/AIHighlight/status/2099949255783821689"
+    },
+    {
+      "title": "Show HN: unSnag – Display tasks you can do and graph task dependencies",
+      "score": 0.95,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://unsnag.app"
+    },
+    {
+      "title": "Show HN: Zill",
+      "score": 0.95,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://news.ycombinator.com/item?id=49730450"
+    },
+    {
+      "title": "Show HN: Freeform – One click shareable AI generated apps",
+      "score": 0.95,
+      "label": "HIGH",
+      "type": "free_tier",
+      "platforms": [
+        "hackernews",
+        "mastodon"
+      ],
+      "url": "https://sharefreeform.com"
+    },
+    {
+      "title": "Show HN: Simple self-hosted LLM assistant with user-steered compounding context",
+      "score": 0.875,
+      "label": "HIGH",
+      "type": "free_credits",
+      "platforms": [
+        "hackernews"
+      ],
+      "url": "https://github.com/kol3x/pawmc"
+    }
+  ],
+  "agents": [
+    {
+      "agent": "scout",
+      "role": "collect",
+      "status": "ok",
+      "counts": {
+        "items": 495,
+        "new_items": 495,
+        "twitter": 200,
+        "hackernews": 122,
+        "telegram": 28,
+        "mastodon": 49,
+        "rss": 45,
+        "html": 51
+      },
+      "notes": [],
+      "elapsed": 66.297
+    },
+    {
+      "agent": "triage",
+      "role": "filter",
+      "status": "ok",
+      "counts": {
+        "in": 495,
+        "kept": 160,
+        "dropped": 335
+      },
+      "notes": [],
+      "elapsed": 0.004
+    },
+    {
+      "agent": "analyst",
+      "role": "classify",
+      "status": "ok",
+      "counts": {
+        "offers": 107,
+        "from_items": 160
+      },
+      "notes": [],
+      "elapsed": 0.054
+    },
+    {
+      "agent": "verifier",
+      "role": "verify",
+      "status": "ok",
+      "counts": {
+        "live": 92,
+        "web_verified": 0,
+        "offers": 107
+      },
+      "notes": [],
+      "elapsed": 122.52
+    },
+    {
+      "agent": "curator",
+      "role": "rank",
+      "status": "ok",
+      "counts": {
+        "offers": 107,
+        "new_offers": 107
+      },
+      "notes": [],
+      "elapsed": 0.2
+    },
+    {
+      "agent": "reporter",
+      "role": "render",
+      "status": "ok",
+      "counts": {
+        "offers": 25,
+        "html": "data\\digests\\airadar_digest_1789623706.html",
+        "md": "data\\digests\\airadar_digest_1789623706.md",
+        "json": "data\\digests\\airadar_digest_1789623706.json"
+      },
+      "notes": [],
+      "elapsed": 0.0
+    }
+  ]
+}

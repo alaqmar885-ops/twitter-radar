@@ -1,0 +1,61 @@
+{
+  "query": "Google AI Studio Gemini API free tier limits 2026",
+  "results": [
+    {
+      "title": "Gemini API Free Tier 2026: 1,500 Req/Day, 1M TPM — No Card - ...",
+      "url": "https://tokenmix.ai/blog/gemini-api-free-tier-limits",
+      "description": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "snippet": "Google Gemini free tier 2026: 1,500 req/day, 1M tokens/min, Flash + Flash-Lite. No credit card, no expiration. Most generous free AI API — exact limits.",
+      "page_age": "2026-04-29T06:46:25"
+    },
+    {
+      "title": "Gemini API Free Tier Limits 2026: the Billing Trap That Deletes ...",
+      "url": "https://usagebox.com/articles/gemini-api-billing-free-tier-confusion",
+      "description": "The 2026 Gemini API free-tier limits by model (RPM, RPD, TPM) - plus the catch the docs bury: enabling billing on a project silently deletes its free tier, so every call bills from the first token.",
+      "snippet": "# Gemini API Free Tier Limits 2026: the Billing Trap That Deletes Them\n## Gemini API free tier limits in 2026\n| Model | RPM | RPD | TPM | Free tier |\n| --- | --- | --- | --- | --- |\n| Gemini 3 Flash | \\~10 | \\~1,500 | \\~250,000 | Yes |\n| Gemini 3.1 Flash-Lite | \\~15 | \\~1,000 to 1,500 | \\~250,000 | Yes |\n| Gemini 2.5 Flash | \\~10 to 15 | \\~1,500 | up to 1,000,000 | Yes |\n| Gemini 2.5 Flash-Lite | \\~15 to 30 | \\~1,000 to 1,500 | 250,000 to 1,000,000 | Yes |\n| Gemma 3 | \\~30 | \\~1,500 | up to 1,000,000 | Yes |\n| Gemini 2.5 Pro | \\~5 | \\~50 | trial-level | Trial only |",
+      "page_age": "2026-06-08T00:00:00"
+    },
+    {
+      "title": "Rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "description": "",
+      "snippet": "# Rate limits\n## How rate limits work\n### Spend-based rate limits\n| Usage tier | Spend rate limit (per 10 minutes) |\n| --- | --- |\n| Free | N/A |\n| Tier 1 | $10 |\n| Tier 2 | $50 |\n| Tier 3 | $200 |",
+      "page_age": "2026-09-02T00:00:00"
+    },
+    {
+      "title": "Gemini pricing in 2026: every model, every plan, and the thinking ...",
+      "url": "https://www.cloudzero.com/blog/gemini-pricing/",
+      "description": "Gemini API pricing ranges from $0.10 per million input tokens to $2.00 per million. Full 2026 model table, subscription plans, and costs.",
+      "snippet": "# Gemini pricing in 2026: every model, every plan, and the thinking tokens nobody budgeted for\n## What does the Gemini free tier include in 2026?\nSince April 1, 2026, Pro models are no longer available on the free tier. Only Flash and Flash-Lite models retain free access. Rate limits are 5-15 requests per minute with up to 1,000 daily requests. Your data may be used to improve Google’s products on the free tier (but not on the paid tier)",
+      "page_age": "2026-09-04T14:55:35"
+    },
+    {
+      "title": "Google AI Studio Free Tier 2026 — Free Models, Credits & Limits ...",
+      "url": "https://pricepertoken.com/endpoints/google-ai-studio/free",
+      "description": "Google AI Studio offers a no-credit-card free tier with rate-limited access to Flash-class Gemini models. As of April 2026, Pro-series models were moved to paid-only, so the free tier is now Flash / Flash-Lite.",
+      "snippet": "# Google AI Studio Free Tier\n## Free Tier Details\nFree\n\nrate-limited free access, no credits\n\nFree tier\n\n**Free Tier**: Rate-limited free usage (no dollar credits)\n**Gemini 2.5 Flash**: 10 req/min, 250 req/day\n**Gemini 2.5 Flash-Lite**: 15 req/min, 1,000 req/day\n**Credit Card Required**: No",
+      "page_age": ""
+    },
+    {
+      "title": "Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path ...",
+      "url": "https://www.aifreeapi.com/en/posts/gemini-api-free-tier-complete-guide",
+      "description": "Master Gemini API free tier in 2026: complete rate limits for all models (5-15 RPM), tier upgrade framework, real cost breakdowns, and 7 strategies to maximize your free quota after December 2025 cuts.",
+      "snippet": "# Gemini API Free Tier Complete Guide: Rate Limits, Upgrade Path & Cost-Saving Strategies (2026)\n## TL;DR\nThe Gemini API free tier currently offers three stable models with rate limits ranging from 5 to 15 requests per minute, depending on which model you choose. Here is the essential breakdown every developer needs to know before writing a single line of code",
+      "page_age": "2026-03-17T00:00:00"
+    },
+    {
+      "title": "Gemini API Rate Limits by Tier: Read Active Limits and Diagnose ...",
+      "url": "https://www.aifreeapi.com/en/posts/gemini-api-rate-limits-per-tier",
+      "description": "Understand Gemini API usage tiers without relying on stale RPM tables. Check active limits in AI Studio, identify RPM, input TPM, RPD or spend limits, and choose the right 429 response.",
+      "snippet": "# Gemini API Rate Limits by Tier: Read Active Limits and Diagnose 429s\n## Current tier qualifications and spend controls\n| Usage tier | Current qualification | Billing-account monthly cap | Rolling 10-minute spend limit |\n| --- | --- | --- | --- |\n| Free | Active project or free trial | Not applicable | Not applicable |\n| Tier 1 | Set up and link an active billing account | $250 | $10 |\n| Tier 2 | $100 paid and 3 days since the first successful payment | $2,000 | $50 |\n| Tier 3 | $1,000 paid and 30 days since the first successful payment | $20,000–$100,000+ | $200 |",
+      "page_age": "2026-09-12T00:00:00"
+    },
+    {
+      "title": "Google Gemini API Free Tier 2026: Complete Limits Guide + 429 Error ...",
+      "url": "https://yingtu.ai/en/blog/google-gemini-api-free-tier",
+      "description": "Complete guide to Google Gemini API free tier in 2026. Learn exact RPM/TPM/RPD limits for Flash and Flash-Lite models, handle 429 errors with production-ready code, and compare free vs paid tiers with real cost analysis.",
+      "snippet": "# Google Gemini API Free Tier 2026: Complete Limits Guide + 429 Error Solutions\n**Key Numbers for January 2026**: Gemini 2.5 Flash free tier provides 10 RPM (requests per minute), 250,000 TPM (tokens per minute), and 250 RPD (requests per day). Flash-Lite offers higher limits at 30 RPM and 1,000 RPD, making it the better choice for most free tier users",
+      "page_age": "2026-07-10T00:00:00"
+    }
+  ]
+}

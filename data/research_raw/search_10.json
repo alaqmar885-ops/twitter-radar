@@ -1,0 +1,61 @@
+{
+  "query": "RSSHub routes instagram youtube reddit threads available instances",
+  "results": [
+    {
+      "title": "Deploy RSSHub",
+      "url": "https://railway.com/deploy/deploy-rsshub",
+      "description": "Deploy RSSHub | Convert any website to RSS to the cloud for free with Railway, the all-in-one intelligent cloud provider. 1-Click Deploy RSSHub - Self-Hosted RSS Feeds for YouTube, GitHub & More",
+      "snippet": "# Deploy and Host RSSHub\n## Common Use Cases\n- **Content aggregation** — pull YouTube channels, newsletters, and blogs into a single RSS reader (Feedly, NetNewsWire, Miniflux)\n- **Developer monitoring** — track GitHub releases, PyPI package updates, or Hacker News mentions of your project\n- **Media monitoring** — follow brand mentions and competitor activity across Reddit, Twitter/X, and forums without platform accounts\n- **Privacy-first social following** — subscribe to public social feeds without handing engagement data to the platform",
+      "page_age": "2026-03-09T18:06:03"
+    },
+    {
+      "title": "Deploy & Host RSSHub",
+      "url": "https://railway.com/deploy/rsshub-convert-any-website-to-rss--deploy-rsshub",
+      "description": "Deploy and host RSSHub | Convert any website to RSS on Railway in one click — always-on servers, built-in databases, and GitHub auto-deploys. 1-Click Deploy RSSHub - Self-Hosted RSS Feeds for YouTube, GitHub & More",
+      "snippet": "# Deploy RSSHub \\| Convert any website to RSS\n## Deploy and Host RSSHub\n### Getting Started with RSSHub After Deploying\n```\nhttps://your-app.railway.app/youtube/channel/UCxxxxxxxxxxxxxxxxxxxxxx\n```\n\n4. **Paste into your RSS reader** — drop that URL into Feedly, NetNewsWire, Miniflux, or any RSS client\n5. **Install RSSHub Radar** — the browser extension auto-detects available RSSHub routes on any page you visit, making discovery instant",
+      "page_age": "2026-03-09T00:00:00"
+    },
+    {
+      "title": "Deploy RSSHub — Turn Any Website Into an RSS Feed",
+      "url": "https://railway.com/deploy/rsshub-rss-generator",
+      "description": "Deploy RSSHub — Turn Any Website Into an RSS Feed to the cloud for free with Railway, the all-in-one intelligent cloud provider. Self-host RSSHub: turn any site into RSS. No rate limits.",
+      "snippet": "# Deploy and Host RSSHub on Railway\nRSSHub RSS feed generator\n\nRSSHub is the open-source RSS feed generator with **41k+ GitHub stars** that makes everything RSSible — turn YouTube channels, Reddit threads, Telegram groups, Twitter/X accounts, GitHub releases, Bilibili, Weibo, and 1,000+ other sources into clean RSS feeds, even when the site dropped native RSS years ago. Maintained by DIYgod and 800+ contributors, with new routes added constantly and a companion browser extension (RSSHub Radar) that detects feeds on any page",
+      "page_age": "2026-07-08T12:00:02"
+    },
+    {
+      "title": "Deploy & Host RSSHub — Turn Any Website Into an RSS Feed",
+      "url": "https://railway.com/deploy/rsshub-turn-any-website-into-an-rss-feed--rsshub-rss-generator",
+      "description": "Deploy and host RSSHub — Turn Any Website Into an RSS Feed on Railway in one click — always-on servers, built-in databases, and GitHub auto-deploys. Self-host RSSHub: turn any site into RSS. No rate limits.",
+      "snippet": "# Deploy and Host RSSHub on Railway\n## Deploy in Under 3 Minutes\n2. REDIS\\_URL and CACHE\\_TYPE=redis are pre-wired between the services\n3. Open your Railway URL — you'll see the RSSHub homepage with a searchable route list\n4. Build a feed URL: your domain + a route, e.g. /youtube/user/@channelname or /telegram/channel/name",
+      "page_age": "2026-07-08T00:00:00"
+    },
+    {
+      "title": "RSSHub: The Revolutionary RSS Generator Every Developer Needs - ...",
+      "url": "https://www.blog.brightcoding.dev/2026/02/10/rsshub-the-revolutionary-rss-generator-every-developer-needs",
+      "description": "Discover RSSHub, the revolutionary open-source RSS generator with 5,000+ instances. Learn installation, custom routes, and real code examples to transform any website into a feed. Complete technical guide.",
+      "snippet": "Discover RSSHub, the revolutionary open-source RSS generator with 5,000+ instances. Learn installation, custom routes, and real code examples to transform any website into a feed.",
+      "page_age": "2026-06-07T19:27:27"
+    },
+    {
+      "title": "r/rss on Reddit: I replaced my Twitter and Instagram accounts with ...",
+      "url": "https://www.reddit.com/r/rss/comments/9xeki7/i_replaced_my_twitter_and_instagram_accounts_with/",
+      "description": "true",
+      "snippet": "# I replaced my Twitter and Instagram accounts with RSSHub\n```\nhttps://rsshub.app/instagram/user/username   \n(I also did youtube channels because why not)   \nhttps://rsshub.app/youtube/user/username   \nhttps://rsshub.app/youtube/channel/channel-id```    \n*this site works with many other services, just check the docs for anything you might be interested in*\n\nTo preface, the only reason I use Instagram or Twitter is to follow the internet personalities I'm interested in. I had no reason to post anything, I was there for the updates. Though as a result of having an account for just updates, my twitter had hundreds of inferred interests of mine and I had to deactivate ~300 advertisers manually. Instagram, being owned by Facebook, is definitely doing the same thing except with 100% less end user control. If I'm not  even really taking part, then why do I have to consent to all this garbage???     \nI'm making this in case anyone else has been looking for a solution to a similar problem.\n\nA few days ago I found the RSSHub Docs and was a bit suprised to see something new claiming to work with Instagram and Twitter. Then it actually *did* work. I added all the accounts I actually cared about to a text file, then used some replace magic to add the preceding links to make them feeds.\n\nI imported all the resulting links into [Flym](https://f-droid.org/app/net.frju.flym), and grouped them according to 'creed'. Now these updates I wanted from different places and different accounts all appear, organized in a single app. \n\nAnd the best part: I don't even need an account with these companies anymore. I don't need to consent to anything just to see that my dude said he's gonna stream soon or whatever.\n\nTLDR: Visit the first link below, export your subscriptions, find an RSS reader that you like, and group your feeds.\n\n[RSSHub Website/Documentation](https://docs.rsshub.app/en#twitter)   \n[RSSHub Repo](https://github.com/DIYgod/RSSHub)    \n*Disclaimers: The creator speaks and makes commits in Chinese.   \nThe Twitter RSS doesn't currenty support seeing replies or whats being retweeted, but it probably could with the right minds working on it*\n\nI am in no way affiliated with RSSHub, nor its creators/supporters.\n```",
+      "page_age": "2018-11-15T19:48:11"
+    },
+    {
+      "title": "Welcome to RSSHub!",
+      "url": "https://rsshub.rssforever.com/",
+      "description": "",
+      "snippet": "# Welcome to RSSHub!\nHot Routes: 498897 /telegram/channel/:username/:routeParams? 57690 /twitter/user/:id/:routeParams? 27960 /api/route/status 14633 /36kr/:category/:subCategory?/:keyword? 7277 /bilibili/user/video/:uid/:embed? 5999 /cls/telegraph/:category? 5887 /weibo/user/:uid/:routeParams? 5790 /jin10/:important?",
+      "page_age": "2025-11-07T11:47:36"
+    },
+    {
+      "title": "social-media",
+      "url": "https://rsshub.netlify.app/routes/social-media",
+      "description": "Bilibili",
+      "snippet": "# social-media\n## Bilibili\n### 分区视频\n广告\n\n广告\n166\n\n资讯\n\n| 热点 | 环球 | 社会 | 综合 |\n| --- | --- | --- | --- |\n| 203 | 204 | 205 | 206 |\n\n娱乐\n\n| 综艺 | 明星 | Korea 相关 |\n| --- | --- | --- |\n| 71 | 137 | 131 |\n\n影视",
+      "page_age": "2024-03-17T00:00:00"
+    }
+  ]
+}

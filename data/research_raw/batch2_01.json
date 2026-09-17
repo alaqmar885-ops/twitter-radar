@@ -1,0 +1,61 @@
+{
+  "query": "Mistral La Plateforme free tier API key limits",
+  "results": [
+    {
+      "title": "Is Mistral AI Free? Free Tier Limits & When to Upgrade (2026)",
+      "url": "https://costbench.com/software/llm-api-providers/mistral-ai/free-plan/",
+      "description": "Mistral AI's free tier on La Plateforme provides rate-limited API access to all models including Mistral Small, Mistral Medium, and Mistral Large, with ...",
+      "snippet": "Mistral AI's free tier on La Plateforme provides rate-limited API access to all models including Mistral Small, Mistral Medium, and Mistral Large, with ...",
+      "page_age": "2026-07-27T00:00:00"
+    },
+    {
+      "title": "Ultimate Guide to Access, Models & Pricing - Mistral AI API",
+      "url": "https://iamistral.com/api/",
+      "description": "Unlock Mistral AI's powerful LLMs! This 2025 guide covers API key access, all models (Large, Codestral, Small), latest pricing, endpoints & SDKs.",
+      "snippet": "# Mistral AI API\n## Decoding Mistral AI API Pricing (Updated 2025): Tiers & Token Costs\n**Data Point (Illustrative – always check official site for current limits):** The free tier typically provides generous limits, such as approximately 1 request per second (RPS), 500,000 tokens per minute, and up to 1 billion tokens per month, applicable to select models like open-mistral-7b or open-mixtral-8x7b. **Verify current limits directly on La Plateforme.**",
+      "page_age": "2025-05-16T15:27:36"
+    },
+    {
+      "title": "Mistral Free API 2026: La Plateforme Limits, Models & Setup",
+      "url": "https://yangmao.ai/en/providers/mistral/free-api/",
+      "description": "Mistral free API guide: La Plateforme free-tier snapshot, 1 RPM limit note, OpenAI-compatible setup, European open-model positioning, China access, and alternatives.",
+      "snippet": "Mistral free API guide: La Plateforme free-tier snapshot, 1 RPM limit note, OpenAI-compatible setup, European open-model positioning, China access, and alternatives",
+      "page_age": ""
+    },
+    {
+      "title": "Mistral AI Free Credits 2026: API Pricing and Free Tier",
+      "url": "https://www.getaiperks.com/en/blogs/21-mistral-free-credits",
+      "description": "Mistral AI offers a free experiment tier plus up to $30K in startup credits. Compare pricing and get free AI credits through AI Perks.",
+      "snippet": "# Mistral AI Free Credits 2026: API Pricing and Free Tier\nMistral AI offers a free experiment tier plus up to $30K in startup credits.\nAndrew",
+      "page_age": "2026-02-09T00:00:00"
+    },
+    {
+      "title": "r/MistralAI on Reddit: Mistral API quota and rate limits pools ...",
+      "url": "https://www.reddit.com/r/MistralAI/comments/1rc8rwf/mistral_api_quota_and_rate_limits_pools_analysis/",
+      "description": "46 votes, 16 comments. The goal of research is to map which models share quota pools and rate limits on the Mistral Free Tier, and document the…",
+      "snippet": "# Mistral API quota and rate limits pools analysis for Free Tier plan (20.02.2026)\n**Important note:** On the Mistral Free Tier, there is a global rate limit of **1 request per second** per API key, applicable to all models regardless of per-minute quotas.\n---\n\n\\## Methodology\n\nA single curl request to `https://api.mistral.ai/v1/chat/completions` with a minimal payload (`max_tokens=3`) returns rate-limit headers.",
+      "page_age": "2026-02-23T05:25:23"
+    },
+    {
+      "title": "Every Free AI API in 2026: The Complete Guide to Zero-Cost Inference ...",
+      "url": "https://awesomeagents.ai/tools/free-ai-inference-providers-2026/",
+      "description": "A comprehensive comparison of 20+ free AI inference providers - from Google AI Studio and Groq to OpenRouter and Cerebras. Rate limits, model access, quotas, and how to get started.",
+      "snippet": "# Every Free AI API in 2026: The Complete Guide to Zero-Cost Inference\n## Tier 1: Truly Free - No Credit Card, No Expiry\n### Mistral AI\nMistral offers a free \"Experiment\" tier on their La Plateforme API that includes access to all Mistral models: Large, Small, Codestral, Pixtral 12B, and even their embedding and OCR models. The rate limits on the free tier are restrictive at 2 requests per minute, but you get 1 billion tokens per month, and the model quality is excellent",
+      "page_age": "2026-04-08T11:38:29"
+    },
+    {
+      "title": "Mistral La Plateforme - Free LLM API Resources",
+      "url": "https://mintlify.wiki/cheahjs/free-llm-api-resources/providers/free/mistral-plateforme",
+      "description": "Free tier access to Mistral AI models with generous token limits",
+      "snippet": "## Rate Limits\nRate limits are applied per-model, not shared across models.\n\n| Limit Type | Free Tier (Per Model) |\n| --- | --- |\n| Requests per second | 1 |\n| Tokens per minute | 500,000 |\n| Tokens per month | 1,000,000,000 |",
+      "page_age": "2026-03-06T08:51:42"
+    },
+    {
+      "title": "Mistral AI Free Tier 2026 — Free Models, Credits & Limits",
+      "url": "https://pricepertoken.com/endpoints/mistral/free",
+      "description": "Mistral La Plateforme offers a free Experiment tier with rate-limited access to all API models (including Mistral Large and Codestral) at $0, with roughly a 1-billion-token-per-month cap.",
+      "snippet": "Mistral La Plateforme offers a free Experiment tier with rate-limited access to all API models (including Mistral Large and Codestral) at $0, with roughly a 1-billion-token-per-month cap. It is for evaluation, not production.",
+      "page_age": ""
+    }
+  ]
+}

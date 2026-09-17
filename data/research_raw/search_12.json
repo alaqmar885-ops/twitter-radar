@@ -1,0 +1,61 @@
+{
+  "query": "theresanaiforthat Futurepedia new AI tools feed RSS",
+  "results": [
+    {
+      "title": "AI Tools Scraper",
+      "url": "https://apify.com/scrapesage/futurepedia-scraper/api/javascript",
+      "description": "Learn how to interact with Futurepedia Scraper - AI Tools, Ratings, Pricing & Leads API in JavaScript. Includes an example JavaScript code snippet to he...",
+      "snippet": "# Futurepedia Scraper - AI Tools, Ratings, Pricing & Leads\n## You might also like\n### AI Tools Directory Scraper - Trending AI Tools + Maker Emails\nalexdany/ai-tools-launch-radar\n\nScrape a live, ranked feed of trending & newly-launched AI tools with categories, tags, ratings, launch dates, plus optional maker-email enrichment for AI startup leads. Pay-per-result from $3/1K, sourced from TheresAnAIForThat (TAAFT).\nAlex\n2",
+      "page_age": "2026-09-03T06:29:26"
+    },
+    {
+      "title": "Feed rss - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/feed+rss/",
+      "description": "Browse 22 Feed rss AIs. Includes tasks such as Newsletters, Email management, Productivity, News summaries and Podcasts.",
+      "snippet": "Browse 22 Feed rss AIs. Includes tasks such as Newsletters, Email management, Productivity, News summaries and Podcasts.",
+      "page_age": ""
+    },
+    {
+      "title": "AI Tools Scraper",
+      "url": "https://apify.com/scrapesage/futurepedia-scraper",
+      "description": "Scrape the Futurepedia AI tools directory: ratings, pricing tiers, categories, websites & socials. Monitor new AI tool launches or export B2B leads.",
+      "snippet": "# Futurepedia Scraper — AI Tools, Ratings, Pricing & Leads\n## How to use\n1. Sign up for Apify — the free plan is enough to try this actor.\n2. Open the **Futurepedia Scraper**, enter search keywords or categories (or leave empty to grab the newest tools), and click **Start**.\n3. Watch results stream into the dataset table.\n4. **Export** as JSON, CSV, Excel, XML, or RSS — or pull results programmatically via the Apify API",
+      "page_age": "2026-09-03T06:29:26"
+    },
+    {
+      "title": "Rss - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss/",
+      "description": "Browse 40 Rss AIs. Includes tasks such as Newsletters, Websites, Global news summaries, Customer calls analysis and Summaries.",
+      "snippet": "Browse 40 Rss AIs. Includes tasks such as Newsletters, Websites, Global news summaries, Customer calls analysis and Summaries",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feed - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feed/",
+      "description": "Browse 17 Rss feed AIs. Includes tasks such as Newsletters, News, Email management, Social media posts and Productivity.",
+      "snippet": "Browse 17 Rss feed AIs. Includes tasks such as Newsletters, News, Email management, Social media posts and Productivity.",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feeds - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feeds/",
+      "description": "Browse 17 Rss feeds AIs. Includes tasks such as Global news summaries, Customer calls analysis, Apps, Newsletters and Email management.",
+      "snippet": "Browse 17 Rss feeds AIs. Includes tasks such as Global news summaries, Customer calls analysis, Apps, Newsletters and Email management",
+      "page_age": ""
+    },
+    {
+      "title": "Provide an rss feed and get a brief summary - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/provide+an+rss+feed+and+get+a+brief+summary/",
+      "description": "Browse 11 Provide an rss feed and get a brief summary AIs. Includes tasks such as Book summaries, Newsletters, Summaries, Global news summaries and Reading.",
+      "snippet": "Browse 11 Provide an rss feed and get a brief summary AIs. Includes tasks such as Book summaries, Newsletters, Summaries, Global news summaries and Reading.",
+      "page_age": ""
+    },
+    {
+      "title": "Rss feed integration - There's An AI For That®",
+      "url": "https://theresanaiforthat.com/s/rss+feed+integration/",
+      "description": "Browse 18 Rss feed integration AIs. Includes tasks such as Social media posts, Newsletters, Social media, Podcast summaries and Content.",
+      "snippet": "Browse 18 Rss feed integration AIs. Includes tasks such as Social media posts, Newsletters, Social media, Podcast summaries and Content.",
+      "page_age": ""
+    }
+  ]
+}

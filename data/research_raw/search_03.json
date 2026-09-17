@@ -1,0 +1,61 @@
+{
+  "query": "instaloader public profile scraping without login rate limit 429",
+  "results": [
+    {
+      "title": "Instaloader ... Beware, current version seems to be at odds with ...",
+      "url": "https://www.reddit.com/r/DataHoarder/comments/kpmdbo/instaloader_beware_current_version_seems_to_be_at/",
+      "description": "21 votes, 13 comments. 958K subscribers in the DataHoarder community. This is a sub that aims at bringing data hoarders together to share their…",
+      "snippet": "# Instaloader ... Beware, current version seems to be at odds with apparently updated Instagram filters, bot detectors etc\n## superjet1\nI hit the same 429 issue, literally on first API call, Instagram is just crazy strict now on ip ranges. The only way to fix it (for public accounts, this what I was interested in) was using custom proxified instaloader fork https://github.com/restyler/instaloader which uses residential proxies network. It's paid for real volumes, but it gets work done and works fine and stable for my use case",
+      "page_age": "2021-01-04T06:18:34"
+    },
+    {
+      "title": "The 6 Best Open-Source Instagram Scrapers (GitHub, 2026)",
+      "url": "https://scrapfly.io/blog/posts/best-open-source-instagram-scrapers",
+      "description": "Compare the 6 best open-source Instagram scrapers in 2026. Ranked by job, auth model, account-ban risk, and maintenance status with working code.",
+      "snippet": "# 6 Best Open-Source Instagram Scrapers in 2026\n## Which Open-Source Instagram Scraper Should You Use?\n- Download public profile media -> **Instaloader**\n- Production reliability with no account-ban risk -> **Scrapfly instagram-scraper**\n- Full automation in Python (posts, stories, DMs, comments) -> **instagrapi**\n- No-login CLI for users, hashtags, locations -> **instagram-scraper (drawrowfly)**, dormant since 2022",
+      "page_age": "2026-08-11T17:09:43"
+    },
+    {
+      "title": "Instaloader 429 Error: Real Problems I Hit and How I Fixed Them",
+      "url": "https://pnt.jacbex.com/instaloader-429-errors.html",
+      "description": "Real problems with Instaloader 429 errors, rate limiting, and getting blocked. What actually works: proxies, delays, session management, and when to just give up.",
+      "snippet": "## Problem 1: 429 Error After a Few Requests\n### What Actually Worked\nAfter much testing, I found the combination that works:\n\n```\nimport instaloader\nimport time\nimport random\n\nL = instaloader.Instaloader()\n\n# Load session if exists\ntry:\n    L.load_session_from_file('your_username', 'session_file')\nexcept:\n    pass\n\n# Add delay between requests\nL.context.quiet = True\n\ndef download_with_delay(profile):\n    try:\n        # Random delay 3-8 seconds\n        time.sleep(random.uniform(3, 8))\n\n        # Download with metadata only (faster, less API calls)\n        profile = instaloader.Profile.from_username(L.context, profile)\n\n        # Download posts one by one with longer delays\n        for post in profile.get_posts():\n            time.sleep(random.uniform(5, 10))\n            L.download_post(post, target=profile.username)\n\n            # Stop after 50 posts to avoid hitting limits\n            if post.shortcode == list(profile.get_posts())[49].shortcode:\n                break\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n        # Wait longer on error\n        time.sleep(60)\n```",
+      "page_age": ""
+    },
+    {
+      "title": "Instaloader Notes: Download Instagram Photos Without Login",
+      "url": "https://pnt.jacbex.com/instaloader.html",
+      "description": "Notes on using Instaloader to download Instagram photos and videos. Covers login issues, 429 errors, rate limiting, and using proxies.",
+      "snippet": "## Why Instaloader?\nNeeded to download some Instagram photos for a project. Looked around and found Instaloader - a Python tool that can download photos, videos, and stories from Instagram.\n\nThe nice thing is you don't necessarily need to log in. Works fine for public profiles. For private profiles you'll need credentials, but then you run into rate limiting pretty quickly.",
+      "page_age": ""
+    },
+    {
+      "title": "InstaLoader - Bellingcat's Online Investigation Toolkit - GitBook",
+      "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/instaloader",
+      "description": "Download pictures or videos (with metadata) from Instagram.",
+      "snippet": "# InstaLoader\n## Requirements\n### Access Requirements\n- **Anonymous Access**: Some public profile and single-post downloads may work without logging in, but hashtag and location targets require login, and Instagram may still rate-limit or block anonymous access.\n- **Logged-In Access**: To scrape private profiles or retrieve user-specific data (e.g., user feed, saved posts), you must log in with valid Instagram credentials. Instaloader stores a session file to avoid repeated logins",
+      "page_age": "2026-06-30T00:00:00"
+    },
+    {
+      "title": "429 Too Many Requests on web_profile_info · Issue #2726 · ...",
+      "url": "https://github.com/instaloader/instaloader/issues/2726",
+      "description": "Describe the bug Profile.from_username() returns a 429 Too Many Requests on the very first request to api/v1/users/web_profile_info/, with no prior requests made in the session. This is reproducible: On a completely fresh, valid session ...",
+      "snippet": "# 429 Too Many Requests on web\\_profile\\_info #2726\n## Description\n**Describe the bug** Profile.from_username() returns a 429 Too Many Requests on the very first request to api/v1/users/web_profile_info/, with no prior requests made in the session.",
+      "page_age": "2026-08-07T01:35:35"
+    },
+    {
+      "title": "toolkit/gitbook/tools/instaloader/README.md at main · belling...",
+      "url": "https://github.com/bellingcat/toolkit/blob/main/gitbook/tools/instaloader/README.md",
+      "description": "Contribute to bellingcat/toolkit development by creating an account on GitHub.",
+      "snippet": "# InstaLoader\n## Limitations\n- Using proxies or VPNs may result in stricter rate limits for anonymous scraping.\n3. Instagram does **not publicly disclose** the exact thresholds for the web endpoints, so the limits can change without notice. Based on user experiences, the thresholds have become **much stricter in recent years**. For example, one user noted that previously, you could make on the order of *~200 requests per minute* without issues. Current anecdotal ceiling is closer to **1–2 requests / 30s** for unauthenticated scrapes; thresholds vary by endpoint and change frequently.",
+      "page_age": ""
+    },
+    {
+      "title": "Troubleshooting — Instaloader documentation",
+      "url": "https://instaloader.github.io/troubleshooting.html",
+      "description": "",
+      "snippet": "# Troubleshooting\n## 429 Too Many Requests\nThe latter one implies that restarting or reinstantiating Instaloader often within short time is prone to cause a 429.\n\nSince the behavior of the rate controller might change between different versions of Instaloader, make sure to use the current version of Instaloader, especially when encountering many 429 errors",
+      "page_age": ""
+    }
+  ]
+}

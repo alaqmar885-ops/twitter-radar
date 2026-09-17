@@ -1,0 +1,61 @@
+{
+  "query": "GitHub Models free tier API playground",
+  "results": [
+    {
+      "title": "GitHub Models API Pricing, Free Credits, and OpenAI-Compatible Setup ...",
+      "url": "https://yangmao.ai/en/providers/github-models/api-pricing/",
+      "description": "GitHub Models API free credits, pricing notes, rate limits, OpenAI SDK compatibility, relay options, and lower-cost alternatives.",
+      "snippet": "# GitHub Models API Pricing and Free Trial\n## Quick verdict\n- Free tier: Free playground and limited API requests are available for signed-in GitHub users; model-specific quota and rate limits can change\n- Free API trial: Free GitHub Models quota for signed-in GitHub accounts; paid Azure AI / provider routes may be required for production\n- Access: relay or proxy may be needed\n- Best for: llm / api / coding / router / openai-compatible",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Open Source Alternatives, Local Models, and Free ...",
+      "url": "https://yangmao.ai/en/providers/github-models/open-source-alternative/",
+      "description": "Compare open-source alternatives to GitHub Models, local deployment options, free models, API compatibility, and cost tradeoffs.",
+      "snippet": "# GitHub Models Open Source Alternatives\n## Alternatives\n**llama.cpp** MIT open-source; unlimited local use subject to hardware **LocalAI** MIT open-source, zero API cost when self-hosted. **Qwen (Alibaba)** 70M DashScope/Bailian signup tokens; RPM/TPM, expiry, and model access vary by account **Google AI (Gemini)** Gemini free tier unlimited **Baseten** Free trial / startup credits may be available; quota depends on account and sales approval **RunPod** Account promotions and community credits vary; paid GPU/serverless usage is the default **GitHub",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Free Tier: Current Limits and Change History",
+      "url": "https://getaitools.dev/service/github-models",
+      "description": "What GitHub Models gives you for free, hand-verified: High-tier models 50 req/day (10/min), mini models 150 req/day; 8K tokens in / 4K out per request",
+      "snippet": "# GitHub Models\n## Current free tier\n**What's free**: Playground and API access to GPT, Llama and more with any GitHub account.\n**Limits**: High-tier models 50 req/day (10/min), mini models 150 req/day; 8K tokens in / 4K out per request\n**The catch**: Prototyping only: per-request token caps are tight and concurrency is 2.",
+      "page_age": "2026-07-02T00:00:00"
+    },
+    {
+      "title": "GitHub Models Free Tier, Signup Credits, and Limits — yangmao.ai",
+      "url": "https://yangmao.ai/en/providers/github-models/free-tier/",
+      "description": "Check GitHub Models free tier, signup credits, model limits, free API access, Mainland China accessibility, and alternatives. Updated by yangmao.ai.",
+      "snippet": "# GitHub Models Free Tier Guide\n## Free API credits\n**Yes**\n\nFree GitHub Models quota for signed-in GitHub accounts; paid Azure AI / provider routes may be required for production · Model, account, and preview quota dependent; verify current GitHub Models limits before automation\n\nGitHub Models provides a model playground, API-key testing, and OpenAI SDK-compatible examples; the free path is best for developer smoke tests, not production SLA assumptions",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub Models Guide 2025: Try & Compare AI Models in GitHub — ...",
+      "url": "https://prismix.dev/guides/github-models-guide",
+      "description": "GitHub Models guide 2025 — what it is (Azure AI-backed model marketplace in GitHub), available models (GPT-4o, o3-mini, Llama 3, Mistral, Phi-4, Cohere, Gemma), playground UI, rate limits (15 req/min free tier), Python SDK quickstart with ...",
+      "snippet": "GitHub Models guide 2025 — what it is (Azure AI-backed model marketplace in GitHub), available models (GPT-4o, o3-mini, Llama 3, Mistral, Phi-4, Cohere, Gemma), playground UI, rate limits (15 req/min free tier), Python SDK quickstart with GitHub token as API key, switching to Azure production endpoint, GitHub Models vs Copilot vs Azure OpenAI comparison.\n\nGitHub LLM API 8 min read",
+      "page_age": ""
+    },
+    {
+      "title": "GitHub - open-free-llm-api/awesome-freellm-apis: 134+ free LLM ...",
+      "url": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+      "description": "134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex. - open-free-llm-api/awesome-freellm-apis",
+      "snippet": "# awesome-free-llm-apis\n## Provider Directory\n### ⚡ Permanent Free Tiers\n| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |\n| --- | --- | --- | --- | --- | --- |\n| NVIDIA NIM | 131 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | → |\n| ModelScope | 59 | Registration | 1M | audio, image, reasoning, text, video, vision | → |\n| Cloudflare Workers AI | 40 | No | 262K | code, image, reasoning, text, video | → |\n| Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | → |\n| LLM7.io | 19 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | → |\n| Ollama Cloud | 17 | Registration | 1M | code, image, reasoning, text, video, vision | → |\n| GitHub Models | 16 | No | 1M | image, pdf, reasoning, text | → |\n| Mistral AI | 15 | No | 256K | code, image, text | → |\n| Kilo Code | 15 | No | 1M | audio, code, image, reasoning, text, video | → |\n| OVHcloud AI Endpoints | 14 | Registration | 262K | audio, code, image, reasoning, text, video | → |\n| OpenCode Zen | 13 | Registration | 1M | audio, reasoning, vision | → |\n| Groq | 12 | No | 262K | image, reasoning, text | → |\n| Cohere | 12 | No | 256K | image, text | → |\n| Aion Labs | 11 | Registration | 131K | text | → |\n| Z AI (Zhipu AI) | 8 | No | 200K | image, reasoning, text, video | → |\n| Hugging Face | 8 | No | 131K | code, image, text | → |\n| Cerebras | 6 | No | 131K | reasoning, text | → |\n| Agnes AI | 5 | Registration | 256K | image, reasoning, text, video, vision | → |\n| Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | → |\n| Cline | 5 | Registration | 0 | text | → |\n| SambaNova | 4 | Registration | 128K | image, reasoning, text | → |\n| SiliconFlow | 3 | Registration | 131K | text | → |\n| xAI | 3 | Registration | 2M | text | → |\n| Chutes.ai | 2 | Registration | 131K | reasoning, text | → |\n| Glhf.chat | 2 | Registration | 131K | text | → |\n| Grok (xAI) | 2 | Registration | 131K | text | → |\n| AI21 Labs | 2 | Registration | 256K | text | → |\n| DeepSeek | 2 | Registration | 128K | text | → |\n| Nscale | 2 | Registration | 128K | text | → |\n| Nebius | 1 | Registration | 128K | text | → |",
+      "page_age": "2026-09-15T02:08:24"
+    },
+    {
+      "title": "Free LLM API & Free AI API Directory 2026 — Verified Models, ...",
+      "url": "https://free-model.com/",
+      "description": "Browse 147+ verified free LLM APIs. Live API tested — not just copied from READMEs. No credit card. One-click config for Claude Code, Cursor, and any OpenAI-compatible tool.",
+      "snippet": "# Free AI APIs & Free LLM Models — No Credit Card. One-Click Config for Claude Code, Codex, Gemini, OpenClaw & Hermes.\n## Frequently Asked Questions — Free LLM APIs\n### Is there a free GPT API?\nYes. **Groq** and **Cerebras** host openai/gpt-oss-120b and gpt-oss-20b for free with no credit card. **GitHub Models** provides free access to GPT-5, GPT-4.1, GPT-4o, and o4-mini (rate limits tied",
+      "page_age": ""
+    },
+    {
+      "title": "11 AI Free Tiers Compared: Limits and Catches (2026)",
+      "url": "https://pecollective.com/blog/ai-free-tiers-compared/",
+      "description": "Compare AI free tiers for developers, including OpenAI credits, Hugging Face inference limits, Gemini, Copilot, vector databases, and more.",
+      "snippet": "# AI Free Tiers Compared for Developer Prototypes\n## Master Free Tier Comparison Table\n| Tool | What's Free | Key Limits | First Paid Tier |\n| --- | --- | --- | --- |\n| Pinecone | Starter plan with 2 GB storage | Limited namespaces, 1 project, no hybrid search | Standard from $50/mo |\n| Weaviate Cloud | 1 sandbox cluster | Limited collections, sandbox expires after 14 days idle, no production SLA | Standard from $25/mo |\n| Replit | Basic editor and hosting | Limited AI features, no always-on, limited compute | Core from $20/mo |\n| Windsurf | 50 completions/day, limited Chat | Daily completion cap, restricted model access, no priority queue | Pro from $15/mo |\n| GitHub Models | Rate-limited model access | Low requests per minute, limited token throughput, playground only | Pay-as-you-go from $0 |\n| GitHub Copilot | Free tier with 2,000 completions/mo | Monthly completion cap, limited chat messages, no CLI access | Pro from $10/mo |\n| Cohere | 1,000 API calls/mo | Rate limited, no production use allowed, limited model selection | Production from $0 (pay-as-you-go) |\n| Hugging Face | Free inference API (rate limited) | Shared GPU queue, timeout on large models, cold starts | Pro from $9/mo |\n| OpenAI API | $5 free credits for new accounts | Credits expire after 3 months, rate limits on free tier, limited models | Pay-as-you-go (no minimum) |\n| Anthropic API | No free tier | Pay-as-you-go only, $5 minimum credit purchase | Pay-as-you-go from $5 |\n| Google AI Studio | Free Gemini API access | Rate limits (15 RPM on free tier), limited to specific models | Pay-as-you-go from $0 |\n| Felo | Product access | Usage limits vary | n/a |\n| CreateOS | Product access | Usage limits vary | n/a |\n| Viggle | Product access | Usage limits vary | n/a |",
+      "page_age": "2026-09-02T00:00:00"
+    }
+  ]
+}

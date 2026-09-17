@@ -1,0 +1,61 @@
+{
+  "query": "Reddit subreddit .rss feed alternative when json blocked",
+  "results": [
+    {
+      "title": "r/rss on Reddit: feed43 is no longer supported. I'd be happy to ...",
+      "url": "https://www.reddit.com/r/rss/comments/xv6y8d/feed43_is_no_longer_supported_id_be_happy_to_pay/",
+      "description": "21 votes, 51 comments. (Please understand if my English is weird.)I'm not a developer. However, I use the no-code service well. I understand the…",
+      "snippet": "# feed43 is no longer supported. I'd be happy to pay if someone made this for me. I have an idea for an RSS feed generator.\nfeed43 developer doesn't respond at all. The service is just neglected. And the certificate expires today, causing problems in IFTTT or Zapier.",
+      "page_age": "2022-10-06T06:37:03"
+    },
+    {
+      "title": "Reddit RSS feeds recent rate limiting and solution",
+      "url": "https://lapcatsoftware.com/articles/2026/6/3.html",
+      "description": "",
+      "snippet": "# Reddit RSS feeds recent rate limiting and solution\n### June 12 2026\n**Deprecating unauthenticated JSON access**: We’ll also be shutting down unauthenticated .json endpoints. These endpoints can be used to scrape Reddit without accountability. Logged-in and authenticated access won’t be impacted. Otherwise, developers who need structured access to Reddit content should use Devvit, which includes various ways to access Reddit data",
+      "page_age": "2026-06-12T00:00:00"
+    },
+    {
+      "title": "r/redditdev on Reddit: Is there an officially sanctioned way to ...",
+      "url": "https://www.reddit.com/r/redditdev/comments/1ts4j3r/is_there_an_officially_sanctioned_way_to_access/",
+      "description": "31 votes, 15 comments. A few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library…",
+      "snippet": "# Is there an officially sanctioned way to access Reddit's JSON feeds now?\nA few years ago, I set up a multireddit and started polling a url /m/rss/.json?limit=100 using the Python Requests library:\n\n> json_feed = requests.get(url, headers = {'User-agent': 'Friendly RSS Bot'})",
+      "page_age": "2026-05-30T16:31:02"
+    },
+    {
+      "title": "r/feedly on Reddit: How do I get reddit RSS without connecting ...",
+      "url": "https://www.reddit.com/r/feedly/comments/13x40yh/how_do_i_get_reddit_rss_without_connecting_account/",
+      "description": "I know subreddits have RSS feeds, how do I use those without connecting an account?",
+      "snippet": "# How do I get reddit RSS without connecting account?\n## markzzy\nNot sure what the other poster is talking about, but Reddit already provides RSS feeds for subreddits. Just add `.rss` to the end of the subreddit.\n\n Example: https://www.reddit.com/r/feedly.rss",
+      "page_age": "2023-06-01T01:06:48"
+    },
+    {
+      "title": "r/rss on Reddit: I built a better RSS feed for Reddit",
+      "url": "https://www.reddit.com/r/rss/comments/fvg3ed/i_built_a_better_rss_feed_for_reddit/",
+      "description": "90 votes, 23 comments. I have been getting into Feedly pro lately and tried to subscribe to some of the Reddit feeds. I discovered they weren't…",
+      "snippet": "# I built a better RSS feed for Reddit\n1. Go to a subreddit or meta feed you like example: https://www.reddit.com/r/Android/\n2. Add .json onto the end: https://www.reddit.com/r/Android.json\n3. Change the domain name to, reddit.0qz.fun like: https://reddit.0qz.fun/r/android.json\n4. Subscribe to ^^^ that url in your favorite feed reader",
+      "page_age": "2020-04-05T16:03:45"
+    },
+    {
+      "title": "r/rss on Reddit: Many RSS readers are failing on Reddit feeds lately.",
+      "url": "https://www.reddit.com/r/rss/comments/1uhnax3/many_rss_readers_are_failing_on_reddit_feeds/",
+      "description": "19 votes, 13 comments. If your reader recently started showing errors on Reddit (failed to fetch, 403, or just empty feeds), you are not alone. A lot…",
+      "snippet": "# Many RSS readers are failing on Reddit feeds lately. Here is a fix that worked for me\nBut the plain .rss feed links still work fine:\n\n* a subreddit: https://www.reddit.com/r/rss/.rss\n* a specific user: https://www.reddit.com/user//submitted.rss\n\n* a post's comments: https://www.reddit.com/r/rss/comments//.rss",
+      "page_age": "2026-06-28T04:18:08"
+    },
+    {
+      "title": "Reddit RSS - DEV Community",
+      "url": "https://dev.to/trashhalo/reddit-rss-44a0",
+      "description": "A tiny project I have been maintaining since April 2020 is an alternative rss feed for Reddit called... Tagged with showdev, go, rss.",
+      "snippet": "A tiny project I have been maintaining since April 2020 is an alternative rss feed for Reddit called...",
+      "page_age": "2020-11-09T16:20:48"
+    },
+    {
+      "title": "r/RedReader on Reddit: Alternative way to view reddit after the ...",
+      "url": "https://www.reddit.com/r/RedReader/comments/13ja54w/alternative_way_to_view_reddit_after_the_apis/",
+      "description": "It's not the best experience and it's read only, but if you want, you can turn any subreddit into an rss feed by adding \".rss\" at the end of the url.",
+      "snippet": "# Alternative way to view reddit after the api's death: RSS feeds\nIt's not the best experience and it's read only, but if you want, you can turn any subreddit into an rss feed by adding \".rss\" at the end of the url.\nBest\nBest\nTop\nNew\nOld",
+      "page_age": "2023-05-16T16:35:01"
+    }
+  ]
+}

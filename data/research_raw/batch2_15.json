@@ -1,0 +1,61 @@
+{
+  "query": "LinkedIn public company posts scraping without login 2026 status",
+  "results": [
+    {
+      "title": "LinkedIn Posts Scraper · Apify",
+      "url": "https://apify.com/artificially/linkedin-posts-scraper",
+      "description": "Search and scrape LinkedIn posts without login, cookies, or authentication. Find posts by keywords, profiles, companies, or hashtags.",
+      "snippet": "# LinkedIn Posts Scraper - No Login Required\n## Key Features\n- **No Login Required** - Works without LinkedIn credentials\n- **No Cookies Needed** - Uses public company pages only\n- **Rich Data** - Post text, timestamps, engagement metrics\n- **Bulk Scraping** - Process multiple companies at once",
+      "page_age": "2026-01-23T12:15:09"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper - $0.90/1k, No Login · Apify",
+      "url": "https://apify.com/dami_studio/linkedin-company-posts-scraper",
+      "description": "Scrape public posts from any LinkedIn company page: post text, reactions, comments and URLs. No login or cookies. $0.90 per 1,000 posts.",
+      "snippet": "Scrape public posts from any LinkedIn company page: post text, reactions, comments and URLs. No login or cookies. $0.90 per 1,000 posts.",
+      "page_age": "2026-09-05T04:28:53"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper",
+      "url": "https://apify.com/generous_fog/linkedin-company-posts-scraper",
+      "description": "Scrape public LinkedIn company posts without login. Extract full text, dates, reactions, comments, media, company data, filters, and quality-scored API ...",
+      "snippet": "# LinkedIn Company Posts Scraper & Content Monitor\nExtract structured public LinkedIn company posts without a LinkedIn login or customer cookies. The Actor discovers publicly indexed company post URLs, verifies the company author, and enriches each result from its public LinkedIn post page",
+      "page_age": "2026-09-08T06:46:11"
+    },
+    {
+      "title": "LinkedIn Company Posts Scraper for AI Agents · Apify",
+      "url": "https://apify.com/khadinakbar/linkedin-company-posts-scraper",
+      "description": "Scrape public LinkedIn company posts without cookies. Export post text, URLs, dates, engagement counts, company profile fields and provider source. $0.0...",
+      "snippet": "# LinkedIn Company Posts Scraper\nScrape public posts from LinkedIn company pages without asking users for LinkedIn cookies.\n\nThis actor uses managed social-data APIs:\n\n- Primary: ScrapeCreators /v1/linkedin/company/posts\n- Secondary: SociaVault /v1/scrape/linkedin/company and /v1/scrape/linkedin/post",
+      "page_age": "2026-09-10T13:13:20"
+    },
+    {
+      "title": "Is Scraping LinkedIn Legal? Yes, With 3 Caveats (2026)",
+      "url": "https://linkedrent.com/is-scraping-linkedin-legal-saas/",
+      "description": "Is scraping LinkedIn legal? Yes for public data after hiQ v. LinkedIn, but the User Agreement, GDPR, and CCPA still bite. The honest 2026 compliance posture.",
+      "snippet": "Is scraping LinkedIn legal? Yes for public data after hiQ v. LinkedIn, but the User Agreement, GDPR, and CCPA still bite.",
+      "page_age": "2026-07-17T15:18:58"
+    },
+    {
+      "title": "Is LinkedIn Scraping Dead in 2026? Here's What Still Works",
+      "url": "https://generect.com/blog/linkedin-scraping/",
+      "description": "LinkedIn scraping in 2026: what is legal, what gets accounts banned, and the safer APIs, exports, and enrichment workflows that still work.",
+      "snippet": "# Is LinkedIn Scraping Dead in 2026? Here’s What Still Works\n**Last updated: July 2026.** Short answer: LinkedIn scraping is not technically dead, but authenticated automation, fake accounts, and attempts to bypass access controls carry the highest account and legal risk. The durable 2026 options are first-party exports, approved APIs, public-data providers with clear provenance, and human-reviewed enrichment workflows",
+      "page_age": "2026-07-21T05:09:29"
+    },
+    {
+      "title": "Scrape LinkedIn Company Posts with Engagement — No Login API ...",
+      "url": "https://apify.com/northbell/linkedin-company-posts-scraper/api",
+      "description": "Learn how to interact with LinkedIn Company Posts + Engagement (No Cookies) via API. Includes an example code snippet for your convenience.",
+      "snippet": "# LinkedIn Company Posts + Engagement (No Cookies)\nTry for free\n\nScrape a company's LinkedIn posts with exact reaction and comment counts — plus the posting date, which the public page does not show. Run it again and you get how fast each post is still gaining. No login, no cookies.\nRating",
+      "page_age": "2026-09-05T12:45:15"
+    },
+    {
+      "title": "How to Scrape LinkedIn in 2026: Profiles, Jobs, Companies",
+      "url": "https://fullscraper.com/en/blog/how-to-scrape-linkedin",
+      "description": "Scrape LinkedIn profiles, jobs, and companies the right way. Public endpoints, Python code, anti-detection tactics, and the hiQ v. LinkedIn legal ground.",
+      "snippet": "# How to Scrape LinkedIn in 2026: Profiles, Jobs, Companies\n## Is scraping LinkedIn legal in 2026?\n**hiQ Labs v. LinkedIn (9th Circuit, 2022)** — The court ruled that scraping publicly accessible data is not a violation of the CFAA. \"Without authorization\" in the CFAA applies to bypassing technical access barriers (passwords, authentication), not to reading pages anyone can open",
+      "page_age": "2026-04-18T00:00:00"
+    }
+  ]
+}
