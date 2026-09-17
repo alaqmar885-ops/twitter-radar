@@ -141,6 +141,30 @@ def cmd_status(cfg):
     return 0
 
 
+def _load_secrets(path: str = "secrets.env") -> None:
+    """Load KEY=VALUE pairs from secrets.env into the environment (no override).
+
+    AGENTS.md section 10 documents secrets.env as the place all keys live; this
+    makes `python run_radar.py run` pick up YDC_API_KEY without extra shell setup.
+    """
+    import os
+    sp = Path(path)
+    if not sp.exists():
+        return
+    try:
+        for line in sp.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k = k.strip()
+            v = v.strip().strip('"').strip("'")
+            if k and k not in os.environ:
+                os.environ[k] = v
+    except Exception as exc:  # noqa: BLE001
+        logging.getLogger("airadar").debug("secrets.env not loaded: %s", exc)
+
+
 def main():
     ap = argparse.ArgumentParser(description="AIOfferRadar - multi-platform free-AI-offer radar")
     ap.add_argument("command", choices=["sources", "run", "report", "status"])
@@ -154,6 +178,7 @@ def main():
         import os
         os.chdir(cfg_path.parent)
 
+    _load_secrets()
     cfg = load_ai_config(args.config)
 
     if args.command == "sources":

@@ -32,7 +32,15 @@ VALUE_PATTERNS = [
 ]
 
 STOP = {"the", "a", "an", "is", "are", "for", "with", "and", "get", "now", "new",
-        "free", "this", "that", "from", "your", "you", "our", "our", "all"}
+        "free", "this", "that", "from", "your", "you", "our", "all", "how", "why",
+        "what", "when", "we", "i", "my", "it", "to", "of", "in", "on", "at"}
+
+# Words that must never become a product/cluster key - they are section prefixes
+# ("Show HN:", "Ask HN:") or generic filler, and they cause unrelated posts to
+# be merged into one Offer.
+GENERIC = {"show", "ask", "tell", "hn", "showhn", "show hn", "ask hn", "introducing",
+           "launch", "launching", "announcing", "free", "ai", "new", "update",
+           "weekly", "daily", "news", "tool", "app", "model", "release"}
 
 
 class OfferClassifier:
@@ -71,15 +79,32 @@ class OfferClassifier:
         return ""
 
     def _product(self, it) -> str:
-        blob = f"{it.title} {it.text}"
-        m = re.search(r"\b([A-Z][A-Za-z0-9]+(?:\s+[A-Z][A-Za-z0-9]+)?)\s+(?:is|now|free|offers?|gives?|has)\b", blob)
+        """Best-effort product/entity name.
+
+        Returns "" when there is no trustworthy signal, so the caller falls back
+        to the URL/host as the cluster key (never a generic word like "Show").
+        """
+        title = (it.title or "").strip()
+        # 1) "Show HN: Foo ..." / "Ask HN: Foo" -> Foo
+        m = re.match(r"^(?:show|ask|tell)\s+hn\s*[:\-]\s*(.+)$", title, re.I)
         if m:
-            return m.group(1).strip()
-        for cand in re.findall(r"\b[A-Z][A-Za-z0-9]{2,}\b", it.title + " " + it.text[:160]):
-            if cand.lower() not in STOP:
+            rest = m.group(1).strip()
+            token = re.split(r"[\s\u2013\u2014\-:|,(]+", rest)[0].strip()
+            if token and token.lower() not in GENERIC and token.lower() not in STOP:
+                return token
+        # 2) "<Name> is/now/offers/gives <something>" (needs a real proper noun)
+        blob = f"{title} {it.text[:200]}"
+        m = re.search(r"\b([A-Z][A-Za-z0-9]{2,}(?:\s+[A-Z][A-Za-z0-9]{2,})?)\s+"
+                      r"(?:is|now|free|offers?|gives?|has|launches?)\b", blob)
+        if m:
+            cand = m.group(1).strip()
+            if cand.lower() not in GENERIC and cand.lower() not in STOP:
                 return cand
-        words = [w for w in (it.title or it.text).split() if w.lower() not in STOP]
-        return " ".join(words[:3])
+        # 3) tool names with a known suffix (e.g. "-ai", ".ai", "GPT", "LLM")
+        m = re.search(r"\b([A-Za-z0-9][A-Za-z0-9._-]{2,20}(?:ai|gpt|llm|bot|lab|dev)\b)", title, re.I)
+        if m and m.group(1).lower() not in GENERIC:
+            return m.group(1)
+        return ""
 
     def classify(self, it) -> dict | None:
         if not self.is_offer(it):
