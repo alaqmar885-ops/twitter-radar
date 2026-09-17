@@ -886,3 +886,29 @@ docs/research/04_free_ai_offer_sources.md
 (twitter 200, hackernews 122, html 51, mastodon 49, rss 45, telegram 28) ->
 **160 offer-like** -> **107 offers** (HIGH 81 / MEDIUM 26), **92 offer links
 verified live**. Digest written to `data/digests/`.
+
+### 20.6 Verification (refine + verify each finding)
+
+`python run_radar.py verify [--limit N]` runs a second pass over every stored
+finding (`airadar/verify.py` + `airadar/refine.py`):
+
+1. **Refine** - strip "Show HN:"/"Ask HN:" prefixes, collapse whitespace, re-extract
+   product / offer type / value / promo code.
+2. **Fetch** the offer URL (browser UA, follow redirects) and record the HTTP status.
+3. **Scan the destination page** for *specific* offer signals. Evidence rules:
+   - `VERIFIED` - a specific signal is present (free tier / free plan / free trial /
+     start free / try free / free credits / free forever / always free / no credit
+     card / free access). The bare word "free" is NOT sufficient.
+   - `PARTIAL` - only medium signals (pricing, trial, discount, credits).
+   - `WEAK` - only the bare word "free"/"off".
+   - `NOT_AN_OFFER` - page has no offer signal at all (a false positive).
+   - `UNREACHABLE` / `NO_URL` - link dead or missing.
+4. **Web corroboration** via the You.com MCP (`you-search`) on product/title;
+   counts are recorded as supporting evidence, not as proof.
+
+Results are stored in the `verifications` table plus a `verdict` column on
+`offers`, and rendered to `data/verified/verified_*.{json,md,html}`.
+
+Live result (2026-09-17, 145 findings): 62 VERIFIED, 12 PARTIAL, 40 WEAK,
+31 NOT_AN_OFFER - i.e. roughly half of the raw classifier output was noise,
+which is why the verification pass exists.
